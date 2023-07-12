@@ -1,18 +1,14 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>2. Messaging API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL Websocket Client Library"><link rel="up" href="ws.api.html" title="Chapter 3. C API"><link rel="prev" href="ws.api.html" title="Chapter 3. C API"><link rel="next" href="ws.index.html" title="Index"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">2. Messaging API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.api.html">Prev</a> </td><th width="60%" align="center">Chapter 3. C API</th><td width="20%" align="right"> <a accesskey="n" href="ws.index.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ws.api.ws"></a>2. Messaging API</h2></div></div></div><p>The Messaging API is built on top of the WebSockets API. While WebSockets
-provide a mechanism for real-time bidirectional communication, it doesn't
-inherently offer things like you would see in more heavyweight message protocols
-like AMQP. The Messaging API provides a small step in that direction, but
-without the heft. It mainly provides a more structured message format with
-built-in serialization. The message structure includes two maps (hashtables of
-string key/value pairs) and a payload. One map, called
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>2. Message API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL Websocket Client Library"><link rel="up" href="ws.api.html" title="Chapter 3. C API"><link rel="prev" href="ws.api.html" title="Chapter 3. C API"><link rel="next" href="ws.index.html" title="Index"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">2. Message API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.api.html">Prev</a> </td><th width="60%" align="center">Chapter 3. C API</th><td width="20%" align="right"> <a accesskey="n" href="ws.index.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ws.api.ws"></a>2. Message API</h2></div></div></div><p>The message structure operates with a higher-level connection API which
+works atop the native WebSocket API. It mainly provides a more structured
+message format with built-in serialization. The message structure includes two
+maps (hashtables of string key/value pairs) and a payload. One map, called
 <code class="varname">routing</code>, is designed to hold routing information for
 messaging applications. The other map, called <code class="varname">headers</code>, is for
-application use. The payload can hold both text and binary data.</p><p>The message structure operates with a higher-level connection API which
-works atop the native WebSocket API. The connection API mainly adds support to
-send and receive the messages, automatically handling serialization and
-deserialization on and off the wire. It really just boils down to
-<code class="function">send()</code> and <code class="function">receive()</code> calls which
-operate with these messages.</p><p>Messages can be serialized in two formats: JSON and MessagePack. Both
+application use. The payload can hold both text and binary data.</p><p>The associated connection API is really just two functions:
+<code class="function">vrtql_msg_send()</code> and
+<code class="function">vrtql_msg_receive()</code> calls which operate with these
+messages. They send and receive the messages, automatically handling
+serialization and deserialization on and off the wire.</p><p>Messages can be serialized in two formats: JSON and MessagePack. Both
 formats can be sent over the same connection on a message-by-message basis. That
 is, the connection is able to auto-detect each incoming message's format and
 deserialize accordingly. Thus connections support mixed-content messages: JSON
