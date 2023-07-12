@@ -84,7 +84,28 @@ directory you specified above. This is where OpenSSL will install to.
 Now within the <code class="filename">websockets</code> project. Modify the
 <code class="varname">CMAKE_FIND_ROOT_PATH</code> in the
 <code class="filename">config/windows-toolchain.cmake</code> file to point to where you
-installed OpenSSL. In this example it would be
+installed OpenSSL. The line to modify is shown in bold below:
+
+</p><pre class="programlisting">
+set(CMAKE_SYSTEM_NAME Windows)
+set(TOOLCHAIN_PREFIX x86_64-w64-mingw32)
+
+# cross compilers to use for C, C++
+set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}-g++)
+set(CMAKE_Fortran_COMPILER ${TOOLCHAIN_PREFIX}-gfortran)
+set(CMAKE_RC_COMPILER ${TOOLCHAIN_PREFIX}-windres)
+
+# Set to where you have it installed
+<strong xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook">set(CMAKE_FIND_ROOT_PATH "/home/bubba/mingw/openssl")</strong>
+
+# modify default behavior of FIND_XXX() commands
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+</pre><p>
+
+In this example it would be
 <code class="filename">~/mingw/openssl</code> (you might want to use full path). Then
 invoke CMake as follows:
 
