@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='781' type='void SSL_CTX_set_next_proto_select_cb(SSL_CTX * s, SSL_CTX_npn_select_cb_func cb, void * arg)'/>

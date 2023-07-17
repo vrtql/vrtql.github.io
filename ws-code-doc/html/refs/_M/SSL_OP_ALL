@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='405'/>
+<doc f='include/openssl/ssl.h' l='400'>/*
+ * SSL_OP_ALL: various bug workarounds that should be rather harmless.
+ * This used to be 0x000FFFFFL before 0.9.7.
+ * This used to be 0x80000BFFU before 1.1.1.
+ */</doc>

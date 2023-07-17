@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/http_parser.h' l='224' type='4'/>
+<use f='codebrowser/src/http_parser.c' l='1750' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1804' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1838' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2299' u='r' c='http_should_keep_alive'/>

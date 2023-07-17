@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='835' type='void mpack_complete_map(struct mpack_writer_t * writer)'/>
+<use f='codebrowser/src/message.c' l='104' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='114' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='830'>/**
+ * Completes a map being built.
+ *
+ * @see mpack_build_map()
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1819' ll='1821' type='void mpack_complete_map(mpack_writer_t * writer)'/>

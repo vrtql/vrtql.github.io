@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1013' type='_Bool mg_file_printf(struct mg_fs * fs, const char * path, const char * fmt)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='65' ll='75' macro='1' type='_Bool mg_file_printf(struct mg_fs * fs, const char * path, const char * fmt)'/>

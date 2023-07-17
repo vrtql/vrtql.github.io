@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/vrtql.h' l='303' type='char *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/vrtql.h' l='303'>/**&lt; The path on the host               */</doc>
+<use f='codebrowser/src/vrtql.c' l='882' u='w' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='886' u='r' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='887' u='r' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='891' u='r' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='909' u='w' c='vrtql_url_new'/>
+<use f='codebrowser/src/vrtql.c' l='936' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='938' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='939' u='w' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='975' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='977' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1013' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1015' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/websocket.c' l='387' u='r' c='socket_handshake'/>

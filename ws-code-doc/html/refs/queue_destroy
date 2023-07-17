@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.c' l='486' type='void queue_destroy(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='1060' u='c' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1061' u='c' c='svr_shutdown'/>
+<def f='codebrowser/src/server.c' l='1196' ll='1208' type='void queue_destroy(vrtql_svr_queue * queue)'/>
+<doc f='codebrowser/src/server.c' l='476'>/**
+ * @brief Destroys a server queue.
+ *
+ * This function cleans up the resources associated with the provided queue.
+ * It also handles the synchronization mechanisms associated with the queue.
+ *
+ * @param queue Pointer to the server queue to be destroyed.
+ *
+ * @ingroup QueueGroup
+ */</doc>

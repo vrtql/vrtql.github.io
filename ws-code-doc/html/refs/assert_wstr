@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/ctest.h' l='183' type='void assert_wstr(const char * cmp, const wchar_t * exp, const wchar_t * real, const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='362' ll='369' type='void assert_wstr(const char * cmp, const wchar_t * exp, const wchar_t * real, const char * caller, int line)'/>

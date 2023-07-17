@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1897' type='yyjson_val * yyjson_obj_iter_next(yyjson_obj_iter * iter)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5094' ll='5102' macro='1' type='yyjson_val * yyjson_obj_iter_next(yyjson_obj_iter * iter)'/>
+<use f='codebrowser/src/message.c' l='319' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='338' u='c' c='vrtql_msg_deserialize'/>

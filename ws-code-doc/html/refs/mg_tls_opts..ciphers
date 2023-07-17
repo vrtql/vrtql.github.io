@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1341' type='const char *'/>
+<offset>256</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1341'>// Cipher list</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='93' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='93' u='r' c='mg_tls_init'/>

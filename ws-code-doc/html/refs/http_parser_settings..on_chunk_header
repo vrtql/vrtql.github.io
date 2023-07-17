@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/http_parser.h' l='347' type='http_cb'/>
+<use f='codebrowser/src/http_parser.c' l='2143' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2143' macro='1' u='r' c='http_parser_execute'/>
+<offset>512</offset>
+<doc f='codebrowser/src/http_parser.h' l='344'>/* When on_chunk_header is called, the current chunk length is stored
+   * in parser-&gt;content_length.
+   */</doc>

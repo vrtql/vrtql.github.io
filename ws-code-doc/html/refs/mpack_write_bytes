@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='1022' type='void mpack_write_bytes(mpack_writer_t * writer, const char * data, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='1000'>/**
+ * Writes a portion of bytes for a string, binary blob or extension type which
+ * was opened by mpack_write_tag() or one of the mpack_start_*() functions.
+ *
+ * This can be called multiple times to write the data in chunks, as long as
+ * the total amount of bytes written matches the count given when the compound
+ * type was started.
+ *
+ * The corresponding mpack_finish_*() function must be called when done.
+ *
+ * To write an entire string, binary blob or extension type at
+ * once, use one of the mpack_write_*() functions instead.
+ *
+ * @see mpack_write_tag()
+ * @see mpack_start_str()
+ * @see mpack_start_bin()
+ * @see mpack_start_ext()
+ * @see mpack_finish_str()
+ * @see mpack_finish_bin()
+ * @see mpack_finish_ext()
+ * @see mpack_finish_type()
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1306' u='c' c='mpack_write_bin'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1319' ll='1323' type='void mpack_write_bytes(mpack_writer_t * writer, const char * data, size_t count)'/>

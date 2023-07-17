@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1297' type='int mg_http_parse(const char * s, size_t len, struct mg_http_message * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='223' ll='288' type='int mg_http_parse(const char * s, size_t len, struct mg_http_message * hm)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1021' u='c' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='153' u='c' c='mg_ws_client_handshake'/>

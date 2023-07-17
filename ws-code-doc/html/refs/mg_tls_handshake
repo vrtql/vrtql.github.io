@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1351' type='void mg_tls_handshake(struct mg_connection * )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='309' u='c' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='648' u='c' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='106' u='c' c='mg_tls_init'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='115' ll='128' type='void mg_tls_handshake(struct mg_connection * c)'/>

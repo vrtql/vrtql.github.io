@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='619' type='void mpack_write_bool(mpack_writer_t * writer, _Bool value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='618'>/** Writes a boolean. */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='600' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='648' ll='650' type='void mpack_write_bool(mpack_writer_t * writer, _Bool value)'/>

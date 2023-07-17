@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1071' type='struct mg_str mg_url_host(const char * url)'/>
+<use f='codebrowser/src/test/client.c' l='15' u='c' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='258' u='c' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' u='c' c='mg_open_listener'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='42' ll='49' type='struct mg_str mg_url_host(const char * url)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='241' u='c' c='mg_ws_connect'/>

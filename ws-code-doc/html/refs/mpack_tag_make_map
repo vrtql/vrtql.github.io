@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='382' ll='387' macro='1' type='mpack_tag_t mpack_tag_make_map(uint32_t count)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='812' u='c' c='mpack_tag_map'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='666' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='892' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='899' u='c' c='mpack_parse_tag'/>

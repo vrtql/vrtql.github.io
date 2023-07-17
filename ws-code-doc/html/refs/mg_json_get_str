@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1586' type='char * mg_json_get_str(struct mg_str json, const char * path)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='261' ll='273' type='char * mg_json_get_str(struct mg_str json, const char * path)'/>

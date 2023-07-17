@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1083' type='size_t'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1083'>// Alignment during allocation</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='20' u='r' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='w' c='mg_iobuf_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' u='w' c='mg_alloc_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' u='w' c='mg_alloc_conn'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/websocket.h' l='112' type='vrtql_buffer * vws_serialize(vws_frame * f)'/>
+<doc f='codebrowser/src/websocket.h' l='103'>/**
+ * @brief Serializes a vws_frame into a buffer that can be sent over the
+ *        network.
+ *
+ * @param f The vws_frame to serialize.
+ * @return A pointer to the serialized buffer.
+ *
+ * @ingroup FrameFunctions
+ */</doc>
+<use f='codebrowser/src/server.c' l='1563' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/websocket.c' l='515' u='c' c='vws_send_frame'/>
+<def f='codebrowser/src/websocket.c' l='661' ll='779' type='vrtql_buffer * vws_serialize(vws_frame * f)'/>
+<use f='codebrowser/src/websocket.c' l='1144' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1153' u='c' c='vws_generate_pong_frame'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='468'/>
+<doc f='include/openssl/ssl.h' l='465'>/*
+ * Never bother the application with retries if the transport is blocking:
+ */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1173' type='struct mg_connection *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1173'>// List of active connections</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' u='a' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' u='a' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' u='a' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='a' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='a' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='202' u='a' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='202' u='a' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='222' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='402' u='a' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='402' u='a' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='513' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='629' u='r' c='mg_mgr_poll'/>

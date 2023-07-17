@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='495'/>
+<doc f='include/openssl/ssl.h' l='492'>/*
+ * Support Asynchronous operation
+ */</doc>

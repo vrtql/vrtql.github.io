@@ -1,0 +1,11 @@
+<dec f='include/openssl/bio.h' l='734'/>
+<use f='include/openssl/bio.h' l='742' u='w'/>
+<dec f='include/openssl/bio.h' l='743'/>
+<use f='include/openssl/bio.h' l='752' u='c'/>
+<use f='include/openssl/bio.h' l='754' u='c'/>
+<use f='include/openssl/bio.h' l='756' u='c'/>
+<use f='include/openssl/bio.h' l='758' u='c'/>
+<use f='include/openssl/bio.h' l='759' u='w'/>
+<doc f='include/openssl/bio.h' l='730'>/*
+ * long BIO_ghbn_ctrl(int cmd,int iarg,char *parg);
+ */</doc>

@@ -1,0 +1,26 @@
+<dec f='include/string.h' l='139' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
+<doc f='include/string.h' l='138'>/* Compare N characters of S1 and S2.  */</doc>
+<use f='codebrowser/src/test/ctest.h' l='476' u='c' c='suite_filter'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='96' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='69' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='87' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='c' c='is_dir_prefix'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='176' u='c' c='mg_json_get'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='183' u='c' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='191' u='c' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34' u='c' c='mg_vcmp'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='c' c='mg_url_is_ssl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='c' c='mg_url_is_ssl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='10' u='c' c='mg_url_is_ssl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='10' u='c' c='mg_url_is_ssl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='11' u='c' c='mg_url_is_ssl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='59' u='c' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='59' u='c' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='60' u='c' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='60' u='c' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='62' u='c' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='63' u='c' c='mg_url_port'/>

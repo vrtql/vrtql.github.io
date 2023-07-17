@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/ctest.h' l='66' type='const char *'/>
+<use f='codebrowser/src/test/ctest.h' l='476' u='r' c='suite_filter'/>
+<use f='codebrowser/src/test/ctest.h' l='558' u='r' c='ctest_main'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/ctest.h' l='66'>// suite name</doc>

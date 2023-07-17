@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='907' type='size_t mg_print_hex(void (*)(char, void *) out, void * arg, va_list * ap)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='163' ll='173' type='size_t mg_print_hex(void (*)(char, void *) out, void * arg, va_list * ap)'/>

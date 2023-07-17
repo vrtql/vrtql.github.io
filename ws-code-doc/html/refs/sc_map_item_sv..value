@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/util/sc_map.h' l='53' type='void *'/>
+<offset>64</offset>
+<use f='codebrowser/src/rpc.c' l='72' macro='1' u='r' c='vrtql_rpc_module_free'/>
+<use f='codebrowser/src/rpc.c' l='112' macro='1' u='r' c='vrtql_rpc_system_free'/>
+<use f='codebrowser/src/util/sc_map.c' l='51' u='w' c='sc_map_assign_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='232' u='w' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='250' u='r' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='265' u='r' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='281' u='r' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='313' u='r' c='sc_map_del_sv'/>

@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1081' type='size_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1081'>// Total size available</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' u='r' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='91' u='r' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' u='r' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='428' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='429' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='430' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22' u='r' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' u='w' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='26' u='r' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33' u='r' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='w' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='r' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='w' c='mg_iobuf_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' u='r' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='r' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='30' u='r' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33' u='r' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='264' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='269' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='272' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='273' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='283' u='r' c='write_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='284' u='r' c='write_conn'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='928' type='void mpack_write_utf8_cstr_or_nil(mpack_writer_t * writer, const char * cstr)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='915'>/**
+ * Writes a null-terminated string ensuring that it is valid UTF-8, or
+ * writes nil if the given cstr pointer is NULL. (The null-terminator
+ * is not written.)
+ *
+ * This does not accept any UTF-8 variant such as Modified UTF-8, CESU-8 or
+ * WTF-8. Only pure UTF-8 is allowed.
+ *
+ * You should not call mpack_finish_str() after calling this; this
+ * performs both start and finish.
+ *
+ * @throws mpack_error_invalid if the string is not valid UTF-8
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1359' ll='1364' type='void mpack_write_utf8_cstr_or_nil(mpack_writer_t * writer, const char * cstr)'/>

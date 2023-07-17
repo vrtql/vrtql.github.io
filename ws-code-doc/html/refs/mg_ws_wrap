@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1407' type='size_t mg_ws_wrap(struct mg_connection * , size_t len, int op)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_ws_vprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='285' ll='297' type='size_t mg_ws_wrap(struct mg_connection * c, size_t len, int op)'/>

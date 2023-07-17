@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='694' type='const yyjson_read_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='692'>/** Read all numbers as raw strings (value with `YYJSON_TYPE_RAW` type),
+    inf/nan literal is also read as raw with `ALLOW_INF_AND_NAN` flag. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5513' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5660' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6050' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6706' u='r' c='yyjson_read_number'/>

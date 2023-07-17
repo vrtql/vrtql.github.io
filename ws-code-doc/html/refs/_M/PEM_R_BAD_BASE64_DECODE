@@ -1,0 +1,4 @@
+<dec f='include/openssl/pemerr.h' l='72'/>
+<doc f='include/openssl/pemerr.h' l='69'>/*
+ * PEM reason codes.
+ */</doc>

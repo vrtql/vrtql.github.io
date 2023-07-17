@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1169' type='_Bool'/>
+<offset>144</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='124' u='w' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='129' u='w' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='w' c='mg_atonl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='w' c='mg_atone'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' u='w' c='mg_aton4'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='75' u='w' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='113' u='w' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='105' u='r' c='mg_print_ip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='w' c='tomgaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='217' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='334' u='r' c='mg_connect_resolved'/>

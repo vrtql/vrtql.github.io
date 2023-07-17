@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='589' ll='591' macro='1' type='void mpack_write_uint(mpack_writer_t * writer, uint64_t value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='602' u='c' c='mpack_write_tag'/>

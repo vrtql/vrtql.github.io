@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='489' type='uint32_t yyjson_version()'/>
+<def f='codebrowser/src/util/yyjson.c' l='47' ll='49' type='uint32_t yyjson_version()'/>
+<doc f='codebrowser/src/util/yyjson.c' l='43'>/*==============================================================================
+ * Version
+ *============================================================================*/</doc>

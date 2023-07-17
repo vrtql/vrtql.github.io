@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/ctest.h' l='214' type='void assert_null(void * real, const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='441' ll='445' type='void assert_null(void * real, const char * caller, int line)'/>

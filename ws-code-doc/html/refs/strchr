@@ -1,0 +1,7 @@
+<dec f='include/string.h' l='225' type='char * strchr(const char * __s, int __c)'/>
+<use f='codebrowser/src/rpc.c' l='147' u='c' c='parse_rpc_string'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='c' c='packed_list'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' u='c' c='skip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='skip'/>
+<use f='codebrowser/src/vrtql.c' l='776' u='c' c='vrtql_url_extract_port'/>
+<use f='codebrowser/src/websocket.c' l='983' u='c' c='extract_websocket_accept_key'/>

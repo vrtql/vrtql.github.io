@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1208' type='unsigned int'/>
+<offset>1664</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1208'>// Listening connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='182' u='w' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='643' u='r' c='mg_mgr_poll'/>

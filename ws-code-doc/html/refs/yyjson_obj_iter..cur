@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1858' type='yyjson_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5076' u='w' c='yyjson_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5096' u='r' c='yyjson_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5098' u='w' c='yyjson_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5119' u='r' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5128' u='w' c='yyjson_obj_iter_getn'/>
+<offset>128</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='1858'>/**&lt; next key */</doc>

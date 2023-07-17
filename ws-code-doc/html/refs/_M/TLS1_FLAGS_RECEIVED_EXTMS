@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl3.h' l='289'/>
+<doc f='include/openssl/ssl3.h' l='288'>/* Set if extended master secret extension received from peer */</doc>

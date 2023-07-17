@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='271' type='void mpack_writer_init_error(mpack_writer_t * writer, mpack_error_t error)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='267'>/**
+ * Initializes an MPack writer directly into an error state. Use this if you
+ * are writing a wrapper to mpack_writer_init() which can fail its setup.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='139' ll='145' type='void mpack_writer_init_error(mpack_writer_t * writer, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='293' u='c' c='mpack_writer_init_growable'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='335' u='c' c='mpack_writer_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='355' u='c' c='mpack_writer_init_filename'/>

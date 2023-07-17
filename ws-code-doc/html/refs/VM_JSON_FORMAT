@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/message.h' l='9' type='1'/>
+<use f='codebrowser/src/message.c' l='143' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='369' u='r' c='vrtql_msg_deserialize'/>

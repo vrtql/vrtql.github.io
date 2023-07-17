@@ -1,0 +1,6 @@
+<def f='include/netinet/tcp.h' l='89' ll='152'/>
+<size>20</size>
+<doc f='include/netinet/tcp.h' l='85'>/*
+ * TCP header.
+ * Per RFC 793, September, 1981.
+ */</doc>

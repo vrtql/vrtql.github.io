@@ -1,0 +1,10 @@
+<dec f='include/openssl/ct.h' l='386' type='int i2o_SCT(const SCT * sct, unsigned char ** out)'/>
+<doc f='include/openssl/ct.h' l='377'>/*
+ * Serialize (to TLS format) an |sct| and write it to |out|.
+ * If |out| is null, no SCT will be output but the length will still be returned.
+ * If |out| points to a null pointer, a string will be allocated to hold the
+ * TLS-format SCT. It is the responsibility of the caller to free it.
+ * If |out| points to an allocated string, the TLS-format SCT will be written
+ * to it.
+ * The length of the SCT in TLS format will be returned.
+ */</doc>

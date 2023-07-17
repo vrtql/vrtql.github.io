@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1553' type='int SSL_get_verify_depth(const SSL * s)'/>

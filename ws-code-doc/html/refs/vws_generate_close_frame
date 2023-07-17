@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/websocket.h' l='137' type='vrtql_buffer * vws_generate_close_frame()'/>
+<doc f='codebrowser/src/websocket.h' l='130'>/**
+ * @brief Generates a close frame for a WebSocket connection.
+ *
+ * @return A pointer to the generated close frame.
+ *
+ * @ingroup FrameFunctions
+ */</doc>
+<use f='codebrowser/src/server.c' l='1276' u='c' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/websocket.c' l='467' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='894' u='c' c='process_frame'/>
+<def f='codebrowser/src/websocket.c' l='1133' ll='1145' type='vrtql_buffer * vws_generate_close_frame()'/>

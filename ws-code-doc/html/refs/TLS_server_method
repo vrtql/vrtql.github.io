@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1873' type='const SSL_METHOD * TLS_server_method()'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44' macro='1' u='c' c='mg_tls_init'/>

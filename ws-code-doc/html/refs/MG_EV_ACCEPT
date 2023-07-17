@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1136' type='5'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1136'>// Connection accepted          NULL</doc>
+<use f='codebrowser/src/test/server.c' l='17' u='r' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='417' u='r' c='accept_conn'/>

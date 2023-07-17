@@ -1,0 +1,6 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='210' ll='213' macro='1' type='void mpack_writer_track_pop(mpack_writer_t * writer, mpack_type_t type)'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='743' u='c' c='mpack_finish_array'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='759' u='c' c='mpack_finish_map'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='1036' u='c' c='mpack_finish_str'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='1051' u='c' c='mpack_finish_bin'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='1083' u='c' c='mpack_finish_type'/>

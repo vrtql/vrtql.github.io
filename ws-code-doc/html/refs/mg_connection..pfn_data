@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1205' type='void *'/>
+<offset>1280</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1205'>// Protocol-specific function parameter</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='r' c='mg_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='408' u='r' c='restore_http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='409' u='w' c='restore_http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='604' u='w' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='952' u='w' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='952' u='r' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='962' u='r' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='979' u='r' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='980' u='w' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='984' u='w' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='993' u='r' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='994' u='r' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1004' u='r' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1008' u='w' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1011' u='w' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='539' u='w' c='mg_mqtt_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='411' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='411' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='167' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='215' u='w' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='227' u='w' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='260' u='w' c='mg_ws_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='269' u='w' c='mg_ws_upgrade'/>

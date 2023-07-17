@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='549' ll='552' macro='1' type='uint32_t mpack_tag_map_count(mpack_tag_t * tag)'/>
+<use f='codebrowser/src/message.c' l='491' u='c' c='msg_parse_map'/>

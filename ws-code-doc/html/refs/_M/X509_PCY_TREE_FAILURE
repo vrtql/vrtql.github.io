@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509_vfy.h' l='582'/>
+<doc f='include/openssl/x509_vfy.h' l='581'>/* Non positive return values are errors */</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='750' ll='753' macro='1' type='void mpack_done_type(mpack_reader_t * reader, mpack_type_t type)'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='762' u='c' c='mpack_done_array'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='773' u='c' c='mpack_done_map'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='784' u='c' c='mpack_done_str'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='795' u='c' c='mpack_done_bin'/>

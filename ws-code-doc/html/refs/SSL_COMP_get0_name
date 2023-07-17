@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2081' type='const char * SSL_COMP_get0_name(const SSL_COMP * comp)'/>

@@ -1,0 +1,34 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1381' type='size_t mpack_expect_enum(mpack_reader_t * reader, const char ** strings, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1349'>/**
+ * Expects a string matching one of the strings in the given array,
+ * returning its array index.
+ *
+ * If the value does not match any of the given strings,
+ * @ref mpack_error_type is flagged. Use mpack_expect_enum_optional()
+ * if you want to allow other values than the given strings.
+ *
+ * If any error occurs or the reader is in an error state, @a count
+ * is returned.
+ *
+ * This can be used to quickly parse a string into an enum when the
+ * enum values range from 0 to @a count-1. If the last value in the
+ * enum is a special &quot;count&quot; value, it can be passed as the count,
+ * and the return value can be cast directly to the enum type.
+ *
+ * @code{.c}
+ * typedef enum           { APPLE ,  BANANA ,  ORANGE , COUNT} fruit_t;
+ * const char* fruits[] = {&quot;apple&quot;, &quot;banana&quot;, &quot;orange&quot;};
+ *
+ * fruit_t fruit = (fruit_t)mpack_expect_enum(reader, fruits, COUNT);
+ * @endcode
+ *
+ * See @ref docs/expect.md for more examples.
+ *
+ * The maximum string length is the size of the buffer (strings are read in-place.)
+ *
+ * @param reader The reader
+ * @param strings An array of expected strings of length count
+ * @param count The number of strings
+ * @return The index of the matched string, or @a count in case of error
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='771' ll='792' type='size_t mpack_expect_enum(mpack_reader_t * reader, const char ** strings, size_t count)'/>

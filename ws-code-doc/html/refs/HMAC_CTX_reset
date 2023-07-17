@@ -1,0 +1,1 @@
+<dec f='include/openssl/hmac.h' l='27' type='int HMAC_CTX_reset(HMAC_CTX * ctx)'/>

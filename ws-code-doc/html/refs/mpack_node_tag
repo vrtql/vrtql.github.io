@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='627' type='mpack_tag_t mpack_node_tag(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1253' ll='1292' type='mpack_tag_t mpack_node_tag(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='623'>/**
+ * Returns a tag describing the given node, or a nil tag if the
+ * tree is in an error state.
+ */</doc>

@@ -1,0 +1,8 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='762' ll='764' macro='1' type='mpack_tag_t mpack_tag_nil()'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1255' u='c' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='938' u='c' c='mpack_read_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='940' u='c' c='mpack_read_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='945' u='c' c='mpack_read_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='981' u='c' c='mpack_peek_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='983' u='c' c='mpack_peek_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='987' u='c' c='mpack_peek_tag'/>

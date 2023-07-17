@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='269'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='258'>/**
+ *  For each loop,
+ *
+ *  struct sc_queue_int queue;
+ *  sc_queue_init(&amp;queue, 4);&quot;
+ *
+ *  int elem;
+ *  sc_queue_foreach(&amp;queue, elem) {
+ *      printf(&quot;Elem : %d \n, elem);
+ *  }
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='93' u='c'/>
+<use f='codebrowser/src/websocket.c' l='310' u='c'/>
+<use f='codebrowser/src/websocket.c' l='1202' u='c'/>

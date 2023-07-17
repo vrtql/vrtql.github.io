@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='773' type='uint32_t mpack_expect_array(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/message.c' l='238' u='c' c='vrtql_msg_deserialize'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='758'>/**
+ * Reads the start of an array, returning its element count.
+ *
+ * A number of values follow equal to the element count of the array.
+ * @ref mpack_done_array() must be called once all elements have been read.
+ *
+ * @warning This call is dangerous! It does not have a size limit, and it
+ * does not have any way of checking whether there is enough data in the
+ * message (since the data could be coming from a stream.) When looping
+ * through the array&apos;s contents, you must check for errors on each iteration
+ * of the loop. Otherwise an attacker could craft a message declaring an array
+ * of a billion elements which would throw your parsing code into an
+ * infinite loop! You should strongly consider using mpack_expect_array_max()
+ * with a safe maximum size instead.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='304' macro='1' u='c' c='mpack_expect_array_range'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='411' ll='417' type='uint32_t mpack_expect_array(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='420' u='c' c='mpack_expect_array_match'/>

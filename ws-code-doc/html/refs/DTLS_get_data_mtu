@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1911' type='size_t DTLS_get_data_mtu(const SSL * s)'/>

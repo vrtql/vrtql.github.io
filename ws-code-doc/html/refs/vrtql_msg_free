@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/message.h' l='41' type='void vrtql_msg_free(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='53' ll='71' type='void vrtql_msg_free(vrtql_msg * msg)'/>
+<use f='codebrowser/src/message.c' l='458' u='c' c='vrtql_msg_receive'/>
+<doc f='codebrowser/src/message.h' l='37'>/**
+ * @brief Frees a vrtql_msg instance.
+ * @param msg The vrtql_msg instance to be freed.
+ */</doc>
+<use f='codebrowser/src/rpc.c' l='184' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/rpc.c' l='195' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/rpc.c' l='207' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/rpc.c' l='221' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/rpc.c' l='235' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/server.c' l='1512' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1547' u='c' c='msg_svr_client_process'/>
+<use f='codebrowser/src/server.c' l='1577' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/test/test_message.c' l='42' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='43' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='82' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='83' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='37' u='c' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='99' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='100' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='72' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='90' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='91' u='c' c='ctest_test_message_run'/>

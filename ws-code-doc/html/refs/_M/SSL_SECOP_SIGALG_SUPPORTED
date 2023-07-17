@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2307'/>
+<doc f='include/openssl/ssl.h' l='2306'>/* Supported signature algorithms sent to peer */</doc>

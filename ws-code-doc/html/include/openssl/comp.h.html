@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>comp.h source code [include/openssl/comp.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'include/openssl/comp.h'; var root_path = '../..'; var data_path = '../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>include</a>/<a href='./'>openssl</a>/<a href='comp.h.html'>comp.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright 2015-2018 The OpenSSL Project Authors. All Rights Reserved.</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Licensed under the OpenSSL license (the "License").  You may not use</i></td></tr>
+<tr><th id="5">5</th><td><i> * this file except in compliance with the License.  You can obtain a copy</i></td></tr>
+<tr><th id="6">6</th><td><i> * in the file LICENSE in the source distribution or at</i></td></tr>
+<tr><th id="7">7</th><td><i> * <a href="https://www.openssl.org/source/license.html">https://www.openssl.org/source/license.html</a></i></td></tr>
+<tr><th id="8">8</th><td><i> */</i></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifndef</span> <span class="macro" data-ref="_M/HEADER_COMP_H">HEADER_COMP_H</span></u></td></tr>
+<tr><th id="11">11</th><td><u># define <dfn class="macro" id="_M/HEADER_COMP_H" data-ref="_M/HEADER_COMP_H">HEADER_COMP_H</dfn></u></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><u># include <a href="../x86_64-linux-gnu/openssl/opensslconf.h.html">&lt;openssl/opensslconf.h&gt;</a></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u># <span data-ppcond="15">ifndef</span> <span class="macro" data-ref="_M/OPENSSL_NO_COMP">OPENSSL_NO_COMP</span></u></td></tr>
+<tr><th id="16">16</th><td><u># include <a href="crypto.h.html">&lt;openssl/crypto.h&gt;</a></u></td></tr>
+<tr><th id="17">17</th><td><u># include <a href="comperr.h.html">&lt;openssl/comperr.h&gt;</a></u></td></tr>
+<tr><th id="18">18</th><td><u># <span data-ppcond="18">ifdef</span>  <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="19">19</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="20">20</th><td><u># <span data-ppcond="18">endif</span></u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a> *<dfn class="decl fn" id="COMP_CTX_new" title='COMP_CTX_new' data-ref="COMP_CTX_new" data-ref-filename="COMP_CTX_new">COMP_CTX_new</dfn>(<a class="typedef" href="ossl_typ.h.html#COMP_METHOD" title='COMP_METHOD' data-type='struct comp_method_st' data-ref="COMP_METHOD" data-ref-filename="COMP_METHOD">COMP_METHOD</a> *<dfn class="local col7 decl" id="2857meth" title='meth' data-type='COMP_METHOD *' data-ref="2857meth" data-ref-filename="2857meth">meth</dfn>);</td></tr>
+<tr><th id="25">25</th><td><em>const</em> <a class="typedef" href="ossl_typ.h.html#COMP_METHOD" title='COMP_METHOD' data-type='struct comp_method_st' data-ref="COMP_METHOD" data-ref-filename="COMP_METHOD">COMP_METHOD</a> *<dfn class="decl fn" id="COMP_CTX_get_method" title='COMP_CTX_get_method' data-ref="COMP_CTX_get_method" data-ref-filename="COMP_CTX_get_method">COMP_CTX_get_method</dfn>(<em>const</em> <a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a> *<dfn class="local col8 decl" id="2858ctx" title='ctx' data-type='const COMP_CTX *' data-ref="2858ctx" data-ref-filename="2858ctx">ctx</dfn>);</td></tr>
+<tr><th id="26">26</th><td><em>int</em> <dfn class="decl fn" id="COMP_CTX_get_type" title='COMP_CTX_get_type' data-ref="COMP_CTX_get_type" data-ref-filename="COMP_CTX_get_type">COMP_CTX_get_type</dfn>(<em>const</em> <a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a>* <dfn class="local col9 decl" id="2859comp" title='comp' data-type='const COMP_CTX *' data-ref="2859comp" data-ref-filename="2859comp">comp</dfn>);</td></tr>
+<tr><th id="27">27</th><td><em>int</em> <dfn class="decl fn" id="COMP_get_type" title='COMP_get_type' data-ref="COMP_get_type" data-ref-filename="COMP_get_type">COMP_get_type</dfn>(<em>const</em> <a class="typedef" href="ossl_typ.h.html#COMP_METHOD" title='COMP_METHOD' data-type='struct comp_method_st' data-ref="COMP_METHOD" data-ref-filename="COMP_METHOD">COMP_METHOD</a> *<dfn class="local col0 decl" id="2860meth" title='meth' data-type='const COMP_METHOD *' data-ref="2860meth" data-ref-filename="2860meth">meth</dfn>);</td></tr>
+<tr><th id="28">28</th><td><em>const</em> <em>char</em> *<dfn class="decl fn" id="COMP_get_name" title='COMP_get_name' data-ref="COMP_get_name" data-ref-filename="COMP_get_name">COMP_get_name</dfn>(<em>const</em> <a class="typedef" href="ossl_typ.h.html#COMP_METHOD" title='COMP_METHOD' data-type='struct comp_method_st' data-ref="COMP_METHOD" data-ref-filename="COMP_METHOD">COMP_METHOD</a> *<dfn class="local col1 decl" id="2861meth" title='meth' data-type='const COMP_METHOD *' data-ref="2861meth" data-ref-filename="2861meth">meth</dfn>);</td></tr>
+<tr><th id="29">29</th><td><em>void</em> <dfn class="decl fn" id="COMP_CTX_free" title='COMP_CTX_free' data-ref="COMP_CTX_free" data-ref-filename="COMP_CTX_free">COMP_CTX_free</dfn>(<a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a> *<dfn class="local col2 decl" id="2862ctx" title='ctx' data-type='COMP_CTX *' data-ref="2862ctx" data-ref-filename="2862ctx">ctx</dfn>);</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><em>int</em> <dfn class="decl fn" id="COMP_compress_block" title='COMP_compress_block' data-ref="COMP_compress_block" data-ref-filename="COMP_compress_block">COMP_compress_block</dfn>(<a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a> *<dfn class="local col3 decl" id="2863ctx" title='ctx' data-type='COMP_CTX *' data-ref="2863ctx" data-ref-filename="2863ctx">ctx</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="2864out" title='out' data-type='unsigned char *' data-ref="2864out" data-ref-filename="2864out">out</dfn>, <em>int</em> <dfn class="local col5 decl" id="2865olen" title='olen' data-type='int' data-ref="2865olen" data-ref-filename="2865olen">olen</dfn>,</td></tr>
+<tr><th id="32">32</th><td>                        <em>unsigned</em> <em>char</em> *<dfn class="local col6 decl" id="2866in" title='in' data-type='unsigned char *' data-ref="2866in" data-ref-filename="2866in">in</dfn>, <em>int</em> <dfn class="local col7 decl" id="2867ilen" title='ilen' data-type='int' data-ref="2867ilen" data-ref-filename="2867ilen">ilen</dfn>);</td></tr>
+<tr><th id="33">33</th><td><em>int</em> <dfn class="decl fn" id="COMP_expand_block" title='COMP_expand_block' data-ref="COMP_expand_block" data-ref-filename="COMP_expand_block">COMP_expand_block</dfn>(<a class="typedef" href="ossl_typ.h.html#COMP_CTX" title='COMP_CTX' data-type='struct comp_ctx_st' data-ref="COMP_CTX" data-ref-filename="COMP_CTX">COMP_CTX</a> *<dfn class="local col8 decl" id="2868ctx" title='ctx' data-type='COMP_CTX *' data-ref="2868ctx" data-ref-filename="2868ctx">ctx</dfn>, <em>unsigned</em> <em>char</em> *<dfn class="local col9 decl" id="2869out" title='out' data-type='unsigned char *' data-ref="2869out" data-ref-filename="2869out">out</dfn>, <em>int</em> <dfn class="local col0 decl" id="2870olen" title='olen' data-type='int' data-ref="2870olen" data-ref-filename="2870olen">olen</dfn>,</td></tr>
+<tr><th id="34">34</th><td>                      <em>unsigned</em> <em>char</em> *<dfn class="local col1 decl" id="2871in" title='in' data-type='unsigned char *' data-ref="2871in" data-ref-filename="2871in">in</dfn>, <em>int</em> <dfn class="local col2 decl" id="2872ilen" title='ilen' data-type='int' data-ref="2872ilen" data-ref-filename="2872ilen">ilen</dfn>);</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><a class="typedef" href="ossl_typ.h.html#COMP_METHOD" title='COMP_METHOD' data-type='struct comp_method_st' data-ref="COMP_METHOD" data-ref-filename="COMP_METHOD">COMP_METHOD</a> *<dfn class="decl fn" id="COMP_zlib" title='COMP_zlib' data-ref="COMP_zlib" data-ref-filename="COMP_zlib">COMP_zlib</dfn>(<em>void</em>);</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="38">if</span> <a class="macro" href="../x86_64-linux-gnu/openssl/opensslconf.h.html#136" title="0" data-ref="_M/OPENSSL_API_COMPAT">OPENSSL_API_COMPAT</a> &lt; 0x10100000L</u></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/COMP_zlib_cleanup" data-ref="_M/COMP_zlib_cleanup">COMP_zlib_cleanup</dfn>() while(0) continue</u></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="38">endif</span></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u># <span data-ppcond="42">ifdef</span> <span class="macro" data-ref="_M/HEADER_BIO_H">HEADER_BIO_H</span></u></td></tr>
+<tr><th id="43">43</th><td><u>#  ifdef ZLIB</u></td></tr>
+<tr><th id="44">44</th><td><em>const</em> BIO_METHOD *BIO_f_zlib(<em>void</em>);</td></tr>
+<tr><th id="45">45</th><td><u>#  endif</u></td></tr>
+<tr><th id="46">46</th><td><u># <span data-ppcond="42">endif</span></u></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#  <span data-ppcond="49">ifdef</span>  <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="50">50</th><td>}</td></tr>
+<tr><th id="51">51</th><td><u>#  <span data-ppcond="49">endif</span></u></td></tr>
+<tr><th id="52">52</th><td><u># <span data-ppcond="15">endif</span></u></td></tr>
+<tr><th id="53">53</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../codebrowser/src/message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-17</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

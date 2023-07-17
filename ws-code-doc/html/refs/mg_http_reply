@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1310' type='void mg_http_reply(struct mg_connection * , int status_code, const char * headers, const char * body_fmt)'/>
+<use f='codebrowser/src/test/server.c' l='44' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='388' ll='404' type='void mg_http_reply(struct mg_connection * c, int code, const char * headers, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='553' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='560' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='885' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='893' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='896' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='899' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='903' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='908' u='c' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1052' u='c' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1058' u='c' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1060' u='c' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' u='c' c='mg_http_serve_ssi'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='271' u='c' c='mg_ws_upgrade'/>
+<doc f='codebrowser/src/test/util/mongoose.c' l='386'>// clang-format on</doc>

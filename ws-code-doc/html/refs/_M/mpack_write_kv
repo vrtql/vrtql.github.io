@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='1155'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='1139'>/**
+ * @def mpack_write_kv(writer, key, value)
+ *
+ * Type-generic writer for key-value pairs of null-terminated string
+ * keys and primitive values.
+ *
+ * @warning @a writer may be evaluated multiple times.
+ *
+ * @warning In C11, the indentifiers `true`, `false` and `NULL` are
+ * all of type `int`, not `bool` or `void*`! They will emit unexpected
+ * types when passed uncast, so be careful when using them.
+ *
+ * @param writer The writer.
+ * @param key A null-terminated C string.
+ * @param value A primitive type supported by mpack_write().
+ */</doc>

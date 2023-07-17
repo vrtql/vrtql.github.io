@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/yyjson.h' l='4482' ll='4484' macro='1' type='_Bool unsafe_yyjson_is_null(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4743' u='c' c='yyjson_is_null'/>
+<use f='codebrowser/src/util/yyjson.h' l='5284' u='c' c='yyjson_mut_is_null'/>
+<use f='codebrowser/src/util/yyjson.c' l='2523' u='c' c='yyjson_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2574' u='c' c='yyjson_mut_merge_patch'/>

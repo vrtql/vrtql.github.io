@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1474' type='5'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='137' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='232' c='mg_mqtt_next_prop'/>

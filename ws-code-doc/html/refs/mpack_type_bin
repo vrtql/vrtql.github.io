@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='196' type='8'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='400' u='r' c='mpack_tag_make_bin'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='576' u='r' c='mpack_tag_bin_length'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='628' u='r' c='mpack_tag_bytes'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='795' u='r' c='mpack_done_bin'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='1051' u='r' c='mpack_finish_bin'/>
+<use f='codebrowser/src/message.c' l='557' u='r' c='msg_parse_content'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='196'>/**&lt; A chunk of binary data. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='64' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='120' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='557' u='r' c='mpack_expect_bin'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='39' u='r' c='mpack_node_data_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='504' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='512' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='520' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1275' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1511' u='r' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1630' u='r' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2263' u='r' c='mpack_node_data_len'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2302' u='r' c='mpack_node_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2317' u='r' c='mpack_node_bin_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2328' u='r' c='mpack_node_bin_size'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1000' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='622' c='mpack_write_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1205' u='r' c='mpack_start_bin'/>

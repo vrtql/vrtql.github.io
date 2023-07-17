@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1337' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1337'>// CA certificate file. For both listeners and clients</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='63' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='63' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='66' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' u='r' c='mg_tls_init'/>

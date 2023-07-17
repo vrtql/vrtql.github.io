@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1734' type='int SSL_set1_host(SSL * s, const char * hostname)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='97' u='c' c='mg_tls_init'/>

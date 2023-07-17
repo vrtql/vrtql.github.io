@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/vrtql.h' l='132' type='uint64_t'/>
+<offset>832</offset>
+<doc f='codebrowser/src/vrtql.h' l='132'>/**&lt; Contains global state flags */</doc>
+<dec f='codebrowser/src/server.h' l='112' type='uint8_t'/>
+<use f='codebrowser/src/server.c' l='771' u='w' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='772' u='w' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1187' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1206' u='w' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1232' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1237' u='r' c='queue_pop'/>
+<offset>896</offset>
+<doc f='codebrowser/src/server.h' l='111'>/**&lt; Current state of the queue */</doc>
+<use f='codebrowser/src/socket.c' l='249' u='a' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='274' u='a' c='vws_socket_connect'/>
+<dec f='codebrowser/src/test/util/mongoose.h' l='1114' type='uint32_t [5]'/>
+<offset>0</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' u='w' c='mg_sha1_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='160' u='w' c='mg_sha1_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='161' u='w' c='mg_sha1_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='162' u='w' c='mg_sha1_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='163' u='w' c='mg_sha1_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='r' c='mg_sha1_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='179' u='r' c='mg_sha1_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='205' u='r' c='mg_sha1_final'/>
+<use f='codebrowser/src/vrtql.c' l='398' u='w'/>

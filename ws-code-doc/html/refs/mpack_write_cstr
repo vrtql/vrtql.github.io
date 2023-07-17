@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='885' type='void mpack_write_cstr(mpack_writer_t * writer, const char * cstr)'/>
+<use f='codebrowser/src/message.c' l='101' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='102' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='111' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='112' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='874'>/**
+ * Writes a null-terminated string. (The null-terminator is not written.)
+ *
+ * MPack does not care about the underlying encoding, but UTF-8 is highly
+ * recommended, especially for compatibility with JSON. You should consider
+ * calling mpack_write_utf8_cstr() instead, especially if you will be reading
+ * it back as UTF-8.
+ *
+ * You should not call mpack_finish_str() after calling this; this
+ * performs both start and finish.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1325' ll='1331' type='void mpack_write_cstr(mpack_writer_t * writer, const char * cstr)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1335' u='c' c='mpack_write_cstr_or_nil'/>

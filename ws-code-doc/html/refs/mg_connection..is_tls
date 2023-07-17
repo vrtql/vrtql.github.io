@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1214' type='unsigned int'/>
+<offset>1670</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1214'>// TLS-enabled connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='270' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='r' c='write_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='638' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='103' u='w' c='mg_tls_init'/>

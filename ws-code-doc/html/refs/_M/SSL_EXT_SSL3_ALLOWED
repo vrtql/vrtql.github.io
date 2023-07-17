@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='243'/>
+<doc f='include/openssl/ssl.h' l='242'>/* Most extensions are not defined for SSLv3 but EXT_TYPE_renegotiate is */</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/rpc.h' l='121' type='vrtql_msg * vrtql_rpc(vrtql_rpc_system * s, vrtql_rpc_env * e, vrtql_msg * m)'/>
+<def f='codebrowser/src/rpc.c' l='174' ll='239' type='vrtql_msg * vrtql_rpc(vrtql_rpc_system * s, vrtql_rpc_env * e, vrtql_msg * m)'/>
+<doc f='codebrowser/src/rpc.h' l='115'>/**
+ * @brief Invoke an RPC call
+ * @param c The RPC system instance
+ * @param e The RPC environment
+ * @param m The incoming message to process
+ */</doc>
+<use f='codebrowser/src/test/test_rpc.c' l='64' u='c' c='ctest_test_rpc_call_run'/>

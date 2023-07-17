@@ -1,0 +1,5 @@
+<use f='codebrowser/src/mpack/mpack-expect.c' l='697' u='c' c='mpack_expect_str_match'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='400' u='c' c='mpack_skip_bytes'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='443' u='c' c='mpack_read_bytes'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='511' u='c' c='mpack_read_bytes_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='565' u='c' c='mpack_read_bytes_inplace'/>

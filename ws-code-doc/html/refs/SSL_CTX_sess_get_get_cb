@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='726' type='SSL_SESSION *(*)(struct ssl_st *, const unsigned char *, int, int *) SSL_CTX_sess_get_get_cb(SSL_CTX * ctx)'/>

@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='229' type='void SCT_set0_extensions(SCT * sct, unsigned char * ext, size_t ext_len)'/>
+<doc f='include/openssl/ct.h' l='225'>/*
+ * Set the extensions of an SCT to point directly to the *ext specified.
+ * The SCT takes ownership of the specified pointer.
+ */</doc>

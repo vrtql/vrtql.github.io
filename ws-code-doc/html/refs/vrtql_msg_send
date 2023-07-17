@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/message.h' l='150' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='432' ll='439' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='140'>/**
+ * @brief Sends a message via a websocket connection. Does not take ownership of
+ * message. Caller is still responsible for freeing message. This is to allow
+ * reuse of messages.
+ *
+ * @param c The connection.
+ * @param string The data to send.
+ * @param size The size of the data in bytes.
+ * @return Returns the number of bytes sent.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='79' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='78' u='c' c='ctest_test_message_run'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='1820' type='int SSL_waiting_for_async(SSL * s)'/>
+<doc f='include/openssl/ssl.h' l='1817'>/*
+ * Windows application developer has to include windows.h to use these.
+ */</doc>

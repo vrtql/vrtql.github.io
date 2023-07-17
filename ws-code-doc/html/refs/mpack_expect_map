@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='653' type='uint32_t mpack_expect_map(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='631'>/**
+ * Reads the start of a map, returning its element count.
+ *
+ * A number of values follow equal to twice the element count of the map,
+ * alternating between keys and values. @ref mpack_done_map() must be called
+ * once all elements have been read.
+ *
+ * @note Maps in JSON are unordered, so it is recommended not to expect
+ * a specific ordering for your map values in case your data is converted
+ * to/from JSON.
+ *
+ * @warning This call is dangerous! It does not have a size limit, and it
+ * does not have any way of checking whether there is enough data in the
+ * message (since the data could be coming from a stream.) When looping
+ * through the map&apos;s contents, you must check for errors on each iteration
+ * of the loop. Otherwise an attacker could craft a message declaring a map
+ * of a billion elements which would throw your parsing code into an
+ * infinite loop! You should strongly consider using mpack_expect_map_max()
+ * with a safe maximum size instead.
+ *
+ * @throws mpack_error_type if the value is not a map.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='303' macro='1' u='c' c='mpack_expect_map_range'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='369' ll='375' type='uint32_t mpack_expect_map(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='378' u='c' c='mpack_expect_map_match'/>
+<doc f='codebrowser/src/mpack/mpack-expect.c' l='367'>// Compound Types</doc>

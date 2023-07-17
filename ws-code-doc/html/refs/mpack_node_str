@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1018' type='const char * mpack_node_str(mpack_node_t node)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1910' u='c' c='mpack_node_enum_optional'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2285' ll='2295' type='const char * mpack_node_str(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1003'>/**
+ * Returns a pointer to the data contained by this node, ensuring the node is a
+ * string.
+ *
+ * @warning Strings are not null-terminated! Use one of the cstr functions
+ * to get a null-terminated string.
+ *
+ * The pointer is valid as long as the data backing the tree is valid.
+ *
+ * If this node is not a string, @ref mpack_error_type is raised and @c NULL is returned.
+ *
+ * @see mpack_node_copy_cstr()
+ * @see mpack_node_cstr_alloc()
+ * @see mpack_node_utf8_cstr_alloc()
+ */</doc>

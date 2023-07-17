@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/ctest.h' l='284' macro='1' type='struct ctest'/>
+<use f='codebrowser/src/test/ctest.h' l='531' macro='1' u='a' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='532' macro='1' u='a' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='548' macro='1' u='a' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='553' macro='1' u='a' c='ctest_main'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/sc_map.h' l='220' macro='1' type='uint32_t sc_map_size_lls(struct sc_map_lls * map)'/>
+<def f='codebrowser/src/util/sc_map.c' l='402' macro='1' type='uint32_t sc_map_size_lls(struct sc_map_lls * m)'/>

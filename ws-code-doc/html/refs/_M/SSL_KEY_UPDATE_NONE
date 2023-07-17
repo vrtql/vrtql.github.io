@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='974'/>
+<doc f='include/openssl/ssl.h' l='973'>/* -1 used so that this is an invalid value for the on-the-wire protocol */</doc>

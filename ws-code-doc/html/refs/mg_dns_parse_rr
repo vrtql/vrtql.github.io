@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1568' type='size_t mg_dns_parse_rr(const uint8_t * buf, size_t len, size_t ofs, _Bool is_question, struct mg_dns_rr * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='76' ll='98' type='size_t mg_dns_parse_rr(const uint8_t * buf, size_t len, size_t ofs, _Bool is_question, struct mg_dns_rr * rr)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='112' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='117' u='c' c='mg_dns_parse'/>

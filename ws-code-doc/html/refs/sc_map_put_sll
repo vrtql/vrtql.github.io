@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/sc_map.h' l='230' macro='1' type='long long sc_map_put_sll(struct sc_map_sll * map, const char * key, long long val)'/>
+<def f='codebrowser/src/util/sc_map.c' l='412' macro='1' type='long long sc_map_put_sll(struct sc_map_sll * m, const char * key, long long value)'/>

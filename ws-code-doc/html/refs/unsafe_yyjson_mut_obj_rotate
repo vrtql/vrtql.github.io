@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='6596' ll='6601' macro='1' type='void unsafe_yyjson_mut_obj_rotate(yyjson_mut_val * obj, size_t idx)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6650' u='c' c='yyjson_mut_obj_insert'/>
+<use f='codebrowser/src/util/yyjson.h' l='6710' u='c' c='yyjson_mut_obj_rotate'/>

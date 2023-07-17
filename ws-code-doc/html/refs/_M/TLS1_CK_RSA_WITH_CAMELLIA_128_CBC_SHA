@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='420'/>
+<doc f='include/openssl/tls1.h' l='419'>/* Camellia ciphersuites from RFC4132 */</doc>

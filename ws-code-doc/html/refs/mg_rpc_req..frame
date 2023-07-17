@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1602' type='struct mg_str'/>
+<offset>320</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1602'>// Request, e.g. {&quot;id&quot;:1,&quot;method&quot;:&quot;add&quot;,&quot;params&quot;:[1,2]}</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='r' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='m' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='41' u='m' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' u='r' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44' u='r' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='m' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='m' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='r' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' u='m' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='r' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='m' c='mg_rpc_verr'/>

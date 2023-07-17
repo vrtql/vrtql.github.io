@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='318' type='void mpack_tree_init_data(mpack_tree_t * tree, const char * data, size_t length)'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='326' u='c' c='mpack_tree_init'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1019' ll='1036' type='void mpack_tree_init_data(mpack_tree_t * tree, const char * data, size_t length)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1188' u='c' c='mpack_tree_init_stdfile_noclose'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='306'>/**
+ * Initializes a tree parser with the given data.
+ *
+ * Configure the tree if desired, then call mpack_tree_parse() to parse it. The
+ * tree will allocate pages of nodes as needed and will free them when
+ * destroyed.
+ *
+ * The tree must be destroyed with mpack_tree_destroy().
+ *
+ * Any string or blob data types reference the original data, so the given data
+ * pointer must remain valid until after the tree is destroyed.
+ */</doc>

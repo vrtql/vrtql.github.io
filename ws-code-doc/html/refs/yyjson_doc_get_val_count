@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1495' type='size_t yyjson_doc_get_val_count(yyjson_doc * doc)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4720' ll='4722' macro='1' type='size_t yyjson_doc_get_val_count(yyjson_doc * doc)'/>

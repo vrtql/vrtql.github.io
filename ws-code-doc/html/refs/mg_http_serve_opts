@@ -1,0 +1,19 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1281' ll='1288'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1307' c='mg_http_serve_dir'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1309' c='mg_http_serve_file'/>
+<size>48</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1280'>// Parameter for mg_http_serve_dir()</doc>
+<mbr r='mg_http_serve_opts::root_dir' o='0' t='const char *'/>
+<mbr r='mg_http_serve_opts::ssi_pattern' o='64' t='const char *'/>
+<mbr r='mg_http_serve_opts::extra_headers' o='128' t='const char *'/>
+<mbr r='mg_http_serve_opts::mime_types' o='192' t='const char *'/>
+<mbr r='mg_http_serve_opts::page404' o='256' t='const char *'/>
+<mbr r='mg_http_serve_opts::fs' o='320' t='struct mg_fs *'/>
+<use f='codebrowser/src/test/server.c' l='49' c='fn'/>
+<size>48</size>
+<use f='codebrowser/src/test/util/mongoose.c' l='523' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='613'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='658' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='776' c='uri_to_path'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='790' c='mg_http_serve_dir'/>
+<size>48</size>

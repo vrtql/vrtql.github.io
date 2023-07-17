@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='529' type='mpack_error_t mpack_tree_destroy(mpack_tree_t * tree)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1218' ll='1231' type='mpack_error_t mpack_tree_destroy(mpack_tree_t * tree)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='526'>/**
+ * Destroys the tree.
+ */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1011' type='char * mg_file_read(struct mg_fs * fs, const char * path, size_t * size)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='25' ll='44' type='char * mg_file_read(struct mg_fs * fs, const char * path, size_t * sizep)'/>

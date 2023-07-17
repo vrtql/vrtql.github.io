@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2921' type='yyjson_mut_val * yyjson_mut_arr_remove_first(yyjson_mut_val * arr)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6094' ll='6111' macro='1' type='yyjson_mut_val * yyjson_mut_arr_remove_first(yyjson_mut_val * arr)'/>

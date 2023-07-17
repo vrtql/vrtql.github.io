@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/websocket.h' l='91' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
+<doc f='codebrowser/src/websocket.h' l='83'>/**
+ * @brief Instantiates a new websocket frame given some data, size, and opcode.
+ *
+ * @param data The data to be contained in the frame.
+ * @param s The size of the data.
+ * @param oc The opcode for the frame.
+ * @return Returns a pointer to the new frame.
+ */</doc>
+<use f='codebrowser/src/server.c' l='1557' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/test/test_websocket.c' l='64' u='c' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_send_data'/>
+<def f='codebrowser/src/websocket.c' l='596' ll='616' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
+<use f='codebrowser/src/websocket.c' l='1089' u='c' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1140' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1150' u='c' c='vws_generate_pong_frame'/>
+<doc f='codebrowser/src/websocket.c' l='592'>//------------------------------------------------------------------------------
+//&gt; Frame API
+//------------------------------------------------------------------------------</doc>

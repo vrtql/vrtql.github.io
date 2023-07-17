@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2133' type='int SSL_set_num_tickets(SSL * s, size_t num_tickets)'/>

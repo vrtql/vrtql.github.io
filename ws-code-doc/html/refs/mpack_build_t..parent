@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='130' type='struct mpack_build_t *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='129'>//mpack_builder_page_t* page;</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1612' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1800' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1803' u='r' c='mpack_builder_complete'/>

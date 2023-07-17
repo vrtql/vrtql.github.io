@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1134' type='3'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1134'>// Host name is resolved        NULL</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='347' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='355' u='r' c='mg_connect_resolved'/>

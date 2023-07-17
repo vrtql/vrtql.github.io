@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3258' type='yyjson_mut_val * yyjson_mut_obj_iter_next(yyjson_mut_obj_iter * iter)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6383' ll='6393' macro='1' type='yyjson_mut_val * yyjson_mut_obj_iter_next(yyjson_mut_obj_iter * iter)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6625' u='c' c='yyjson_mut_obj_put'/>
+<use f='codebrowser/src/util/yyjson.h' l='6888' u='c' c='yyjson_mut_obj_remove_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6919' u='c' c='yyjson_mut_obj_rename_keyn'/>

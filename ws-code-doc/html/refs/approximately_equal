@@ -1,0 +1,2 @@
+<def f='codebrowser/src/test/ctest.h' l='416' ll='422' type='_Bool approximately_equal(double a, double b, double epsilon)'/>
+<use f='codebrowser/src/test/ctest.h' l='429' u='c' c='assert_dbl_compare'/>

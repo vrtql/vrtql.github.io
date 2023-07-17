@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1635' type='int SSL_SESSION_has_ticket(const SSL_SESSION * s)'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1942' type='int SSL_CTX_add1_to_CA_list(SSL_CTX * ctx, const X509 * x)'/>

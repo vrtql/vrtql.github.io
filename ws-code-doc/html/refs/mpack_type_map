@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='198' type='10'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='384' u='r' c='mpack_tag_make_map'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='550' u='r' c='mpack_tag_map_count'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='773' u='r' c='mpack_done_map'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='759' u='r' c='mpack_finish_map'/>
+<use f='codebrowser/src/message.c' l='483' u='r' c='msg_parse_map'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='198'>/**&lt; An ordered map of key/value pairs of MessagePack objects. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='66' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='114' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='371' u='r' c='mpack_expect_map'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='390' u='r' c='mpack_expect_map_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='277' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='470' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='713' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='721' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='775' u='r' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1285' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1738' u='r' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1770' u='r' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1804' u='r' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2368' u='r' c='mpack_node_map_count'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2381' u='r' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1019' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='81' u='r' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='631' c='mpack_write_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1153' u='r' c='mpack_start_map'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1692' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1812' u='r' c='mpack_build_map'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1820' u='r' c='mpack_complete_map'/>

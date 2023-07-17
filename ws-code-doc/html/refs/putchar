@@ -1,0 +1,6 @@
+<dec f='include/stdio.h' l='534' type='int putchar(int __c)'/>
+<doc f='include/stdio.h' l='530'>/* Write a character to stdout.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='78' u='c' c='mg_pfn_stdout'/>

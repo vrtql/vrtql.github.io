@@ -1,0 +1,4 @@
+<dec f='include/openssl/evp.h' l='276'/>
+<doc f='include/openssl/evp.h' l='273'>/*
+ * Cipher handles any and all padding logic as well as finalisation.
+ */</doc>

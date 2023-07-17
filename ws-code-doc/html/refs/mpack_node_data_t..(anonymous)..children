@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='177' type='mpack_node_data_t *'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='285' u='r' c='mpack_node_child'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='299' u='w' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='335' u='w' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='346' u='w' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='361' u='r' c='mpack_tree_parse_children'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='177'>/* The children for map or array */</doc>

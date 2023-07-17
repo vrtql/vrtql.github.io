@@ -1,0 +1,8 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='674' ll='678' macro='1' type='void mpack_encode_u8(char * p, uint8_t value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='919' u='c' c='mpack_write_u8'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='932' u='c' c='mpack_write_u16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='947' u='c' c='mpack_write_u32'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='962' u='c' c='mpack_write_u64'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='996' u='c' c='mpack_write_i16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1018' u='c' c='mpack_write_i32'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1051' u='c' c='mpack_write_i64'/>

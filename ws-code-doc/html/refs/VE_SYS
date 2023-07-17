@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/vrtql.h' l='26' type='10'/>
+<doc f='codebrowser/src/vrtql.h' l='26'>/**&lt; System call error */</doc>
+<use f='codebrowser/src/socket.c' l='140' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='148' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='197' c='socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='204' c='socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='259' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='269' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='284' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='304' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='315' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='466' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='489' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='496' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='536' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='571' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='582' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='591' c='connect_to_host'/>
+<use f='codebrowser/src/vrtql.c' l='108' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='115' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='139' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='325' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/websocket.c' l='406' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='429' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='439' c='socket_handshake'/>

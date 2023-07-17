@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1248' type='_Bool mg_open_listener(struct mg_connection * c, const char * url)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='c' c='mg_listen'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='181' ll='240' macro='1' type='_Bool mg_open_listener(struct mg_connection * c, const char * url)'/>

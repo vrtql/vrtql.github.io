@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='421'/>
+<doc f='include/openssl/ssl.h' l='420'>/* Dead forever, see CVE-2010-4180 */</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/websocket.h' l='278' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='272'>/**
+ * @brief Sets the connection to server mode
+ *
+ * @param c The websocket connection.
+ * @return Returns void.
+ */</doc>
+<def f='codebrowser/src/websocket.c' l='328' ll='331' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>

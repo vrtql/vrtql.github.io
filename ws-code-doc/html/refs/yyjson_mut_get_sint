@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2171' type='int64_t yyjson_mut_get_sint(yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5369' ll='5371' macro='1' type='int64_t yyjson_mut_get_sint(yyjson_mut_val * val)'/>

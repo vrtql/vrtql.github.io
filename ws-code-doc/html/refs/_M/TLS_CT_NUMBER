@@ -1,0 +1,6 @@
+<dec f='include/openssl/tls1.h' l='1145'/>
+<use f='include/openssl/tls1.h' l='1148' u='c'/>
+<doc f='include/openssl/tls1.h' l='1141'>/*
+ * when correcting this number, correct also SSL3_CT_NUMBER in ssl3.h (see
+ * comment there)
+ */</doc>

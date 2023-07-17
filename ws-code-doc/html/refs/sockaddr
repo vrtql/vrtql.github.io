@@ -1,0 +1,18 @@
+<def f='include/x86_64-linux-gnu/bits/socket.h' l='175' ll='179'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='59' c='bind'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='58' c='getsockname'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='59' c='connect'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='58' c='getpeername'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='59' c='sendto'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='58' c='recvfrom'/>
+<use f='include/x86_64-linux-gnu/sys/socket.h' l='58' c='accept'/>
+<use f='include/netinet/in.h' l='244'/>
+<use f='include/netdb.h' l='572'/>
+<use f='include/netdb.h' l='675' c='getnameinfo'/>
+<use f='codebrowser/src/server.c' l='697' c='vrtql_svr_run'/>
+<size>16</size>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='174'>/* Structure describing a generic socket address.  */</doc>
+<mbr r='sockaddr::sa_family' o='0' t='sa_family_t'/>
+<mbr r='sockaddr::sa_data' o='16' t='char [14]'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49'/>
+<size>16</size>

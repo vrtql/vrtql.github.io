@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1709' type='pem_password_cb * SSL_CTX_get_default_passwd_cb(SSL_CTX * ctx)'/>

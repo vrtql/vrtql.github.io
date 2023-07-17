@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='236' type='int SCT_set1_extensions(SCT * sct, const unsigned char * ext, size_t ext_len)'/>
+<doc f='include/openssl/ct.h' l='231'>/*
+ * Set the extensions of an SCT.
+ * This takes a copy of the ext.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

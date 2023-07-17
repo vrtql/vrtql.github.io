@@ -1,0 +1,4 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='921' ll='936' macro='1' type='void mpack_store_u64(char * p, uint64_t val)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='945' u='c' c='mpack_store_i64'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='993' u='c' c='mpack_store_double'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='695' u='c' c='mpack_encode_u64'/>

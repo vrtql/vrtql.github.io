@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2449' type='_Bool yyjson_mut_arr_iter_has_next(yyjson_mut_arr_iter * iter)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5744' ll='5746' macro='1' type='_Bool yyjson_mut_arr_iter_has_next(yyjson_mut_arr_iter * iter)'/>

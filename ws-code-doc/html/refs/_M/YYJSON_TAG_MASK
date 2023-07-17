@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/util/yyjson.h' l='546'/>
+<use f='codebrowser/src/util/yyjson.h' l='4475' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4522' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4628' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4633' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='545'>/** The mask used to extract the tag of a JSON value. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5678' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='5795' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6070' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6205' u='c'/>

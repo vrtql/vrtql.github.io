@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/sc_map.c' l='410' macro='1' type='void sc_map_assign_sv(struct sc_map_item_sv * t, const char * key, void * value, uint32_t hash)'/>
+<use f='codebrowser/src/util/sc_map.c' l='410' macro='1' u='c' c='sc_map_put_sv'/>

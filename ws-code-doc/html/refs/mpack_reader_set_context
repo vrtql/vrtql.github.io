@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='294' ll='296' macro='1' type='void mpack_reader_set_context(mpack_reader_t * reader, void * context)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='164' u='c' c='mpack_reader_init_stdfile'/>

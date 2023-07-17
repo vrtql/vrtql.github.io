@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='192' type='void mpack_reader_init_error(mpack_reader_t * reader, mpack_error_t error)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='188'>/**
+ * Initializes an MPack reader directly into an error state. Use this if you
+ * are writing a wrapper to mpack_reader_init() which can fail its setup.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='49' ll='55' type='void mpack_reader_init_error(mpack_reader_t * reader, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='156' u='c' c='mpack_reader_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='177' u='c' c='mpack_reader_init_filename'/>

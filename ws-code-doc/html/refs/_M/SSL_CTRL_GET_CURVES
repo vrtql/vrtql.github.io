@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1467'/>
+<doc f='include/openssl/ssl.h' l='1463'>/*
+ * The following symbol names are old and obsolete. They are kept
+ * for compatibility reasons only and should not be used anymore.
+ */</doc>

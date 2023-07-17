@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2126' type='void SSL_set_record_padding_callback(SSL * ssl, size_t (*)(SSL *, int, size_t, void *) cb)'/>

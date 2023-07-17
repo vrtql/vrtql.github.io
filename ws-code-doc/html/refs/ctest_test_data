@@ -1,0 +1,64 @@
+<use f='codebrowser/src/test/test_common.c' l='12' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='12' macro='1'/>
+<def f='codebrowser/src/test/test_common.c' l='12' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='17' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_common.c' l='17' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='17' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_common.c' l='24' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='24' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='24' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='34' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='34' macro='1' c='ctest_test_error_callbacks_run'/>
+<use f='codebrowser/src/test/test_common.c' l='34' macro='1' c='ctest_test_error_callbacks_run'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='61' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='61' macro='1' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='61' macro='1' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='83' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='83' macro='1' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='83' macro='1' c='ctest_test_queue_run'/>
+<size>8</size>
+<mbr r='ctest_test_data::buffer' o='0' t='unsigned char *'/>
+<use f='codebrowser/src/test/test_json.c' l='10' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='10' macro='1'/>
+<def f='codebrowser/src/test/test_json.c' l='10' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='15' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_json.c' l='15' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='15' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_json.c' l='20' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_json.c' l='20' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='20' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_json.c' l='28' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='28' macro='1' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='28' macro='1' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='61' macro='1'/>
+<use f='codebrowser/src/test/test_json.c' l='61' macro='1' c='ctest_test_write_run'/>
+<use f='codebrowser/src/test/test_json.c' l='61' macro='1' c='ctest_test_write_run'/>
+<size>8</size>
+<mbr r='ctest_test_data::buffer' o='0' t='unsigned char *'/>
+<use f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>
+<def f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='35' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_websocket.c' l='35' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='35' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_websocket.c' l='45' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_websocket.c' l='45' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='45' macro='1' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_websocket.c' l='50' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='50' macro='1' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='50' macro='1' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='62' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='62' macro='1' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='62' macro='1' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='69' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='69' macro='1' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='69' macro='1' c='ctest_test_message_run'/>
+<size>16</size>
+<mbr r='ctest_test_data::buffer' o='0' t='unsigned char *'/>
+<mbr r='ctest_test_data::c' o='64' t='vws_cnx *'/>

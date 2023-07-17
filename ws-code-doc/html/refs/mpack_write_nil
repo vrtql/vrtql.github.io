@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='628' type='void mpack_write_nil(mpack_writer_t * writer)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='627'>/** Writes a nil. */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='599' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='644' ll='646' type='void mpack_write_nil(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1337' u='c' c='mpack_write_cstr_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1363' u='c' c='mpack_write_utf8_cstr_or_nil'/>

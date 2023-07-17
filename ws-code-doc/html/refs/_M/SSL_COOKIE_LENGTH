@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='576'/>
+<doc f='include/openssl/ssl.h' l='575'>/* Maximum length of the application-controlled segment of a a TLSv1.3 cookie */</doc>

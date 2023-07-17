@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='625' type='void mpack_write_false(mpack_writer_t * writer)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='624'>/** Writes a boolean with value false. */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='656' ll='658' type='void mpack_write_false(mpack_writer_t * writer)'/>

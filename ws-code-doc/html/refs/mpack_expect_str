@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='936' type='uint32_t mpack_expect_str(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='978' u='c' c='mpack_expect_str_max'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='998' u='c' c='mpack_expect_str_length'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='925'>/**
+ * Reads the start of a string, returning its size in bytes.
+ *
+ * The bytes follow and must be read separately with mpack_read_bytes()
+ * or mpack_read_bytes_inplace(). mpack_done_str() must be called
+ * once all bytes have been read.
+ *
+ * NUL bytes are allowed in the string, and no encoding checks are done.
+ *
+ * mpack_error_type is raised if the value is not a string.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='491' ll='520' type='uint32_t mpack_expect_str(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='525' u='c' c='mpack_expect_str_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='621' u='c' c='mpack_expect_cstr'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='627' u='c' c='mpack_expect_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='774' u='c' c='mpack_expect_enum'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='808' u='c' c='mpack_expect_enum_optional'/>
+<doc f='codebrowser/src/mpack/mpack-expect.c' l='489'>// Str, Bin and Ext Functions</doc>

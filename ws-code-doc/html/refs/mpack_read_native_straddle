@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-reader.c' l='294' ll='362' macro='1' type='void mpack_read_native_straddle(mpack_reader_t * reader, char * p, size_t count)'/>

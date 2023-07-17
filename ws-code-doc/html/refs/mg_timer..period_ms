@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='955' type='uint64_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='955'>// Timer period in milliseconds</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='w' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33' u='r' c='mg_timer_poll'/>

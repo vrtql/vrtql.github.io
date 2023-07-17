@@ -1,0 +1,8 @@
+<dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='29' type='2'/>
+<doc f='include/x86_64-linux-gnu/bits/socket_type.h' l='29'>/* Connectionless, unreliable datagrams
+				   of fixed maximum length.  */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='191' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='192' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='333' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='432' macro='1' u='r' c='mg_socketpair'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='433' macro='1' u='r' c='mg_socketpair'/>

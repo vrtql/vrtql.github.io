@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='876'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='855'>/**
+ * @hideinitializer
+ *
+ * Reads the start of an array and allocates storage for it, placing its
+ * size in out_count. A number of objects follow equal to the element count
+ * of the array. You must call @ref mpack_done_array() when done (even
+ * if the element count is zero.)
+ *
+ * If an error occurs, NULL is returned and the reader is placed in an
+ * error state.
+ *
+ * If the count is zero, NULL is returned. This does not indicate error.
+ * You should not check the return value for NULL to check for errors; only
+ * check the reader&apos;s error state.
+ *
+ * The allocated array must be freed with MPACK_FREE() (or simply free()
+ * if MPack&apos;s allocator hasn&apos;t been customized.)
+ *
+ * @throws mpack_error_type if the value is not an array or if its size is
+ * greater than max_count.
+ */</doc>

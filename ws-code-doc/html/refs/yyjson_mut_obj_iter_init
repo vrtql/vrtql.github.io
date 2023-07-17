@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3232' type='_Bool yyjson_mut_obj_iter_init(yyjson_mut_val * obj, yyjson_mut_obj_iter * iter)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6358' ll='6370' macro='1' type='_Bool yyjson_mut_obj_iter_init(yyjson_mut_val * obj, yyjson_mut_obj_iter * iter)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6375' u='c' c='yyjson_mut_obj_iter_with'/>
+<use f='codebrowser/src/util/yyjson.h' l='6624' u='c' c='yyjson_mut_obj_put'/>
+<use f='codebrowser/src/util/yyjson.h' l='6887' u='c' c='yyjson_mut_obj_remove_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6918' u='c' c='yyjson_mut_obj_rename_keyn'/>
+<use f='codebrowser/src/util/yyjson.c' l='1615' u='c' c='unsafe_yyjson_mut_equals'/>

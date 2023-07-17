@@ -1,0 +1,4 @@
+<dec f='include/openssl/pemerr.h' l='26'/>
+<doc f='include/openssl/pemerr.h' l='23'>/*
+ * PEM function codes.
+ */</doc>

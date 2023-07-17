@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1073' type='struct mg_str mg_url_pass(const char * url)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='78' ll='86' type='struct mg_str mg_url_pass(const char * url)'/>

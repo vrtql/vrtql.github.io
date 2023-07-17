@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2553' type='yyjson_mut_val * yyjson_mut_arr_with_uint(yyjson_mut_doc * doc, const uint64_t * vals, size_t count)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5827' ll='5830' macro='1' type='yyjson_mut_val * yyjson_mut_arr_with_uint(yyjson_mut_doc * doc, const uint64_t * vals, size_t count)'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/sc_queue.h' l='284' macro='1'/>
+<size>40</size>
+<mbr r='sc_queue_double::oom' o='0' t='_Bool'/>
+<mbr r='sc_queue_double::cap' o='64' t='size_t'/>
+<mbr r='sc_queue_double::first' o='128' t='size_t'/>
+<mbr r='sc_queue_double::last' o='192' t='size_t'/>
+<mbr r='sc_queue_double::elems' o='256' t='double *'/>

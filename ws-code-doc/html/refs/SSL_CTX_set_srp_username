@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1769' type='int SSL_CTX_set_srp_username(SSL_CTX * ctx, char * name)'/>

@@ -1,0 +1,13 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='119' ll='122'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='120'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='119'/>
+<size>16</size>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='112'>/**
+ * Build buffer pages form a linked list.
+ *
+ * They don&apos;t always fill up. If there is not enough space within them to write
+ * a tag or place an mpack_build_t, a new page is allocated. For this reason
+ * they store the number of used bytes.
+ */</doc>
+<mbr r='mpack_builder_page_t::next' o='0' t='struct mpack_builder_page_t *'/>
+<mbr r='mpack_builder_page_t::bytes_used' o='64' t='size_t'/>

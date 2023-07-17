@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='306' type='void mpack_writer_init_stdfile(mpack_writer_t * writer, FILE * stdfile, _Bool close_when_done)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='291'>/**
+ * Initializes an MPack writer that writes to a libc FILE. This can be used to
+ * write to stdout or stderr, or to a file opened separately.
+ *
+ * @param writer The MPack writer.
+ * @param stdfile The FILE.
+ * @param close_when_done If true, fclose() will be called on the FILE when it
+ *         is no longer needed. If false, the file will not be flushed or
+ *         closed when writing is done.
+ *
+ * @note The writer is buffered. If you want to write other data to the FILE in
+ *         between messages, you must flush it first.
+ *
+ * @see mpack_writer_flush_message
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='329' ll='348' type='void mpack_writer_init_stdfile(mpack_writer_t * writer, FILE * file, _Bool close_when_done)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='359' u='c' c='mpack_writer_init_filename'/>

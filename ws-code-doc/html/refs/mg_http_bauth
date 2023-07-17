@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1321' type='void mg_http_bauth(struct mg_connection * , const char * user, const char * pass)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='86' ll='110' type='void mg_http_bauth(struct mg_connection * c, const char * user, const char * pass)'/>

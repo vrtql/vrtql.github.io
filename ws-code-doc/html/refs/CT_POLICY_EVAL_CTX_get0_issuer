@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='86' type='X509 * CT_POLICY_EVAL_CTX_get0_issuer(const CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='85'>/* Gets the issuer of the aforementioned certificate */</doc>

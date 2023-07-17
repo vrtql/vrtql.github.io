@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='828' type='void mpack_complete_array(struct mpack_writer_t * writer)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='823'>/**
+ * Completes an array being built.
+ *
+ * @see mpack_build_array()
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1823' ll='1825' type='void mpack_complete_array(mpack_writer_t * writer)'/>

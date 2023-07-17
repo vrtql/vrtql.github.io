@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/yyjson.h' l='4701' ll='4704' macro='1' type='void unsafe_yyjson_set_obj(void * val, size_t size)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5477' u='c' c='yyjson_mut_set_obj'/>

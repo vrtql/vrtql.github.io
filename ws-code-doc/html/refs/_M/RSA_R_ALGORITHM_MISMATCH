@@ -1,0 +1,4 @@
+<dec f='include/openssl/rsaerr.h' l='93'/>
+<doc f='include/openssl/rsaerr.h' l='90'>/*
+ * RSA reason codes.
+ */</doc>

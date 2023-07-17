@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='709' type='void mpack_expect_map_match(mpack_reader_t * reader, uint32_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='695'>/**
+ * Reads the start of a map of the exact size given.
+ *
+ * A number of values follow equal to twice the element count of the map,
+ * alternating between keys and values. @ref mpack_done_map() must be called
+ * once all elements have been read.
+ *
+ * @note Maps in JSON are unordered, so it is recommended not to expect
+ * a specific ordering for your map values in case your data is converted
+ * to/from JSON.
+ *
+ * @throws mpack_error_type if the value is not a map or if its size
+ * does not match the given count.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='377' ll='380' type='void mpack_expect_map_match(mpack_reader_t * reader, uint32_t count)'/>

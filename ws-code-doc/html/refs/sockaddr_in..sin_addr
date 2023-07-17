@@ -1,0 +1,6 @@
+<dec f='include/netinet/in.h' l='241' type='struct in_addr'/>
+<offset>32</offset>
+<doc f='include/netinet/in.h' l='241'>/* Internet address.  */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='61' u='a' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='76' u='a' c='tomgaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='429' u='a' c='mg_socketpair'/>

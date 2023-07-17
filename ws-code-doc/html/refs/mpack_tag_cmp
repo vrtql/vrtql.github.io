@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='666' type='int mpack_tag_cmp(mpack_tag_t left, mpack_tag_t right)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='685' u='c' c='mpack_tag_equal'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='652'>/**
+ * Compares two tags with an arbitrary fixed ordering. Returns 0 if the tags are
+ * equal, a negative integer if left comes before right, or a positive integer
+ * otherwise.
+ *
+ * \warning The ordering is not guaranteed to be preserved across MPack versions; do
+ * not rely on it in persistent data.
+ *
+ * \warning Floating point numbers are compared bit-for-bit, not using the language&apos;s
+ * operator==. This means that NaNs with matching representation will compare equal.
+ * This behaviour is up for debate; see comments in the definition of mpack_tag_cmp().
+ *
+ * See mpack_tag_equal() for more information on when tags are considered equal.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-common.c' l='80' ll='154' type='int mpack_tag_cmp(mpack_tag_t left, mpack_tag_t right)'/>

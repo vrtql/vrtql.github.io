@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='679' type='const yyjson_read_flag'/>
+<use f='codebrowser/src/util/yyjson.h' l='921' u='r' c='yyjson_read_max_memory_usage'/>
+<doc f='codebrowser/src/util/yyjson.h' l='676'>/** Stop when done instead of issuing an error if there&apos;s additional content
+    after a JSON document. This option may be used to parse small pieces of JSON
+    in larger data, such as `NDJSON`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5548' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5647' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5937' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6037' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6368' macro='1' u='r' c='read_root_pretty'/>

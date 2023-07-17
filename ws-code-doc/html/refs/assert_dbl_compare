@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/ctest.h' l='229' type='void assert_dbl_compare(const char * cmp, double exp, double real, double tol, const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='425' ll='439' type='void assert_dbl_compare(const char * cmp, double exp, double real, double tol, const char * caller, int line)'/>
+<doc f='codebrowser/src/test/ctest.h' l='424'>/* tol &lt; 0 means it is an epsilon, else absolute error */</doc>

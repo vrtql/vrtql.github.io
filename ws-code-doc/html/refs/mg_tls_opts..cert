@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1339' type='const char *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1339'>// Certificate</doc>
+<use f='codebrowser/src/test/server.c' l='24' u='w' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='41' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='41' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' u='r' c='mg_tls_init'/>

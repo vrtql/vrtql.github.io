@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='871' type='size_t'/>
+<offset>64</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' u='w' c='mg_queue_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' u='r' c='mg_queue_book'/>

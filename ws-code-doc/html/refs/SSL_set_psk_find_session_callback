@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='854' type='void SSL_set_psk_find_session_callback(SSL * s, SSL_psk_find_session_cb_func cb)'/>

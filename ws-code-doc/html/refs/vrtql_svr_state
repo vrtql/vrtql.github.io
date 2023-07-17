@@ -1,0 +1,5 @@
+<def f='codebrowser/src/server.h' l='175' ll='186'/>
+<use f='codebrowser/src/server.h' l='175'/>
+<doc f='codebrowser/src/server.h' l='172'>/**
+ * @brief Enumerates server state
+ */</doc>

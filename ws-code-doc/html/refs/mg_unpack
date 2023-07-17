@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.c' l='12' type='const char * mg_unpack(const char * path, size_t * size, time_t * mtime)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='17' ll='20' type='const char * mg_unpack(const char * path, size_t * size, time_t * mtime)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='c' c='packed_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' u='c' c='packed_open'/>

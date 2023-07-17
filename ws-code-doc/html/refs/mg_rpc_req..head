@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1597' type='struct mg_rpc **'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1597'>// RPC handlers list head</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' u='r' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' u='r' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='101' u='r' c='mg_rpc_list'/>

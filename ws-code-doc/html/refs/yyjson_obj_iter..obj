@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1859' type='yyjson_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5077' u='w' c='yyjson_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5122' u='r' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5135' u='r' c='yyjson_obj_iter_getn'/>
+<offset>192</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='1859'>/**&lt; the object being iterated */</doc>

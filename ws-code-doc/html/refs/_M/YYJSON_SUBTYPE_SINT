@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/util/yyjson.h' l='527'/>
+<use f='codebrowser/src/util/yyjson.h' l='4517' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4522' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4577' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4669' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4823' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5591' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5840' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5848' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5856' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5864' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6789' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6799' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='526'>/** Signed integer subtype: `int64_t`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1536' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1538' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='7387' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='233' type='vrtql_svr_read'/>
+<use f='codebrowser/src/server.c' l='819' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1138' u='r' c='svr_on_read'/>
+<offset>4160</offset>
+<doc f='codebrowser/src/server.h' l='232'>/**&lt; Callback function for reading incoming data */</doc>

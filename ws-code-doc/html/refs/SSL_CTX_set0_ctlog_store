@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='2258' type='void SSL_CTX_set0_ctlog_store(SSL_CTX * ctx, CTLOG_STORE * logs)'/>
+<doc f='include/openssl/ssl.h' l='2254'>/*
+ * Sets the CT log list used by all SSL connections created from this SSL_CTX.
+ * Ownership of the CTLOG_STORE is transferred to the SSL_CTX.
+ */</doc>

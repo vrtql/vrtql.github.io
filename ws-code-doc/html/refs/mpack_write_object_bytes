@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='631' type='void mpack_write_object_bytes(mpack_writer_t * writer, const char * data, size_t bytes)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='630'>/** Write a pre-encoded messagepack object */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='660' ll='663' type='void mpack_write_object_bytes(mpack_writer_t * writer, const char * data, size_t bytes)'/>

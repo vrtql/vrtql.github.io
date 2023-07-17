@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='760' ll='767'/>
+<use f='codebrowser/src/util/yyjson.h' l='760'/>
+<size>24</size>
+<doc f='codebrowser/src/util/yyjson.h' l='759'>/** Error information for JSON reader. */</doc>
+<mbr r='yyjson_read_err::code' o='0' t='yyjson_read_code'/>
+<mbr r='yyjson_read_err::msg' o='64' t='const char *'/>
+<mbr r='yyjson_read_err::pos' o='128' t='size_t'/>

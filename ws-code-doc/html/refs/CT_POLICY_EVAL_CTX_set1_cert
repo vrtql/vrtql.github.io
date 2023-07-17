@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='83' type='int CT_POLICY_EVAL_CTX_set1_cert(CT_POLICY_EVAL_CTX * ctx, X509 * cert)'/>
+<doc f='include/openssl/ct.h' l='78'>/*
+ * Sets the certificate associated with the received SCTs.
+ * Increments the reference count of cert.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

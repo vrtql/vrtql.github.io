@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='699' type='mpack_type_t mpack_node_type(mpack_node_t node)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1906' u='c' c='mpack_node_enum_optional'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1934' ll='1938' type='mpack_type_t mpack_node_type(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='696'>/**
+ * Returns the type of the node.
+ */</doc>

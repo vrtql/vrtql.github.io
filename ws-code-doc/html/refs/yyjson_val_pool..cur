@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5194' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5248' u='r' c='unsafe_yyjson_mut_val'/>
+<use f='codebrowser/src/util/yyjson.h' l='5253' u='r' c='unsafe_yyjson_mut_val'/>
+<use f='codebrowser/src/util/yyjson.h' l='5254' u='w' c='unsafe_yyjson_mut_val'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5194'>/* cursor inside current chunk */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1209' u='w' c='unsafe_yyjson_val_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='8694' u='r' c='yyjson_mut_doc_estimated_val_num'/>

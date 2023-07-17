@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='643' type='int SSL_SRP_CTX_init(SSL * s)'/>
+<doc f='include/openssl/ssl.h' l='642'>/* see tls_srp.c */</doc>

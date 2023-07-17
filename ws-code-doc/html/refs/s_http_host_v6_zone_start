@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/http_parser.c' l='474' type='9'/>
+<use f='codebrowser/src/http_parser.c' l='2408' u='r' c='http_parse_host_char'/>
+<use f='codebrowser/src/http_parser.c' l='2418' c='http_parse_host_char'/>
+<use f='codebrowser/src/http_parser.c' l='2475' c='http_parse_host'/>
+<use f='codebrowser/src/http_parser.c' l='2509' c='http_parse_host'/>

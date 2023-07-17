@@ -1,0 +1,1 @@
+<dec f='include/openssl/comp.h' l='25' type='const COMP_METHOD * COMP_CTX_get_method(const COMP_CTX * ctx)'/>

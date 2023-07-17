@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='811' ll='814' macro='1' type='void mpack_encode_bin8(char * p, uint8_t count)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1188' u='c' c='mpack_start_bin_notrack'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='152' type='sct_version_t SCT_get_version(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='149'>/*
+ * Returns the version of the SCT.
+ */</doc>

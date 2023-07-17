@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='70'/>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='69'>/* Valid opcodes ( &quot;op&quot; parameter ) to issue to epoll_ctl().  */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1317' type='void mg_http_creds(struct mg_http_message * , char * , size_t , char * , size_t )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='829' ll='849' type='void mg_http_creds(struct mg_http_message * hm, char * user, size_t userlen, char * pass, size_t passlen)'/>

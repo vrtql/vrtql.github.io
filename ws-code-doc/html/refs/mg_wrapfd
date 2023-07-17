@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1236' type='struct mg_connection * mg_wrapfd(struct mg_mgr * mgr, int fd, mg_event_handler_t fn, void * fn_data)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='193' ll='205' type='struct mg_connection * mg_wrapfd(struct mg_mgr * mgr, int fd, mg_event_handler_t fn, void * fn_data)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='468' u='c' c='mg_mkpipe'/>

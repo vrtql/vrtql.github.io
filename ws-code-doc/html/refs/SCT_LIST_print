@@ -1,0 +1,8 @@
+<dec f='include/openssl/ct.h' l='290' type='void SCT_LIST_print(const struct stack_st_SCT * sct_list, BIO * out, int indent, const char * separator, const CTLOG_STORE * logs)'/>
+<doc f='include/openssl/ct.h' l='283'>/*
+ * Pretty-prints an |sct_list| to |out|.
+ * It will be indented by the number of spaces specified by |indent|.
+ * SCTs will be delimited by |separator|.
+ * If |logs| is not NULL, it will be used to lookup the CT log that each SCT
+ * came from, so that the log names can be printed.
+ */</doc>

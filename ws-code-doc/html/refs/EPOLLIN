@@ -1,0 +1,18 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='36' type='1'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' macro='1' u='r' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' macro='1' u='r' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='340' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='340' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' macro='1' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' macro='1' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='526' macro='1' u='r' c='mg_iotest'/>

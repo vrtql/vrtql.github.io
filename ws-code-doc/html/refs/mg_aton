@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1242' type='_Bool mg_aton(struct mg_str str, struct mg_addr * addr)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='260' u='c' c='mg_resolve'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='117' ll='121' macro='1' type='_Bool mg_aton(struct mg_str str, struct mg_addr * addr)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' u='c' c='mg_open_listener'/>

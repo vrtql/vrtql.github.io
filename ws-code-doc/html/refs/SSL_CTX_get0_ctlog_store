@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='2267' type='const CTLOG_STORE * SSL_CTX_get0_ctlog_store(const SSL_CTX * ctx)'/>
+<doc f='include/openssl/ssl.h' l='2260'>/*
+ * Gets the CT log list used by all SSL connections created from this SSL_CTX.
+ * This will be NULL unless one of the following functions has been called:
+ * - SSL_CTX_set_default_ctlog_list_file
+ * - SSL_CTX_set_ctlog_list_file
+ * - SSL_CTX_set_ctlog_store
+ */</doc>

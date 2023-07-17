@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1314' type='int mg_http_get_var(const struct mg_str * , const char * name, char * , size_t )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='123' ll='141' type='int mg_http_get_var(const struct mg_str * buf, const char * name, char * dst, size_t dst_len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='847' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='882' u='c' c='mg_http_upload'/>

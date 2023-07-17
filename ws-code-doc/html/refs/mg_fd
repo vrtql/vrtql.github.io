@@ -1,0 +1,19 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1004' ll='1007'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1009' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1010' c='mg_fs_close'/>
+<size>16</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1003'>// File descriptor</doc>
+<mbr r='mg_fd::fd' o='0' t='void *'/>
+<mbr r='mg_fd::fs' o='64' t='struct mg_fs *'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='5' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='18' c='mg_fs_close'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='26' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='408' c='restore_http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='423' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='423' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='526' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='887' c='mg_http_upload'/>
+<size>16</size>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/err.h' l='236' type='char * ERR_error_string(unsigned long e, char * buf)'/>

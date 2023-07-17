@@ -1,0 +1,1 @@
+<def f='codebrowser/src/util/yyjson.h' l='1369' ll='1373' macro='1' type='char * yyjson_val_write(const yyjson_val * val, yyjson_write_flag flg, size_t * len)'/>

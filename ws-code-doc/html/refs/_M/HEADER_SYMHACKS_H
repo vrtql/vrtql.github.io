@@ -1,0 +1,16 @@
+<dec f='include/openssl/symhacks.h' l='11'/>
+<use f='include/openssl/comperr.h' l='14' u='a'/>
+<use f='include/openssl/bioerr.h' l='14' u='a'/>
+<use f='include/openssl/buffererr.h' l='14' u='a'/>
+<use f='include/openssl/bnerr.h' l='14' u='a'/>
+<use f='include/openssl/objectserr.h' l='14' u='a'/>
+<use f='include/openssl/ecerr.h' l='14' u='a'/>
+<use f='include/openssl/rsaerr.h' l='14' u='a'/>
+<use f='include/openssl/dherr.h' l='14' u='a'/>
+<use f='include/openssl/dsaerr.h' l='14' u='a'/>
+<use f='include/openssl/x509err.h' l='14' u='a'/>
+<use f='include/openssl/pkcs7err.h' l='14' u='a'/>
+<use f='include/openssl/pemerr.h' l='14' u='a'/>
+<use f='include/openssl/asyncerr.h' l='14' u='a'/>
+<use f='include/openssl/cterr.h' l='14' u='a'/>
+<use f='include/openssl/sslerr.h' l='14' u='a'/>

@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='692' type='const char * mpack_read_utf8_inplace(mpack_reader_t * reader, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='658'>/**
+ * Reads bytes from a string in-place in the buffer and ensures they are
+ * valid UTF-8. This can be used to avoid copying the data.
+ *
+ * A string must have been opened by a call to mpack_read_tag() which
+ * yielded a string, or by a call to an expect function such as
+ * mpack_expect_str().
+ *
+ * The string is not null-terminated! Use mpack_read_utf8_cstr() to
+ * copy the string into a buffer and add a null-terminator.
+ *
+ * The returned pointer is invalidated on the next read, or when the buffer
+ * is destroyed.
+ *
+ * The reader will move data around in the buffer if needed to ensure that
+ * the pointer can always be returned, so this should only be used if
+ * count is very small compared to the buffer size. If you need to check
+ * whether a small size is reasonable (for example you intend to handle small and
+ * large sizes differently), you can call mpack_should_read_bytes_inplace().
+ *
+ * This does not accept any UTF-8 variant such as Modified UTF-8, CESU-8 or
+ * WTF-8. Only pure UTF-8 is allowed.
+ *
+ * Unlike mpack_read_bytes_inplace(), this cannot be used to read the data in
+ * chunks (since this might split a character&apos;s UTF-8 bytes, and the
+ * reader does not keep track of the UTF-8 decoding state between reads.)
+ *
+ * NULL is returned if the reader is in an error state.
+ *
+ * @throws mpack_error_type if the string contains invalid UTF-8
+ * @throws mpack_error_too_big if the requested size is larger than the buffer size
+ *
+ * @see mpack_should_read_bytes_inplace()
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='569' ll='579' type='const char * mpack_read_utf8_inplace(mpack_reader_t * reader, size_t count)'/>

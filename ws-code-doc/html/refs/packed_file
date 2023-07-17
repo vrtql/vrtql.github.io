@@ -1,0 +1,8 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='6' ll='10'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='68' c='packed_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' c='packed_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='83' c='packed_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='83' c='packed_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' c='packed_seek'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' c='packed_seek'/>
+<size>24</size>

@@ -1,0 +1,2 @@
+<use f='codebrowser/src/mpack/mpack-expect.c' l='69' u='c' c='mpack_expect_type_byte'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='939' u='c' c='mpack_read_tag'/>

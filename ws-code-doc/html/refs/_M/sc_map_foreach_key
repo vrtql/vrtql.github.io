@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/sc_map.h' l='192'/>
+<doc f='codebrowser/src/util/sc_map.h' l='182'>/**
+ * Foreach loop for keys
+ *
+ * char *key;
+ * struct sc_map_str map;
+ *
+ * sc_map_foreach_key(&amp;map, key) {
+ *      printf(&quot;key = %s \n&quot;);
+ * }
+ */</doc>

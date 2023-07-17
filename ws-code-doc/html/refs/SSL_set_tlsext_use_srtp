@@ -1,0 +1,1 @@
+<dec f='include/openssl/srtp.h' l='39' type='int SSL_set_tlsext_use_srtp(SSL * ssl, const char * profiles)'/>

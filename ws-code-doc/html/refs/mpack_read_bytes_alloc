@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='621' ll='623' macro='1' type='char * mpack_read_bytes_alloc(mpack_reader_t * reader, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='733' u='c' c='mpack_expect_bin_alloc'/>

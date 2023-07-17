@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1273' type='struct mg_http_header [30]'/>
+<offset>512</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1273'>// Headers</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='195' u='r' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='195' u='r' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='196' u='m' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' u='m' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' u='m' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='252' u='r' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='253' u='r' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='253' u='r' c='mg_http_parse'/>

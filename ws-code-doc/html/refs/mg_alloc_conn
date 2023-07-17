@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1246' type='struct mg_connection * mg_alloc_conn(struct mg_mgr * )'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1245'>// These functions are used to integrate with custom network stacks</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='123' ll='132' type='struct mg_connection * mg_alloc_conn(struct mg_mgr * mgr)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='156' u='c' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='175' u='c' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='195' u='c' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='397' u='c' c='accept_conn'/>

@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1239' type='_Bool mg_send(struct mg_connection * , const void * , size_t )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='222' u='c' c='mg_dns_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='293' u='c' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='300' u='c' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='312' u='c' c='mg_http_write_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='313' u='c' c='mg_http_write_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='60' u='c' c='mg_mqtt_send_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_send_u16'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='68' u='c' c='mg_send_u32'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='169' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='171' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='175' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='180' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='198' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='296' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='303' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='310' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='312' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='316' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='320' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='335' u='c' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='343' u='c' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='357' u='c' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='358' u='c' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='466' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='470' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='480' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='487' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='518' u='c' c='mg_mqtt_disconnect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='c' c='mg_sntp_request'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='138' ll='148' macro='1' type='_Bool mg_send(struct mg_connection * c, const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='59' u='c' c='ws_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='137' u='c' c='mg_ws_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='139' u='c' c='mg_ws_send'/>

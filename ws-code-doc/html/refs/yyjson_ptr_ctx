@@ -1,0 +1,25 @@
+<def f='codebrowser/src/util/yyjson.h' l='3748' ll='3771'/>
+<use f='codebrowser/src/util/yyjson.h' l='3748'/>
+<size>24</size>
+<doc f='codebrowser/src/util/yyjson.h' l='3729'>/**
+ A context for JSON pointer operation.
+ 
+ This struct stores the context of JSON Pointer operation result. The struct
+ can be used with three helper functions: `ctx_append()`, `ctx_replace()`, and
+ `ctx_remove()`, which perform the corresponding operations on the container
+ without re-parsing the JSON Pointer.
+ 
+ For example:
+ @code
+    // doc before: {&quot;a&quot;:[0,1,null]}
+    // ptr: &quot;/a/2&quot;
+    val = yyjson_mut_doc_ptr_getx(doc, ptr, strlen(ptr), &amp;ctx, &amp;err);
+    if (yyjson_is_null(val)) {
+        yyjson_ptr_ctx_remove(&amp;ctx);
+    }
+    // doc after: {&quot;a&quot;:[0,1]}
+ @endcode
+ */</doc>
+<mbr r='yyjson_ptr_ctx::ctn' o='0' t='yyjson_mut_val *'/>
+<mbr r='yyjson_ptr_ctx::pre' o='64' t='yyjson_mut_val *'/>
+<mbr r='yyjson_ptr_ctx::old' o='128' t='yyjson_mut_val *'/>

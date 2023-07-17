@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='879' type='size_t mg_queue_next(struct mg_queue * , char ** )'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='879'>// Get oldest message</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='59' ll='71' type='size_t mg_queue_next(struct mg_queue * q, char ** buf)'/>

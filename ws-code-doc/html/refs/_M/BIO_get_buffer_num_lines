@@ -1,0 +1,2 @@
+<dec f='include/openssl/bio.h' l='470'/>
+<doc f='include/openssl/bio.h' l='469'>/* For the BIO_f_buffer() type */</doc>

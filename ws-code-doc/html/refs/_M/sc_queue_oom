@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='131'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='127'>/**
+ * @param q queue
+ * @return true if last add operation failed, false otherwise.
+ */</doc>

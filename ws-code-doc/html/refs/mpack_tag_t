@@ -1,0 +1,6 @@
+<use f='codebrowser/src/mpack/mpack-common.h' l='240'/>
+<def f='codebrowser/src/mpack/mpack-common.h' l='244' ll='276'/>
+<size>16</size>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='243'>/** @cond */</doc>
+<mbr r='mpack_tag_t::type' o='0' t='mpack_type_t'/>
+<mbr r='mpack_tag_t::v' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/client/src/mpack/mpack-common.h:252:5)'/>

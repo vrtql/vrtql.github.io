@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1753' type='SSL_DANE * SSL_get0_dane(SSL * ssl)'/>
+<doc f='include/openssl/ssl.h' l='1749'>/*
+ * Bridge opacity barrier between libcrypt and libssl, also needed to support
+ * offline testing in test/danetest.c
+ */</doc>

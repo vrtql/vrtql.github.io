@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1916' type='struct stack_st_SSL_CIPHER * SSL_get1_supported_ciphers(SSL * s)'/>

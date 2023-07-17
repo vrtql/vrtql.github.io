@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='101'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='97'>/**
+ *   Init queue. Call sc_queue_oom(q) to see if memory allocation succeeded.
+ *   @param q queue
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='88' u='c'/>
+<use f='codebrowser/src/websocket.c' l='289' u='c'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1241' type='size_t mg_vprintf(struct mg_connection * , const char * fmt, va_list * ap)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='10' ll='14' type='size_t mg_vprintf(struct mg_connection * c, const char * fmt, va_list * ap)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='20' u='c' c='mg_printf'/>

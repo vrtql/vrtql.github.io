@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1142' type='11'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1142'>// HTTP chunk (partial msg)     struct mg_http_message *</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='971' u='r' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1002' u='r' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1007' u='r' c='deliver_normal_chunks'/>

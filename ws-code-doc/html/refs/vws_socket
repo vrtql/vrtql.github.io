@@ -1,0 +1,16 @@
+<use f='codebrowser/src/socket.h' l='25'/>
+<def f='codebrowser/src/socket.h' l='30' ll='56'/>
+<use f='codebrowser/src/socket.h' l='30'/>
+<use f='codebrowser/src/websocket.h' l='209'/>
+<size>56</size>
+<doc f='codebrowser/src/socket.h' l='27'>/**
+ * @brief A socket
+ */</doc>
+<mbr r='vws_socket::sockfd' o='0' t='int'/>
+<mbr r='vws_socket::ssl_ctx' o='64' t='SSL_CTX *'/>
+<mbr r='vws_socket::ssl' o='128' t='SSL *'/>
+<mbr r='vws_socket::buffer' o='192' t='vrtql_buffer *'/>
+<mbr r='vws_socket::timeout' o='256' t='int'/>
+<mbr r='vws_socket::trace' o='288' t='uint8_t'/>
+<mbr r='vws_socket::data' o='320' t='char *'/>
+<mbr r='vws_socket::hs' o='384' t='vws_socket_hs'/>

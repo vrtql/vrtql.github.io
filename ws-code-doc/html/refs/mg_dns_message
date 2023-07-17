@@ -1,0 +1,14 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1541' ll='1546'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1567' c='mg_dns_parse'/>
+<size>280</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1537'>// Mongoose sends DNS queries that contain only one question:
+// either A (IPv4) or AAAA (IPv6) address lookup.
+// Therefore, we expect zero or one answer.
+// If `resolved` is true, then `addr` contains resolved IPv4 or IPV6 address.</doc>
+<mbr r='mg_dns_message::txnid' o='0' t='uint16_t'/>
+<mbr r='mg_dns_message::resolved' o='16' t='_Bool'/>
+<mbr r='mg_dns_message::addr' o='32' t='struct mg_addr'/>
+<mbr r='mg_dns_message::name' o='192' t='char [256]'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='100' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='150' c='dns_cb'/>
+<size>280</size>

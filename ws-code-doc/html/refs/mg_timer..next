@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='963' type='struct mg_timer *'/>
+<offset>384</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='963'>// Linkage</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='220' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='10' u='w' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='15' u='a' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='16' u='r' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34' u='r' c='mg_timer_poll'/>

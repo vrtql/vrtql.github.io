@@ -1,0 +1,79 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='614' type='void mpack_node_flag_error(mpack_node_t node, mpack_error_t error)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1249' ll='1251' type='void mpack_node_flag_error(mpack_node_t node, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1493' u='c' c='mpack_node_check_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1501' u='c' c='mpack_node_check_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1516' u='c' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1521' u='c' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1537' u='c' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1542' u='c' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1547' u='c' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1569' u='c' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1575' u='c' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1581' u='c' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1603' u='c' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1609' u='c' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1615' u='c' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1635' u='c' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1640' u='c' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1646' u='c' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1661' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1666' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1671' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1676' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1682' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1698' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1703' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1708' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1713' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1719' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1739' u='c' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1753' u='c' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1771' u='c' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1785' u='c' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1805' u='c' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1819' u='c' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1930' u='c' c='mpack_node_enum'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1960' u='c' c='mpack_node_nil'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1967' u='c' c='mpack_node_missing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1977' u='c' c='mpack_node_bool'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1983' u='c' c='mpack_node_true'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1988' u='c' c='mpack_node_false'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2003' u='c' c='mpack_node_u8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2019' u='c' c='mpack_node_i8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2035' u='c' c='mpack_node_u16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2051' u='c' c='mpack_node_i16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2067' u='c' c='mpack_node_u32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2083' u='c' c='mpack_node_i32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2098' u='c' c='mpack_node_u64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2113' u='c' c='mpack_node_i64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2128' u='c' c='mpack_node_uint'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2143' u='c' c='mpack_node_int'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2167' u='c' c='mpack_node_float'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2186' u='c' c='mpack_node_double'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2199' u='c' c='mpack_node_float_strict'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2214' u='c' c='mpack_node_double_strict'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2270' u='c' c='mpack_node_data_len'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2281' u='c' c='mpack_node_strlen'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2293' u='c' c='mpack_node_str'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2309' u='c' c='mpack_node_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2320' u='c' c='mpack_node_bin_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2331' u='c' c='mpack_node_bin_size'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2340' u='c' c='mpack_node_array_length'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2352' u='c' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2357' u='c' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2369' u='c' c='mpack_node_map_count'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2382' u='c' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2387' u='c' c='mpack_node_map_at'/>
+<doc f='codebrowser/src/mpack/mpack-node.c' l='1245'>/*
+ * Node misc functions
+ */</doc>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='604'>/**
+ * Places the node&apos;s tree in the given error state, calling the error callback
+ * if one is set.
+ *
+ * This allows you to externally flag errors, for example if you are validating
+ * data as you read it.
+ *
+ * If the tree is already in an error state, this call is ignored and no
+ * error callback is called.
+ */</doc>

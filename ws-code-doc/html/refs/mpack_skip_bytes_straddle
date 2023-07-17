@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-reader.c' l='364' ll='393' macro='1' type='void mpack_skip_bytes_straddle(mpack_reader_t * reader, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='410' u='c' c='mpack_skip_bytes'/>

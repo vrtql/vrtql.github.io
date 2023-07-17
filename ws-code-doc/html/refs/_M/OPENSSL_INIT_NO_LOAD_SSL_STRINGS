@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2358'/>
+<doc f='include/openssl/ssl.h' l='2357'>/* OPENSSL_INIT flag 0x010000 reserved for internal use */</doc>

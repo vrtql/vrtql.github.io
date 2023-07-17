@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl3.h' l='234'/>
+<doc f='include/openssl/ssl3.h' l='233'>/* Pseudo content types for SSL/TLS header info */</doc>

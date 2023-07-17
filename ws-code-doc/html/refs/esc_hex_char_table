@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.c' l='7498' ll='7564' macro='1' type='const u8 [512]'/>
+<use f='codebrowser/src/util/yyjson.c' l='7876' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7889' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7890' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7905' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7906' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7924' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7925' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7927' u='a' c='write_string'/>
+<use f='codebrowser/src/util/yyjson.c' l='7928' u='a' c='write_string'/>

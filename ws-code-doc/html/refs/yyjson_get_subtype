@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1576' type='yyjson_subtype yyjson_get_subtype(yyjson_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4804' ll='4806' macro='1' type='yyjson_subtype yyjson_get_subtype(yyjson_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5346' u='c' c='yyjson_mut_get_subtype'/>

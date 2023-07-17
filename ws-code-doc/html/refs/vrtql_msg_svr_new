@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/server.h' l='378' type='vrtql_msg_svr * vrtql_msg_svr_new(int pool_size, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='1580' ll='1603' type='vrtql_msg_svr * vrtql_msg_svr_new(int num_threads, int backlog, int queue_size)'/>
+<doc f='codebrowser/src/server.h' l='368'>/**
+ * @brief Creates a new VRTQL message server.
+ *
+ * @param pool_size The number of threads to run in worker pool
+ * @param backlog The connection backlog for listen(). If this is set to 0 it
+ *   will use default (128)
+ * @param queue_size The maximum queue size for requests and responses. If this
+ *   is set to 0 it will use the default (1024).
+ * @return A new VRTQL server.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='49' u='c' c='ctest_test_msg_server_echo_run'/>

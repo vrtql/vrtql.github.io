@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='292' ll='294' macro='1' type='mpack_node_t mpack_tree_missing_node(mpack_tree_t * tree)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1844' u='c' c='mpack_node_wrap_lookup_optional'/>

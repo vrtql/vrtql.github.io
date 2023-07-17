@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='745' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='744'>/** Invalid number, such as `123.e12`, `000`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3838' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='5571' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5571' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5958' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5958' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6389' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6389' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6720' macro='1' u='r' c='yyjson_read_number'/>

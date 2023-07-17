@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='190' type='int SCT_set1_log_id(SCT * sct, const unsigned char * log_id, size_t log_id_len)'/>
+<doc f='include/openssl/ct.h' l='185'>/*
+ * Set the log ID of an SCT.
+ * This makes a copy of the log_id.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

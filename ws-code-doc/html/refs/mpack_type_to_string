@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='214' type='const char * mpack_type_to_string(mpack_type_t type)'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='210'>/**
+ * Converts an MPack type to a string. This function returns an empty
+ * string when MPACK_DEBUG is not set.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-common.c' l='52' ll='78' type='const char * mpack_type_to_string(mpack_type_t type)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1069' type='unsigned short mg_url_port(const char * url)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259' u='c' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='c' c='mg_open_listener'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='56' ll='66' type='unsigned short mg_url_port(const char * url)'/>

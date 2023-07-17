@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1856' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='5074' u='w' c='yyjson_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5091' u='r' c='yyjson_obj_iter_has_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5095' u='r' c='yyjson_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5097' u='w' c='yyjson_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5117' u='r' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5127' u='w' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5132' u='r' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5134' u='r' c='yyjson_obj_iter_getn'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='1856'>/**&lt; next key&apos;s index */</doc>

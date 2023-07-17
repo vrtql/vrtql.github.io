@@ -1,0 +1,17 @@
+<use f='codebrowser/src/mpack/mpack-writer.h' l='66'/>
+<def f='codebrowser/src/mpack/mpack-writer.h' l='164' ll='191'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='781' c='mpack_build_array'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='821' c='mpack_build_map'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='828' c='mpack_complete_array'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='835' c='mpack_complete_map'/>
+<size>136</size>
+<mbr r='mpack_writer_t::flush' o='0' t='mpack_writer_flush_t'/>
+<mbr r='mpack_writer_t::error_fn' o='64' t='mpack_writer_error_t'/>
+<mbr r='mpack_writer_t::teardown' o='128' t='mpack_writer_teardown_t'/>
+<mbr r='mpack_writer_t::context' o='192' t='void *'/>
+<mbr r='mpack_writer_t::buffer' o='256' t='char *'/>
+<mbr r='mpack_writer_t::position' o='320' t='char *'/>
+<mbr r='mpack_writer_t::end' o='384' t='char *'/>
+<mbr r='mpack_writer_t::error' o='448' t='mpack_error_t'/>
+<mbr r='mpack_writer_t::reserved' o='512' t='void *[2]'/>
+<mbr r='mpack_writer_t::builder' o='640' t='mpack_builder_t'/>

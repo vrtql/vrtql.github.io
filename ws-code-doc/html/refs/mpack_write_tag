@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='548' type='void mpack_write_tag(mpack_writer_t * writer, mpack_tag_t tag)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='532'>/**
+ * Writes a MessagePack object header (an MPack Tag.)
+ *
+ * If the value is a map, array, string, binary or extension type, the
+ * containing elements or bytes must be written separately and the
+ * appropriate finish function must be called (as though one of the
+ * mpack_start_*() functions was called.)
+ *
+ * @see mpack_write_bytes()
+ * @see mpack_finish_map()
+ * @see mpack_finish_array()
+ * @see mpack_finish_str()
+ * @see mpack_finish_bin()
+ * @see mpack_finish_ext()
+ * @see mpack_finish_type()
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='592' ll='636' type='void mpack_write_tag(mpack_writer_t * writer, mpack_tag_t value)'/>

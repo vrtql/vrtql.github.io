@@ -1,0 +1,11 @@
+<def f='include/netinet/in.h' l='237' ll='248'/>
+<use f='include/netinet/in.h' l='502' c='bindresvport'/>
+<use f='codebrowser/src/server.c' l='695' c='vrtql_svr_run'/>
+<size>16</size>
+<doc f='include/netinet/in.h' l='236'>/* Structure describing an Internet socket address.  */</doc>
+<mbr r='sockaddr_in::sin_family' o='0' t='sa_family_t'/>
+<mbr r='sockaddr_in::sin_port' o='16' t='in_port_t'/>
+<mbr r='sockaddr_in::sin_addr' o='32' t='struct in_addr'/>
+<mbr r='sockaddr_in::sin_zero' o='64' t='unsigned char [8]'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='50'/>
+<size>16</size>

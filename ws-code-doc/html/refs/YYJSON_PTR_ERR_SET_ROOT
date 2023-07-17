@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='3714' type='const yyjson_ptr_code'/>
+<use f='codebrowser/src/util/yyjson.h' l='7141' macro='1' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7203' macro='1' u='r' c='yyjson_mut_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7307' macro='1' u='r' c='yyjson_mut_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7388' macro='1' u='r' c='yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7462' macro='1' u='r' c='yyjson_mut_ptr_removex'/>
+<doc f='codebrowser/src/util/yyjson.h' l='3713'>/** Cannot set root as the target is not a document. */</doc>

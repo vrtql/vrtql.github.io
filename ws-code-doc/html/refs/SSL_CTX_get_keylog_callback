@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='929' type='SSL_CTX_keylog_cb_func SSL_CTX_get_keylog_callback(const SSL_CTX * ctx)'/>
+<doc f='include/openssl/ssl.h' l='925'>/*
+ * SSL_CTX_get_keylog_callback returns the callback configured by
+ * SSL_CTX_set_keylog_callback.
+ */</doc>

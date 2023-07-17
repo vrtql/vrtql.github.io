@@ -1,0 +1,21 @@
+<def f='codebrowser/src/util/yyjson.h' l='674' type='const yyjson_read_flag'/>
+<use f='codebrowser/src/util/yyjson.h' l='864' u='r' c='yyjson_read'/>
+<use f='codebrowser/src/util/yyjson.h' l='918' u='r' c='yyjson_read_max_memory_usage'/>
+<doc f='codebrowser/src/util/yyjson.h' l='668'>/** Read the input data in-situ.
+    This option allows the reader to modify and use input data to store string
+    values, which can increase reading speed slightly.
+    The caller should hold the input data before free the document.
+    The input data must be padded by at least `YYJSON_PADDING_SIZE` bytes.
+    For example: `[1,2]` should be `[1,2]\0\0\0\0`, input length should be 5. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5565' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5952' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6383' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6450' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6453' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6457' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6463' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6467' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6479' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6488' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6523' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6639' u='r' c='yyjson_read_fp'/>

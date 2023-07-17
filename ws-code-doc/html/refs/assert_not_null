@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/ctest.h' l='217' type='void assert_not_null(const void * real, const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='447' ll='451' type='void assert_not_null(const void * real, const char * caller, int line)'/>

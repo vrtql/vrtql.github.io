@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1481' type='uint8_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1481'>// Enumerated at MQTT5 Reference</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' u='r' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='171' u='a' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='171' u='r' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='172' u='r' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='209' u='w' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='215' u='r' c='mg_mqtt_next_prop'/>

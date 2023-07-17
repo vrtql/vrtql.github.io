@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1197' type='struct mg_addr'/>
+<offset>288</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1197'>// Remote address</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='164' u='m' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='165' u='w' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='167' u='a' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259' u='m' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='260' u='a' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' u='a' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='126' u='a' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='246' u='a' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='248' u='a' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='334' u='m' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='351' u='a' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='360' u='a' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='401' u='a' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='415' u='a' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='473' u='a' c='mg_mkpipe'/>

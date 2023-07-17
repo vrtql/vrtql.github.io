@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1516' type='struct mg_connection * mg_mqtt_connect(struct mg_mgr * , const char * url, const struct mg_mqtt_opts * opts, mg_event_handler_t fn, void * fn_data)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='523' ll='534' type='struct mg_connection * mg_mqtt_connect(struct mg_mgr * mgr, const char * url, const struct mg_mqtt_opts * opts, mg_event_handler_t fn, void * fn_data)'/>

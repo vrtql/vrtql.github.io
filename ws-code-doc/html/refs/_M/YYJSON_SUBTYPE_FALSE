@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='521'/>
+<use f='codebrowser/src/util/yyjson.h' l='4538' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4657' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4821' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5554' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6761' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='520'>/** False subtype: `false` literal. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3595' u='c'/>

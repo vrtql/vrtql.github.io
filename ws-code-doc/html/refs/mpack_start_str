@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='977' type='void mpack_start_str(mpack_writer_t * writer, uint32_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='966'>/**
+ * Opens a string. `count` bytes should be written with calls to
+ * mpack_write_bytes(), and mpack_finish_str() should be called
+ * when done.
+ *
+ * To write an entire string at once, use mpack_write_str() or
+ * mpack_write_cstr() instead.
+ *
+ * MPack does not care about the underlying encoding, but UTF-8 is highly
+ * recommended, especially for compatibility with JSON.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='621' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1196' ll='1200' type='void mpack_start_str(mpack_writer_t * writer, uint32_t count)'/>

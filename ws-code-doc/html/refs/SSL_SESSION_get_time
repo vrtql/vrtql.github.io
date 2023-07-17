@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1618' type='long SSL_SESSION_get_time(const SSL_SESSION * s)'/>

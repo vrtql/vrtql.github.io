@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='345'/>
+<doc f='include/openssl/evp.h' l='344'>/* EVP_CTRL_BLOCK_PADDING_MODE takes the padding mode */</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='189' type='1'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='301' u='r' c='mpack_tag_make_nil'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='189'>/**&lt; A null value. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='57' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='97' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='386' u='r' c='mpack_expect_map_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='428' u='r' c='mpack_expect_array_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='493' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1012' u='r' c='mpack_tree_init_clear'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1267' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1936' u='r' c='mpack_node_type'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1945' u='r' c='mpack_node_is_nil'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1959' u='r' c='mpack_node_nil'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='599' c='mpack_write_tag'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='855' type='_Bool mg_globmatch(const char * pattern, size_t plen, const char * s, size_t n)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='799' u='c' c='mg_http_serve_dir'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='129' ll='131' macro='1' type='_Bool mg_globmatch(const char * s1, size_t n1, const char * s2, size_t n2)'/>

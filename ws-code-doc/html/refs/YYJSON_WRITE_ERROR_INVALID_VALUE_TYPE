@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='1039' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1038'>/** Invalid value type in JSON document. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8156' macro='1' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8333' macro='1' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8535' macro='1' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8882' macro='1' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9090' macro='1' u='r' c='yyjson_mut_write_pretty'/>

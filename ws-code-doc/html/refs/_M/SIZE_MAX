@@ -1,0 +1,13 @@
+<dec f='include/stdint.h' l='227'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='644' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='645' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='646' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='721' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='722' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='723' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='192' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='278' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1014' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1015' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1133' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1133' u='c'/>

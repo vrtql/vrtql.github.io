@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1238' type='void mg_connect_resolved(struct mg_connection * )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='168' u='c' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='262' u='c' c='mg_resolve'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='332' ll='366' type='void mg_connect_resolved(struct mg_connection * c)'/>

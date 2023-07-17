@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='262' type='sct_source_t SCT_get_source(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='259'>/*
+ * The origin of this SCT, e.g. TLS extension, OCSP response, etc.
+ */</doc>

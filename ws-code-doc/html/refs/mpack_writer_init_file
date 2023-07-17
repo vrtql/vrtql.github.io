@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='287' ll='289' macro='1' type='void mpack_writer_init_file(mpack_writer_t * writer, const char * filename)'/>

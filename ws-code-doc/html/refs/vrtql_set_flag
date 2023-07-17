@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/vrtql.h' l='373' type='void vrtql_set_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vrtql.h' l='366'>/**
+ * @brief Sets a specific flag.
+ *
+ * @param flags The flags to modify
+ * @param flag  The flag to set
+ * @return None
+ */</doc>
+<use f='codebrowser/src/message.c' l='48' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/server.c' l='1408' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/socket.c' l='274' u='c' c='vws_socket_connect'/>
+<def f='codebrowser/src/vrtql.c' l='714' ll='717' type='void vrtql_set_flag(uint64_t * flags, uint64_t flag)'/>
+<use f='codebrowser/src/websocket.c' l='330' u='c' c='vws_cnx_set_server_mode'/>
+<use f='codebrowser/src/websocket.c' l='891' u='c' c='process_frame'/>

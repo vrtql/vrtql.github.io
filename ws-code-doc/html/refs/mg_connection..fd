@@ -1,0 +1,46 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1198' type='void *'/>
+<use f='codebrowser/src/test/client.c' l='31' u='r' c='fn'/>
+<offset>448</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1198'>// Connected socket, or LWIP data</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='21' u='r' c='mg_error'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='142' u='r' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='161' u='w' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='165' u='r' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' u='r' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' u='w' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' macro='1' u='r' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='r' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='233' u='w' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='271' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='282' u='r' c='write_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='setsockopts'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='setsockopts'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='335' u='w' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='340' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='360' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='403' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' macro='1' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='414' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='474' u='r' c='mg_mkpipe'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='r' c='skip_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='118' u='r' c='mg_tls_handshake'/>

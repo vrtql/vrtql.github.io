@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1919' type='int SSL_key_update(SSL * s, int updatetype)'/>

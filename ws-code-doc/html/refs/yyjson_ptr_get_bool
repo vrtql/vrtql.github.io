@@ -1,0 +1,1 @@
+<def f='codebrowser/src/util/yyjson.h' l='7600' ll='7609' macro='1' type='_Bool yyjson_ptr_get_bool(yyjson_val * root, const char * ptr, _Bool * value)'/>

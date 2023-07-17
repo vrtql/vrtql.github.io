@@ -1,0 +1,12 @@
+<def f='codebrowser/src/util/yyjson.h' l='4614' ll='4618' macro='1' type='_Bool unsafe_yyjson_equals_strn(void * val, const char * str, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4621' u='c' c='unsafe_yyjson_equals_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='4877' u='c' c='yyjson_equals_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5058' u='c' c='yyjson_obj_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='5126' u='c' c='yyjson_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6345' u='c' c='yyjson_mut_obj_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6431' u='c' c='yyjson_mut_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6555' u='c' c='unsafe_yyjson_mut_obj_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6584' u='c' c='unsafe_yyjson_mut_obj_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='6626' u='c' c='yyjson_mut_obj_put'/>
+<use f='codebrowser/src/util/yyjson.h' l='6889' u='c' c='yyjson_mut_obj_remove_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6920' u='c' c='yyjson_mut_obj_rename_keyn'/>

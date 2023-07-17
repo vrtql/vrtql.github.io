@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1300'/>
+<use f='codebrowser/src/mpack/mpack-platform.h' l='1306' u='a'/>
+<use f='codebrowser/src/mpack/mpack-platform.h' l='1312' u='a'/>
+<use f='codebrowser/src/mpack/mpack-platform.h' l='1323' u='a'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1264' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1278' u='c'/>

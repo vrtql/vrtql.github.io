@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='168' type='mpack_writer_flush_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='168'>/* Function to write bytes to the output stream */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='99' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='160' u='w' c='mpack_writer_set_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='379' u='r' c='mpack_writer_flush_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='401' u='r' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='437' u='r' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='494' u='r' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='510' u='r' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='579' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='580' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='581' u='w' c='mpack_writer_destroy'/>

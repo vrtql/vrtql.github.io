@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/message.h' l='49' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
+<def f='codebrowser/src/message.c' l='375' ll='378' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
+<doc f='codebrowser/src/message.h' l='43'>/**
+ * @brief Gets a header value by key.
+ * @param msg The vrtql_msg instance.
+ * @param key The header key.
+ * @return The header value. Returns NULL if the key doesn&apos;t exist.
+ */</doc>
+<use f='codebrowser/src/rpc.c' l='178' u='c' c='vrtql_rpc'/>
+<use f='codebrowser/src/test/test_rpc.c' l='68' u='c' c='ctest_test_rpc_call_run'/>

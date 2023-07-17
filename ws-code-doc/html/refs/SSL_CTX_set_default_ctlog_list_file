@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='2243' type='int SSL_CTX_set_default_ctlog_list_file(SSL_CTX * ctx)'/>
+<doc f='include/openssl/ssl.h' l='2236'>/*
+ * Loads the CT log list from the default location.
+ * If a CTLOG_STORE has previously been set using SSL_CTX_set_ctlog_store,
+ * the log information loaded from this file will be appended to the
+ * CTLOG_STORE.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

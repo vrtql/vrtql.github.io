@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/socket.h' l='179' type='ssize_t vws_socket_write(vws_socket * s, ucstr data, size_t size)'/>
+<doc f='codebrowser/src/socket.h' l='169'>/**
+ * @brief Writes data from a buffer to a socket
+ *
+ * @param c The vws_cnx representing the socket
+ * @param data The buffer containing the data to write.
+ * @param size The size of the data to write.
+ * @return The number of bytes written, or an error code if an error occurred.
+ *
+ * @ingroup SocketFunctions
+ */</doc>
+<def f='codebrowser/src/socket.c' l='426' ll='499' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
+<use f='codebrowser/src/test/test_server.c' l='72' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/websocket.c' l='471' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='532' u='c' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='897' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='922' u='c' c='process_frame'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='470' type='void mpack_tree_parse(mpack_tree_t * tree)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='939' ll='968' type='void mpack_tree_parse(mpack_tree_t * tree)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='453'>/**
+ * Parses a MessagePack message into a tree of immutable nodes.
+ *
+ * If successful, the root node will be available under @ref mpack_tree_root().
+ * If not, an appropriate error will be flagged.
+ *
+ * This can be called repeatedly to parse a series of messages from a data
+ * source. When this is called, all previous nodes from this tree and their
+ * contents (including the root node) are invalidated.
+ *
+ * If this is called with a stream (see @ref mpack_tree_init_stream()), the
+ * stream must block until data is available. (Otherwise, if this is called on
+ * a non-blocking stream, parsing will fail with @ref mpack_error_io when the
+ * fill function returns 0.)
+ *
+ * There is no way to recover a tree in an error state. It must be destroyed.
+ */</doc>

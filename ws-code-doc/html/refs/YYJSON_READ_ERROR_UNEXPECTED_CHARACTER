@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/yyjson.h' l='736' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='735'>/** Unexpected character inside the document, such as `[abc]`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3837' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='5579' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5579' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5968' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5968' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6399' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6399' macro='1' u='r' c='read_root_pretty'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/hmac.h' l='35' type='int HMAC_Update(HMAC_CTX * ctx, const unsigned char * data, size_t len)'/>
+<doc f='include/openssl/hmac.h' l='35'>/*__owur*/</doc>

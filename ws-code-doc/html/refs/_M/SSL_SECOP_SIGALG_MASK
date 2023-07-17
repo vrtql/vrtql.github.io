@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2313'/>
+<doc f='include/openssl/ssl.h' l='2312'>/* Used to get mask of supported public key signature algorithms */</doc>

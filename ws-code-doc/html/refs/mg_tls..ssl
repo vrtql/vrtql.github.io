@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1382' type='SSL *'/>
+<offset>64</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' u='r' c='mg_tls_err'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45' u='w' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='77' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='93' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='97' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='98' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='118' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='133' u='r' c='mg_tls_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='r' c='mg_tls_pending'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='146' u='r' c='mg_tls_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='154' u='r' c='mg_tls_send'/>

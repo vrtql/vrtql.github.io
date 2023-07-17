@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='684' ll='686' macro='1' type='_Bool mpack_tag_equal(mpack_tag_t left, mpack_tag_t right)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='712' u='c' c='mpack_expect_tag'/>

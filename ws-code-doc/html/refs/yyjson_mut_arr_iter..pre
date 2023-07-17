@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2415' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5729' u='w' c='yyjson_mut_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5752' u='w' c='yyjson_mut_arr_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5763' u='r' c='yyjson_mut_arr_iter_remove'/>
+<offset>192</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='2415'>/**&lt; previous value */</doc>

@@ -1,0 +1,6 @@
+<use f='codebrowser/src/mpack/mpack-node.h' l='74'/>
+<def f='codebrowser/src/mpack/mpack-node.h' l='148' ll='179'/>
+<size>16</size>
+<mbr r='mpack_node_data_t::type' o='0' t='mpack_type_t'/>
+<mbr r='mpack_node_data_t::len' o='32' t='uint32_t'/>
+<mbr r='mpack_node_data_t::value' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/client/src/mpack/mpack-node.h:158:5)'/>

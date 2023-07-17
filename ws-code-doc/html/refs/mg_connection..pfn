@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1204' type='mg_event_handler_t'/>
+<offset>1216</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1204'>// Protocol-specific handler function</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='233' u='w' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='r' c='mg_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='r' c='mg_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='410' u='w' c='restore_http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='603' u='w' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1079' u='w' c='mg_http_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1086' u='w' c='mg_http_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='531' u='w' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='539' u='w' c='mg_mqtt_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='79' u='w' c='mg_sntp_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='410' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='410' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259' u='w' c='mg_ws_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='268' u='w' c='mg_ws_upgrade'/>

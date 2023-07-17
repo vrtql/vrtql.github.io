@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/stat.h' l='92' type='struct timespec'/>
+<offset>704</offset>
+<doc f='include/x86_64-linux-gnu/bits/stat.h' l='92'>/* Time of last modification.  */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' macro='1' u='m' c='p_stat'/>

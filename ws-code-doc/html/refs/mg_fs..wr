@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='992' type='size_t (*)(void *, const void *, size_t)'/>
+<offset>320</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='992'>// Write file</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='r' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='906' u='r' c='mg_http_upload'/>

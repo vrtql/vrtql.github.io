@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='433' type='EVP_PKEY * CTLOG_get0_public_key(const CTLOG * log)'/>
+<doc f='include/openssl/ct.h' l='432'>/* Gets the public key of the CT log */</doc>

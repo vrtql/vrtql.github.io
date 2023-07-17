@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/socket.h' l='155' type='void vws_socket_close(vws_socket * c)'/>
+<doc f='codebrowser/src/socket.h' l='148'>/**
+ * @brief Closes a socket
+ *
+ * @param c The vws_socket
+ *
+ * @ingroup SocketFunctions
+ */</doc>
+<use f='codebrowser/src/socket.c' l='270' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='285' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='294' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='305' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='316' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='326' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='342' u='c' c='vws_socket_disconnect'/>
+<def f='codebrowser/src/socket.c' l='501' ll='545' type='void vws_socket_close(vws_socket * c)'/>
+<use f='codebrowser/src/websocket.c' l='1055' u='c' c='socket_wait_for_frame'/>

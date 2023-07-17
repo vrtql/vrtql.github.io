@@ -1,0 +1,24 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='869' ll='874'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='876' c='mg_queue_init'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='877' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='878' c='mg_queue_add'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='879' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='880' c='mg_queue_del'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='901' c='mg_queue_vprintf'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='902' c='mg_queue_printf'/>
+<size>32</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='867'>// Single producer, single consumer non-blocking queue</doc>
+<mbr r='mg_queue::buf' o='0' t='char *'/>
+<mbr r='mg_queue::size' o='64' t='size_t'/>
+<mbr r='mg_queue::tail' o='128' t='volatile size_t'/>
+<mbr r='mg_queue::head' o='192' t='volatile size_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' c='mg_queue_vprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='18' c='mg_queue_printf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='26' c='mg_queue_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='32' c='mg_queue_read_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' c='mg_queue_write_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='59' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' c='mg_queue_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='80' c='mg_queue_del'/>
+<size>32</size>

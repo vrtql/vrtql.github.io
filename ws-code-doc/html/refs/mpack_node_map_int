@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1289' type='mpack_node_t mpack_node_map_int(mpack_node_t node, int64_t num)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1850' ll='1852' type='mpack_node_t mpack_node_map_int(mpack_node_t node, int64_t num)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1275'>/**
+ * Returns the value node in the given map for the given integer key.
+ *
+ * The key must exist within the map. Use mpack_node_map_int_optional() to
+ * check for optional keys.
+ *
+ * The key must be unique. An error is flagged if the node has multiple
+ * entries with the given key.
+ *
+ * @throws mpack_error_type If the node is not a map
+ * @throws mpack_error_data If the node does not contain exactly one entry with the given key
+ *
+ * @return The value node for the given key, or a nil node in case of error
+ */</doc>

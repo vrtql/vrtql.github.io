@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1397' type='struct mg_str'/>
+<use f='codebrowser/src/test/client.c' l='42' u='m' c='fn'/>
+<use f='codebrowser/src/test/client.c' l='42' u='m' c='fn'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1397'>// Websocket message data</doc>
+<use f='codebrowser/src/test/server.c' l='57' u='m' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='57' u='m' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' u='m' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' u='m' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='223' u='w' c='mg_ws_cb'/>

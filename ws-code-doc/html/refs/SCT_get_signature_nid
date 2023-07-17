@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='208' type='int SCT_get_signature_nid(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='203'>/*
+ * Return the NID for the signature used by the SCT.
+ * For CT v1, this will be either NID_sha256WithRSAEncryption or
+ * NID_ecdsa_with_SHA256 (or NID_undef if incorrect/unset).
+ */</doc>

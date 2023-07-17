@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='163' type='2'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='163'>/**&lt; The reader or writer failed to fill or flush, or some other file or socket error occurred. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='33' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='149' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='946' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='959' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1123' u='r' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1150' u='r' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1210' u='r' c='mpack_tree_init_filename'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='119' u='r' c='mpack_file_reader_skip'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='144' u='r' c='mpack_file_reader_teardown_close'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='177' u='r' c='mpack_reader_init_filename'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='241' u='r' c='mpack_fill_range'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='332' u='r' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='423' u='r' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='433' u='r' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='308' u='r' c='mpack_file_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='323' u='r' c='mpack_file_writer_teardown_close'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='355' u='r' c='mpack_writer_init_filename'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='449' u='r' c='mpack_writer_ensure'/>

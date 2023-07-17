@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/yyjson.c' l='989' ll='992'/>
+<use f='codebrowser/src/util/yyjson.c' l='991'/>
+<use f='codebrowser/src/util/yyjson.c' l='989'/>
+<size>16</size>
+<doc f='codebrowser/src/util/yyjson.c' l='988'>/** chunk header */</doc>

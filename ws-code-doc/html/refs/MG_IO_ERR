@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1255' type='-1'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='134' u='r' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='254' u='r' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='148' u='r' c='mg_tls_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='156' u='r' c='mg_tls_send'/>

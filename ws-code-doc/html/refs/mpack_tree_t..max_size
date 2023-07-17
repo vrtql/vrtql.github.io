@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='261' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='95' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='116' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='117' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1014' u='w' c='mpack_tree_init_clear'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1080' u='w' c='mpack_tree_init_stream'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1092' u='w' c='mpack_tree_set_limits'/>
+<offset>960</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='261'>// maximum message size</doc>

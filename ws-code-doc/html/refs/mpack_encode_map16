@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='774' ll='778' macro='1' type='void mpack_encode_map16(char * p, uint16_t count)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1137' u='c' c='mpack_write_map_notrack'/>

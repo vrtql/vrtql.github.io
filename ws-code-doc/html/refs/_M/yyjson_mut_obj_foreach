@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3329'/>
+<doc f='codebrowser/src/util/yyjson.h' l='3314'>/**
+ Macro for iterating over an object.
+ It works like iterator, but with a more intuitive API.
+ 
+ @warning You should not modify the object while iterating over it.
+ 
+ @par Example
+ @code
+    size_t idx, max;
+    yyjson_val *key, *val;
+    yyjson_obj_foreach(obj, idx, max, key, val) {
+        your_func(key, val);
+    }
+ @endcode
+ */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2559' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='2572' u='c'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/websocket.h' l='209' type='struct vws_socket'/>
+<offset>0</offset>
+<doc f='codebrowser/src/websocket.h' l='208'>/**&lt; Base class */</doc>
+<use f='codebrowser/src/server.c' l='1376' u='m' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1386' u='m' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1387' u='m' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1417' u='m' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1471' u='m' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/test/test_websocket.c' l='42' u='m' c='ctest_test_setup'/>
+<use f='codebrowser/src/websocket.c' l='281' u='m' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='517' u='m' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='1081' u='m' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1088' u='m' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1091' u='m' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1125' u='m' c='vws_socket_ingress'/>

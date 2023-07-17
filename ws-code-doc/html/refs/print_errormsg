@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/ctest.h' l='287' type='void print_errormsg(const char *const fmt)'/>
+<def f='codebrowser/src/test/ctest.h' l='303' ll='308' type='void print_errormsg(const char *const fmt)'/>
+<use f='codebrowser/src/test/ctest.h' l='312' u='c' c='msg_start'/>
+<use f='codebrowser/src/test/ctest.h' l='314' u='c' c='msg_start'/>
+<use f='codebrowser/src/test/ctest.h' l='319' u='c' c='msg_end'/>
+<use f='codebrowser/src/test/ctest.h' l='321' u='c' c='msg_end'/>

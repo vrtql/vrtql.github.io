@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1075' type='size_t mpack_node_copy_utf8(mpack_node_t node, char * buffer, size_t bufsize)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1529' ll='1553' type='size_t mpack_node_copy_utf8(mpack_node_t node, char * buffer, size_t bufsize)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1062'>/**
+ * Checks that the given node contains a valid UTF-8 string and copies the
+ * string into the given buffer, returning the number of bytes in the string.
+ *
+ * @throws mpack_error_type If this node is not a string
+ * @throws mpack_error_too_big If the string does not fit in the given buffer
+ *
+ * @param node The string node from which to copy data
+ * @param buffer A buffer in which to copy the node&apos;s bytes
+ * @param bufsize The size of the given buffer
+ *
+ * @return The number of bytes in the node, or zero if an error occurs.
+ */</doc>

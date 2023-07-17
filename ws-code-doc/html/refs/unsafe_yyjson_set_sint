@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/yyjson.h' l='4668' ll='4672' macro='1' type='void unsafe_yyjson_set_sint(void * val, int64_t num)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4916' u='c' c='yyjson_set_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='4922' u='c' c='yyjson_set_int'/>
+<use f='codebrowser/src/util/yyjson.h' l='5439' u='c' c='yyjson_mut_set_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='5445' u='c' c='yyjson_mut_set_int'/>

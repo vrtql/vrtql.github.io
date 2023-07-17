@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='307'/>
+<doc f='include/openssl/ssl.h' l='306'>/* Reserved value (until OpenSSL 1.2.0)                  0x00000008U */</doc>

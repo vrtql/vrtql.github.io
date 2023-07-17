@@ -1,0 +1,11 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1558' ll='1563'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1569' c='mg_dns_parse_rr'/>
+<size>8</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1557'>// DNS resource record</doc>
+<mbr r='mg_dns_rr::nlen' o='0' t='uint16_t'/>
+<mbr r='mg_dns_rr::atype' o='16' t='uint16_t'/>
+<mbr r='mg_dns_rr::aclass' o='32' t='uint16_t'/>
+<mbr r='mg_dns_rr::alen' o='48' t='uint16_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='77' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='102' c='mg_dns_parse'/>
+<size>8</size>

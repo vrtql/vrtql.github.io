@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2371' type='int SSL_alloc_buffers(SSL * ssl)'/>

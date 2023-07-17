@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1211' type='unsigned int'/>
+<offset>1667</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1211'>// Non-blocking DNS resolution is in progress</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='162' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='248' u='w' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='61' u='r' c='mg_sntp_request'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='336' u='w' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='488' u='r' c='skip_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='640' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='641' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='105' u='r' c='mg_tls_init'/>

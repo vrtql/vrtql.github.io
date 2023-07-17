@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='194' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='265' u='w' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='807' u='w' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='819' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='934' u='w' c='mpack_tree_parse_start'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='194'>// children left in level</doc>

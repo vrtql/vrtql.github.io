@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1561' type='uint16_t'/>
+<offset>32</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1561'>// Address class</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' u='w' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' u='r' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' u='r' c='mg_dns_parse'/>

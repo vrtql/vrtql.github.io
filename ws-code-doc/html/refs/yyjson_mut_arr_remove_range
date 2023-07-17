@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2942' type='_Bool yyjson_mut_arr_remove_range(yyjson_mut_val * arr, size_t idx, size_t len)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6135' ll='6155' macro='1' type='_Bool yyjson_mut_arr_remove_range(yyjson_mut_val * arr, size_t _idx, size_t _len)'/>

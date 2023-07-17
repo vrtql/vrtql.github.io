@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1401' type='struct mg_connection * mg_ws_connect(struct mg_mgr * , const char * url, mg_event_handler_t fn, void * fn_data, const char * fmt)'/>
+<use f='codebrowser/src/test/client.c' l='61' u='c' c='main'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='235' ll='263' type='struct mg_connection * mg_ws_connect(struct mg_mgr * mgr, const char * url, mg_event_handler_t fn, void * fn_data, const char * fmt)'/>

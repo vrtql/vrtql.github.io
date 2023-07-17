@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/yyjson.h' l='748' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='747'>/** Invalid string, such as invalid escaped character inside a string. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3856' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='5569' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5569' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5956' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5956' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6387' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6387' macro='1' u='r' c='read_root_pretty'/>

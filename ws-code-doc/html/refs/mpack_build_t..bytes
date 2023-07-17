@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='133' type='size_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='131'>//struct mpack_build_t* next;</doc>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='133'>// number of bytes between this build and the next one</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1525' u='w' c='mpack_builder_apply_writes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1613' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1706' u='r' c='mpack_builder_resolve'/>

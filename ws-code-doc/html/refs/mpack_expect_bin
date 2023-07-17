@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1102' type='uint32_t mpack_expect_bin(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='1116' u='c' c='mpack_expect_bin_max'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='1136' u='c' c='mpack_expect_bin_size'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1093'>/**
+ * Reads the start of a binary blob, returning its size in bytes.
+ *
+ * The bytes follow and must be read separately with mpack_read_bytes()
+ * or mpack_read_bytes_inplace(). @ref mpack_done_bin() must be called
+ * once all bytes have been read.
+ *
+ * mpack_error_type is raised if the value is not a binary blob.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='555' ll='561' type='uint32_t mpack_expect_bin(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='566' u='c' c='mpack_expect_bin_buf'/>

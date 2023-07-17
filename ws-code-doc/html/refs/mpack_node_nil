@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='723' type='void mpack_node_nil(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1956' ll='1961' type='void mpack_node_nil(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='717'>/**
+ * Checks that the given node is of nil type, raising @ref mpack_error_type
+ * otherwise.
+ *
+ * Use mpack_node_is_nil() to return whether the node is nil.
+ */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1230' type='void mg_mgr_free(struct mg_mgr * )'/>
+<use f='codebrowser/src/test/client.c' l='70' u='c' c='main'/>
+<use f='codebrowser/src/test/server.c' l='76' u='c' c='main'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1073' u='c' c='mg_hello'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='217' ll='231' type='void mg_mgr_free(struct mg_mgr * mgr)'/>

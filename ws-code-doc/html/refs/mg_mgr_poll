@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1228' type='void mg_mgr_poll(struct mg_mgr * , int ms)'/>
+<use f='codebrowser/src/test/client.c' l='66' u='c' c='main'/>
+<use f='codebrowser/src/test/server.c' l='73' u='c' c='main'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1072' u='c' c='mg_hello'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='223' u='c' c='mg_mgr_free'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='621' ll='657' type='void mg_mgr_poll(struct mg_mgr * mgr, int ms)'/>

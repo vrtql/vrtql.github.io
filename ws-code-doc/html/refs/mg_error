@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1128' type='void mg_error(struct mg_connection * c, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='147' u='c' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='176' u='c' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='191' u='c' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='229' u='c' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='238' u='c' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='240' u='c' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='252' u='c' c='mg_sendnsreq'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='15' ll='24' type='void mg_error(struct mg_connection * c, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1023' u='c' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='263' u='c' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='266' u='c' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='311' u='c' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='338' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='363' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='524' u='c' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='75' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='78' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='83' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='126' u='c' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='147' u='c' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='150' u='c' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='205' u='c' c='mg_ws_cb'/>

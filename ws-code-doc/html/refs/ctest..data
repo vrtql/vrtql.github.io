@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/ctest.h' l='70' type='void *'/>
+<use f='codebrowser/src/test/ctest.h' l='566' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='567' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='568' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='571' u='r' c='ctest_main'/>
+<offset>192</offset>

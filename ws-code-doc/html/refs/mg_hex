@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='858' type='char * mg_hex(const void * buf, size_t len, char * dst)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='820' u='c' c='mg_url_encode'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='266' u='c' c='mg_mqtt_login'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='160' ll='170' type='char * mg_hex(const void * buf, size_t len, char * to)'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='288' ll='290' macro='1' type='mpack_node_t mpack_tree_nil_node(mpack_tree_t * tree)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='995' u='c' c='mpack_tree_root'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1004' u='c' c='mpack_tree_root'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1836' u='c' c='mpack_node_wrap_lookup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1845' u='c' c='mpack_node_wrap_lookup_optional'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2349' u='c' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2353' u='c' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2358' u='c' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2379' u='c' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2383' u='c' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2388' u='c' c='mpack_node_map_at'/>

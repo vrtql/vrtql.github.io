@@ -1,0 +1,4 @@
+<dec f='include/openssl/pkcs7err.h' l='64'/>
+<doc f='include/openssl/pkcs7err.h' l='61'>/*
+ * PKCS7 reason codes.
+ */</doc>

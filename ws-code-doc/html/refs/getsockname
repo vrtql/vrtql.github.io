@@ -1,0 +1,7 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='116' type='int getsockname(int __fd, struct sockaddr *restrict __addr, socklen_t *restrict __len)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='115'>/* Put the local address of FD into *ADDR and its length in *LEN.  */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='88' u='c' c='setlocaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='102' u='c' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='435' u='c' c='mg_socketpair'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='436' u='c' c='mg_socketpair'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='444' u='c' c='mg_socketpair'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2331' type='void SSL_set_security_callback(SSL * s, int (*)(const SSL *, const SSL_CTX *, int, int, int, void *, void *) cb)'/>

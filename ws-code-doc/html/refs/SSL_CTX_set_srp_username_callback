@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1776' type='int SSL_CTX_set_srp_username_callback(SSL_CTX * ctx, int (*)(SSL *, int *, void *) cb)'/>

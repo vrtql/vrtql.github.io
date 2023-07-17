@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/util/yyjson.h' l='529'/>
+<use f='codebrowser/src/util/yyjson.h' l='4528' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4575' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4675' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4824' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5609' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5904' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5912' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6809' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='528'>/** Real number subtype: `double`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3640' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='3667' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='7381' u='c'/>

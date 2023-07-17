@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1086' type='int mg_iobuf_init(struct mg_iobuf * , size_t , size_t )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='45' ll='50' type='int mg_iobuf_init(struct mg_iobuf * io, size_t size, size_t align)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='930' type='void mg_hexdump(const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='154' u='c' c='dns_cb'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='60' ll='78' type='void mg_hexdump(const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='106' u='c' c='iolog'/>

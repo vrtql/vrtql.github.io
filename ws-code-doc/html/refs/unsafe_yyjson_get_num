@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='4573' ll='4593' macro='1' type='double unsafe_yyjson_get_num(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4854' u='c' c='yyjson_get_num'/>
+<use f='codebrowser/src/util/yyjson.h' l='7665' u='c' c='yyjson_ptr_get_num'/>

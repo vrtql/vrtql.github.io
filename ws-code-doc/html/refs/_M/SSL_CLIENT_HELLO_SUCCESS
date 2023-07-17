@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='1796'/>
+<doc f='include/openssl/ssl.h' l='1792'>/*
+ * ClientHello callback and helpers.
+ */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='55'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='50'>/**
+ * @def MPACK_WRITER_MINIMUM_BUFFER_SIZE
+ *
+ * The minimum buffer size for a writer with a flush function.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='148' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='150' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='153' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='416' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='418' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1432' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1435' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1626' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1633' u='c'/>

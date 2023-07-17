@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1787'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1774'>/**
+ Macro for iterating over an array.
+ It works like iterator, but with a more intuitive API.
+ 
+ @par Example
+ @code
+    size_t idx, max;
+    yyjson_val *val;
+    yyjson_arr_foreach(arr, idx, max, val) {
+        your_func(idx, val);
+    }
+ @endcode
+ */</doc>
+<use f='codebrowser/src/test/test_json.c' l='52' u='c'/>

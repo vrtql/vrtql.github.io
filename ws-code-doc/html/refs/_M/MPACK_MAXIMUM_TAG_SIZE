@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='108'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='103'>/**
+ * @def MPACK_MAXIMUM_TAG_SIZE
+ *
+ * The maximum encoded size of a tag in bytes.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='73' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='148' u='c'/>

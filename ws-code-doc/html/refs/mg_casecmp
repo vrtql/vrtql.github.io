@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='847' type='int mg_casecmp(const char * s1, const char * s2)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='28' ll='30' type='int mg_casecmp(const char * s1, const char * s2)'/>

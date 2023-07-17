@@ -1,0 +1,4 @@
+<dec f='include/openssl/comperr.h' l='30'/>
+<doc f='include/openssl/comperr.h' l='27'>/*
+ * COMP function codes.
+ */</doc>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='4542' ll='4546' macro='1' type='_Bool unsafe_yyjson_arr_is_flat(yyjson_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4961' u='c' c='yyjson_arr_get'/>
+<use f='codebrowser/src/util/yyjson.h' l='4986' u='c' c='yyjson_arr_get_last'/>
+<use f='codebrowser/src/util/yyjson.c' l='1780' u='c' c='ptr_arr_get'/>

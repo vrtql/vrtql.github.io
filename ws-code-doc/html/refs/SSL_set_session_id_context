@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1726' type='int SSL_set_session_id_context(SSL * ssl, const unsigned char * sid_ctx, unsigned int sid_ctx_len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' u='c' c='mg_tls_init'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='860' type='unsigned long mg_unhexn(const char * s, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='933' u='c' c='getchunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='244' u='c' c='mg_json_unescape'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' u='c' c='mg_aton6'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='178' ll='182' type='unsigned long mg_unhexn(const char * s, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='c' c='mg_unhex'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1530' type='size_t mg_mqtt_next_prop(struct mg_mqtt_message * , struct mg_mqtt_prop * , size_t ofs)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='204' ll='256' type='size_t mg_mqtt_next_prop(struct mg_mqtt_message * msg, struct mg_mqtt_prop * prop, size_t ofs)'/>

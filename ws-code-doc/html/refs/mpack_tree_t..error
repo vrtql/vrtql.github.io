@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='248' type='mpack_error_t'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='509' u='r' c='mpack_tree_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='910' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1065' u='w' c='mpack_tree_init_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1230' u='r' c='mpack_tree_destroy'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1234' u='r' c='mpack_tree_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1236' u='w' c='mpack_tree_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1834' u='r' c='mpack_node_wrap_lookup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1843' u='r' c='mpack_node_wrap_lookup_optional'/>
+<offset>512</offset>

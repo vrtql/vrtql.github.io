@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='215'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='124' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='165' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='367' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='96' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1163' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1177' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1273' u='c'/>

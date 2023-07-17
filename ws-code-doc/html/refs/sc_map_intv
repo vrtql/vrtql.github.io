@@ -1,0 +1,27 @@
+<def f='codebrowser/src/util/sc_map.h' l='216' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_init_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_term_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_size_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_clear_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_put_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_get_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_del_intv'/>
+<size>32</size>
+<mbr r='sc_map_intv::mem' o='0' t='struct sc_map_item_intv *'/>
+<mbr r='sc_map_intv::cap' o='64' t='uint32_t'/>
+<mbr r='sc_map_intv::size' o='96' t='uint32_t'/>
+<mbr r='sc_map_intv::load_fac' o='128' t='uint32_t'/>
+<mbr r='sc_map_intv::remap' o='160' t='uint32_t'/>
+<mbr r='sc_map_intv::used' o='192' t='_Bool'/>
+<mbr r='sc_map_intv::oom' o='200' t='_Bool'/>
+<mbr r='sc_map_intv::found' o='208' t='_Bool'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_init_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_term_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_size_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_clear_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_remap_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_put_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_get_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_del_intv'/>
+<size>32</size>

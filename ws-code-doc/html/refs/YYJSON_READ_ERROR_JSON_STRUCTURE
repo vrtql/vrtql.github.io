@@ -1,0 +1,6 @@
+<def f='codebrowser/src/util/yyjson.h' l='739' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='738'>/** Invalid JSON structure, such as `[1,]`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5962' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5962' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6393' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6393' macro='1' u='r' c='read_root_pretty'/>

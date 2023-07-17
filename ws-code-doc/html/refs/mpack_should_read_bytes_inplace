@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='708' ll='710' macro='1' type='_Bool mpack_should_read_bytes_inplace(mpack_reader_t * reader, size_t count)'/>

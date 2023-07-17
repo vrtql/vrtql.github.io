@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='221' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='298' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='301' u='w' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='324' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='348' u='w' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='917' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='925' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='930' u='w' c='mpack_tree_parse_start'/>
+<offset>192</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='221'>// nodes left in current page/pool</doc>

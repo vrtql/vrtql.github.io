@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1685' type='SSL_verify_cb SSL_CTX_get_verify_callback(const SSL_CTX * ctx)'/>

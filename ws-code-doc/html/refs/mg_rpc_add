@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1613' type='void mg_rpc_add(struct mg_rpc ** head, struct mg_str method_pattern, void (*)(struct mg_rpc_req *) handler, void * handler_data)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='5' ll='12' type='void mg_rpc_add(struct mg_rpc ** head, struct mg_str method, void (*)(struct mg_rpc_req *) fn, void * fn_data)'/>

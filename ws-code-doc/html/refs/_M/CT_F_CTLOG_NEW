@@ -1,0 +1,4 @@
+<dec f='include/openssl/cterr.h' l='30'/>
+<doc f='include/openssl/cterr.h' l='27'>/*
+ * CT function codes.
+ */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4445'/>
+<use f='codebrowser/src/util/yyjson.h' l='4454' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4455' u='w'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4433'>/*
+         Same as the following loop:
+         
+         for (size_t i = 0; i &lt; len; i++) {
+             char c = str[i];
+             if (c &lt; &apos; &apos; || c &gt; &apos;~&apos; || c == &apos;&quot;&apos; || c == &apos;\\&apos;) return false;
+         }
+         
+         GCC evaluates it at compile time only if the string length is within 17
+         and -O3 (which turns on the -fpeel-loops flag) is used.
+         So the loop is unrolled for GCC.
+         */</doc>

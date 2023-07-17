@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1149' type='18'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1149'>// SNTP time received           uint64_t *epoch_millis</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='r' c='sntp_cb'/>

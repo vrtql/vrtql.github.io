@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='239' type='vrtql_svr_process_data'/>
+<use f='codebrowser/src/server.c' l='604' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='821' u='w' c='svr_ctor'/>
+<offset>4288</offset>
+<doc f='codebrowser/src/server.h' l='238'>/**&lt; Function for processing data from worker back to client */</doc>

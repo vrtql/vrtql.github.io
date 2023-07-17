@@ -1,0 +1,55 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1172' ll='1191'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1195'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1228' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1229' c='mg_mgr_init'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1230' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1232' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1234' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1236' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1243' c='mg_mkpipe'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1246' c='mg_alloc_conn'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1251' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1302' c='mg_http_listen'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1304' c='mg_http_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1401' c='mg_ws_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1415' c='mg_sntp_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1516' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1519' c='mg_mqtt_listen'/>
+<use f='codebrowser/src/test/client.c' l='54' c='main'/>
+<size>128</size>
+<mbr r='mg_mgr::conns' o='0' t='struct mg_connection *'/>
+<mbr r='mg_mgr::dns4' o='64' t='struct mg_dns'/>
+<mbr r='mg_mgr::dns6' o='192' t='struct mg_dns'/>
+<mbr r='mg_mgr::dnstimeout' o='320' t='int'/>
+<mbr r='mg_mgr::use_dns6' o='352' t='_Bool'/>
+<mbr r='mg_mgr::nextid' o='384' t='unsigned long'/>
+<mbr r='mg_mgr::timerid' o='448' t='unsigned long'/>
+<mbr r='mg_mgr::userdata' o='512' t='void *'/>
+<mbr r='mg_mgr::tls_ctx' o='576' t='void *'/>
+<mbr r='mg_mgr::mqtt_id' o='640' t='uint16_t'/>
+<mbr r='mg_mgr::active_dns_requests' o='704' t='void *'/>
+<mbr r='mg_mgr::timers' o='768' t='struct mg_timer *'/>
+<mbr r='mg_mgr::epoll_fd' o='832' t='int'/>
+<mbr r='mg_mgr::priv' o='896' t='void *'/>
+<mbr r='mg_mgr::extraconnsize' o='960' t='size_t'/>
+<use f='codebrowser/src/test/server.c' l='65' c='main'/>
+<size>128</size>
+<use f='codebrowser/src/test/util/mongoose.c' l='1068' c='mg_hello'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1076' c='mg_http_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1083' c='mg_http_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='523' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='536' c='mg_mqtt_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' c='mg_alloc_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='151' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='172' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='193' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='217' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='233' c='mg_mgr_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='75' c='mg_sntp_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='378' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='461' c='mg_mkpipe'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='492' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='621' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='235' c='mg_ws_connect'/>
+<size>128</size>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/vrtql.h' l='129' type='vrtql_error_clear_cb'/>
+<offset>576</offset>
+<doc f='codebrowser/src/vrtql.h' l='129'>/**&lt; Error clear function        */</doc>
+<use f='codebrowser/src/rpc.c' l='176' u='r' c='vrtql_rpc'/>
+<use f='codebrowser/src/server.c' l='1338' u='r' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/socket.c' l='184' u='r' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='223' u='r' c='socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='330' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='344' u='r' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='350' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='429' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='669' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/vrtql.c' l='395' u='w'/>
+<use f='codebrowser/src/websocket.c' l='536' u='r' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='566' u='r' c='vws_recv_msg'/>
+<use f='codebrowser/src/websocket.c' l='637' u='r' c='vws_recv_frame'/>
+<use f='codebrowser/src/websocket.c' l='776' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='947' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1036' u='r' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='1128' u='r' c='vws_socket_ingress'/>

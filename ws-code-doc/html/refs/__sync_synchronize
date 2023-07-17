@@ -1,0 +1,2 @@
+<use f='codebrowser/src/test/util/mongoose.c' l='6' u='c' c='mg_queue_read_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' u='c' c='mg_queue_write_len'/>

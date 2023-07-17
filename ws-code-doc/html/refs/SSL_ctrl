@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1844' type='long SSL_ctrl(SSL * ssl, int cmd, long larg, void * parg)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' macro='1' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='98' macro='1' u='c' c='mg_tls_init'/>

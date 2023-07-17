@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1528' type='void mg_mqtt_pong(struct mg_connection * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='506' ll='508' type='void mg_mqtt_pong(struct mg_connection * nc)'/>

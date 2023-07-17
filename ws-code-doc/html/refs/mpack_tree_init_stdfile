@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='424' type='void mpack_tree_init_stdfile(mpack_tree_t * tree, FILE * stdfile, size_t max_bytes, _Bool close_when_done)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1193' ll='1201' type='void mpack_tree_init_stdfile(mpack_tree_t * tree, FILE * stdfile, size_t max_bytes, _Bool close_when_done)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1214' u='c' c='mpack_tree_init_filename'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='404'>/**
+ * Initializes a tree to parse the given libc FILE. This can be used to
+ * read from stdin, or from a file opened separately.
+ *
+ * The tree must be destroyed with mpack_tree_destroy(), even if parsing fails.
+ *
+ * The FILE is fully loaded fully into memory (and closed if requested) before
+ * this call returns.
+ *
+ * @param tree The tree to initialize.
+ * @param stdfile The FILE.
+ * @param max_bytes The maximum size of file to load, or 0 for unlimited size.
+ * @param close_when_done If true, fclose() will be called on the FILE when it
+ *         is no longer needed. If false, the file will not be closed when
+ *         reading is done.
+ *
+ * @warning The tree will read all data in the FILE before parsing it. If this
+ *          is used on stdin, the parser will block until it is closed, even if
+ *          a complete message has been written to it!
+ */</doc>

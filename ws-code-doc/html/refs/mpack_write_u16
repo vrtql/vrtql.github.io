@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='580' type='void mpack_write_u16(mpack_writer_t * writer, uint16_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='579'>/** Writes an 16-bit unsigned integer in the most efficient packing available. */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='924' ll='937' type='void mpack_write_u16(mpack_writer_t * writer, uint16_t value)'/>

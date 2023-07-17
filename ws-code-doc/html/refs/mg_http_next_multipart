@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1323' type='size_t mg_http_next_multipart(struct mg_str , size_t , struct mg_http_part * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='46' ll='84' type='size_t mg_http_next_multipart(struct mg_str body, size_t ofs, struct mg_http_part * part)'/>
+<doc f='codebrowser/src/test/util/mongoose.c' l='34'>// Multipart POST example:
+// --xyz
+// Content-Disposition: form-data; name=&quot;val&quot;
+//
+// abcdef
+// --xyz
+// Content-Disposition: form-data; name=&quot;foo&quot;; filename=&quot;a.txt&quot;
+// Content-Type: text/plain
+//
+// hello world
+//
+// --xyz--</doc>

@@ -1,0 +1,28 @@
+<dec f='include/string.h' l='63' type='int memcmp(const void * __s1, const void * __s2, size_t __n)'/>
+<doc f='include/string.h' l='62'>/* Compare N bytes of S1 and S2.  */</doc>
+<use f='codebrowser/src/util/yyjson.h' l='4617' u='c' c='unsafe_yyjson_equals_strn'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='147' macro='1' u='c' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='149' macro='1' u='c' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='785' macro='1' u='c' c='mpack_expect_enum'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='819' macro='1' u='c' c='mpack_expect_enum_optional'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1817' macro='1' u='c' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1919' macro='1' u='c' c='mpack_node_enum_optional'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='77' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='505' u='c' c='getrange'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='833' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='841' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='860' u='c' c='mg_http_get_header_var'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='c' c='mg_json_get'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='143' u='c' c='mg_json_get'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' u='c' c='mg_json_get'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_strstr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='149' u='c' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/util/yyjson.c' l='1546' u='c' c='unsafe_yyjson_str_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='1751' u='c' c='ptr_token_eq'/>
+<use f='codebrowser/src/util/yyjson.c' l='2180' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2183' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2184' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2185' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2188' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2191' u='c' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='3812' u='c' c='is_truncated_str'/>

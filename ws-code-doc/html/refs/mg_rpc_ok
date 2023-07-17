@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1619' type='void mg_rpc_ok(struct mg_rpc_req * , const char * fmt)'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1618'>// Helper functions to print result or error frame</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='62' ll='67' type='void mg_rpc_ok(struct mg_rpc_req * r, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='101' u='c' c='mg_rpc_list'/>

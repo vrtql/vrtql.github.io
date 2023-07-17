@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/websocket.h' l='188' type='void vws_msg_free(vws_msg * msg)'/>
+<use f='codebrowser/src/message.c' l='457' u='c' c='vrtql_msg_receive'/>
+<use f='codebrowser/src/message.c' l='462' u='c' c='vrtql_msg_receive'/>
+<doc f='codebrowser/src/websocket.h' l='183'>/**
+ * @brief Deallocates a websocket message.
+ *
+ * @param msg The message to be deallocated.
+ */</doc>
+<use f='codebrowser/src/server.c' l='1511' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1527' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_frame_run'/>
+<def f='codebrowser/src/websocket.c' l='554' ll='561' type='void vws_msg_free(vws_msg * m)'/>

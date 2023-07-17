@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='846' type='int mg_ncasecmp(const char * s1, const char * s2, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='68' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' u='c' c='mg_http_var'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='198' u='c' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='272' u='c' c='mg_http_parse'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='20' ll='26' type='int mg_ncasecmp(const char * s1, const char * s2, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='c' c='mg_casecmp'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='41' u='c' c='mg_vcasecmp'/>

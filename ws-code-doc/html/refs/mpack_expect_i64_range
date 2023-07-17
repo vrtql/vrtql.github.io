@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='378' type='int64_t mpack_expect_i64_range(mpack_reader_t * reader, int64_t min_value, int64_t max_value)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='393' u='c' c='mpack_expect_int_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='445' u='c' c='mpack_expect_i64_max'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='535' u='c' c='mpack_expect_int'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='370'>/**
+ * Reads a 64-bit signed integer, ensuring that it falls within the given range.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in a 64-bit signed int.
+ *
+ * Returns min_value if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='294' type='int64_t mpack_expect_i64_range(mpack_reader_t * reader, int64_t min_value, int64_t max_value)'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='4498' ll='4500' macro='1' type='_Bool unsafe_yyjson_is_arr(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4783' u='c' c='yyjson_is_arr'/>
+<use f='codebrowser/src/util/yyjson.h' l='5324' u='c' c='yyjson_mut_is_arr'/>

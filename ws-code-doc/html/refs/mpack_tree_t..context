@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='244' type='void *'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='540' u='w' c='mpack_tree_set_context'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='550' u='r' c='mpack_tree_context'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1077' u='w' c='mpack_tree_init_stream'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1104' u='r' c='mpack_file_tree_teardown'/>
+<offset>192</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='244'>/* Context for tree callbacks */</doc>

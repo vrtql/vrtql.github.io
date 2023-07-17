@@ -1,0 +1,4 @@
+<def f='codebrowser/src/test/ctest.h' l='262' type='const char *'/>
+<use f='codebrowser/src/test/ctest.h' l='476' u='r' c='suite_filter'/>
+<use f='codebrowser/src/test/ctest.h' l='476' u='r' c='suite_filter'/>
+<use f='codebrowser/src/test/ctest.h' l='521' u='w' c='ctest_main'/>

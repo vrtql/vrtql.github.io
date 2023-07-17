@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='6546' ll='6572' macro='1' type='yyjson_mut_val * unsafe_yyjson_mut_obj_remove(yyjson_mut_val * obj, const char * key, size_t key_len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6665' u='c' c='yyjson_mut_obj_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6675' u='c' c='yyjson_mut_obj_remove_key'/>
+<use f='codebrowser/src/util/yyjson.h' l='6683' u='c' c='yyjson_mut_obj_remove_keyn'/>

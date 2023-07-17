@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1708' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1698'>// MDC clock divider. MDC clock is derived from IPS Bus clock (ipg_clk),
+  // must not exceed 2.5MHz. Configuration for clock range 2.36~2.50 MHz
+  //    ipg_clk       MSCR       mdc_cr VALUE
+  //    -------------------------------------
+  //                                -1  &lt;-- tell driver to guess the value
+  //    25 MHz        0x04           0
+  //    33 MHz        0x06           1
+  //    40 MHz        0x07           2
+  //    50 MHz        0x09           3
+  //    66 MHz        0x0D           4  &lt;-- value for iMXRT1020-EVK at max freq.</doc>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1708'>// Valid values: -1, 0, 1, 2, 3, 4</doc>

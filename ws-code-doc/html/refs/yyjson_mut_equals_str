@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2196' type='_Bool yyjson_mut_equals_str(yyjson_mut_val * val, const char * str)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5393' ll='5396' macro='1' type='_Bool yyjson_mut_equals_str(yyjson_mut_val * val, const char * str)'/>

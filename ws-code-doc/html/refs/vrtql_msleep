@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/vrtql.h' l='355' type='void vrtql_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vrtql.h' l='342'>/**
+ * @brief Sleeps for the specified number of milliseconds.
+ *
+ * This function provides a platform-independent way to sleep for a specific
+ * duration in milliseconds. The behavior is similar to the standard `sleep`
+ * function, but with millisecond precision.
+ *
+ * @param ms The number of milliseconds to sleep.
+ *
+ * @note This function may not be available on all platforms. Make sure to
+ *       include the necessary headers and handle any compilation errors or
+ *       warnings specific to your environment.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='58' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='60' u='c' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/vrtql.c' l='682' ll='707' type='void vrtql_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vrtql.c' l='669'>/**
+ * @brief Sleeps for the specified number of milliseconds.
+ *
+ * This function provides a platform-independent way to sleep for a specific
+ * duration in milliseconds. The behavior is similar to the standard `sleep`
+ * function, but with millisecond precision.
+ *
+ * @param ms The number of milliseconds to sleep.
+ *
+ * @note This function may not be available on all platforms. Make sure to
+ *       include the necessary headers and handle any compilation errors or
+ *       warnings specific to your environment.
+ */</doc>

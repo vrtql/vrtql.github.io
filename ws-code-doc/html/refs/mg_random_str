@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1028' type='char * mg_random_str(char * buf, size_t len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='25' ll='36' type='char * mg_random_str(char * buf, size_t len)'/>

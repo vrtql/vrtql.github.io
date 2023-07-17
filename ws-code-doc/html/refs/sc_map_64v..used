@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/util/sc_map.h' l='74' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/server.c' l='1019' macro='1' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/util/sc_map.c' l='138' u='w' c='sc_map_init_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='166' u='w' c='sc_map_clear_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='229' u='r' c='sc_map_put_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='230' u='r' c='sc_map_put_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='231' u='w' c='sc_map_put_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='264' u='r' c='sc_map_get_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='265' u='r' c='sc_map_get_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='293' u='r' c='sc_map_del_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='294' u='r' c='sc_map_del_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='295' u='w' c='sc_map_del_64v'/>

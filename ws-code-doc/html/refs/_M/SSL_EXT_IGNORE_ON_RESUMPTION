@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='249'/>
+<doc f='include/openssl/ssl.h' l='248'>/* Ignore this extension during parsing if we are resuming */</doc>

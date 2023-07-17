@@ -1,0 +1,2 @@
+<dec f='include/openssl/bio.h' l='127'/>
+<doc f='include/openssl/bio.h' l='126'>/* Deliberately outside of OPENSSL_NO_SCTP - used in bss_dgram.c */</doc>

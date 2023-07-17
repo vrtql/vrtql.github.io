@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1172'/>
+<doc f='codebrowser/src/mpack/mpack-platform.h' l='1170'>// Extracts the first argument of a variadic macro list, where there might only
+// be one argument.</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='186'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='176'>/**
+ *   Returns element at index &apos;i&apos;, so regular loops are possible :
+ *
+ *   for (size_t i = 0; i &lt; sc_queue_size(q); i++) {
+ *        printf(&quot;%d&quot; \n, sc_queue_at(q, i));
+ *   }
+ *
+ *   @param q queue
+ *   @return element at index i
+ */</doc>

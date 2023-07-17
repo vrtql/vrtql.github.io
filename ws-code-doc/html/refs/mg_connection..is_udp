@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1216' type='unsigned int'/>
+<offset>1672</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1216'>// UDP connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='160' u='w' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='183' u='w' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='124' u='r' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='139' u='r' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='244' u='r' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='333' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='339' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='643' u='r' c='mg_mgr_poll'/>

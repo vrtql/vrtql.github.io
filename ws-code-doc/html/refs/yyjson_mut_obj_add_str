@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3588' type='_Bool yyjson_mut_obj_add_str(yyjson_mut_doc * doc, yyjson_mut_val * obj, const char * key, const char * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6814' ll='6826' macro='1' type='_Bool yyjson_mut_obj_add_str(yyjson_mut_doc * doc, yyjson_mut_val * obj, const char * _key, const char * _val)'/>
+<use f='codebrowser/src/message.c' l='164' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='171' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/test/test_json.c' l='69' u='c' c='ctest_test_write_run'/>

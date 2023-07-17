@@ -1,0 +1,13 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1548' ll='1555'/>
+<size>12</size>
+<mbr r='mg_dns_header::txnid' o='0' t='uint16_t'/>
+<mbr r='mg_dns_header::flags' o='16' t='uint16_t'/>
+<mbr r='mg_dns_header::num_questions' o='32' t='uint16_t'/>
+<mbr r='mg_dns_header::num_answers' o='48' t='uint16_t'/>
+<mbr r='mg_dns_header::num_authority_prs' o='64' t='uint16_t'/>
+<mbr r='mg_dns_header::num_other_prs' o='80' t='uint16_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='101' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='101' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='201' c='mg_dns_send'/>
+<size>12</size>

@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='475'/>
+<doc f='include/openssl/ssl.h' l='471'>/*
+ * Save RAM by releasing read and write buffers when they&apos;re empty. (SSL3 and
+ * TLS only.) Released buffers are freed.
+ */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3825' type='yyjson_val * yyjson_ptr_getn(yyjson_val * val, const char * ptr, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7014' u='c' c='yyjson_ptr_get'/>
+<def f='codebrowser/src/util/yyjson.h' l='7017' ll='7020' macro='1' type='yyjson_val * yyjson_ptr_getn(yyjson_val * val, const char * ptr, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7734' u='c' c='yyjson_get_pointern'/>

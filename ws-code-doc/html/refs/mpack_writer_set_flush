@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='418' type='void mpack_writer_set_flush(mpack_writer_t * writer, mpack_writer_flush_t flush)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='404'>/**
+ * Sets the flush function to write out the data when the buffer is full.
+ *
+ * If no flush function is used, trying to write past the end of the
+ * buffer will result in mpack_error_too_big.
+ *
+ * This should normally be used with mpack_writer_set_context() to register
+ * a custom pointer to pass to the flush function.
+ *
+ * @param writer The MPack writer.
+ * @param flush The function to write out data from the buffer.
+ *
+ * @see mpack_writer_context()
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='147' ll='161' type='void mpack_writer_set_flush(mpack_writer_t * writer, mpack_writer_flush_t flush)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='298' u='c' c='mpack_writer_init_growable'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='344' u='c' c='mpack_writer_init_stdfile'/>

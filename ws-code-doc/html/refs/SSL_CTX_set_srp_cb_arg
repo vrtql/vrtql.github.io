@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1778' type='int SSL_CTX_set_srp_cb_arg(SSL_CTX * ctx, void * arg)'/>

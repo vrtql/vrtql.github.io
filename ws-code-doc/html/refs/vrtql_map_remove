@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/vrtql.h' l='282' type='void vrtql_map_remove(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vrtql.h' l='274'>/**
+ * @brief Removes a key-value pair from the map using a string key.
+ *
+ * If the key exists in the map, it will be removed along with its associated value.
+ *
+ * @param map The map from which to remove the key-value pair.
+ * @param key The string key to use for removal.
+ */</doc>
+<use f='codebrowser/src/message.c' l='387' u='c' c='vrtql_msg_clear_header'/>
+<use f='codebrowser/src/message.c' l='402' u='c' c='vrtql_msg_clear_routing'/>
+<def f='codebrowser/src/vrtql.c' l='551' ll='562' type='void vrtql_map_remove(struct sc_map_str * map, cstr key)'/>

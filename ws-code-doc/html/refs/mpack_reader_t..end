@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='160' type='const char *'/>
+<offset>512</offset>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='160'>/* The end of available data (in the buffer, if it is used) */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='39' u='w' c='mpack_reader_init'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='62' u='w' c='mpack_reader_init_data'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='210' u='r' c='mpack_reader_remaining'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='218' u='w' c='mpack_reader_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='254' u='r' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='277' u='r' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='279' u='w' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='288' u='w' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='302' u='r' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='355' u='w' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='377' u='r' c='mpack_skip_bytes_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='380' u='r' c='mpack_skip_bytes_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='403' u='r' c='mpack_skip_bytes'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='415' u='r' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='436' u='w' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='550' u='r' c='mpack_read_bytes_inplace_notrack'/>

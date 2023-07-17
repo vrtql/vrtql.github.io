@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1127' type='void mg_call(struct mg_connection * c, int ev, void * ev_data)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='7' ll='13' type='void mg_call(struct mg_connection * c, int ev, void * ev_data)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_error'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='971' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1002' u='c' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1007' u='c' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1041' u='c' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='447' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='473' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='491' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='c' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='166' u='c' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='c' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='201' u='c' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='c' c='sntp_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' u='c' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='117' u='c' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='307' u='c' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='347' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='348' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='355' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='358' u='c' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='416' u='c' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='417' u='c' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='632' u='c' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='635' u='c' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' u='c' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='155' u='c' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='182' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='198' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='224' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='c' c='mg_ws_upgrade'/>

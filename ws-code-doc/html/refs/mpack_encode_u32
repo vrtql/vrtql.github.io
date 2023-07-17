@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='686' ll='690' macro='1' type='void mpack_encode_u32(char * p, uint32_t value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='951' u='c' c='mpack_write_u32'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='966' u='c' c='mpack_write_u64'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1022' u='c' c='mpack_write_i32'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1055' u='c' c='mpack_write_i64'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/util/yyjson.h' l='551'/>
+<doc f='codebrowser/src/util/yyjson.h' l='550'>/** Padding size for JSON reader. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='6462' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6465' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6472' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6597' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6613' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6627' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='6638' u='c'/>

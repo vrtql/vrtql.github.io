@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='583' type='unsigned long SSL_CTX_get_options(const SSL_CTX * ctx)'/>
+<doc f='include/openssl/ssl.h' l='578'>/*
+ * Note: SSL[_CTX]_set_{options,mode} use |= op on the previous value, they
+ * cannot be used to clear bits.
+ */</doc>

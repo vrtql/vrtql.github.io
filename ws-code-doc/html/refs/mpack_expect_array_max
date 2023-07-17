@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-expect.h' l='801' ll='803' macro='1' type='uint32_t mpack_expect_array_max(mpack_reader_t * reader, uint32_t max_count)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='463' u='c' c='mpack_expect_array_alloc_impl'/>

@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='359' ll='361' macro='1' type='void mpack_reader_set_error_handler(mpack_reader_t * reader, mpack_reader_error_t error_fn)'/>

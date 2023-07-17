@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/vrtql.h' l='123' type='vrtql_calloc_error_cb'/>
+<offset>192</offset>
+<doc f='codebrowser/src/vrtql.h' l='123'>/**&lt; calloc error hanlding       */</doc>
+<use f='codebrowser/src/vrtql.c' l='213' u='r' c='vrtql_calloc'/>
+<use f='codebrowser/src/vrtql.c' l='389' u='w'/>

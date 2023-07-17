@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2001' type='struct stack_st_X509 * SSL_get0_verified_chain(const SSL * s)'/>

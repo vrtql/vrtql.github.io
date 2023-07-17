@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='175' type='char *'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='493' u='r' c='mpack_writer_buffer_left'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='501' u='r' c='mpack_writer_buffer_size'/>
+<offset>384</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='175'>/* The end of the buffer */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='106' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='129' u='w' c='mpack_writer_init'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='228' u='w' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='261' u='w' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='474' u='r' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='488' u='r' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='568' u='w' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1488' u='w' c='mpack_builder_configure_buffer'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1547' u='r' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1665' u='w' c='mpack_builder_resolve'/>

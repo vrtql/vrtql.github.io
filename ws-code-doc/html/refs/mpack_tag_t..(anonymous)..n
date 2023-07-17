@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='274' type='uint32_t'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='377' u='w' c='mpack_tag_make_array'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='385' u='w' c='mpack_tag_make_map'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='538' u='r' c='mpack_tag_array_count'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='551' u='r' c='mpack_tag_map_count'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='272'>/* The element count if the type is an array, or the number of
+            key/value pairs if the type is map. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='115' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='115' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='117' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='117' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='372' u='r' c='mpack_expect_map'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='391' u='r' c='mpack_expect_map_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='414' u='r' c='mpack_expect_array'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='433' u='r' c='mpack_expect_array_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1284' u='w' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1285' u='w' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1011' u='r' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1011' u='w' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1020' u='r' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1020' u='w' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='630' u='r' c='mpack_write_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='631' u='r' c='mpack_write_tag'/>

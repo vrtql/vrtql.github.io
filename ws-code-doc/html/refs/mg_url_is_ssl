@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1070' type='int mg_url_is_ssl(const char * url)'/>
+<use f='codebrowser/src/test/client.c' l='18' u='c' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='20' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='8' ll='12' type='int mg_url_is_ssl(const char * url)'/>

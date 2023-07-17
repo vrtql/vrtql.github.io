@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1253' type='size_t mpack_node_map_count(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2364' ll='2374' type='size_t mpack_node_map_count(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1249'>/**
+ * Returns the number of key/value pairs in the given map node. Raises
+ * mpack_error_type and returns 0 if the given node is not a map.
+ */</doc>

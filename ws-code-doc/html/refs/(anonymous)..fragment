@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/vrtql.h' l='305' type='char *'/>
+<offset>320</offset>
+<doc f='codebrowser/src/vrtql.h' l='305'>/**&lt; The fragment identifier            */</doc>
+<use f='codebrowser/src/vrtql.c' l='824' u='w' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='826' u='r' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='911' u='w' c='vrtql_url_new'/>
+<use f='codebrowser/src/vrtql.c' l='948' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='950' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='951' u='w' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='985' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='987' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1023' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1025' u='r' c='vrtql_url_build'/>

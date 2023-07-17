@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1812' type='yyjson_val * yyjson_obj_get(yyjson_val * obj, const char * key)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5046' ll='5049' macro='1' type='yyjson_val * yyjson_obj_get(yyjson_val * obj, const char * key)'/>
+<use f='codebrowser/src/test/test_json.c' l='37' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='45' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='49' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/util/yyjson.c' l='2262' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2268' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2276' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2282' u='c' c='yyjson_patch'/>

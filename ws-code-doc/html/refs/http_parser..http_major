@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/http_parser.h' l='317' type='unsigned short'/>
+<use f='codebrowser/src/http_parser.c' l='880' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1147' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1219' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2292' u='r' c='http_version'/>
+<use f='codebrowser/src/http_parser.c' l='2297' u='r' c='http_should_keep_alive'/>
+<offset>192</offset>
+<doc f='codebrowser/src/http_parser.h' l='316'>/** READ-ONLY **/</doc>

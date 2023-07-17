@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1630' type='int SSL_SESSION_set1_alpn_selected(SSL_SESSION * s, const unsigned char * alpn, size_t len)'/>

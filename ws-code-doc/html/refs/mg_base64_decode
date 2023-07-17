@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1095' type='int mg_base64_decode(const char * src, int n, char * dst)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='69' ll='85' type='int mg_base64_decode(const char * src, int n, char * dst)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='835' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='280' u='c' c='mg_json_get_b64'/>

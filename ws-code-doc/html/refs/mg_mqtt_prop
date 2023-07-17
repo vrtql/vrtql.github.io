@@ -1,0 +1,14 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1480' ll='1485'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1498'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1500'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1530' c='mg_mqtt_next_prop'/>
+<size>40</size>
+<mbr r='mg_mqtt_prop::id' o='0' t='uint8_t'/>
+<mbr r='mg_mqtt_prop::iv' o='32' t='uint32_t'/>
+<mbr r='mg_mqtt_prop::key' o='64' t='struct mg_str'/>
+<mbr r='mg_mqtt_prop::val' o='192' t='struct mg_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='156' c='get_props_size'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='163' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='204' c='mg_mqtt_next_prop'/>
+<size>40</size>

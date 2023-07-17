@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/util/yyjson.h' l='794' type='yyjson_doc * yyjson_read_opts(char * dat, size_t len, yyjson_read_flag flg, const yyjson_alc * alc, yyjson_read_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='865' u='c' c='yyjson_read'/>
+<def f='codebrowser/src/util/yyjson.c' l='6414' ll='6529' type='yyjson_doc * yyjson_read_opts(char * dat, usize len, yyjson_read_flag flg, const yyjson_alc * alc_ptr, yyjson_read_err * err)'/>
+<use f='codebrowser/src/util/yyjson.c' l='6640' u='c' c='yyjson_read_fp'/>
+<doc f='codebrowser/src/util/yyjson.c' l='6410'>/*==============================================================================
+ * JSON Reader Entrance
+ *============================================================================*/</doc>

@@ -1,0 +1,9 @@
+<dec f='include/openssl/ssl.h' l='2224' type='int SSL_enable_ct(SSL * s, int validation_mode)'/>
+<doc f='include/openssl/ssl.h' l='2216'>/*
+ * Enable CT by setting up a callback that implements one of the built-in
+ * validation variants.  The SSL_CT_VALIDATION_PERMISSIVE variant always
+ * continues the handshake, the application can make appropriate decisions at
+ * handshake completion.  The SSL_CT_VALIDATION_STRICT variant requires at
+ * least one valid SCT, or else handshake termination will be requested.  The
+ * handshake may continue anyway if SSL_VERIFY_NONE is in effect.
+ */</doc>

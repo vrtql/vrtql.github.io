@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='170' type='mpack_writer_teardown_t'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='447' u='w' c='mpack_writer_set_teardown'/>
+<offset>128</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='170'>/* Function to teardown the context on destroy */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='101' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='584' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='585' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='586' u='w' c='mpack_writer_destroy'/>

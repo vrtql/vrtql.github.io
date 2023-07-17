@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='182' type='float mpack_expect_float_strict(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='176'>/**
+ * Reads a float. The underlying value must be a float, not a double or an integer.
+ * This ensures no loss of precision can occur.
+ *
+ * @throws mpack_error_type if the underlying value is not a float.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='218' ll='224' type='float mpack_expect_float_strict(mpack_reader_t * reader)'/>

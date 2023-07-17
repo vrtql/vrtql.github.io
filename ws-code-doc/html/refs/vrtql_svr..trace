@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/server.h' l='242' type='uint8_t'/>
+<use f='codebrowser/src/server.c' l='551' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='575' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='673' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='699' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='722' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='734' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='749' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='762' u='w' c='vrtql_svr_trace'/>
+<use f='codebrowser/src/server.c' l='775' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='785' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='816' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='916' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='924' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1054' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1343' u='r' c='msg_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1357' u='r' c='msg_svr_client_disconnect'/>
+<offset>4352</offset>
+<doc f='codebrowser/src/server.h' l='241'>/**&lt; Debugging trace flag */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='16' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_server.c' l='28' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='49' u='w' c='ctest_test_server_echo_run'/>

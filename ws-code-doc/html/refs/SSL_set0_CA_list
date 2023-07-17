@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1937' type='void SSL_set0_CA_list(SSL * s, struct stack_st_X509_NAME * name_list)'/>

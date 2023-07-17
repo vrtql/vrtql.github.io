@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1072'/>
+<doc f='include/openssl/ssl.h' l='1071'>/* Is the SSL_connection established? */</doc>

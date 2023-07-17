@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/rpc.h' l='73' type='void vrtql_rpc_module_set(vrtql_rpc_module * m, cstr n, vrtql_rpc_call c)'/>
+<def f='codebrowser/src/rpc.c' l='84' ll='87' type='void vrtql_rpc_module_set(vrtql_rpc_module * m, cstr n, vrtql_rpc_call c)'/>
+<doc f='codebrowser/src/rpc.h' l='66'>/**
+ * @brief Adds an RPC to module.
+ *
+ * @param m The RPC module
+ * @param n The name of the The RPC module
+ * @param c The RPC call
+ */</doc>
+<use f='codebrowser/src/test/test_rpc.c' l='36' u='c' c='ctest_test_rpc_module_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='37' u='c' c='ctest_test_rpc_module_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='38' u='c' c='ctest_test_rpc_module_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='51' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='52' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='53' u='c' c='ctest_test_rpc_call_run'/>

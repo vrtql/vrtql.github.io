@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='202' type='void mpack_reader_init_data(mpack_reader_t * reader, const char * data, size_t count)'/>
+<use f='codebrowser/src/message.c' l='235' u='c' c='vrtql_msg_deserialize'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='194'>/**
+ * Initializes an MPack reader to parse a pre-loaded contiguous chunk of data. The
+ * reader does not assume ownership of the data.
+ *
+ * @param reader The MPack reader.
+ * @param data The data to parse.
+ * @param count The number of bytes pointed to by data.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='57' ll='70' type='void mpack_reader_init_data(mpack_reader_t * reader, const char * data, size_t count)'/>

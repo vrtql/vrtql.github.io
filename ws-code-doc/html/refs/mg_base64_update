@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1092' type='int mg_base64_update(unsigned char p, char * to, int len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='35' ll='49' type='int mg_base64_update(unsigned char ch, char * to, int n)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='c' c='mg_base64_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_base64_encode'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' u='c' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='99' u='c' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='101' u='c' c='mg_http_bauth'/>

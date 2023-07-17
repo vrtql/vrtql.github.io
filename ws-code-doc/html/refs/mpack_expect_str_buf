@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='947' type='size_t mpack_expect_str_buf(mpack_reader_t * reader, char * buf, size_t bufsize)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='938'>/**
+ * Reads a string of at most the given size, writing it into the
+ * given buffer and returning its size in bytes.
+ *
+ * This does not add a null-terminator! Use mpack_expect_cstr() to
+ * add a null-terminator.
+ *
+ * NUL bytes are allowed in the string, and no encoding checks are done.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='522' ll='540' type='size_t mpack_expect_str_buf(mpack_reader_t * reader, char * buf, size_t bufsize)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='545' u='c' c='mpack_expect_utf8'/>

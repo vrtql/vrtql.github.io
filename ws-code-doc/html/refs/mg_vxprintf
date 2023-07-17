@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='888' type='size_t mg_vxprintf(void (*)(char, void *) , void * , const char * fmt, va_list * )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='133' u='c' c='mg_xprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='138' ll='224' type='size_t mg_vxprintf(void (*)(char, void *) out, void * param, const char * fmt, va_list * ap)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='294' u='c' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='396' u='c' c='mg_http_reply'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='50' u='c' c='mg_log'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='c' c='mg_vprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='c' c='mg_vsnprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_vmprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' u='c' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='78' u='c' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22' u='c' c='mg_ws_vprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='c' c='ws_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='255' u='c' c='mg_ws_connect'/>

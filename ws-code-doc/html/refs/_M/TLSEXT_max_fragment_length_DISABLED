@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='204'/>
+<doc f='include/openssl/tls1.h' l='203'>/* OpenSSL value to disable maximum fragment length extension */</doc>

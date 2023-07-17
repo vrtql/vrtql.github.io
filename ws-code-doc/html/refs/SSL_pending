@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1536' type='int SSL_pending(const SSL * s)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='c' c='mg_tls_pending'/>

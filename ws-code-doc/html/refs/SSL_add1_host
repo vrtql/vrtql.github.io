@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1735' type='int SSL_add1_host(SSL * s, const char * hostname)'/>

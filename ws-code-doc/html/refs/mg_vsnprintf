@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='897' type='size_t mg_vsnprintf(char * buf, size_t len, const char * fmt, va_list * ap)'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='896'>// Convenience wrappers around mg_xprintf</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='c' c='mg_error'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='c' c='mg_queue_vprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='46' ll='51' type='size_t mg_vsnprintf(char * buf, size_t len, const char * fmt, va_list * ap)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' u='c' c='mg_snprintf'/>

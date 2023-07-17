@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1272' type='struct mg_str'/>
+<offset>0</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='238' u='a' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='243' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='272' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='274' u='a' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='275' u='a' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='595' u='a' c='mg_http_serve_file'/>

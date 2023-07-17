@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/yyjson.h' l='6574' ll='6594' macro='1' type='_Bool unsafe_yyjson_mut_obj_replace(yyjson_mut_val * obj, yyjson_mut_val * key, yyjson_mut_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6701' u='c' c='yyjson_mut_obj_replace'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/ctest.h' l='207' type='void assert_compare_u(const char * cmp, uintmax_t exp, uintmax_t real, const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='402' ll='408' type='void assert_compare_u(const char * cmp, uintmax_t exp, uintmax_t real, const char * caller, int line)'/>

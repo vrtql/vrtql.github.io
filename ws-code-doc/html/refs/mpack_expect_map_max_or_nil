@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='756' type='_Bool mpack_expect_map_max_or_nil(mpack_reader_t * reader, uint32_t max_count, uint32_t * count)'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='399' ll='409' macro='1' type='_Bool mpack_expect_map_max_or_nil(mpack_reader_t * reader, uint32_t max_count, uint32_t * count)'/>

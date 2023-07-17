@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1609' type='void (*)(struct mg_rpc_req *)'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1609'>// Handler function</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='w' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='17' u='r' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='32' u='r' c='mg_rpc_call'/>

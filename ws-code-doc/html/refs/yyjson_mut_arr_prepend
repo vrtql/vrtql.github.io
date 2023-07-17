@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2886' type='_Bool yyjson_mut_arr_prepend(yyjson_mut_val * arr, yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6023' ll='6040' macro='1' type='_Bool yyjson_mut_arr_prepend(yyjson_mut_val * arr, yyjson_mut_val * val)'/>

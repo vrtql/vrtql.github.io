@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='433' ll='435' macro='1' type='void mpack_writer_set_error_handler(mpack_writer_t * writer, mpack_writer_error_t error_fn)'/>

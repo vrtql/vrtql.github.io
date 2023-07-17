@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1522' type='const char * OPENSSL_cipher_name(const char * rfc_name)'/>

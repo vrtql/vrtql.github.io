@@ -1,0 +1,15 @@
+<def f='codebrowser/src/http_request.h' l='11' ll='37'/>
+<use f='codebrowser/src/http_request.h' l='11'/>
+<size>88</size>
+<doc f='codebrowser/src/http_request.h' l='7'>/**
+ * @struct vrtql_http_req
+ * @brief Structure representing an HTTP request
+ */</doc>
+<mbr r='vrtql_http_req::parser' o='0' t='http_parser *'/>
+<mbr r='vrtql_http_req::settings' o='64' t='http_parser_settings *'/>
+<mbr r='vrtql_http_req::headers' o='128' t='struct sc_map_str'/>
+<mbr r='vrtql_http_req::url' o='384' t='vrtql_buffer *'/>
+<mbr r='vrtql_http_req::body' o='448' t='vrtql_buffer *'/>
+<mbr r='vrtql_http_req::field' o='512' t='vrtql_buffer *'/>
+<mbr r='vrtql_http_req::value' o='576' t='vrtql_buffer *'/>
+<mbr r='vrtql_http_req::complete' o='640' t='_Bool'/>

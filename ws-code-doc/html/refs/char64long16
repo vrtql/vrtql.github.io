@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='7' ll='10'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='blk0'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' c='mg_sha1_transform'/>
+<size>64</size>
+<doc f='codebrowser/src/test/util/mongoose.c' l='3'>/* 100% Public Domain */</doc>

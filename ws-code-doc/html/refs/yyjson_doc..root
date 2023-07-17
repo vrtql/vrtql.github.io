@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4398' type='yyjson_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='4713' u='r' c='yyjson_doc_get_root'/>
+<use f='codebrowser/src/util/yyjson.h' l='6997' u='r' c='yyjson_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7002' u='r' c='yyjson_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7008' u='r' c='yyjson_doc_ptr_getx'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='4397'>/** Root value of the document (nonnull). */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1261' u='r' c='yyjson_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1264' u='r' c='yyjson_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1510' u='w' c='yyjson_mut_val_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='5561' u='w' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5948' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5951' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6379' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8585' u='r' c='yyjson_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='8646' u='r' c='yyjson_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8655' u='r' c='yyjson_write_fp'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/src/mpack/mpack-common.c' l='695' ll='697' macro='1' type='_Bool mpack_utf8_check_no_null(const char * str, size_t bytes)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='678' u='c' c='mpack_expect_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1500' u='c' c='mpack_node_check_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1613' u='c' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1712' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='490' u='c' c='mpack_read_utf8_cstr'/>

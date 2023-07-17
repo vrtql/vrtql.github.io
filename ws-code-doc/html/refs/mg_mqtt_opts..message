@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1492' type='struct mg_str'/>
+<offset>512</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1492'>// message content</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='282' u='m' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='283' u='m' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='311' u='m' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='312' u='m' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='312' u='m' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='326' u='m' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='328' u='m' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='329' u='m' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='343' u='m' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='343' u='m' c='mg_mqtt_pub'/>

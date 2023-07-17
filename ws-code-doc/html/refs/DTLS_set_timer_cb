@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2424' type='void DTLS_set_timer_cb(SSL * s, DTLS_timer_cb cb)'/>

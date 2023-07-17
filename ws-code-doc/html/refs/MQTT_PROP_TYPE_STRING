@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1470' type='1'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='24'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='24'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='37'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='37'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='24'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='24'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='37'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='37'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='237' c='mg_mqtt_next_prop'/>

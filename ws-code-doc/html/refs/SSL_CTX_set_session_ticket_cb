@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2413' type='int SSL_CTX_set_session_ticket_cb(SSL_CTX * ctx, SSL_CTX_generate_session_ticket_fn gen_cb, SSL_CTX_decrypt_session_ticket_fn dec_cb, void * arg)'/>

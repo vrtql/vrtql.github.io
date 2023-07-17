@@ -1,0 +1,4 @@
+<dec f='include/openssl/objectserr.h' l='39'/>
+<doc f='include/openssl/objectserr.h' l='36'>/*
+ * OBJ reason codes.
+ */</doc>

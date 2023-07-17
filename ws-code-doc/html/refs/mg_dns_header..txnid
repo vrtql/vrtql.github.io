@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1549' type='uint16_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1549'>// Transaction ID</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='109' u='r' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='206' u='w' c='mg_dns_send'/>

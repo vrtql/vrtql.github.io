@@ -1,0 +1,2 @@
+<dec f='include/openssl/hmac.h' l='33' type='int HMAC_Init_ex(HMAC_CTX * ctx, const void * key, int len, const EVP_MD * md, ENGINE * impl)'/>
+<doc f='include/openssl/hmac.h' l='33'>/*__owur*/</doc>

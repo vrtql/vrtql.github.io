@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1637' type='void SSL_SESSION_get0_ticket(const SSL_SESSION * s, const unsigned char ** tick, size_t * len)'/>

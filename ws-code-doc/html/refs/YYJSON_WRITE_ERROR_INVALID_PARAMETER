@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/yyjson.h' l='1033' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1032'>/** Invalid parameter, such as NULL document. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='9123' u='r' c='yyjson_mut_write_opts_impl'/>
+<use f='codebrowser/src/util/yyjson.c' l='9179' u='r' c='yyjson_mut_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='9205' u='r' c='yyjson_mut_val_write_fp'/>

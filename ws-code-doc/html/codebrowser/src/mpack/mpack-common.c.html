@@ -1,0 +1,769 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>mpack-common.c source code [codebrowser/src/mpack/mpack-common.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/mpack/mpack-common.c'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>mpack</a>/<a href='mpack-common.c.html'>mpack-common.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2015-2021 Nicholas Fraser and the MPack authors</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission is hereby granted, free of charge, to any person obtaining a copy of</i></td></tr>
+<tr><th id="5">5</th><td><i> * this software and associated documentation files (the "Software"), to deal in</i></td></tr>
+<tr><th id="6">6</th><td><i> * the Software without restriction, including without limitation the rights to</i></td></tr>
+<tr><th id="7">7</th><td><i> * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of</i></td></tr>
+<tr><th id="8">8</th><td><i> * the Software, and to permit persons to whom the Software is furnished to do so,</i></td></tr>
+<tr><th id="9">9</th><td><i> * subject to the following conditions:</i></td></tr>
+<tr><th id="10">10</th><td><i> *</i></td></tr>
+<tr><th id="11">11</th><td><i> * The above copyright notice and this permission notice shall be included in all</i></td></tr>
+<tr><th id="12">12</th><td><i> * copies or substantial portions of the Software.</i></td></tr>
+<tr><th id="13">13</th><td><i> *</i></td></tr>
+<tr><th id="14">14</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</i></td></tr>
+<tr><th id="15">15</th><td><i> * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS</i></td></tr>
+<tr><th id="16">16</th><td><i> * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR</i></td></tr>
+<tr><th id="17">17</th><td><i> * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER</i></td></tr>
+<tr><th id="18">18</th><td><i> * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN</i></td></tr>
+<tr><th id="19">19</th><td><i> * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</i></td></tr>
+<tr><th id="20">20</th><td><i> */</i></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/MPACK_INTERNAL" data-ref="_M/MPACK_INTERNAL">MPACK_INTERNAL</dfn> 1</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#include <a href="mpack-common.h.html">"mpack-common.h"</a></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><a class="macro" href="mpack-platform.h.html#1134" title="" data-ref="_M/MPACK_SILENCE_WARNINGS_BEGIN">MPACK_SILENCE_WARNINGS_BEGIN</a></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><em>const</em> <em>char</em>* <dfn class="decl def fn" id="mpack_error_to_string" title='mpack_error_to_string' data-ref="mpack_error_to_string" data-ref-filename="mpack_error_to_string">mpack_error_to_string</dfn>(<a class="typedef" href="mpack-common.h.html#mpack_error_t" title='mpack_error_t' data-type='enum mpack_error_t' data-ref="mpack_error_t" data-ref-filename="mpack_error_t">mpack_error_t</a> <dfn class="local col1 decl" id="1error" title='error' data-type='mpack_error_t' data-ref="1error" data-ref-filename="1error">error</dfn>) {</td></tr>
+<tr><th id="29">29</th><td>    <u>#<span data-ppcond="29">if</span> <a class="macro" href="mpack-platform.h.html#662" title="1" data-ref="_M/MPACK_STRINGS">MPACK_STRINGS</a></u></td></tr>
+<tr><th id="30">30</th><td>    <b>switch</b> (<a class="local col1 ref" href="#1error" title='error' data-ref="1error" data-ref-filename="1error">error</a>) {</td></tr>
+<tr><th id="31">31</th><td>        <u>#define <dfn class="macro" id="_M/MPACK_ERROR_STRING_CASE" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</dfn>(e) case e: return #e</u></td></tr>
+<tr><th id="32">32</th><td>        <a class="macro" href="#31" title="case mpack_ok: return &quot;mpack_ok&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_ok" title='mpack_ok' data-ref="mpack_ok" data-ref-filename="mpack_ok">mpack_ok</a>);</td></tr>
+<tr><th id="33">33</th><td>        <a class="macro" href="#31" title="case mpack_error_io: return &quot;mpack_error_io&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_io" title='mpack_error_io' data-ref="mpack_error_io" data-ref-filename="mpack_error_io">mpack_error_io</a>);</td></tr>
+<tr><th id="34">34</th><td>        <a class="macro" href="#31" title="case mpack_error_invalid: return &quot;mpack_error_invalid&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_invalid" title='mpack_error_invalid' data-ref="mpack_error_invalid" data-ref-filename="mpack_error_invalid">mpack_error_invalid</a>);</td></tr>
+<tr><th id="35">35</th><td>        <a class="macro" href="#31" title="case mpack_error_unsupported: return &quot;mpack_error_unsupported&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_unsupported" title='mpack_error_unsupported' data-ref="mpack_error_unsupported" data-ref-filename="mpack_error_unsupported">mpack_error_unsupported</a>);</td></tr>
+<tr><th id="36">36</th><td>        <a class="macro" href="#31" title="case mpack_error_type: return &quot;mpack_error_type&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_type" title='mpack_error_type' data-ref="mpack_error_type" data-ref-filename="mpack_error_type">mpack_error_type</a>);</td></tr>
+<tr><th id="37">37</th><td>        <a class="macro" href="#31" title="case mpack_error_too_big: return &quot;mpack_error_too_big&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_too_big" title='mpack_error_too_big' data-ref="mpack_error_too_big" data-ref-filename="mpack_error_too_big">mpack_error_too_big</a>);</td></tr>
+<tr><th id="38">38</th><td>        <a class="macro" href="#31" title="case mpack_error_memory: return &quot;mpack_error_memory&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_memory" title='mpack_error_memory' data-ref="mpack_error_memory" data-ref-filename="mpack_error_memory">mpack_error_memory</a>);</td></tr>
+<tr><th id="39">39</th><td>        <a class="macro" href="#31" title="case mpack_error_bug: return &quot;mpack_error_bug&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_bug" title='mpack_error_bug' data-ref="mpack_error_bug" data-ref-filename="mpack_error_bug">mpack_error_bug</a>);</td></tr>
+<tr><th id="40">40</th><td>        <a class="macro" href="#31" title="case mpack_error_data: return &quot;mpack_error_data&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_data" title='mpack_error_data' data-ref="mpack_error_data" data-ref-filename="mpack_error_data">mpack_error_data</a>);</td></tr>
+<tr><th id="41">41</th><td>        <a class="macro" href="#31" title="case mpack_error_eof: return &quot;mpack_error_eof&quot;" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_error_eof" title='mpack_error_eof' data-ref="mpack_error_eof" data-ref-filename="mpack_error_eof">mpack_error_eof</a>);</td></tr>
+<tr><th id="42">42</th><td>        <u>#undef <a class="macro" href="#31" data-ref="_M/MPACK_ERROR_STRING_CASE">MPACK_ERROR_STRING_CASE</a></u></td></tr>
+<tr><th id="43">43</th><td>    }</td></tr>
+<tr><th id="44">44</th><td>    <a class="macro" href="mpack-platform.h.html#1709" title="((!(0)) ? (__builtin_unreachable(), (void)0) : (void)0)" data-ref="_M/mpack_assert">mpack_assert</a>(<var>0</var>, <q>"unrecognized error %i"</q>, (<em>int</em>)error);</td></tr>
+<tr><th id="45">45</th><td>    <b>return</b> <q>"(unknown mpack_error_t)"</q>;</td></tr>
+<tr><th id="46">46</th><td>    <u>#<span data-ppcond="29">else</span></u></td></tr>
+<tr><th id="47">47</th><td>    MPACK_UNUSED(error);</td></tr>
+<tr><th id="48">48</th><td>    <b>return</b> <q>""</q>;</td></tr>
+<tr><th id="49">49</th><td>    <u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="50">50</th><td>}</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><em>const</em> <em>char</em>* <dfn class="decl def fn" id="mpack_type_to_string" title='mpack_type_to_string' data-ref="mpack_type_to_string" data-ref-filename="mpack_type_to_string">mpack_type_to_string</dfn>(<a class="typedef" href="mpack-common.h.html#mpack_type_t" title='mpack_type_t' data-type='enum mpack_type_t' data-ref="mpack_type_t" data-ref-filename="mpack_type_t">mpack_type_t</a> <dfn class="local col2 decl" id="2type" title='type' data-type='mpack_type_t' data-ref="2type" data-ref-filename="2type">type</dfn>) {</td></tr>
+<tr><th id="53">53</th><td>    <u>#<span data-ppcond="53">if</span> <a class="macro" href="mpack-platform.h.html#662" title="1" data-ref="_M/MPACK_STRINGS">MPACK_STRINGS</a></u></td></tr>
+<tr><th id="54">54</th><td>    <b>switch</b> (<a class="local col2 ref" href="#2type" title='type' data-ref="2type" data-ref-filename="2type">type</a>) {</td></tr>
+<tr><th id="55">55</th><td>        <u>#define <dfn class="macro" id="_M/MPACK_TYPE_STRING_CASE" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</dfn>(e) case e: return #e</u></td></tr>
+<tr><th id="56">56</th><td>        <a class="macro" href="#55" title="case mpack_type_missing: return &quot;mpack_type_missing&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_missing" title='mpack_type_missing' data-ref="mpack_type_missing" data-ref-filename="mpack_type_missing">mpack_type_missing</a>);</td></tr>
+<tr><th id="57">57</th><td>        <a class="macro" href="#55" title="case mpack_type_nil: return &quot;mpack_type_nil&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_nil" title='mpack_type_nil' data-ref="mpack_type_nil" data-ref-filename="mpack_type_nil">mpack_type_nil</a>);</td></tr>
+<tr><th id="58">58</th><td>        <a class="macro" href="#55" title="case mpack_type_bool: return &quot;mpack_type_bool&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_bool" title='mpack_type_bool' data-ref="mpack_type_bool" data-ref-filename="mpack_type_bool">mpack_type_bool</a>);</td></tr>
+<tr><th id="59">59</th><td>        <a class="macro" href="#55" title="case mpack_type_float: return &quot;mpack_type_float&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_float" title='mpack_type_float' data-ref="mpack_type_float" data-ref-filename="mpack_type_float">mpack_type_float</a>);</td></tr>
+<tr><th id="60">60</th><td>        <a class="macro" href="#55" title="case mpack_type_double: return &quot;mpack_type_double&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_double" title='mpack_type_double' data-ref="mpack_type_double" data-ref-filename="mpack_type_double">mpack_type_double</a>);</td></tr>
+<tr><th id="61">61</th><td>        <a class="macro" href="#55" title="case mpack_type_int: return &quot;mpack_type_int&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_int" title='mpack_type_int' data-ref="mpack_type_int" data-ref-filename="mpack_type_int">mpack_type_int</a>);</td></tr>
+<tr><th id="62">62</th><td>        <a class="macro" href="#55" title="case mpack_type_uint: return &quot;mpack_type_uint&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_uint" title='mpack_type_uint' data-ref="mpack_type_uint" data-ref-filename="mpack_type_uint">mpack_type_uint</a>);</td></tr>
+<tr><th id="63">63</th><td>        <a class="macro" href="#55" title="case mpack_type_str: return &quot;mpack_type_str&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_str" title='mpack_type_str' data-ref="mpack_type_str" data-ref-filename="mpack_type_str">mpack_type_str</a>);</td></tr>
+<tr><th id="64">64</th><td>        <a class="macro" href="#55" title="case mpack_type_bin: return &quot;mpack_type_bin&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_bin" title='mpack_type_bin' data-ref="mpack_type_bin" data-ref-filename="mpack_type_bin">mpack_type_bin</a>);</td></tr>
+<tr><th id="65">65</th><td>        <a class="macro" href="#55" title="case mpack_type_array: return &quot;mpack_type_array&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_array" title='mpack_type_array' data-ref="mpack_type_array" data-ref-filename="mpack_type_array">mpack_type_array</a>);</td></tr>
+<tr><th id="66">66</th><td>        <a class="macro" href="#55" title="case mpack_type_map: return &quot;mpack_type_map&quot;" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a>(<a class="enum" href="mpack-common.h.html#mpack_type_map" title='mpack_type_map' data-ref="mpack_type_map" data-ref-filename="mpack_type_map">mpack_type_map</a>);</td></tr>
+<tr><th id="67">67</th><td>        <u>#<span data-ppcond="67">if</span> <a class="macro" href="mpack-platform.h.html#231" title="0" data-ref="_M/MPACK_EXTENSIONS">MPACK_EXTENSIONS</a></u></td></tr>
+<tr><th id="68">68</th><td>        MPACK_TYPE_STRING_CASE(mpack_type_ext);</td></tr>
+<tr><th id="69">69</th><td>        <u>#<span data-ppcond="67">endif</span></u></td></tr>
+<tr><th id="70">70</th><td>        <u>#undef <a class="macro" href="#55" data-ref="_M/MPACK_TYPE_STRING_CASE">MPACK_TYPE_STRING_CASE</a></u></td></tr>
+<tr><th id="71">71</th><td>    }</td></tr>
+<tr><th id="72">72</th><td>    <a class="macro" href="mpack-platform.h.html#1709" title="((!(0)) ? (__builtin_unreachable(), (void)0) : (void)0)" data-ref="_M/mpack_assert">mpack_assert</a>(<var>0</var>, <q>"unrecognized type %i"</q>, (<em>int</em>)type);</td></tr>
+<tr><th id="73">73</th><td>    <b>return</b> <q>"(unknown mpack_type_t)"</q>;</td></tr>
+<tr><th id="74">74</th><td>    <u>#<span data-ppcond="53">else</span></u></td></tr>
+<tr><th id="75">75</th><td>    MPACK_UNUSED(type);</td></tr>
+<tr><th id="76">76</th><td>    <b>return</b> <q>""</q>;</td></tr>
+<tr><th id="77">77</th><td>    <u>#<span data-ppcond="53">endif</span></u></td></tr>
+<tr><th id="78">78</th><td>}</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td><em>int</em> <dfn class="decl def fn" id="mpack_tag_cmp" title='mpack_tag_cmp' data-ref="mpack_tag_cmp" data-ref-filename="mpack_tag_cmp">mpack_tag_cmp</dfn>(<a class="typedef" href="mpack-common.h.html#mpack_tag_t" title='mpack_tag_t' data-type='struct mpack_tag_t' data-ref="mpack_tag_t" data-ref-filename="mpack_tag_t">mpack_tag_t</a> <dfn class="local col3 decl" id="3left" title='left' data-type='mpack_tag_t' data-ref="3left" data-ref-filename="3left">left</dfn>, <a class="typedef" href="mpack-common.h.html#mpack_tag_t" title='mpack_tag_t' data-type='struct mpack_tag_t' data-ref="mpack_tag_t" data-ref-filename="mpack_tag_t">mpack_tag_t</a> <dfn class="local col4 decl" id="4right" title='right' data-type='mpack_tag_t' data-ref="4right" data-ref-filename="4right">right</dfn>) {</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>    <i>// positive numbers may be stored as int; convert to uint</i></td></tr>
+<tr><th id="83">83</th><td>    <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> == <a class="enum" href="mpack-common.h.html#mpack_type_int" title='mpack_type_int' data-ref="mpack_type_int" data-ref-filename="mpack_type_int">mpack_type_int</a> &amp;&amp; <a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a> &gt;= <var>0</var>) {</td></tr>
+<tr><th id="84">84</th><td>        <a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> = <a class="enum" href="mpack-common.h.html#mpack_type_uint" title='mpack_type_uint' data-ref="mpack_type_uint" data-ref-filename="mpack_type_uint">mpack_type_uint</a>;</td></tr>
+<tr><th id="85">85</th><td>        <a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a> = (<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>)<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a>;</td></tr>
+<tr><th id="86">86</th><td>    }</td></tr>
+<tr><th id="87">87</th><td>    <b>if</b> (<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> == <a class="enum" href="mpack-common.h.html#mpack_type_int" title='mpack_type_int' data-ref="mpack_type_int" data-ref-filename="mpack_type_int">mpack_type_int</a> &amp;&amp; <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a> &gt;= <var>0</var>) {</td></tr>
+<tr><th id="88">88</th><td>        <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> = <a class="enum" href="mpack-common.h.html#mpack_type_uint" title='mpack_type_uint' data-ref="mpack_type_uint" data-ref-filename="mpack_type_uint">mpack_type_uint</a>;</td></tr>
+<tr><th id="89">89</th><td>        <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a> = (<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>)<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a>;</td></tr>
+<tr><th id="90">90</th><td>    }</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>    <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> != <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a>)</td></tr>
+<tr><th id="93">93</th><td>        <b>return</b> ((<em>int</em>)<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a> &lt; (<em>int</em>)<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a>) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>    <b>switch</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::type" title='mpack_tag_t::type' data-ref="mpack_tag_t::type" data-ref-filename="mpack_tag_t..type">type</a>) {</td></tr>
+<tr><th id="96">96</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_missing" title='mpack_type_missing' data-ref="mpack_type_missing" data-ref-filename="mpack_type_missing">mpack_type_missing</a>: <i>// fallthrough</i></td></tr>
+<tr><th id="97">97</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_nil" title='mpack_type_nil' data-ref="mpack_type_nil" data-ref-filename="mpack_type_nil">mpack_type_nil</a>:</td></tr>
+<tr><th id="98">98</th><td>            <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_bool" title='mpack_type_bool' data-ref="mpack_type_bool" data-ref-filename="mpack_type_bool">mpack_type_bool</a>:</td></tr>
+<tr><th id="101">101</th><td>            <b>return</b> (<em>int</em>)<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::b" title='mpack_tag_t::(anonymous union)::b' data-ref="mpack_tag_t::(anonymous)::b" data-ref-filename="mpack_tag_t..(anonymous)..b">b</a> - (<em>int</em>)<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::b" title='mpack_tag_t::(anonymous union)::b' data-ref="mpack_tag_t::(anonymous)::b" data-ref-filename="mpack_tag_t..(anonymous)..b">b</a>;</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_int" title='mpack_type_int' data-ref="mpack_type_int" data-ref-filename="mpack_type_int">mpack_type_int</a>:</td></tr>
+<tr><th id="104">104</th><td>            <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a> == <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a>)</td></tr>
+<tr><th id="105">105</th><td>                <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="106">106</th><td>            <b>return</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a> &lt; <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::i" title='mpack_tag_t::(anonymous union)::i' data-ref="mpack_tag_t::(anonymous)::i" data-ref-filename="mpack_tag_t..(anonymous)..i">i</a>) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_uint" title='mpack_type_uint' data-ref="mpack_type_uint" data-ref-filename="mpack_type_uint">mpack_type_uint</a>:</td></tr>
+<tr><th id="109">109</th><td>            <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a> == <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a>)</td></tr>
+<tr><th id="110">110</th><td>                <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="111">111</th><td>            <b>return</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a> &lt; <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::u" title='mpack_tag_t::(anonymous union)::u' data-ref="mpack_tag_t::(anonymous)::u" data-ref-filename="mpack_tag_t..(anonymous)..u">u</a>) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_array" title='mpack_type_array' data-ref="mpack_type_array" data-ref-filename="mpack_type_array">mpack_type_array</a>:</td></tr>
+<tr><th id="114">114</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_map" title='mpack_type_map' data-ref="mpack_type_map" data-ref-filename="mpack_type_map">mpack_type_map</a>:</td></tr>
+<tr><th id="115">115</th><td>            <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::n" title='mpack_tag_t::(anonymous union)::n' data-ref="mpack_tag_t::(anonymous)::n" data-ref-filename="mpack_tag_t..(anonymous)..n">n</a> == <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::n" title='mpack_tag_t::(anonymous union)::n' data-ref="mpack_tag_t::(anonymous)::n" data-ref-filename="mpack_tag_t..(anonymous)..n">n</a>)</td></tr>
+<tr><th id="116">116</th><td>                <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="117">117</th><td>            <b>return</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::n" title='mpack_tag_t::(anonymous union)::n' data-ref="mpack_tag_t::(anonymous)::n" data-ref-filename="mpack_tag_t..(anonymous)..n">n</a> &lt; <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::n" title='mpack_tag_t::(anonymous union)::n' data-ref="mpack_tag_t::(anonymous)::n" data-ref-filename="mpack_tag_t..(anonymous)..n">n</a>) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_str" title='mpack_type_str' data-ref="mpack_type_str" data-ref-filename="mpack_type_str">mpack_type_str</a>:</td></tr>
+<tr><th id="120">120</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_bin" title='mpack_type_bin' data-ref="mpack_type_bin" data-ref-filename="mpack_type_bin">mpack_type_bin</a>:</td></tr>
+<tr><th id="121">121</th><td>            <b>if</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::l" title='mpack_tag_t::(anonymous union)::l' data-ref="mpack_tag_t::(anonymous)::l" data-ref-filename="mpack_tag_t..(anonymous)..l">l</a> == <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::l" title='mpack_tag_t::(anonymous union)::l' data-ref="mpack_tag_t::(anonymous)::l" data-ref-filename="mpack_tag_t..(anonymous)..l">l</a>)</td></tr>
+<tr><th id="122">122</th><td>                <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="123">123</th><td>            <b>return</b> (<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::l" title='mpack_tag_t::(anonymous union)::l' data-ref="mpack_tag_t::(anonymous)::l" data-ref-filename="mpack_tag_t..(anonymous)..l">l</a> &lt; <a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::l" title='mpack_tag_t::(anonymous union)::l' data-ref="mpack_tag_t::(anonymous)::l" data-ref-filename="mpack_tag_t..(anonymous)..l">l</a>) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td>        <u>#<span data-ppcond="125">if</span> <a class="macro" href="mpack-platform.h.html#231" title="0" data-ref="_M/MPACK_EXTENSIONS">MPACK_EXTENSIONS</a></u></td></tr>
+<tr><th id="126">126</th><td>        <b>case</b> mpack_type_ext:</td></tr>
+<tr><th id="127">127</th><td>            <b>if</b> (left.exttype == right.exttype) {</td></tr>
+<tr><th id="128">128</th><td>                <b>if</b> (left.v.l == right.v.l)</td></tr>
+<tr><th id="129">129</th><td>                    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="130">130</th><td>                <b>return</b> (left.v.l &lt; right.v.l) ? -<var>1</var> : <var>1</var>;</td></tr>
+<tr><th id="131">131</th><td>            }</td></tr>
+<tr><th id="132">132</th><td>            <b>return</b> (<em>int</em>)left.exttype - (<em>int</em>)right.exttype;</td></tr>
+<tr><th id="133">133</th><td>        <u>#<span data-ppcond="125">endif</span></u></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td>        <i>// floats should not normally be compared for equality. we compare</i></td></tr>
+<tr><th id="136">136</th><td><i>        // with memcmp() to silence compiler warnings, but this will return</i></td></tr>
+<tr><th id="137">137</th><td><i>        // equal if both are NaNs with the same representation (though we may</i></td></tr>
+<tr><th id="138">138</th><td><i>        // want this, for instance if you are for some bizarre reason using</i></td></tr>
+<tr><th id="139">139</th><td><i>        // floats as map keys.) i'm not sure what the right thing to</i></td></tr>
+<tr><th id="140">140</th><td><i>        // do is here. check for NaN first? always return false if the type</i></td></tr>
+<tr><th id="141">141</th><td><i>        // is float? use operator== and pragmas to silence compiler warning?</i></td></tr>
+<tr><th id="142">142</th><td><i>        // please send me your suggestions.</i></td></tr>
+<tr><th id="143">143</th><td><i>        // note also that we don't convert floats to doubles, so when this is</i></td></tr>
+<tr><th id="144">144</th><td><i>        // used for ordering purposes, all floats are ordered before all</i></td></tr>
+<tr><th id="145">145</th><td><i>        // doubles.</i></td></tr>
+<tr><th id="146">146</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_float" title='mpack_type_float' data-ref="mpack_type_float" data-ref-filename="mpack_type_float">mpack_type_float</a>:</td></tr>
+<tr><th id="147">147</th><td>            <b>return</b> <a class="macro" href="mpack-platform.h.html#1746" title="memcmp" data-ref="_M/mpack_memcmp">mpack_memcmp</a>(&amp;<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::f" title='mpack_tag_t::(anonymous union)::f' data-ref="mpack_tag_t::(anonymous)::f" data-ref-filename="mpack_tag_t..(anonymous)..f">f</a>, &amp;<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::f" title='mpack_tag_t::(anonymous union)::f' data-ref="mpack_tag_t::(anonymous)::f" data-ref-filename="mpack_tag_t..(anonymous)..f">f</a>, <b>sizeof</b>(<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::f" title='mpack_tag_t::(anonymous union)::f' data-ref="mpack_tag_t::(anonymous)::f" data-ref-filename="mpack_tag_t..(anonymous)..f">f</a>));</td></tr>
+<tr><th id="148">148</th><td>        <b>case</b> <a class="enum" href="mpack-common.h.html#mpack_type_double" title='mpack_type_double' data-ref="mpack_type_double" data-ref-filename="mpack_type_double">mpack_type_double</a>:</td></tr>
+<tr><th id="149">149</th><td>            <b>return</b> <a class="macro" href="mpack-platform.h.html#1746" title="memcmp" data-ref="_M/mpack_memcmp">mpack_memcmp</a>(&amp;<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::d" title='mpack_tag_t::(anonymous union)::d' data-ref="mpack_tag_t::(anonymous)::d" data-ref-filename="mpack_tag_t..(anonymous)..d">d</a>, &amp;<a class="local col4 ref" href="#4right" title='right' data-ref="4right" data-ref-filename="4right">right</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::d" title='mpack_tag_t::(anonymous union)::d' data-ref="mpack_tag_t::(anonymous)::d" data-ref-filename="mpack_tag_t..(anonymous)..d">d</a>, <b>sizeof</b>(<a class="local col3 ref" href="#3left" title='left' data-ref="3left" data-ref-filename="3left">left</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::v" title='mpack_tag_t::v' data-ref="mpack_tag_t::v" data-ref-filename="mpack_tag_t..v">v</a>.<a class="ref field" href="mpack-common.h.html#mpack_tag_t::(anonymous)::d" title='mpack_tag_t::(anonymous union)::d' data-ref="mpack_tag_t::(anonymous)::d" data-ref-filename="mpack_tag_t..(anonymous)..d">d</a>));</td></tr>
+<tr><th id="150">150</th><td>    }</td></tr>
+<tr><th id="151">151</th><td></td></tr>
+<tr><th id="152">152</th><td>    <a class="macro" href="mpack-platform.h.html#1709" title="((!(0)) ? (__builtin_unreachable(), (void)0) : (void)0)" data-ref="_M/mpack_assert">mpack_assert</a>(<var>0</var>, <q>"unrecognized type %i"</q>, (<em>int</em>)left.type);</td></tr>
+<tr><th id="153">153</th><td>    <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="154">154</th><td>}</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><u>#<span data-ppcond="156">if</span> <a class="macro" href="mpack-platform.h.html#645" title="0" data-ref="_M/MPACK_DEBUG">MPACK_DEBUG</a> &amp;&amp; <a class="macro" href="mpack-platform.h.html#329" title="1" data-ref="_M/MPACK_STDIO">MPACK_STDIO</a></u></td></tr>
+<tr><th id="157">157</th><td><em>static</em> <em>char</em> mpack_hex_char(uint8_t hex_value) {</td></tr>
+<tr><th id="158">158</th><td>    <i>// Older compilers (e.g. GCC 4.4.7) promote the result of this ternary to</i></td></tr>
+<tr><th id="159">159</th><td><i>    // int and warn under -Wconversion, so we have to cast it back to char.</i></td></tr>
+<tr><th id="160">160</th><td>    <b>return</b> (<em>char</em>)((hex_value &lt; <var>10</var>) ? (<em>char</em>)(<kbd>'0'</kbd> + hex_value) : (<em>char</em>)(<kbd>'a'</kbd> + (hex_value - <var>10</var>)));</td></tr>
+<tr><th id="161">161</th><td>}</td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td><em>static</em> <em>void</em> mpack_tag_debug_complete_bin_ext(mpack_tag_t tag, size_t string_length, <em>char</em>* buffer, size_t buffer_size,</td></tr>
+<tr><th id="164">164</th><td>        <em>const</em> <em>char</em>* prefix, size_t prefix_size)</td></tr>
+<tr><th id="165">165</th><td>{</td></tr>
+<tr><th id="166">166</th><td>    <i>// If at any point in this function we run out of space in the buffer, we</i></td></tr>
+<tr><th id="167">167</th><td><i>    // bail out. The outer tag print wrapper will make sure we have a</i></td></tr>
+<tr><th id="168">168</th><td><i>    // null-terminator.</i></td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td>    <b>if</b> (string_length == <var>0</var> || string_length &gt;= buffer_size)</td></tr>
+<tr><th id="171">171</th><td>        <b>return</b>;</td></tr>
+<tr><th id="172">172</th><td>    buffer += string_length;</td></tr>
+<tr><th id="173">173</th><td>    buffer_size -= string_length;</td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td>    size_t total = mpack_tag_bytes(&amp;tag);</td></tr>
+<tr><th id="176">176</th><td>    <b>if</b> (total == <var>0</var>) {</td></tr>
+<tr><th id="177">177</th><td>        strncpy(buffer, <q>"&gt;"</q>, buffer_size);</td></tr>
+<tr><th id="178">178</th><td>        <b>return</b>;</td></tr>
+<tr><th id="179">179</th><td>    }</td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td>    strncpy(buffer, <q>": "</q>, buffer_size);</td></tr>
+<tr><th id="182">182</th><td>    <b>if</b> (buffer_size &lt; <var>2</var>)</td></tr>
+<tr><th id="183">183</th><td>        <b>return</b>;</td></tr>
+<tr><th id="184">184</th><td>    buffer += <var>2</var>;</td></tr>
+<tr><th id="185">185</th><td>    buffer_size -= <var>2</var>;</td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td>    size_t hex_bytes = <var>0</var>;</td></tr>
+<tr><th id="188">188</th><td>    size_t i;</td></tr>
+<tr><th id="189">189</th><td>    <b>for</b> (i = <var>0</var>; i &lt; MPACK_PRINT_BYTE_COUNT &amp;&amp; i &lt; prefix_size &amp;&amp; buffer_size &gt; <var>2</var>; ++i) {</td></tr>
+<tr><th id="190">190</th><td>        uint8_t byte = (uint8_t)prefix[i];</td></tr>
+<tr><th id="191">191</th><td>        buffer[<var>0</var>] = mpack_hex_char((uint8_t)(byte &gt;&gt; <var>4</var>));</td></tr>
+<tr><th id="192">192</th><td>        buffer[<var>1</var>] = mpack_hex_char((uint8_t)(byte &amp; <var>0xfu</var>));</td></tr>
+<tr><th id="193">193</th><td>        buffer += <var>2</var>;</td></tr>
+<tr><th id="194">194</th><td>        buffer_size -= <var>2</var>;</td></tr>
+<tr><th id="195">195</th><td>        ++hex_bytes;</td></tr>
+<tr><th id="196">196</th><td>    }</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td>    <b>if</b> (buffer_size != <var>0</var>)</td></tr>
+<tr><th id="199">199</th><td>        mpack_snprintf(buffer, buffer_size, <q>"%s&gt;"</q>, (total &gt; hex_bytes) ? <q>"..."</q> : <q>""</q>);</td></tr>
+<tr><th id="200">200</th><td>}</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td><em>static</em> <em>void</em> mpack_tag_debug_pseudo_json_bin(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size,</td></tr>
+<tr><th id="203">203</th><td>        <em>const</em> <em>char</em>* prefix, size_t prefix_size)</td></tr>
+<tr><th id="204">204</th><td>{</td></tr>
+<tr><th id="205">205</th><td>    mpack_assert(mpack_tag_type(&amp;tag) == mpack_type_bin);</td></tr>
+<tr><th id="206">206</th><td>    size_t length = (size_t)mpack_snprintf(buffer, buffer_size, <q>"&lt;binary data of length %"</q> PRIu32 <q>""</q>, tag.v.l);</td></tr>
+<tr><th id="207">207</th><td>    mpack_tag_debug_complete_bin_ext(tag, length, buffer, buffer_size, prefix, prefix_size);</td></tr>
+<tr><th id="208">208</th><td>}</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><u>#if MPACK_EXTENSIONS</u></td></tr>
+<tr><th id="211">211</th><td><em>static</em> <em>void</em> mpack_tag_debug_pseudo_json_ext(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size,</td></tr>
+<tr><th id="212">212</th><td>        <em>const</em> <em>char</em>* prefix, size_t prefix_size)</td></tr>
+<tr><th id="213">213</th><td>{</td></tr>
+<tr><th id="214">214</th><td>    mpack_assert(mpack_tag_type(&amp;tag) == mpack_type_ext);</td></tr>
+<tr><th id="215">215</th><td>    size_t length = (size_t)mpack_snprintf(buffer, buffer_size, <q>"&lt;ext data of type %i and length %"</q> PRIu32 <q>""</q>,</td></tr>
+<tr><th id="216">216</th><td>            mpack_tag_ext_exttype(&amp;tag), mpack_tag_ext_length(&amp;tag));</td></tr>
+<tr><th id="217">217</th><td>    mpack_tag_debug_complete_bin_ext(tag, length, buffer, buffer_size, prefix, prefix_size);</td></tr>
+<tr><th id="218">218</th><td>}</td></tr>
+<tr><th id="219">219</th><td><u>#endif</u></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+<tr><th id="221">221</th><td><em>static</em> <em>void</em> mpack_tag_debug_pseudo_json_impl(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size,</td></tr>
+<tr><th id="222">222</th><td>        <em>const</em> <em>char</em>* prefix, size_t prefix_size)</td></tr>
+<tr><th id="223">223</th><td>{</td></tr>
+<tr><th id="224">224</th><td>    <b>switch</b> (tag.type) {</td></tr>
+<tr><th id="225">225</th><td>        <b>case</b> mpack_type_missing:</td></tr>
+<tr><th id="226">226</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;missing!&gt;"</q>);</td></tr>
+<tr><th id="227">227</th><td>            <b>return</b>;</td></tr>
+<tr><th id="228">228</th><td>        <b>case</b> mpack_type_nil:</td></tr>
+<tr><th id="229">229</th><td>            mpack_snprintf(buffer, buffer_size, <q>"null"</q>);</td></tr>
+<tr><th id="230">230</th><td>            <b>return</b>;</td></tr>
+<tr><th id="231">231</th><td>        <b>case</b> mpack_type_bool:</td></tr>
+<tr><th id="232">232</th><td>            mpack_snprintf(buffer, buffer_size, tag.v.b ? <q>"true"</q> : <q>"false"</q>);</td></tr>
+<tr><th id="233">233</th><td>            <b>return</b>;</td></tr>
+<tr><th id="234">234</th><td>        <b>case</b> mpack_type_int:</td></tr>
+<tr><th id="235">235</th><td>            mpack_snprintf(buffer, buffer_size, <q>"%"</q> PRIi64, tag.v.i);</td></tr>
+<tr><th id="236">236</th><td>            <b>return</b>;</td></tr>
+<tr><th id="237">237</th><td>        <b>case</b> mpack_type_uint:</td></tr>
+<tr><th id="238">238</th><td>            mpack_snprintf(buffer, buffer_size, <q>"%"</q> PRIu64, tag.v.u);</td></tr>
+<tr><th id="239">239</th><td>            <b>return</b>;</td></tr>
+<tr><th id="240">240</th><td>        <b>case</b> mpack_type_float:</td></tr>
+<tr><th id="241">241</th><td>            <u>#if MPACK_FLOAT</u></td></tr>
+<tr><th id="242">242</th><td>            mpack_snprintf(buffer, buffer_size, <q>"%f"</q>, tag.v.f);</td></tr>
+<tr><th id="243">243</th><td>            <u>#else</u></td></tr>
+<tr><th id="244">244</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;float&gt;"</q>);</td></tr>
+<tr><th id="245">245</th><td>            <u>#endif</u></td></tr>
+<tr><th id="246">246</th><td>            <b>return</b>;</td></tr>
+<tr><th id="247">247</th><td>        <b>case</b> mpack_type_double:</td></tr>
+<tr><th id="248">248</th><td>            <u>#if MPACK_DOUBLE</u></td></tr>
+<tr><th id="249">249</th><td>            mpack_snprintf(buffer, buffer_size, <q>"%f"</q>, tag.v.d);</td></tr>
+<tr><th id="250">250</th><td>            <u>#else</u></td></tr>
+<tr><th id="251">251</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;double&gt;"</q>);</td></tr>
+<tr><th id="252">252</th><td>            <u>#endif</u></td></tr>
+<tr><th id="253">253</th><td>            <b>return</b>;</td></tr>
+<tr><th id="254">254</th><td></td></tr>
+<tr><th id="255">255</th><td>        <b>case</b> mpack_type_str:</td></tr>
+<tr><th id="256">256</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;string of %"</q> PRIu32 <q>" bytes&gt;"</q>, tag.v.l);</td></tr>
+<tr><th id="257">257</th><td>            <b>return</b>;</td></tr>
+<tr><th id="258">258</th><td>        <b>case</b> mpack_type_bin:</td></tr>
+<tr><th id="259">259</th><td>            mpack_tag_debug_pseudo_json_bin(tag, buffer, buffer_size, prefix, prefix_size);</td></tr>
+<tr><th id="260">260</th><td>            <b>return</b>;</td></tr>
+<tr><th id="261">261</th><td>        <u>#if MPACK_EXTENSIONS</u></td></tr>
+<tr><th id="262">262</th><td>        <b>case</b> mpack_type_ext:</td></tr>
+<tr><th id="263">263</th><td>            mpack_tag_debug_pseudo_json_ext(tag, buffer, buffer_size, prefix, prefix_size);</td></tr>
+<tr><th id="264">264</th><td>            <b>return</b>;</td></tr>
+<tr><th id="265">265</th><td>        <u>#endif</u></td></tr>
+<tr><th id="266">266</th><td></td></tr>
+<tr><th id="267">267</th><td>        <b>case</b> mpack_type_array:</td></tr>
+<tr><th id="268">268</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;array of %"</q> PRIu32 <q>" elements&gt;"</q>, tag.v.n);</td></tr>
+<tr><th id="269">269</th><td>            <b>return</b>;</td></tr>
+<tr><th id="270">270</th><td>        <b>case</b> mpack_type_map:</td></tr>
+<tr><th id="271">271</th><td>            mpack_snprintf(buffer, buffer_size, <q>"&lt;map of %"</q> PRIu32 <q>" key-value pairs&gt;"</q>, tag.v.n);</td></tr>
+<tr><th id="272">272</th><td>            <b>return</b>;</td></tr>
+<tr><th id="273">273</th><td>    }</td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td>    mpack_snprintf(buffer, buffer_size, <q>"&lt;unknown!&gt;"</q>);</td></tr>
+<tr><th id="276">276</th><td>}</td></tr>
+<tr><th id="277">277</th><td></td></tr>
+<tr><th id="278">278</th><td><em>void</em> mpack_tag_debug_pseudo_json(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size,</td></tr>
+<tr><th id="279">279</th><td>        <em>const</em> <em>char</em>* prefix, size_t prefix_size)</td></tr>
+<tr><th id="280">280</th><td>{</td></tr>
+<tr><th id="281">281</th><td>    mpack_assert(buffer_size &gt; <var>0</var>, <q>"buffer size cannot be zero!"</q>);</td></tr>
+<tr><th id="282">282</th><td>    buffer[<var>0</var>] = <var>0</var>;</td></tr>
+<tr><th id="283">283</th><td></td></tr>
+<tr><th id="284">284</th><td>    mpack_tag_debug_pseudo_json_impl(tag, buffer, buffer_size, prefix, prefix_size);</td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td>    <i>// We always null-terminate the buffer manually just in case the snprintf()</i></td></tr>
+<tr><th id="287">287</th><td><i>    // function doesn't null-terminate when the string doesn't fit.</i></td></tr>
+<tr><th id="288">288</th><td>    buffer[buffer_size - <var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="289">289</th><td>}</td></tr>
+<tr><th id="290">290</th><td></td></tr>
+<tr><th id="291">291</th><td><em>static</em> <em>void</em> mpack_tag_debug_describe_impl(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size) {</td></tr>
+<tr><th id="292">292</th><td>    <b>switch</b> (tag.type) {</td></tr>
+<tr><th id="293">293</th><td>        <b>case</b> mpack_type_missing:</td></tr>
+<tr><th id="294">294</th><td>            mpack_snprintf(buffer, buffer_size, <q>"missing"</q>);</td></tr>
+<tr><th id="295">295</th><td>            <b>return</b>;</td></tr>
+<tr><th id="296">296</th><td>        <b>case</b> mpack_type_nil:</td></tr>
+<tr><th id="297">297</th><td>            mpack_snprintf(buffer, buffer_size, <q>"nil"</q>);</td></tr>
+<tr><th id="298">298</th><td>            <b>return</b>;</td></tr>
+<tr><th id="299">299</th><td>        <b>case</b> mpack_type_bool:</td></tr>
+<tr><th id="300">300</th><td>            mpack_snprintf(buffer, buffer_size, tag.v.b ? <q>"true"</q> : <q>"false"</q>);</td></tr>
+<tr><th id="301">301</th><td>            <b>return</b>;</td></tr>
+<tr><th id="302">302</th><td>        <b>case</b> mpack_type_int:</td></tr>
+<tr><th id="303">303</th><td>            mpack_snprintf(buffer, buffer_size, <q>"int %"</q> PRIi64, tag.v.i);</td></tr>
+<tr><th id="304">304</th><td>            <b>return</b>;</td></tr>
+<tr><th id="305">305</th><td>        <b>case</b> mpack_type_uint:</td></tr>
+<tr><th id="306">306</th><td>            mpack_snprintf(buffer, buffer_size, <q>"uint %"</q> PRIu64, tag.v.u);</td></tr>
+<tr><th id="307">307</th><td>            <b>return</b>;</td></tr>
+<tr><th id="308">308</th><td>        <b>case</b> mpack_type_float:</td></tr>
+<tr><th id="309">309</th><td>            <u>#if MPACK_FLOAT</u></td></tr>
+<tr><th id="310">310</th><td>            mpack_snprintf(buffer, buffer_size, <q>"float %f"</q>, tag.v.f);</td></tr>
+<tr><th id="311">311</th><td>            <u>#else</u></td></tr>
+<tr><th id="312">312</th><td>            mpack_snprintf(buffer, buffer_size, <q>"float"</q>);</td></tr>
+<tr><th id="313">313</th><td>            <u>#endif</u></td></tr>
+<tr><th id="314">314</th><td>            <b>return</b>;</td></tr>
+<tr><th id="315">315</th><td>        <b>case</b> mpack_type_double:</td></tr>
+<tr><th id="316">316</th><td>            <u>#if MPACK_DOUBLE</u></td></tr>
+<tr><th id="317">317</th><td>            mpack_snprintf(buffer, buffer_size, <q>"double %f"</q>, tag.v.d);</td></tr>
+<tr><th id="318">318</th><td>            <u>#else</u></td></tr>
+<tr><th id="319">319</th><td>            mpack_snprintf(buffer, buffer_size, <q>"double"</q>);</td></tr>
+<tr><th id="320">320</th><td>            <u>#endif</u></td></tr>
+<tr><th id="321">321</th><td>            <b>return</b>;</td></tr>
+<tr><th id="322">322</th><td>        <b>case</b> mpack_type_str:</td></tr>
+<tr><th id="323">323</th><td>            mpack_snprintf(buffer, buffer_size, <q>"str of %"</q> PRIu32 <q>" bytes"</q>, tag.v.l);</td></tr>
+<tr><th id="324">324</th><td>            <b>return</b>;</td></tr>
+<tr><th id="325">325</th><td>        <b>case</b> mpack_type_bin:</td></tr>
+<tr><th id="326">326</th><td>            mpack_snprintf(buffer, buffer_size, <q>"bin of %"</q> PRIu32 <q>" bytes"</q>, tag.v.l);</td></tr>
+<tr><th id="327">327</th><td>            <b>return</b>;</td></tr>
+<tr><th id="328">328</th><td>        <u>#if MPACK_EXTENSIONS</u></td></tr>
+<tr><th id="329">329</th><td>        <b>case</b> mpack_type_ext:</td></tr>
+<tr><th id="330">330</th><td>            mpack_snprintf(buffer, buffer_size, <q>"ext of type %i, %"</q> PRIu32 <q>" bytes"</q>,</td></tr>
+<tr><th id="331">331</th><td>                    mpack_tag_ext_exttype(&amp;tag), mpack_tag_ext_length(&amp;tag));</td></tr>
+<tr><th id="332">332</th><td>            <b>return</b>;</td></tr>
+<tr><th id="333">333</th><td>        <u>#endif</u></td></tr>
+<tr><th id="334">334</th><td>        <b>case</b> mpack_type_array:</td></tr>
+<tr><th id="335">335</th><td>            mpack_snprintf(buffer, buffer_size, <q>"array of %"</q> PRIu32 <q>" elements"</q>, tag.v.n);</td></tr>
+<tr><th id="336">336</th><td>            <b>return</b>;</td></tr>
+<tr><th id="337">337</th><td>        <b>case</b> mpack_type_map:</td></tr>
+<tr><th id="338">338</th><td>            mpack_snprintf(buffer, buffer_size, <q>"map of %"</q> PRIu32 <q>" key-value pairs"</q>, tag.v.n);</td></tr>
+<tr><th id="339">339</th><td>            <b>return</b>;</td></tr>
+<tr><th id="340">340</th><td>    }</td></tr>
+<tr><th id="341">341</th><td></td></tr>
+<tr><th id="342">342</th><td>    mpack_snprintf(buffer, buffer_size, <q>"unknown!"</q>);</td></tr>
+<tr><th id="343">343</th><td>}</td></tr>
+<tr><th id="344">344</th><td></td></tr>
+<tr><th id="345">345</th><td><em>void</em> mpack_tag_debug_describe(mpack_tag_t tag, <em>char</em>* buffer, size_t buffer_size) {</td></tr>
+<tr><th id="346">346</th><td>    mpack_assert(buffer_size &gt; <var>0</var>, <q>"buffer size cannot be zero!"</q>);</td></tr>
+<tr><th id="347">347</th><td>    buffer[<var>0</var>] = <var>0</var>;</td></tr>
+<tr><th id="348">348</th><td></td></tr>
+<tr><th id="349">349</th><td>    mpack_tag_debug_describe_impl(tag, buffer, buffer_size);</td></tr>
+<tr><th id="350">350</th><td></td></tr>
+<tr><th id="351">351</th><td>    <i>// We always null-terminate the buffer manually just in case the snprintf()</i></td></tr>
+<tr><th id="352">352</th><td><i>    // function doesn't null-terminate when the string doesn't fit.</i></td></tr>
+<tr><th id="353">353</th><td>    buffer[buffer_size - <var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="354">354</th><td>}</td></tr>
+<tr><th id="355">355</th><td><u>#<span data-ppcond="156">endif</span></u></td></tr>
+<tr><th id="356">356</th><td></td></tr>
+<tr><th id="357">357</th><td></td></tr>
+<tr><th id="358">358</th><td></td></tr>
+<tr><th id="359">359</th><td><u>#<span data-ppcond="359">if</span> <a class="macro" href="mpack-platform.h.html#690" title="0" data-ref="_M/MPACK_READ_TRACKING">MPACK_READ_TRACKING</a> || <a class="macro" href="mpack-platform.h.html#715" title="0" data-ref="_M/MPACK_WRITE_TRACKING">MPACK_WRITE_TRACKING</a></u></td></tr>
+<tr><th id="360">360</th><td></td></tr>
+<tr><th id="361">361</th><td><u>#ifndef MPACK_TRACKING_INITIAL_CAPACITY</u></td></tr>
+<tr><th id="362">362</th><td><i>// seems like a reasonable number. we grow by doubling, and it only</i></td></tr>
+<tr><th id="363">363</th><td><i>// needs to be as long as the maximum depth of the message.</i></td></tr>
+<tr><th id="364">364</th><td><u>#define MPACK_TRACKING_INITIAL_CAPACITY 8</u></td></tr>
+<tr><th id="365">365</th><td><u>#endif</u></td></tr>
+<tr><th id="366">366</th><td></td></tr>
+<tr><th id="367">367</th><td>mpack_error_t mpack_track_init(mpack_track_t* track) {</td></tr>
+<tr><th id="368">368</th><td>    track-&gt;count = <var>0</var>;</td></tr>
+<tr><th id="369">369</th><td>    track-&gt;capacity = MPACK_TRACKING_INITIAL_CAPACITY;</td></tr>
+<tr><th id="370">370</th><td>    track-&gt;elements = (mpack_track_element_t*)MPACK_MALLOC(<b>sizeof</b>(mpack_track_element_t) * track-&gt;capacity);</td></tr>
+<tr><th id="371">371</th><td>    <b>if</b> (track-&gt;elements == NULL)</td></tr>
+<tr><th id="372">372</th><td>        <b>return</b> mpack_error_memory;</td></tr>
+<tr><th id="373">373</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="374">374</th><td>}</td></tr>
+<tr><th id="375">375</th><td></td></tr>
+<tr><th id="376">376</th><td>mpack_error_t mpack_track_grow(mpack_track_t* track) {</td></tr>
+<tr><th id="377">377</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="378">378</th><td>    mpack_assert(track-&gt;count == track-&gt;capacity, <q>"incorrect growing?"</q>);</td></tr>
+<tr><th id="379">379</th><td></td></tr>
+<tr><th id="380">380</th><td>    size_t new_capacity = track-&gt;capacity * <var>2</var>;</td></tr>
+<tr><th id="381">381</th><td></td></tr>
+<tr><th id="382">382</th><td>    mpack_track_element_t* new_elements = (mpack_track_element_t*)mpack_realloc(track-&gt;elements,</td></tr>
+<tr><th id="383">383</th><td>            <b>sizeof</b>(mpack_track_element_t) * track-&gt;count, <b>sizeof</b>(mpack_track_element_t) * new_capacity);</td></tr>
+<tr><th id="384">384</th><td>    <b>if</b> (new_elements == NULL)</td></tr>
+<tr><th id="385">385</th><td>        <b>return</b> mpack_error_memory;</td></tr>
+<tr><th id="386">386</th><td></td></tr>
+<tr><th id="387">387</th><td>    track-&gt;elements = new_elements;</td></tr>
+<tr><th id="388">388</th><td>    track-&gt;capacity = new_capacity;</td></tr>
+<tr><th id="389">389</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="390">390</th><td>}</td></tr>
+<tr><th id="391">391</th><td></td></tr>
+<tr><th id="392">392</th><td>mpack_error_t mpack_track_push(mpack_track_t* track, mpack_type_t type, uint32_t count) {</td></tr>
+<tr><th id="393">393</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="394">394</th><td>    mpack_log(<q>"track pushing %s count %i\n"</q>, mpack_type_to_string(type), (<em>int</em>)count);</td></tr>
+<tr><th id="395">395</th><td></td></tr>
+<tr><th id="396">396</th><td>    <i>// grow if needed</i></td></tr>
+<tr><th id="397">397</th><td>    <b>if</b> (track-&gt;count == track-&gt;capacity) {</td></tr>
+<tr><th id="398">398</th><td>        mpack_error_t error = mpack_track_grow(track);</td></tr>
+<tr><th id="399">399</th><td>        <b>if</b> (error != mpack_ok)</td></tr>
+<tr><th id="400">400</th><td>            <b>return</b> error;</td></tr>
+<tr><th id="401">401</th><td>    }</td></tr>
+<tr><th id="402">402</th><td></td></tr>
+<tr><th id="403">403</th><td>    <i>// insert new track</i></td></tr>
+<tr><th id="404">404</th><td>    track-&gt;elements[track-&gt;count].type = type;</td></tr>
+<tr><th id="405">405</th><td>    track-&gt;elements[track-&gt;count].left = count;</td></tr>
+<tr><th id="406">406</th><td>    track-&gt;elements[track-&gt;count].builder = false;</td></tr>
+<tr><th id="407">407</th><td>    track-&gt;elements[track-&gt;count].key_needs_value = false;</td></tr>
+<tr><th id="408">408</th><td>    ++track-&gt;count;</td></tr>
+<tr><th id="409">409</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="410">410</th><td>}</td></tr>
+<tr><th id="411">411</th><td></td></tr>
+<tr><th id="412">412</th><td><i>// TODO dedupe this</i></td></tr>
+<tr><th id="413">413</th><td>mpack_error_t mpack_track_push_builder(mpack_track_t* track, mpack_type_t type) {</td></tr>
+<tr><th id="414">414</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="415">415</th><td>    mpack_log(<q>"track pushing %s builder\n"</q>, mpack_type_to_string(type));</td></tr>
+<tr><th id="416">416</th><td></td></tr>
+<tr><th id="417">417</th><td>    <i>// grow if needed</i></td></tr>
+<tr><th id="418">418</th><td>    <b>if</b> (track-&gt;count == track-&gt;capacity) {</td></tr>
+<tr><th id="419">419</th><td>        mpack_error_t error = mpack_track_grow(track);</td></tr>
+<tr><th id="420">420</th><td>        <b>if</b> (error != mpack_ok)</td></tr>
+<tr><th id="421">421</th><td>            <b>return</b> error;</td></tr>
+<tr><th id="422">422</th><td>    }</td></tr>
+<tr><th id="423">423</th><td></td></tr>
+<tr><th id="424">424</th><td>    <i>// insert new track</i></td></tr>
+<tr><th id="425">425</th><td>    track-&gt;elements[track-&gt;count].type = type;</td></tr>
+<tr><th id="426">426</th><td>    track-&gt;elements[track-&gt;count].left = <var>0</var>;</td></tr>
+<tr><th id="427">427</th><td>    track-&gt;elements[track-&gt;count].builder = true;</td></tr>
+<tr><th id="428">428</th><td>    track-&gt;elements[track-&gt;count].key_needs_value = false;</td></tr>
+<tr><th id="429">429</th><td>    ++track-&gt;count;</td></tr>
+<tr><th id="430">430</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="431">431</th><td>}</td></tr>
+<tr><th id="432">432</th><td></td></tr>
+<tr><th id="433">433</th><td><em>static</em> mpack_error_t mpack_track_pop_impl(mpack_track_t* track, mpack_type_t type, bool builder) {</td></tr>
+<tr><th id="434">434</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="435">435</th><td>    mpack_log(<q>"track popping %s\n"</q>, mpack_type_to_string(type));</td></tr>
+<tr><th id="436">436</th><td></td></tr>
+<tr><th id="437">437</th><td>    <b>if</b> (track-&gt;count == <var>0</var>) {</td></tr>
+<tr><th id="438">438</th><td>        mpack_break(<q>"attempting to close a %s but nothing was opened!"</q>, mpack_type_to_string(type));</td></tr>
+<tr><th id="439">439</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="440">440</th><td>    }</td></tr>
+<tr><th id="441">441</th><td></td></tr>
+<tr><th id="442">442</th><td>    mpack_track_element_t* element = &amp;track-&gt;elements[track-&gt;count - <var>1</var>];</td></tr>
+<tr><th id="443">443</th><td></td></tr>
+<tr><th id="444">444</th><td>    <b>if</b> (element-&gt;type != type) {</td></tr>
+<tr><th id="445">445</th><td>        mpack_break(<q>"attempting to close a %s but the open element is a %s!"</q>,</td></tr>
+<tr><th id="446">446</th><td>                mpack_type_to_string(type), mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="447">447</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="448">448</th><td>    }</td></tr>
+<tr><th id="449">449</th><td></td></tr>
+<tr><th id="450">450</th><td>    <b>if</b> (element-&gt;key_needs_value) {</td></tr>
+<tr><th id="451">451</th><td>        mpack_assert(type == mpack_type_map, <q>"key_needs_value can only be true for maps!"</q>);</td></tr>
+<tr><th id="452">452</th><td>        mpack_break(<q>"attempting to close a %s but an odd number of elements were written"</q>,</td></tr>
+<tr><th id="453">453</th><td>                mpack_type_to_string(type));</td></tr>
+<tr><th id="454">454</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="455">455</th><td>    }</td></tr>
+<tr><th id="456">456</th><td></td></tr>
+<tr><th id="457">457</th><td>    <b>if</b> (element-&gt;left != <var>0</var>) {</td></tr>
+<tr><th id="458">458</th><td>        mpack_break(<q>"attempting to close a %s but there are %i %s left"</q>,</td></tr>
+<tr><th id="459">459</th><td>                mpack_type_to_string(type), element-&gt;left,</td></tr>
+<tr><th id="460">460</th><td>                (type == mpack_type_map || type == mpack_type_array) ? <q>"elements"</q> : <q>"bytes"</q>);</td></tr>
+<tr><th id="461">461</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="462">462</th><td>    }</td></tr>
+<tr><th id="463">463</th><td></td></tr>
+<tr><th id="464">464</th><td>    <b>if</b> (element-&gt;builder != builder) {</td></tr>
+<tr><th id="465">465</th><td>        mpack_break(<q>"attempting to pop a %sbuilder but the open element is %sa builder"</q>,</td></tr>
+<tr><th id="466">466</th><td>                builder ? <q>""</q> : <q>"non-"</q>,</td></tr>
+<tr><th id="467">467</th><td>                element-&gt;builder ? <q>""</q> : <q>"not "</q>);</td></tr>
+<tr><th id="468">468</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="469">469</th><td>    }</td></tr>
+<tr><th id="470">470</th><td></td></tr>
+<tr><th id="471">471</th><td>    --track-&gt;count;</td></tr>
+<tr><th id="472">472</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="473">473</th><td>}</td></tr>
+<tr><th id="474">474</th><td></td></tr>
+<tr><th id="475">475</th><td>mpack_error_t mpack_track_pop(mpack_track_t* track, mpack_type_t type) {</td></tr>
+<tr><th id="476">476</th><td>    <b>return</b> mpack_track_pop_impl(track, type, false);</td></tr>
+<tr><th id="477">477</th><td>}</td></tr>
+<tr><th id="478">478</th><td></td></tr>
+<tr><th id="479">479</th><td>mpack_error_t mpack_track_pop_builder(mpack_track_t* track, mpack_type_t type) {</td></tr>
+<tr><th id="480">480</th><td>    <b>return</b> mpack_track_pop_impl(track, type, true);</td></tr>
+<tr><th id="481">481</th><td>}</td></tr>
+<tr><th id="482">482</th><td></td></tr>
+<tr><th id="483">483</th><td>mpack_error_t mpack_track_peek_element(mpack_track_t* track, bool read) {</td></tr>
+<tr><th id="484">484</th><td>    MPACK_UNUSED(read);</td></tr>
+<tr><th id="485">485</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="486">486</th><td></td></tr>
+<tr><th id="487">487</th><td>    <i>// if there are no open elements, that's fine, we can read/write elements at will</i></td></tr>
+<tr><th id="488">488</th><td>    <b>if</b> (track-&gt;count == <var>0</var>)</td></tr>
+<tr><th id="489">489</th><td>        <b>return</b> mpack_ok;</td></tr>
+<tr><th id="490">490</th><td></td></tr>
+<tr><th id="491">491</th><td>    mpack_track_element_t* element = &amp;track-&gt;elements[track-&gt;count - <var>1</var>];</td></tr>
+<tr><th id="492">492</th><td></td></tr>
+<tr><th id="493">493</th><td>    <b>if</b> (element-&gt;type != mpack_type_map &amp;&amp; element-&gt;type != mpack_type_array) {</td></tr>
+<tr><th id="494">494</th><td>        mpack_break(<q>"elements cannot be %s within an %s"</q>, read ? <q>"read"</q> : <q>"written"</q>,</td></tr>
+<tr><th id="495">495</th><td>                mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="496">496</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="497">497</th><td>    }</td></tr>
+<tr><th id="498">498</th><td></td></tr>
+<tr><th id="499">499</th><td>    <b>if</b> (!element-&gt;builder &amp;&amp; element-&gt;left == <var>0</var> &amp;&amp; !element-&gt;key_needs_value) {</td></tr>
+<tr><th id="500">500</th><td>        mpack_break(<q>"too many elements %s for %s"</q>, read ? <q>"read"</q> : <q>"written"</q>,</td></tr>
+<tr><th id="501">501</th><td>                mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="502">502</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="503">503</th><td>    }</td></tr>
+<tr><th id="504">504</th><td></td></tr>
+<tr><th id="505">505</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="506">506</th><td>}</td></tr>
+<tr><th id="507">507</th><td></td></tr>
+<tr><th id="508">508</th><td>mpack_error_t mpack_track_element(mpack_track_t* track, bool read) {</td></tr>
+<tr><th id="509">509</th><td>    mpack_error_t error = mpack_track_peek_element(track, read);</td></tr>
+<tr><th id="510">510</th><td>    <b>if</b> (track-&gt;count == <var>0</var> || error != mpack_ok)</td></tr>
+<tr><th id="511">511</th><td>        <b>return</b> error;</td></tr>
+<tr><th id="512">512</th><td></td></tr>
+<tr><th id="513">513</th><td>    mpack_track_element_t* element = &amp;track-&gt;elements[track-&gt;count - <var>1</var>];</td></tr>
+<tr><th id="514">514</th><td></td></tr>
+<tr><th id="515">515</th><td>    <b>if</b> (element-&gt;type == mpack_type_map) {</td></tr>
+<tr><th id="516">516</th><td>        <b>if</b> (!element-&gt;key_needs_value) {</td></tr>
+<tr><th id="517">517</th><td>            element-&gt;key_needs_value = true;</td></tr>
+<tr><th id="518">518</th><td>            <b>return</b> mpack_ok; <i>// don't decrement</i></td></tr>
+<tr><th id="519">519</th><td>        }</td></tr>
+<tr><th id="520">520</th><td>        element-&gt;key_needs_value = false;</td></tr>
+<tr><th id="521">521</th><td>    }</td></tr>
+<tr><th id="522">522</th><td></td></tr>
+<tr><th id="523">523</th><td>    <b>if</b> (!element-&gt;builder)</td></tr>
+<tr><th id="524">524</th><td>        --element-&gt;left;</td></tr>
+<tr><th id="525">525</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="526">526</th><td>}</td></tr>
+<tr><th id="527">527</th><td></td></tr>
+<tr><th id="528">528</th><td>mpack_error_t mpack_track_bytes(mpack_track_t* track, bool read, size_t count) {</td></tr>
+<tr><th id="529">529</th><td>    MPACK_UNUSED(read);</td></tr>
+<tr><th id="530">530</th><td>    mpack_assert(track-&gt;elements, <q>"null track elements!"</q>);</td></tr>
+<tr><th id="531">531</th><td></td></tr>
+<tr><th id="532">532</th><td>    <b>if</b> (count &gt; MPACK_UINT32_MAX) {</td></tr>
+<tr><th id="533">533</th><td>        mpack_break(<q>"%s more bytes than could possibly fit in a str/bin/ext!"</q>,</td></tr>
+<tr><th id="534">534</th><td>                read ? <q>"reading"</q> : <q>"writing"</q>);</td></tr>
+<tr><th id="535">535</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="536">536</th><td>    }</td></tr>
+<tr><th id="537">537</th><td></td></tr>
+<tr><th id="538">538</th><td>    <b>if</b> (track-&gt;count == <var>0</var>) {</td></tr>
+<tr><th id="539">539</th><td>        mpack_break(<q>"bytes cannot be %s with no open bin, str or ext"</q>, read ? <q>"read"</q> : <q>"written"</q>);</td></tr>
+<tr><th id="540">540</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="541">541</th><td>    }</td></tr>
+<tr><th id="542">542</th><td></td></tr>
+<tr><th id="543">543</th><td>    mpack_track_element_t* element = &amp;track-&gt;elements[track-&gt;count - <var>1</var>];</td></tr>
+<tr><th id="544">544</th><td></td></tr>
+<tr><th id="545">545</th><td>    <b>if</b> (element-&gt;type == mpack_type_map || element-&gt;type == mpack_type_array) {</td></tr>
+<tr><th id="546">546</th><td>        mpack_break(<q>"bytes cannot be %s within an %s"</q>, read ? <q>"read"</q> : <q>"written"</q>,</td></tr>
+<tr><th id="547">547</th><td>                mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="548">548</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="549">549</th><td>    }</td></tr>
+<tr><th id="550">550</th><td></td></tr>
+<tr><th id="551">551</th><td>    <b>if</b> (element-&gt;left &lt; count) {</td></tr>
+<tr><th id="552">552</th><td>        mpack_break(<q>"too many bytes %s for %s"</q>, read ? <q>"read"</q> : <q>"written"</q>,</td></tr>
+<tr><th id="553">553</th><td>                mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="554">554</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="555">555</th><td>    }</td></tr>
+<tr><th id="556">556</th><td></td></tr>
+<tr><th id="557">557</th><td>    element-&gt;left -= (uint32_t)count;</td></tr>
+<tr><th id="558">558</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="559">559</th><td>}</td></tr>
+<tr><th id="560">560</th><td></td></tr>
+<tr><th id="561">561</th><td>mpack_error_t mpack_track_str_bytes_all(mpack_track_t* track, bool read, size_t count) {</td></tr>
+<tr><th id="562">562</th><td>    mpack_error_t error = mpack_track_bytes(track, read, count);</td></tr>
+<tr><th id="563">563</th><td>    <b>if</b> (error != mpack_ok)</td></tr>
+<tr><th id="564">564</th><td>        <b>return</b> error;</td></tr>
+<tr><th id="565">565</th><td></td></tr>
+<tr><th id="566">566</th><td>    mpack_track_element_t* element = &amp;track-&gt;elements[track-&gt;count - <var>1</var>];</td></tr>
+<tr><th id="567">567</th><td></td></tr>
+<tr><th id="568">568</th><td>    <b>if</b> (element-&gt;type != mpack_type_str) {</td></tr>
+<tr><th id="569">569</th><td>        mpack_break(<q>"the open type must be a string, not a %s"</q>, mpack_type_to_string(element-&gt;type));</td></tr>
+<tr><th id="570">570</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="571">571</th><td>    }</td></tr>
+<tr><th id="572">572</th><td></td></tr>
+<tr><th id="573">573</th><td>    <b>if</b> (element-&gt;left != <var>0</var>) {</td></tr>
+<tr><th id="574">574</th><td>        mpack_break(<q>"not all bytes were read; the wrong byte count was requested for a string read."</q>);</td></tr>
+<tr><th id="575">575</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="576">576</th><td>    }</td></tr>
+<tr><th id="577">577</th><td></td></tr>
+<tr><th id="578">578</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="579">579</th><td>}</td></tr>
+<tr><th id="580">580</th><td></td></tr>
+<tr><th id="581">581</th><td>mpack_error_t mpack_track_check_empty(mpack_track_t* track) {</td></tr>
+<tr><th id="582">582</th><td>    <b>if</b> (track-&gt;count != <var>0</var>) {</td></tr>
+<tr><th id="583">583</th><td>        mpack_break(<q>"unclosed %s"</q>, mpack_type_to_string(track-&gt;elements[<var>0</var>].type));</td></tr>
+<tr><th id="584">584</th><td>        <b>return</b> mpack_error_bug;</td></tr>
+<tr><th id="585">585</th><td>    }</td></tr>
+<tr><th id="586">586</th><td>    <b>return</b> mpack_ok;</td></tr>
+<tr><th id="587">587</th><td>}</td></tr>
+<tr><th id="588">588</th><td></td></tr>
+<tr><th id="589">589</th><td>mpack_error_t mpack_track_destroy(mpack_track_t* track, bool cancel) {</td></tr>
+<tr><th id="590">590</th><td>    mpack_error_t error = cancel ? mpack_ok : mpack_track_check_empty(track);</td></tr>
+<tr><th id="591">591</th><td>    <b>if</b> (track-&gt;elements) {</td></tr>
+<tr><th id="592">592</th><td>        MPACK_FREE(track-&gt;elements);</td></tr>
+<tr><th id="593">593</th><td>        track-&gt;elements = NULL;</td></tr>
+<tr><th id="594">594</th><td>    }</td></tr>
+<tr><th id="595">595</th><td>    <b>return</b> error;</td></tr>
+<tr><th id="596">596</th><td>}</td></tr>
+<tr><th id="597">597</th><td><u>#<span data-ppcond="359">endif</span></u></td></tr>
+<tr><th id="598">598</th><td></td></tr>
+<tr><th id="599">599</th><td></td></tr>
+<tr><th id="600">600</th><td></td></tr>
+<tr><th id="601">601</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="tu decl def fn" id="mpack_utf8_check_impl" title='mpack_utf8_check_impl' data-type='_Bool mpack_utf8_check_impl(const uint8_t * str, size_t count, _Bool allow_null)' data-ref="mpack_utf8_check_impl" data-ref-filename="mpack_utf8_check_impl">mpack_utf8_check_impl</dfn>(<em>const</em> <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a>* <dfn class="local col5 decl" id="5str" title='str' data-type='const uint8_t *' data-ref="5str" data-ref-filename="5str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col6 decl" id="6count" title='count' data-type='size_t' data-ref="6count" data-ref-filename="6count">count</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col7 decl" id="7allow_null" title='allow_null' data-type='_Bool' data-ref="7allow_null" data-ref-filename="7allow_null">allow_null</dfn>) {</td></tr>
+<tr><th id="602">602</th><td>    <b>while</b> (<a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> &gt; <var>0</var>) {</td></tr>
+<tr><th id="603">603</th><td>        <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col8 decl" id="8lead" title='lead' data-type='uint8_t' data-ref="8lead" data-ref-filename="8lead">lead</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>0</var>];</td></tr>
+<tr><th id="604">604</th><td></td></tr>
+<tr><th id="605">605</th><td>        <i>// NUL</i></td></tr>
+<tr><th id="606">606</th><td>        <b>if</b> (!<a class="local col7 ref" href="#7allow_null" title='allow_null' data-ref="7allow_null" data-ref-filename="7allow_null">allow_null</a> &amp;&amp; <a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> == <kbd>'\0'</kbd>) <i>// we don't allow NUL bytes in MPack C-strings</i></td></tr>
+<tr><th id="607">607</th><td>            <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="608">608</th><td></td></tr>
+<tr><th id="609">609</th><td>        <i>// ASCII</i></td></tr>
+<tr><th id="610">610</th><td>        <b>if</b> (<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> &lt;= <var>0x7F</var>) {</td></tr>
+<tr><th id="611">611</th><td>            ++<a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>;</td></tr>
+<tr><th id="612">612</th><td>            --<a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a>;</td></tr>
+<tr><th id="613">613</th><td></td></tr>
+<tr><th id="614">614</th><td>        <i>// 2-byte sequence</i></td></tr>
+<tr><th id="615">615</th><td>        } <b>else</b> <b>if</b> ((<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> &amp; <var>0xE0</var>) == <var>0xC0</var>) {</td></tr>
+<tr><th id="616">616</th><td>            <b>if</b> (<a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> &lt; <var>2</var>) <i>// truncated sequence</i></td></tr>
+<tr><th id="617">617</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="618">618</th><td></td></tr>
+<tr><th id="619">619</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col9 decl" id="9cont" title='cont' data-type='uint8_t' data-ref="9cont" data-ref-filename="9cont">cont</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>1</var>];</td></tr>
+<tr><th id="620">620</th><td>            <b>if</b> ((<a class="local col9 ref" href="#9cont" title='cont' data-ref="9cont" data-ref-filename="9cont">cont</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="621">621</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="622">622</th><td></td></tr>
+<tr><th id="623">623</th><td>            <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a> += <var>2</var>;</td></tr>
+<tr><th id="624">624</th><td>            <a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> -= <var>2</var>;</td></tr>
+<tr><th id="625">625</th><td></td></tr>
+<tr><th id="626">626</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a> <dfn class="local col0 decl" id="10z" title='z' data-type='uint32_t' data-ref="10z" data-ref-filename="10z">z</dfn> = ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> &amp; ~<var>0xE0</var>) &lt;&lt; <var>6</var>) |</td></tr>
+<tr><th id="627">627</th><td>                          (<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col9 ref" href="#9cont" title='cont' data-ref="9cont" data-ref-filename="9cont">cont</a> &amp; ~<var>0xC0</var>);</td></tr>
+<tr><th id="628">628</th><td></td></tr>
+<tr><th id="629">629</th><td>            <b>if</b> (<a class="local col0 ref" href="#10z" title='z' data-ref="10z" data-ref-filename="10z">z</a> &lt; <var>0x80</var>) <i>// overlong sequence</i></td></tr>
+<tr><th id="630">630</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="631">631</th><td></td></tr>
+<tr><th id="632">632</th><td>        <i>// 3-byte sequence</i></td></tr>
+<tr><th id="633">633</th><td>        } <b>else</b> <b>if</b> ((<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> &amp; <var>0xF0</var>) == <var>0xE0</var>) {</td></tr>
+<tr><th id="634">634</th><td>            <b>if</b> (<a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> &lt; <var>3</var>) <i>// truncated sequence</i></td></tr>
+<tr><th id="635">635</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="636">636</th><td></td></tr>
+<tr><th id="637">637</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col1 decl" id="11cont1" title='cont1' data-type='uint8_t' data-ref="11cont1" data-ref-filename="11cont1">cont1</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>1</var>];</td></tr>
+<tr><th id="638">638</th><td>            <b>if</b> ((<a class="local col1 ref" href="#11cont1" title='cont1' data-ref="11cont1" data-ref-filename="11cont1">cont1</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="639">639</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="640">640</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col2 decl" id="12cont2" title='cont2' data-type='uint8_t' data-ref="12cont2" data-ref-filename="12cont2">cont2</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>2</var>];</td></tr>
+<tr><th id="641">641</th><td>            <b>if</b> ((<a class="local col2 ref" href="#12cont2" title='cont2' data-ref="12cont2" data-ref-filename="12cont2">cont2</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="642">642</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="643">643</th><td></td></tr>
+<tr><th id="644">644</th><td>            <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a> += <var>3</var>;</td></tr>
+<tr><th id="645">645</th><td>            <a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> -= <var>3</var>;</td></tr>
+<tr><th id="646">646</th><td></td></tr>
+<tr><th id="647">647</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a> <dfn class="local col3 decl" id="13z" title='z' data-type='uint32_t' data-ref="13z" data-ref-filename="13z">z</dfn> = ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a>  &amp; ~<var>0xF0</var>) &lt;&lt; <var>12</var>) |</td></tr>
+<tr><th id="648">648</th><td>                         ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col1 ref" href="#11cont1" title='cont1' data-ref="11cont1" data-ref-filename="11cont1">cont1</a> &amp; ~<var>0xC0</var>) &lt;&lt;  <var>6</var>) |</td></tr>
+<tr><th id="649">649</th><td>                          (<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col2 ref" href="#12cont2" title='cont2' data-ref="12cont2" data-ref-filename="12cont2">cont2</a> &amp; ~<var>0xC0</var>);</td></tr>
+<tr><th id="650">650</th><td></td></tr>
+<tr><th id="651">651</th><td>            <b>if</b> (<a class="local col3 ref" href="#13z" title='z' data-ref="13z" data-ref-filename="13z">z</a> &lt; <var>0x800</var>) <i>// overlong sequence</i></td></tr>
+<tr><th id="652">652</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="653">653</th><td>            <b>if</b> (<a class="local col3 ref" href="#13z" title='z' data-ref="13z" data-ref-filename="13z">z</a> &gt;= <var>0xD800</var> &amp;&amp; <a class="local col3 ref" href="#13z" title='z' data-ref="13z" data-ref-filename="13z">z</a> &lt;= <var>0xDFFF</var>) <i>// surrogate</i></td></tr>
+<tr><th id="654">654</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="655">655</th><td></td></tr>
+<tr><th id="656">656</th><td>        <i>// 4-byte sequence</i></td></tr>
+<tr><th id="657">657</th><td>        } <b>else</b> <b>if</b> ((<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a> &amp; <var>0xF8</var>) == <var>0xF0</var>) {</td></tr>
+<tr><th id="658">658</th><td>            <b>if</b> (<a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> &lt; <var>4</var>) <i>// truncated sequence</i></td></tr>
+<tr><th id="659">659</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="660">660</th><td></td></tr>
+<tr><th id="661">661</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col4 decl" id="14cont1" title='cont1' data-type='uint8_t' data-ref="14cont1" data-ref-filename="14cont1">cont1</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>1</var>];</td></tr>
+<tr><th id="662">662</th><td>            <b>if</b> ((<a class="local col4 ref" href="#14cont1" title='cont1' data-ref="14cont1" data-ref-filename="14cont1">cont1</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="663">663</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="664">664</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col5 decl" id="15cont2" title='cont2' data-type='uint8_t' data-ref="15cont2" data-ref-filename="15cont2">cont2</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>2</var>];</td></tr>
+<tr><th id="665">665</th><td>            <b>if</b> ((<a class="local col5 ref" href="#15cont2" title='cont2' data-ref="15cont2" data-ref-filename="15cont2">cont2</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="666">666</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="667">667</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="local col6 decl" id="16cont3" title='cont3' data-type='uint8_t' data-ref="16cont3" data-ref-filename="16cont3">cont3</dfn> = <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a>[<var>3</var>];</td></tr>
+<tr><th id="668">668</th><td>            <b>if</b> ((<a class="local col6 ref" href="#16cont3" title='cont3' data-ref="16cont3" data-ref-filename="16cont3">cont3</a> &amp; <var>0xC0</var>) != <var>0x80</var>) <i>// not a continuation byte</i></td></tr>
+<tr><th id="669">669</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="670">670</th><td></td></tr>
+<tr><th id="671">671</th><td>            <a class="local col5 ref" href="#5str" title='str' data-ref="5str" data-ref-filename="5str">str</a> += <var>4</var>;</td></tr>
+<tr><th id="672">672</th><td>            <a class="local col6 ref" href="#6count" title='count' data-ref="6count" data-ref-filename="6count">count</a> -= <var>4</var>;</td></tr>
+<tr><th id="673">673</th><td></td></tr>
+<tr><th id="674">674</th><td>            <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a> <dfn class="local col7 decl" id="17z" title='z' data-type='uint32_t' data-ref="17z" data-ref-filename="17z">z</dfn> = ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col8 ref" href="#8lead" title='lead' data-ref="8lead" data-ref-filename="8lead">lead</a>  &amp; ~<var>0xF8</var>) &lt;&lt; <var>18</var>) |</td></tr>
+<tr><th id="675">675</th><td>                         ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col4 ref" href="#14cont1" title='cont1' data-ref="14cont1" data-ref-filename="14cont1">cont1</a> &amp; ~<var>0xC0</var>) &lt;&lt; <var>12</var>) |</td></tr>
+<tr><th id="676">676</th><td>                         ((<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col5 ref" href="#15cont2" title='cont2' data-ref="15cont2" data-ref-filename="15cont2">cont2</a> &amp; ~<var>0xC0</var>) &lt;&lt;  <var>6</var>) |</td></tr>
+<tr><th id="677">677</th><td>                          (<a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint32_t" title='uint32_t' data-type='__uint32_t' data-ref="uint32_t" data-ref-filename="uint32_t">uint32_t</a>)(<a class="local col6 ref" href="#16cont3" title='cont3' data-ref="16cont3" data-ref-filename="16cont3">cont3</a> &amp; ~<var>0xC0</var>);</td></tr>
+<tr><th id="678">678</th><td></td></tr>
+<tr><th id="679">679</th><td>            <b>if</b> (<a class="local col7 ref" href="#17z" title='z' data-ref="17z" data-ref-filename="17z">z</a> &lt; <var>0x10000</var>) <i>// overlong sequence</i></td></tr>
+<tr><th id="680">680</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="681">681</th><td>            <b>if</b> (<a class="local col7 ref" href="#17z" title='z' data-ref="17z" data-ref-filename="17z">z</a> &gt; <var>0x10FFFF</var>) <i>// codepoint limit</i></td></tr>
+<tr><th id="682">682</th><td>                <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="683">683</th><td></td></tr>
+<tr><th id="684">684</th><td>        } <b>else</b> {</td></tr>
+<tr><th id="685">685</th><td>            <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>; <i>// continuation byte without a lead, or lead for a 5-byte sequence or longer</i></td></tr>
+<tr><th id="686">686</th><td>        }</td></tr>
+<tr><th id="687">687</th><td>    }</td></tr>
+<tr><th id="688">688</th><td>    <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="689">689</th><td>}</td></tr>
+<tr><th id="690">690</th><td></td></tr>
+<tr><th id="691">691</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def fn" id="mpack_utf8_check" title='mpack_utf8_check' data-ref="mpack_utf8_check" data-ref-filename="mpack_utf8_check">mpack_utf8_check</dfn>(<em>const</em> <em>char</em>* <dfn class="local col8 decl" id="18str" title='str' data-type='const char *' data-ref="18str" data-ref-filename="18str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="19bytes" title='bytes' data-type='size_t' data-ref="19bytes" data-ref-filename="19bytes">bytes</dfn>) {</td></tr>
+<tr><th id="692">692</th><td>    <b>return</b> <a class="tu ref fn" href="#mpack_utf8_check_impl" title='mpack_utf8_check_impl' data-use='c' data-ref="mpack_utf8_check_impl" data-ref-filename="mpack_utf8_check_impl">mpack_utf8_check_impl</a>((<em>const</em> <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a>*)<a class="local col8 ref" href="#18str" title='str' data-ref="18str" data-ref-filename="18str">str</a>, <a class="local col9 ref" href="#19bytes" title='bytes' data-ref="19bytes" data-ref-filename="19bytes">bytes</a>, <span class="macro" title="1" data-ref="_M/true">true</span>);</td></tr>
+<tr><th id="693">693</th><td>}</td></tr>
+<tr><th id="694">694</th><td></td></tr>
+<tr><th id="695">695</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def fn" id="mpack_utf8_check_no_null" title='mpack_utf8_check_no_null' data-ref="mpack_utf8_check_no_null" data-ref-filename="mpack_utf8_check_no_null">mpack_utf8_check_no_null</dfn>(<em>const</em> <em>char</em>* <dfn class="local col0 decl" id="20str" title='str' data-type='const char *' data-ref="20str" data-ref-filename="20str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="21bytes" title='bytes' data-type='size_t' data-ref="21bytes" data-ref-filename="21bytes">bytes</dfn>) {</td></tr>
+<tr><th id="696">696</th><td>    <b>return</b> <a class="tu ref fn" href="#mpack_utf8_check_impl" title='mpack_utf8_check_impl' data-use='c' data-ref="mpack_utf8_check_impl" data-ref-filename="mpack_utf8_check_impl">mpack_utf8_check_impl</a>((<em>const</em> <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a>*)<a class="local col0 ref" href="#20str" title='str' data-ref="20str" data-ref-filename="20str">str</a>, <a class="local col1 ref" href="#21bytes" title='bytes' data-ref="21bytes" data-ref-filename="21bytes">bytes</a>, <span class="macro" title="0" data-ref="_M/false">false</span>);</td></tr>
+<tr><th id="697">697</th><td>}</td></tr>
+<tr><th id="698">698</th><td></td></tr>
+<tr><th id="699">699</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def fn" id="mpack_str_check_no_null" title='mpack_str_check_no_null' data-ref="mpack_str_check_no_null" data-ref-filename="mpack_str_check_no_null">mpack_str_check_no_null</dfn>(<em>const</em> <em>char</em>* <dfn class="local col2 decl" id="22str" title='str' data-type='const char *' data-ref="22str" data-ref-filename="22str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="23bytes" title='bytes' data-type='size_t' data-ref="23bytes" data-ref-filename="23bytes">bytes</dfn>) {</td></tr>
+<tr><th id="700">700</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="24i" title='i' data-type='size_t' data-ref="24i" data-ref-filename="24i">i</dfn>;</td></tr>
+<tr><th id="701">701</th><td>    <b>for</b> (<a class="local col4 ref" href="#24i" title='i' data-ref="24i" data-ref-filename="24i">i</a> = <var>0</var>; <a class="local col4 ref" href="#24i" title='i' data-ref="24i" data-ref-filename="24i">i</a> &lt; <a class="local col3 ref" href="#23bytes" title='bytes' data-ref="23bytes" data-ref-filename="23bytes">bytes</a>; ++<a class="local col4 ref" href="#24i" title='i' data-ref="24i" data-ref-filename="24i">i</a>)</td></tr>
+<tr><th id="702">702</th><td>        <b>if</b> (<a class="local col2 ref" href="#22str" title='str' data-ref="22str" data-ref-filename="22str">str</a>[<a class="local col4 ref" href="#24i" title='i' data-ref="24i" data-ref-filename="24i">i</a>] == <kbd>'\0'</kbd>)</td></tr>
+<tr><th id="703">703</th><td>            <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="704">704</th><td>    <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="705">705</th><td>}</td></tr>
+<tr><th id="706">706</th><td></td></tr>
+<tr><th id="707">707</th><td><u>#<span data-ppcond="707">if</span> <a class="macro" href="mpack-platform.h.html#645" title="0" data-ref="_M/MPACK_DEBUG">MPACK_DEBUG</a> &amp;&amp; <a class="macro" href="mpack-platform.h.html#329" title="1" data-ref="_M/MPACK_STDIO">MPACK_STDIO</a></u></td></tr>
+<tr><th id="708">708</th><td><em>void</em> mpack_print_append(mpack_print_t* print, <em>const</em> <em>char</em>* data, size_t count) {</td></tr>
+<tr><th id="709">709</th><td></td></tr>
+<tr><th id="710">710</th><td>    <i>// copy whatever fits into the buffer</i></td></tr>
+<tr><th id="711">711</th><td>    size_t copy = print-&gt;size - print-&gt;count;</td></tr>
+<tr><th id="712">712</th><td>    <b>if</b> (copy &gt; count)</td></tr>
+<tr><th id="713">713</th><td>        copy = count;</td></tr>
+<tr><th id="714">714</th><td>    mpack_memcpy(print-&gt;buffer + print-&gt;count, data, copy);</td></tr>
+<tr><th id="715">715</th><td>    print-&gt;count += copy;</td></tr>
+<tr><th id="716">716</th><td>    data += copy;</td></tr>
+<tr><th id="717">717</th><td>    count -= copy;</td></tr>
+<tr><th id="718">718</th><td></td></tr>
+<tr><th id="719">719</th><td>    <i>// if we don't need to flush or can't flush there's nothing else to do</i></td></tr>
+<tr><th id="720">720</th><td>    <b>if</b> (count == <var>0</var> || print-&gt;callback == NULL)</td></tr>
+<tr><th id="721">721</th><td>        <b>return</b>;</td></tr>
+<tr><th id="722">722</th><td></td></tr>
+<tr><th id="723">723</th><td>    <i>// flush the buffer</i></td></tr>
+<tr><th id="724">724</th><td>    print-&gt;callback(print-&gt;context, print-&gt;buffer, print-&gt;count);</td></tr>
+<tr><th id="725">725</th><td></td></tr>
+<tr><th id="726">726</th><td>    <b>if</b> (count &gt; print-&gt;size / <var>2</var>) {</td></tr>
+<tr><th id="727">727</th><td>        <i>// flush the rest of the data</i></td></tr>
+<tr><th id="728">728</th><td>        print-&gt;count = <var>0</var>;</td></tr>
+<tr><th id="729">729</th><td>        print-&gt;callback(print-&gt;context, data, count);</td></tr>
+<tr><th id="730">730</th><td>    } <b>else</b> {</td></tr>
+<tr><th id="731">731</th><td>        <i>// copy the rest of the data into the buffer</i></td></tr>
+<tr><th id="732">732</th><td>        mpack_memcpy(print-&gt;buffer, data, count);</td></tr>
+<tr><th id="733">733</th><td>        print-&gt;count = count;</td></tr>
+<tr><th id="734">734</th><td>    }</td></tr>
+<tr><th id="735">735</th><td></td></tr>
+<tr><th id="736">736</th><td>}</td></tr>
+<tr><th id="737">737</th><td></td></tr>
+<tr><th id="738">738</th><td><em>void</em> mpack_print_flush(mpack_print_t* print) {</td></tr>
+<tr><th id="739">739</th><td>    <b>if</b> (print-&gt;count &gt; <var>0</var> &amp;&amp; print-&gt;callback != NULL) {</td></tr>
+<tr><th id="740">740</th><td>        print-&gt;callback(print-&gt;context, print-&gt;buffer, print-&gt;count);</td></tr>
+<tr><th id="741">741</th><td>        print-&gt;count = <var>0</var>;</td></tr>
+<tr><th id="742">742</th><td>    }</td></tr>
+<tr><th id="743">743</th><td>}</td></tr>
+<tr><th id="744">744</th><td></td></tr>
+<tr><th id="745">745</th><td><em>void</em> mpack_print_file_callback(<em>void</em>* context, <em>const</em> <em>char</em>* data, size_t count) {</td></tr>
+<tr><th id="746">746</th><td>    FILE* file = (FILE*)context;</td></tr>
+<tr><th id="747">747</th><td>    fwrite(data, <var>1</var>, count, file);</td></tr>
+<tr><th id="748">748</th><td>}</td></tr>
+<tr><th id="749">749</th><td><u>#<span data-ppcond="707">endif</span></u></td></tr>
+<tr><th id="750">750</th><td></td></tr>
+<tr><th id="751">751</th><td><a class="macro" href="mpack-platform.h.html#1142" title="" data-ref="_M/MPACK_SILENCE_WARNINGS_END">MPACK_SILENCE_WARNINGS_END</a></td></tr>
+<tr><th id="752">752</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

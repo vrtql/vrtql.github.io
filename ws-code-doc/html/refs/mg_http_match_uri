@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1318' type='_Bool mg_http_match_uri(const struct mg_http_message * , const char * glob)'/>
+<use f='codebrowser/src/test/server.c' l='35' u='c' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='41' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='874' ll='876' macro='1' type='_Bool mg_http_match_uri(const struct mg_http_message * hm, const char * glob)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1051' u='c' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1055' u='c' c='mg_hfn'/>

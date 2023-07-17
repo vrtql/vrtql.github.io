@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/server.h' l='133' type='uv_stream_t *'/>
+<use f='codebrowser/src/server.c' l='600' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='918' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='926' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='960' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1032' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1345' u='r' c='msg_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1359' u='r' c='msg_svr_client_disconnect'/>
+<offset>64</offset>
+<doc f='codebrowser/src/server.h' l='132'>/**&lt; The client associated with the connection */</doc>

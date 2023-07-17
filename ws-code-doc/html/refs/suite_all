@@ -1,0 +1,2 @@
+<def f='codebrowser/src/test/ctest.h' l='470' ll='473' type='int suite_all(struct ctest * t)'/>
+<use f='codebrowser/src/test/ctest.h' l='514' u='r' c='ctest_main'/>

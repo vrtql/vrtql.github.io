@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='231' type='_Bool'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='235' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='243' u='w' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='831' u='r' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='834' u='w' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='900' u='w' c='mpack_tree_parse_start'/>
+<offset>512</offset>

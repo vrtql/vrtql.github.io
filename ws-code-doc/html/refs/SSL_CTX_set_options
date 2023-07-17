@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='587' type='unsigned long SSL_CTX_set_options(SSL_CTX * ctx, unsigned long op)'/>
+<use f='codebrowser/src/socket.c' l='263' u='c' c='vws_socket_connect'/>

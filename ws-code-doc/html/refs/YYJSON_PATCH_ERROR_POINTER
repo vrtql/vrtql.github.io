@@ -1,0 +1,18 @@
+<def f='codebrowser/src/util/yyjson.h' l='4305' type='const yyjson_patch_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4304'>/** JSON patch operation failed on JSON pointer. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2296' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2301' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2307' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2314' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2318' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2324' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2330' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2336' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2417' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2422' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2428' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2435' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2439' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2445' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2451' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2457' macro='1' u='r' c='yyjson_mut_patch'/>

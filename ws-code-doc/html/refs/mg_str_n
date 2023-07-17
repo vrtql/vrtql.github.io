@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='844' type='struct mg_str mg_str_n(const char * s, size_t n)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='69' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='113' u='c' c='mg_http_var'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='506' u='c' c='getrange'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='687' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='783' u='c' c='uri_to_path'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='844' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='853' u='c' c='stripquotes'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='868' u='c' c='mg_http_get_header_var'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='871' u='c' c='mg_http_get_header_var'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='966' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='970' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='995' u='c' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='266' u='c' c='mg_json_get_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='c' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='41' u='c' c='mg_rpc_process'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='9' ll='12' type='struct mg_str mg_str_n(const char * s, size_t n)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='130' u='c' c='mg_globmatch'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='130' u='c' c='mg_globmatch'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='150' u='c' c='mg_split'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='151' u='c' c='mg_split'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='152' u='c' c='mg_split'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='c' c='mg_url_host'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' u='c' c='mg_url_user'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_url_pass'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='83' u='c' c='mg_url_pass'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='223' u='c' c='mg_ws_cb'/>

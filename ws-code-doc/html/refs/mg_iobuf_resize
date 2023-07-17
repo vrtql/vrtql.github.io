@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1087' type='int mg_iobuf_resize(struct mg_iobuf * , size_t )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' u='c' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='428' u='c' c='static_cb'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='18' ll='43' type='int mg_iobuf_resize(struct mg_iobuf * io, size_t new_size)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' u='c' c='mg_iobuf_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='c' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='c' c='mg_iobuf_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='c' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='c' c='read_conn'/>

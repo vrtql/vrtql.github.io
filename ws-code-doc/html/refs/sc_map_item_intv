@@ -1,0 +1,14 @@
+<def f='codebrowser/src/util/sc_map.h' l='216' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='216' macro='1'/>
+<size>16</size>
+<mbr r='sc_map_item_intv::key' o='0' t='int'/>
+<mbr r='sc_map_item_intv::value' o='64' t='void *'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_cmp_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_assign_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_hashof_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_alloc_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' c='sc_map_remap_intv'/>
+<size>16</size>

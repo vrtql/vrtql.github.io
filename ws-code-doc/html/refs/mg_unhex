@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='859' type='void mg_unhex(const char * buf, size_t len, unsigned char * to)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='155' u='c' c='mg_url_decode'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='291' u='c' c='mg_json_get_hex'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='184' ll='189' type='void mg_unhex(const char * buf, size_t len, unsigned char * to)'/>

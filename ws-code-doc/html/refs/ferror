@@ -1,0 +1,3 @@
+<dec f='include/stdio.h' l='767' type='int ferror(FILE * __stream)'/>
+<doc f='include/stdio.h' l='766'>/* Return the error indicator for STREAM.  */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='118' u='c' c='mpack_file_reader_skip'/>

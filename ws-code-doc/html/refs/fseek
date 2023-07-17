@@ -1,0 +1,10 @@
+<dec f='include/stdio.h' l='690' type='int fseek(FILE * __stream, long __off, int __whence)'/>
+<doc f='include/stdio.h' l='686'>/* Seek to a certain position on STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1114' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1118' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='115' u='c' c='mpack_file_reader_skip'/>
+<use f='codebrowser/src/util/yyjson.c' l='6587' u='c' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6589' u='c' c='yyjson_read_fp'/>

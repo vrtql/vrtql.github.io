@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1408' type='size_t mg_ws_printf(struct mg_connection * c, int op, const char * fmt)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='27' ll='34' type='size_t mg_ws_printf(struct mg_connection * c, int op, const char * fmt)'/>

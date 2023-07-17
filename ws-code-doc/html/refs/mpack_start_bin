@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='984' type='void mpack_start_bin(mpack_writer_t * writer, uint32_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='979'>/**
+ * Opens a binary blob. `count` bytes should be written with calls to
+ * mpack_write_bytes(), and mpack_finish_bin() should be called
+ * when done.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='622' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1202' ll='1206' type='void mpack_start_bin(mpack_writer_t * writer, uint32_t count)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1305' u='c' c='mpack_write_bin'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1322' type='struct mg_str mg_http_get_header_var(struct mg_str s, struct mg_str v)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='c' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='844' u='c' c='mg_http_creds'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='857' ll='872' type='struct mg_str mg_http_get_header_var(struct mg_str s, struct mg_str v)'/>

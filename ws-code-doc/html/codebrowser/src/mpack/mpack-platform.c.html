@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>mpack-platform.c source code [codebrowser/src/mpack/mpack-platform.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/mpack/mpack-platform.c'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>mpack</a>/<a href='mpack-platform.c.html'>mpack-platform.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2015-2021 Nicholas Fraser and the MPack authors</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission is hereby granted, free of charge, to any person obtaining a copy of</i></td></tr>
+<tr><th id="5">5</th><td><i> * this software and associated documentation files (the "Software"), to deal in</i></td></tr>
+<tr><th id="6">6</th><td><i> * the Software without restriction, including without limitation the rights to</i></td></tr>
+<tr><th id="7">7</th><td><i> * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of</i></td></tr>
+<tr><th id="8">8</th><td><i> * the Software, and to permit persons to whom the Software is furnished to do so,</i></td></tr>
+<tr><th id="9">9</th><td><i> * subject to the following conditions:</i></td></tr>
+<tr><th id="10">10</th><td><i> *</i></td></tr>
+<tr><th id="11">11</th><td><i> * The above copyright notice and this permission notice shall be included in all</i></td></tr>
+<tr><th id="12">12</th><td><i> * copies or substantial portions of the Software.</i></td></tr>
+<tr><th id="13">13</th><td><i> *</i></td></tr>
+<tr><th id="14">14</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</i></td></tr>
+<tr><th id="15">15</th><td><i> * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS</i></td></tr>
+<tr><th id="16">16</th><td><i> * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR</i></td></tr>
+<tr><th id="17">17</th><td><i> * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER</i></td></tr>
+<tr><th id="18">18</th><td><i> * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN</i></td></tr>
+<tr><th id="19">19</th><td><i> * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</i></td></tr>
+<tr><th id="20">20</th><td><i> */</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i></i></td></tr>
+<tr><th id="23">23</th><td><i>// We define MPACK_EMIT_INLINE_DEFS and include mpack.h to emit</i></td></tr>
+<tr><th id="24">24</th><td><i>// standalone definitions of all (non-static) inline functions in MPack.</i></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/MPACK_INTERNAL" data-ref="_M/MPACK_INTERNAL">MPACK_INTERNAL</dfn> 1</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/MPACK_EMIT_INLINE_DEFS" data-ref="_M/MPACK_EMIT_INLINE_DEFS">MPACK_EMIT_INLINE_DEFS</dfn> 1</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="mpack-platform.h.html">"mpack-platform.h"</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="mpack.h.html">"mpack.h"</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><a class="macro" href="mpack-platform.h.html#1134" title="" data-ref="_M/MPACK_SILENCE_WARNINGS_BEGIN">MPACK_SILENCE_WARNINGS_BEGIN</a></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="34">if</span> <a class="macro" href="mpack-platform.h.html#645" title="0" data-ref="_M/MPACK_DEBUG">MPACK_DEBUG</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#if MPACK_STDIO</u></td></tr>
+<tr><th id="37">37</th><td><em>void</em> mpack_assert_fail_format(<em>const</em> <em>char</em>* format, ...) {</td></tr>
+<tr><th id="38">38</th><td>    <em>char</em> buffer[<var>512</var>];</td></tr>
+<tr><th id="39">39</th><td>    va_list args;</td></tr>
+<tr><th id="40">40</th><td>    va_start(args, format);</td></tr>
+<tr><th id="41">41</th><td>    vsnprintf(buffer, <b>sizeof</b>(buffer), format, args);</td></tr>
+<tr><th id="42">42</th><td>    va_end(args);</td></tr>
+<tr><th id="43">43</th><td>    buffer[<b>sizeof</b>(buffer) - <var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="44">44</th><td>    mpack_assert_fail_wrapper(buffer);</td></tr>
+<tr><th id="45">45</th><td>}</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><em>void</em> mpack_break_hit_format(<em>const</em> <em>char</em>* format, ...) {</td></tr>
+<tr><th id="48">48</th><td>    <em>char</em> buffer[<var>512</var>];</td></tr>
+<tr><th id="49">49</th><td>    va_list args;</td></tr>
+<tr><th id="50">50</th><td>    va_start(args, format);</td></tr>
+<tr><th id="51">51</th><td>    vsnprintf(buffer, <b>sizeof</b>(buffer), format, args);</td></tr>
+<tr><th id="52">52</th><td>    va_end(args);</td></tr>
+<tr><th id="53">53</th><td>    buffer[<b>sizeof</b>(buffer) - <var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="54">54</th><td>    mpack_break_hit(buffer);</td></tr>
+<tr><th id="55">55</th><td>}</td></tr>
+<tr><th id="56">56</th><td><u>#endif</u></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><u>#if !MPACK_CUSTOM_ASSERT</u></td></tr>
+<tr><th id="59">59</th><td><em>void</em> mpack_assert_fail(<em>const</em> <em>char</em>* message) {</td></tr>
+<tr><th id="60">60</th><td>    MPACK_UNUSED(message);</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <u>#if MPACK_STDIO</u></td></tr>
+<tr><th id="63">63</th><td>    fprintf(stderr, <q>"%s\n"</q>, message);</td></tr>
+<tr><th id="64">64</th><td>    <u>#endif</u></td></tr>
+<tr><th id="65">65</th><td>}</td></tr>
+<tr><th id="66">66</th><td><u>#endif</u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><i>// We split the assert failure from the wrapper so that a</i></td></tr>
+<tr><th id="69">69</th><td><i>// custom assert function can return.</i></td></tr>
+<tr><th id="70">70</th><td><em>void</em> mpack_assert_fail_wrapper(<em>const</em> <em>char</em>* message) {</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>    <u>#ifdef MPACK_GCOV</u></td></tr>
+<tr><th id="73">73</th><td>    <i>// gcov marks even __builtin_unreachable() as an uncovered line. this</i></td></tr>
+<tr><th id="74">74</th><td><i>    // silences it.</i></td></tr>
+<tr><th id="75">75</th><td>    (mpack_assert_fail(message), __builtin_unreachable());</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td>    <u>#else</u></td></tr>
+<tr><th id="78">78</th><td>    mpack_assert_fail(message);</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>    <i>// mpack_assert_fail() is not supposed to return. in case it does, we</i></td></tr>
+<tr><th id="81">81</th><td><i>    // abort.</i></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td>    <u>#if !MPACK_NO_BUILTINS</u></td></tr>
+<tr><th id="84">84</th><td>    <u>#if defined(__GNUC__) || defined(__clang__)</u></td></tr>
+<tr><th id="85">85</th><td>    __builtin_trap();</td></tr>
+<tr><th id="86">86</th><td>    <u>#elif defined(WIN32)</u></td></tr>
+<tr><th id="87">87</th><td>    __debugbreak();</td></tr>
+<tr><th id="88">88</th><td>    <u>#endif</u></td></tr>
+<tr><th id="89">89</th><td>    <u>#endif</u></td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td>    <u>#if (defined(__GNUC__) || defined(__clang__)) &amp;&amp; !MPACK_NO_BUILTINS</u></td></tr>
+<tr><th id="92">92</th><td>    __builtin_abort();</td></tr>
+<tr><th id="93">93</th><td>    <u>#elif MPACK_STDLIB</u></td></tr>
+<tr><th id="94">94</th><td>    abort();</td></tr>
+<tr><th id="95">95</th><td>    <u>#endif</u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td>    MPACK_UNREACHABLE;</td></tr>
+<tr><th id="98">98</th><td>    <u>#endif</u></td></tr>
+<tr><th id="99">99</th><td>}</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><u>#if !MPACK_CUSTOM_BREAK</u></td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td><i>// If we have a custom assert handler, break wraps it by default.</i></td></tr>
+<tr><th id="104">104</th><td><i>// This allows users of MPack to only implement mpack_assert_fail() without</i></td></tr>
+<tr><th id="105">105</th><td><i>// having to worry about the difference between assert and break.</i></td></tr>
+<tr><th id="106">106</th><td><i>//</i></td></tr>
+<tr><th id="107">107</th><td><i>// MPACK_CUSTOM_BREAK is available to define a separate break handler</i></td></tr>
+<tr><th id="108">108</th><td><i>// (which is needed by the unit test suite), but this is not offered in</i></td></tr>
+<tr><th id="109">109</th><td><i>// mpack-config.h for simplicity.</i></td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><u>#if MPACK_CUSTOM_ASSERT</u></td></tr>
+<tr><th id="112">112</th><td><em>void</em> mpack_break_hit(<em>const</em> <em>char</em>* message) {</td></tr>
+<tr><th id="113">113</th><td>    mpack_assert_fail_wrapper(message);</td></tr>
+<tr><th id="114">114</th><td>}</td></tr>
+<tr><th id="115">115</th><td><u>#else</u></td></tr>
+<tr><th id="116">116</th><td><em>void</em> mpack_break_hit(<em>const</em> <em>char</em>* message) {</td></tr>
+<tr><th id="117">117</th><td>    MPACK_UNUSED(message);</td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td>    <u>#if MPACK_STDIO</u></td></tr>
+<tr><th id="120">120</th><td>    fprintf(stderr, <q>"%s\n"</q>, message);</td></tr>
+<tr><th id="121">121</th><td>    <u>#endif</u></td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td>    <u>#if defined(__GNUC__) || defined(__clang__) &amp;&amp; !MPACK_NO_BUILTINS</u></td></tr>
+<tr><th id="124">124</th><td>    __builtin_trap();</td></tr>
+<tr><th id="125">125</th><td>    <u>#elif defined(WIN32) &amp;&amp; !MPACK_NO_BUILTINS</u></td></tr>
+<tr><th id="126">126</th><td>    __debugbreak();</td></tr>
+<tr><th id="127">127</th><td>    <u>#elif MPACK_STDLIB</u></td></tr>
+<tr><th id="128">128</th><td>    abort();</td></tr>
+<tr><th id="129">129</th><td>    <u>#endif</u></td></tr>
+<tr><th id="130">130</th><td>}</td></tr>
+<tr><th id="131">131</th><td><u>#endif</u></td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><u>#endif</u></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><u>#<span data-ppcond="34">endif</span></u></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><i>// The below are adapted from the C wikibook:</i></td></tr>
+<tr><th id="140">140</th><td><i>//     <a href="https://en.wikibooks.org/wiki/C_Programming/Strings">https://en.wikibooks.org/wiki/C_Programming/Strings</a></i></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><u>#<span data-ppcond="142">ifndef</span> <a class="macro" href="mpack-platform.h.html#1746" data-ref="_M/mpack_memcmp">mpack_memcmp</a></u></td></tr>
+<tr><th id="143">143</th><td><em>int</em> mpack_memcmp(<em>const</em> <em>void</em>* s1, <em>const</em> <em>void</em>* s2, size_t n) {</td></tr>
+<tr><th id="144">144</th><td>     <em>const</em> <em>unsigned</em> <em>char</em> *us1 = (<em>const</em> <em>unsigned</em> <em>char</em> *) s1;</td></tr>
+<tr><th id="145">145</th><td>     <em>const</em> <em>unsigned</em> <em>char</em> *us2 = (<em>const</em> <em>unsigned</em> <em>char</em> *) s2;</td></tr>
+<tr><th id="146">146</th><td>     <b>while</b> (n-- != <var>0</var>) {</td></tr>
+<tr><th id="147">147</th><td>         <b>if</b> (*us1 != *us2)</td></tr>
+<tr><th id="148">148</th><td>             <b>return</b> (*us1 &lt; *us2) ? -<var>1</var> : +<var>1</var>;</td></tr>
+<tr><th id="149">149</th><td>         us1++;</td></tr>
+<tr><th id="150">150</th><td>         us2++;</td></tr>
+<tr><th id="151">151</th><td>     }</td></tr>
+<tr><th id="152">152</th><td>     <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="153">153</th><td>}</td></tr>
+<tr><th id="154">154</th><td><u>#<span data-ppcond="142">endif</span></u></td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><u>#<span data-ppcond="156">ifndef</span> <a class="macro" href="mpack-platform.h.html#1752" data-ref="_M/mpack_memcpy">mpack_memcpy</a></u></td></tr>
+<tr><th id="157">157</th><td><em>void</em>* mpack_memcpy(<em>void</em>* MPACK_RESTRICT s1, <em>const</em> <em>void</em>* MPACK_RESTRICT s2, size_t n) {</td></tr>
+<tr><th id="158">158</th><td>    <em>char</em>* MPACK_RESTRICT dst = (<em>char</em> *)s1;</td></tr>
+<tr><th id="159">159</th><td>    <em>const</em> <em>char</em>* MPACK_RESTRICT src = (<em>const</em> <em>char</em> *)s2;</td></tr>
+<tr><th id="160">160</th><td>    <b>while</b> (n-- != <var>0</var>)</td></tr>
+<tr><th id="161">161</th><td>        *dst++ = *src++;</td></tr>
+<tr><th id="162">162</th><td>    <b>return</b> s1;</td></tr>
+<tr><th id="163">163</th><td>}</td></tr>
+<tr><th id="164">164</th><td><u>#<span data-ppcond="156">endif</span></u></td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td><u>#<span data-ppcond="166">ifndef</span> <a class="macro" href="mpack-platform.h.html#1758" data-ref="_M/mpack_memmove">mpack_memmove</a></u></td></tr>
+<tr><th id="167">167</th><td><em>void</em>* mpack_memmove(<em>void</em>* s1, <em>const</em> <em>void</em>* s2, size_t n) {</td></tr>
+<tr><th id="168">168</th><td>    <em>char</em> *p1 = (<em>char</em> *)s1;</td></tr>
+<tr><th id="169">169</th><td>    <em>const</em> <em>char</em> *p2 = (<em>const</em> <em>char</em> *)s2;</td></tr>
+<tr><th id="170">170</th><td>    <b>if</b> (p2 &lt; p1 &amp;&amp; p1 &lt; p2 + n) {</td></tr>
+<tr><th id="171">171</th><td>        p2 += n;</td></tr>
+<tr><th id="172">172</th><td>        p1 += n;</td></tr>
+<tr><th id="173">173</th><td>        <b>while</b> (n-- != <var>0</var>)</td></tr>
+<tr><th id="174">174</th><td>            *--p1 = *--p2;</td></tr>
+<tr><th id="175">175</th><td>    } <b>else</b></td></tr>
+<tr><th id="176">176</th><td>        <b>while</b> (n-- != <var>0</var>)</td></tr>
+<tr><th id="177">177</th><td>            *p1++ = *p2++;</td></tr>
+<tr><th id="178">178</th><td>    <b>return</b> s1;</td></tr>
+<tr><th id="179">179</th><td>}</td></tr>
+<tr><th id="180">180</th><td><u>#<span data-ppcond="166">endif</span></u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><u>#<span data-ppcond="182">ifndef</span> <a class="macro" href="mpack-platform.h.html#1764" data-ref="_M/mpack_memset">mpack_memset</a></u></td></tr>
+<tr><th id="183">183</th><td><em>void</em>* mpack_memset(<em>void</em>* s, <em>int</em> c, size_t n) {</td></tr>
+<tr><th id="184">184</th><td>    <em>unsigned</em> <em>char</em> *us = (<em>unsigned</em> <em>char</em> *)s;</td></tr>
+<tr><th id="185">185</th><td>    <em>unsigned</em> <em>char</em> uc = (<em>unsigned</em> <em>char</em>)c;</td></tr>
+<tr><th id="186">186</th><td>    <b>while</b> (n-- != <var>0</var>)</td></tr>
+<tr><th id="187">187</th><td>        *us++ = uc;</td></tr>
+<tr><th id="188">188</th><td>    <b>return</b> s;</td></tr>
+<tr><th id="189">189</th><td>}</td></tr>
+<tr><th id="190">190</th><td><u>#<span data-ppcond="182">endif</span></u></td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><u>#<span data-ppcond="192">ifndef</span> <a class="macro" href="mpack-platform.h.html#1770" data-ref="_M/mpack_strlen">mpack_strlen</a></u></td></tr>
+<tr><th id="193">193</th><td>size_t mpack_strlen(<em>const</em> <em>char</em>* s) {</td></tr>
+<tr><th id="194">194</th><td>    <em>const</em> <em>char</em>* p = s;</td></tr>
+<tr><th id="195">195</th><td>    <b>while</b> (*p != <kbd>'\0'</kbd>)</td></tr>
+<tr><th id="196">196</th><td>        p++;</td></tr>
+<tr><th id="197">197</th><td>    <b>return</b> (size_t)(p - s);</td></tr>
+<tr><th id="198">198</th><td>}</td></tr>
+<tr><th id="199">199</th><td><u>#<span data-ppcond="192">endif</span></u></td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td><u>#<span data-ppcond="203">if</span> defined(<a class="macro" href="mpack-platform.h.html#459" data-ref="_M/MPACK_MALLOC">MPACK_MALLOC</a>) &amp;&amp; !defined(<a class="macro" href="mpack-platform.h.html#460" data-ref="_M/MPACK_REALLOC">MPACK_REALLOC</a>)</u></td></tr>
+<tr><th id="204">204</th><td><em>void</em>* mpack_realloc(<em>void</em>* old_ptr, size_t used_size, size_t new_size) {</td></tr>
+<tr><th id="205">205</th><td>    <b>if</b> (new_size == <var>0</var>) {</td></tr>
+<tr><th id="206">206</th><td>        <b>if</b> (old_ptr)</td></tr>
+<tr><th id="207">207</th><td>            MPACK_FREE(old_ptr);</td></tr>
+<tr><th id="208">208</th><td>        <b>return</b> NULL;</td></tr>
+<tr><th id="209">209</th><td>    }</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td>    <em>void</em>* new_ptr = MPACK_MALLOC(new_size);</td></tr>
+<tr><th id="212">212</th><td>    <b>if</b> (new_ptr == NULL)</td></tr>
+<tr><th id="213">213</th><td>        <b>return</b> NULL;</td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td>    mpack_memcpy(new_ptr, old_ptr, used_size);</td></tr>
+<tr><th id="216">216</th><td>    MPACK_FREE(old_ptr);</td></tr>
+<tr><th id="217">217</th><td>    <b>return</b> new_ptr;</td></tr>
+<tr><th id="218">218</th><td>}</td></tr>
+<tr><th id="219">219</th><td><u>#<span data-ppcond="203">endif</span></u></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+<tr><th id="221">221</th><td><a class="macro" href="mpack-platform.h.html#1142" title="" data-ref="_M/MPACK_SILENCE_WARNINGS_END">MPACK_SILENCE_WARNINGS_END</a></td></tr>
+<tr><th id="222">222</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,10 @@
+<dec f='include/stdio.h' l='695' type='long ftell(FILE * __stream)'/>
+<doc f='include/stdio.h' l='691'>/* Return the current position of STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1116' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='113' u='c' c='mpack_file_reader_skip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='201' u='c' c='p_seek'/>
+<use f='codebrowser/src/util/yyjson.c' l='6584' u='c' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6587' u='c' c='yyjson_read_fp'/>

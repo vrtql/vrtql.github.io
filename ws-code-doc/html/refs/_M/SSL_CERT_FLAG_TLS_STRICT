@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='515'/>
+<doc f='include/openssl/ssl.h' l='511'>/*
+ * Many implementations ignore some aspects of the TLS standards such as
+ * enforcing certificate chain algorithms. When this is set we enforce them.
+ */</doc>

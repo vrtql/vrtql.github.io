@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/server.h' l='136' type='char *'/>
+<use f='codebrowser/src/server.c' l='1033' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1352' u='w' c='msg_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1362' u='r' c='msg_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1364' u='r' c='msg_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1365' u='w' c='msg_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1375' u='r' c='msg_svr_client_data_in'/>
+<offset>128</offset>
+<doc f='codebrowser/src/server.h' l='135'>/**&lt; User-defined data associated with the connection */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/util/sc_map.h' l='76' type='_Bool'/>
+<offset>208</offset>
+<use f='codebrowser/src/rpc.c' l='250' macro='1' u='r' c='sys_map_get'/>
+<use f='codebrowser/src/rpc.c' l='263' macro='1' u='r' c='sys_map_set'/>
+<use f='codebrowser/src/rpc.c' l='277' macro='1' u='r' c='sys_map_clear'/>
+<use f='codebrowser/src/util/sc_map.c' l='229' u='w' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='249' u='w' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='250' u='r' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='264' u='w' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='273' u='w' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='280' u='w' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='293' u='w' c='sc_map_del_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='305' u='w' c='sc_map_del_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='312' u='w' c='sc_map_del_sv'/>

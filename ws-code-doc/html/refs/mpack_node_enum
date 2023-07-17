@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1195' type='size_t mpack_node_enum(mpack_node_t node, const char ** strings, size_t count)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1927' ll='1932' type='size_t mpack_node_enum(mpack_node_t node, const char ** strings, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1167'>/**
+ * Searches the given string array for a string matching the given
+ * node and returns its index.
+ *
+ * If the node does not match any of the given strings,
+ * @ref mpack_error_type is flagged. Use mpack_node_enum_optional()
+ * if you want to allow values other than the given strings.
+ *
+ * If any error occurs or if the tree is in an error state, @a count
+ * is returned.
+ *
+ * This can be used to quickly parse a string into an enum when the
+ * enum values range from 0 to @a count-1. If the last value in the
+ * enum is a special &quot;count&quot; value, it can be passed as the count,
+ * and the return value can be cast directly to the enum type.
+ *
+ * @code{.c}
+ * typedef enum           { APPLE ,  BANANA ,  ORANGE , COUNT} fruit_t;
+ * const char* fruits[] = {&quot;apple&quot;, &quot;banana&quot;, &quot;orange&quot;};
+ *
+ * fruit_t fruit = (fruit_t)mpack_node_enum(node, fruits, COUNT);
+ * @endcode
+ *
+ * @param node The node
+ * @param strings An array of expected strings of length count
+ * @param count The number of strings
+ * @return The index of the matched string, or @a count in case of error
+ */</doc>

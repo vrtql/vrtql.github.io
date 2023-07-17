@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='857' type='_Bool mg_split(struct mg_str * s, struct mg_str * k, struct mg_str * v, char delim)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='114' u='c' c='mg_http_var'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='146' ll='154' macro='1' type='_Bool mg_split(struct mg_str * s, struct mg_str * k, struct mg_str * v, char sep)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='157' u='c' c='mg_commalist'/>

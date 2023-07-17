@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1325' type='void mg_hello(const char * url)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='1067' ll='1074' type='void mg_hello(const char * url)'/>

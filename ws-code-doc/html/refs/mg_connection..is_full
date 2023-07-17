@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1222' type='unsigned int'/>
+<offset>1678</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1222'>// Stop reads, until cleared</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='480' u='r' c='can_read'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/src/server.c' l='780' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1212' u='c' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1230' u='c' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1256' u='c' c='queue_empty'/>

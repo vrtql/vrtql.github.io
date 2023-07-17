@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='433'/>
+<doc f='include/openssl/ssl.h' l='432'>/* Removed from OpenSSL 1.1.0. Was 0x00000100L */</doc>

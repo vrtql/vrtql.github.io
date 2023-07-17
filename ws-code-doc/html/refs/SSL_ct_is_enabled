@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2230' type='int SSL_ct_is_enabled(const SSL * s)'/>
+<doc f='include/openssl/ssl.h' l='2227'>/*
+ * Report whether a non-NULL callback is enabled.
+ */</doc>

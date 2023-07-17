@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/message.h' l='159' type='vrtql_msg * vrtql_msg_receive(vws_cnx * c)'/>
+<def f='codebrowser/src/message.c' l='441' ll='465' type='vrtql_msg * vrtql_msg_receive(vws_cnx * c)'/>
+<doc f='codebrowser/src/message.h' l='152'>/**
+ * @brief Receives a message from the connection.
+ *
+ * @param c The connection.
+ * @return Returns the most recent message or NULL if the socket timed out
+ *   without receiving a full message.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='85' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='81' u='c' c='ctest_test_message_run'/>

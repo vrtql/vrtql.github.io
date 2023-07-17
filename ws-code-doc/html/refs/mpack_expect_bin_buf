@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1147' type='size_t mpack_expect_bin_buf(mpack_reader_t * reader, char * buf, size_t size)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1140'>/**
+ * Reads a binary blob into the given buffer, returning its size in bytes.
+ *
+ * For compatibility, this will accept if the underlying type is string or
+ * binary (since in MessagePack 1.0, strings and binary data were combined
+ * under the &quot;raw&quot; type which became string in 1.1.)
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='563' ll='578' type='size_t mpack_expect_bin_buf(mpack_reader_t * reader, char * buf, size_t bufsize)'/>

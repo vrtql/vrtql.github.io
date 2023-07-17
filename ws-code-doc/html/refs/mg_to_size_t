@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.c' l='15' type='_Bool mg_to_size_t(struct mg_str str, size_t * val)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='16' ll='29' macro='1' type='_Bool mg_to_size_t(struct mg_str str, size_t * val)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='256' u='c' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='508' u='c' c='getrange'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='512' u='c' c='getrange'/>

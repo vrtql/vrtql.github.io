@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='497' type='void mpack_skip_bytes(mpack_reader_t * reader, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='493'>/**
+ * Skips bytes from the underlying stream. This is used only to
+ * skip the contents of a string, binary blob or extension object.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='395' ll='411' type='void mpack_skip_bytes(mpack_reader_t * reader, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='997' u='c' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1001' u='c' c='mpack_discard'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='171' type='10'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='171'>/**&lt; The reader failed to read because of file or socket EOF */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='41' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='100' u='r' c='mpack_file_reader_fill'/>

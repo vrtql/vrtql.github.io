@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/util/sc_map.h' l='69' type='struct sc_map_item_64 *'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/sc_map.c' l='91' u='w'/>
+<use f='codebrowser/src/util/sc_map.c' l='136' u='w' c='sc_map_init_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='148' u='r' c='sc_map_term_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='148' u='r' c='sc_map_term_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='149' u='r' c='sc_map_term_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='163' u='r' c='sc_map_clear_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='189' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='190' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='194' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='203' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='203' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='204' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='205' u='r' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='208' u='w' c='sc_map_remap_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='232' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='242' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='244' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='249' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='250' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='251' u='r' c='sc_map_put_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='265' u='r' c='sc_map_get_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='272' u='r' c='sc_map_get_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='275' u='r' c='sc_map_get_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='281' u='r' c='sc_map_get_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='304' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='307' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='313' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='316' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='322' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='326' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='331' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='331' u='r' c='sc_map_del_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='332' u='r' c='sc_map_del_64'/>

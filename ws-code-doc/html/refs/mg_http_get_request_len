@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1298' type='int mg_http_get_request_len(const unsigned char * buf, size_t buf_len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='174' ll='183' type='int mg_http_get_request_len(const unsigned char * buf, size_t buf_len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='224' u='c' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' u='c' c='mg_ws_client_handshake'/>

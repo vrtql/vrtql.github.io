@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='173' type='char *'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='485' u='r' c='mpack_writer_buffer_used'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='501' u='r' c='mpack_writer_buffer_size'/>
+<offset>256</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='173'>/* Byte buffer */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='104' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='127' u='w' c='mpack_writer_init'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='129' u='r' c='mpack_writer_init'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='191' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='198' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='208' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='221' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='227' u='w' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='228' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='254' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='256' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='260' u='w' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='261' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='264' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='266' u='w' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='268' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='269' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='270' u='w' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='312' u='r' c='mpack_file_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='313' u='w' c='mpack_file_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='378' u='r' c='mpack_writer_flush_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='379' u='r' c='mpack_writer_flush_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='566' u='w' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='580' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1486' u='w' c='mpack_builder_configure_buffer'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1519' u='r' c='mpack_builder_apply_writes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1545' u='r' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1663' u='w' c='mpack_builder_resolve'/>

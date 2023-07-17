@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1111'/>
+<doc f='include/openssl/ssl.h' l='1110'>/* More backward compatibility */</doc>

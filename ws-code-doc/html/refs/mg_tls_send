@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1348' type='long mg_tls_send(struct mg_connection * , const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='c' c='write_conn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='152' ll='158' type='long mg_tls_send(struct mg_connection * c, const void * buf, size_t len)'/>

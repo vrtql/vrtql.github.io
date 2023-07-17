@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.c' l='3944' ll='3947'/>
+<use f='codebrowser/src/util/yyjson.c' l='3944'/>
+<size>520</size>
+<doc f='codebrowser/src/util/yyjson.c' l='3943'>/** Unsigned arbitrarily large integer */</doc>

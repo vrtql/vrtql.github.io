@@ -1,0 +1,40 @@
+<dec f='codebrowser/src/vrtql.h' l='229' type='void vrtql_buffer_printf(vrtql_buffer * buffer, cstr format)'/>
+<doc f='codebrowser/src/vrtql.h' l='200'>/**
+ * @brief Appends formatted data to a vrtql_buffer using printf() format.
+ *
+ * This function appends formatted data to the specified vrtql_buffer using a
+ * printf()-style format string and variable arguments. The formatted data is
+ * appended to the existing content of the buffer.
+ *
+ * @param buffer The vrtql_buffer to append the formatted data to.
+ * @param format The printf() format string specifying the format of the data to
+ *        be appended.
+ * @param ... Variable arguments corresponding to the format specifier in the
+ *        format string.
+ *
+ * @note The behavior of this function is similar to the standard printf()
+ *       function, where the format string specifies the expected format of the
+ *       data and the variable arguments provide the values to be formatted and
+ *       appended to the buffer.
+ *
+ * @note The vrtql_buffer must be initialized and have sufficient capacity to
+ *       hold the appended data. If the buffer capacity is exceeded, the
+ *       behavior is undefined.
+ *
+ * @warning Take care to ensure the format string and variable arguments are
+ *          consistent, as mismatches can lead to undefined behavior or security
+ *          vulnerabilities (e.g., format string vulnerabilities).
+ *
+ * @see vrtql_buffer_init
+ * @see vrtql_buffer_append
+ */</doc>
+<use f='codebrowser/src/server.c' l='1427' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1428' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1429' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1432' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1435' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1437' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1441' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1445' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1448' u='c' c='msg_svr_client_data_in'/>
+<def f='codebrowser/src/vrtql.c' l='440' ll='463' type='void vrtql_buffer_printf(vrtql_buffer * buffer, cstr format)'/>

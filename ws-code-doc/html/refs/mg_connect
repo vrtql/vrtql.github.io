@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1234' type='struct mg_connection * mg_connect(struct mg_mgr * , const char * url, mg_event_handler_t fn, void * fn_data)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='231' u='c' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1078' u='c' c='mg_http_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='526' u='c' c='mg_mqtt_connect'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='151' ll='170' type='struct mg_connection * mg_connect(struct mg_mgr * mgr, const char * url, mg_event_handler_t fn, void * fn_data)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='79' u='c' c='mg_sntp_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='238' u='c' c='mg_ws_connect'/>

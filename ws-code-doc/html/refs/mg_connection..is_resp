@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1223' type='unsigned int'/>
+<offset>1679</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1223'>// Response is still being generated</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='298' u='w' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='314' u='w' c='mg_http_write_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='403' u='w' c='mg_http_reply'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='411' u='w' c='restore_http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='597' u='w' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='721' u='w' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='753' u='w' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1026' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1040' u='w' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='630' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='633' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='280' u='w' c='mg_ws_upgrade'/>

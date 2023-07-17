@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='1085'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='890' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='893' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1137' u='c'/>

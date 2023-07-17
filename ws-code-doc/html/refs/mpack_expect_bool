@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='585' type='_Bool mpack_expect_bool(mpack_reader_t * reader)'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='327' ll='332' macro='1' type='_Bool mpack_expect_bool(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='335' u='c' c='mpack_expect_true'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='340' u='c' c='mpack_expect_false'/>

@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='961' type='void mpack_node_check_utf8_cstr(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1496' ll='1502' type='void mpack_node_check_utf8_cstr(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='940'>/**
+ * Checks that the given node contains a valid UTF-8 string with no NUL bytes.
+ *
+ * This does not check that the string has a null-terminator! It only checks whether
+ * the string could safely be represented as a C-string by appending a null-terminator.
+ * (If the string does already contain a null-terminator, this will flag an error.)
+ *
+ * This is performed automatically by other UTF-8 cstr helper functions. Only
+ * call this if you will do something else with the data directly, but you still
+ * want to ensure it will be valid as a UTF-8 C-string.
+ *
+ * @throws mpack_error_type If this node is not a string, does not contain valid UTF-8,
+ *     or contains a NUL byte.
+ *
+ * @param node The string node to test
+ *
+ * @see mpack_node_str()
+ * @see mpack_node_strlen()
+ * @see mpack_node_copy_utf8_cstr()
+ * @see mpack_node_utf8_cstr_alloc()
+ */</doc>

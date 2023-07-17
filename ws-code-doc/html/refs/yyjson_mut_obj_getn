@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3173' type='yyjson_mut_val * yyjson_mut_obj_getn(yyjson_mut_val * obj, const char * key, size_t key_len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6335' u='c' c='yyjson_mut_obj_get'/>
+<def f='codebrowser/src/util/yyjson.h' l='6338' ll='6350' macro='1' type='yyjson_mut_val * yyjson_mut_obj_getn(yyjson_mut_val * obj, const char * _key, size_t key_len)'/>
+<use f='codebrowser/src/util/yyjson.c' l='2560' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2578' u='c' c='yyjson_mut_merge_patch'/>

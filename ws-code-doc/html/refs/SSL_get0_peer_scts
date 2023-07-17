@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2234' type='const struct stack_st_SCT * SSL_get0_peer_scts(SSL * s)'/>
+<doc f='include/openssl/ssl.h' l='2233'>/* Gets the SCTs received from a connection */</doc>

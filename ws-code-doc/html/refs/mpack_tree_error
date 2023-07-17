@@ -1,0 +1,12 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='508' ll='510' macro='1' type='mpack_error_t mpack_tree_error(mpack_tree_t * tree)'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='620' u='c' c='mpack_node_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='144' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='793' u='c' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='810' u='c' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='849' u='c' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='940' u='c' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='952' u='c' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='963' u='c' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='971' u='c' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='981' u='c' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='994' u='c' c='mpack_tree_root'/>

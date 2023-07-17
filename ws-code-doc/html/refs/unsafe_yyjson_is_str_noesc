@@ -1,0 +1,18 @@
+<def f='codebrowser/src/util/yyjson.h' l='4430' ll='4461' macro='1' type='_Bool unsafe_yyjson_is_str_noesc(const char * str, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4682' u='c' c='unsafe_yyjson_set_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='5621' u='c' c='yyjson_mut_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='5652' u='c' c='yyjson_mut_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_null'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_true'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_false'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_bool'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_uint'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_int'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='6821' u='c' c='yyjson_mut_obj_add_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_strncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6729' u='c' c='yyjson_mut_obj_add_val'/>

@@ -1,0 +1,37 @@
+<dec f='include/stdlib.h' l='541' type='void * calloc(size_t __nmemb, size_t __size)'/>
+<doc f='include/stdlib.h' l='540'>/* Allocate NMEMB elements of SIZE bytes each, all initialized to 0.  */</doc>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='c' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/test/test_common.c' l='88' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='239' u='c' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' u='c' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31' u='c' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='c' c='packed_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='c' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='c' c='mg_json_get_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='279' u='c' c='mg_json_get_b64'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='290' u='c' c='mg_json_get_hex'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' u='c' c='mg_alloc_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='209' u='c' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' u='c' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='49' u='c' c='mg_strdup'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/util/sc_map.c' l='397' macro='1' u='c' c='sc_map_alloc_int'/>
+<use f='codebrowser/src/util/sc_map.c' l='398' macro='1' u='c' c='sc_map_alloc_intv'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_alloc_ints'/>
+<use f='codebrowser/src/util/sc_map.c' l='400' macro='1' u='c' c='sc_map_alloc_ll'/>
+<use f='codebrowser/src/util/sc_map.c' l='401' macro='1' u='c' c='sc_map_alloc_llv'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' u='c' c='sc_map_alloc_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='403' macro='1' u='c' c='sc_map_alloc_32'/>
+<use f='codebrowser/src/util/sc_map.c' l='404' macro='1' u='c' c='sc_map_alloc_64'/>
+<use f='codebrowser/src/util/sc_map.c' l='405' macro='1' u='c' c='sc_map_alloc_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='406' macro='1' u='c' c='sc_map_alloc_64s'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' u='c' c='sc_map_alloc_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='410' macro='1' u='c' c='sc_map_alloc_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' u='c' c='sc_map_alloc_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_alloc_sll'/>
+<use f='codebrowser/src/vrtql.c' l='209' u='c' c='vrtql_calloc'/>
+<use f='codebrowser/src/websocket.c' l='289' macro='1' u='c' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='c' c='process_frame'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='484' ll='486' macro='1' type='size_t mpack_writer_buffer_used(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='194' u='c' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='202' u='c' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='246' u='c' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='247' u='c' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='265' u='c' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='377' u='c' c='mpack_writer_flush_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='407' u='c' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='579' u='c' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='580' u='c' c='mpack_writer_destroy'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1584' type='_Bool mg_json_get_bool(struct mg_str json, const char * path, _Bool * v)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='227' ll='234' macro='1' type='_Bool mg_json_get_bool(struct mg_str json, const char * path, _Bool * v)'/>

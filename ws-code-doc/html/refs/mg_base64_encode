@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1094' type='int mg_base64_encode(const unsigned char * p, int n, char * to)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='62' ll='67' type='int mg_base64_encode(const unsigned char * p, int n, char * to)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='c' c='ws_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='243' u='c' c='mg_ws_connect'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1101' type='uint32_t [4]'/>
+<offset>0</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='33' u='w' c='mg_md5_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34' u='w' c='mg_md5_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='w' c='mg_md5_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='w' c='mg_md5_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='143' u='r' c='mg_md5_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='151' u='r' c='mg_md5_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='172' u='r' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='183' u='r' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='r' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' u='r' c='mg_md5_final'/>

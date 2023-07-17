@@ -1,0 +1,14 @@
+<def f='codebrowser/src/util/yyjson.h' l='3699' type='const yyjson_ptr_code'/>
+<use f='codebrowser/src/util/yyjson.h' l='6992' macro='1' u='r' c='yyjson_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7025' macro='1' u='r' c='yyjson_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7057' macro='1' u='r' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7095' macro='1' u='r' c='yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7132' macro='1' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7195' macro='1' u='r' c='yyjson_mut_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7233' macro='1' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7299' macro='1' u='r' c='yyjson_mut_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7336' macro='1' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7380' macro='1' u='r' c='yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7413' macro='1' u='r' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7454' macro='1' u='r' c='yyjson_mut_ptr_removex'/>
+<doc f='codebrowser/src/util/yyjson.h' l='3698'>/** No JSON pointer error. */</doc>

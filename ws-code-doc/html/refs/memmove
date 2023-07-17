@@ -1,0 +1,45 @@
+<dec f='include/string.h' l='46' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<doc f='include/string.h' l='44'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='875' macro='1' u='c' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='278' macro='1' u='c' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='968' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='32' u='c' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' u='c' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='58' u='c' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' u='c' c='mg_iobuf_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='109' u='c' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='292' u='c' c='mg_ws_wrap'/>
+<use f='codebrowser/src/util/yyjson.c' l='543' u='c' c='byte_move_2'/>
+<use f='codebrowser/src/util/yyjson.c' l='551' u='c' c='byte_move_4'/>
+<use f='codebrowser/src/util/yyjson.c' l='559' u='c' c='byte_move_8'/>
+<use f='codebrowser/src/util/yyjson.c' l='567' u='c' c='byte_move_16'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8194' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8371' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8738' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/vrtql.c' l='509' u='c' c='vrtql_buffer_drain'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ecerr.h' l='30'/>
+<doc f='include/openssl/ecerr.h' l='27'>/*
+ * EC function codes.
+ */</doc>

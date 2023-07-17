@@ -1,0 +1,1 @@
+<dec f='include/openssl/async.h' l='46' type='int ASYNC_WAIT_CTX_set_wait_fd(ASYNC_WAIT_CTX * ctx, const void * key, int fd, void * custom_data, void (*)(ASYNC_WAIT_CTX *, const void *, int, void *) cleanup)'/>

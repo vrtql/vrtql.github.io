@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/util/yyjson.h' l='6722'/>
+<use f='codebrowser/src/util/yyjson.h' l='6744' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6752' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6760' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6769' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6778' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6788' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6798' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6808' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6819' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6834' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6845' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6859' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6871' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='6718'>/*==============================================================================
+ * Mutable JSON Object Modification Convenience API (Implementation)
+ *============================================================================*/</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1562'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='863' u='a'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='866' u='c'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='909' u='a'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='910' u='c'/>

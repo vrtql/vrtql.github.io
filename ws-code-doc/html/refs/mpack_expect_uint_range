@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-expect.h' l='272' ll='278' macro='1' type='unsigned int mpack_expect_uint_range(mpack_reader_t * reader, unsigned int min_value, unsigned int max_value)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='337' u='c' c='mpack_expect_uint_max'/>

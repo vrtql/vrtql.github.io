@@ -1,0 +1,23 @@
+<use f='codebrowser/src/mpack/mpack-node.h' l='82'/>
+<def f='codebrowser/src/mpack/mpack-node.h' l='240' ll='273'/>
+<size>368</size>
+<mbr r='mpack_tree_t::error_fn' o='0' t='mpack_tree_error_t'/>
+<mbr r='mpack_tree_t::read_fn' o='64' t='mpack_tree_read_t'/>
+<mbr r='mpack_tree_t::teardown' o='128' t='mpack_tree_teardown_t'/>
+<mbr r='mpack_tree_t::context' o='192' t='void *'/>
+<mbr r='mpack_tree_t::nil_node' o='256' t='mpack_node_data_t'/>
+<mbr r='mpack_tree_t::missing_node' o='384' t='mpack_node_data_t'/>
+<mbr r='mpack_tree_t::error' o='512' t='mpack_error_t'/>
+<mbr r='mpack_tree_t::buffer' o='576' t='char *'/>
+<mbr r='mpack_tree_t::buffer_capacity' o='640' t='size_t'/>
+<mbr r='mpack_tree_t::data' o='704' t='const char *'/>
+<mbr r='mpack_tree_t::data_length' o='768' t='size_t'/>
+<mbr r='mpack_tree_t::size' o='832' t='size_t'/>
+<mbr r='mpack_tree_t::node_count' o='896' t='size_t'/>
+<mbr r='mpack_tree_t::max_size' o='960' t='size_t'/>
+<mbr r='mpack_tree_t::max_nodes' o='1024' t='size_t'/>
+<mbr r='mpack_tree_t::parser' o='1088' t='mpack_tree_parser_t'/>
+<mbr r='mpack_tree_t::root' o='2688' t='mpack_node_data_t *'/>
+<mbr r='mpack_tree_t::pool' o='2752' t='mpack_node_data_t *'/>
+<mbr r='mpack_tree_t::pool_count' o='2816' t='size_t'/>
+<mbr r='mpack_tree_t::next' o='2880' t='mpack_tree_page_t *'/>

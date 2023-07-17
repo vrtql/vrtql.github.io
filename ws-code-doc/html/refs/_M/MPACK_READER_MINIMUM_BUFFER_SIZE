@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='69'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='64'>/**
+ * @def MPACK_READER_MINIMUM_BUFFER_SIZE
+ *
+ * The minimum buffer size for a reader with a fill function.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='73' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='82' u='c'/>

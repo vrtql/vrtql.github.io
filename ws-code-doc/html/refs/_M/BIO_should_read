@@ -1,0 +1,2 @@
+<dec f='include/openssl/bio.h' l='196'/>
+<doc f='include/openssl/bio.h' l='195'>/* These should be used by the application to tell why we should retry */</doc>

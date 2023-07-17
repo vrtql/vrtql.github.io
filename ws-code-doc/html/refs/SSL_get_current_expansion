@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2079' type='const COMP_METHOD * SSL_get_current_expansion(const SSL * s)'/>

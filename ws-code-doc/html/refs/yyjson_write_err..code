@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1056' type='yyjson_write_code'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='1055'>/** Error code, see `yyjson_write_code` for all possible values. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8005' u='w' c='write_dat_to_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='8017' u='w' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8017' u='w' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8017' u='w' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8070' u='w' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8070' u='w' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8070' u='w' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8070' u='w' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8177' u='w' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8177' u='w' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8177' u='w' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8177' u='w' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8354' u='w' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8354' u='w' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8354' u='w' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8354' u='w' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8567' u='w' c='yyjson_val_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='8604' u='w' c='yyjson_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8630' u='w' c='yyjson_val_write_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='8875' u='w' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8721' u='w' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8721' u='w' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8721' u='w' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8721' u='w' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9083' u='w' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8904' u='w' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8904' u='w' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8904' u='w' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8904' u='w' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='9123' u='w' c='yyjson_mut_write_opts_impl'/>
+<use f='codebrowser/src/util/yyjson.c' l='9179' u='w' c='yyjson_mut_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='9205' u='w' c='yyjson_mut_val_write_fp'/>

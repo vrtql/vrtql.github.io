@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/sc_map.c' l='399' macro='1' type='_Bool sc_map_cmp_ints(struct sc_map_item_ints * t, int key, uint32_t hash)'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_put_ints'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_get_ints'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_del_ints'/>

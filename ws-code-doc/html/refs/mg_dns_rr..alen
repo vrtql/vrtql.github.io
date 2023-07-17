@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1562' type='uint16_t'/>
+<offset>48</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1562'>// Address length</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='95' u='w' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' u='r' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='97' u='r' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' u='r' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' u='r' c='mg_dns_parse'/>

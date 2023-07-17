@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/websocket.c' l='21' type='0'/>
+<use f='codebrowser/src/websocket.c' l='282' u='r' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='465' u='r' c='vws_disconnect'/>
+<doc f='codebrowser/src/websocket.c' l='20'>/** The connection with the client is closed. */</doc>

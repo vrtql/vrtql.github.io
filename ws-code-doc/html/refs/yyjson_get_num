@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1613' type='double yyjson_get_num(yyjson_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4853' ll='4855' macro='1' type='double yyjson_get_num(yyjson_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5382' u='c' c='yyjson_mut_get_num'/>

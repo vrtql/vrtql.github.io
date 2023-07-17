@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2387'/>
+<doc f='include/openssl/ssl.h' l='2386'>/* the ticket couldn&apos;t be decrypted */</doc>

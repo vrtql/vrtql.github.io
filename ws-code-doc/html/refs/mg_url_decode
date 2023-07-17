@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1315' type='int mg_url_decode(const char * s, size_t n, char * to, size_t to_len, int form)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' u='c' c='mg_http_get_var'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='148' ll='168' type='int mg_url_decode(const char * src, size_t src_len, char * dst, size_t dst_len, int is_form_url_encoded)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='686' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='734' u='c' c='uri_to_path2'/>

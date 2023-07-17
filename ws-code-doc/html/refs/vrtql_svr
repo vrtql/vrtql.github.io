@@ -1,0 +1,24 @@
+<use f='codebrowser/src/server.h' l='130'/>
+<def f='codebrowser/src/server.h' l='194' ll='244'/>
+<use f='codebrowser/src/server.h' l='194'/>
+<use f='codebrowser/src/server.h' l='342'/>
+<size>552</size>
+<doc f='codebrowser/src/server.h' l='191'>/**
+ * @brief Struct representing a VRTQL server.
+ */</doc>
+<mbr r='vrtql_svr::state' o='0' t='uint8_t'/>
+<mbr r='vrtql_svr::mutex' o='64' t='uv_mutex_t'/>
+<mbr r='vrtql_svr::wakeup' o='384' t='uv_async_t'/>
+<mbr r='vrtql_svr::loop' o='1408' t='uv_loop_t *'/>
+<mbr r='vrtql_svr::requests' o='1472' t='vrtql_svr_queue'/>
+<mbr r='vrtql_svr::responses' o='2560' t='vrtql_svr_queue'/>
+<mbr r='vrtql_svr::backlog' o='3648' t='int'/>
+<mbr r='vrtql_svr::pool_size' o='3680' t='int'/>
+<mbr r='vrtql_svr::threads' o='3712' t='uv_thread_t *'/>
+<mbr r='vrtql_svr::cnxs' o='3776' t='vrtql_svr_cnx_map'/>
+<mbr r='vrtql_svr::on_connect' o='4032' t='vrtql_svr_connect'/>
+<mbr r='vrtql_svr::on_disconnect' o='4096' t='vrtql_svr_disconnect'/>
+<mbr r='vrtql_svr::on_read' o='4160' t='vrtql_svr_read'/>
+<mbr r='vrtql_svr::on_data_in' o='4224' t='vrtql_svr_process_data'/>
+<mbr r='vrtql_svr::on_data_out' o='4288' t='vrtql_svr_process_data'/>
+<mbr r='vrtql_svr::trace' o='4352' t='uint8_t'/>

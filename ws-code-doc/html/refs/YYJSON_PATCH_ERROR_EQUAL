@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='4302' type='const yyjson_patch_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4301'>/** JSON patch operation `test` not equal. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2339' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2460' macro='1' u='r' c='yyjson_mut_patch'/>

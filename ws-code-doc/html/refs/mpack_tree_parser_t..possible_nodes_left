@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='218' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='88' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='162' u='w' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='163' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='202' u='r' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='764' u='w' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='889' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='895' u='w' c='mpack_tree_parse_start'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='200'>// We keep track of the number of &quot;possible nodes&quot; left in the data rather
+    // than the number of bytes.
+    //
+    // When a map or array is parsed, we ensure at least one byte for each child
+    // exists and subtract them right away. This ensures that if ever a map or
+    // array declares more elements than could possibly be contained in the data,
+    // we will error out immediately rather than allocating storage for them.
+    //
+    // For example malicious data that repeats 0xDE 0xFF 0xFF (start of a map
+    // with 65536 key-value pairs) would otherwise cause us to run out of
+    // memory. With this, the parser can allocate at most as many nodes as
+    // there are bytes in the data (plus the paging overhead, 12%.) An error
+    // will be flagged immediately if and when there isn&apos;t enough data left to
+    // fully read all children of all open compound types on the parsing stack.
+    //
+    // Once an entire message has been parsed (and there are no nodes left to
+    // parse whose bytes have been subtracted), this matches the number of left
+    // over bytes in the data.</doc>

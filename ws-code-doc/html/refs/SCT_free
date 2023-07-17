@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='141' type='void SCT_free(SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='138'>/*
+ * Frees the SCT and the underlying data structures.
+ */</doc>

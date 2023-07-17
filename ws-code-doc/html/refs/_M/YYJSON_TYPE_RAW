@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/util/yyjson.h' l='502'/>
+<use f='codebrowser/src/util/yyjson.h' l='4479' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4646' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4814' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5499' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5520' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='501'>/** Raw string type, no subtype. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1316' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1393' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1428' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1436' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1464' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1592' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='1647' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='3637' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='3664' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='8095' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='8294' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='8491' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='8841' u='c'/>
+<use f='codebrowser/src/util/yyjson.c' l='9044' u='c'/>

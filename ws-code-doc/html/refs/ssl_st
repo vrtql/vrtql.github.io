@@ -1,0 +1,6 @@
+<use f='include/openssl/ossl_typ.h' l='147'/>
+<use f='include/openssl/ssl.h' l='209'/>
+<use f='include/openssl/ssl.h' l='710' c='SSL_CTX_sess_set_new_cb'/>
+<use f='include/openssl/ssl.h' l='712' c='SSL_CTX_sess_get_new_cb'/>
+<use f='include/openssl/ssl.h' l='721' c='SSL_CTX_sess_set_get_cb'/>
+<use f='include/openssl/ssl.h' l='726' c='SSL_CTX_sess_get_get_cb'/>

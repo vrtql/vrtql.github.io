@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1598' type='struct mg_rpc *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1598'>// RPC handler being called</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='31' u='w' c='mg_rpc_call'/>

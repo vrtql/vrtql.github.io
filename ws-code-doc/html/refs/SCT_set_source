@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='268' type='int SCT_set_source(SCT * sct, sct_source_t source)'/>
+<doc f='include/openssl/ct.h' l='264'>/*
+ * Set the origin of this SCT, e.g. TLS extension, OCSP response, etc.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

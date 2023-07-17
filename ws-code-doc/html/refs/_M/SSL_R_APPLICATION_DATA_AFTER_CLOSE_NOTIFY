@@ -1,0 +1,4 @@
+<dec f='include/openssl/sslerr.h' l='456'/>
+<doc f='include/openssl/sslerr.h' l='453'>/*
+ * SSL reason codes.
+ */</doc>

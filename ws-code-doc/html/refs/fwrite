@@ -1,0 +1,9 @@
+<dec f='include/stdio.h' l='658' type='unsigned long fwrite(const void *restrict __ptr, size_t __size, size_t __n, FILE *restrict __s)'/>
+<doc f='include/stdio.h' l='654'>/* Write chunks of generic data to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='306' u='c' c='mpack_file_writer_flush'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='p_write'/>
+<use f='codebrowser/src/util/yyjson.c' l='8003' u='c' c='write_dat_to_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='8026' u='c' c='write_dat_to_file'/>

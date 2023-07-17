@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='876' type='void mg_queue_init(struct mg_queue * , char * , size_t )'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='876'>// Init queue</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='26' ll='30' type='void mg_queue_init(struct mg_queue * q, char * buf, size_t size)'/>
+<doc f='codebrowser/src/test/util/mongoose.c' l='13'>// Every message in a queue is prepended by a 32-bit message length (ML).
+// If ML is 0, then it is the end, and reader must wrap to the beginning.
+//
+//  Queue when q-&gt;tail &lt;= q-&gt;head:
+//  |----- free -----| ML | message1 | ML | message2 |  ----- free ------|
+//  ^                ^                               ^                   ^
+// buf              tail                            head                len
+//
+//  Queue when q-&gt;tail &gt; q-&gt;head:
+//  | ML | message2 |----- free ------| ML | message1 | 0 |---- free ----|
+//  ^               ^                 ^                                  ^
+// buf             head              tail                               len</doc>

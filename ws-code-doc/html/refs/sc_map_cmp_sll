@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/sc_map.c' l='412' macro='1' type='_Bool sc_map_cmp_sll(struct sc_map_item_sll * t, const char * key, uint32_t hash)'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_get_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_del_sll'/>

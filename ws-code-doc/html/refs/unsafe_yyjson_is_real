@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='4527' ll='4530' macro='1' type='_Bool unsafe_yyjson_is_real(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4771' u='c' c='yyjson_is_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='5312' u='c' c='yyjson_mut_is_real'/>

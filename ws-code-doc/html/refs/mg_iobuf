@@ -1,0 +1,23 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1079' ll='1084'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1086' c='mg_iobuf_init'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1087' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1088' c='mg_iobuf_free'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1089' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1090' c='mg_iobuf_del'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1200'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1201'/>
+<size>32</size>
+<mbr r='mg_iobuf::buf' o='0' t='unsigned char *'/>
+<mbr r='mg_iobuf::size' o='64' t='size_t'/>
+<mbr r='mg_iobuf::len' o='128' t='size_t'/>
+<mbr r='mg_iobuf::align' o='192' t='size_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='18' c='mg_iobuf_resize'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45' c='mg_iobuf_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' c='mg_iobuf_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' c='mg_iobuf_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' c='mg_iobuf_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' c='mg_pfn_iobuf_private'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' c='mg_vsnprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='63' c='mg_vmprintf'/>
+<size>32</size>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1808' type='size_t SSL_client_hello_get0_compression_methods(SSL * s, const unsigned char ** out)'/>

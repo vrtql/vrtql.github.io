@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1162' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1162'>// DNS server URL</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='228' u='r' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='231' u='r' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='250' u='r' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='252' u='w' c='mg_mgr_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='253' u='w' c='mg_mgr_init'/>

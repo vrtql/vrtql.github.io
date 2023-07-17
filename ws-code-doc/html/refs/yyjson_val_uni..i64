@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4381' type='int64_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='4562' u='r' c='unsafe_yyjson_get_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='4566' u='r' c='unsafe_yyjson_get_int'/>
+<use f='codebrowser/src/util/yyjson.h' l='4578' u='r' c='unsafe_yyjson_get_num'/>
+<use f='codebrowser/src/util/yyjson.h' l='4671' u='w' c='unsafe_yyjson_set_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='5592' u='w' c='yyjson_mut_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='5841' u='w' c='yyjson_mut_arr_with_sint8'/>
+<use f='codebrowser/src/util/yyjson.h' l='5849' u='w' c='yyjson_mut_arr_with_sint16'/>
+<use f='codebrowser/src/util/yyjson.h' l='5857' u='w' c='yyjson_mut_arr_with_sint32'/>
+<use f='codebrowser/src/util/yyjson.h' l='5865' u='w' c='yyjson_mut_arr_with_sint64'/>
+<use f='codebrowser/src/util/yyjson.h' l='6790' u='w' c='yyjson_mut_obj_add_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='6800' u='w' c='yyjson_mut_obj_add_int'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/yyjson.c' l='1537' u='r' c='unsafe_yyjson_num_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='1539' u='r' c='unsafe_yyjson_num_equals'/>

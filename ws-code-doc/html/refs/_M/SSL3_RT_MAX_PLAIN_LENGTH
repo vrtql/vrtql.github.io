@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl3.h' l='171'/>
+<doc f='include/openssl/ssl3.h' l='170'>/* Maximum plaintext length: defined by SSL/TLS standards */</doc>

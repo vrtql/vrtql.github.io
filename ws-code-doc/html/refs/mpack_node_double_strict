@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='860' type='double mpack_node_double_strict(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2205' ll='2216' type='double mpack_node_double_strict(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='854'>/**
+ * Returns the double value of the node. The underlying value must be a float
+ * or double, not an integer. This ensures no loss of precision can occur.
+ *
+ * @throws mpack_error_type if the underlying value is not a float or double.
+ */</doc>

@@ -1,0 +1,5 @@
+<dec f='include/openssl/dtls1.h' l='33'/>
+<doc f='include/openssl/dtls1.h' l='29'>/*
+ * Actually the max cookie length in DTLS is 255. But we can&apos;t change this now
+ * due to compatibility concerns.
+ */</doc>

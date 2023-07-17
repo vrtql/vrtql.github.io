@@ -1,0 +1,12 @@
+<def f='codebrowser/src/websocket.h' l='61' ll='81'/>
+<use f='codebrowser/src/websocket.h' l='61'/>
+<size>24</size>
+<doc f='codebrowser/src/websocket.h' l='58'>/**
+ * @brief Represents a Websocket frame.
+ */</doc>
+<mbr r='vws_frame::fin' o='0' t='unsigned char'/>
+<mbr r='vws_frame::opcode' o='8' t='unsigned char'/>
+<mbr r='vws_frame::mask' o='16' t='unsigned char'/>
+<mbr r='vws_frame::offset' o='32' t='unsigned int'/>
+<mbr r='vws_frame::size' o='64' t='unsigned long long'/>
+<mbr r='vws_frame::data' o='128' t='unsigned char *'/>

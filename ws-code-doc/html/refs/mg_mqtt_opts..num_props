@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1499' type='size_t'/>
+<offset>768</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1499'>// number of props</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='290' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='300' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='331' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='341' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='348' u='r' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' u='r' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='513' u='r' c='mg_mqtt_disconnect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='519' u='r' c='mg_mqtt_disconnect'/>

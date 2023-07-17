@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1958'/>
+<use f='codebrowser/src/socket.c' l='251' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='c'/>

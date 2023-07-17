@@ -1,0 +1,2 @@
+<dec f='include/openssl/dtls1.h' l='47'/>
+<doc f='include/openssl/dtls1.h' l='46'>/* Timeout multipliers (timeout slice is defined in apps/timeouts.h */</doc>

@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='264' type='mpack_tree_parser_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='85' u='m' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='87' u='m' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='88' u='m' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='162' u='m' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='163' u='m' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='184' u='m' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='192' u='m' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='197' u='m' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='202' u='m' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='202' u='m' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='214' u='m' c='mpack_tree_parser_stack_capacity'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='221' u='a' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='270' u='a' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='365' u='m' c='mpack_tree_parse_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='379' u='m' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='388' u='m' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='764' u='m' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='764' u='m' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='768' u='m' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='796' u='a' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='831' u='m' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='832' u='m' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='833' u='m' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='834' u='m' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='852' u='a' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='860' u='m' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='861' u='m' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='891' u='m' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='943' u='m' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='964' u='m' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='965' u='m' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='974' u='m' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='982' u='m' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='983' u='m' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1000' u='m' c='mpack_tree_root'/>
+<offset>1088</offset>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1621' type='void mg_rpc_err(struct mg_rpc_req * , int code, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='34' u='c' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='c' c='mg_rpc_process'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='82' ll='87' type='void mg_rpc_err(struct mg_rpc_req * r, int code, const char * fmt)'/>

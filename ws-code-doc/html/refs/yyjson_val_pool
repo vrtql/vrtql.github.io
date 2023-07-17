@@ -1,0 +1,11 @@
+<def f='codebrowser/src/util/yyjson.h' l='5193' ll='5199'/>
+<use f='codebrowser/src/util/yyjson.h' l='5193'/>
+<size>40</size>
+<doc f='codebrowser/src/util/yyjson.h' l='5190'>/**
+ A memory pool to hold all values in a mutable document.
+ */</doc>
+<mbr r='yyjson_val_pool::cur' o='0' t='yyjson_mut_val *'/>
+<mbr r='yyjson_val_pool::end' o='64' t='yyjson_mut_val *'/>
+<mbr r='yyjson_val_pool::chunk_size' o='128' t='size_t'/>
+<mbr r='yyjson_val_pool::chunk_size_max' o='192' t='size_t'/>
+<mbr r='yyjson_val_pool::chunks' o='256' t='yyjson_val_chunk *'/>

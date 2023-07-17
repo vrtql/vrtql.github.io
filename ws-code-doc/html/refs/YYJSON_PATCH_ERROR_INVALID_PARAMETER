@@ -1,0 +1,6 @@
+<def f='codebrowser/src/util/yyjson.h' l='4287' type='const yyjson_patch_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4286'>/** Invalid parameter, such as NULL input or non-array patch. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2242' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2245' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2361' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2364' macro='1' u='r' c='yyjson_mut_patch'/>

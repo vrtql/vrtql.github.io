@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2291'/>
+<doc f='include/openssl/ssl.h' l='2290'>/* Cipher shared by client/server */</doc>

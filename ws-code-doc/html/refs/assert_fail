@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/ctest.h' l='226' type='void assert_fail(const char * caller, int line)'/>
+<def f='codebrowser/src/test/ctest.h' l='465' ll='467' type='void assert_fail(const char * caller, int line)'/>
+<use f='codebrowser/src/test/test_message.c' l='21' macro='1' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='61' macro='1' u='c' c='ctest_test_message_json_serialization_run'/>

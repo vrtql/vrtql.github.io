@@ -1,0 +1,2 @@
+<dec f='include/dirent.h' l='162' type='struct dirent * readdir(DIR * __dirp)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' u='c' c='p_list'/>

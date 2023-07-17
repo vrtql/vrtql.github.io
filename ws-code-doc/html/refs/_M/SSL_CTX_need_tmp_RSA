@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1482'/>
+<doc f='include/openssl/ssl.h' l='1481'>/* Provide some compatibility macros for removed functionality. */</doc>

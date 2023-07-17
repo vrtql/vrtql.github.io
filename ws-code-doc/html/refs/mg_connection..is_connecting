@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1213' type='unsigned int'/>
+<offset>1669</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1213'>// Non-blocking connect is in progress</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='306' u='w' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='361' u='w' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='484' u='r' c='can_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='639' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='645' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='105' u='r' c='mg_tls_init'/>

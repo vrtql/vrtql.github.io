@@ -1,0 +1,7 @@
+<dec f='include/openssl/ct.h' l='419' type='int CTLOG_new_from_base64(CTLOG ** ct_log, const char * pkey_base64, const char * name)'/>
+<doc f='include/openssl/ct.h' l='413'>/*
+ * Creates a new CTLOG instance with the base64-encoded SubjectPublicKeyInfo DER
+ * in |pkey_base64|. The |name| is a string to help users identify this log.
+ * Returns 1 on success, 0 on failure.
+ * Should be deleted by the caller using CTLOG_free when no longer needed.
+ */</doc>

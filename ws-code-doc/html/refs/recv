@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='145' type='ssize_t recv(int __fd, void * __buf, size_t __n, int __flags)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='140'>/* Read N bytes into BUF from socket FD.
+   Returns the number read or -1 for errors.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/src/socket.c' l='405' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='250' u='c' c='mg_io_recv'/>
+<use f='codebrowser/src/websocket.c' l='415' u='c' c='socket_handshake'/>

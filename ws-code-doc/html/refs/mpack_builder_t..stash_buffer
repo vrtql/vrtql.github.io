@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='155' type='char *'/>
+<offset>256</offset>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='118' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='566' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1545' u='w' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1663' u='r' c='mpack_builder_resolve'/>

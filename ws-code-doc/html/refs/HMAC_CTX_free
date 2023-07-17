@@ -1,0 +1,1 @@
+<dec f='include/openssl/hmac.h' l='28' type='void HMAC_CTX_free(HMAC_CTX * ctx)'/>

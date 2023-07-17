@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='938' type='void mpack_node_check_utf8(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1488' ll='1494' type='void mpack_node_check_utf8(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.c' l='1484'>/*
+ * Node Data Functions
+ */</doc>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='923'>/**
+ * Checks that the given node contains a valid UTF-8 string.
+ *
+ * If the string is invalid, this flags an error, which would cause subsequent calls
+ * to mpack_node_str() to return NULL and mpack_node_strlen() to return zero. So you
+ * can check the node for error immediately after calling this, or you can call those
+ * functions to use the data anyway and check for errors later.
+ *
+ * @throws mpack_error_type If this node is not a string or does not contain valid UTF-8.
+ *
+ * @param node The string node to test
+ *
+ * @see mpack_node_str()
+ * @see mpack_node_strlen()
+ */</doc>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='1004' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1003'>/** Escape &apos;/&apos; as &apos;\/&apos;. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='7639' u='r' c='get_enc_table_with_flag'/>
+<use f='codebrowser/src/util/yyjson.c' l='7645' u='r' c='get_enc_table_with_flag'/>

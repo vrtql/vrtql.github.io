@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='242' type='mpack_tree_read_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='103' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='140' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='945' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='958' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1076' u='w' c='mpack_tree_init_stream'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='242'>/* Function to call to read more data */</doc>

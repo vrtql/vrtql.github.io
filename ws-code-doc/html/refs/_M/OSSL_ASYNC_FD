@@ -1,0 +1,12 @@
+<dec f='include/openssl/async.h' l='22'/>
+<use f='include/openssl/async.h' l='43' u='a'/>
+<use f='include/openssl/async.h' l='47' u='c'/>
+<use f='include/openssl/async.h' l='50' u='c'/>
+<use f='include/openssl/async.h' l='52' u='c'/>
+<use f='include/openssl/async.h' l='53' u='c'/>
+<use f='include/openssl/async.h' l='55' u='c'/>
+<use f='include/openssl/async.h' l='56' u='c'/>
+<use f='include/openssl/ssl.h' l='1816' u='a'/>
+<use f='include/openssl/ssl.h' l='1821' u='c'/>
+<use f='include/openssl/ssl.h' l='1822' u='c'/>
+<use f='include/openssl/ssl.h' l='1823' u='c'/>

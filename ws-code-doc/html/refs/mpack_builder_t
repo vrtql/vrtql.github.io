@@ -1,0 +1,13 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='150' ll='161'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='150'/>
+<size>56</size>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='147'>/**
+ * The builder state. This is stored within mpack_writer_t.
+ */</doc>
+<mbr r='mpack_builder_t::current_build' o='0' t='mpack_build_t *'/>
+<mbr r='mpack_builder_t::latest_build' o='64' t='mpack_build_t *'/>
+<mbr r='mpack_builder_t::current_page' o='128' t='mpack_builder_page_t *'/>
+<mbr r='mpack_builder_t::pages' o='192' t='mpack_builder_page_t *'/>
+<mbr r='mpack_builder_t::stash_buffer' o='256' t='char *'/>
+<mbr r='mpack_builder_t::stash_position' o='320' t='char *'/>
+<mbr r='mpack_builder_t::stash_end' o='384' t='char *'/>

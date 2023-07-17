@@ -1,0 +1,4 @@
+<def f='codebrowser/src/test/ctest.h' l='386' ll='392' type='_Bool get_compare_result(const char * cmp, int c3, _Bool eq)'/>
+<use f='codebrowser/src/test/ctest.h' l='397' u='c' c='assert_compare'/>
+<use f='codebrowser/src/test/ctest.h' l='405' u='c' c='assert_compare_u'/>
+<use f='codebrowser/src/test/ctest.h' l='431' u='c' c='assert_dbl_compare'/>

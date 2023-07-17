@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1301' type='void mg_http_delete_chunk(struct mg_connection * c, struct mg_http_message * hm)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='949' ll='953' type='void mg_http_delete_chunk(struct mg_connection * c, struct mg_http_message * hm)'/>

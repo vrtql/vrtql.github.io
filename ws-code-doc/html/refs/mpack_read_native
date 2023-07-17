@@ -1,0 +1,4 @@
+<use f='codebrowser/src/mpack/mpack-reader.c' l='444' u='c' c='mpack_read_bytes'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='450' u='c' c='mpack_read_utf8'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='472' u='c' c='mpack_read_cstr_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='504' u='c' c='mpack_read_native_noerrorfn'/>

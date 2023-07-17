@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='163' type='ct_log_entry_type_t SCT_get_log_entry_type(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='160'>/*
+ * Returns the log entry type of the SCT.
+ */</doc>

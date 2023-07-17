@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1601' type='int SSL_use_certificate_chain_file(SSL * ssl, const char * file)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' u='c' c='mg_tls_init'/>

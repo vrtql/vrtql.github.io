@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='85' type='uint32_t'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='85'>/* Epoll events */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' u='w' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' u='w' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' u='w' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='523' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='526' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='527' u='r' c='mg_iotest'/>

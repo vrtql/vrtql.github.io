@@ -1,0 +1,69 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='156' type='uint32_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='274' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='366' u='r' c='mpack_tree_parse_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='471' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='478' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='487' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='507' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='515' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='523' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='672' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='680' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='688' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='696' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='704' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='712' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='720' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='774' u='r' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='776' u='r' c='mpack_tree_parse_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1274' u='r' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1275' u='r' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1284' u='r' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1285' u='r' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1492' u='r' c='mpack_node_check_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1500' u='r' c='mpack_node_check_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1520' u='r' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1525' u='r' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1526' u='r' c='mpack_node_copy_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1541' u='r' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1546' u='r' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1551' u='r' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1552' u='r' c='mpack_node_copy_utf8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1573' u='r' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1579' u='r' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1585' u='r' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1586' u='r' c='mpack_node_copy_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1607' u='r' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1613' u='r' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1619' u='r' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1620' u='r' c='mpack_node_copy_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1639' u='r' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1644' u='r' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1650' u='r' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1670' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1675' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1680' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1686' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1687' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1707' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1712' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1717' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1723' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1724' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1746' u='r' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1778' u='r' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1813' u='r' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1816' u='r' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2268' u='r' c='mpack_node_data_len'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2279' u='r' c='mpack_node_strlen'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2329' u='r' c='mpack_node_bin_size'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2344' u='r' c='mpack_node_array_length'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2356' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2373' u='r' c='mpack_node_map_count'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2386' u='r' c='mpack_node_map_at'/>
+<offset>32</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='151'>/*
+     * The element count if the type is an array;
+     * the number of key/value pairs if the type is map;
+     * or the number of bytes if the type is str, bin or ext.
+     */</doc>

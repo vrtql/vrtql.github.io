@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.c' l='13' type='const char * mg_unlist(size_t no)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='21' ll='24' type='const char * mg_unlist(size_t no)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38' u='c' c='packed_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='50' u='c' c='packed_list'/>

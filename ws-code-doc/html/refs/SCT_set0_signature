@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='250' type='void SCT_set0_signature(SCT * sct, unsigned char * sig, size_t sig_len)'/>
+<doc f='include/openssl/ct.h' l='246'>/*
+ * Set the signature of an SCT to point directly to the *sig specified.
+ * The SCT takes ownership of the specified pointer.
+ */</doc>

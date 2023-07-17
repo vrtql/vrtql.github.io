@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1642' type='int SSL_copy_session_id(SSL * to, const SSL * from)'/>

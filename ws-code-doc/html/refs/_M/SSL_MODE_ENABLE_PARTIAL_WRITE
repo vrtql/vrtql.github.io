@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='457'/>
+<doc f='include/openssl/ssl.h' l='453'>/*
+ * Allow SSL_write(..., n) to return r with 0 &lt; r &lt; n (i.e. report success
+ * when just a single record has been written):
+ */</doc>

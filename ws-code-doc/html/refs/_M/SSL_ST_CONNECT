@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='1052'/>
+<doc f='include/openssl/ssl.h' l='1044'>/*
+ * Most of the following state values are no longer used and are defined to be
+ * the closest equivalent value in the current state machine code. Not all
+ * defines have an equivalent and are set to a dummy value (-1). SSL_ST_CONNECT
+ * and SSL_ST_ACCEPT are still in use in the definition of SSL_CB_ACCEPT_LOOP,
+ * SSL_CB_ACCEPT_EXIT, SSL_CB_CONNECT_LOOP and SSL_CB_CONNECT_EXIT.
+ */</doc>

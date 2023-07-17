@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1232' type='struct mg_connection * mg_listen(struct mg_mgr * , const char * url, mg_event_handler_t fn, void * fn_data)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1085' u='c' c='mg_http_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='538' u='c' c='mg_mqtt_listen'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='172' ll='191' type='struct mg_connection * mg_listen(struct mg_mgr * mgr, const char * url, mg_event_handler_t fn, void * fn_data)'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/websocket.h' l='128' type='fs_t vws_deserialize(ucstr data, size_t size, vws_frame * f, size_t * consumed)'/>
+<doc f='codebrowser/src/websocket.h' l='114'>/**
+ * @brief Deserializes raw network data into a vws_frame, updating consumed
+ *        with the number of bytes processed.
+ *
+ * @param data The raw network data.
+ * @param size The size of the data.
+ * @param f The vws_frame to deserialize into.
+ * @param consumed Pointer to the number of bytes consumed during
+ *        deserialization.
+ * @return The status of the deserialization process, 0 if successful, an error
+ *         code otherwise.
+ *
+ * @ingroup FrameFunctions
+ */</doc>
+<def f='codebrowser/src/websocket.c' l='781' ll='878' type='fs_t vws_deserialize(ucstr data, size_t size, vws_frame * f, size_t * consumed)'/>
+<use f='codebrowser/src/websocket.c' l='1100' u='c' c='vws_socket_ingress'/>

@@ -1,0 +1,416 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>server.h source code [codebrowser/src/server.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="vrtql_msg_svr,vrtql_svr,vrtql_svr_cnx,vrtql_svr_state "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/server.h'; var root_path = '../..'; var data_path = '../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='server.h.html'>server.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/VRTQL_SVR_DECLARE">VRTQL_SVR_DECLARE</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/VRTQL_SVR_DECLARE" data-ref="_M/VRTQL_SVR_DECLARE">VRTQL_SVR_DECLARE</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><u>#include &lt;uv.h&gt;</u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="vrtql.h.html">"vrtql.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="message.h.html">"message.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="http_request.h.html">"http_request.h"</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> *<span class="command"> @file</span> server.h</i></td></tr>
+<tr><th id="12">12</th><td><i class="doc"> * <span class="command">@brief</span> WebSocket server implementation</i></td></tr>
+<tr><th id="13">13</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc"> * This file implements a non-blocking, multiplexing, multithreaded WebSocket</i></td></tr>
+<tr><th id="15">15</th><td><i class="doc"> * server using the libuv library. The server consists of a main networking</i></td></tr>
+<tr><th id="16">16</th><td><i class="doc"> * thread that runs the libuv loop to handle socket I/O, and a pool of worker</i></td></tr>
+<tr><th id="17">17</th><td><i class="doc"> * threads that process the data.</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * The networking thread evenly distributes incoming data from clients to the</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * worker threads using a synchronized queue. The worker threads process the</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> * data and may send back replies. The server maintains two queues: a request</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc"> * queue that transfers incoming client data to the worker threads for</i></td></tr>
+<tr><th id="23">23</th><td><i class="doc"> * processing, and a response queue that transfers data from the worker threads</i></td></tr>
+<tr><th id="24">24</th><td><i class="doc"> * back to the network thread for sending it back to the client.</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc"> * The data items are stored in a generic structure called vrtql_svr_data, which</i></td></tr>
+<tr><th id="27">27</th><td><i class="doc"> * holds the data and the associated connection. The worker threads retrieve</i></td></tr>
+<tr><th id="28">28</th><td><i class="doc"> * data from the request queue, perform the following steps:</i></td></tr>
+<tr><th id="29">29</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="30">30</th><td><i class="doc"> *     1. Assemble data into WebSocket frames</i></td></tr>
+<tr><th id="31">31</th><td><i class="doc"> *     2. Assemble frames into WebSocket messages</i></td></tr>
+<tr><th id="32">32</th><td><i class="doc"> *     3. Assemble WebSocket messages into VRTQL messages</i></td></tr>
+<tr><th id="33">33</th><td><i class="doc"> *     4. Pass the messages to a user-defined processing function</i></td></tr>
+<tr><th id="34">34</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="35">35</th><td><i class="doc"> * The processing function can optionally produce data to send back to the</i></td></tr>
+<tr><th id="36">36</th><td><i class="doc"> * client.</i></td></tr>
+<tr><th id="37">37</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="38">38</th><td><i class="doc"> * From a programming standpoint, the server architecture simplifies to</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"> * implementing two functions that run in the context of a worker thread:</i></td></tr>
+<tr><th id="40">40</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="41">41</th><td><i class="doc"> *     - process(request message): Process incoming messages.</i></td></tr>
+<tr><th id="42">42</th><td><i class="doc"> *     - send(reply message): Send back reply messages.</i></td></tr>
+<tr><th id="43">43</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="44">44</th><td><i class="doc"> * The server takes care of all the serialization, handling the communication</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc"> * between the network thread and worker threads. Developers only need to focus</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc"> * on the processing logic.</i></td></tr>
+<tr><th id="47">47</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="48">48</th><td><i class="doc"> * The number of worker threads is configurable, allowing you to adjust it based</i></td></tr>
+<tr><th id="49">49</th><td><i class="doc"> * on workload or system requirements.</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><b>struct</b> <a class="type" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>;</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="55">55</th><td>{</td></tr>
+<tr><th id="56">56</th><td>    <i>/* uv_thread() is to close connection */</i></td></tr>
+<tr><th id="57">57</th><td>    <dfn class="enum" id="VM_SVR_DATA_CLOSE" title='VM_SVR_DATA_CLOSE' data-ref="VM_SVR_DATA_CLOSE" data-ref-filename="VM_SVR_DATA_CLOSE">VM_SVR_DATA_CLOSE</dfn>  = (<var>1</var> &lt;&lt; <var>1</var>)</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>} <dfn class="typedef" id="vrtql_svr_data_state" title='vrtql_svr_data_state' data-type='enum vrtql_svr_data_state' data-ref="vrtql_svr_data_state" data-ref-filename="vrtql_svr_data_state">vrtql_svr_data_state</dfn>;</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="62">62</th><td><i class="doc"> * <span class="command">@brief</span> Struct representing a server data for inter-thread communication</i></td></tr>
+<tr><th id="63">63</th><td><i class="doc"> * between the main network thread and worker threads. This is the way data is</i></td></tr>
+<tr><th id="64">64</th><td><i class="doc"> * passed between them. When passed from network thread to work, these take form</i></td></tr>
+<tr><th id="65">65</th><td><i class="doc"> * of incoming data from the client. When passed from the worker thread the the</i></td></tr>
+<tr><th id="66">66</th><td><i class="doc"> * networking thread, outgoing data to the client.</i></td></tr>
+<tr><th id="67">67</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="68">68</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="69">69</th><td>{</td></tr>
+<tr><th id="70">70</th><td>    <i class="doc">/**&lt; The client connection associated with the data */</i></td></tr>
+<tr><th id="71">71</th><td>    <b>struct</b> <a class="type" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="decl field" id="(anonymous)::cnx" title='(anonymous struct)::cnx' data-ref="(anonymous)::cnx" data-ref-filename="(anonymous)..cnx">cnx</dfn>;</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i class="doc">/**&lt; The number of bytes of data */</i></td></tr>
+<tr><th id="74">74</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size" data-ref-filename="(anonymous)..size">size</dfn>;</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <i class="doc">/**&lt; The data */</i></td></tr>
+<tr><th id="77">77</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data" data-ref-filename="(anonymous)..data">data</dfn>;</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>    <i class="doc">/**&lt; Message state flags */</i></td></tr>
+<tr><th id="80">80</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags" data-ref-filename="(anonymous)..flags">flags</dfn>;</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>} <dfn class="typedef" id="vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</dfn>;</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="85">85</th><td><i class="doc"> * <span class="command">@brief</span> Struct representing a server queue, including information about</i></td></tr>
+<tr><th id="86">86</th><td><i class="doc"> * buffer, size, capacity and threading.</i></td></tr>
+<tr><th id="87">87</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="88">88</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="89">89</th><td>{</td></tr>
+<tr><th id="90">90</th><td>    <i class="doc">/**&lt; The buffer holding datas in the queue */</i></td></tr>
+<tr><th id="91">91</th><td>    <a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>** <dfn class="decl field" id="(anonymous)::buffer" title='(anonymous struct)::buffer' data-ref="(anonymous)::buffer" data-ref-filename="(anonymous)..buffer">buffer</dfn>;</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td>    <i class="doc">/**&lt; Current size of the queue */</i></td></tr>
+<tr><th id="94">94</th><td>    <em>int</em> <dfn class="decl field" id="(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size" data-ref-filename="(anonymous)..size">size</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td>    <i class="doc">/**&lt; Maximum capacity of the queue */</i></td></tr>
+<tr><th id="97">97</th><td>    <em>int</em> <dfn class="decl field" id="(anonymous)::capacity" title='(anonymous struct)::capacity' data-ref="(anonymous)::capacity" data-ref-filename="(anonymous)..capacity">capacity</dfn>;</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td>    <i class="doc">/**&lt; Head position of the queue */</i></td></tr>
+<tr><th id="100">100</th><td>    <em>int</em> <dfn class="decl field" id="(anonymous)::head" title='(anonymous struct)::head' data-ref="(anonymous)::head" data-ref-filename="(anonymous)..head">head</dfn>;</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>    <i class="doc">/**&lt; Tail position of the queue */</i></td></tr>
+<tr><th id="103">103</th><td>    <em>int</em> <dfn class="decl field" id="(anonymous)::tail" title='(anonymous struct)::tail' data-ref="(anonymous)::tail" data-ref-filename="(anonymous)..tail">tail</dfn>;</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td>    <i class="doc">/**&lt; Mutex for thread safety */</i></td></tr>
+<tr><th id="106">106</th><td>    <span class='typedef' title='uv_mutex_t' data-type='pthread_mutex_t' data-ref="uv_mutex_t" data-ref-filename="uv_mutex_t">uv_mutex_t</span> <dfn class="decl field" id="(anonymous)::mutex" title='(anonymous struct)::mutex' data-ref="(anonymous)::mutex" data-ref-filename="(anonymous)..mutex">mutex</dfn>;</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td>    <i class="doc">/**&lt; Condition variable for thread synchronization */</i></td></tr>
+<tr><th id="109">109</th><td>    <span class='typedef' title='uv_cond_t' data-type='pthread_cond_t' data-ref="uv_cond_t" data-ref-filename="uv_cond_t">uv_cond_t</span> <dfn class="decl field" id="(anonymous)::cond" title='(anonymous struct)::cond' data-ref="(anonymous)::cond" data-ref-filename="(anonymous)..cond">cond</dfn>;</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td>    <i class="doc">/**&lt; Current state of the queue */</i></td></tr>
+<tr><th id="112">112</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="(anonymous)::state" title='(anonymous struct)::state' data-ref="(anonymous)::state" data-ref-filename="(anonymous)..state">state</dfn>;</td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td>    <i class="doc">/**&lt; Queue name */</i></td></tr>
+<tr><th id="115">115</th><td>    <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl field" id="(anonymous)::name" title='(anonymous struct)::name' data-ref="(anonymous)::name" data-ref-filename="(anonymous)..name">name</dfn>;</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>    <i class="doc">/**&lt; Debugging trace flag */</i></td></tr>
+<tr><th id="118">118</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="(anonymous)::trace" title='(anonymous struct)::trace' data-ref="(anonymous)::trace" data-ref-filename="(anonymous)..trace">trace</dfn>;</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td>} <dfn class="typedef" id="vrtql_svr_queue" title='vrtql_svr_queue' data-type='struct vrtql_svr_queue' data-ref="vrtql_svr_queue" data-ref-filename="vrtql_svr_queue">vrtql_svr_queue</dfn>;</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td><b>struct</b> <a class="type" href="#vrtql_svr" title='vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>;</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc"> * <span class="command">@brief</span> Represents a client connection.</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="127">127</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vrtql_svr_cnx" title='vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx"><a class="type" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a></dfn></td></tr>
+<tr><th id="128">128</th><td>{</td></tr>
+<tr><th id="129">129</th><td>    <i class="doc">/**&lt; The server associated with the connection */</i></td></tr>
+<tr><th id="130">130</th><td>    <b>struct</b> <a class="type" href="#vrtql_svr" title='vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="decl field" id="vrtql_svr_cnx::server" title='vrtql_svr_cnx::server' data-ref="vrtql_svr_cnx::server" data-ref-filename="vrtql_svr_cnx..server">server</dfn>;</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td>    <i class="doc">/**&lt; The client associated with the connection */</i></td></tr>
+<tr><th id="133">133</th><td>    <span class='typedef' title='uv_stream_t' data-type='struct uv_stream_s' data-ref="uv_stream_t" data-ref-filename="uv_stream_t">uv_stream_t</span>* <dfn class="decl field" id="vrtql_svr_cnx::handle" title='vrtql_svr_cnx::handle' data-ref="vrtql_svr_cnx::handle" data-ref-filename="vrtql_svr_cnx..handle">handle</dfn>;</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td>    <i class="doc">/**&lt; User-defined data associated with the connection */</i></td></tr>
+<tr><th id="136">136</th><td>    <em>char</em>* <dfn class="decl field" id="vrtql_svr_cnx::data" title='vrtql_svr_cnx::data' data-ref="vrtql_svr_cnx::data" data-ref-filename="vrtql_svr_cnx..data">data</dfn>;</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td>    <i class="doc">/**&lt; The format to serialize. If VM_MPACK_FORMAT, serialize into MessagePack</i></td></tr>
+<tr><th id="139">139</th><td><i class="doc">     *   binary format. If VM_JSON_FORMAT, then serialize into JSON format.</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="141">141</th><td>    <a class="typedef" href="message.h.html#vrtql_msg_format" title='vrtql_msg_format' data-type='enum vrtql_msg_format' data-ref="vrtql_msg_format" data-ref-filename="vrtql_msg_format">vrtql_msg_format</a> <dfn class="decl field" id="vrtql_svr_cnx::format" title='vrtql_svr_cnx::format' data-ref="vrtql_svr_cnx::format" data-ref-filename="vrtql_svr_cnx..format">format</dfn>;</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>} <dfn class="typedef" id="vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</dfn>;</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc"> * <span class="command">@brief</span> Callback for new connection connect</i></td></tr>
+<tr><th id="147">147</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection structure</i></td></tr>
+<tr><th id="148">148</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="149">149</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vrtql_svr_connect" title='vrtql_svr_connect' data-type='void (*)(vrtql_svr_cnx *)' data-ref="vrtql_svr_connect" data-ref-filename="vrtql_svr_connect">vrtql_svr_connect</dfn>)(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col3 decl" id="683c" title='c' data-type='vrtql_svr_cnx *' data-ref="683c" data-ref-filename="683c">c</dfn>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="152">152</th><td><i class="doc"> * <span class="command">@brief</span> Callback for connection disconnect</i></td></tr>
+<tr><th id="153">153</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection structure</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="155">155</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vrtql_svr_disconnect" title='vrtql_svr_disconnect' data-type='void (*)(vrtql_svr_cnx *)' data-ref="vrtql_svr_disconnect" data-ref-filename="vrtql_svr_disconnect">vrtql_svr_disconnect</dfn>)(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col4 decl" id="684c" title='c' data-type='vrtql_svr_cnx *' data-ref="684c" data-ref-filename="684c">c</dfn>);</td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> * <span class="command">@brief</span> Callback for connection read</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection structure</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">n</span> The number of bytes in buffer</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">b</span> The buffer</i></td></tr>
+<tr><th id="162">162</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="163">163</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vrtql_svr_read" title='vrtql_svr_read' data-type='void (*)(vrtql_svr_cnx *, ssize_t, const uv_buf_t *)' data-ref="vrtql_svr_read" data-ref-filename="vrtql_svr_read">vrtql_svr_read</dfn>)(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col5 decl" id="685c" title='c' data-type='vrtql_svr_cnx *' data-ref="685c" data-ref-filename="685c">c</dfn>, <a class="typedef" href="../../include/unistd.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="local col6 decl" id="686n" title='n' data-type='ssize_t' data-ref="686n" data-ref-filename="686n">n</dfn>, <em>const</em> <span class='typedef' title='uv_buf_t' data-type='struct uv_buf_t' data-ref="uv_buf_t" data-ref-filename="uv_buf_t">uv_buf_t</span>* <dfn class="local col7 decl" id="687b" title='b' data-type='const uv_buf_t *' data-ref="687b" data-ref-filename="687b">b</dfn>);</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="166">166</th><td><i class="doc"> * <span class="command">@brief</span> Callback for data processing within worker thread</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">s</span> The server instance</i></td></tr>
+<tr><th id="168">168</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">t</span> The incoming request to process</i></td></tr>
+<tr><th id="169">169</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="170">170</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vrtql_svr_process_data" title='vrtql_svr_process_data' data-type='void (*)(vrtql_svr_data *)' data-ref="vrtql_svr_process_data" data-ref-filename="vrtql_svr_process_data">vrtql_svr_process_data</dfn>)(<a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>* <dfn class="local col8 decl" id="688t" title='t' data-type='vrtql_svr_data *' data-ref="688t" data-ref-filename="688t">t</dfn>);</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="173">173</th><td><i class="doc"> * <span class="command">@brief</span> Enumerates server state</i></td></tr>
+<tr><th id="174">174</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="175">175</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="vrtql_svr_state" title='vrtql_svr_state' data-ref="vrtql_svr_state" data-ref-filename="vrtql_svr_state"><a class="type" href="#vrtql_svr_state" title='vrtql_svr_state' data-ref="vrtql_svr_state" data-ref-filename="vrtql_svr_state">vrtql_svr_state</a></dfn></td></tr>
+<tr><th id="176">176</th><td>{</td></tr>
+<tr><th id="177">177</th><td>    <i class="doc">/**&lt; Server is running */</i></td></tr>
+<tr><th id="178">178</th><td>    <dfn class="enum" id="VS_RUNNING" title='VS_RUNNING' data-ref="VS_RUNNING" data-ref-filename="VS_RUNNING">VS_RUNNING</dfn> = <var>0</var>,</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td>    <i class="doc">/**&lt; Server is shutting down */</i></td></tr>
+<tr><th id="181">181</th><td>    <dfn class="enum" id="VS_HALTING" title='VS_HALTING' data-ref="VS_HALTING" data-ref-filename="VS_HALTING">VS_HALTING</dfn> = <var>1</var>,</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td>    <i class="doc">/**&lt; Server is no running */</i></td></tr>
+<tr><th id="184">184</th><td>    <dfn class="enum" id="VS_HALTED" title='VS_HALTED' data-ref="VS_HALTED" data-ref-filename="VS_HALTED">VS_HALTED</dfn>  = <var>2</var>,</td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td>} <dfn class="typedef" id="vrtql_svr_state" title='vrtql_svr_state' data-type='enum vrtql_svr_state' data-ref="vrtql_svr_state" data-ref-filename="vrtql_svr_state">vrtql_svr_state</dfn>;</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><i class="doc">/** Abbreviation for connection map */</i></td></tr>
+<tr><th id="189">189</th><td><b>typedef</b> <b>struct</b> <a class="type" href="util/sc_map.h.html#223" title='sc_map_64v' data-ref="sc_map_64v" data-ref-filename="sc_map_64v">sc_map_64v</a> <dfn class="typedef" id="vrtql_svr_cnx_map" title='vrtql_svr_cnx_map' data-type='struct sc_map_64v' data-ref="vrtql_svr_cnx_map" data-ref-filename="vrtql_svr_cnx_map">vrtql_svr_cnx_map</dfn>;</td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="192">192</th><td><i class="doc"> * <span class="command">@brief</span> Struct representing a VRTQL server.</i></td></tr>
+<tr><th id="193">193</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="194">194</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vrtql_svr" title='vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr"><a class="type" href="#vrtql_svr" title='vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a></dfn></td></tr>
+<tr><th id="195">195</th><td>{</td></tr>
+<tr><th id="196">196</th><td>    <i class="doc">/**&lt; Current state of the server */</i></td></tr>
+<tr><th id="197">197</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="vrtql_svr::state" title='vrtql_svr::state' data-ref="vrtql_svr::state" data-ref-filename="vrtql_svr..state">state</dfn>;</td></tr>
+<tr><th id="198">198</th><td></td></tr>
+<tr><th id="199">199</th><td>    <i class="doc">/**&lt; Mutex for thread safety */</i></td></tr>
+<tr><th id="200">200</th><td>    <span class='typedef' title='uv_mutex_t' data-type='pthread_mutex_t' data-ref="uv_mutex_t" data-ref-filename="uv_mutex_t">uv_mutex_t</span> <dfn class="decl field" id="vrtql_svr::mutex" title='vrtql_svr::mutex' data-ref="vrtql_svr::mutex" data-ref-filename="vrtql_svr..mutex">mutex</dfn>;</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td>    <i class="doc">/**&lt; Asynchronous handle for event-based programming */</i></td></tr>
+<tr><th id="203">203</th><td>    <span class='typedef' title='uv_async_t' data-type='struct uv_async_s' data-ref="uv_async_t" data-ref-filename="uv_async_t">uv_async_t</span> <dfn class="decl field" id="vrtql_svr::wakeup" title='vrtql_svr::wakeup' data-ref="vrtql_svr::wakeup" data-ref-filename="vrtql_svr..wakeup">wakeup</dfn>;</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>    <i class="doc">/**&lt; Event loop handle */</i></td></tr>
+<tr><th id="206">206</th><td>    <span class='typedef' title='uv_loop_t' data-type='struct uv_loop_s' data-ref="uv_loop_t" data-ref-filename="uv_loop_t">uv_loop_t</span>* <dfn class="decl field" id="vrtql_svr::loop" title='vrtql_svr::loop' data-ref="vrtql_svr::loop" data-ref-filename="vrtql_svr..loop">loop</dfn>;</td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td>    <i class="doc">/**&lt; Request queue */</i></td></tr>
+<tr><th id="209">209</th><td>    <a class="typedef" href="#vrtql_svr_queue" title='vrtql_svr_queue' data-type='struct vrtql_svr_queue' data-ref="vrtql_svr_queue" data-ref-filename="vrtql_svr_queue">vrtql_svr_queue</a> <dfn class="decl field" id="vrtql_svr::requests" title='vrtql_svr::requests' data-ref="vrtql_svr::requests" data-ref-filename="vrtql_svr..requests">requests</dfn>;</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td>    <i class="doc">/**&lt; Response queue */</i></td></tr>
+<tr><th id="212">212</th><td>    <a class="typedef" href="#vrtql_svr_queue" title='vrtql_svr_queue' data-type='struct vrtql_svr_queue' data-ref="vrtql_svr_queue" data-ref-filename="vrtql_svr_queue">vrtql_svr_queue</a> <dfn class="decl field" id="vrtql_svr::responses" title='vrtql_svr::responses' data-ref="vrtql_svr::responses" data-ref-filename="vrtql_svr..responses">responses</dfn>;</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td>    <i class="doc">/**&lt; Maximum connections allowed */</i></td></tr>
+<tr><th id="215">215</th><td>    <em>int</em> <dfn class="decl field" id="vrtql_svr::backlog" title='vrtql_svr::backlog' data-ref="vrtql_svr::backlog" data-ref-filename="vrtql_svr..backlog">backlog</dfn>;</td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td>    <i class="doc">/**&lt; Number of threads in worker pool */</i></td></tr>
+<tr><th id="218">218</th><td>    <em>int</em> <dfn class="decl field" id="vrtql_svr::pool_size" title='vrtql_svr::pool_size' data-ref="vrtql_svr::pool_size" data-ref-filename="vrtql_svr..pool_size">pool_size</dfn>;</td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td>    <i class="doc">/**&lt; Thread handles */</i></td></tr>
+<tr><th id="221">221</th><td>    <span class='typedef' title='uv_thread_t' data-type='pthread_t' data-ref="uv_thread_t" data-ref-filename="uv_thread_t">uv_thread_t</span>* <dfn class="decl field" id="vrtql_svr::threads" title='vrtql_svr::threads' data-ref="vrtql_svr::threads" data-ref-filename="vrtql_svr..threads">threads</dfn>;</td></tr>
+<tr><th id="222">222</th><td></td></tr>
+<tr><th id="223">223</th><td>    <i class="doc">/**&lt; Map of active connections */</i></td></tr>
+<tr><th id="224">224</th><td>    <a class="typedef" href="#vrtql_svr_cnx_map" title='vrtql_svr_cnx_map' data-type='struct sc_map_64v' data-ref="vrtql_svr_cnx_map" data-ref-filename="vrtql_svr_cnx_map">vrtql_svr_cnx_map</a> <dfn class="decl field" id="vrtql_svr::cnxs" title='vrtql_svr::cnxs' data-ref="vrtql_svr::cnxs" data-ref-filename="vrtql_svr..cnxs">cnxs</dfn>;</td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td>    <i class="doc">/**&lt; Callback function for connect */</i></td></tr>
+<tr><th id="227">227</th><td>    <a class="typedef" href="#vrtql_svr_connect" title='vrtql_svr_connect' data-type='void (*)(vrtql_svr_cnx *)' data-ref="vrtql_svr_connect" data-ref-filename="vrtql_svr_connect">vrtql_svr_connect</a> <dfn class="decl field" id="vrtql_svr::on_connect" title='vrtql_svr::on_connect' data-ref="vrtql_svr::on_connect" data-ref-filename="vrtql_svr..on_connect">on_connect</dfn>;</td></tr>
+<tr><th id="228">228</th><td></td></tr>
+<tr><th id="229">229</th><td>    <i class="doc">/**&lt; Callback function for disconnect */</i></td></tr>
+<tr><th id="230">230</th><td>    <a class="typedef" href="#vrtql_svr_disconnect" title='vrtql_svr_disconnect' data-type='void (*)(vrtql_svr_cnx *)' data-ref="vrtql_svr_disconnect" data-ref-filename="vrtql_svr_disconnect">vrtql_svr_disconnect</a> <dfn class="decl field" id="vrtql_svr::on_disconnect" title='vrtql_svr::on_disconnect' data-ref="vrtql_svr::on_disconnect" data-ref-filename="vrtql_svr..on_disconnect">on_disconnect</dfn>;</td></tr>
+<tr><th id="231">231</th><td></td></tr>
+<tr><th id="232">232</th><td>    <i class="doc">/**&lt; Callback function for reading incoming data */</i></td></tr>
+<tr><th id="233">233</th><td>    <a class="typedef" href="#vrtql_svr_read" title='vrtql_svr_read' data-type='void (*)(vrtql_svr_cnx *, ssize_t, const uv_buf_t *)' data-ref="vrtql_svr_read" data-ref-filename="vrtql_svr_read">vrtql_svr_read</a> <dfn class="decl field" id="vrtql_svr::on_read" title='vrtql_svr::on_read' data-ref="vrtql_svr::on_read" data-ref-filename="vrtql_svr..on_read">on_read</dfn>;</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td>    <i class="doc">/**&lt; Function for processing data in from client */</i></td></tr>
+<tr><th id="236">236</th><td>    <a class="typedef" href="#vrtql_svr_process_data" title='vrtql_svr_process_data' data-type='void (*)(vrtql_svr_data *)' data-ref="vrtql_svr_process_data" data-ref-filename="vrtql_svr_process_data">vrtql_svr_process_data</a> <dfn class="decl field" id="vrtql_svr::on_data_in" title='vrtql_svr::on_data_in' data-ref="vrtql_svr::on_data_in" data-ref-filename="vrtql_svr..on_data_in">on_data_in</dfn>;</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td>    <i class="doc">/**&lt; Function for processing data from worker back to client */</i></td></tr>
+<tr><th id="239">239</th><td>    <a class="typedef" href="#vrtql_svr_process_data" title='vrtql_svr_process_data' data-type='void (*)(vrtql_svr_data *)' data-ref="vrtql_svr_process_data" data-ref-filename="vrtql_svr_process_data">vrtql_svr_process_data</a> <dfn class="decl field" id="vrtql_svr::on_data_out" title='vrtql_svr::on_data_out' data-ref="vrtql_svr::on_data_out" data-ref-filename="vrtql_svr..on_data_out">on_data_out</dfn>;</td></tr>
+<tr><th id="240">240</th><td></td></tr>
+<tr><th id="241">241</th><td>    <i class="doc">/**&lt; Debugging trace flag */</i></td></tr>
+<tr><th id="242">242</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="vrtql_svr::trace" title='vrtql_svr::trace' data-ref="vrtql_svr::trace" data-ref-filename="vrtql_svr..trace">trace</dfn>;</td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td>} <dfn class="typedef" id="vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</dfn>;</td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="247">247</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new thread data. This TAKES OWNERSHIP of the buffer data and</i></td></tr>
+<tr><th id="248">248</th><td><i class="doc"> * it sets the buffer to zero.</i></td></tr>
+<tr><th id="249">249</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="250">250</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection</i></td></tr>
+<tr><th id="251">251</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer</i></td></tr>
+<tr><th id="252">252</th><td><i class="doc"> * <span class="command">@return</span> A new vrtql_svr_data instance with memory</i></td></tr>
+<tr><th id="253">253</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="254">254</th><td><a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>* <a class="decl fn" href="server.c.html#vrtql_svr_data_new" title='vrtql_svr_data_new' data-ref="vrtql_svr_data_new" data-ref-filename="vrtql_svr_data_new" id="vrtql_svr_data_new">vrtql_svr_data_new</a>(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col9 decl" id="689c" title='c' data-type='vrtql_svr_cnx *' data-ref="689c" data-ref-filename="689c">c</dfn>, <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="local col0 decl" id="690memory" title='memory' data-type='vrtql_buffer *' data-ref="690memory" data-ref-filename="690memory">memory</dfn>);</td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="257">257</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new thread data. This TAKES OWNERSHIP of the data. The</i></td></tr>
+<tr><th id="258">258</th><td><i class="doc"> * caller MUST NOT free() this data.</i></td></tr>
+<tr><th id="259">259</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="260">260</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection</i></td></tr>
+<tr><th id="261">261</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The number of bytes of data</i></td></tr>
+<tr><th id="262">262</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data</i></td></tr>
+<tr><th id="263">263</th><td><i class="doc"> * <span class="command">@return</span> A new vrtql_svr_data instance with memory</i></td></tr>
+<tr><th id="264">264</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="265">265</th><td><a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>* <a class="decl fn" href="server.c.html#vrtql_svr_data_own" title='vrtql_svr_data_own' data-ref="vrtql_svr_data_own" data-ref-filename="vrtql_svr_data_own" id="vrtql_svr_data_own">vrtql_svr_data_own</a>(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col1 decl" id="691c" title='c' data-type='vrtql_svr_cnx *' data-ref="691c" data-ref-filename="691c">c</dfn>, <a class="typedef" href="vrtql.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col2 decl" id="692data" title='data' data-type='ucstr' data-ref="692data" data-ref-filename="692data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="693size" title='size' data-type='size_t' data-ref="693size" data-ref-filename="693size">size</dfn>);</td></tr>
+<tr><th id="266">266</th><td></td></tr>
+<tr><th id="267">267</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="268">268</th><td><i class="doc"> * <span class="command">@brief</span> Frees the resources allocated to a thread data</i></td></tr>
+<tr><th id="269">269</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="270">270</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">t</span> The data</i></td></tr>
+<tr><th id="271">271</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="272">272</th><td><em>void</em> <a class="decl fn" href="server.c.html#vrtql_svr_data_free" title='vrtql_svr_data_free' data-ref="vrtql_svr_data_free" data-ref-filename="vrtql_svr_data_free" id="vrtql_svr_data_free">vrtql_svr_data_free</a>(<a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>* <dfn class="local col4 decl" id="694t" title='t' data-type='vrtql_svr_data *' data-ref="694t" data-ref-filename="694t">t</dfn>);</td></tr>
+<tr><th id="273">273</th><td></td></tr>
+<tr><th id="274">274</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="275">275</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new VRTQL server.</i></td></tr>
+<tr><th id="276">276</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="277">277</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">pool_size</span> The number of threads to run in worker pool</i></td></tr>
+<tr><th id="278">278</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">backlog</span> The connection backlog for listen(). If this is set to 0 it</i></td></tr>
+<tr><th id="279">279</th><td><i class="doc"> *   will use default (128)</i></td></tr>
+<tr><th id="280">280</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">queue_size</span> The maximum queue size for requests and responses. If this</i></td></tr>
+<tr><th id="281">281</th><td><i class="doc"> *   is set to 0 it will use the default (1024).</i></td></tr>
+<tr><th id="282">282</th><td><i class="doc"> * <span class="command">@return</span> A new VRTQL server.</i></td></tr>
+<tr><th id="283">283</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="284">284</th><td><a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <a class="decl fn" href="server.c.html#vrtql_svr_new" title='vrtql_svr_new' data-ref="vrtql_svr_new" data-ref-filename="vrtql_svr_new" id="vrtql_svr_new">vrtql_svr_new</a>(<em>int</em> <dfn class="local col5 decl" id="695pool_size" title='pool_size' data-type='int' data-ref="695pool_size" data-ref-filename="695pool_size">pool_size</dfn>, <em>int</em> <dfn class="local col6 decl" id="696backlog" title='backlog' data-type='int' data-ref="696backlog" data-ref-filename="696backlog">backlog</dfn>, <em>int</em> <dfn class="local col7 decl" id="697queue_size" title='queue_size' data-type='int' data-ref="697queue_size" data-ref-filename="697queue_size">queue_size</dfn>);</td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc"> * <span class="command">@brief</span> Frees the resources allocated to a VRTQL server.</i></td></tr>
+<tr><th id="288">288</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="289">289</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">s</span> The server to free.</i></td></tr>
+<tr><th id="290">290</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="291">291</th><td><em>void</em> <a class="decl fn" href="server.c.html#vrtql_svr_free" title='vrtql_svr_free' data-ref="vrtql_svr_free" data-ref-filename="vrtql_svr_free" id="vrtql_svr_free">vrtql_svr_free</a>(<a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="local col8 decl" id="698s" title='s' data-type='vrtql_svr *' data-ref="698s" data-ref-filename="698s">s</dfn>);</td></tr>
+<tr><th id="292">292</th><td></td></tr>
+<tr><th id="293">293</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="294">294</th><td><i class="doc"> * <span class="command">@brief</span> Starts a VRTQL server.</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="296">296</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">server</span> The server to run.</i></td></tr>
+<tr><th id="297">297</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">host</span> The host to bind the server.</i></td></tr>
+<tr><th id="298">298</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">port</span> The port to bind the server.</i></td></tr>
+<tr><th id="299">299</th><td><i class="doc"> * <span class="command">@return</span> 0 if successful, an error code otherwise.</i></td></tr>
+<tr><th id="300">300</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="301">301</th><td><em>int</em> <a class="decl fn" href="server.c.html#vrtql_svr_run" title='vrtql_svr_run' data-ref="vrtql_svr_run" data-ref-filename="vrtql_svr_run" id="vrtql_svr_run">vrtql_svr_run</a>(<a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="local col9 decl" id="699server" title='server' data-type='vrtql_svr *' data-ref="699server" data-ref-filename="699server">server</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col0 decl" id="700host" title='host' data-type='cstr' data-ref="700host" data-ref-filename="700host">host</dfn>, <em>int</em> <dfn class="local col1 decl" id="701port" title='port' data-type='int' data-ref="701port" data-ref-filename="701port">port</dfn>);</td></tr>
+<tr><th id="302">302</th><td></td></tr>
+<tr><th id="303">303</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="304">304</th><td><i class="doc"> * <span class="command">@brief</span> Sends data from a VRTQL server.</i></td></tr>
+<tr><th id="305">305</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="306">306</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">server</span> The server to send the data.</i></td></tr>
+<tr><th id="307">307</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data to be sent.</i></td></tr>
+<tr><th id="308">308</th><td><i class="doc"> * <span class="command">@return</span> 0 if successful, an error code otherwise.</i></td></tr>
+<tr><th id="309">309</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="310">310</th><td><em>int</em> <a class="decl fn" href="server.c.html#vrtql_svr_send" title='vrtql_svr_send' data-ref="vrtql_svr_send" data-ref-filename="vrtql_svr_send" id="vrtql_svr_send">vrtql_svr_send</a>(<a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="local col2 decl" id="702server" title='server' data-type='vrtql_svr *' data-ref="702server" data-ref-filename="702server">server</dfn>, <a class="typedef" href="#vrtql_svr_data" title='vrtql_svr_data' data-type='struct vrtql_svr_data' data-ref="vrtql_svr_data" data-ref-filename="vrtql_svr_data">vrtql_svr_data</a>* <dfn class="local col3 decl" id="703data" title='data' data-type='vrtql_svr_data *' data-ref="703data" data-ref-filename="703data">data</dfn>);</td></tr>
+<tr><th id="311">311</th><td></td></tr>
+<tr><th id="312">312</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="313">313</th><td><i class="doc"> * <span class="command">@brief</span> Stops a VRTQL server.</i></td></tr>
+<tr><th id="314">314</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="315">315</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">server</span> The server to stop.</i></td></tr>
+<tr><th id="316">316</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="317">317</th><td><em>void</em> <a class="decl fn" href="server.c.html#vrtql_svr_stop" title='vrtql_svr_stop' data-ref="vrtql_svr_stop" data-ref-filename="vrtql_svr_stop" id="vrtql_svr_stop">vrtql_svr_stop</a>(<a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="local col4 decl" id="704server" title='server' data-type='vrtql_svr *' data-ref="704server" data-ref-filename="704server">server</dfn>);</td></tr>
+<tr><th id="318">318</th><td></td></tr>
+<tr><th id="319">319</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="320">320</th><td><i class="doc"> * <span class="command">@brief</span> Toggles debugging trace for a VRTQL server.</i></td></tr>
+<tr><th id="321">321</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="322">322</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">server</span> The server to trace.</i></td></tr>
+<tr><th id="323">323</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span> The flag to set the trace. Non-zero value enables tracing,</i></td></tr>
+<tr><th id="324">324</th><td><i class="doc"> *   zero disables.</i></td></tr>
+<tr><th id="325">325</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="326">326</th><td><em>void</em> <a class="decl fn" href="server.c.html#vrtql_svr_trace" title='vrtql_svr_trace' data-ref="vrtql_svr_trace" data-ref-filename="vrtql_svr_trace" id="vrtql_svr_trace">vrtql_svr_trace</a>(<a class="typedef" href="#vrtql_svr" title='vrtql_svr' data-type='struct vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a>* <dfn class="local col5 decl" id="705server" title='server' data-type='vrtql_svr *' data-ref="705server" data-ref-filename="705server">server</dfn>, <em>int</em> <dfn class="local col6 decl" id="706flag" title='flag' data-type='int' data-ref="706flag" data-ref-filename="706flag">flag</dfn>);</td></tr>
+<tr><th id="327">327</th><td></td></tr>
+<tr><th id="328">328</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="329">329</th><td><i>// Messaging Server</i></td></tr>
+<tr><th id="330">330</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="331">331</th><td></td></tr>
+<tr><th id="332">332</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="333">333</th><td><i class="doc"> * <span class="command">@brief</span> Callback for data processing a message</i></td></tr>
+<tr><th id="334">334</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">s</span> The server instance</i></td></tr>
+<tr><th id="335">335</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">m</span> The incoming message to process</i></td></tr>
+<tr><th id="336">336</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="337">337</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vrtql_svr_process_msg" title='vrtql_svr_process_msg' data-type='void (*)(vrtql_svr_cnx *, vrtql_msg *)' data-ref="vrtql_svr_process_msg" data-ref-filename="vrtql_svr_process_msg">vrtql_svr_process_msg</dfn>)(<a class="typedef" href="#vrtql_svr_cnx" title='vrtql_svr_cnx' data-type='struct vrtql_svr_cnx' data-ref="vrtql_svr_cnx" data-ref-filename="vrtql_svr_cnx">vrtql_svr_cnx</a>* <dfn class="local col7 decl" id="707s" title='s' data-type='vrtql_svr_cnx *' data-ref="707s" data-ref-filename="707s">s</dfn>, <a class="typedef" href="message.h.html#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col8 decl" id="708m" title='m' data-type='vrtql_msg *' data-ref="708m" data-ref-filename="708m">m</dfn>);</td></tr>
+<tr><th id="338">338</th><td></td></tr>
+<tr><th id="339">339</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vrtql_msg_svr" title='vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr"><a class="type" href="#vrtql_msg_svr" title='vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr">vrtql_msg_svr</a></dfn></td></tr>
+<tr><th id="340">340</th><td>{</td></tr>
+<tr><th id="341">341</th><td>    <i class="doc">/**&lt; Base class */</i></td></tr>
+<tr><th id="342">342</th><td>    <b>struct</b> <a class="type" href="#vrtql_svr" title='vrtql_svr' data-ref="vrtql_svr" data-ref-filename="vrtql_svr">vrtql_svr</a> <dfn class="decl field" id="vrtql_msg_svr::base" title='vrtql_msg_svr::base' data-ref="vrtql_msg_svr::base" data-ref-filename="vrtql_msg_svr..base">base</dfn>;</td></tr>
+<tr><th id="343">343</th><td></td></tr>
+<tr><th id="344">344</th><td>    <i class="doc">/** Flag that holds whether we have upgraded connection from HTTP to</i></td></tr>
+<tr><th id="345">345</th><td><i class="doc">     *  WebSockets */</i></td></tr>
+<tr><th id="346">346</th><td>    <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="vrtql_msg_svr::upgraded" title='vrtql_msg_svr::upgraded' data-ref="vrtql_msg_svr::upgraded" data-ref-filename="vrtql_msg_svr..upgraded">upgraded</dfn>;</td></tr>
+<tr><th id="347">347</th><td></td></tr>
+<tr><th id="348">348</th><td>    <i>/* Flag holds the HTTP request that started connection. */</i></td></tr>
+<tr><th id="349">349</th><td>    <a class="typedef" href="http_request.h.html#vrtql_http_req" title='vrtql_http_req' data-type='struct vrtql_http_req' data-ref="vrtql_http_req" data-ref-filename="vrtql_http_req">vrtql_http_req</a>* <dfn class="decl field" id="vrtql_msg_svr::http" title='vrtql_msg_svr::http' data-ref="vrtql_msg_svr::http" data-ref-filename="vrtql_msg_svr..http">http</dfn>;</td></tr>
+<tr><th id="350">350</th><td></td></tr>
+<tr><th id="351">351</th><td>    <i class="doc">/**&lt; Function for processing data in from client */</i></td></tr>
+<tr><th id="352">352</th><td>    <a class="typedef" href="#vrtql_svr_process_data" title='vrtql_svr_process_data' data-type='void (*)(vrtql_svr_data *)' data-ref="vrtql_svr_process_data" data-ref-filename="vrtql_svr_process_data">vrtql_svr_process_data</a> <dfn class="decl field" id="vrtql_msg_svr::on_data_in" title='vrtql_msg_svr::on_data_in' data-ref="vrtql_msg_svr::on_data_in" data-ref-filename="vrtql_msg_svr..on_data_in">on_data_in</dfn>;</td></tr>
+<tr><th id="353">353</th><td></td></tr>
+<tr><th id="354">354</th><td>    <i class="doc">/**&lt; Function for processing message from client */</i></td></tr>
+<tr><th id="355">355</th><td>    <a class="typedef" href="#vrtql_svr_process_msg" title='vrtql_svr_process_msg' data-type='void (*)(vrtql_svr_cnx *, vrtql_msg *)' data-ref="vrtql_svr_process_msg" data-ref-filename="vrtql_svr_process_msg">vrtql_svr_process_msg</a> <dfn class="decl field" id="vrtql_msg_svr::on_msg_in" title='vrtql_msg_svr::on_msg_in' data-ref="vrtql_msg_svr::on_msg_in" data-ref-filename="vrtql_msg_svr..on_msg_in">on_msg_in</dfn>;</td></tr>
+<tr><th id="356">356</th><td></td></tr>
+<tr><th id="357">357</th><td>    <i class="doc">/**&lt; Function for sending message to client */</i></td></tr>
+<tr><th id="358">358</th><td>    <a class="typedef" href="#vrtql_svr_process_msg" title='vrtql_svr_process_msg' data-type='void (*)(vrtql_svr_cnx *, vrtql_msg *)' data-ref="vrtql_svr_process_msg" data-ref-filename="vrtql_svr_process_msg">vrtql_svr_process_msg</a> <dfn class="decl field" id="vrtql_msg_svr::on_msg_out" title='vrtql_msg_svr::on_msg_out' data-ref="vrtql_msg_svr::on_msg_out" data-ref-filename="vrtql_msg_svr..on_msg_out">on_msg_out</dfn>;</td></tr>
+<tr><th id="359">359</th><td></td></tr>
+<tr><th id="360">360</th><td>    <i class="doc">/**&lt; Derived: for processing incoming message (called by on_msg_in()) */</i></td></tr>
+<tr><th id="361">361</th><td>    <a class="typedef" href="#vrtql_svr_process_msg" title='vrtql_svr_process_msg' data-type='void (*)(vrtql_svr_cnx *, vrtql_msg *)' data-ref="vrtql_svr_process_msg" data-ref-filename="vrtql_svr_process_msg">vrtql_svr_process_msg</a> <dfn class="decl field" id="vrtql_msg_svr::process" title='vrtql_msg_svr::process' data-ref="vrtql_msg_svr::process" data-ref-filename="vrtql_msg_svr..process">process</dfn>;</td></tr>
+<tr><th id="362">362</th><td></td></tr>
+<tr><th id="363">363</th><td>    <i class="doc">/**&lt; Derived: for sending message to client (calls on_msg_out()) */</i></td></tr>
+<tr><th id="364">364</th><td>    <a class="typedef" href="#vrtql_svr_process_msg" title='vrtql_svr_process_msg' data-type='void (*)(vrtql_svr_cnx *, vrtql_msg *)' data-ref="vrtql_svr_process_msg" data-ref-filename="vrtql_svr_process_msg">vrtql_svr_process_msg</a> <dfn class="decl field" id="vrtql_msg_svr::send" title='vrtql_msg_svr::send' data-ref="vrtql_msg_svr::send" data-ref-filename="vrtql_msg_svr..send">send</dfn>;</td></tr>
+<tr><th id="365">365</th><td></td></tr>
+<tr><th id="366">366</th><td>} <dfn class="typedef" id="vrtql_msg_svr" title='vrtql_msg_svr' data-type='struct vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr">vrtql_msg_svr</dfn>;</td></tr>
+<tr><th id="367">367</th><td></td></tr>
+<tr><th id="368">368</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="369">369</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new VRTQL message server.</i></td></tr>
+<tr><th id="370">370</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="371">371</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">pool_size</span> The number of threads to run in worker pool</i></td></tr>
+<tr><th id="372">372</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">backlog</span> The connection backlog for listen(). If this is set to 0 it</i></td></tr>
+<tr><th id="373">373</th><td><i class="doc"> *   will use default (128)</i></td></tr>
+<tr><th id="374">374</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">queue_size</span> The maximum queue size for requests and responses. If this</i></td></tr>
+<tr><th id="375">375</th><td><i class="doc"> *   is set to 0 it will use the default (1024).</i></td></tr>
+<tr><th id="376">376</th><td><i class="doc"> * <span class="command">@return</span> A new VRTQL server.</i></td></tr>
+<tr><th id="377">377</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="378">378</th><td><a class="typedef" href="#vrtql_msg_svr" title='vrtql_msg_svr' data-type='struct vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr">vrtql_msg_svr</a>* <a class="decl fn" href="server.c.html#vrtql_msg_svr_new" title='vrtql_msg_svr_new' data-ref="vrtql_msg_svr_new" data-ref-filename="vrtql_msg_svr_new" id="vrtql_msg_svr_new">vrtql_msg_svr_new</a>(<em>int</em> <dfn class="local col9 decl" id="709pool_size" title='pool_size' data-type='int' data-ref="709pool_size" data-ref-filename="709pool_size">pool_size</dfn>, <em>int</em> <dfn class="local col0 decl" id="710backlog" title='backlog' data-type='int' data-ref="710backlog" data-ref-filename="710backlog">backlog</dfn>, <em>int</em> <dfn class="local col1 decl" id="711queue_size" title='queue_size' data-type='int' data-ref="711queue_size" data-ref-filename="711queue_size">queue_size</dfn>);</td></tr>
+<tr><th id="379">379</th><td></td></tr>
+<tr><th id="380">380</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="381">381</th><td><i class="doc"> * <span class="command">@brief</span> Frees the resources allocated to a VRTQL server.</i></td></tr>
+<tr><th id="382">382</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="383">383</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">s</span> The server to free.</i></td></tr>
+<tr><th id="384">384</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="385">385</th><td><em>void</em> <a class="decl fn" href="server.c.html#vrtql_msg_svr_free" title='vrtql_msg_svr_free' data-ref="vrtql_msg_svr_free" data-ref-filename="vrtql_msg_svr_free" id="vrtql_msg_svr_free">vrtql_msg_svr_free</a>(<a class="typedef" href="#vrtql_msg_svr" title='vrtql_msg_svr' data-type='struct vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr">vrtql_msg_svr</a>* <dfn class="local col2 decl" id="712s" title='s' data-type='vrtql_msg_svr *' data-ref="712s" data-ref-filename="712s">s</dfn>);</td></tr>
+<tr><th id="386">386</th><td></td></tr>
+<tr><th id="387">387</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="388">388</th><td><i class="doc"> * <span class="command">@brief</span> Starts a VRTQL message server.</i></td></tr>
+<tr><th id="389">389</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="390">390</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">server</span> The server to run.</i></td></tr>
+<tr><th id="391">391</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">host</span> The host to bind the server.</i></td></tr>
+<tr><th id="392">392</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">port</span> The port to bind the server.</i></td></tr>
+<tr><th id="393">393</th><td><i class="doc"> * <span class="command">@return</span> 0 if successful, an error code otherwise.</i></td></tr>
+<tr><th id="394">394</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="395">395</th><td><em>int</em> <dfn class="decl fn" id="vrtql_msg_svr_run" title='vrtql_msg_svr_run' data-ref="vrtql_msg_svr_run" data-ref-filename="vrtql_msg_svr_run">vrtql_msg_svr_run</dfn>(<a class="typedef" href="#vrtql_msg_svr" title='vrtql_msg_svr' data-type='struct vrtql_msg_svr' data-ref="vrtql_msg_svr" data-ref-filename="vrtql_msg_svr">vrtql_msg_svr</a>* <dfn class="local col3 decl" id="713server" title='server' data-type='vrtql_msg_svr *' data-ref="713server" data-ref-filename="713server">server</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="714host" title='host' data-type='cstr' data-ref="714host" data-ref-filename="714host">host</dfn>, <em>int</em> <dfn class="local col5 decl" id="715port" title='port' data-type='int' data-ref="715port" data-ref-filename="715port">port</dfn>);</td></tr>
+<tr><th id="396">396</th><td></td></tr>
+<tr><th id="397">397</th><td><u>#<span data-ppcond="1">endif</span> /* VRTQL_SVR_DECLARE */</u></td></tr>
+<tr><th id="398">398</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='server.c.html'>codebrowser/src/server.c</a><br/>Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

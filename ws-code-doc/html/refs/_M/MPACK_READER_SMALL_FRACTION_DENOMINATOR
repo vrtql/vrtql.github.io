@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='44'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='709' u='c'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='42'>// The denominator to determine whether a read is a small
+// fraction of the buffer size.</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='349' u='c'/>

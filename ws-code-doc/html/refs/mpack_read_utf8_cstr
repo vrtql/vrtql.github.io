@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='602' type='void mpack_read_utf8_cstr(mpack_reader_t * reader, char * buf, size_t buffer_size, size_t byte_count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='572'>/**
+ * Reads bytes from a string, ensures that the string is valid UTF-8
+ * with no NUL bytes, copies the bytes into the given buffer and adds a
+ * null-terminator.
+ *
+ * A string must have been opened by a call to mpack_read_tag() which
+ * yielded a string, or by a call to an expect function such as
+ * mpack_expect_str().
+ *
+ * The given byte count must match the size of the string as returned
+ * by the tag or expect function. The string will only be copied if
+ * the buffer is large enough to store it.
+ *
+ * This does not accept any UTF-8 variant such as Modified UTF-8, CESU-8 or
+ * WTF-8. Only pure UTF-8 is allowed, but without the NUL character, since
+ * it cannot be represented in a null-terminated string.
+ *
+ * If an error occurs, the buffer will contain an empty string.
+ *
+ * @note If you know the object will be a string before reading it,
+ * it is highly recommended to use mpack_expect_utf8_cstr() instead.
+ * Alternatively you could use mpack_peek_tag() and call
+ * mpack_expect_utf8_cstr() if it&apos;s a string.
+ *
+ * @throws mpack_error_too_big if the string plus null-terminator is larger than the given buffer size
+ * @throws mpack_error_type if the string contains invalid UTF-8 or a null byte.
+ *
+ * @see mpack_peek_tag()
+ * @see mpack_expect_utf8_cstr()
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='628' u='c' c='mpack_expect_utf8_cstr'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='486' ll='494' type='void mpack_read_utf8_cstr(mpack_reader_t * reader, char * buf, size_t buffer_size, size_t byte_count)'/>

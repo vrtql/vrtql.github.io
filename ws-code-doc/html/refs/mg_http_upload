@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1319' type='long mg_http_upload(struct mg_connection * c, struct mg_http_message * hm, struct mg_fs * fs, const char * path, size_t max_size)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='878' ll='912' type='long mg_http_upload(struct mg_connection * c, struct mg_http_message * hm, struct mg_fs * fs, const char * path, size_t max_size)'/>

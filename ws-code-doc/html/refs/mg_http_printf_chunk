@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1299' type='void mg_http_printf_chunk(struct mg_connection * cnn, const char * fmt)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='303' ll='308' type='void mg_http_printf_chunk(struct mg_connection * c, const char * fmt)'/>

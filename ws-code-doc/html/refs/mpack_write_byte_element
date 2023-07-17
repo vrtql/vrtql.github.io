@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='638' ll='642' macro='1' type='void mpack_write_byte_element(mpack_writer_t * writer, char value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='645' u='c' c='mpack_write_nil'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='649' u='c' c='mpack_write_bool'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='653' u='c' c='mpack_write_true'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='657' u='c' c='mpack_write_false'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1240'/>
+<doc f='include/openssl/ssl.h' l='1239'>/*# define SSL_CTRL_SET_TLSEXT_OPAQUE_PRF_INPUT_CB_ARG 62 */</doc>

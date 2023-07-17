@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1027' type='void mg_random(void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='c' c='mg_mqtt_login'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='6' ll='22' type='void mg_random(void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' u='c' c='mg_random_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' u='c' c='mkhdr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='242' u='c' c='mg_ws_connect'/>

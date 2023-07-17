@@ -1,0 +1,19 @@
+<def f='codebrowser/src/util/yyjson.h' l='4595' ll='4597' macro='1' type='const char * unsafe_yyjson_get_str(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4858' u='c' c='yyjson_get_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='7680' u='c' c='yyjson_ptr_get_str'/>
+<use f='codebrowser/src/util/yyjson.c' l='1546' u='c' c='unsafe_yyjson_str_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='1547' u='c' c='unsafe_yyjson_str_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='2510' u='c' c='yyjson_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2528' u='c' c='yyjson_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2561' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2579' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='8097' u='c' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8105' u='c' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8242' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8296' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8423' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8493' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8787' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8843' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8974' u='c' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='9046' u='c' c='yyjson_mut_write_pretty'/>

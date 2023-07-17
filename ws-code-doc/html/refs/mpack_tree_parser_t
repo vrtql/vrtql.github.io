@@ -1,0 +1,13 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='197' ll='238'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='197'/>
+<size>200</size>
+<mbr r='mpack_tree_parser_t::state' o='0' t='mpack_tree_parse_state_t'/>
+<mbr r='mpack_tree_parser_t::possible_nodes_left' o='64' t='size_t'/>
+<mbr r='mpack_tree_parser_t::nodes' o='128' t='mpack_node_data_t *'/>
+<mbr r='mpack_tree_parser_t::nodes_left' o='192' t='size_t'/>
+<mbr r='mpack_tree_parser_t::current_node_reserved' o='256' t='size_t'/>
+<mbr r='mpack_tree_parser_t::level' o='320' t='size_t'/>
+<mbr r='mpack_tree_parser_t::stack' o='384' t='mpack_level_t *'/>
+<mbr r='mpack_tree_parser_t::stack_capacity' o='448' t='size_t'/>
+<mbr r='mpack_tree_parser_t::stack_owned' o='512' t='_Bool'/>
+<mbr r='mpack_tree_parser_t::stack_local' o='576' t='mpack_level_t [8]'/>

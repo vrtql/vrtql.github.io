@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='578' type='void mpack_expect_nil(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='575'>/**
+ * Reads a nil, raising @ref mpack_error_type if the value is not nil.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='322' ll='325' type='void mpack_expect_nil(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.c' l='320'>// Other Basic Types</doc>

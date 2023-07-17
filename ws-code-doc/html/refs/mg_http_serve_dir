@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1306' type='void mg_http_serve_dir(struct mg_connection * , struct mg_http_message * hm, const struct mg_http_serve_opts * )'/>
+<use f='codebrowser/src/test/server.c' l='50' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='789' ll='804' type='void mg_http_serve_dir(struct mg_connection * c, struct mg_http_message * hm, const struct mg_http_serve_opts * opts)'/>

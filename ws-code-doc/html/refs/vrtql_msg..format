@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/message.h' l='28' type='vrtql_msg_format'/>
+<use f='codebrowser/src/message.c' l='46' u='w' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='80' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='143' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='289' u='w' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='369' u='w' c='vrtql_msg_deserialize'/>
+<offset>640</offset>
+<doc f='codebrowser/src/message.h' l='28'>/**&lt; Message format                     */</doc>
+<use f='codebrowser/src/server.c' l='1524' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/test/test_message.c' l='55' u='w' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='26' u='w' c='process_message'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/test_common.c' l='14' type='unsigned char *'/>
+<use f='codebrowser/src/test/test_common.c' l='21' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_common.c' l='28' u='r' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='30' u='r' c='ctest_test_teardown'/>
+<offset>0</offset>
+<dec f='codebrowser/src/test/test_json.c' l='12' type='unsigned char *'/>
+<use f='codebrowser/src/test/test_json.c' l='17' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_json.c' l='22' u='r' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_json.c' l='24' u='r' c='ctest_test_teardown'/>
+<offset>0</offset>
+<dec f='codebrowser/src/test/test_websocket.c' l='31' type='unsigned char *'/>
+<offset>0</offset>

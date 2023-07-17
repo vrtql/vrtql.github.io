@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/ctest.h' l='284' macro='1' type='void ctest_suite_test_run()'/>
+<use f='codebrowser/src/test/ctest.h' l='284' macro='1'/>
+<use f='codebrowser/src/test/ctest.h' l='284' macro='1'/>
+<use f='codebrowser/src/test/ctest.h' l='284' macro='1'/>
+<use f='codebrowser/src/test/ctest.h' l='284' macro='1'/>
+<def f='codebrowser/src/test/ctest.h' l='284' macro='1' type='void ctest_suite_test_run()'/>

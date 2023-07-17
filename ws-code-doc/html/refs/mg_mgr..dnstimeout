@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1176' type='int'/>
+<offset>320</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1176'>// DNS resolve timeout in milliseconds</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='266' u='r' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='251' u='w' c='mg_mgr_init'/>

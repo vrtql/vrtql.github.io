@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='957' type='unsigned int'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='957'>// Possible flags values below</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='10' u='w' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='31' u='r' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='32' u='r' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='r' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='r' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='w' c='mg_timer_poll'/>

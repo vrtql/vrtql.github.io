@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1839' type='int SSL_peek_ex(SSL * ssl, void * buf, size_t num, size_t * readbytes)'/>

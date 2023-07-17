@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1559' type='uint16_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1559'>// Name or pointer length</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='85' u='w' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' u='r' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='91' u='r' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='97' u='r' c='mg_dns_parse_rr'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='853' type='const char * mg_strstr(const struct mg_str haystack, const struct mg_str needle)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='536' u='c' c='mg_http_serve_file'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='74' ll='85' type='const char * mg_strstr(const struct mg_str haystack, const struct mg_str needle)'/>

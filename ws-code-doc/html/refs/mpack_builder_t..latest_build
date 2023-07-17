@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='152' type='mpack_build_t *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='152'>// build which is accumulating bytes</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='115' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1523' u='r' c='mpack_builder_apply_writes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1525' u='r' c='mpack_builder_apply_writes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1540' u='r' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1621' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1669' u='w' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1779' u='r' c='mpack_builder_complete'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='99' type='void CT_POLICY_EVAL_CTX_set_shared_CTLOG_STORE(CT_POLICY_EVAL_CTX * ctx, CTLOG_STORE * log_store)'/>
+<doc f='include/openssl/ct.h' l='98'>/* Sets the log store that is in use. It must outlive the CT_POLICY_EVAL_CTX. */</doc>

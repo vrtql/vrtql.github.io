@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/http_parser.h' l='420' type='int http_should_keep_alive(const http_parser * parser)'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='c' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='c' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='c' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='c' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='c' c='http_parser_execute'/>
+<def f='codebrowser/src/http_parser.c' l='2295' ll='2310' type='int http_should_keep_alive(const http_parser * parser)'/>
+<doc f='codebrowser/src/http_parser.h' l='414'>/* If http_should_keep_alive() in the on_headers_complete or
+ * on_message_complete callback returns 0, then this should be
+ * the last message on the connection.
+ * If you are the server, respond with the &quot;Connection: close&quot; header.
+ * If you are the client, close the connection.
+ */</doc>

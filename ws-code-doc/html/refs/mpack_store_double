@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='986' ll='994' macro='1' type='void mpack_store_double(char * p, double value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='743' u='c' c='mpack_encode_double'/>

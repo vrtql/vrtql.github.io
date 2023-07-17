@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='943' macro='1' type='void mpack_store_i16(char * p, int16_t val)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='713' u='c' c='mpack_encode_i16'/>

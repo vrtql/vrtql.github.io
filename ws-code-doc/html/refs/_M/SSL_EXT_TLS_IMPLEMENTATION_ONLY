@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='241'/>
+<doc f='include/openssl/ssl.h' l='240'>/* Some extensions may be allowed in DTLS but we don&apos;t implement them for it */</doc>

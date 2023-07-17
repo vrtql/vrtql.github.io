@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='358' type='int16_t mpack_expect_i16_range(mpack_reader_t * reader, int16_t min_value, int16_t max_value)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='419' u='c' c='mpack_expect_i16_max'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='350'>/**
+ * Reads a 16-bit signed integer, ensuring that it falls within the given range.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in a 16-bit signed int.
+ *
+ * Returns min_value if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='292' type='int16_t mpack_expect_i16_range(mpack_reader_t * reader, int16_t min_value, int16_t max_value)'/>

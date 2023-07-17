@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='1036' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1035'>/** Memory allocation failure occurs. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8154' macro='1' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8331' macro='1' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8533' macro='1' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8880' macro='1' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9088' macro='1' u='r' c='yyjson_mut_write_pretty'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='870' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' u='w' c='mg_queue_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='r' c='mg_queue_read_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='42' u='r' c='mg_queue_write_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='68' u='r' c='mg_queue_next'/>

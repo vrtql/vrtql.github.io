@@ -1,0 +1,5 @@
+<dec f='include/openssl/tls1.h' l='96'/>
+<doc f='include/openssl/tls1.h' l='92'>/*
+ * Prior to TLSv1.3 the supported_groups extension was known as
+ * elliptic_curves
+ */</doc>

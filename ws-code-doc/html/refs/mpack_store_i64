@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='945' macro='1' type='void mpack_store_i64(char * p, int64_t val)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='725' u='c' c='mpack_encode_i64'/>

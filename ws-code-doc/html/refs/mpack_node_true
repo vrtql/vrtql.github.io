@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='743' type='void mpack_node_true(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1981' ll='1984' type='void mpack_node_true(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='739'>/**
+ * Checks if the given node is of bool type with value true, raising
+ * mpack_error_type otherwise.
+ */</doc>

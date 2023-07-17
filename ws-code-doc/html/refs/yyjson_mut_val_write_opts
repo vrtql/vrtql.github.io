@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1396' type='char * yyjson_mut_val_write_opts(const yyjson_mut_val * val, yyjson_write_flag flg, const yyjson_alc * alc, size_t * len, yyjson_write_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='1474' u='c' c='yyjson_mut_val_write'/>
+<def f='codebrowser/src/util/yyjson.c' l='9138' ll='9144' type='char * yyjson_mut_val_write_opts(const yyjson_mut_val * val, yyjson_write_flag flg, const yyjson_alc * alc_ptr, usize * dat_len, yyjson_write_err * err)'/>
+<use f='codebrowser/src/util/yyjson.c' l='9183' u='c' c='yyjson_mut_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='9209' u='c' c='yyjson_mut_val_write_fp'/>

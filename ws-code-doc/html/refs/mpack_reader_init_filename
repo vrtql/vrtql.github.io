@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='210' type='void mpack_reader_init_filename(mpack_reader_t * reader, const char * filename)'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='218' u='c' c='mpack_reader_init_file'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='205'>/**
+ * Initializes an MPack reader that reads from a file.
+ *
+ * The file will be automatically opened and closed by the reader.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='172' ll='182' type='void mpack_reader_init_filename(mpack_reader_t * reader, const char * filename)'/>

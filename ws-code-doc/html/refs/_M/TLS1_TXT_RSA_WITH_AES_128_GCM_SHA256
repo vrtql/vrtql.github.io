@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='1006'/>
+<doc f='include/openssl/tls1.h' l='1005'>/* TLS v1.2 GCM ciphersuites from RFC5288 */</doc>

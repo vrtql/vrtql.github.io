@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/util/sc_map.h' l='74' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/util/sc_map.c' l='138' u='w' c='sc_map_init_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='166' u='w' c='sc_map_clear_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='229' u='r' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='230' u='r' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='231' u='w' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='264' u='r' c='sc_map_get_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='265' u='r' c='sc_map_get_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='293' u='r' c='sc_map_del_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='294' u='r' c='sc_map_del_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='295' u='w' c='sc_map_del_sll'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='229' type='mpack_level_t *'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='241' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='242' u='w' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='247' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='253' u='w' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='264' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='265' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='803' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='807' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='808' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='819' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='832' u='r' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='833' u='w' c='mpack_tree_cleanup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='899' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='933' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='934' u='r' c='mpack_tree_parse_start'/>
+<offset>384</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='227'>// It&apos;s much faster to allocate the initial parsing stack inline within the
+    // parser. We replace it with a heap allocation if we need to grow it.</doc>

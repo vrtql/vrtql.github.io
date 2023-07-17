@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1194' type='struct mg_connection *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1194'>// Linkage in struct mg_mgr :: connections</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' macro='1' u='a' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' macro='1' u='r' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' macro='1' u='w' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' macro='1' u='w' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='202' macro='1' u='w' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='222' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='402' macro='1' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='513' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='631' u='r' c='mg_mgr_poll'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1144' type='13'/>
+<use f='codebrowser/src/test/client.c' l='38' u='r' c='fn'/>
+<use f='codebrowser/src/test/client.c' l='45' u='r' c='fn'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1144'>// Websocket msg, text or bin   struct mg_ws_message *</doc>
+<use f='codebrowser/src/test/server.c' l='53' u='r' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='224' u='r' c='mg_ws_cb'/>

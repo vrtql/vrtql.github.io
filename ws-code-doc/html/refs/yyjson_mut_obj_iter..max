@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3215' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='6362' u='w' c='yyjson_mut_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='6363' u='r' c='yyjson_mut_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='6380' u='r' c='yyjson_mut_obj_iter_has_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6385' u='r' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6402' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6406' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6408' u='w' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6409' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6426' u='r' c='yyjson_mut_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6636' u='r' c='yyjson_mut_obj_put'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3215'>/**&lt; maximum key index (obj.size) */</doc>

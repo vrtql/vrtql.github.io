@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/sc_map.h' l='215' macro='1' type='int sc_map_put_int(struct sc_map_int * map, int key, int val)'/>
+<def f='codebrowser/src/util/sc_map.c' l='397' macro='1' type='int sc_map_put_int(struct sc_map_int * m, int key, int value)'/>

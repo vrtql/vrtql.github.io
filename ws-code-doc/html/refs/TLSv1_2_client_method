@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1891' type='const SSL_METHOD * TLSv1_2_client_method()'/>

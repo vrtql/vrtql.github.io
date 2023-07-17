@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='256' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='95' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='110' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='114' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='125' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='140' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='140' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='161' u='w' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='385' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='875' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='883' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='889' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1029' u='w' c='mpack_tree_init_data'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1054' u='w' c='mpack_tree_init_pool'/>
+<offset>768</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='256'>// length of data (and content of buffer, if used)</doc>

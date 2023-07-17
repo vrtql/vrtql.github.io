@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/socket.h' l='103' type='void vws_socket_dtor(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='94'>/**
+ * @brief Socket instance destructor
+ *
+ * Destructs an initialized socket instance.
+ *
+ * @param s The socket instance to be destructed
+ *
+ * @ingroup SocketFunctions
+ */</doc>
+<use f='codebrowser/src/socket.c' l='95' u='c' c='vws_socket_free'/>
+<def f='codebrowser/src/socket.c' l='98' ll='112' type='void vws_socket_dtor(vws_socket * s)'/>
+<use f='codebrowser/src/websocket.c' l='325' u='c' c='vws_cnx_free'/>

@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='568' type='int'/>
+<offset>32</offset>
+<doc f='include/netdb.h' l='568'>/* Protocol family for socket.  */</doc>
+<use f='codebrowser/src/socket.c' l='558' u='w' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='578' u='r' c='connect_to_host'/>

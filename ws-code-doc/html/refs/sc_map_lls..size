@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/sc_map.h' l='71' type='uint32_t'/>
+<offset>96</offset>
+<use f='codebrowser/src/util/sc_map.c' l='137' u='w' c='sc_map_init_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='156' u='r' c='sc_map_size_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='161' u='r' c='sc_map_clear_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='167' u='w' c='sc_map_clear_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='176' u='r' c='sc_map_remap_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='230' u='w' c='sc_map_put_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='243' u='w' c='sc_map_put_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='294' u='w' c='sc_map_del_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='315' u='w' c='sc_map_del_lls'/>

@@ -1,0 +1,14 @@
+<use f='codebrowser/src/mpack/mpack-reader.h' l='84'/>
+<def f='codebrowser/src/mpack/mpack-reader.h' l='149' ll='167'/>
+<size>80</size>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='147'>/** @cond */</doc>
+<mbr r='mpack_reader_t::context' o='0' t='void *'/>
+<mbr r='mpack_reader_t::fill' o='64' t='mpack_reader_fill_t'/>
+<mbr r='mpack_reader_t::error_fn' o='128' t='mpack_reader_error_t'/>
+<mbr r='mpack_reader_t::teardown' o='192' t='mpack_reader_teardown_t'/>
+<mbr r='mpack_reader_t::skip' o='256' t='mpack_reader_skip_t'/>
+<mbr r='mpack_reader_t::buffer' o='320' t='char *'/>
+<mbr r='mpack_reader_t::size' o='384' t='size_t'/>
+<mbr r='mpack_reader_t::data' o='448' t='const char *'/>
+<mbr r='mpack_reader_t::end' o='512' t='const char *'/>
+<mbr r='mpack_reader_t::error' o='576' t='mpack_error_t'/>

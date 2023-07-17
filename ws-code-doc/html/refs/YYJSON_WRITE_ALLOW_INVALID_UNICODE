@@ -1,0 +1,11 @@
+<def f='codebrowser/src/util/yyjson.h' l='1018' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1013'>/** Allow invalid unicode when encoding string values (non-standard).
+    Invalid characters in string value will be copied byte by byte.
+    If `YYJSON_WRITE_ESCAPE_UNICODE` flag is also set, invalid character will be
+    escaped as `U+FFFD` (replacement character).
+    This flag does not affect the performance of correctly encoded strings. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8092' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8218' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8395' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8762' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8945' u='r' c='yyjson_mut_write_pretty'/>

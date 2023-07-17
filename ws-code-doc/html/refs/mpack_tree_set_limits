@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='450' type='void mpack_tree_set_limits(mpack_tree_t * tree, size_t max_message_size, size_t max_message_nodes)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1079' u='c' c='mpack_tree_init_stream'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1089' ll='1094' type='void mpack_tree_set_limits(mpack_tree_t * tree, size_t max_message_size, size_t max_message_nodes)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='436'>/**
+ * Sets the maximum byte size and maximum number of nodes allowed per message.
+ *
+ * The default is SIZE_MAX (no limit) unless @ref mpack_tree_init_stream() is
+ * called (where maximums are required.)
+ *
+ * If a pool of nodes is used, the node limit is the lesser of this limit and
+ * the pool size.
+ *
+ * @param tree The tree parser
+ * @param max_message_size The maximum size of a message in bytes
+ * @param max_message_nodes The maximum number of nodes per message. See
+ *        @ref mpack_node_data_t for the size of nodes.
+ */</doc>

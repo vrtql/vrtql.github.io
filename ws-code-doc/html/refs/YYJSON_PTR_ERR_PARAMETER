@@ -1,0 +1,14 @@
+<def f='codebrowser/src/util/yyjson.h' l='3702' type='const yyjson_ptr_code'/>
+<use f='codebrowser/src/util/yyjson.h' l='6994' macro='1' u='r' c='yyjson_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7027' macro='1' u='r' c='yyjson_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7061' macro='1' u='r' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7099' macro='1' u='r' c='yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7136' macro='1' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7199' macro='1' u='r' c='yyjson_mut_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7237' macro='1' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7303' macro='1' u='r' c='yyjson_mut_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7340' macro='1' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7384' macro='1' u='r' c='yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7417' macro='1' u='r' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7458' macro='1' u='r' c='yyjson_mut_ptr_removex'/>
+<doc f='codebrowser/src/util/yyjson.h' l='3701'>/** Invalid input parameter, such as NULL input. */</doc>

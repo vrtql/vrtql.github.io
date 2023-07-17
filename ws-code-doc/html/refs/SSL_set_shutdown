@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1979' type='void SSL_set_shutdown(SSL * ssl, int mode)'/>

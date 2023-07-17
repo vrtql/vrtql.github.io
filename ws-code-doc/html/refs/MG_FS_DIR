@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='977' type='4'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='r' c='packed_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='r' c='p_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='632' u='r' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='633' u='r' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='653' u='r' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='740' u='r' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='745' u='r' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='755' u='r' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='796' u='r' c='mg_http_serve_dir'/>

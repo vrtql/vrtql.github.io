@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1257' type='long mg_io_recv(struct mg_connection * c, void * buf, size_t len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='242' ll='256' type='long mg_io_recv(struct mg_connection * c, void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='270' u='c' c='read_conn'/>

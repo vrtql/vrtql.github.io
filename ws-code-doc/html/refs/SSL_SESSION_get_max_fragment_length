@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2011' type='uint8_t SSL_SESSION_get_max_fragment_length(const SSL_SESSION * sess)'/>

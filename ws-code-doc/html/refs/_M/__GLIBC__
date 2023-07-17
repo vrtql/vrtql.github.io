@@ -1,0 +1,4 @@
+<dec f='include/features.h' l='415'/>
+<doc f='include/features.h' l='413'>/* Major and minor version number of the GNU C library package.  Use
+   these macros to test for features in specific releases.  */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='901' u='a'/>

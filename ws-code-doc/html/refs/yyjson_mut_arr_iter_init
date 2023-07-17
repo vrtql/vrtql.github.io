@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2430' type='_Bool yyjson_mut_arr_iter_init(yyjson_mut_val * arr, yyjson_mut_arr_iter * iter)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5723' ll='5735' macro='1' type='_Bool yyjson_mut_arr_iter_init(yyjson_mut_val * arr, yyjson_mut_arr_iter * iter)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5740' u='c' c='yyjson_mut_arr_iter_with'/>
+<use f='codebrowser/src/util/yyjson.c' l='2370' u='c' c='yyjson_mut_patch'/>

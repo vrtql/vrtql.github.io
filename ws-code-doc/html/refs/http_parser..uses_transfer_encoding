@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/http_parser.h' l='304' type='unsigned int'/>
+<use f='codebrowser/src/http_parser.c' l='800' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='839' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='998' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1413' u='w' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1876' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1968' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2278' u='r' c='http_message_needs_eof'/>
+<offset>29</offset>
+<doc f='codebrowser/src/http_parser.h' l='304'>/* Transfer-Encoding header is present */</doc>

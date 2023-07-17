@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1185' type='int'/>
+<offset>832</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1185'>// Used when MG_EPOLL_ENABLE=1</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' macro='1' u='r' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='229' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='229' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='229' u='w' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='236' u='w' c='mg_mgr_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' macro='1' u='r' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='291' u='r' c='close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='340' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' macro='1' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' u='r' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='520' u='r' c='mg_iotest'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/server.h' l='361' type='vrtql_svr_process_msg'/>
+<use f='codebrowser/src/server.c' l='1541' u='r' c='msg_svr_client_msg_in'/>
+<use f='codebrowser/src/server.c' l='1599' u='w' c='vrtql_msg_svr_new'/>
+<offset>4736</offset>
+<doc f='codebrowser/src/server.h' l='360'>/**&lt; Derived: for processing incoming message (called by on_msg_in()) */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='50' u='w' c='ctest_test_msg_server_echo_run'/>

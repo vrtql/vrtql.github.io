@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='742' ll='745' macro='1' type='void mpack_finish_array(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/message.c' l='123' u='c' c='vrtql_msg_serialize'/>

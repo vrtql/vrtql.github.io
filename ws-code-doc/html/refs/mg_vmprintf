@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='899' type='char * mg_vmprintf(const char * fmt, va_list * ap)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='c' c='mg_file_printf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='62' ll='66' type='char * mg_vmprintf(const char * fmt, va_list * ap)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='72' u='c' c='mg_mprintf'/>

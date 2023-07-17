@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1047'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1046'>// Linked list management macros</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='159' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='202' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='402' u='c'/>

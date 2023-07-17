@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/server.h' l='206' type='uv_loop_t *'/>
+<use f='codebrowser/src/server.c' l='689' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='741' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='823' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='826' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='833' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='886' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='899' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='902' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1065' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1089' u='r' c='svr_on_connect'/>
+<offset>1408</offset>
+<doc f='codebrowser/src/server.h' l='205'>/**&lt; Event loop handle */</doc>

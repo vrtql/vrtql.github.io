@@ -1,0 +1,15 @@
+<def f='codebrowser/src/util/sc_map.h' l='227' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1'/>
+<size>24</size>
+<mbr r='sc_map_item_str::key' o='0' t='const char *'/>
+<mbr r='sc_map_item_str::value' o='64' t='const char *'/>
+<mbr r='sc_map_item_str::hash' o='128' t='uint32_t'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_cmp_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_assign_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_hashof_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_alloc_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_remap_str'/>
+<size>24</size>

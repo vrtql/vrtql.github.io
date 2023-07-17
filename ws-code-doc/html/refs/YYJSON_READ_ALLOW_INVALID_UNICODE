@@ -1,0 +1,12 @@
+<def f='codebrowser/src/util/yyjson.h' l='704' type='const yyjson_read_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='696'>/** Allow reading invalid unicode when parsing string values (non-standard).
+    Invalid characters will be allowed to appear in the string values, but
+    invalid escape sequences will still be reported as errors.
+    This flag does not affect the performance of correctly encoded strings.
+    
+    @warning Strings in JSON values may contain incorrect encoding when this
+    option is used, you need to handle these strings carefully to avoid security
+    risks. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5514' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5661' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6051' u='r' c='read_root_pretty'/>

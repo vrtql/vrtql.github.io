@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='914' type='void * mpack_expect_array_alloc_impl(mpack_reader_t * reader, size_t element_size, uint32_t max_count, uint32_t * out_count, _Bool allow_nil)'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='454' ll='485' type='void * mpack_expect_array_alloc_impl(mpack_reader_t * reader, size_t element_size, uint32_t max_count, uint32_t * out_count, _Bool allow_nil)'/>

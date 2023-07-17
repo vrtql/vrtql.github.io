@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='787' type='uint32_t mpack_expect_array_range(mpack_reader_t * reader, uint32_t min_count, uint32_t max_count)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='802' u='c' c='mpack_expect_array_max'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='775'>/**
+ * Reads the start of an array with a number of elements in the given range,
+ * returning its element count.
+ *
+ * A number of values follow equal to the element count of the array.
+ * @ref mpack_done_array() must be called once all elements have been read.
+ *
+ * min_count is returned if an error occurs.
+ *
+ * @throws mpack_error_type if the value is not an array or if its size does
+ * not fall within the given range.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='304' type='uint32_t mpack_expect_array_range(mpack_reader_t * reader, uint32_t min_value, uint32_t max_value)'/>

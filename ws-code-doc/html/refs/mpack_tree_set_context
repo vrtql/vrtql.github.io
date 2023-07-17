@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='539' ll='541' macro='1' type='void mpack_tree_set_context(mpack_tree_t * tree, void * context)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1189' u='c' c='mpack_tree_init_stdfile_noclose'/>

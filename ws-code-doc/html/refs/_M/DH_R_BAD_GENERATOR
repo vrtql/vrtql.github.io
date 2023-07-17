@@ -1,0 +1,4 @@
+<dec f='include/openssl/dherr.h' l='60'/>
+<doc f='include/openssl/dherr.h' l='57'>/*
+ * DH reason codes.
+ */</doc>

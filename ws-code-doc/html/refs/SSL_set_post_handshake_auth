@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1927' type='void SSL_set_post_handshake_auth(SSL * s, int val)'/>

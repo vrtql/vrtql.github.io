@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='926' type='3'/>
+<use f='codebrowser/src/test/client.c' l='58' u='r' c='main'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='166' macro='1' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='889' macro='1' u='r' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1056' u='r' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='26' macro='1' u='r' c='mg_log_set'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='327' macro='1' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='449' macro='1' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='456' macro='1' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='142' macro='1' u='r' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='165' macro='1' u='r' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' macro='1' u='r' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='227' macro='1' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' macro='1' u='r' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='271' macro='1' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='282' macro='1' u='r' c='write_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='360' macro='1' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='414' macro='1' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='474' macro='1' u='r' c='mg_mkpipe'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' macro='1' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' macro='1' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='121' macro='1' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' macro='1' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' macro='1' u='r' c='mg_ws_cb'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1841' type='int SSL_write_ex(SSL * s, const void * buf, size_t num, size_t * written)'/>

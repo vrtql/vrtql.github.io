@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3216' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='6363' u='w' c='yyjson_mut_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='6386' u='r' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6388' u='w' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6390' u='r' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6404' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6411' u='w' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6427' u='r' c='yyjson_mut_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6435' u='w' c='yyjson_mut_obj_iter_getn'/>
+<offset>128</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3216'>/**&lt; current key */</doc>

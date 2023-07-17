@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='196' type='uint64_t SCT_get_timestamp(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='193'>/*
+ * Returns the timestamp for the SCT (epoch time in milliseconds).
+ */</doc>

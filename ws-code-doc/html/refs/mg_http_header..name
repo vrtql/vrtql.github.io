@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1267' type='struct mg_str'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1267'>// Header name</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='196' u='m' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' u='a' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='217' u='w' c='mg_http_parse_headers'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1336' ll='1344'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1346' c='mg_tls_init'/>
+<use f='codebrowser/src/test/client.c' l='20' c='fn'/>
+<size>64</size>
+<mbr r='mg_tls_opts::ca' o='0' t='const char *'/>
+<mbr r='mg_tls_opts::crl' o='64' t='const char *'/>
+<mbr r='mg_tls_opts::cert' o='128' t='const char *'/>
+<mbr r='mg_tls_opts::certkey' o='192' t='const char *'/>
+<mbr r='mg_tls_opts::ciphers' o='256' t='const char *'/>
+<mbr r='mg_tls_opts::srvname' o='320' t='struct mg_str'/>
+<mbr r='mg_tls_opts::fs' o='448' t='struct mg_fs *'/>
+<use f='codebrowser/src/test/server.c' l='22' c='fn'/>
+<size>64</size>
+<use f='codebrowser/src/test/util/mongoose.c' l='24' c='mg_tls_init'/>
+<size>64</size>

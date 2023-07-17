@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1500' type='struct mg_mqtt_prop *'/>
+<offset>832</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1500'>// Valid only for CONNECT packet (MQTT5)</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='292' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='307' u='r' c='mg_mqtt_login'/>

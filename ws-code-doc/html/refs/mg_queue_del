@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='880' type='void mg_queue_del(struct mg_queue * , size_t )'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='880'>// Delete oldest message</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='80' ll='83' type='void mg_queue_del(struct mg_queue * q, size_t len)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2413' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='5727' u='w' c='yyjson_mut_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5728' u='r' c='yyjson_mut_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5745' u='r' c='yyjson_mut_arr_iter_has_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5750' u='r' c='yyjson_mut_arr_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5762' u='r' c='yyjson_mut_arr_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='5766' u='r' c='yyjson_mut_arr_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='5768' u='w' c='yyjson_mut_arr_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='5769' u='r' c='yyjson_mut_arr_iter_remove'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='2413'>/**&lt; maximum index (arr.size) */</doc>

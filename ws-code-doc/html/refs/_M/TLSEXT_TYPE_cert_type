@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='89'/>
+<doc f='include/openssl/tls1.h' l='88'>/* ExtensionType values from RFC6091 */</doc>

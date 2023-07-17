@@ -1,0 +1,4 @@
+<dec f='include/openssl/asyncerr.h' l='37'/>
+<doc f='include/openssl/asyncerr.h' l='34'>/*
+ * ASYNC reason codes.
+ */</doc>

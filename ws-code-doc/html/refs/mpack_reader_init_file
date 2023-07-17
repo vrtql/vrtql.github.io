@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='217' ll='219' macro='1' type='void mpack_reader_init_file(mpack_reader_t * reader, const char * filename)'/>

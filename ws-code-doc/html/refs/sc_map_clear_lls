@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/sc_map.h' l='220' macro='1' type='void sc_map_clear_lls(struct sc_map_lls * map)'/>
+<def f='codebrowser/src/util/sc_map.c' l='402' macro='1' type='void sc_map_clear_lls(struct sc_map_lls * m)'/>

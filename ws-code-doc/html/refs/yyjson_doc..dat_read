@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4402' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='4717' u='r' c='yyjson_doc_get_read_size'/>
+<offset>320</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='4401'>/** The total number of bytes read when parsing JSON (nonzero). */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1525' u='w' c='yyjson_mut_val_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='5563' u='w' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5950' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6381' u='w' c='read_root_pretty'/>

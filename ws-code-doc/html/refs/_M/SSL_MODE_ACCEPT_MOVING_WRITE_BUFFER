@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='464'/>
+<doc f='include/openssl/ssl.h' l='458'>/*
+ * Make it possible to retry SSL_write() with changed buffer location (buffer
+ * contents must stay the same!); this is not the default to avoid the
+ * misconception that non-blocking SSL_write() behaves like non-blocking
+ * write():
+ */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2159' type='const char * yyjson_mut_get_raw(yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5357' ll='5359' macro='1' type='const char * yyjson_mut_get_raw(yyjson_mut_val * val)'/>

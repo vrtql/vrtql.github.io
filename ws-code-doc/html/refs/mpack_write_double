@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='612' type='void mpack_write_double(mpack_writer_t * writer, double value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='611'>/** Writes a double. */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='614' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1084' ll='1087' type='void mpack_write_double(mpack_writer_t * writer, double value)'/>

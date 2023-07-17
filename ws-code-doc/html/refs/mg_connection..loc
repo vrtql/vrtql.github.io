@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1196' type='struct mg_addr'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1196'>// Local address</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='103' u='a' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='128' u='a' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='m' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='185' u='a' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='189' u='a' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='m' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='217' u='m' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='231' u='a' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='409' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='409' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='415' u='a' c='accept_conn'/>

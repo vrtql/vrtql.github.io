@@ -1,0 +1,1 @@
+<def f='include/openssl/ct.h' l='59' macro='1' type='int sk_CTLOG_reserve(struct stack_st_CTLOG * sk, int n)'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='553'/>
+<doc f='include/openssl/ssl.h' l='552'>/* Signing explicitly allowed as opposed to SHA1 fallback */</doc>

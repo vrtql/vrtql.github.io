@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='443' type='CTLOG_STORE * CTLOG_STORE_new()'/>
+<doc f='include/openssl/ct.h' l='439'>/*
+ * Creates a new CT log store.
+ * Should be deleted by the caller using CTLOG_STORE_free when no longer needed.
+ */</doc>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2124' type='int SSL_CTX_set_block_padding(SSL_CTX * ctx, size_t block_size)'/>

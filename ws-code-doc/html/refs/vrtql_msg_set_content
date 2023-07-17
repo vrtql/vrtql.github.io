@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/message.h' l='108' type='void vrtql_msg_set_content(vrtql_msg * msg, cstr value)'/>
+<use f='codebrowser/src/message.c' l='356' u='c' c='vrtql_msg_deserialize'/>
+<def f='codebrowser/src/message.c' l='420' ll='424' type='void vrtql_msg_set_content(vrtql_msg * msg, cstr value)'/>
+<doc f='codebrowser/src/message.h' l='103'>/**
+ * @brief Sets the content of the message from a string.
+ * @param msg The vrtql_msg instance.
+ * @param value The content to be set.
+ */</doc>
+<use f='codebrowser/src/test/test_message.c' l='14' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='53' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='76' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='75' u='c' c='ctest_test_message_run'/>

@@ -1,0 +1,28 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1596' ll='1603'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1609'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1614' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1615' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1616' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1619' c='mg_rpc_ok'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1620' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1621' c='mg_rpc_err'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1622' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1623' c='mg_rpc_list'/>
+<size>56</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1595'>// JSON-RPC request descriptor</doc>
+<mbr r='mg_rpc_req::head' o='0' t='struct mg_rpc **'/>
+<mbr r='mg_rpc_req::rpc' o='64' t='struct mg_rpc *'/>
+<mbr r='mg_rpc_req::pfn' o='128' t='mg_pfn_t'/>
+<mbr r='mg_rpc_req::pfn_data' o='192' t='void *'/>
+<mbr r='mg_rpc_req::req_data' o='256' t='void *'/>
+<mbr r='mg_rpc_req::frame' o='320' t='struct mg_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='38' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='62' c='mg_rpc_ok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='69' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='82' c='mg_rpc_err'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='100' c='mg_rpc_list'/>
+<size>56</size>

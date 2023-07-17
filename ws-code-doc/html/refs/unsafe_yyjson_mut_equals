@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5403' type='_Bool unsafe_yyjson_mut_equals(yyjson_mut_val * lhs, yyjson_mut_val * rhs)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5409' u='c' c='yyjson_mut_equals'/>
+<def f='codebrowser/src/util/yyjson.c' l='1605' ll='1658' macro='1' type='_Bool unsafe_yyjson_mut_equals(yyjson_mut_val * lhs, yyjson_mut_val * rhs)'/>
+<use f='codebrowser/src/util/yyjson.c' l='1620' u='c' c='unsafe_yyjson_mut_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='1636' u='c' c='unsafe_yyjson_mut_equals'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='175' type='size_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='43' u='r' c='mpack_node_data_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='365' u='w' c='mpack_tree_parse_bytes'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='175'>/* The byte offset for str, bin and ext */</doc>

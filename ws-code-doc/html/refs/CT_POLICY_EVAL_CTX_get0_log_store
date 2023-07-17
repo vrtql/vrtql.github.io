@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='96' type='const CTLOG_STORE * CT_POLICY_EVAL_CTX_get0_log_store(const CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='95'>/* Gets the CT logs that are trusted sources of SCTs */</doc>

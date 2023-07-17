@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='441' type='size_t mpack_reader_remaining(mpack_reader_t * reader, const char ** data)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='423'>/**
+ * Returns bytes left in the reader&apos;s buffer.
+ *
+ * If you are done reading MessagePack data but there is other interesting data
+ * following it, the reader may have buffered too much data. The number of bytes
+ * remaining in the buffer and a pointer to the position of those bytes can be
+ * queried here.
+ *
+ * If you know the length of the MPack chunk beforehand, it&apos;s better to instead
+ * have your fill function limit the data it reads so that the reader does not
+ * have extra data. In this case you can simply check that this returns zero.
+ *
+ * Returns 0 if the reader is in an error state.
+ *
+ * @param reader The MPack reader from which to query remaining data.
+ * @param data [out] A pointer to the remaining data, or NULL.
+ * @return The number of bytes remaining in the buffer.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='199' ll='211' type='size_t mpack_reader_remaining(mpack_reader_t * reader, const char ** data)'/>

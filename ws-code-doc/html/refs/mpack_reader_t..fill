@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='151' type='mpack_reader_fill_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='151'>/* Function to read bytes into the buffer */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='89' u='w' c='mpack_reader_set_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='133' u='w' c='mpack_file_reader_teardown'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='227' u='r' c='mpack_fill_range'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='234' u='r' c='mpack_fill_range'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='263' u='r' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='320' u='r' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='370' u='r' c='mpack_skip_bytes_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='414' u='r' c='mpack_reader_skip_using_fill'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='1022' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1020'>/** Write JSON pretty with 2 space indent.
+    This flag will override `YYJSON_WRITE_PRETTY` flag. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8396' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8573' u='r' c='yyjson_val_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='8946' u='r' c='yyjson_mut_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='9129' u='r' c='yyjson_mut_write_opts_impl'/>

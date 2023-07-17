@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='715' type='_Bool mpack_node_is_missing(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1948' ll='1954' macro='1' type='_Bool mpack_node_is_missing(mpack_node_t node)'/>

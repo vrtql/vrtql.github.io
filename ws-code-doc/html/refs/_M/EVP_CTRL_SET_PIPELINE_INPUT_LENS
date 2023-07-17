@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='352'/>
+<doc f='include/openssl/evp.h' l='351'>/* Set the input buffer lengths to use for a pipelined operation */</doc>

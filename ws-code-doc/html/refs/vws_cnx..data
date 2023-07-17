@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/websocket.h' l='230' type='char *'/>
+<offset>1408</offset>
+<doc f='codebrowser/src/websocket.h' l='229'>/**&lt; User-defined data associated with the connection */</doc>
+<use f='codebrowser/src/server.c' l='1269' u='r' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1351' u='w' c='msg_svr_client_connect'/>
+<use f='codebrowser/src/websocket.c' l='287' u='w' c='vws_cnx_new'/>

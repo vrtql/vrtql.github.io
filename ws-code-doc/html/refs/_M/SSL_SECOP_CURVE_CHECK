@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2299'/>
+<doc f='include/openssl/ssl.h' l='2298'>/* Sanity check of curve server selects */</doc>

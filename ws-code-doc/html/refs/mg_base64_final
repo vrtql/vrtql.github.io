@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1093' type='int mg_base64_final(char * to, int len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='51' ll='60' type='int mg_base64_final(char * to, int n)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='65' u='c' c='mg_base64_encode'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' u='c' c='mg_http_bauth'/>

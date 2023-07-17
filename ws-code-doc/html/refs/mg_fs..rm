@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='995' type='_Bool (*)(const char *)'/>
+<offset>512</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' u='r' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='59' u='r' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='890' u='r' c='mg_http_upload'/>

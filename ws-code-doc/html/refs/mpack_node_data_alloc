@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1125' type='char * mpack_node_data_alloc(mpack_node_t node, size_t maxsize)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1624' ll='1652' type='char * mpack_node_data_alloc(mpack_node_t node, size_t maxlen)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1108'>/**
+ * Allocates a new chunk of data using MPACK_MALLOC() with the bytes
+ * contained by this node.
+ *
+ * The allocated data must be freed with MPACK_FREE() (or simply free()
+ * if MPack&apos;s allocator hasn&apos;t been customized.)
+ *
+ * @throws mpack_error_type If this node is not a str, bin or ext type
+ * @throws mpack_error_too_big If the size of the data is larger than the
+ *     given maximum size
+ * @throws mpack_error_memory If an allocation failure occurs
+ *
+ * @param node The node from which to allocate and copy data
+ * @param maxsize The maximum size to allocate
+ *
+ * @return The allocated data, or NULL if any error occurs.
+ */</doc>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='1050' ll='1052' macro='1' type='void mpack_finish_bin(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1307' u='c' c='mpack_write_bin'/>

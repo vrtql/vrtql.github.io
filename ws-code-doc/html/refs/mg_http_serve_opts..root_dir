@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1282' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1282'>// Web root directory, must be non-NULL</doc>
+<use f='codebrowser/src/test/server.c' l='49' u='w' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='779' u='r' c='uri_to_path'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='800' u='r' c='mg_http_serve_dir'/>

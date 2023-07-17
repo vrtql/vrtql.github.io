@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509.h' l='609' type='char * X509_NAME_oneline(const X509_NAME * a, char * buf, int size)'/>

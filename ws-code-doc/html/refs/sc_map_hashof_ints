@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/sc_map.c' l='399' macro='1' type='uint32_t sc_map_hashof_ints(struct sc_map_item_ints * t)'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_remap_ints'/>
+<use f='codebrowser/src/util/sc_map.c' l='399' macro='1' u='c' c='sc_map_del_ints'/>

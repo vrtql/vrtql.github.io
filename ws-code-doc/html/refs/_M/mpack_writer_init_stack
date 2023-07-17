@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='325'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='318'>/*
+ * Initializes an MPack writer using stack space as a buffer. A flush function
+ * should be added to the writer to flush the buffer.
+ *
+ * This is currently undocumented since it&apos;s not entirely useful on its own.
+ */</doc>

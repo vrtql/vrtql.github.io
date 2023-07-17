@@ -1,0 +1,3 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='708' ll='717' macro='1' type='void mpack_builder_compound_push(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1147' u='c' c='mpack_start_array'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1154' u='c' c='mpack_start_map'/>

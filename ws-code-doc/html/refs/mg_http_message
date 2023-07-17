@@ -1,0 +1,46 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1271' ll='1278'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1297' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1301' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1306' c='mg_http_serve_dir'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1308' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1312' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1317' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1318' c='mg_http_match_uri'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1319' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1324' c='mg_http_status'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1404' c='mg_ws_upgrade'/>
+<size>1088</size>
+<mbr r='mg_http_message::method' o='0' t='struct mg_str'/>
+<mbr r='mg_http_message::uri' o='128' t='struct mg_str'/>
+<mbr r='mg_http_message::query' o='256' t='struct mg_str'/>
+<mbr r='mg_http_message::proto' o='384' t='struct mg_str'/>
+<mbr r='mg_http_message::headers' o='512' t='struct mg_http_header [30]'/>
+<mbr r='mg_http_message::body' o='8192' t='struct mg_str'/>
+<mbr r='mg_http_message::head' o='8320' t='struct mg_str'/>
+<mbr r='mg_http_message::chunk' o='8448' t='struct mg_str'/>
+<mbr r='mg_http_message::message' o='8576' t='struct mg_str'/>
+<use f='codebrowser/src/test/server.c' l='33' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='33' c='fn'/>
+<size>1088</size>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' c='mg_http_get_header'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='223' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='521' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='612'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='657' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='725' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='775' c='uri_to_path'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='789' c='mg_http_serve_dir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='829' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='874' c='mg_http_match_uri'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='878' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='914' c='mg_http_status'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='943' c='mg_is_chunked'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='949' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='956' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='992' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1017' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1050' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1050' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='152' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' c='mg_ws_upgrade'/>
+<size>1088</size>

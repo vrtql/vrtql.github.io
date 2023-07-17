@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1119' type='void mg_sha1_init(mg_sha1_ctx * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='158' ll='165' type='void mg_sha1_init(mg_sha1_ctx * context)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' u='c' c='ws_handshake'/>

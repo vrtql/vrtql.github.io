@@ -1,0 +1,13 @@
+<dec f='include/openssl/ct.h' l='362' type='int i2d_SCT_LIST(const struct stack_st_SCT * a, unsigned char ** pp)'/>
+<doc f='include/openssl/ct.h' l='350'>/*
+ * Serialize (to DER format) a stack of SCTs and return the length.
+ * &quot;a&quot; must not be NULL.
+ * If &quot;pp&quot; is NULL, just returns the length of what would have been serialized.
+ * If &quot;pp&quot; is not NULL and &quot;*pp&quot; is null, function will allocate a new pointer
+ * for data that caller is responsible for freeing (only if function returns
+ * successfully).
+ * If &quot;pp&quot; is NULL and &quot;*pp&quot; is not NULL, caller is responsible for ensuring
+ * that &quot;*pp&quot; is large enough to accept all of the serialized data.
+ * Returns &lt; 0 on error, &gt;= 0 indicating bytes written (or would have been)
+ * on success.
+ */</doc>

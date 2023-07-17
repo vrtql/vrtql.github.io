@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='143'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='139'>/**
+ * Clear the queue without deallocating underlying memory.
+ * @param q queue
+ */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1610' type='void *'/>
+<offset>256</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1610'>// Handler function argument</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='w' c='mg_rpc_add'/>

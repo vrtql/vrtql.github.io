@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3214' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='6361' u='w' c='yyjson_mut_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='6380' u='r' c='yyjson_mut_obj_iter_has_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6385' u='r' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6389' u='w' c='yyjson_mut_obj_iter_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='6402' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6402' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6406' u='r' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6407' u='w' c='yyjson_mut_obj_iter_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6432' u='w' c='yyjson_mut_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6433' u='r' c='yyjson_mut_obj_iter_getn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6433' u='w' c='yyjson_mut_obj_iter_getn'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3214'>/**&lt; next key&apos;s index */</doc>

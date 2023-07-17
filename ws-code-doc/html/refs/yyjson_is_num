@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1546' type='_Bool yyjson_is_num(yyjson_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4774' ll='4776' macro='1' type='_Bool yyjson_is_num(yyjson_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7664' u='c' c='yyjson_ptr_get_num'/>

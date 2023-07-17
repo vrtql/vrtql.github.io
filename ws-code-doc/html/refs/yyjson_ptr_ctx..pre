@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3765' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='7482' u='r' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7486' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7493' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7500' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7503' u='r' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7507' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7513' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7519' u='w' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7529' u='r' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7532' u='r' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7541' u='r' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7551' u='w' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7561' u='r' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7564' u='r' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7571' u='w' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7574' u='r' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7579' u='w' c='yyjson_ptr_ctx_remove'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3757'>/**
+     The previous sibling of the target value. It can be either a value in an
+     array or a key in an object. As the container is a `circular linked list`
+     of elements, `pre` is the previous node of the target value. If the
+     operation is `add` or `set`, then `pre` is the previous node of the new
+     value, not the original target value. If the target value does not exist,
+     `pre` is NULL.
+     */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1962' u='w' c='unsafe_yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2058' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2063' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2075' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2078' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2096' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2121' u='r' c='unsafe_yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2142' u='r' c='unsafe_yyjson_mut_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2147' u='w' c='unsafe_yyjson_mut_ptr_removex'/>

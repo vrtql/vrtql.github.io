@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1471' type='2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='124' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='173' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='216' c='mg_mqtt_next_prop'/>

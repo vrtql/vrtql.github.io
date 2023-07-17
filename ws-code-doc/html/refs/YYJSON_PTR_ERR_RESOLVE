@@ -1,0 +1,12 @@
+<def f='codebrowser/src/util/yyjson.h' l='3708' type='const yyjson_ptr_code'/>
+<use f='codebrowser/src/util/yyjson.h' l='7251' macro='1' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7346' macro='1' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<doc f='codebrowser/src/util/yyjson.h' l='3707'>/** JSON pointer resolve failed, such as index out of range, key not found. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1929' macro='1' u='r' c='unsafe_yyjson_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.c' l='1965' macro='1' u='r' c='unsafe_yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.c' l='1996' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2003' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2008' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2023' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2082' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2086' macro='1' u='r' c='unsafe_yyjson_mut_ptr_putx'/>

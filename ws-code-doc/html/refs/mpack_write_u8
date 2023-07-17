@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='577' type='void mpack_write_u8(mpack_writer_t * writer, uint8_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='576'>/** Writes an 8-bit unsigned integer in the most efficient packing available. */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='911' ll='922' type='void mpack_write_u8(mpack_writer_t * writer, uint8_t value)'/>

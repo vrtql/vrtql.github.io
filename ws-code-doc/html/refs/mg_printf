@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1240' type='size_t mg_printf(struct mg_connection * , const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='311' u='c' c='mg_http_write_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='392' u='c' c='mg_http_reply'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='586' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='649' u='c' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='689' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='696' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='709' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='714' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='747' u='c' c='uri_to_path2'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='16' ll='23' type='size_t mg_printf(struct mg_connection * c, const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' u='c' c='ws_handshake'/>

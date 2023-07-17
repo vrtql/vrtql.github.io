@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='43'/>
+<doc f='include/openssl/ssl.h' l='39'>/*-
+ * Version 0 - initial version
+ * Version 1 - added the optional peer certificate
+ */</doc>

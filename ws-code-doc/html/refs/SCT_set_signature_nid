@@ -1,0 +1,7 @@
+<dec f='include/openssl/ct.h' l='216' type='int SCT_set_signature_nid(SCT * sct, int nid)'/>
+<doc f='include/openssl/ct.h' l='210'>/*
+ * Set the signature type of an SCT
+ * For CT v1, this should be either NID_sha256WithRSAEncryption or
+ * NID_ecdsa_with_SHA256.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

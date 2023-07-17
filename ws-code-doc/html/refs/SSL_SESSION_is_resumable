@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1649' type='int SSL_SESSION_is_resumable(const SSL_SESSION * s)'/>

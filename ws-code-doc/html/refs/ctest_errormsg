@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/ctest.h' l='257' type='char *'/>
+<use f='codebrowser/src/test/ctest.h' l='291' u='r' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='293' u='r' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='299' u='w' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='557' u='w' c='ctest_main'/>

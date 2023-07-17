@@ -1,0 +1,2 @@
+<dec f='include/openssl/srtp.h' l='33'/>
+<doc f='include/openssl/srtp.h' l='32'>/* AEAD SRTP protection profiles from RFC 7714 */</doc>

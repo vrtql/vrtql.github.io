@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='244' type='size_t SCT_get0_signature(const SCT * sct, unsigned char ** sig)'/>
+<doc f='include/openssl/ct.h' l='239'>/*
+ * Set *sig to point to the signature for the SCT. sig must not be NULL.
+ * The SCT retains ownership of this pointer.
+ * Returns length of the data pointed to.
+ */</doc>

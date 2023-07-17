@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.c' l='2168' type='1'/>
+<use f='codebrowser/src/util/yyjson.c' l='2188' u='r' c='patch_op_get'/>
+<use f='codebrowser/src/util/yyjson.c' l='2299' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2420' c='yyjson_mut_patch'/>
+<doc f='codebrowser/src/util/yyjson.c' l='2168'>/* path */</doc>

@@ -1,0 +1,11 @@
+<def f='codebrowser/src/util/yyjson.h' l='721' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='720'>/** Invalid parameter, such as NULL input string or 0 input length. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='6450' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6453' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6547' macro='1' u='r' c='yyjson_read_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='6581' macro='1' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6678' macro='1' u='r' c='yyjson_read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='6681' macro='1' u='r' c='yyjson_read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='8567' u='r' c='yyjson_val_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='8604' u='r' c='yyjson_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8630' u='r' c='yyjson_val_write_fp'/>

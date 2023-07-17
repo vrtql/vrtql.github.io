@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl3.h' l='285'/>
+<doc f='include/openssl/ssl3.h' l='284'>/* Set if we encrypt then mac instead of usual mac then encrypt */</doc>

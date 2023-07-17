@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='165' type='4'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='165'>/**&lt; The data read is not supported by this configuration of MPack. (See @ref MPACK_EXTENSIONS.) */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='35' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='740' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='918' u='r' c='mpack_parse_tag'/>

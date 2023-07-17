@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/socket.h' l='72' type='vws_socket * vws_socket_new()'/>
+<doc f='codebrowser/src/socket.h' l='65'>/**
+ * @brief Allocates a new socket connection.
+ *
+ * @return A pointer to the new connection instance.
+ *
+ * @ingroup SocketFunctions
+ */</doc>
+<def f='codebrowser/src/socket.c' l='67' ll='73' type='vws_socket * vws_socket_new()'/>
+<doc f='codebrowser/src/socket.c' l='63'>//------------------------------------------------------------------------------
+//&gt; Socket API
+//------------------------------------------------------------------------------</doc>
+<use f='codebrowser/src/test/test_server.c' l='65' u='c' c='ctest_test_server_echo_run'/>

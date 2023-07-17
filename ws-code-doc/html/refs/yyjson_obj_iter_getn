@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1941' type='yyjson_val * yyjson_obj_iter_getn(yyjson_obj_iter * iter, const char * key, size_t key_len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5110' u='c' c='yyjson_obj_iter_get'/>
+<def f='codebrowser/src/util/yyjson.h' l='5113' ll='5140' macro='1' type='yyjson_val * yyjson_obj_iter_getn(yyjson_obj_iter * iter, const char * key, size_t key_len)'/>
+<use f='codebrowser/src/util/yyjson.c' l='1563' u='c' c='unsafe_yyjson_equals'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/http_parser.h' l='423' type='int http_header_only_message(const http_parser * parser)'/>
+<def f='codebrowser/src/http_parser.c' l='2226' ll='2260' type='int http_header_only_message(const http_parser * parser)'/>
+<doc f='codebrowser/src/http_parser.h' l='422'>/* Tells whether the message will contain only the header. */</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/socket.h' l='48' type='uint8_t'/>
+<offset>288</offset>
+<doc f='codebrowser/src/socket.h' l='47'>/**&lt; Enable tracing. */</doc>
+<use f='codebrowser/src/socket.c' l='81' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/test/test_server.c' l='67' u='w' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/websocket.c' l='517' u='r' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='1091' u='r' c='vws_socket_ingress'/>

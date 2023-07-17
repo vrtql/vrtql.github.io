@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1469' type='0'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='42'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='42'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='42'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='42'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='143' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='179' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='224' c='mg_mqtt_next_prop'/>

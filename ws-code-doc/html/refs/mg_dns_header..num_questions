@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1551' type='uint16_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='107' u='r' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='111' u='r' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='208' u='w' c='mg_dns_send'/>

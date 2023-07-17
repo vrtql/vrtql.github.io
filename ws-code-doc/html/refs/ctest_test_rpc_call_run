@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/test_http_request.c' l='5' macro='1' type='void ctest_test_rpc_call_run()'/>
+<use f='codebrowser/src/test/test_http_request.c' l='5' macro='1'/>
+<use f='codebrowser/src/test/test_http_request.c' l='5' macro='1'/>
+<use f='codebrowser/src/test/test_http_request.c' l='5' macro='1'/>
+<use f='codebrowser/src/test/test_http_request.c' l='5' macro='1'/>
+<def f='codebrowser/src/test/test_http_request.c' l='5' macro='1' type='void ctest_test_rpc_call_run()'/>
+<dec f='codebrowser/src/test/test_rpc.c' l='44' macro='1' type='void ctest_test_rpc_call_run()'/>
+<use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>
+<use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>
+<use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>
+<use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>
+<def f='codebrowser/src/test/test_rpc.c' l='44' macro='1' type='void ctest_test_rpc_call_run()'/>

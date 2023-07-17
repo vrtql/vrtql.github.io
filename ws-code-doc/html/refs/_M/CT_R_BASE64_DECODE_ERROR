@@ -1,0 +1,4 @@
+<dec f='include/openssl/cterr.h' l='61'/>
+<doc f='include/openssl/cterr.h' l='58'>/*
+ * CT reason codes.
+ */</doc>

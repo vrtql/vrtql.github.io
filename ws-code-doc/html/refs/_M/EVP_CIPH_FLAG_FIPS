@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='270'/>
+<doc f='include/openssl/evp.h' l='269'>/* Note if suitable for use in FIPS mode */</doc>

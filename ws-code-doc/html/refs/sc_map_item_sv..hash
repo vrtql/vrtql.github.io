@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/sc_map.h' l='54' type='uint32_t'/>
+<offset>128</offset>
+<use f='codebrowser/src/util/sc_map.c' l='44' u='r' c='sc_map_cmp_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='52' u='w' c='sc_map_assign_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='57' u='r' c='sc_map_hashof_sv'/>

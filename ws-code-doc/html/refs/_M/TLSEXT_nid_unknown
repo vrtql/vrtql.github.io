@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='196'/>
+<doc f='include/openssl/tls1.h' l='195'>/* Flag set for unrecognised algorithms */</doc>

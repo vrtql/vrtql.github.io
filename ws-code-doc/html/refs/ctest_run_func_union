@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/ctest.h' l='38' ll='41'/>
+<use f='codebrowser/src/test/ctest.h' l='68'/>
+<size>8</size>
+<mbr r='ctest_run_func_union::nullary' o='0' t='ctest_nullary_run_func'/>
+<mbr r='ctest_run_func_union::unary' o='0' t='ctest_unary_run_func'/>

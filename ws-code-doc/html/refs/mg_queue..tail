@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='872' type='volatile size_t'/>
+<offset>128</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='w' c='mg_queue_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='r' c='mg_queue_read_len'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='50' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='50' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='mg_queue_book'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='61' u='r' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='w' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='65' u='r' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='68' u='r' c='mg_queue_next'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='81' u='w' c='mg_queue_del'/>

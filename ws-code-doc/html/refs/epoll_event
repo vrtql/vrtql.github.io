@@ -1,0 +1,18 @@
+<def f='include/x86_64-linux-gnu/sys/epoll.h' l='83' ll='87'/>
+<use f='include/x86_64-linux-gnu/sys/epoll.h' l='110' c='epoll_ctl'/>
+<use f='include/x86_64-linux-gnu/sys/epoll.h' l='123' c='epoll_wait'/>
+<use f='include/x86_64-linux-gnu/sys/epoll.h' l='132' c='epoll_pwait'/>
+<size>12</size>
+<mbr r='epoll_event::events' o='0' t='uint32_t'/>
+<mbr r='epoll_event::data' o='32' t='epoll_data_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' macro='1' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='115' macro='1' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' macro='1' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='308' macro='1' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='340' macro='1' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' macro='1' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' macro='1' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' macro='1' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='519' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='519' c='mg_iotest'/>
+<size>12</size>

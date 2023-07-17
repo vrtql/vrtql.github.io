@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/http_parser.h' l='411' type='void http_version(char * s, const http_parser * parser)'/>
+<def f='codebrowser/src/http_parser.c' l='2290' ll='2293' type='void http_version(char * s, const http_parser * parser)'/>
+<doc f='codebrowser/src/http_parser.h' l='409'>/* http_version returns the requested vdrsion number as a string.
+ */</doc>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/buffererr.h' l='26'/>
+<doc f='include/openssl/buffererr.h' l='23'>/*
+ * BUF function codes.
+ */</doc>

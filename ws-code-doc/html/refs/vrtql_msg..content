@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/message.h' l='26' type='vrtql_buffer *'/>
+<use f='codebrowser/src/message.c' l='44' u='w' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='67' u='r' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='118' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='119' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='175' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='176' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='260' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='268' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='407' u='r' c='vrtql_msg_clear_content'/>
+<use f='codebrowser/src/message.c' l='412' u='r' c='vrtql_msg_get_content'/>
+<use f='codebrowser/src/message.c' l='417' u='r' c='vrtql_msg_get_content_size'/>
+<use f='codebrowser/src/message.c' l='422' u='r' c='vrtql_msg_set_content'/>
+<use f='codebrowser/src/message.c' l='423' u='r' c='vrtql_msg_set_content'/>
+<use f='codebrowser/src/message.c' l='428' u='r' c='vrtql_msg_set_content_binary'/>
+<use f='codebrowser/src/message.c' l='429' u='r' c='vrtql_msg_set_content_binary'/>
+<offset>512</offset>
+<doc f='codebrowser/src/message.h' l='26'>/**&lt; Buffer for the message content.    */</doc>
+<use f='codebrowser/src/test/test_message.c' l='40' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='80' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='29' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='30' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='31' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='94' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='95' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='85' u='r' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='86' u='r' c='ctest_test_message_run'/>

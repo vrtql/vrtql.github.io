@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1505' type='struct mg_str'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1505'>// Parsed topic for PUBLISH</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='404' u='m' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='405' u='m' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='406' u='m' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='456' u='m' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='457' u='m' c='mqtt_cb'/>

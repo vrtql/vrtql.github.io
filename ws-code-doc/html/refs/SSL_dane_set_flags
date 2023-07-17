@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1759' type='unsigned long SSL_dane_set_flags(SSL * ssl, unsigned long flags)'/>

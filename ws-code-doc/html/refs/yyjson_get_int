@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1605' type='int yyjson_get_int(yyjson_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4845' ll='4847' macro='1' type='int yyjson_get_int(yyjson_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5374' u='c' c='yyjson_mut_get_int'/>
+<use f='codebrowser/src/test/test_json.c' l='46' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='54' u='c' c='ctest_test_read_run'/>

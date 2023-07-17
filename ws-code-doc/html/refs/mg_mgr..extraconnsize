@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1187' type='size_t'/>
+<offset>960</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1187'>// Used by the MIP stack</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' u='r' c='mg_alloc_conn'/>

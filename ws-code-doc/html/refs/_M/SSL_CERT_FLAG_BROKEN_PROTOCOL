@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='525'/>
+<doc f='include/openssl/ssl.h' l='524'>/* Perform all sorts of protocol violations for testing purposes */</doc>

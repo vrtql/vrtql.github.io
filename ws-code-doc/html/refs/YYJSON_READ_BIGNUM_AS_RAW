@@ -1,0 +1,17 @@
+<def f='codebrowser/src/util/yyjson.h' l='710' type='const yyjson_read_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='706'>/** Read big numbers as raw strings. These big numbers include integers that
+    cannot be represented by `int64_t` and `uint64_t`, and floating-point
+    numbers that cannot be represented by finite `double`.
+    The flag will be overridden by `YYJSON_READ_NUMBER_AS_RAW` flag. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='4265' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4334' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4388' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4415' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4234' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4234' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4234' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4234' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='5513' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5660' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6050' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6706' u='r' c='yyjson_read_number'/>

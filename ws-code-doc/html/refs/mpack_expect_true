@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='590' type='void mpack_expect_true(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='587'>/**
+ * Reads a boolean, raising @ref mpack_error_type if its value is not @c true.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='334' ll='337' type='void mpack_expect_true(mpack_reader_t * reader)'/>

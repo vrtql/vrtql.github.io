@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1652' type='SSL_SESSION * SSL_SESSION_dup(SSL_SESSION * src)'/>

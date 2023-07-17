@@ -1,0 +1,4 @@
+<dec f='include/openssl/randerr.h' l='54'/>
+<doc f='include/openssl/randerr.h' l='51'>/*
+ * RAND reason codes.
+ */</doc>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1175' type='struct mg_dns'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1175'>// DNS for IPv6</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='a' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='138' u='m' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='138' u='m' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='253' u='m' c='mg_mgr_init'/>

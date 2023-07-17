@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1275' type='struct mg_str'/>
+<offset>8320</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1275'>// Request + headers</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='231' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='233' u='m' c='mg_http_parse'/>

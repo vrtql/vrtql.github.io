@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1177' type='_Bool'/>
+<offset>352</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' u='r' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='266' u='r' c='mg_resolve'/>

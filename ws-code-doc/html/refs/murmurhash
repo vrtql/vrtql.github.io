@@ -1,0 +1,14 @@
+<def f='codebrowser/src/util/sc_map.c' l='352' ll='391' type='uint32_t murmurhash(const char * key)'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' u='c' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' u='c' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' u='c' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='410' u='c' c='sc_map_put_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='410' u='c' c='sc_map_get_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='410' u='c' c='sc_map_del_sv'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' u='c' c='sc_map_put_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' u='c' c='sc_map_get_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' u='c' c='sc_map_del_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' u='c' c='sc_map_put_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' u='c' c='sc_map_get_sll'/>
+<use f='codebrowser/src/util/sc_map.c' l='412' u='c' c='sc_map_del_sll'/>
+<doc f='codebrowser/src/util/sc_map.c' l='351'>// clang-format off</doc>

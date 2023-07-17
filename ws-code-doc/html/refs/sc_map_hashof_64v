@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/sc_map.c' l='405' macro='1' type='uint32_t sc_map_hashof_64v(struct sc_map_item_64v * t)'/>
+<use f='codebrowser/src/util/sc_map.c' l='405' macro='1' u='c' c='sc_map_remap_64v'/>
+<use f='codebrowser/src/util/sc_map.c' l='405' macro='1' u='c' c='sc_map_del_64v'/>

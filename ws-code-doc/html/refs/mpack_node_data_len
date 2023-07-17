@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='991' type='uint32_t mpack_node_data_len(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2258' ll='2272' type='uint32_t mpack_node_data_len(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='983'>/**
+ * Returns the length of the given str, bin or ext node.
+ *
+ * This returns zero if the tree is in an error state.
+ *
+ * If this node is not a str, bin or ext, @ref mpack_error_type is raised and zero
+ * is returned.
+ */</doc>

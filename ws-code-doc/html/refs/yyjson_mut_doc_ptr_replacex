@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4138' type='yyjson_mut_val * yyjson_mut_doc_ptr_replacex(yyjson_mut_doc * doc, const char * ptr, size_t len, yyjson_mut_val * new_val, yyjson_ptr_ctx * ctx, yyjson_ptr_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7329' u='c' c='yyjson_mut_doc_ptr_replacen'/>
+<def f='codebrowser/src/util/yyjson.h' l='7332' ll='7363' macro='1' type='yyjson_mut_val * yyjson_mut_doc_ptr_replacex(yyjson_mut_doc * doc, const char * ptr, size_t len, yyjson_mut_val * new_val, yyjson_ptr_ctx * ctx, yyjson_ptr_err * err)'/>

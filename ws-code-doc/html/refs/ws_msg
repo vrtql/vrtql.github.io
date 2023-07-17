@@ -1,0 +1,4 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='13' ll='17'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' c='ws_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='166' c='mg_ws_cb'/>
+<size>24</size>

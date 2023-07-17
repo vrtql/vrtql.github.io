@@ -1,0 +1,2 @@
+<dec f='include/signal.h' l='88' type='__sighandler_t signal(int __sig, __sighandler_t __handler)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='249' u='c' c='mg_mgr_init'/>

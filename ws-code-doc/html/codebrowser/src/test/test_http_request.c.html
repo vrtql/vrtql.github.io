@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>test_http_request.c source code [codebrowser/src/test/test_http_request.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/test/test_http_request.c'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>test</a>/<a href='test_http_request.c.html'>test_http_request.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#include <a href="common.h.html">"common.h"</a></u></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="../http_request.h.html">"http_request.h"</a></u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><a class="macro" href="ctest.h.html#170" title="static void ctest_test_rpc_call_run(void); static struct ctest ctest_test_rpc_call __attribute__ ((used, section (&quot;.ctest&quot;), aligned(1))) = { &quot;test_rpc&quot;, &quot;call&quot;, { (ctest_nullary_run_func) ctest_test_rpc_call_run }, ((void*)0), (ctest_setup_func*) ((void*)0), (ctest_teardown_func*) ((void*)0), 0, (0xdeadbeef), }; static void ctest_test_rpc_call_run(void)" data-ref="_M/CTEST">CTEST</a>(test_rpc, call)</td></tr>
+<tr><th id="6">6</th><td>{</td></tr>
+<tr><th id="7">7</th><td>    <em>char</em>* <dfn class="local col1 decl" id="1data" title='data' data-type='char *' data-ref="1data" data-ref-filename="1data">data</dfn> = <q>"GET /hello HTTP/1.1\r\n"</q></td></tr>
+<tr><th id="8">8</th><td>                 <q>"Host: example.com\r\n"</q></td></tr>
+<tr><th id="9">9</th><td>                 <q>"User-Agent: curl/7.68.0\r\n"</q></td></tr>
+<tr><th id="10">10</th><td>                 <q>"Accept: */*\r\n"</q></td></tr>
+<tr><th id="11">11</th><td>                 <q>"\r\n"</q>;</td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td>    <a class="typedef" href="../http_request.h.html#vrtql_http_req" title='vrtql_http_req' data-type='struct vrtql_http_req' data-ref="vrtql_http_req" data-ref-filename="vrtql_http_req">vrtql_http_req</a>* <dfn class="local col2 decl" id="2req" title='req' data-type='vrtql_http_req *' data-ref="2req" data-ref-filename="2req">req</dfn> = <a class="ref fn" href="../http_request.h.html#vrtql_http_req_new" title='vrtql_http_req_new' data-ref="vrtql_http_req_new" data-ref-filename="vrtql_http_req_new">vrtql_http_req_new</a>();</td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td>    <a class="ref fn" href="../http_request.h.html#vrtql_http_req_parse" title='vrtql_http_req_parse' data-ref="vrtql_http_req_parse" data-ref-filename="vrtql_http_req_parse">vrtql_http_req_parse</a>(<a class="local col2 ref" href="#2req" title='req' data-ref="2req" data-ref-filename="2req">req</a>, <a class="local col1 ref" href="#1data" title='data' data-ref="1data" data-ref-filename="1data">data</a>, <a class="ref fn" href="../../../include/string.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col1 ref" href="#1data" title='data' data-ref="1data" data-ref-filename="1data">data</a>));</td></tr>
+<tr><th id="16">16</th><td>    <a class="macro" href="ctest.h.html#221" title="assert_true(req-&gt;complete == 1, &quot;/var/data/dev/source/active/vrtql/client/src/test/test_http_request.c&quot;, 16)" data-ref="_M/ASSERT_TRUE">ASSERT_TRUE</a>(<a class="local col2 ref" href="#2req" title='req' data-ref="2req" data-ref-filename="2req">req</a>-&gt;<a class="ref field" href="../http_request.h.html#vrtql_http_req::complete" title='vrtql_http_req::complete' data-ref="vrtql_http_req::complete" data-ref-filename="vrtql_http_req..complete">complete</a> == <span class="macro" title="1" data-ref="_M/true">true</span>);</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td>    <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"\n"</q>);</td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td>    <a class="typedef" href="../vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col3 decl" id="3key" title='key' data-type='cstr' data-ref="3key" data-ref-filename="3key">key</dfn>; <a class="typedef" href="../vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="4value" title='value' data-type='cstr' data-ref="4value" data-ref-filename="4value">value</dfn>;</td></tr>
+<tr><th id="21">21</th><td>    <a class="macro" href="../util/sc_map.h.html#176" title="for (int64_t _i = -1, _b = 0; !_b &amp;&amp; _i &lt; (&amp;req-&gt;headers)-&gt;cap; _i++) for ((value) = (&amp;req-&gt;headers)-&gt;mem[_i].value, (key) = (&amp;req-&gt;headers)-&gt;mem[_i].key, _b = 1; _b &amp;&amp; ((_i == -1 &amp;&amp; (&amp;req-&gt;headers)-&gt;used) || (key) != 0) ? 1 : (_b = 0); _b = 0)" data-ref="_M/sc_map_foreach">sc_map_foreach</a>(&amp;<a class="local col2 ref" href="#2req" title='req' data-ref="2req" data-ref-filename="2req">req</a>-&gt;<a class="ref field" href="../http_request.h.html#vrtql_http_req::headers" title='vrtql_http_req::headers' data-ref="vrtql_http_req::headers" data-ref-filename="vrtql_http_req..headers">headers</a>, <a class="local col3 ref" href="#3key" title='key' data-ref="3key" data-ref-filename="3key">key</a>, <a class="local col4 ref" href="#4value" title='value' data-ref="4value" data-ref-filename="4value">value</a>)</td></tr>
+<tr><th id="22">22</th><td>    {</td></tr>
+<tr><th id="23">23</th><td>        <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"Header: %s: %s\n"</q>, <a class="local col3 ref" href="#3key" title='key' data-ref="3key" data-ref-filename="3key">key</a>, <a class="local col4 ref" href="#4value" title='value' data-ref="4value" data-ref-filename="4value">value</a>);</td></tr>
+<tr><th id="24">24</th><td>    }</td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td>    <a class="ref fn" href="../http_request.h.html#vrtql_http_req_free" title='vrtql_http_req_free' data-ref="vrtql_http_req_free" data-ref-filename="vrtql_http_req_free">vrtql_http_req_free</a>(<a class="local col2 ref" href="#2req" title='req' data-ref="2req" data-ref-filename="2req">req</a>);</td></tr>
+<tr><th id="27">27</th><td>}</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><em>int</em> <dfn class="decl def fn" id="main" title='main' data-ref="main" data-ref-filename="main">main</dfn>(<em>int</em> <dfn class="local col5 decl" id="5argc" title='argc' data-type='int' data-ref="5argc" data-ref-filename="5argc">argc</dfn>, <em>const</em> <em>char</em>* <dfn class="local col6 decl" id="6argv" title='argv' data-type='const char **' data-ref="6argv" data-ref-filename="6argv">argv</dfn>[])</td></tr>
+<tr><th id="30">30</th><td>{</td></tr>
+<tr><th id="31">31</th><td>    <b>return</b> <a class="ref fn" href="ctest.h.html#ctest_main" title='ctest_main' data-ref="ctest_main" data-ref-filename="ctest_main">ctest_main</a>(<a class="local col5 ref" href="#5argc" title='argc' data-ref="5argc" data-ref-filename="5argc">argc</a>, <a class="local col6 ref" href="#6argv" title='argv' data-ref="6argv" data-ref-filename="6argv">argv</a>);</td></tr>
+<tr><th id="32">32</th><td>}</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

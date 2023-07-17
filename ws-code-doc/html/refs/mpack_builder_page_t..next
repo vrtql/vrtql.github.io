@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='120' type='struct mpack_builder_page_t *'/>
+<offset>0</offset>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='559' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1503' u='w' c='mpack_builder_add_page'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1505' u='w' c='mpack_builder_add_page'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1564' u='w' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1730' u='r' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1741' u='r' c='mpack_builder_resolve'/>

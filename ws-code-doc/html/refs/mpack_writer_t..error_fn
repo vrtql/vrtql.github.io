@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='169' type='mpack_writer_error_t'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='434' u='w' c='mpack_writer_set_error_handler'/>
+<offset>64</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='169'>/* Function to call on error */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='100' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='368' u='r' c='mpack_writer_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='369' u='r' c='mpack_writer_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1648' u='r' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1649' u='w' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1767' u='w' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1768' u='r' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1769' u='r' c='mpack_builder_resolve'/>

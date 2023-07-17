@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='192' ll='195'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='192'/>
+<size>16</size>
+<mbr r='mpack_level_t::child' o='0' t='mpack_node_data_t *'/>
+<mbr r='mpack_level_t::left' o='64' t='size_t'/>

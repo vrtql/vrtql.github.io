@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='150' type='void *'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='295' u='w' c='mpack_reader_set_context'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='306' u='r' c='mpack_reader_context'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='150'>/* Context for reader callbacks */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='99' u='r' c='mpack_file_reader_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='103' u='r' c='mpack_file_reader_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='109' u='r' c='mpack_file_reader_skip'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='131' u='w' c='mpack_file_reader_teardown'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='139' u='r' c='mpack_file_reader_teardown_close'/>

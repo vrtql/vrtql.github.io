@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1225' type='unsigned int'/>
+<offset>1681</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1225'>// Connection is ready to write</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='514' u='w' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='529' u='w' c='mg_iotest'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='638' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='646' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='648' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='651' u='r' c='mg_mgr_poll'/>

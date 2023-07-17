@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/socket.h' l='79' type='void vws_socket_free(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='74'>/**
+ * @brief Deallocates a socket connection.
+ *
+ * @param c The socket connection.
+ */</doc>
+<def f='codebrowser/src/socket.c' l='88' ll='96' type='void vws_socket_free(vws_socket * c)'/>
+<use f='codebrowser/src/test/test_server.c' l='80' u='c' c='ctest_test_server_echo_run'/>

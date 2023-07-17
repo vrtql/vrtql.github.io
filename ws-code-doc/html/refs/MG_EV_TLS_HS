@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1137' type='6'/>
+<use f='codebrowser/src/test/client.c' l='24' u='r' c='fn'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1137'>// TLS handshake succeeded      NULL</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='123' u='r' c='mg_tls_handshake'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='814' type='void mpack_expect_array_match(mpack_reader_t * reader, uint32_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='805'>/**
+ * Reads the start of an array of the exact size given.
+ *
+ * A number of values follow equal to the element count of the array.
+ * @ref mpack_done_array() must be called once all elements have been read.
+ *
+ * @throws mpack_error_type if the value is not an array or if its size does
+ * not match the given count.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='419' ll='422' type='void mpack_expect_array_match(mpack_reader_t * reader, uint32_t count)'/>

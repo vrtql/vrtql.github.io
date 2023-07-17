@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='174' type='uint64_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='455' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='582' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='590' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='598' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='606' u='w' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1272' u='r' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1750' u='r' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1781' u='r' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1996' u='r' c='mpack_node_u8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1997' u='r' c='mpack_node_u8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2012' u='r' c='mpack_node_i8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2013' u='r' c='mpack_node_i8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2028' u='r' c='mpack_node_u16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2029' u='r' c='mpack_node_u16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2044' u='r' c='mpack_node_i16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2045' u='r' c='mpack_node_i16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2060' u='r' c='mpack_node_u32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2061' u='r' c='mpack_node_u32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2076' u='r' c='mpack_node_i32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2077' u='r' c='mpack_node_i32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2092' u='r' c='mpack_node_u64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2107' u='r' c='mpack_node_i64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2108' u='r' c='mpack_node_i64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2153' u='r' c='mpack_node_float'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2178' u='r' c='mpack_node_double'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='174'>/* The value if the type is unsigned int. */</doc>

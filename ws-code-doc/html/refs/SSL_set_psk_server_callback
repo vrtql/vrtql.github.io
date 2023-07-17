@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='837' type='void SSL_set_psk_server_callback(SSL * ssl, SSL_psk_server_cb_func cb)'/>

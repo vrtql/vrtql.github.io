@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='125' type='SCT * SCT_new()'/>
+<doc f='include/openssl/ct.h' l='121'>/*
+ * Creates a new, blank SCT.
+ * The caller is responsible for calling SCT_free when finished with the SCT.
+ */</doc>

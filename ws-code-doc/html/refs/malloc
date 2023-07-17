@@ -1,0 +1,25 @@
+<dec f='include/stdlib.h' l='539' type='void * malloc(size_t __size)'/>
+<doc f='include/stdlib.h' l='538'>/* Allocate SIZE bytes of memory.  */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='477' macro='1' u='c' c='mpack_expect_array_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='123' macro='1' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='236' macro='1' u='c' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='326' macro='1' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='338' macro='1' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='906' macro='1' u='c' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1139' macro='1' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1176' macro='1' u='c' c='mpack_tree_init_stdfile_noclose'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1644' macro='1' u='c' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1680' macro='1' u='c' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1717' macro='1' u='c' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='154' macro='1' u='c' c='mpack_reader_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='520' macro='1' u='c' c='mpack_read_bytes_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='291' macro='1' u='c' c='mpack_writer_init_growable'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='333' macro='1' u='c' c='mpack_writer_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1497' macro='1' u='c' c='mpack_builder_add_page'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1556' macro='1' u='c' c='mpack_builder_begin'/>
+<use f='codebrowser/src/test/test_common.c' l='21' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_json.c' l='17' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/util/yyjson.c' l='942' u='c' c='default_malloc'/>
+<use f='codebrowser/src/vrtql.c' l='187' u='c' c='vrtql_malloc'/>
+<use f='codebrowser/src/vrtql.c' l='291' u='c' c='vrtql_error_default_submit'/>
+<use f='codebrowser/src/vrtql.c' l='453' u='c' c='vrtql_buffer_printf'/>

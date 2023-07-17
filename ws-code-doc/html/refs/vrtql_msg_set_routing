@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/message.h' l='80' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
+<def f='codebrowser/src/message.c' l='395' ll='398' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
+<doc f='codebrowser/src/message.h' l='74'>/**
+ * @brief Sets a routing key-value pair.
+ * @param msg The vrtql_msg instance.
+ * @param key The routing key.
+ * @param value The routing value.
+ */</doc>
+<use f='codebrowser/src/test/test_message.c' l='12' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='51' u='c' c='ctest_test_message_json_serialization_run'/>

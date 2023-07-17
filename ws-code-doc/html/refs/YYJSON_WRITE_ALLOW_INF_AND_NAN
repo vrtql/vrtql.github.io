@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='1007' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1006'>/** Write inf and nan number as &apos;Infinity&apos; and &apos;NaN&apos; literal (non-standard). */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='7182' u='r' c='write_f64_raw'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/src/mpack/mpack-reader.c' l='226' ll='248' macro='1' type='size_t mpack_fill_range(mpack_reader_t * reader, char * p, size_t min_bytes, size_t max_bytes)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='284' u='c' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='350' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='360' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='422' u='c' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='431' u='c' c='mpack_reader_skip_using_fill'/>

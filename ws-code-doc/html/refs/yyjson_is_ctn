@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1562' type='_Bool yyjson_is_ctn(yyjson_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4790' ll='4792' macro='1' type='_Bool yyjson_is_ctn(yyjson_val * val)'/>

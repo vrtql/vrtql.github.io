@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2417' type='int SSL_SESSION_set1_ticket_appdata(SSL_SESSION * ss, const void * data, size_t len)'/>

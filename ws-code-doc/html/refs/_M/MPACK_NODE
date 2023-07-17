@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='170'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='36' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='28' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='851' type='struct mg_str mg_strstrip(struct mg_str s)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='91' ll='95' type='struct mg_str mg_strstrip(struct mg_str s)'/>

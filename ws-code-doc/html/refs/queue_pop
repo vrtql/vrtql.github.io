@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/server.c' l='512' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='543' u='c' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='595' u='c' c='uv_thread'/>
+<def f='codebrowser/src/server.c' l='1228' ll='1252' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<doc f='codebrowser/src/server.c' l='501'>/**
+ * @brief Pops data from the server queue.
+ *
+ * This function removes and returns data from the front of the provided queue.
+ * It also handles the necessary synchronization to ensure thread safety.
+ *
+ * @param queue Pointer to the server queue.
+ * @return A data element from the front of the queue.
+ *
+ * @ingroup QueueGroup
+ */</doc>

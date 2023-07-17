@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1074' type='int SSL_in_init(const SSL * s)'/>

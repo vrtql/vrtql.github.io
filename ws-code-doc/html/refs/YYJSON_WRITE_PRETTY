@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='998' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='997'>/** Write JSON pretty with 4 space indent. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8573' u='r' c='yyjson_val_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='9129' u='r' c='yyjson_mut_write_opts_impl'/>

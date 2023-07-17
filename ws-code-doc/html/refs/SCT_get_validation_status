@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='297' type='sct_validation_status_t SCT_get_validation_status(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='293'>/*
+ * Gets the last result of validating this SCT.
+ * If it has not been validated yet, returns SCT_VALIDATION_STATUS_NOT_SET.
+ */</doc>

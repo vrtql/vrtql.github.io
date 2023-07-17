@@ -1,0 +1,15 @@
+<use f='codebrowser/src/websocket.h' l='201'/>
+<def f='codebrowser/src/websocket.h' l='206' ll='232'/>
+<use f='codebrowser/src/websocket.h' l='206'/>
+<size>184</size>
+<doc f='codebrowser/src/websocket.h' l='203'>/**
+ * @brief A WebSocket connection.
+ */</doc>
+<mbr r='vws_cnx::base' o='0' t='struct vws_socket'/>
+<mbr r='vws_cnx::flags' o='448' t='uint64_t'/>
+<mbr r='vws_cnx::url' o='512' t='vrtql_url'/>
+<mbr r='vws_cnx::origin' o='896' t='char *'/>
+<mbr r='vws_cnx::key' o='960' t='char *'/>
+<mbr r='vws_cnx::queue' o='1024' t='struct sc_queue_ptr'/>
+<mbr r='vws_cnx::process' o='1344' t='vws_process_frame'/>
+<mbr r='vws_cnx::data' o='1408' t='char *'/>

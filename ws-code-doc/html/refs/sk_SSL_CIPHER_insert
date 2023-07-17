@@ -1,0 +1,1 @@
+<def f='include/openssl/ssl.h' l='958' macro='1' type='int sk_SSL_CIPHER_insert(struct stack_st_SSL_CIPHER * sk, const SSL_CIPHER * ptr, int idx)'/>

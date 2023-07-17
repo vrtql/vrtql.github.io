@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='246' type='mpack_node_data_t'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='289' u='a' c='mpack_tree_nil_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1012' u='m' c='mpack_tree_init_clear'/>
+<offset>256</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='246'>/* a nil node to be returned in case of error */</doc>

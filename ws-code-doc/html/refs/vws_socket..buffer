@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/socket.h' l='42' type='vrtql_buffer *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/socket.h' l='41'>/**&lt; Socket receive buffer. */</doc>
+<use f='codebrowser/src/server.c' l='1376' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1386' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1387' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1417' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1471' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/socket.c' l='77' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='103' u='r' c='vws_socket_dtor'/>
+<use f='codebrowser/src/socket.c' l='416' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/test/test_server.c' l='77' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/websocket.c' l='1081' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1088' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1125' u='r' c='vws_socket_ingress'/>

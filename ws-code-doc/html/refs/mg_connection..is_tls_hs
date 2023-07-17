@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1215' type='unsigned int'/>
+<offset>1671</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1215'>// TLS handshake is in progress</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='309' u='r' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='484' u='r' c='can_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='639' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='647' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' u='w' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='122' u='w' c='mg_tls_handshake'/>

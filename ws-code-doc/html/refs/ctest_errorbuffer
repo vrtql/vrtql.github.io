@@ -1,0 +1,4 @@
+<def f='codebrowser/src/test/ctest.h' l='259' type='char [4096]'/>
+<use f='codebrowser/src/test/ctest.h' l='555' u='w' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='557' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='583' c='ctest_main'/>

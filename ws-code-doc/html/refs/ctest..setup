@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/ctest.h' l='71' type='ctest_setup_func *'/>
+<use f='codebrowser/src/test/ctest.h' l='566' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='566' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='566' u='r' c='ctest_main'/>
+<offset>256</offset>

@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/vrtql.h' l='160' type='1'/>
+<doc f='codebrowser/src/vrtql.h' l='160'>/**&lt; Information level log */</doc>
+<use f='codebrowser/src/server.c' l='535' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='553' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='577' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='675' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='701' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='724' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='736' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='751' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='777' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='787' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='857' u='r' c='on_uv_walk'/>
+<use f='codebrowser/src/server.c' l='918' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='926' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='951' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1056' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1200' u='r' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1345' u='r' c='msg_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1359' u='r' c='msg_svr_client_disconnect'/>
+<use f='codebrowser/src/test/test_common.c' l='112' u='r' c='ctest_test_trace_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='18' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='52' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='64' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='68' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='71' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='77' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='84' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='90' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/vrtql.c' l='328' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='341' u='r' c='vrtql_error_default_process'/>

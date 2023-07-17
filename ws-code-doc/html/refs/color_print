@@ -1,0 +1,4 @@
+<def f='codebrowser/src/test/ctest.h' l='479' ll='484' type='void color_print(const char * color, const char * text)'/>
+<use f='codebrowser/src/test/ctest.h' l='561' u='c' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='580' u='c' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='594' u='c' c='ctest_main'/>

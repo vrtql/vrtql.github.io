@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1133' type='2'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1133'>// mg_mgr_poll iteration        uint64_t *uptime_millis</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='422' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='632' u='r' c='mg_mgr_poll'/>

@@ -1,0 +1,93 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='405' type='void mpack_reader_flag_error(mpack_reader_t * reader, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='419' u='c' c='mpack_reader_flag_if_error'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='980' u='c' c='mpack_expect_str_max'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='999' u='c' c='mpack_expect_str_length'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='1118' u='c' c='mpack_expect_bin_max'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='1137' u='c' c='mpack_expect_bin_size'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='395'>/**
+ * Places the reader in the given error state, calling the error callback if one
+ * is set.
+ *
+ * This allows you to externally flag errors, for example if you are validating
+ * data as you read it.
+ *
+ * If the reader is already in an error state, this call is ignored and no
+ * error callback is called.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='85' u='c' c='mpack_expect_u8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='98' u='c' c='mpack_expect_u16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='111' u='c' c='mpack_expect_u32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='123' u='c' c='mpack_expect_u64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='136' u='c' c='mpack_expect_i8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='149' u='c' c='mpack_expect_i16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='162' u='c' c='mpack_expect_i32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='174' u='c' c='mpack_expect_i64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='196' u='c' c='mpack_expect_float'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='212' u='c' c='mpack_expect_double'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='222' u='c' c='mpack_expect_float_strict'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='234' u='c' c='mpack_expect_double_strict'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_u8_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_u16_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_u32_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_u64_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_i8_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_i16_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_i32_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_i64_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_float_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_double_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_map_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='280' u='c' c='mpack_expect_array_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='311' u='c' c='mpack_expect_uint_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='316' u='c' c='mpack_expect_int_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='324' u='c' c='mpack_expect_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='330' u='c' c='mpack_expect_bool'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='336' u='c' c='mpack_expect_true'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='341' u='c' c='mpack_expect_false'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='373' u='c' c='mpack_expect_map'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='379' u='c' c='mpack_expect_map_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='394' u='c' c='mpack_expect_map_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='405' u='c' c='mpack_expect_map_max_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='415' u='c' c='mpack_expect_array'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='421' u='c' c='mpack_expect_array_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='436' u='c' c='mpack_expect_array_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='447' u='c' c='mpack_expect_array_max_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='479' u='c' c='mpack_expect_array_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='511' u='c' c='mpack_expect_str'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='530' u='c' c='mpack_expect_str_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='548' u='c' c='mpack_expect_utf8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='559' u='c' c='mpack_expect_bin'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='570' u='c' c='mpack_expect_bin_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='640' u='c' c='mpack_expect_cstr_alloc_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='667' u='c' c='mpack_expect_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='680' u='c' c='mpack_expect_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='693' u='c' c='mpack_expect_str_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='702' u='c' c='mpack_expect_str_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='713' u='c' c='mpack_expect_tag'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='790' u='c' c='mpack_expect_enum'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='833' u='c' c='mpack_expect_key_uint'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='855' u='c' c='mpack_expect_key_uint'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='873' u='c' c='mpack_expect_key_cstr'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='78' u='c' c='mpack_reader_set_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='85' u='c' c='mpack_reader_set_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='100' u='c' c='mpack_file_reader_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='119' u='c' c='mpack_file_reader_skip'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='144' u='c' c='mpack_file_reader_teardown_close'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='213' ll='222' type='void mpack_reader_flag_error(mpack_reader_t * reader, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='241' u='c' c='mpack_fill_range'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='264' u='c' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='272' u='c' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='311' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='321' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='332' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='372' u='c' c='mpack_skip_bytes_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='423' u='c' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='433' u='c' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='453' u='c' c='mpack_read_utf8'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='466' u='c' c='mpack_read_cstr_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='482' u='c' c='mpack_read_cstr'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='492' u='c' c='mpack_read_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='522' u='c' c='mpack_read_bytes_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='574' u='c' c='mpack_read_utf8_inplace'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='904' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='918' u='c' c='mpack_parse_tag'/>

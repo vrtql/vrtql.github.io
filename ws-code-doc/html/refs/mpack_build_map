@@ -1,0 +1,42 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='821' type='void mpack_build_map(struct mpack_writer_t * writer)'/>
+<use f='codebrowser/src/message.c' l='98' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='108' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='783'>/**
+ * Starts building a map.
+ *
+ * An even number of elements must follow, and mpack_complete_map() must be
+ * called when done. The number of elements is determined automatically.
+ *
+ * If you know ahead of time the number of elements in the map, it is more
+ * efficient to call mpack_start_map() instead, even if you are already within
+ * another open build.
+ *
+ * Builder containers can be nested within normal (known size) containers and
+ * vice versa. You can call mpack_build_map(), then mpack_start_map() inside
+ * it, then mpack_build_map() inside that, and so forth.
+ *
+ * A writer in build mode diverts writes to a builder buffer that allocates as
+ * needed. Once the last map or array being built is completed, the deferred
+ * message is composed with computed array and map sizes into the writer.
+ * Builder maps and arrays are encoded exactly the same as ordinary maps and
+ * arrays in the final message.
+ *
+ * This indirect encoding is costly, as it incurs at least an extra copy of all
+ * data written within a builder (but not additional copies for nested
+ * builders.) Expect a speed penalty of half or more.
+ *
+ * A good strategy is to use this during early development when your messages
+ * are constantly changing, and then closer to release when your message
+ * formats have stabilized, replace all your build calls with start calls with
+ * pre-computed sizes. Or don&apos;t, if you find the builder has little impact on
+ * performance, because even with builders MPack is extremely fast.
+ *
+ * @note When an array or map starts being built, nothing will be flushed
+ *       until it is completed. If you are building a large message that
+ *       does not fit in the output stream, you won&apos;t get an error about it
+ *       until everything is written.
+ *
+ * @see mpack_complete_map() to complete this map
+ * @see mpack_start_map() if you already know the size of the map
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1811' ll='1813' type='void mpack_build_map(mpack_writer_t * writer)'/>

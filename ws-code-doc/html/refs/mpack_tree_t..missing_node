@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='247' type='mpack_node_data_t'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='293' u='a' c='mpack_tree_missing_node'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1013' u='m' c='mpack_tree_init_clear'/>
+<offset>384</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='247'>/* a missing node to be returned in optional lookups */</doc>

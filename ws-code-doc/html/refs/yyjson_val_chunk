@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='5183' ll='5188'/>
+<use f='codebrowser/src/util/yyjson.h' l='5184'/>
+<use f='codebrowser/src/util/yyjson.h' l='5183'/>
+<size>16</size>
+<doc f='codebrowser/src/util/yyjson.h' l='5179'>/**
+ A memory chunk in value memory pool.
+ `sizeof(yyjson_val_chunk)` should not larger than `sizeof(yyjson_mut_val)`.
+ */</doc>
+<mbr r='yyjson_val_chunk::next' o='0' t='struct yyjson_val_chunk *'/>
+<mbr r='yyjson_val_chunk::chunk_size' o='64' t='size_t'/>

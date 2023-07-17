@@ -1,0 +1,2 @@
+<dec f='include/asm-generic/socket.h' l='32'/>
+<use f='codebrowser/src/socket.c' l='146' u='c'/>

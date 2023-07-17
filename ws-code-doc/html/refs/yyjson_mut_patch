@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4336' type='yyjson_mut_val * yyjson_mut_patch(yyjson_mut_doc * doc, yyjson_mut_val * orig, yyjson_mut_val * patch, yyjson_patch_err * err)'/>
+<def f='codebrowser/src/util/yyjson.c' l='2349' ll='2468' type='yyjson_mut_val * yyjson_mut_patch(yyjson_mut_doc * doc, yyjson_mut_val * orig, yyjson_mut_val * patch, yyjson_patch_err * err)'/>

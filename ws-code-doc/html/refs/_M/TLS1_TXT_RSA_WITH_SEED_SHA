@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='983'/>
+<doc f='include/openssl/tls1.h' l='982'>/* SEED ciphersuites from RFC4162 */</doc>

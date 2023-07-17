@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/message.h' l='24' type='struct sc_map_str'/>
+<use f='codebrowser/src/message.c' l='42' u='a' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='61' u='a' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='64' u='a' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='99' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='99' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='99' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='99' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='246' u='a' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='322' u='a' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='392' u='a' c='vrtql_msg_get_routing'/>
+<use f='codebrowser/src/message.c' l='397' u='a' c='vrtql_msg_set_routing'/>
+<use f='codebrowser/src/message.c' l='402' u='a' c='vrtql_msg_clear_routing'/>
+<offset>0</offset>
+<doc f='codebrowser/src/message.h' l='24'>/**&lt; A map storing routing information. */</doc>
+<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1760' type='yyjson_arr_iter yyjson_arr_iter_with(yyjson_val * arr)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5015' ll='5019' macro='1' type='yyjson_arr_iter yyjson_arr_iter_with(yyjson_val * arr)'/>

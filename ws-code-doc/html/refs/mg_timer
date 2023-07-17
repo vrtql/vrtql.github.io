@@ -1,0 +1,30 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='953' ll='964'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='963'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='966' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='966' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='969' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='969' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='970' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1184'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1251' c='mg_timer_add'/>
+<size>56</size>
+<mbr r='mg_timer::id' o='0' t='unsigned long'/>
+<mbr r='mg_timer::period_ms' o='64' t='uint64_t'/>
+<mbr r='mg_timer::expire' o='128' t='uint64_t'/>
+<mbr r='mg_timer::flags' o='192' t='unsigned int'/>
+<mbr r='mg_timer::fn' o='256' t='void (*)(void *)'/>
+<mbr r='mg_timer::arg' o='320' t='void *'/>
+<mbr r='mg_timer::next' o='384' t='struct mg_timer *'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='209' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='209' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='219' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='219' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' c='mg_timer_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='mg_timer_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' c='mg_timer_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' c='mg_timer_poll'/>
+<size>56</size>

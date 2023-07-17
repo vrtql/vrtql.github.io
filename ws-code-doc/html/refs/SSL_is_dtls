@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1725' type='int SSL_is_dtls(const SSL * s)'/>

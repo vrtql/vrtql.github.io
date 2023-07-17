@@ -1,0 +1,4 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='500' ll='502' macro='1' type='size_t mpack_writer_buffer_size(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='153' u='c' c='mpack_writer_set_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='203' u='c' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='246' u='c' c='mpack_growable_writer_teardown'/>

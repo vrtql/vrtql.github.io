@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='974' ll='982' macro='1' type='void mpack_store_float(char * p, float value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='731' u='c' c='mpack_encode_float'/>

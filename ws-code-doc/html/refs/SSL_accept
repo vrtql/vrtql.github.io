@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1826' type='int SSL_accept(SSL * ssl)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' u='c' c='mg_tls_handshake'/>

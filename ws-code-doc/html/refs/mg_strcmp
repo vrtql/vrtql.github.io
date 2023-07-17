@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='850' type='int mg_strcmp(const struct mg_str str1, const struct mg_str str2)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='490' u='c' c='guess_content_type'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='495' u='c' c='guess_content_type'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='783' u='c' c='uri_to_path'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='60' ll='72' type='int mg_strcmp(const struct mg_str str1, const struct mg_str str2)'/>

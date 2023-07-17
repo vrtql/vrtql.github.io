@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='70' type='CT_POLICY_EVAL_CTX * CT_POLICY_EVAL_CTX_new()'/>
+<doc f='include/openssl/ct.h' l='65'>/*
+ * Creates a new, empty policy evaluation context.
+ * The caller is responsible for calling CT_POLICY_EVAL_CTX_free when finished
+ * with the CT_POLICY_EVAL_CTX.
+ */</doc>

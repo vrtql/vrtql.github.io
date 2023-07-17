@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='981' type='size_t mpack_node_bin_size(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2324' ll='2333' type='size_t mpack_node_bin_size(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='974'>/**
+ * Returns the number of bytes in the given bin node.
+ *
+ * This returns zero if the tree is in an error state.
+ *
+ * If this node is not a bin, @ref mpack_error_type is raised and zero is returned.
+ */</doc>

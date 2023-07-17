@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='162' type='mpack_error_t'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='392' u='r' c='mpack_reader_error'/>
+<offset>576</offset>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='162'>/* Error state */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='51' u='w' c='mpack_reader_init_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='196' u='r' c='mpack_reader_destroy'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='216' u='r' c='mpack_reader_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='217' u='w' c='mpack_reader_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='252' u='r' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='416' u='r' c='mpack_reader_skip_using_fill'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='501' u='r' c='mpack_read_native_noerrorfn'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='582' u='r' c='mpack_parse_tag'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/websocket.h' l='181' type='vws_msg * vws_msg_new()'/>
+<doc f='codebrowser/src/websocket.h' l='176'>/**
+ * @brief Instantiates a new websocket message.
+ *
+ * @return Returns a pointer to the new message.
+ */</doc>
+<def f='codebrowser/src/websocket.c' l='545' ll='552' type='vws_msg * vws_msg_new()'/>
+<use f='codebrowser/src/websocket.c' l='1164' u='c' c='vws_pop_message'/>
+<doc f='codebrowser/src/websocket.c' l='541'>//------------------------------------------------------------------------------
+//&gt; Message API
+//------------------------------------------------------------------------------</doc>

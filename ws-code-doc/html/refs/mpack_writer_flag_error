@@ -1,0 +1,40 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='520' type='void mpack_writer_flag_error(mpack_writer_t * writer, mpack_error_t error)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='504'>/**
+ * Places the writer in the given error state, calling the error callback if one
+ * is set.
+ *
+ * This allows you to externally flag errors, for example if you are validating
+ * data as you write it, or if you want to cancel writing in the middle of a
+ * document. (The writer will assert if you try to destroy it without error and
+ * with unclosed compound types. In this case you should flag mpack_error_data
+ * before destroying it.)
+ *
+ * If the writer is already in an error state, this call is ignored and no
+ * error callback is called.
+ *
+ * @see mpack_writer_destroy
+ * @see mpack_error_data
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='156' u='c' c='mpack_writer_set_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='223' u='c' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='257' u='c' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='308' u='c' c='mpack_file_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='323' u='c' c='mpack_file_writer_teardown_close'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='363' ll='371' type='void mpack_writer_flag_error(mpack_writer_t * writer, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='396' u='c' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='403' u='c' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='438' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='449' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='495' u='c' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='549' u='c' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='596' u='c' c='mpack_write_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='635' u='c' c='mpack_write_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1329' u='c' c='mpack_write_cstr'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1343' u='c' c='mpack_write_utf8'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1353' u='c' c='mpack_write_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1438' u='c' c='mpack_builder_check_sizes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1499' u='c' c='mpack_builder_add_page'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1558' u='c' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1700' u='c' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1785' u='c' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1791' u='c' c='mpack_builder_complete'/>

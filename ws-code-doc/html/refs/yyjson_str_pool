@@ -1,0 +1,11 @@
+<def f='codebrowser/src/util/yyjson.h' l='5171' ll='5177'/>
+<use f='codebrowser/src/util/yyjson.h' l='5171'/>
+<size>40</size>
+<doc f='codebrowser/src/util/yyjson.h' l='5168'>/**
+ A memory pool to hold all strings in a mutable document.
+ */</doc>
+<mbr r='yyjson_str_pool::cur' o='0' t='char *'/>
+<mbr r='yyjson_str_pool::end' o='64' t='char *'/>
+<mbr r='yyjson_str_pool::chunk_size' o='128' t='size_t'/>
+<mbr r='yyjson_str_pool::chunk_size_max' o='192' t='size_t'/>
+<mbr r='yyjson_str_pool::chunks' o='256' t='yyjson_str_chunk *'/>

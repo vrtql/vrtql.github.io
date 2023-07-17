@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1655' type='const unsigned char * SSL_SESSION_get0_id_context(const SSL_SESSION * s, unsigned int * len)'/>

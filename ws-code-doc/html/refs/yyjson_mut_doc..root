@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5202' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5265' u='r' c='yyjson_mut_doc_get_root'/>
+<use f='codebrowser/src/util/yyjson.h' l='5270' u='w' c='yyjson_mut_doc_set_root'/>
+<use f='codebrowser/src/util/yyjson.h' l='7064' u='r' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7069' u='r' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7075' u='r' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7140' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7144' u='w' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7152' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7156' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7164' u='w' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7169' u='r' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7241' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7242' u='w' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7250' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7254' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7256' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7260' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7268' u='w' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7273' u='r' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7344' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7350' u='w' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7353' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7361' u='r' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7420' u='r' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7425' u='r' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7427' u='w' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7434' u='r' c='yyjson_mut_doc_ptr_removex'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5202'>/**&lt; root value of the JSON document, nullable */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1279' u='r' c='yyjson_mut_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1283' u='r' c='yyjson_mut_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1485' u='r' c='yyjson_mut_doc_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='9154' u='r' c='yyjson_mut_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='9221' u='r' c='yyjson_mut_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='9230' u='r' c='yyjson_mut_write_fp'/>

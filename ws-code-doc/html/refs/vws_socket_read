@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/socket.h' l='167' type='ssize_t vws_socket_read(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='157'>/**
+ * @brief Reads data from a socket connection into a buffer
+ *
+ * @param c The vws_cnx representing the Socket connection.
+ * @param data The buffer to read data into.
+ * @param size The size of the buffer.
+ * @return The number of bytes read, or an error code if an error occurred.
+ *
+ * @ingroup SocketFunctions
+ */</doc>
+<def f='codebrowser/src/socket.c' l='347' ll='424' type='ssize_t vws_socket_read(vws_socket * c)'/>
+<use f='codebrowser/src/test/test_server.c' l='75' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/websocket.c' l='1050' u='c' c='socket_wait_for_frame'/>

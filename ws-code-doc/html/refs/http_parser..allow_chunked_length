@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/http_parser.h' l='305' type='unsigned int'/>
+<use f='codebrowser/src/http_parser.c' l='720' u='r' c='http_parser_execute'/>
+<offset>30</offset>
+<doc f='codebrowser/src/http_parser.h' l='305'>/* Allow headers with both
+                                          * `Content-Length` and
+                                          * `Transfer-Encoding: chunked` set */</doc>

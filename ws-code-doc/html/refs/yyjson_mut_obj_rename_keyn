@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3681' type='_Bool yyjson_mut_obj_rename_keyn(yyjson_mut_doc * doc, yyjson_mut_val * obj, const char * key, size_t len, const char * new_key, size_t new_len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='6904' u='c' c='yyjson_mut_obj_rename_key'/>
+<def f='codebrowser/src/util/yyjson.h' l='6908' ll='6929' macro='1' type='_Bool yyjson_mut_obj_rename_keyn(yyjson_mut_doc * doc, yyjson_mut_val * obj, const char * key, size_t len, const char * new_key, size_t new_len)'/>

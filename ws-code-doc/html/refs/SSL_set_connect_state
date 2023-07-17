@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1952' type='void SSL_set_connect_state(SSL * s)'/>

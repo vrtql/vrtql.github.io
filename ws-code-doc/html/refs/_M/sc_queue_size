@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='137'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='133'>/**
+ *   @param q queue
+ *   @return  element count
+ */</doc>
+<use f='codebrowser/src/websocket.c' l='647' u='c'/>

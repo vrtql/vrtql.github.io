@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='938' type='void mpack_write_bin(mpack_writer_t * writer, const char * data, uint32_t count)'/>
+<use f='codebrowser/src/message.c' l='120' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='930'>/**
+ * Writes a binary blob.
+ *
+ * To stream a binary blob in chunks, use mpack_start_bin() instead.
+ *
+ * You should not call mpack_finish_bin() after calling this; this
+ * performs both start and finish.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1303' ll='1308' type='void mpack_write_bin(mpack_writer_t * writer, const char * data, uint32_t count)'/>

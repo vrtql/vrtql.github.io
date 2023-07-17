@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='538'/>
+<use f='codebrowser/src/util/yyjson.h' l='4470' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4554' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='537'>/** The mask used to extract the subtype of a JSON value. */</doc>

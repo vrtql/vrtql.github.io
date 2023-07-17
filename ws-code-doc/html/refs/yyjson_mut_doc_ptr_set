@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4018' type='_Bool yyjson_mut_doc_ptr_set(yyjson_mut_doc * doc, const char * ptr, yyjson_mut_val * new_val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='7214' ll='7219' macro='1' type='_Bool yyjson_mut_doc_ptr_set(yyjson_mut_doc * doc, const char * ptr, yyjson_mut_val * new_val)'/>

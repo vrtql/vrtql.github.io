@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1708' type='void SSL_CTX_set_default_passwd_cb_userdata(SSL_CTX * ctx, void * u)'/>

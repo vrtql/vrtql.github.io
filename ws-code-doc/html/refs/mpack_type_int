@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='191' type='3'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='332' u='r' c='mpack_tag_make_int'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='462' u='r' c='mpack_tag_int_value'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='191'>/**&lt; A 64-bit signed integer. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='61' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='83' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='87' u='r' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='103' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='81' u='r' c='mpack_expect_u8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='94' u='r' c='mpack_expect_u16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='107' u='r' c='mpack_expect_u32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='119' u='r' c='mpack_expect_u64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='132' u='r' c='mpack_expect_i8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='145' u='r' c='mpack_expect_i16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='158' u='r' c='mpack_expect_i32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='171' u='r' c='mpack_expect_i64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='183' u='r' c='mpack_expect_float'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='206' u='r' c='mpack_expect_double'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='463' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='611' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='619' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='627' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='635' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1271' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1749' u='r' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1782' u='r' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1998' u='r' c='mpack_node_u8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2014' u='r' c='mpack_node_i8'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2030' u='r' c='mpack_node_u16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2046' u='r' c='mpack_node_i16'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2062' u='r' c='mpack_node_u32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2078' u='r' c='mpack_node_i32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2093' u='r' c='mpack_node_u64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2109' u='r' c='mpack_node_i64'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2154' u='r' c='mpack_node_float'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2179' u='r' c='mpack_node_double'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='601' c='mpack_write_tag'/>

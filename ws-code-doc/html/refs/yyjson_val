@@ -1,0 +1,8 @@
+<use f='codebrowser/src/util/yyjson.h' l='633'/>
+<def f='codebrowser/src/util/yyjson.h' l='4391' ll='4394'/>
+<size>16</size>
+<doc f='codebrowser/src/util/yyjson.h' l='4388'>/**
+ Immutable JSON value, 16 bytes.
+ */</doc>
+<mbr r='yyjson_val::tag' o='0' t='uint64_t'/>
+<mbr r='yyjson_val::uni' o='64' t='yyjson_val_uni'/>

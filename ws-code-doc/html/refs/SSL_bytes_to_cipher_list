@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2094' type='int SSL_bytes_to_cipher_list(SSL * s, const unsigned char * bytes, size_t len, int isv2format, struct stack_st_SSL_CIPHER ** sk, struct stack_st_SSL_CIPHER ** scsvs)'/>

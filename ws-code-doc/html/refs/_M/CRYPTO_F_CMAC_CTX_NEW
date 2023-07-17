@@ -1,0 +1,4 @@
+<dec f='include/openssl/cryptoerr.h' l='26'/>
+<doc f='include/openssl/cryptoerr.h' l='23'>/*
+ * CRYPTO function codes.
+ */</doc>

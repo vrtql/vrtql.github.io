@@ -1,0 +1,3 @@
+<use f='codebrowser/src/server.c' l='571' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='832' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='880' u='w' c='svr_dtor'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/util/sc_map.h' l='76' type='_Bool'/>
+<offset>208</offset>
+<use f='codebrowser/src/util/sc_map.c' l='229' u='w' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='249' u='w' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='250' u='r' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='264' u='w' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='273' u='w' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='280' u='w' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='293' u='w' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='305' u='w' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='312' u='w' c='sc_map_del_str'/>
+<use f='codebrowser/src/vrtql.c' l='524' macro='1' u='r' c='vrtql_map_get'/>
+<use f='codebrowser/src/vrtql.c' l='537' macro='1' u='r' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='545' macro='1' u='r' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='556' macro='1' u='r' c='vrtql_map_remove'/>

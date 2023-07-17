@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='185' type='void *[2]'/>
+<offset>512</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='183'>/* Reserved. You can use this space to allocate a custom
+     * context in order to reduce heap allocations. */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='173' u='r' c='mpack_writer_get_reserved'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='283' u='r' c='mpack_writer_init_growable'/>

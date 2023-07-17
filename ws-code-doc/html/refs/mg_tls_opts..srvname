@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1342' type='struct mg_str'/>
+<use f='codebrowser/src/test/client.c' l='20' u='w' c='fn'/>
+<offset>320</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1342'>// If not empty, enables server name verification</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='95' u='m' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' u='m' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='96' u='m' c='mg_tls_init'/>

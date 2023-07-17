@@ -1,0 +1,9 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='187' ll='208'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='187'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='180'>/**
+ * Defines the type of a MessagePack tag.
+ *
+ * Note that extension types, both user defined and built-in, are represented
+ * in tags as @ref mpack_type_ext. The value for an extension type is stored
+ * separately.
+ */</doc>

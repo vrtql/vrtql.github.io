@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1484' type='struct mg_str'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1484'>// Non-NULL only for UTF-8 types and user properties</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' u='m' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='129' u='m' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='132' u='m' c='get_properties_length'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='176' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='189' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='193' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='194' u='m' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='220' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='221' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='222' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='238' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='239' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='240' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='243' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='244' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='245' u='m' c='mg_mqtt_next_prop'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='390' ll='392' macro='1' type='void mpack_writer_set_context(mpack_writer_t * writer, void * context)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='343' u='c' c='mpack_writer_init_stdfile'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='4299' type='const yyjson_patch_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4298'>/** JSON patch operation member is invalid. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2264' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2270' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2284' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2343' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2383' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2389' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2404' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2464' macro='1' u='r' c='yyjson_mut_patch'/>

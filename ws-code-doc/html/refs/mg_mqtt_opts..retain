@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1496' type='_Bool'/>
+<offset>672</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='287' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='325' u='r' c='mg_mqtt_pub'/>

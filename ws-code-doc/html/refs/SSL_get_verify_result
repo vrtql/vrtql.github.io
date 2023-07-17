@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2000' type='long SSL_get_verify_result(const SSL * ssl)'/>

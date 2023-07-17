@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1156'/>
+<use f='codebrowser/src/mpack/mpack-platform.h' l='1816' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='751' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='752' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='202' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='203' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='204' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='207' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='208' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='211' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='212' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='215' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='216' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='219' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='220' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='709' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='720' u='c'/>
+<doc f='codebrowser/src/mpack/mpack-platform.h' l='1154'>/* Miscellaneous helper macros */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='34' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='828' u='c'/>

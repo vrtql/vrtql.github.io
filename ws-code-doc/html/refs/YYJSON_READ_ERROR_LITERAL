@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='751' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='750'>/** Invalid JSON literal, such as `truu`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3830' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='3839' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='5575' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5575' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5964' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5964' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6395' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6395' macro='1' u='r' c='read_root_pretty'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1207' type='void *'/>
+<offset>1600</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1207'>// TLS specific data</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='102' u='w' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='116' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='131' u='r' c='mg_tls_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' u='w' c='mg_tls_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' u='r' c='mg_tls_pending'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' u='r' c='mg_tls_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='153' u='r' c='mg_tls_send'/>

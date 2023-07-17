@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1167' type='uint8_t [16]'/>
+<offset>0</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1167'>// Holds IPv4 or IPv6 address, in network byte order</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' u='a' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='130' u='a' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' u='r' c='mg_atonl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='r' c='mg_atone'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='r' c='mg_atone'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' u='a' c='mg_aton4'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='r' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='72' u='r' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='72' u='r' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' u='w' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' u='w' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='74' u='a' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='91' u='w' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='92' u='w' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='102' u='w' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='102' u='w' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='109' u='a' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='109' u='a' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' u='a' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='105' u='r' c='mg_print_ip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='106' u='a' c='mg_print_ip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='61' u='r' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='76' u='a' c='tomgaddr'/>

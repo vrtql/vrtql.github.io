@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1230'/>
+<doc f='include/openssl/ssl.h' l='1229'>/* see tls1.h for macros based on these */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1105' type='void mpack_node_copy_utf8_cstr(mpack_node_t node, char * buffer, size_t size)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1589' ll='1621' type='void mpack_node_copy_utf8_cstr(mpack_node_t node, char * buffer, size_t bufsize)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1092'>/**
+ * Checks that the given node contains a valid UTF-8 string with no NUL bytes,
+ * copies the string into the given buffer, and adds a null terminator.
+ *
+ * If this node is not of a string type, @ref mpack_error_type is raised. If the string
+ * does not fit, @ref mpack_error_data is raised.
+ *
+ * If any error occurs, the buffer will contain an empty null-terminated string.
+ *
+ * @param node The string node from which to copy data
+ * @param buffer A buffer in which to copy the node&apos;s string
+ * @param size The size of the given buffer
+ */</doc>

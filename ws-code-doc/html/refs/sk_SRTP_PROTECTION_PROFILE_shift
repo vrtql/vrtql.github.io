@@ -1,0 +1,1 @@
+<def f='include/openssl/ssl.h' l='227' macro='1' type='SRTP_PROTECTION_PROFILE * sk_SRTP_PROTECTION_PROFILE_shift(struct stack_st_SRTP_PROTECTION_PROFILE * sk)'/>

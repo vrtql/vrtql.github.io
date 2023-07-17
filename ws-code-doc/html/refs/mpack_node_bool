@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='737' type='_Bool mpack_node_bool(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1970' ll='1979' macro='1' type='_Bool mpack_node_bool(mpack_node_t node)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1982' u='c' c='mpack_node_true'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1987' u='c' c='mpack_node_false'/>

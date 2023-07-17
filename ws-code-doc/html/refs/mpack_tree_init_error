@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='379' type='void mpack_tree_init_error(mpack_tree_t * tree, mpack_error_t error)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1063' ll='1069' type='void mpack_tree_init_error(mpack_tree_t * tree, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1123' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1127' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1134' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1141' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1150' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1166' u='c' c='mpack_tree_file_check_max_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1178' u='c' c='mpack_tree_init_stdfile_noclose'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1210' u='c' c='mpack_tree_init_filename'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='374'>/**
+ * Initializes an MPack tree directly into an error state. Use this if you
+ * are writing a wrapper to another &lt;tt&gt;mpack_tree_init*()&lt;/tt&gt; function which
+ * can fail its setup.
+ */</doc>

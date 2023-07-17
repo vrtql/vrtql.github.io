@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1164' type='char * mpack_node_utf8_cstr_alloc(mpack_node_t node, size_t maxsize)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1691' ll='1726' type='char * mpack_node_utf8_cstr_alloc(mpack_node_t node, size_t maxlen)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1146'>/**
+ * Allocates a new null-terminated string using MPACK_MALLOC() with the UTF-8
+ * string contained by this node.
+ *
+ * The allocated string must be freed with MPACK_FREE() (or simply free()
+ * if MPack&apos;s allocator hasn&apos;t been customized.)
+ *
+ * @throws mpack_error_type If this node is not a string, is not valid UTF-8,
+ *     or contains NUL bytes
+ * @throws mpack_error_too_big If the size of the string plus null-terminator
+ *     is larger than the given maximum size
+ * @throws mpack_error_memory If an allocation failure occurs
+ *
+ * @param node The node from which to allocate and copy string data
+ * @param maxsize The maximum size to allocate, including the null-terminator
+ *
+ * @return The allocated string, or NULL if any error occurs.
+ */</doc>

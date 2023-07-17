@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2381'/>
+<doc f='include/openssl/ssl.h' l='2380'>/* fatal error, either from parsing or decrypting the ticket */</doc>

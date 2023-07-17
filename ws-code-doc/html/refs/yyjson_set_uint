@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1659' type='_Bool yyjson_set_uint(yyjson_val * val, uint64_t num)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4908' ll='4912' macro='1' type='_Bool yyjson_set_uint(yyjson_val * val, uint64_t num)'/>

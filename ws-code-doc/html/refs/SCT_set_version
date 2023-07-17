@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='158' type='int SCT_set_version(SCT * sct, sct_version_t version)'/>
+<doc f='include/openssl/ct.h' l='154'>/*
+ * Set the version of an SCT.
+ * Returns 1 on success, 0 if the version is unrecognized.
+ */</doc>

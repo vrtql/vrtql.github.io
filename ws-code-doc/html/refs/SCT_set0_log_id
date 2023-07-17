@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='183' type='int SCT_set0_log_id(SCT * sct, unsigned char * log_id, size_t log_id_len)'/>
+<doc f='include/openssl/ct.h' l='178'>/*
+ * Set the log ID of an SCT to point directly to the *log_id specified.
+ * The SCT takes ownership of the specified pointer.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

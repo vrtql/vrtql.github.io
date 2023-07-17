@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/test_websocket.c' l='56' macro='1' type='void ctest_test_send_data_run(struct ctest_test_data * data)'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
+<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
+<def f='codebrowser/src/test/test_websocket.c' l='56' macro='1' type='void ctest_test_send_data_run(struct ctest_test_data * data)'/>

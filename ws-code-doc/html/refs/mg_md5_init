@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1106' type='void mg_md5_init(mg_md5_ctx * c)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='32' ll='40' type='void mg_md5_init(mg_md5_ctx * ctx)'/>
+<doc f='codebrowser/src/test/util/mongoose.c' l='28'>/*
+ * Start MD5 accumulation.  Set bit count to 0 and buffer to mysterious
+ * initialization constants.
+ */</doc>

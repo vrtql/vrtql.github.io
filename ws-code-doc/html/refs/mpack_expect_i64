@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='147' type='int64_t mpack_expect_i64(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='139'>/**
+ * Reads a 64-bit signed integer.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in a 64-bit signed int.
+ *
+ * Returns zero if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='166' ll='176' type='int64_t mpack_expect_i64(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='294' macro='1' u='c' c='mpack_expect_i64_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='315' u='c' c='mpack_expect_int_match'/>

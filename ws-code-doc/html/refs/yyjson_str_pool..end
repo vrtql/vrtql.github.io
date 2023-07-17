@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5173' type='char *'/>
+<use f='codebrowser/src/util/yyjson.h' l='5224' u='r' c='unsafe_yyjson_mut_str_alc'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5173'>/* the end of current chunk */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1183' u='w' c='unsafe_yyjson_str_pool_grow'/>

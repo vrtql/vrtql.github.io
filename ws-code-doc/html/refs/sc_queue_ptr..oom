@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='57' type='_Bool'/>
+<offset>0</offset>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='w' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='w' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='w' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='r' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1298' macro='1' u='w' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/test/test_common.c' l='88' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='88' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='r' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='r' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='r' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='98' macro='1' u='w' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/websocket.c' l='289' macro='1' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='289' macro='1' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='316' macro='1' u='w' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='w' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='w' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='w' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='911' macro='1' u='w' c='process_frame'/>

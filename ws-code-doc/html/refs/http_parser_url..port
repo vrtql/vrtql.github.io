@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/http_parser.h' l='373' type='uint16_t'/>
+<use f='codebrowser/src/http_parser.c' l='2540' u='w' c='http_parser_parse_url'/>
+<use f='codebrowser/src/http_parser.c' l='2644' u='w' c='http_parser_parse_url'/>
+<offset>16</offset>
+<doc f='codebrowser/src/http_parser.h' l='373'>/* Converted UF_PORT string */</doc>

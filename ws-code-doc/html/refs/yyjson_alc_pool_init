@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='613' type='_Bool yyjson_alc_pool_init(yyjson_alc * alc, void * buf, size_t size)'/>
+<def f='codebrowser/src/util/yyjson.c' l='1114' ll='1137' macro='1' type='_Bool yyjson_alc_pool_init(yyjson_alc * alc, void * buf, usize size)'/>

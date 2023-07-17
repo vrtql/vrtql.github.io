@@ -1,0 +1,8 @@
+<use f='codebrowser/src/util/yyjson.h' l='626'/>
+<def f='codebrowser/src/util/yyjson.h' l='4396' ll='4407'/>
+<size>64</size>
+<mbr r='yyjson_doc::root' o='0' t='yyjson_val *'/>
+<mbr r='yyjson_doc::alc' o='64' t='yyjson_alc'/>
+<mbr r='yyjson_doc::dat_read' o='320' t='size_t'/>
+<mbr r='yyjson_doc::val_read' o='384' t='size_t'/>
+<mbr r='yyjson_doc::str_pool' o='448' t='char *'/>

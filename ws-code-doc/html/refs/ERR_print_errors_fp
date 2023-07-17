@@ -1,0 +1,2 @@
+<dec f='include/openssl/err.h' l='244' type='void ERR_print_errors_fp(FILE * fp)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='17' u='c' c='mg_tls_err'/>

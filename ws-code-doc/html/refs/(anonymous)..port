@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/vrtql.h' l='302' type='char *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/vrtql.h' l='302'>/**&lt; The port number                    */</doc>
+<use f='codebrowser/src/vrtql.c' l='897' u='w' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='908' u='w' c='vrtql_url_new'/>
+<use f='codebrowser/src/vrtql.c' l='930' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='932' u='r' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='933' u='w' c='vrtql_url_free'/>
+<use f='codebrowser/src/vrtql.c' l='970' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='972' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1008' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/vrtql.c' l='1010' u='r' c='vrtql_url_build'/>
+<use f='codebrowser/src/websocket.c' l='356' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='356' u='r' c='vws_connect'/>

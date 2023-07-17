@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='264' type='void mpack_writer_init_growable(mpack_writer_t * writer, char ** data, size_t * size)'/>
+<use f='codebrowser/src/message.c' l='91' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='247'>/**
+ * Initializes an MPack writer using a growable buffer.
+ *
+ * The data is placed in the given data pointer if and when the writer
+ * is destroyed without error. The data pointer is NULL during writing,
+ * and will remain NULL if an error occurs.
+ *
+ * The allocated data must be freed with MPACK_FREE() (or simply free()
+ * if MPack&apos;s allocator hasn&apos;t been customized.)
+ *
+ * @throws mpack_error_memory if the buffer fails to grow when
+ * flushing.
+ *
+ * @param writer The MPack writer.
+ * @param data Where to place the allocated data.
+ * @param size Where to write the size of the data.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='276' ll='300' type='void mpack_writer_init_growable(mpack_writer_t * writer, char ** target_data, size_t * target_size)'/>

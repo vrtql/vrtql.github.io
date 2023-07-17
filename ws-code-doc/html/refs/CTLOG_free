@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='425' type='void CTLOG_free(CTLOG * log)'/>
+<doc f='include/openssl/ct.h' l='422'>/*
+ * Deletes a CT log instance and its fields.
+ */</doc>

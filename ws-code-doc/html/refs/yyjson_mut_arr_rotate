@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2960' type='_Bool yyjson_mut_arr_rotate(yyjson_mut_val * arr, size_t idx)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6165' ll='6175' macro='1' type='_Bool yyjson_mut_arr_rotate(yyjson_mut_val * arr, size_t idx)'/>

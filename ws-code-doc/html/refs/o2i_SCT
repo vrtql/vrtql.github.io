@@ -1,0 +1,12 @@
+<dec f='include/openssl/ct.h' l='399' type='SCT * o2i_SCT(SCT ** psct, const unsigned char ** in, size_t len)'/>
+<doc f='include/openssl/ct.h' l='388'>/*
+ * Parses an SCT in TLS format and returns it.
+ * If |psct| is not null, it will end up pointing to the parsed SCT. If it
+ * already points to a non-null pointer, the pointer will be free&apos;d.
+ * |in| should be a pointer to a string containing the TLS-format SCT.
+ * |in| will be advanced to the end of the SCT if parsing succeeds.
+ * |len| should be the length of the SCT in |in|.
+ * Returns NULL if an error occurs.
+ * If the SCT is an unsupported version, only the SCT&apos;s &apos;sct&apos; and &apos;sct_len&apos;
+ * fields will be populated (with |in| and |len| respectively).
+ */</doc>

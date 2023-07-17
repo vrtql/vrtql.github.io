@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-node.h' l='579' ll='581' macro='1' type='void mpack_tree_set_teardown(mpack_tree_t * tree, mpack_tree_teardown_t teardown)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1190' u='c' c='mpack_tree_init_stdfile_noclose'/>

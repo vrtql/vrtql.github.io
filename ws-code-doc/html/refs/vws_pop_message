@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/websocket.h' l='358' type='vws_msg * vws_pop_message(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='348'>/**
+ * @brief Removes and returns the first complete message from the connection&apos;s
+ *         message queue.
+ *
+ * @param c The vws_cnx representing the WebSocket connection.
+ * @return A pointer to the popped vws_msg object, or NULL if the queue is
+ * empty.
+ *
+ * @ingroup MessageFunctions
+ */</doc>
+<use f='codebrowser/src/server.c' l='1495' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/websocket.c' l='576' u='c' c='vws_recv_msg'/>
+<def f='codebrowser/src/websocket.c' l='1156' ll='1197' type='vws_msg * vws_pop_message(vws_cnx * c)'/>

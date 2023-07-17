@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='428' type='const char * CTLOG_get0_name(const CTLOG * log)'/>
+<doc f='include/openssl/ct.h' l='427'>/* Gets the name of the CT log */</doc>

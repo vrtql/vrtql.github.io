@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='29'/>
+<doc f='include/openssl/ct.h' l='28'>/* All hashes are SHA256 in v1 of Certificate Transparency */</doc>

@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-expect.h' l='444' ll='446' macro='1' type='int64_t mpack_expect_i64_max(mpack_reader_t * reader, int64_t max_value)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/websocket.h' l='256' type='void vws_disconnect(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='251'>/**
+ * @brief Closes the connection to the host.
+ *
+ * @param c The websocket connection.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='104' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/websocket.c' l='301' u='c' c='vws_cnx_free'/>
+<def f='codebrowser/src/websocket.c' l='456' ll='484' type='void vws_disconnect(vws_cnx * c)'/>

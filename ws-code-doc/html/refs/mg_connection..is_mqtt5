@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1218' type='unsigned int'/>
+<offset>1674</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1218'>// For MQTT connection, v5 indicator</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='272' u='w' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='289' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='300' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='306' u='r' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='331' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='341' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='348' u='r' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='354' u='r' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='435' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='461' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='468' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='513' u='r' c='mg_mqtt_disconnect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='516' u='r' c='mg_mqtt_disconnect'/>

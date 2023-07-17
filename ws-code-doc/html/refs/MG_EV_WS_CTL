@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1145' type='14'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1145'>// Websocket control msg        struct mg_ws_message *</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='182' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='190' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='198' u='r' c='mg_ws_cb'/>

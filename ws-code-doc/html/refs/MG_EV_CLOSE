@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1140' type='9'/>
+<use f='codebrowser/src/test/client.c' l='45' u='r' c='fn'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1140'>// Connection closed            NULL</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='435' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1016' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1028' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1062' u='r' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='r' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='sntp_cb'/>

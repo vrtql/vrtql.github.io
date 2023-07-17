@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='575' ll='578' macro='1' type='uint32_t mpack_tag_bin_length(mpack_tag_t * tag)'/>

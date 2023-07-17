@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2191' type='size_t yyjson_mut_get_len(yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5389' ll='5391' macro='1' type='size_t yyjson_mut_get_len(yyjson_mut_val * val)'/>

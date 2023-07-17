@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='503' type='mpack_node_t mpack_tree_root(mpack_tree_t * tree)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='993' ll='1008' type='mpack_node_t mpack_tree_root(mpack_tree_t * tree)'/>
+<doc f='codebrowser/src/mpack/mpack-node.c' l='989'>/*
+ * Tree functions
+ */</doc>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='496'>/**
+ * Returns the root node of the tree, if the tree is not in an error state.
+ * Returns a nil node otherwise.
+ *
+ * @warning You must call mpack_tree_parse() before calling this. If
+ * @ref mpack_tree_parse() was never called, the tree will assert.
+ */</doc>

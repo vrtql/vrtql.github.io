@@ -1,0 +1,17 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1504' ll='1514'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1524' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1530' c='mg_mqtt_next_prop'/>
+<size>72</size>
+<mbr r='mg_mqtt_message::topic' o='0' t='struct mg_str'/>
+<mbr r='mg_mqtt_message::data' o='128' t='struct mg_str'/>
+<mbr r='mg_mqtt_message::dgram' o='256' t='struct mg_str'/>
+<mbr r='mg_mqtt_message::id' o='384' t='uint16_t'/>
+<mbr r='mg_mqtt_message::cmd' o='400' t='uint8_t'/>
+<mbr r='mg_mqtt_message::qos' o='408' t='uint8_t'/>
+<mbr r='mg_mqtt_message::ack' o='416' t='uint8_t'/>
+<mbr r='mg_mqtt_message::props_start' o='448' t='size_t'/>
+<mbr r='mg_mqtt_message::props_size' o='512' t='size_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='204' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='362' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='436' c='mqtt_cb'/>
+<size>72</size>

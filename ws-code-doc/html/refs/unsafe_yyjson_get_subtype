@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/yyjson.h' l='4468' ll='4471' macro='1' type='yyjson_subtype unsafe_yyjson_get_subtype(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4805' u='c' c='yyjson_get_subtype'/>
+<use f='codebrowser/src/util/yyjson.c' l='1532' u='c' c='unsafe_yyjson_num_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='1533' u='c' c='unsafe_yyjson_num_equals'/>
+<use f='codebrowser/src/util/yyjson.c' l='8108' u='c' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8245' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8427' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8790' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8978' u='c' c='yyjson_mut_write_pretty'/>

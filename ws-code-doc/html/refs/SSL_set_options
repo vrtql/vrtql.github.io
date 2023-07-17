@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='588' type='unsigned long SSL_set_options(SSL * s, unsigned long op)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='c' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='c' c='mg_tls_init'/>

@@ -1,0 +1,5 @@
+<dec f='include/openssl/ec.h' l='1272' type='int ECDSA_size(const EC_KEY * eckey)'/>
+<doc f='include/openssl/ec.h' l='1268'>/** Returns the maximum length of the DER encoded signature
+ *  \param  eckey  EC_KEY object
+ *  \return numbers of bytes required for the DER encoded signature
+ */</doc>

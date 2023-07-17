@@ -1,0 +1,9 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='4' ll='6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='urlparse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='16' c='urlparse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' c='mg_url_host'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' c='mg_url_uri'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' c='mg_url_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='69' c='mg_url_user'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='79' c='mg_url_pass'/>
+<size>56</size>

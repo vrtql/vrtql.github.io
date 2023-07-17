@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='564' type='void mpack_expect_int_match(mpack_reader_t * reader, int64_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='558'>/**
+ * Reads a signed integer, ensuring that it exactly matches the given value.
+ *
+ * mpack_error_type is raised if the value is not representable as a signed
+ * integer or if it does not exactly match the given value.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='314' ll='317' type='void mpack_expect_int_match(mpack_reader_t * reader, int64_t value)'/>

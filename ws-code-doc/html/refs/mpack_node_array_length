@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1239' type='size_t mpack_node_array_length(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2335' ll='2345' type='size_t mpack_node_array_length(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1235'>/**
+ * Returns the length of the given array node. Raises mpack_error_type
+ * and returns 0 if the given node is not an array.
+ */</doc>

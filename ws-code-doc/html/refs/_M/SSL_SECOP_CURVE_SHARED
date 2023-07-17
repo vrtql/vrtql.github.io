@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2297'/>
+<doc f='include/openssl/ssl.h' l='2296'>/* Curves shared by client/server */</doc>

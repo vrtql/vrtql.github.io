@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/websocket.c' l='91' type='1012'/>
+<doc f='codebrowser/src/websocket.c' l='89'>/** Service Restart. The server is terminating the connection because it is
+     * restarting. */</doc>

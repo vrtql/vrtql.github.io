@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/http_request.h' l='29' type='vrtql_buffer *'/>
+<use f='codebrowser/src/http_request.c' l='83' u='w' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_request.c' l='121' u='r' c='vrtql_http_req_free'/>
+<use f='codebrowser/src/http_request.c' l='178' u='r' c='on_header_field'/>
+<use f='codebrowser/src/http_request.c' l='181' u='r' c='on_header_field'/>
+<use f='codebrowser/src/http_request.c' l='186' u='r' c='on_header_field'/>
+<use f='codebrowser/src/http_request.c' l='191' u='r' c='on_header_field'/>
+<offset>512</offset>
+<doc f='codebrowser/src/http_request.h' l='28'>/**&lt; Placeholder for header field */</doc>

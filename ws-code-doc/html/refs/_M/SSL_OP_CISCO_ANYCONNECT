@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='337'/>
+<doc f='include/openssl/ssl.h' l='335'>/* Use Cisco&apos;s &quot;speshul&quot; version of DTLS_BAD_VER
+ * (only with deprecated DTLSv1_client_method())  */</doc>

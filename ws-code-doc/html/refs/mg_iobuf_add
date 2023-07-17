@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1089' type='size_t mg_iobuf_add(struct mg_iobuf * , size_t , const void * , size_t )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='52' ll='62' type='size_t mg_iobuf_add(struct mg_iobuf * io, size_t ofs, const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='146' u='c' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='290' u='c' c='mg_ws_wrap'/>

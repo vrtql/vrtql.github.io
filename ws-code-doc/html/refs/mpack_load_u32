@@ -1,0 +1,14 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='862' ll='873' macro='1' type='uint32_t mpack_load_u32(const char * p)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='940' u='c' c='mpack_load_i32'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='955' u='c' c='mpack_load_float'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='62' u='c' c='mpack_expect_native_u32'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='523' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='598' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='688' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='704' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='720' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='712' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='778' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='871' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='885' u='c' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='899' u='c' c='mpack_parse_tag'/>

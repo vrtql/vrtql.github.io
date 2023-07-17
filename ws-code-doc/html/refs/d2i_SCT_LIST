@@ -1,0 +1,1 @@
+<dec f='include/openssl/ct.h' l='374' type='struct stack_st_SCT * d2i_SCT_LIST(struct stack_st_SCT ** a, const unsigned char ** pp, long len)'/>

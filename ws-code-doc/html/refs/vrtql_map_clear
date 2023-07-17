@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/vrtql.h' l='289' type='void vrtql_map_clear(struct sc_map_str * map)'/>
+<doc f='codebrowser/src/vrtql.h' l='284'>/**
+ * @brief Removes all key-value pair from the map, calling free() on them
+ *
+ * @param map The map to clear
+ */</doc>
+<use f='codebrowser/src/message.c' l='61' u='c' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='62' u='c' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='474' u='c' c='msg_parse_map'/>
+<def f='codebrowser/src/vrtql.c' l='564' ll='574' type='void vrtql_map_clear(struct sc_map_str * map)'/>

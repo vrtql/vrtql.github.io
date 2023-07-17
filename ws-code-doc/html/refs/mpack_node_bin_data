@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1045' type='const char * mpack_node_bin_data(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2313' ll='2322' type='const char * mpack_node_bin_data(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1037'>/**
+ * Returns a pointer to the data contained by this bin node.
+ *
+ * The pointer is valid as long as the data backing the tree is valid.
+ *
+ * If this node is not a bin, @ref mpack_error_type is raised and @c NULL is
+ * returned.
+ */</doc>

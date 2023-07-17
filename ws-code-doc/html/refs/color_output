@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/ctest.h' l='261' type='int'/>
+<use f='codebrowser/src/test/ctest.h' l='311' u='r' c='msg_start'/>
+<use f='codebrowser/src/test/ctest.h' l='318' u='r' c='msg_end'/>
+<use f='codebrowser/src/test/ctest.h' l='480' u='r' c='color_print'/>
+<use f='codebrowser/src/test/ctest.h' l='527' u='w' c='ctest_main'/>

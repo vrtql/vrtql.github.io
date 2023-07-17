@@ -1,0 +1,13 @@
+<def f='codebrowser/src/util/yyjson.h' l='565' ll='574'/>
+<use f='codebrowser/src/util/yyjson.h' l='565'/>
+<size>32</size>
+<doc f='codebrowser/src/util/yyjson.h' l='559'>/**
+ A memory allocator.
+ 
+ Typically you don&apos;t need to use it, unless you want to customize your own
+ memory allocator.
+ */</doc>
+<mbr r='yyjson_alc::malloc' o='0' t='void *(*)(void *, size_t)'/>
+<mbr r='yyjson_alc::realloc' o='64' t='void *(*)(void *, void *, size_t, size_t)'/>
+<mbr r='yyjson_alc::free' o='128' t='void (*)(void *, void *)'/>
+<mbr r='yyjson_alc::ctx' o='192' t='void *'/>

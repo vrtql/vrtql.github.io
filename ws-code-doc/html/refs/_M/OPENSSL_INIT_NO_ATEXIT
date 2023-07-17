@@ -1,0 +1,2 @@
+<dec f='include/openssl/crypto.h' l='375'/>
+<doc f='include/openssl/crypto.h' l='374'>/* OPENSSL_INIT_BASE_ONLY                    0x00040000L */</doc>

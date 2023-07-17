@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5164' type='size_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5164'>/* chunk size in bytes */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1180' u='w' c='unsafe_yyjson_str_pool_grow'/>

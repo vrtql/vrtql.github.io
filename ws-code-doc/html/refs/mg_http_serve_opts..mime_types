@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1285' type='const char *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1285'>// Extra mime types, ext1=type1,ext2=type2,..</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='530' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='548' u='r' c='mg_http_serve_file'/>

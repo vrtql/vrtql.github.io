@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='93' type='int CT_POLICY_EVAL_CTX_set1_issuer(CT_POLICY_EVAL_CTX * ctx, X509 * issuer)'/>
+<doc f='include/openssl/ct.h' l='88'>/*
+ * Sets the issuer of the certificate associated with the received SCTs.
+ * Increments the reference count of issuer.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

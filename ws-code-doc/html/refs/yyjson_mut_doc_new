@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2022' type='yyjson_mut_doc * yyjson_mut_doc_new(const yyjson_alc * alc)'/>
+<use f='codebrowser/src/message.c' l='151' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/test/test_json.c' l='64' u='c' c='ctest_test_write_run'/>
+<def f='codebrowser/src/util/yyjson.c' l='1242' ll='1255' type='yyjson_mut_doc * yyjson_mut_doc_new(const yyjson_alc * alc)'/>
+<use f='codebrowser/src/util/yyjson.c' l='1262' u='c' c='yyjson_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1279' u='c' c='yyjson_mut_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1281' u='c' c='yyjson_mut_doc_mut_copy'/>

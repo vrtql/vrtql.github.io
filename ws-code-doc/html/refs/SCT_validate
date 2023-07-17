@@ -1,0 +1,8 @@
+<dec f='include/openssl/ct.h' l='306' type='int SCT_validate(SCT * sct, const CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='299'>/*
+ * Validates the given SCT with the provided context.
+ * Sets the &quot;validation_status&quot; field of the SCT.
+ * Returns 1 if the SCT is valid and the signature verifies.
+ * Returns 0 if the SCT is invalid or could not be verified.
+ * Returns -1 if an error occurs.
+ */</doc>

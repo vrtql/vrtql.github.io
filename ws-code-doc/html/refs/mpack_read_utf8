@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='542' type='void mpack_read_utf8(mpack_reader_t * reader, char * p, size_t byte_count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='519'>/**
+ * Reads bytes from a string, ensures that the string is valid UTF-8,
+ * and copies the bytes into the given buffer.
+ *
+ * A string must have been opened by a call to mpack_read_tag() which
+ * yielded a string, or by a call to an expect function such as
+ * mpack_expect_str().
+ *
+ * The given byte count must match the complete size of the string as
+ * returned by the tag or expect function. You must ensure that the
+ * buffer fits the data.
+ *
+ * This does not accept any UTF-8 variant such as Modified UTF-8, CESU-8 or
+ * WTF-8. Only pure UTF-8 is allowed.
+ *
+ * If an error occurs, the buffer contents are undefined.
+ *
+ * Unlike mpack_read_bytes(), this cannot be used to read the data in
+ * chunks (since this might split a character&apos;s UTF-8 bytes, and the
+ * reader does not keep track of the UTF-8 decoding state between reads.)
+ *
+ * @throws mpack_error_type if the string contains invalid UTF-8.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='447' ll='454' type='void mpack_read_utf8(mpack_reader_t * reader, char * p, size_t byte_count)'/>

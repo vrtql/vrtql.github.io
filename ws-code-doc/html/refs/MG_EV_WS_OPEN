@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1143' type='12'/>
+<use f='codebrowser/src/test/client.c' l='33' u='r' c='fn'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1143'>// Websocket handshake done     struct mg_http_message *</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='155' u='r' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='r' c='mg_ws_upgrade'/>

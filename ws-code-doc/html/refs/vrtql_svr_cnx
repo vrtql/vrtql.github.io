@@ -1,0 +1,11 @@
+<use f='codebrowser/src/server.h' l='71'/>
+<def f='codebrowser/src/server.h' l='127' ll='143'/>
+<use f='codebrowser/src/server.h' l='127'/>
+<size>32</size>
+<doc f='codebrowser/src/server.h' l='124'>/**
+ * @brief Represents a client connection.
+ */</doc>
+<mbr r='vrtql_svr_cnx::server' o='0' t='struct vrtql_svr *'/>
+<mbr r='vrtql_svr_cnx::handle' o='64' t='uv_stream_t *'/>
+<mbr r='vrtql_svr_cnx::data' o='128' t='char *'/>
+<mbr r='vrtql_svr_cnx::format' o='192' t='vrtql_msg_format'/>

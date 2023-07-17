@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='147' type='void SCT_LIST_free(struct stack_st_SCT * a)'/>
+<doc f='include/openssl/ct.h' l='143'>/*
+ * Free a stack of SCTs, and the underlying SCTs themselves.
+ * Intended to be compatible with X509V3_EXT_FREE.
+ */</doc>

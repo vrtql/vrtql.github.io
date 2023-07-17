@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='245'/>
+<doc f='include/openssl/ssl.h' l='244'>/* Extension is only defined for TLS1.2 and below */</doc>

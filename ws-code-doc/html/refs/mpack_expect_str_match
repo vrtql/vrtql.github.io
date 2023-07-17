@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1008' type='void mpack_expect_str_match(mpack_reader_t * reader, const char * str, size_t length)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='1081' u='c' c='mpack_expect_cstr_match'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1002'>/**
+ * Reads a string, ensuring it exactly matches the given string.
+ *
+ * Remember that maps are unordered in JSON. Don&apos;t use this for map keys
+ * unless the map has only a single key!
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='688' ll='708' type='void mpack_expect_str_match(mpack_reader_t * reader, const char * str, size_t len)'/>

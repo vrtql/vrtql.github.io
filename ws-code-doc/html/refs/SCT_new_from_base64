@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='131' type='SCT * SCT_new_from_base64(unsigned char version, const char * logid_base64, ct_log_entry_type_t entry_type, uint64_t timestamp, const char * extensions_base64, const char * signature_base64)'/>
+<doc f='include/openssl/ct.h' l='127'>/*
+ * Creates a new SCT from some base64-encoded strings.
+ * The caller is responsible for calling SCT_free when finished with the SCT.
+ */</doc>

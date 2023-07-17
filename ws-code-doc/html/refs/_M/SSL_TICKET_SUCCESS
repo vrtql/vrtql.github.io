@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2389'/>
+<doc f='include/openssl/ssl.h' l='2388'>/* a ticket was successfully decrypted */</doc>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ecerr.h' l='208'/>
+<doc f='include/openssl/ecerr.h' l='205'>/*
+ * EC reason codes.
+ */</doc>

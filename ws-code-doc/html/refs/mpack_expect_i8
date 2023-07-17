@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='117' type='int8_t mpack_expect_i8(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='109'>/**
+ * Reads an 8-bit signed integer.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in an 8-bit signed int.
+ *
+ * Returns zero if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='127' ll='138' type='int8_t mpack_expect_i8(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='291' macro='1' u='c' c='mpack_expect_i8_range'/>

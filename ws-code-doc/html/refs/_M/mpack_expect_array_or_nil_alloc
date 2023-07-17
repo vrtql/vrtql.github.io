@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='904'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='879'>/**
+ * @hideinitializer
+ *
+ * Reads a nil node or the start of an array and allocates storage for it,
+ * placing its size in out_count. A number of objects follow equal to the element
+ * count of the array if a non-empty array was read.
+ *
+ * If an error occurs, NULL is returned and the reader is placed in an
+ * error state.
+ *
+ * If a nil node was read, NULL is returned. If an empty array was read,
+ * mpack_done_array() is called automatically and NULL is returned. These
+ * do not indicate error. You should not check the return value for NULL
+ * to check for errors; only check the reader&apos;s error state.
+ *
+ * The allocated array must be freed with MPACK_FREE() (or simply free()
+ * if MPack&apos;s allocator hasn&apos;t been customized.)
+ *
+ * @warning You must call @ref mpack_done_array() if and only if a non-zero
+ * element count is read. This function does not differentiate between nil
+ * and an empty array.
+ *
+ * @throws mpack_error_type if the value is not an array or if its size is
+ * greater than max_count.
+ */</doc>

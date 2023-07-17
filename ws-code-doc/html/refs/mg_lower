@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='845' type='int mg_lower(const char * s)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='14' ll='18' type='int mg_lower(const char * s)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_ncasecmp'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_ncasecmp'/>

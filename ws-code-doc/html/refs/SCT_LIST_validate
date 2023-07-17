@@ -1,0 +1,8 @@
+<dec f='include/openssl/ct.h' l='315' type='int SCT_LIST_validate(const struct stack_st_SCT * scts, CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='308'>/*
+ * Validates the given list of SCTs with the provided context.
+ * Sets the &quot;validation_status&quot; field of each SCT.
+ * Returns 1 if there are no invalid SCTs and all signatures verify.
+ * Returns 0 if at least one SCT is invalid or could not be verified.
+ * Returns a negative integer if an error occurs.
+ */</doc>

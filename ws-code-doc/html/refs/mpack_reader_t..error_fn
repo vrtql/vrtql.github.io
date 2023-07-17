@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='152' type='mpack_reader_error_t'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='360' u='w' c='mpack_reader_set_error_handler'/>
+<offset>128</offset>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='152'>/* Function to call on error */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='219' u='r' c='mpack_reader_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='220' u='r' c='mpack_reader_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='502' u='r' c='mpack_read_native_noerrorfn'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='503' u='w' c='mpack_read_native_noerrorfn'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='505' u='w' c='mpack_read_native_noerrorfn'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='532' u='r' c='mpack_read_bytes_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='533' u='r' c='mpack_read_bytes_alloc_impl'/>

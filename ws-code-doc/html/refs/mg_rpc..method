@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1608' type='struct mg_str'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1608'>// Method pattern</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='w' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='19' u='m' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='29' u='r' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='93' u='m' c='print_methods'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='95' u='m' c='print_methods'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='95' u='m' c='print_methods'/>

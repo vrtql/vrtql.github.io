@@ -1,0 +1,28 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1487' ll='1502'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1517' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1521' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1522' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1523' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1529' c='mg_mqtt_disconnect'/>
+<size>120</size>
+<mbr r='mg_mqtt_opts::user' o='0' t='struct mg_str'/>
+<mbr r='mg_mqtt_opts::pass' o='128' t='struct mg_str'/>
+<mbr r='mg_mqtt_opts::client_id' o='256' t='struct mg_str'/>
+<mbr r='mg_mqtt_opts::topic' o='384' t='struct mg_str'/>
+<mbr r='mg_mqtt_opts::message' o='512' t='struct mg_str'/>
+<mbr r='mg_mqtt_opts::qos' o='640' t='uint8_t'/>
+<mbr r='mg_mqtt_opts::version' o='648' t='uint8_t'/>
+<mbr r='mg_mqtt_opts::keepalive' o='656' t='uint16_t'/>
+<mbr r='mg_mqtt_opts::retain' o='672' t='_Bool'/>
+<mbr r='mg_mqtt_opts::clean' o='680' t='_Bool'/>
+<mbr r='mg_mqtt_opts::props' o='704' t='struct mg_mqtt_prop *'/>
+<mbr r='mg_mqtt_opts::num_props' o='768' t='size_t'/>
+<mbr r='mg_mqtt_opts::will_props' o='832' t='struct mg_mqtt_prop *'/>
+<mbr r='mg_mqtt_opts::num_will_props' o='896' t='size_t'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='258' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='324' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='346' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='511' c='mg_mqtt_disconnect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='524' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='528' c='mg_mqtt_connect'/>
+<size>120</size>

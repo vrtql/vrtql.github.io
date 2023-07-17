@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5174' type='size_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5174'>/* chunk size in bytes while creating new chunk */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1174' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1174' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1186' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1186' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1187' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1188' u='w' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1222' u='w' c='yyjson_mut_doc_set_str_pool_size'/>
+<use f='codebrowser/src/util/yyjson.c' l='1250' u='w' c='yyjson_mut_doc_new'/>

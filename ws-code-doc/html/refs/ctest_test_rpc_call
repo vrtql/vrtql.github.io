@@ -1,0 +1,2 @@
+<def f='codebrowser/src/test/test_http_request.c' l='5' macro='1' type='struct ctest'/>
+<def f='codebrowser/src/test/test_rpc.c' l='44' macro='1' type='struct ctest'/>

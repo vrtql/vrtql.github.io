@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='265' type='mpack_node_data_t *'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='928' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='933' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1007' u='r' c='mpack_tree_root'/>
+<offset>2688</offset>

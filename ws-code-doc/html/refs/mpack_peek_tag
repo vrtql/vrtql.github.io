@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='482' type='mpack_tag_t mpack_peek_tag(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='467'>/**
+ * Parses the next MessagePack object header (an MPack tag) without
+ * advancing the reader.
+ *
+ * If an error occurs, the reader is placed in an error state and a
+ * nil tag is returned. If the reader is already in an error state,
+ * a nil tag is returned.
+ *
+ * @note Maps in JSON are unordered, so it is recommended not to expect
+ * a specific ordering for your map values in case your data is converted
+ * to/from JSON.
+ *
+ * @see mpack_read_tag()
+ * @see mpack_discard()
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='802' u='c' c='mpack_expect_enum_optional'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='839' u='c' c='mpack_expect_key_uint'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='976' ll='989' type='mpack_tag_t mpack_peek_tag(mpack_reader_t * reader)'/>

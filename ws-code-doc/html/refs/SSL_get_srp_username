@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1788' type='char * SSL_get_srp_username(SSL * s)'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2112' type='_Bool yyjson_mut_is_real(yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5311' ll='5313' macro='1' type='_Bool yyjson_mut_is_real(yyjson_mut_val * val)'/>

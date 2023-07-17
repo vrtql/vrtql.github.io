@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='77' type='uint8_t mpack_expect_u8(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='69'>/**
+ * Reads an 8-bit unsigned integer.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in an 8-bit unsigned int.
+ *
+ * Returns zero if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='76' ll='87' type='uint8_t mpack_expect_u8(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='286' macro='1' u='c' c='mpack_expect_u8_range'/>
+<doc f='codebrowser/src/mpack/mpack-expect.c' l='74'>// Basic Number Functions</doc>

@@ -1,0 +1,1 @@
+<def f='include/openssl/ct.h' l='58' macro='1' type='struct stack_st_SCT * sk_SCT_deep_copy(const struct stack_st_SCT * sk, sk_SCT_copyfunc copyfunc, sk_SCT_freefunc freefunc)'/>

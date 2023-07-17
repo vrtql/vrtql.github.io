@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='86' type='epoll_data_t'/>
+<offset>32</offset>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='86'>/* User data variable */</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='522' u='m' c='mg_iotest'/>

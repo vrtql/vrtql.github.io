@@ -1,0 +1,7 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='897' ll='906' macro='1' type='void mpack_store_u16(char * p, uint16_t val)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='943' u='c' c='mpack_store_i16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='683' u='c' c='mpack_encode_u16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='760' u='c' c='mpack_encode_array16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='777' u='c' c='mpack_encode_map16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='802' u='c' c='mpack_encode_str16'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='819' u='c' c='mpack_encode_bin16'/>

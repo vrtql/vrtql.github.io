@@ -1,0 +1,11 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1396' ll='1399'/>
+<use f='codebrowser/src/test/client.c' l='41' c='fn'/>
+<use f='codebrowser/src/test/client.c' l='41' c='fn'/>
+<size>24</size>
+<mbr r='mg_ws_message::data' o='0' t='struct mg_str'/>
+<mbr r='mg_ws_message::flags' o='128' t='uint8_t'/>
+<use f='codebrowser/src/test/server.c' l='56' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='56' c='fn'/>
+<size>24</size>
+<use f='codebrowser/src/test/util/mongoose.c' l='175' c='mg_ws_cb'/>
+<size>24</size>

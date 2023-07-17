@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1686' type='void SSL_CTX_set_verify(SSL_CTX * ctx, int mode, SSL_verify_cb callback)'/>

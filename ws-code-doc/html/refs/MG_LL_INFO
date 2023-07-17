@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='926' type='2'/>
+<use f='codebrowser/src/test/client.c' l='26' macro='1' u='r' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' macro='1' u='r' c='sntp_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='103' macro='1' u='r' c='iolog'/>

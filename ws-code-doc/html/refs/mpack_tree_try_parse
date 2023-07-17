@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='494' type='_Bool mpack_tree_try_parse(mpack_tree_t * tree)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='970' ll='985' macro='1' type='_Bool mpack_tree_try_parse(mpack_tree_t * tree)'/>

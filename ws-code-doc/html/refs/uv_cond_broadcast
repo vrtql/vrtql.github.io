@@ -1,0 +1,2 @@
+<use f='codebrowser/src/server.c' l='781' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1239' u='c' c='queue_pop'/>

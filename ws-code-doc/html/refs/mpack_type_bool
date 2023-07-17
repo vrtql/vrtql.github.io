@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='190' type='2'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='308' u='r' c='mpack_tag_make_bool'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='316' u='r' c='mpack_tag_make_true'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='324' u='r' c='mpack_tag_make_false'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='444' u='r' c='mpack_tag_bool_value'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='190'>/**&lt; A boolean (true or false.) */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='58' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='100' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='498' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1268' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1974' u='r' c='mpack_node_bool'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='600' c='mpack_write_tag'/>

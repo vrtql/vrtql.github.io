@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1017' type='void mpack_expect_cstr(mpack_reader_t * reader, char * buf, size_t size)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1010'>/**
+ * Reads a string into the given buffer, ensures it has no null bytes,
+ * and adds a null-terminator at the end.
+ *
+ * Raises mpack_error_too_big if there is not enough room for the string and null-terminator.
+ * Raises mpack_error_type if the value is not a string or contains a null byte.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='620' ll='624' type='void mpack_expect_cstr(mpack_reader_t * reader, char * buf, size_t bufsize)'/>

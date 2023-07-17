@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/util/yyjson.h' l='567' type='void *(*)(void *, size_t)'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='566'>/** Same as libc&apos;s malloc(size), should not be NULL. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1132' u='w' c='yyjson_alc_pool_init'/>
+<use f='codebrowser/src/util/yyjson.c' l='1175' u='r' c='unsafe_yyjson_str_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1202' u='r' c='unsafe_yyjson_val_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1245' u='r' c='yyjson_mut_doc_new'/>
+<use f='codebrowser/src/util/yyjson.c' l='1506' u='r' c='yyjson_mut_val_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1515' u='r' c='yyjson_mut_val_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='5510' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5654' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6044' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6465' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6598' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6620' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8076' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8223' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8401' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8766' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8950' u='r' c='yyjson_mut_write_pretty'/>

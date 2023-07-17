@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='856' type='_Bool mg_commalist(struct mg_str * s, struct mg_str * k, struct mg_str * v)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='489' u='c' c='guess_content_type'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='780' u='c' c='uri_to_path'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='156' ll='158' macro='1' type='_Bool mg_commalist(struct mg_str * s, struct mg_str * k, struct mg_str * v)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' u='c' c='mg_check_ip_acl'/>

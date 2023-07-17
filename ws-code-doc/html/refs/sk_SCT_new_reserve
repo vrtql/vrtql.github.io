@@ -1,0 +1,1 @@
+<def f='include/openssl/ct.h' l='58' macro='1' type='struct stack_st_SCT * sk_SCT_new_reserve(sk_SCT_compfunc compare, int n)'/>

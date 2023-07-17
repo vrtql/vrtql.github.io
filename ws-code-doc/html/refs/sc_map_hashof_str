@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/sc_map.c' l='409' macro='1' type='uint32_t sc_map_hashof_str(struct sc_map_item_str * t)'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' u='c' c='sc_map_remap_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='409' macro='1' u='c' c='sc_map_del_str'/>

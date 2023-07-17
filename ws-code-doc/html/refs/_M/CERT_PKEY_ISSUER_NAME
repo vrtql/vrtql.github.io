@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='555'/>
+<doc f='include/openssl/ssl.h' l='554'>/* Client CA issuer names match (always set for server cert) */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='861' type='int mg_check_ip_acl(struct mg_str acl, uint32_t remote_ip)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='84' ll='94' type='int mg_check_ip_acl(struct mg_str acl, uint32_t remote_ip)'/>

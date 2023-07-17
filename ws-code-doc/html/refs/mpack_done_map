@@ -1,0 +1,10 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='772' ll='774' macro='1' type='void mpack_done_map(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/message.c' l='543' u='c' c='msg_parse_map'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='765'>/**
+ * @fn mpack_done_map(mpack_reader_t* reader)
+ *
+ * Finishes reading a map.
+ *
+ * This will track reads to ensure that the correct number of elements are read.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1026' u='c' c='mpack_discard'/>

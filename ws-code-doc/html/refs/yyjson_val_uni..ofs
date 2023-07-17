@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4385' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='4543' u='r' c='unsafe_yyjson_arr_is_flat'/>
+<use f='codebrowser/src/util/yyjson.h' l='4609' u='r' c='unsafe_yyjson_get_next'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/yyjson.c' l='1462' u='w' c='yyjson_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='5667' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5671' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5683' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5776' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5779' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5799' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5922' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5924' u='w' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6057' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6062' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6075' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6185' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6188' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6209' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6352' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6354' u='w' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8220' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8398' u='r' c='yyjson_write_pretty'/>

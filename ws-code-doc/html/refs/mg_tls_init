@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1346' type='void mg_tls_init(struct mg_connection * , const struct mg_tls_opts * )'/>
+<use f='codebrowser/src/test/client.c' l='21' u='c' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='28' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='24' ll='113' type='void mg_tls_init(struct mg_connection * c, const struct mg_tls_opts * opts)'/>

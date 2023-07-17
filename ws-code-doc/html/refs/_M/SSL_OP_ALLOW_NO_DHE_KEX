@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='317'/>
+<doc f='include/openssl/ssl.h' l='316'>/* In TLSv1.3 allow a non-(ec)dhe based kex_mode */</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/util/yyjson.h' l='1048' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1047'>/** Failed to write a file. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8005' u='r' c='write_dat_to_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='8027' macro='1' u='r' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8031' macro='1' u='r' c='write_dat_to_file'/>

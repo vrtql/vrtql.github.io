@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2142' type='int SSL_session_reused(const SSL * s)'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/src/util/yyjson.h' l='5234' ll='5241' macro='1' type='char * unsafe_yyjson_mut_strncpy(yyjson_mut_doc * doc, const char * str, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5518' u='c' c='yyjson_mut_rawncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='5655' u='c' c='yyjson_mut_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='5671' u='c' c='yyjson_mut_strncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='5946' u='c' c='yyjson_mut_arr_with_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='5960' u='c' c='yyjson_mut_arr_with_strncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6847' u='c' c='yyjson_mut_obj_add_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6860' u='c' c='yyjson_mut_obj_add_strncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6922' u='c' c='yyjson_mut_obj_rename_keyn'/>
+<use f='codebrowser/src/util/yyjson.c' l='1319' u='c' c='yyjson_val_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1397' u='c' c='unsafe_yyjson_mut_val_mut_copy'/>

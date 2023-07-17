@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='134' type='uint32_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='134'>// number of elements (or key/value pairs) in this map/array</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='82' u='w' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='86' u='w' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1614' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1693' u='r' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1696' u='r' c='mpack_builder_resolve'/>

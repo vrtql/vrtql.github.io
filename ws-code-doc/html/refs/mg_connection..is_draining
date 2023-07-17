@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1220' type='unsigned int'/>
+<offset>1676</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1220'>// Send remaining data, then close and free</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='596' u='w' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1053' u='w' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='654' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='201' u='w' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='272' u='w' c='mg_ws_upgrade'/>

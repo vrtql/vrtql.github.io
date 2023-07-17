@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='517' type='void mpack_read_bytes(mpack_reader_t * reader, char * p, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='499'>/**
+ * Reads bytes from a string, binary blob or extension object, copying
+ * them into the given buffer.
+ *
+ * A str, bin or ext must have been opened by a call to mpack_read_tag()
+ * which yielded one of these types, or by a call to an expect function
+ * such as mpack_expect_str() or mpack_expect_bin().
+ *
+ * If an error occurs, the buffer contents are undefined.
+ *
+ * This can be called multiple times for a single str, bin or ext
+ * to read the data in chunks. The total data read must add up
+ * to the size of the object.
+ *
+ * @param reader The MPack reader
+ * @param p The buffer in which to copy the bytes
+ * @param count The number of bytes to read
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='534' u='c' c='mpack_expect_str_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='573' u='c' c='mpack_expect_bin_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='583' u='c' c='mpack_expect_bin_size_buf'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='441' ll='445' type='void mpack_read_bytes(mpack_reader_t * reader, char * p, size_t count)'/>

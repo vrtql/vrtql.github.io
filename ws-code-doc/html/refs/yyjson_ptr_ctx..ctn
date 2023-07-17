@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3756' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='7476' u='r' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7477' u='r' c='yyjson_ptr_ctx_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='7529' u='r' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7530' u='r' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7561' u='r' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7562' u='r' c='yyjson_ptr_ctx_remove'/>
+<offset>0</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3749'>/**
+     The container (parent) of the target value. It can be either an array or
+     an object. If the target location has no value, but all its parent
+     containers exist, and the target location can be used to insert a new
+     value, then `ctn` is the parent container of the target location.
+     Otherwise, `ctn` is NULL.
+     */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1961' u='w' c='unsafe_yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2053' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2069' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2120' u='r' c='unsafe_yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2122' u='r' c='unsafe_yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2141' u='r' c='unsafe_yyjson_mut_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2143' u='r' c='unsafe_yyjson_mut_ptr_removex'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3770' type='yyjson_mut_val *'/>
+<use f='codebrowser/src/util/yyjson.h' l='7241' u='w' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7349' u='w' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7426' u='w' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7539' u='w' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7553' u='w' c='yyjson_ptr_ctx_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='7572' u='w' c='yyjson_ptr_ctx_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='7580' u='w' c='yyjson_ptr_ctx_remove'/>
+<offset>128</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='3766'>/**
+     The removed value if the operation is `set`, `replace` or `remove`. It can
+     be used to restore the original state of the document if needed.
+     */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2064' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2097' u='w' c='unsafe_yyjson_mut_ptr_putx'/>
+<use f='codebrowser/src/util/yyjson.c' l='2126' u='w' c='unsafe_yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2148' u='w' c='unsafe_yyjson_mut_ptr_removex'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='201' type='void SCT_set_timestamp(SCT * sct, uint64_t timestamp)'/>
+<doc f='include/openssl/ct.h' l='198'>/*
+ * Set the timestamp of an SCT (epoch time in milliseconds).
+ */</doc>

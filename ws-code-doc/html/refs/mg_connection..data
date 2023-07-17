@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1206' type='char [32]'/>
+<offset>1344</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1206'>// Arbitrary connection data</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='426' u='a' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='426' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='601' u='a' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='601' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1054' u='w' c='mg_hfn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1063' u='r' c='mg_hfn'/>

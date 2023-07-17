@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='194' type='6'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='368' u='r' c='mpack_tag_make_double'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='524' u='r' c='mpack_tag_double_value'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='194'>/**&lt; A 64-bit IEEE 754 floating point number. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='60' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='148' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='188' u='r' c='mpack_expect_float'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='210' u='r' c='mpack_expect_double'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='232' u='r' c='mpack_expect_double_strict'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='574' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1270' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2159' u='r' c='mpack_node_float'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2183' u='r' c='mpack_node_double'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2211' u='r' c='mpack_node_double_strict'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='612' c='mpack_write_tag'/>

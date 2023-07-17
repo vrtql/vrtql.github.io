@@ -1,0 +1,4 @@
+<dec f='include/openssl/asyncerr.h' l='26'/>
+<doc f='include/openssl/asyncerr.h' l='23'>/*
+ * ASYNC function codes.
+ */</doc>

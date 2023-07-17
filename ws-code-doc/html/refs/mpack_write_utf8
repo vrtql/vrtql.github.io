@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='872' type='void mpack_write_utf8(mpack_writer_t * writer, const char * str, uint32_t length)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='861'>/**
+ * Writes a string, ensuring that it is valid UTF-8.
+ *
+ * This does not accept any UTF-8 variant such as Modified UTF-8, CESU-8 or
+ * WTF-8. Only pure UTF-8 is allowed.
+ *
+ * You should not call mpack_finish_str() after calling this; this
+ * performs both start and finish.
+ *
+ * @throws mpack_error_invalid if the string is not valid UTF-8
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1340' ll='1347' type='void mpack_write_utf8(mpack_writer_t * writer, const char * str, uint32_t length)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1356' u='c' c='mpack_write_utf8_cstr'/>

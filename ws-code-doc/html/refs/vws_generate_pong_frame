@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/websocket.h' l='148' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>
+<doc f='codebrowser/src/websocket.h' l='139'>/**
+ * @brief Generates a pong frame in response to a received ping frame.
+ *
+ * @param ping_data The data from the received ping frame.
+ * @param s The size of the ping data.
+ * @return A pointer to the generated pong frame.
+ *
+ * @ingroup FrameFunctions
+ */</doc>
+<use f='codebrowser/src/server.c' l='1306' u='c' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/websocket.c' l='919' u='c' c='process_frame'/>
+<def f='codebrowser/src/websocket.c' l='1147' ll='1154' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>

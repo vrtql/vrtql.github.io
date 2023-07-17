@@ -1,0 +1,1 @@
+<def f='include/openssl/ct.h' l='58' macro='1' type='sk_SCT_compfunc sk_SCT_set_cmp_func(struct stack_st_SCT * sk, sk_SCT_compfunc compare)'/>

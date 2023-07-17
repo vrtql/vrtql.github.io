@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/yyjson.h' l='4638' ll='4642' macro='1' type='void unsafe_yyjson_inc_len(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7522' u='c' c='yyjson_ptr_ctx_append'/>

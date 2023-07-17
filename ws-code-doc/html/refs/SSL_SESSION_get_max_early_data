@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1639' type='uint32_t SSL_SESSION_get_max_early_data(const SSL_SESSION * s)'/>

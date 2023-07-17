@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5204' type='yyjson_str_pool'/>
+<use f='codebrowser/src/util/yyjson.h' l='5223' u='a' c='unsafe_yyjson_mut_str_alc'/>
+<offset>320</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5204'>/**&lt; string memory pool */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1222' u='m' c='yyjson_mut_doc_set_str_pool_size'/>
+<use f='codebrowser/src/util/yyjson.c' l='1236' u='a' c='yyjson_mut_doc_free'/>
+<use f='codebrowser/src/util/yyjson.c' l='1250' u='m' c='yyjson_mut_doc_new'/>
+<use f='codebrowser/src/util/yyjson.c' l='1251' u='m' c='yyjson_mut_doc_new'/>

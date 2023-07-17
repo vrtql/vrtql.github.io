@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1623' type='int SSL_SESSION_set_protocol_version(SSL_SESSION * s, int version)'/>

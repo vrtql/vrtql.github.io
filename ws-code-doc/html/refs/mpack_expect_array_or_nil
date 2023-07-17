@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='837' type='_Bool mpack_expect_array_or_nil(mpack_reader_t * reader, uint32_t * count)'/>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='424' ll='439' macro='1' type='_Bool mpack_expect_array_or_nil(mpack_reader_t * reader, uint32_t * count)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='444' u='c' c='mpack_expect_array_max_or_nil'/>

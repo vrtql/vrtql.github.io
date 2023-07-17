@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/util/sc_map.h' l='74' type='_Bool'/>
+<use f='codebrowser/src/http_request.c' l='112' macro='1' u='r' c='vrtql_http_req_free'/>
+<offset>192</offset>
+<use f='codebrowser/src/message.c' l='99' macro='1' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='109' macro='1' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' macro='1' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='169' macro='1' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/test/test_http_request.c' l='21' macro='1' u='r' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_message.c' l='28' macro='1' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='34' macro='1' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='68' macro='1' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='74' macro='1' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/util/sc_map.c' l='138' u='w' c='sc_map_init_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='166' u='w' c='sc_map_clear_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='229' u='r' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='230' u='r' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='231' u='w' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='264' u='r' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='265' u='r' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='293' u='r' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='294' u='r' c='sc_map_del_str'/>
+<use f='codebrowser/src/util/sc_map.c' l='295' u='w' c='sc_map_del_str'/>
+<use f='codebrowser/src/vrtql.c' l='567' macro='1' u='r' c='vrtql_map_clear'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='371' type='void mpack_tree_init_pool(mpack_tree_t * tree, const char * data, size_t length, mpack_node_data_t * node_pool, size_t node_pool_count)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1039' ll='1061' type='void mpack_tree_init_pool(mpack_tree_t * tree, const char * data, size_t length, mpack_node_data_t * node_pool, size_t node_pool_count)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='360'>/**
+ * Initializes a tree parser with the given data, using the given node data
+ * pool to store the results.
+ *
+ * Configure the tree if desired, then call mpack_tree_parse() to parse it.
+ *
+ * If the data does not fit in the pool, @ref mpack_error_too_big will be flagged
+ * on the tree.
+ *
+ * The tree must be destroyed with mpack_tree_destroy(), even if parsing fails.
+ */</doc>

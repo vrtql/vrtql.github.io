@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2428' type='void SSL_CTX_set_allow_early_data_cb(SSL_CTX * ctx, SSL_allow_early_data_cb_fn cb, void * arg)'/>

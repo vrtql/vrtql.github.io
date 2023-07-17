@@ -1,0 +1,3 @@
+<dec f='include/stdio.h' l='765' type='int feof(FILE * __stream)'/>
+<doc f='include/stdio.h' l='764'>/* Return the EOF indicator for STREAM.  */</doc>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='99' u='c' c='mpack_file_reader_fill'/>

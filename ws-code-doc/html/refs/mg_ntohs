@@ -1,0 +1,40 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1029' type='uint16_t mg_ntohs(uint16_t net)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='107' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='109' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='111' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='116' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='206' macro='1' u='c' c='mg_dns_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' macro='1' u='c' c='mg_dns_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='208' macro='1' u='c' c='mg_dns_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259' macro='1' u='c' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='174' macro='1' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='176' macro='1' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='183' macro='1' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='189' macro='1' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='193' macro='1' u='c' c='mg_send_mqtt_properties'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='298' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='302' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='309' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='311' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='315' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='319' macro='1' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='334' macro='1' u='c' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='338' macro='1' u='c' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='353' macro='1' u='c' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='356' macro='1' u='c' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='459' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='477' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='484' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='87' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='88' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='88' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='88' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='89' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='89' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='89' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' u='c' c='print_ip6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='111' u='c' c='mg_print_ip_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' macro='1' u='c' c='mg_open_listener'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='45' ll='49' type='uint16_t mg_ntohs(uint16_t net)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' macro='1' u='c' c='mkhdr'/>

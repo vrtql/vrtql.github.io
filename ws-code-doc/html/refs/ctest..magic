@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/ctest.h' l='76' type='unsigned int'/>
+<use f='codebrowser/src/test/ctest.h' l='536' u='r' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='541' u='r' c='ctest_main'/>
+<offset>416</offset>

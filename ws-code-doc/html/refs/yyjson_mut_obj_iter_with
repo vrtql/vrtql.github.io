@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3244' type='yyjson_mut_obj_iter yyjson_mut_obj_iter_with(yyjson_mut_val * obj)'/>
+<def f='codebrowser/src/util/yyjson.h' l='6372' ll='6377' macro='1' type='yyjson_mut_obj_iter yyjson_mut_obj_iter_with(yyjson_mut_val * obj)'/>

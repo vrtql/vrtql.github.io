@@ -1,0 +1,5 @@
+<dec f='include/time.h' l='72' type='clock_t clock()'/>
+<doc f='include/time.h' l='70'>/* Time used by the program so far (user time + system time).
+   The result / CLOCKS_PER_SEC is program time in seconds.  */</doc>
+<use f='codebrowser/src/test/ctest.h' l='529' u='c' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='588' u='c' c='ctest_main'/>

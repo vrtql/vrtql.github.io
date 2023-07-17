@@ -1,0 +1,43 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='986' ll='997'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='999'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1000'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1001'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1006'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1009' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1011' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1012' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1013' c='mg_file_printf'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1287'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1320' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1343'/>
+<size>80</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='979'>// Filesystem API functions
+// st() returns MG_FS_* flags and populates file size and modification time
+// ls() calls fn() for every directory entry, allowing to list a directory
+//
+// NOTE: UNIX-style shorthand names for the API functions are deliberately
+// chosen to avoid conflicts with some libraries that make macros for e.g.
+// stat(), write(), read() calls.</doc>
+<mbr r='mg_fs::st' o='0' t='int (*)(const char *, size_t *, time_t *)'/>
+<mbr r='mg_fs::ls' o='64' t='void (*)(const char *, void (*)(const char *, void *), void *)'/>
+<mbr r='mg_fs::op' o='128' t='void *(*)(const char *, int)'/>
+<mbr r='mg_fs::cl' o='192' t='void (*)(void *)'/>
+<mbr r='mg_fs::rd' o='256' t='size_t (*)(void *, void *, size_t)'/>
+<mbr r='mg_fs::wr' o='320' t='size_t (*)(void *, const void *, size_t)'/>
+<mbr r='mg_fs::sk' o='384' t='size_t (*)(void *, size_t)'/>
+<mbr r='mg_fs::mv' o='448' t='_Bool (*)(const char *, const char *)'/>
+<mbr r='mg_fs::rm' o='512' t='_Bool (*)(const char *)'/>
+<mbr r='mg_fs::mkd' o='576' t='_Bool (*)(const char *)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='5' c='mg_fs_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='65' c='mg_file_printf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='117'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='525' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='619' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='682' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='726' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='778' c='uri_to_path'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='879' c='mg_http_upload'/>
+<size>80</size>

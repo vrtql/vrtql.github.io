@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='905' type='size_t mg_print_base64(void (*)(char, void *) out, void * arg, va_list * ap)'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='904'>// %M print helper functions</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='174' ll='178' type='size_t mg_print_base64(void (*)(char, void *) out, void * arg, va_list * ap)'/>

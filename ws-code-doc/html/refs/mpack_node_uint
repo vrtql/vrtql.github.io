@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='806' type='unsigned int mpack_node_uint(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2117' ll='2130' type='unsigned int mpack_node_uint(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='799'>/**
+ * Returns the unsigned int value of the node.
+ *
+ * Returns zero if an error occurs.
+ *
+ * @throws mpack_error_type If the node is not an integer type or does not fit in the range of an unsigned int
+ */</doc>

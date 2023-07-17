@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/util/yyjson.h' l='3814' type='yyjson_val * yyjson_ptr_get(yyjson_val * val, const char * ptr)'/>
+<def f='codebrowser/src/util/yyjson.h' l='7011' ll='7015' macro='1' type='yyjson_val * yyjson_ptr_get(yyjson_val * val, const char * ptr)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7602' u='c' c='yyjson_ptr_get_bool'/>
+<use f='codebrowser/src/util/yyjson.h' l='7617' u='c' c='yyjson_ptr_get_uint'/>
+<use f='codebrowser/src/util/yyjson.h' l='7632' u='c' c='yyjson_ptr_get_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='7647' u='c' c='yyjson_ptr_get_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='7663' u='c' c='yyjson_ptr_get_num'/>
+<use f='codebrowser/src/util/yyjson.h' l='7678' u='c' c='yyjson_ptr_get_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='7726' u='c' c='yyjson_get_pointer'/>

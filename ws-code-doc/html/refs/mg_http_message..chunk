@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1276' type='struct mg_str'/>
+<offset>8448</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1276'>// Chunk for chunked encoding,  or partial body</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='950' u='m' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='951' u='m' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='970' u='w' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='995' u='w' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='996' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='997' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='998' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1001' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1001' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1002' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1003' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1006' u='m' c='deliver_normal_chunks'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/bnerr.h' l='26'/>
+<doc f='include/openssl/bnerr.h' l='23'>/*
+ * BN function codes.
+ */</doc>

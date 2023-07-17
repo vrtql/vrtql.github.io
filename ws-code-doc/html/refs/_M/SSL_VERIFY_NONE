@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1099'/>
+<doc f='include/openssl/ssl.h' l='1095'>/*
+ * use either SSL_VERIFY_NONE or SSL_VERIFY_PEER, the last 3 options are
+ * &apos;ored&apos; with SSL_VERIFY_PEER if they are desired
+ */</doc>

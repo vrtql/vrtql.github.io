@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='898' type='size_t mg_snprintf(char * , size_t , const char * fmt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='45' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='67' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='72' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='97' u='c' c='mg_dtoa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='51' u='c' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='c' c='packed_list'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='296' u='c' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='399' u='c' c='mg_http_reply'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='416' u='c' c='mg_http_etag'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='537' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='575' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='580' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='626' u='c' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='634' u='c' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='636' u='c' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='646' u='c' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='718' u='c' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='730' u='c' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='756' u='c' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='758' u='c' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='761' u='c' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='838' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='839' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='842' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='845' u='c' c='mg_http_creds'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='c' c='mg_log_prefix'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' u='c' c='mg_queue_vprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='53' ll='60' type='size_t mg_snprintf(char * buf, size_t len, const char * fmt)'/>

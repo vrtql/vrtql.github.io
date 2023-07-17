@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='154'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='150'>/**
+ *   @param q queue
+ *   @return true if queue is empty
+ */</doc>

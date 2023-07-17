@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1507' type='struct mg_str'/>
+<offset>256</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1507'>// Whole MQTT packet, including headers</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='206' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='211' u='m' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='367' u='m' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='383' u='m' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='444' u='m' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='492' u='m' c='mqtt_cb'/>

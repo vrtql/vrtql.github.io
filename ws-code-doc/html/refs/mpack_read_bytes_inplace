@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='656' type='const char * mpack_read_bytes_inplace(mpack_reader_t * reader, size_t count)'/>
+<use f='codebrowser/src/message.c' l='510' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='528' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='569' u='c' c='msg_parse_content'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='626'>/**
+ * Reads bytes from a string, binary blob or extension object in-place in
+ * the buffer. This can be used to avoid copying the data.
+ *
+ * A str, bin or ext must have been opened by a call to mpack_read_tag()
+ * which yielded one of these types, or by a call to an expect function
+ * such as mpack_expect_str() or mpack_expect_bin().
+ *
+ * If the bytes are from a string, the string is not null-terminated! Use
+ * mpack_read_cstr() to copy the string into a buffer and add a null-terminator.
+ *
+ * The returned pointer is invalidated on the next read, or when the buffer
+ * is destroyed.
+ *
+ * The reader will move data around in the buffer if needed to ensure that
+ * the pointer can always be returned, so this should only be used if
+ * count is very small compared to the buffer size. If you need to check
+ * whether a small size is reasonable (for example you intend to handle small and
+ * large sizes differently), you can call mpack_should_read_bytes_inplace().
+ *
+ * This can be called multiple times for a single str, bin or ext
+ * to read the data in chunks. The total data read must add up
+ * to the size of the object.
+ *
+ * NULL is returned if the reader is in an error state.
+ *
+ * @throws mpack_error_too_big if the requested size is larger than the buffer size
+ *
+ * @see mpack_should_read_bytes_inplace()
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='775' u='c' c='mpack_expect_enum'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='809' u='c' c='mpack_expect_enum_optional'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='564' ll='567' type='const char * mpack_read_bytes_inplace(mpack_reader_t * reader, size_t count)'/>

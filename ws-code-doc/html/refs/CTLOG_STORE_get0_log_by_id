@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='454' type='const CTLOG * CTLOG_STORE_get0_log_by_id(const CTLOG_STORE * store, const uint8_t * log_id, size_t log_id_len)'/>
+<doc f='include/openssl/ct.h' l='450'>/*
+ * Finds a CT log in the store based on its log ID.
+ * Returns the CT log, or NULL if no match is found.
+ */</doc>

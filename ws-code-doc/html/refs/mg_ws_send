@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1406' type='size_t mg_ws_send(struct mg_connection * , const void * buf, size_t len, int op)'/>
+<use f='codebrowser/src/test/client.c' l='36' u='c' c='fn'/>
+<use f='codebrowser/src/test/server.c' l='57' u='c' c='fn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='133' ll='142' type='size_t mg_ws_send(struct mg_connection * c, const void * buf, size_t len, int op)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='186' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='200' u='c' c='mg_ws_cb'/>

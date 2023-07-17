@@ -1,0 +1,21 @@
+<def f='codebrowser/src/util/yyjson.h' l='690' type='const yyjson_read_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='688'>/** Allow inf/nan number and literal, case-insensitive,
+    such as 1e999, NaN, inf, -Infinity (non-standard). */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='3715' u='r' c='read_number_raw'/>
+<use f='codebrowser/src/util/yyjson.c' l='3840' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='3849' u='r' c='is_truncated_end'/>
+<use f='codebrowser/src/util/yyjson.c' l='4275' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4235' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4235' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4235' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4235' u='r' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='5536' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5541' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5726' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5742' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5879' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5888' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6131' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6147' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6305' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6314' u='r' c='read_root_pretty'/>

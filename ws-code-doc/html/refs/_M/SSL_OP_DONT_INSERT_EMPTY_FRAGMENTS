@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='326'/>
+<doc f='include/openssl/ssl.h' l='319'>/*
+ * Disable SSL 3.0/TLS 1.0 CBC vulnerability workaround that was added in
+ * OpenSSL 0.9.6d.  Usually (depending on the application protocol) the
+ * workaround is not needed.  Unfortunately some broken SSL/TLS
+ * implementations cannot handle it at all, which is why we include it in
+ * SSL_OP_ALL. Added in 0.9.6e
+ */</doc>

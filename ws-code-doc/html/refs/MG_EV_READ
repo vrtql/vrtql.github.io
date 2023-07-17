@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1138' type='7'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1138'>// Data received from socket    long *bytes_read</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='149' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1016' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='433' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' u='r' c='sntp_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='635' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='170' u='r' c='mg_ws_cb'/>

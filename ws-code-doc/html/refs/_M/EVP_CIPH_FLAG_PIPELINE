@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='280'/>
+<doc f='include/openssl/evp.h' l='279'>/* Cipher can handle pipeline operations */</doc>

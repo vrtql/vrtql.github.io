@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='593' type='void mpack_tree_flag_error(mpack_tree_t * tree, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='96' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='105' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='128' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='149' u='c' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='193' u='c' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='238' u='c' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='250' u='c' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='279' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='288' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='309' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='329' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='340' u='c' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='726' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='740' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='945' u='c' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='958' u='c' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1003' u='c' c='mpack_tree_root'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1049' u='c' c='mpack_tree_init_pool'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1233' ll='1241' type='void mpack_tree_flag_error(mpack_tree_t * tree, mpack_error_t error)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1250' u='c' c='mpack_node_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1835' u='c' c='mpack_node_wrap_lookup'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='583'>/**
+ * Places the tree in the given error state, calling the error callback if one
+ * is set.
+ *
+ * This allows you to externally flag errors, for example if you are validating
+ * data as you read it.
+ *
+ * If the tree is already in an error state, this call is ignored and no
+ * error callback is called.
+ */</doc>

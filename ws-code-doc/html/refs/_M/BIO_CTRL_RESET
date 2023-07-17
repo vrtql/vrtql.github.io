@@ -1,0 +1,4 @@
+<dec f='include/openssl/bio.h' l='71'/>
+<doc f='include/openssl/bio.h' l='68'>/*
+ * These are used in the following macros and are passed to BIO_ctrl()
+ */</doc>

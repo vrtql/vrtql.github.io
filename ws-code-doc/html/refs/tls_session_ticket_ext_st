@@ -1,0 +1,6 @@
+<use f='include/openssl/ssl.h' l='210'/>
+<def f='include/openssl/tls1.h' l='1229' ll='1232'/>
+<size>16</size>
+<doc f='include/openssl/tls1.h' l='1228'>/* TLS Session Ticket extension struct */</doc>
+<mbr r='tls_session_ticket_ext_st::length' o='0' t='unsigned short'/>
+<mbr r='tls_session_ticket_ext_st::data' o='64' t='void *'/>

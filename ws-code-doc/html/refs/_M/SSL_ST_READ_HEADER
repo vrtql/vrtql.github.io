@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1082'/>
+<doc f='include/openssl/ssl.h' l='1078'>/*
+ * The following 3 states are kept in ssl-&gt;rlayer.rstate when reads fail, you
+ * should not need these
+ */</doc>

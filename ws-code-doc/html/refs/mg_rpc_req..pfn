@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1599' type='mg_pfn_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1599'>// Response printing function</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='55' u='r' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='57' u='r' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='58' u='r' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='r' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' u='r' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='76' u='r' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='78' u='r' c='mg_rpc_verr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='79' u='r' c='mg_rpc_verr'/>

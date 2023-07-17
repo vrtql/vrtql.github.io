@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='274' type='mpack_error_t mpack_reader_destroy(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/message.c' l='276' u='c' c='vrtql_msg_deserialize'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='260'>/**
+ * Cleans up the MPack reader, ensuring that all compound elements
+ * have been completely read. Returns the final error state of the
+ * reader.
+ *
+ * This will assert in tracking mode if the reader is not in an error
+ * state and has any incomplete reads. If you want to cancel reading
+ * in the middle of a document, you need to flag an error on the reader
+ * before destroying it (such as mpack_error_data).
+ *
+ * @see mpack_read_tag()
+ * @see mpack_reader_flag_error()
+ * @see mpack_error_data
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='185' ll='197' type='mpack_error_t mpack_reader_destroy(mpack_reader_t * reader)'/>

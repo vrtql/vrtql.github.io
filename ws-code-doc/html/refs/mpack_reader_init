@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='186' type='void mpack_reader_init(mpack_reader_t * reader, char * buffer, size_t size, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='176'>/**
+ * Initializes an MPack reader with the given buffer. The reader does
+ * not assume ownership of the buffer, but the buffer must be writeable
+ * if a fill function will be used to refill it.
+ *
+ * @param reader The MPack reader.
+ * @param buffer The buffer with which to read MessagePack data.
+ * @param size The size of the buffer.
+ * @param count The number of bytes already in the buffer.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='32' ll='47' type='void mpack_reader_init(mpack_reader_t * reader, char * buffer, size_t size, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='163' u='c' c='mpack_reader_init_stdfile'/>

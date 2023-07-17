@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='761' type='int8_t mpack_node_i8(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2007' ll='2021' type='int8_t mpack_node_i8(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='757'>/**
+ * Returns the 8-bit signed value of the node. If this node is not
+ * of a compatible type, @ref mpack_error_type is raised and zero is returned.
+ */</doc>

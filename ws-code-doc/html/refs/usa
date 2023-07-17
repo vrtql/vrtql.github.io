@@ -1,0 +1,15 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='48' ll='54'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' c='tomgaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='86' c='setlocaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='100' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' c='mg_io_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='245' c='mg_io_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='302' c='connect_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='350' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='368' c='raccept'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='380' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='421' c='mg_socketpair'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='463' c='mg_mkpipe'/>
+<size>16</size>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/socket.h' l='36' type='SSL_CTX *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/socket.h' l='35'>/**&lt; The SSL context for the connection. */</doc>
+<use f='codebrowser/src/socket.c' l='79' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='255' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='257' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='263' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='265' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='522' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='524' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='525' u='w' c='vws_socket_close'/>

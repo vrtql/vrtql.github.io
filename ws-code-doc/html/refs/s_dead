@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/http_parser.c' l='344' type='1'/>
+<use f='codebrowser/src/http_parser.c' l='561' u='r' c='parse_url_char'/>
+<use f='codebrowser/src/http_parser.c' l='566' u='r' c='parse_url_char'/>
+<use f='codebrowser/src/http_parser.c' l='613' u='r' c='parse_url_char'/>
+<use f='codebrowser/src/http_parser.c' l='702' u='r' c='parse_url_char'/>
+<use f='codebrowser/src/http_parser.c' l='738' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='785' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1101' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1123' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1156' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='527' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2549' c='http_parser_parse_url'/>
+<doc f='codebrowser/src/http_parser.c' l='344'>/* important that this is &gt; 0 */</doc>

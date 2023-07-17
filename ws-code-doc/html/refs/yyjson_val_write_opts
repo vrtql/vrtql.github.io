@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1296' type='char * yyjson_val_write_opts(const yyjson_val * val, yyjson_write_flag flg, const yyjson_alc * alc, size_t * len, yyjson_write_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='1372' u='c' c='yyjson_val_write'/>
+<def f='codebrowser/src/util/yyjson.c' l='8546' ll='8578' type='char * yyjson_val_write_opts(const yyjson_val * val, yyjson_write_flag flg, const yyjson_alc * alc_ptr, usize * dat_len, yyjson_write_err * err)'/>
+<use f='codebrowser/src/util/yyjson.c' l='8586' u='c' c='yyjson_write_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='8608' u='c' c='yyjson_val_write_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8634' u='c' c='yyjson_val_write_fp'/>

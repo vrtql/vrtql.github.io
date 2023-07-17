@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1415' type='struct mg_connection * mg_sntp_connect(struct mg_mgr * mgr, const char * url, mg_event_handler_t fn, void * fn_data)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='75' ll='81' type='struct mg_connection * mg_sntp_connect(struct mg_mgr * mgr, const char * url, mg_event_handler_t fn, void * fnd)'/>

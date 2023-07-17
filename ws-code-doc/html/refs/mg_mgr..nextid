@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1178' type='unsigned long'/>
+<offset>384</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1178'>// Next connection ID</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='129' u='w' c='mg_alloc_conn'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/src/util/yyjson.h' l='995' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='990'>/** Default option:
+    - Write JSON minify.
+    - Report error on inf or nan number.
+    - Report error on invalid UTF-8 string.
+    - Do not escape unicode or slash. */</doc>

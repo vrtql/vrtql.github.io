@@ -1,0 +1,13 @@
+<dec f='include/openssl/ssl.h' l='2196' type='int SSL_set_ct_validation_callback(SSL * s, ssl_ct_validation_cb callback, void * arg)'/>
+<doc f='include/openssl/ssl.h' l='2184'>/*
+ * Sets a |callback| that is invoked upon receipt of ServerHelloDone to validate
+ * the received SCTs.
+ * If the callback returns a non-positive result, the connection is terminated.
+ * Call this function before beginning a handshake.
+ * If a NULL |callback| is provided, SCT validation is disabled.
+ * |arg| is arbitrary userdata that will be passed to the callback whenever it
+ * is invoked. Ownership of |arg| remains with the caller.
+ *
+ * NOTE: A side-effect of setting a CT callback is that an OCSP stapled response
+ *       will be requested.
+ */</doc>

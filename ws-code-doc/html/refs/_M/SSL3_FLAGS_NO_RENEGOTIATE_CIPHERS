@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl3.h' l='277'/>
+<doc f='include/openssl/ssl3.h' l='276'>/* No longer used as of OpenSSL 1.1.1 */</doc>

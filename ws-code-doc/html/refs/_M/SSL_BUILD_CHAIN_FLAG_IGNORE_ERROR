@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='535'/>
+<doc f='include/openssl/ssl.h' l='534'>/* Ignore verification errors */</doc>

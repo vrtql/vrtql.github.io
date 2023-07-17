@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1525' type='int SSL_CIPHER_get_kx_nid(const SSL_CIPHER * c)'/>

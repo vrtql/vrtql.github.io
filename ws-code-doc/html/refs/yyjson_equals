@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1638' type='_Bool yyjson_equals(yyjson_val * lhs, yyjson_val * rhs)'/>
+<def f='codebrowser/src/util/yyjson.h' l='4884' ll='4887' macro='1' type='_Bool yyjson_equals(yyjson_val * lhs, yyjson_val * rhs)'/>

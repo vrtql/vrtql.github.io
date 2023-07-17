@@ -1,0 +1,4 @@
+<dec f='include/string.h' l='329' type='char * strstr(const char * __haystack, const char * __needle)'/>
+<use f='codebrowser/src/test/ctest.h' l='356' u='c' c='assert_str'/>
+<use f='codebrowser/src/vrtql.c' l='730' u='c' c='url_extract_part'/>
+<use f='codebrowser/src/websocket.c' l='974' u='c' c='extract_websocket_accept_key'/>

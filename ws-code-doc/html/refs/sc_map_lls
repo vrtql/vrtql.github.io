@@ -1,0 +1,27 @@
+<def f='codebrowser/src/util/sc_map.h' l='220' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_init_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_term_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_size_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_clear_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_put_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_get_lls'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_del_lls'/>
+<size>32</size>
+<mbr r='sc_map_lls::mem' o='0' t='struct sc_map_item_lls *'/>
+<mbr r='sc_map_lls::cap' o='64' t='uint32_t'/>
+<mbr r='sc_map_lls::size' o='96' t='uint32_t'/>
+<mbr r='sc_map_lls::load_fac' o='128' t='uint32_t'/>
+<mbr r='sc_map_lls::remap' o='160' t='uint32_t'/>
+<mbr r='sc_map_lls::used' o='192' t='_Bool'/>
+<mbr r='sc_map_lls::oom' o='200' t='_Bool'/>
+<mbr r='sc_map_lls::found' o='208' t='_Bool'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_init_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_term_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_size_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_clear_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_remap_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_put_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_get_lls'/>
+<use f='codebrowser/src/util/sc_map.c' l='402' macro='1' c='sc_map_del_lls'/>
+<size>32</size>

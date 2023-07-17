@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='569' type='void mpack_write_i64(mpack_writer_t * writer, int64_t value)'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='573' u='c' c='mpack_write_int'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='568'>/** Writes a 64-bit integer in the most efficient packing available. */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1034' ll='1069' type='void mpack_write_i64(mpack_writer_t * writer, int64_t value)'/>

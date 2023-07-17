@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/http_request.h' l='17' type='http_parser_settings *'/>
+<use f='codebrowser/src/http_request.c' l='79' u='w' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_request.c' l='88' u='r' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_request.c' l='90' u='r' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_request.c' l='124' u='r' c='vrtql_http_req_free'/>
+<use f='codebrowser/src/http_request.c' l='216' u='r' c='vrtql_http_req_parse'/>
+<offset>64</offset>
+<doc f='codebrowser/src/http_request.h' l='16'>/**&lt; The parser settings */</doc>

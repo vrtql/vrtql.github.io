@@ -1,0 +1,19 @@
+<def f='codebrowser/src/mpack/mpack-reader.h' l='783' ll='785' macro='1' type='void mpack_done_str(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/message.c' l='515' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='533' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='573' u='c' c='msg_parse_content'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='776'>/**
+ * @fn mpack_done_str(mpack_reader_t* reader)
+ *
+ * Finishes reading a string.
+ *
+ * This will track reads to ensure that the correct number of bytes are read.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='538' u='c' c='mpack_expect_str_buf'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='623' u='c' c='mpack_expect_cstr'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='629' u='c' c='mpack_expect_utf8_cstr'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='654' u='c' c='mpack_expect_cstr_alloc_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='707' u='c' c='mpack_expect_str_match'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='776' u='c' c='mpack_expect_enum'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='810' u='c' c='mpack_expect_enum_optional'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='998' u='c' c='mpack_discard'/>

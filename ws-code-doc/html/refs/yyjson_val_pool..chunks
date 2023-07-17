@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5198' type='yyjson_val_chunk *'/>
+<offset>256</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5198'>/* a linked list of chunks, nullable */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1157' u='r' c='unsafe_yyjson_val_pool_release'/>
+<use f='codebrowser/src/util/yyjson.c' l='1206' u='r' c='unsafe_yyjson_val_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='1208' u='w' c='unsafe_yyjson_val_pool_grow'/>
+<use f='codebrowser/src/util/yyjson.c' l='8690' u='r' c='yyjson_mut_doc_estimated_val_num'/>
+<use f='codebrowser/src/util/yyjson.c' l='8693' u='r' c='yyjson_mut_doc_estimated_val_num'/>

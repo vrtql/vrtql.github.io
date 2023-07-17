@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1088' type='void mg_iobuf_free(struct mg_iobuf * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='73' ll='75' type='void mg_iobuf_free(struct mg_iobuf * io)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' u='c' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='146' u='c' c='mg_close_conn'/>

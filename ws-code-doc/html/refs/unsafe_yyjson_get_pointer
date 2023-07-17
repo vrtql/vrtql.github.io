@@ -1,0 +1,1 @@
+<def f='codebrowser/src/util/yyjson.h' l='7753' ll='7759' macro='1' type='yyjson_val * unsafe_yyjson_get_pointer(yyjson_val * val, const char * ptr, size_t len)'/>

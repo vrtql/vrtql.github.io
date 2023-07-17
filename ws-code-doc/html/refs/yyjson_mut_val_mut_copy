@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2051' type='yyjson_mut_val * yyjson_mut_val_mut_copy(yyjson_mut_doc * doc, yyjson_mut_val * val)'/>
+<use f='codebrowser/src/util/yyjson.c' l='1283' u='c' c='yyjson_mut_doc_mut_copy'/>
+<def f='codebrowser/src/util/yyjson.c' l='1410' ll='1414' type='yyjson_mut_val * yyjson_mut_val_mut_copy(yyjson_mut_doc * doc, yyjson_mut_val * val)'/>
+<use f='codebrowser/src/util/yyjson.c' l='2327' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2366' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2397' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2448' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2545' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2564' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2565' u='c' c='yyjson_mut_merge_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2577' u='c' c='yyjson_mut_merge_patch'/>

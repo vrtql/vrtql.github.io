@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='1051' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1050'>/** Invalid unicode in string. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8160' macro='1' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8337' macro='1' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8539' macro='1' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8886' macro='1' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9094' macro='1' u='r' c='yyjson_mut_write_pretty'/>

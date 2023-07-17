@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/message.h' l='57' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
+<def f='codebrowser/src/message.c' l='380' ll='383' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
+<doc f='codebrowser/src/message.h' l='51'>/**
+ * @brief Sets a header key-value pair.
+ * @param msg The vrtql_msg instance.
+ * @param key The header key.
+ * @param value The header value.
+ */</doc>
+<use f='codebrowser/src/test/test_message.c' l='13' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='52' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_rpc.c' l='9' u='c' c='session_login'/>
+<use f='codebrowser/src/test/test_rpc.c' l='18' u='c' c='session_logout'/>
+<use f='codebrowser/src/test/test_rpc.c' l='27' u='c' c='session_info'/>
+<use f='codebrowser/src/test/test_rpc.c' l='61' u='c' c='ctest_test_rpc_call_run'/>

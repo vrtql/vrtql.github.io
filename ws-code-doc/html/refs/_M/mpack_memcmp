@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1746'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='147' u='c'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='149' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='785' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='819' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1817' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1919' u='c'/>
+<use f='codebrowser/src/mpack/mpack-platform.c' l='142' u='a'/>

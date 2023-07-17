@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1513' type='size_t'/>
+<offset>512</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1513'>// Length of the properties</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='211' u='r' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='415' u='a' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='418' u='r' c='mg_mqtt_parse'/>

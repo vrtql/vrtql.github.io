@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='375'/>
+<doc f='include/openssl/ssl.h' l='371'>/*
+ * Switches off automatic TLSv1.3 anti-replay protection for early data. This
+ * is a server-side option only (no effect on the client).
+ */</doc>

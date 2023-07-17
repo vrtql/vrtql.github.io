@@ -1,0 +1,8 @@
+<def f='codebrowser/src/util/yyjson.h' l='1001' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1000'>/** Escape unicode as `uXXXX`, make the output ASCII only. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='7638' u='r' c='get_enc_table_with_flag'/>
+<use f='codebrowser/src/util/yyjson.c' l='8091' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8217' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8394' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8761' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8944' u='r' c='yyjson_mut_write_pretty'/>

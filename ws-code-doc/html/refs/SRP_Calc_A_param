@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='648' type='int SRP_Calc_A_param(SSL * s)'/>

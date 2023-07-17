@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='923' type='void SSL_CTX_set_keylog_callback(SSL_CTX * ctx, SSL_CTX_keylog_cb_func cb)'/>
+<doc f='include/openssl/ssl.h' l='918'>/*
+ * SSL_CTX_set_keylog_callback configures a callback to log key material. This
+ * is intended for debugging use with tools like Wireshark. The cb function
+ * should log line followed by a newline.
+ */</doc>

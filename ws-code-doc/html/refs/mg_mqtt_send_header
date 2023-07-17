@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1525' type='void mg_mqtt_send_header(struct mg_connection * , uint8_t cmd, uint8_t flags, uint32_t len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='50' ll='61' type='void mg_mqtt_send_header(struct mg_connection * c, uint8_t cmd, uint8_t flags, uint32_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='295' u='c' c='mg_mqtt_login'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='333' u='c' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='351' u='c' c='mg_mqtt_sub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='463' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='479' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='486' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='503' u='c' c='mg_mqtt_ping'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='507' u='c' c='mg_mqtt_pong'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='514' u='c' c='mg_mqtt_disconnect'/>

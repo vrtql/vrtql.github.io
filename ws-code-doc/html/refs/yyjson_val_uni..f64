@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4382' type='double'/>
+<use f='codebrowser/src/util/yyjson.h' l='4570' u='r' c='unsafe_yyjson_get_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='4576' u='r' c='unsafe_yyjson_get_num'/>
+<use f='codebrowser/src/util/yyjson.h' l='4677' u='w' c='unsafe_yyjson_set_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='5610' u='w' c='yyjson_mut_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='5905' u='w' c='yyjson_mut_arr_with_float'/>
+<use f='codebrowser/src/util/yyjson.h' l='5913' u='w' c='yyjson_mut_arr_with_double'/>
+<use f='codebrowser/src/util/yyjson.h' l='6810' u='w' c='yyjson_mut_obj_add_real'/>
+<offset>0</offset>
+<use f='codebrowser/src/util/yyjson.c' l='4223' u='w' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4223' u='w' c='read_number'/>
+<use f='codebrowser/src/util/yyjson.c' l='4223' u='w' c='read_number'/>

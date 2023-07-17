@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2028' type='yyjson_mut_doc * yyjson_doc_mut_copy(yyjson_doc * doc, const yyjson_alc * alc)'/>
+<def f='codebrowser/src/util/yyjson.c' l='1257' ll='1271' type='yyjson_mut_doc * yyjson_doc_mut_copy(yyjson_doc * doc, const yyjson_alc * alc)'/>

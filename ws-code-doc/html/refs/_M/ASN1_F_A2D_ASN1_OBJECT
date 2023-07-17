@@ -1,0 +1,4 @@
+<dec f='include/openssl/asn1err.h' l='24'/>
+<doc f='include/openssl/asn1err.h' l='21'>/*
+ * ASN1 function codes.
+ */</doc>

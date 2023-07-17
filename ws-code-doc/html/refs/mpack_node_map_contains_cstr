@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1454' type='_Bool mpack_node_map_contains_cstr(mpack_node_t node, const char * cstr)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1896' ll='1899' macro='1' type='_Bool mpack_node_map_contains_cstr(mpack_node_t node, const char * cstr)'/>

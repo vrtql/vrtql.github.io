@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1443' type='size_t mpack_expect_key_uint(mpack_reader_t * reader, _Bool * found, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1418'>/**
+ * Expects an unsigned integer map key between 0 and count-1, marking it
+ * as found in the given bool array and returning it.
+ *
+ * This is a helper for switching among int keys in a map. It is
+ * typically used with an enum to define the key values. It should
+ * be called in the expression of a switch() statement. See @ref
+ * docs/expect.md for an example.
+ *
+ * The found array must be cleared before expecting the first key. If the
+ * flag for a given key is already set when found (i.e. the map contains a
+ * duplicate key), mpack_error_invalid is flagged.
+ *
+ * If the key is not a non-negative integer, or if the key is @a count or
+ * larger, @a count is returned and no error is flagged. If you want an error
+ * on unrecognized keys, flag an error in the default case in your switch;
+ * otherwise you must call mpack_discard() to discard its content.
+ *
+ * @param reader The reader
+ * @param found An array of bool flags of length count
+ * @param count The number of values in the found array, and one more than the
+ *              maximum allowed key
+ *
+ * @see @ref docs/expect.md
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='827' ll='861' type='size_t mpack_expect_key_uint(mpack_reader_t * reader, _Bool * found, size_t count)'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1139' type='_Bool yyjson_write_fp(FILE * fp, const yyjson_doc * doc, yyjson_write_flag flg, const yyjson_alc * alc, yyjson_write_err * err)'/>
+<def f='codebrowser/src/util/yyjson.c' l='8650' ll='8657' macro='1' type='_Bool yyjson_write_fp(FILE * fp, const yyjson_doc * doc, yyjson_write_flag flg, const yyjson_alc * alc_ptr, yyjson_write_err * err)'/>

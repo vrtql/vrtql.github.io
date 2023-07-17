@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='977' type='1'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='30' u='r' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='36' u='r' c='packed_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='r' c='p_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='170' u='r' c='p_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='538' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='542' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='547' u='r' c='mg_http_serve_file'/>

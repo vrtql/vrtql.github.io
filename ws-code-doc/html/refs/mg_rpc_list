@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1623' type='void mg_rpc_list(struct mg_rpc_req * r)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='100' ll='102' type='void mg_rpc_list(struct mg_rpc_req * r)'/>

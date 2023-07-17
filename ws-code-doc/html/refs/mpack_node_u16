@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='767' type='uint16_t mpack_node_u16(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2023' ll='2037' type='uint16_t mpack_node_u16(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='763'>/**
+ * Returns the 16-bit unsigned value of the node. If this node is not
+ * of a compatible type, @ref mpack_error_type is raised and zero is returned.
+ */</doc>

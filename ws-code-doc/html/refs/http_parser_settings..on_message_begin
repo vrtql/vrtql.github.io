@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/http_parser.h' l='336' type='http_cb'/>
+<use f='codebrowser/src/http_parser.c' l='807' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='807' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='850' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='850' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1033' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1033' macro='1' u='r' c='http_parser_execute'/>
+<offset>0</offset>
+<use f='codebrowser/src/http_request.c' l='91' u='w' c='vrtql_http_req_new'/>

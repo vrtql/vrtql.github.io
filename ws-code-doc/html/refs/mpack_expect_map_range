@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='672' type='uint32_t mpack_expect_map_range(mpack_reader_t * reader, uint32_t min_count, uint32_t max_count)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='692' u='c' c='mpack_expect_map_max'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='655'>/**
+ * Reads the start of a map with a number of elements in the given range, returning
+ * its element count.
+ *
+ * A number of values follow equal to twice the element count of the map,
+ * alternating between keys and values. @ref mpack_done_map() must be called
+ * once all elements have been read.
+ *
+ * @note Maps in JSON are unordered, so it is recommended not to expect
+ * a specific ordering for your map values in case your data is converted
+ * to/from JSON.
+ *
+ * min_count is returned if an error occurs.
+ *
+ * @throws mpack_error_type if the value is not a map or if its size does
+ * not fall within the given range.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='303' type='uint32_t mpack_expect_map_range(mpack_reader_t * reader, uint32_t min_value, uint32_t max_value)'/>

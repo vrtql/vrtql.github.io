@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509err.h' l='26'/>
+<doc f='include/openssl/x509err.h' l='23'>/*
+ * X509 function codes.
+ */</doc>

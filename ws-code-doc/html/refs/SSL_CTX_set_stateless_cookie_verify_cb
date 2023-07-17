@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='759' type='void SSL_CTX_set_stateless_cookie_verify_cb(SSL_CTX * ctx, int (*)(SSL *, const unsigned char *, size_t) verify_stateless_cookie_cb)'/>

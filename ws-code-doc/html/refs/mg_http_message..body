@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1274' type='struct mg_str'/>
+<offset>8192</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1274'>// Body</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='232' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='235' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='256' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='257' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='273' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='276' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='283' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='884' u='m' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='889' u='m' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='898' u='m' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='906' u='m' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='906' u='m' c='mg_http_upload'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='982' u='m' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1000' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1000' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1005' u='m' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1030' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1030' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1056' u='r' c='mg_hfn'/>

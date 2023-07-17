@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1743' type='int SSL_dane_tlsa_add(SSL * s, uint8_t usage, uint8_t selector, uint8_t mtype, const unsigned char * data, size_t dlen)'/>

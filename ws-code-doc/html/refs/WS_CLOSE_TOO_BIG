@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/websocket.c' l='77' type='1009'/>
+<doc f='codebrowser/src/websocket.c' l='75'>/** Message Too Big. The endpoint is terminating the connection because a
+     * data frame was received that is too large. */</doc>

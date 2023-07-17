@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1980' type='void yyjson_mut_doc_set_root(yyjson_mut_doc * doc, yyjson_mut_val * root)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5268' ll='5271' macro='1' type='void yyjson_mut_doc_set_root(yyjson_mut_doc * doc, yyjson_mut_val * root)'/>
+<use f='codebrowser/src/message.c' l='157' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/test/test_json.c' l='66' u='c' c='ctest_test_write_run'/>
+<use f='codebrowser/src/util/yyjson.c' l='1269' u='c' c='yyjson_doc_mut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1288' u='c' c='yyjson_mut_doc_mut_copy'/>

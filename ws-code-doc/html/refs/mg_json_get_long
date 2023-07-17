@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1585' type='long mg_json_get_long(struct mg_str json, const char * path, long dflt)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1056' u='c' c='mg_hfn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='298' ll='303' type='long mg_json_get_long(struct mg_str json, const char * path, long dflt)'/>

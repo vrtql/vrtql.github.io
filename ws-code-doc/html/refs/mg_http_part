@@ -1,0 +1,9 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1291' ll='1295'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1323' c='mg_http_next_multipart'/>
+<size>48</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1290'>// Parameter for mg_http_next_multipart</doc>
+<mbr r='mg_http_part::name' o='0' t='struct mg_str'/>
+<mbr r='mg_http_part::filename' o='128' t='struct mg_str'/>
+<mbr r='mg_http_part::body' o='256' t='struct mg_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='47' c='mg_http_next_multipart'/>
+<size>48</size>

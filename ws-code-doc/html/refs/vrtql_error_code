@@ -1,0 +1,5 @@
+<def f='codebrowser/src/vrtql.h' l='21' ll='30'/>
+<use f='codebrowser/src/vrtql.h' l='21'/>
+<doc f='codebrowser/src/vrtql.h' l='18'>/**
+ * @brief Enumerates error codes used in the library.
+ */</doc>

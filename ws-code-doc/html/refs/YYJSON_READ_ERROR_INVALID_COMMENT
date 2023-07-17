@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/yyjson.h' l='742' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='741'>/** Invalid comment, such as unclosed multi-line comment. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5577' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5577' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5966' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5966' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6397' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6397' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6479' macro='1' u='r' c='yyjson_read_opts'/>

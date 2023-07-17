@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='252'/>
+<doc f='include/openssl/ssl.h' l='251'>/* Really means TLS1.2 or below */</doc>

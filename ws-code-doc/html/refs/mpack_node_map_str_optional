@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1372' type='mpack_node_t mpack_node_map_str_optional(mpack_node_t node, const char * str, size_t length)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1870' ll='1872' type='mpack_node_t mpack_node_map_str_optional(mpack_node_t node, const char * str, size_t length)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1881' u='c' c='mpack_node_map_cstr_optional'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1357'>/**
+ * Returns the value node in the given map for the given string key, or a missing
+ * node if the map does not contain the given key.
+ *
+ * The key must be unique. An error is flagged if the node has multiple
+ * entries with the given key.
+ *
+ * @throws mpack_error_type If the node is not a map
+ * @throws mpack_error_data If the node contains more than one entry with the given key
+ *
+ * @return The value node for the given key, or a missing node if the key does
+ *         not exist, or a nil node in case of error
+ *
+ * @see mpack_node_is_missing()
+ */</doc>

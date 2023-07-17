@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='911' type='size_t mg_print_ip6(void (*)(char, void *) out, void * arg, va_list * ap)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='98' ll='101' type='size_t mg_print_ip6(void (*)(char, void *) out, void * arg, va_list * ap)'/>

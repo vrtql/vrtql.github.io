@@ -1,0 +1,15 @@
+<def f='codebrowser/src/util/sc_map.h' l='229' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='229' macro='1'/>
+<size>24</size>
+<mbr r='sc_map_item_s64::key' o='0' t='const char *'/>
+<mbr r='sc_map_item_s64::value' o='64' t='uint64_t'/>
+<mbr r='sc_map_item_s64::hash' o='128' t='uint32_t'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' c='sc_map_cmp_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' c='sc_map_assign_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' c='sc_map_hashof_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' c='sc_map_alloc_s64'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' c='sc_map_remap_s64'/>
+<size>24</size>

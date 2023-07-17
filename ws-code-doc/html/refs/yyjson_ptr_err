@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='3720' ll='3727'/>
+<use f='codebrowser/src/util/yyjson.h' l='3720'/>
+<size>24</size>
+<doc f='codebrowser/src/util/yyjson.h' l='3719'>/** Error information for JSON pointer. */</doc>
+<mbr r='yyjson_ptr_err::code' o='0' t='yyjson_ptr_code'/>
+<mbr r='yyjson_ptr_err::msg' o='64' t='const char *'/>
+<mbr r='yyjson_ptr_err::pos' o='128' t='size_t'/>

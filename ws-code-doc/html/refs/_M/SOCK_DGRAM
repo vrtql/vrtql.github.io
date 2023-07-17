@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='31'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='191' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='192' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='333' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='432' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='433' u='c'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1134'/>
+<use f='codebrowser/src/mpack/mpack-platform.h' l='1149' u='c'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='37' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.h' l='33' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='33' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='35' u='c'/>
+<doc f='codebrowser/src/mpack/mpack-platform.h' l='1129'>// We only silence warnings if push/pop is supported, that way we aren&apos;t
+    // silencing warnings in code that uses MPack. If your compiler doesn&apos;t
+    // support push/pop silencing of warnings, you&apos;ll have to turn off
+    // conflicting warnings manually.</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='26' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='26' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='33' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='26' u='c'/>
+<use f='codebrowser/src/mpack/mpack-platform.c' l='32' u='c'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='26' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='26' u='c'/>

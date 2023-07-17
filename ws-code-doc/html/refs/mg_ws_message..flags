@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1398' type='uint8_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1398'>// Websocket message flags</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='222' u='w' c='mg_ws_cb'/>

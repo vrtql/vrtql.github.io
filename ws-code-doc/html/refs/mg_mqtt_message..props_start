@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1512' type='size_t'/>
+<offset>448</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1512'>// Offset to the start of the properties (MQTT5)</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='206' u='r' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='211' u='r' c='mg_mqtt_next_prop'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='417' u='w' c='mg_mqtt_parse'/>

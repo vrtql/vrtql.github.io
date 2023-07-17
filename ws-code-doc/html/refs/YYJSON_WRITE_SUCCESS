@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='1030' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1029'>/** Success, no error. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8875' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9083' u='r' c='yyjson_mut_write_pretty'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/yyjson.h' l='6946' type='yyjson_val * unsafe_yyjson_ptr_getx(yyjson_val * val, const char * ptr, size_t len, yyjson_ptr_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7008' u='c' c='yyjson_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7037' u='c' c='yyjson_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7758' u='c' c='unsafe_yyjson_get_pointer'/>
+<def f='codebrowser/src/util/yyjson.c' l='1910' ll='1932' type='yyjson_val * unsafe_yyjson_ptr_getx(yyjson_val * val, const char * ptr, size_t ptr_len, yyjson_ptr_err * err)'/>

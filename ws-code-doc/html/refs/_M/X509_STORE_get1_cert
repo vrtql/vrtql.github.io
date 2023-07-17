@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509_vfy.h' l='368'/>
+<doc f='include/openssl/x509_vfy.h' l='367'>/* the following macro is misspelled; use X509_STORE_get1_certs instead */</doc>

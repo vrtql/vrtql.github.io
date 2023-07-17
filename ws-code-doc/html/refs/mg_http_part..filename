@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1293' type='struct mg_str'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1293'>// Filename for file uploads</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='w' c='mg_http_next_multipart'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='71' u='w' c='mg_http_next_multipart'/>

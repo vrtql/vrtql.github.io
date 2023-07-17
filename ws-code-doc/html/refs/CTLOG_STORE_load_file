@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='462' type='int CTLOG_STORE_load_file(CTLOG_STORE * store, const char * file)'/>
+<doc f='include/openssl/ct.h' l='458'>/*
+ * Loads a CT log list into a |store| from a |file|.
+ * Returns 1 if loading is successful, or 0 otherwise.
+ */</doc>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>server.c source code [codebrowser/src/test/server.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/test/server.c'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>test</a>/<a href='server.c.html'>server.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#include <a href="util/mongoose.h.html">"util/mongoose.h"</a></u></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><em>static</em> <em>const</em> <em>char</em>* <dfn class="tu decl def" id="s_listen_on" title='s_listen_on' data-type='const char *' data-ref="s_listen_on" data-ref-filename="s_listen_on">s_listen_on</dfn> = <q>"ws://localhost:8181"</q>;</td></tr>
+<tr><th id="4">4</th><td><em>static</em> <em>const</em> <em>char</em>* <dfn class="tu decl def" id="s_web_root" title='s_web_root' data-type='const char *' data-ref="s_web_root" data-ref-filename="s_web_root">s_web_root</dfn> = <q>"."</q>;</td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><i  data-doc="fn">// This RESTful server implements the following endpoints:</i></td></tr>
+<tr><th id="7">7</th><td><i  data-doc="fn">//   /websocket - upgrade to Websocket, and implement websocket echo server</i></td></tr>
+<tr><th id="8">8</th><td><i  data-doc="fn">//   /rest - respond with JSON string {"result": 123}</i></td></tr>
+<tr><th id="9">9</th><td><i  data-doc="fn">//   any other URI serves static files from s_web_root</i></td></tr>
+<tr><th id="10">10</th><td><em>static</em> <em>void</em> <dfn class="tu decl def fn" id="fn" title='fn' data-type='void fn(struct mg_connection * c, int ev, void * ev_data, void * fn_data)' data-ref="fn" data-ref-filename="fn">fn</dfn>(<b>struct</b> <a class="type" href="util/mongoose.h.html#mg_connection" title='mg_connection' data-ref="mg_connection" data-ref-filename="mg_connection">mg_connection</a>* <dfn class="local col1 decl" id="1c" title='c' data-type='struct mg_connection *' data-ref="1c" data-ref-filename="1c">c</dfn>, <em>int</em> <dfn class="local col2 decl" id="2ev" title='ev' data-type='int' data-ref="2ev" data-ref-filename="2ev">ev</dfn>, <em>void</em>* <dfn class="local col3 decl" id="3ev_data" title='ev_data' data-type='void *' data-ref="3ev_data" data-ref-filename="3ev_data">ev_data</dfn>, <em>void</em>* <dfn class="local col4 decl" id="4fn_data" title='fn_data' data-type='void *' data-ref="4fn_data" data-ref-filename="4fn_data">fn_data</dfn>)</td></tr>
+<tr><th id="11">11</th><td>{</td></tr>
+<tr><th id="12">12</th><td>    <b>if</b> (<a class="local col2 ref" href="#2ev" title='ev' data-ref="2ev" data-ref-filename="2ev">ev</a> == <a class="enum" href="util/mongoose.h.html#MG_EV_OPEN" title='MG_EV_OPEN' data-ref="MG_EV_OPEN" data-ref-filename="MG_EV_OPEN">MG_EV_OPEN</a>)</td></tr>
+<tr><th id="13">13</th><td>    {</td></tr>
+<tr><th id="14">14</th><td>        <a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>-&gt;<a class="ref field" href="util/mongoose.h.html#mg_connection::is_hexdumping" title='mg_connection::is_hexdumping' data-ref="mg_connection::is_hexdumping" data-ref-filename="mg_connection..is_hexdumping">is_hexdumping</a> = <var>1</var>;</td></tr>
+<tr><th id="15">15</th><td>    }</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td>    <b>if</b> (<a class="local col2 ref" href="#2ev" title='ev' data-ref="2ev" data-ref-filename="2ev">ev</a> == <a class="enum" href="util/mongoose.h.html#MG_EV_ACCEPT" title='MG_EV_ACCEPT' data-ref="MG_EV_ACCEPT" data-ref-filename="MG_EV_ACCEPT">MG_EV_ACCEPT</a>)</td></tr>
+<tr><th id="18">18</th><td>    {</td></tr>
+<tr><th id="19">19</th><td>        <i>// If url is wss://, use TLS</i></td></tr>
+<tr><th id="20">20</th><td>        <b>if</b> (<a class="ref fn" href="util/mongoose.h.html#mg_url_is_ssl" title='mg_url_is_ssl' data-ref="mg_url_is_ssl" data-ref-filename="mg_url_is_ssl">mg_url_is_ssl</a>(<a class="tu ref" href="#s_listen_on" title='s_listen_on' data-use='r' data-ref="s_listen_on" data-ref-filename="s_listen_on">s_listen_on</a>))</td></tr>
+<tr><th id="21">21</th><td>        {</td></tr>
+<tr><th id="22">22</th><td>            <b>struct</b> <a class="type" href="util/mongoose.h.html#mg_tls_opts" title='mg_tls_opts' data-ref="mg_tls_opts" data-ref-filename="mg_tls_opts">mg_tls_opts</a> <dfn class="local col5 decl" id="5opts" title='opts' data-type='struct mg_tls_opts' data-ref="5opts" data-ref-filename="5opts">opts</dfn> =</td></tr>
+<tr><th id="23">23</th><td>            {</td></tr>
+<tr><th id="24">24</th><td>                .<a class="ref field" href="util/mongoose.h.html#mg_tls_opts::cert" title='mg_tls_opts::cert' data-ref="mg_tls_opts::cert" data-ref-filename="mg_tls_opts..cert">cert</a>    = <q>"files/cert.pem"</q>, <i>// Certificate file</i></td></tr>
+<tr><th id="25">25</th><td>                .<a class="ref field" href="util/mongoose.h.html#mg_tls_opts::certkey" title='mg_tls_opts::certkey' data-ref="mg_tls_opts::certkey" data-ref-filename="mg_tls_opts..certkey">certkey</a> = <q>"files/key.pem"</q>,  <i>// Private key file</i></td></tr>
+<tr><th id="26">26</th><td>            };</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td>            <a class="ref fn" href="util/mongoose.h.html#mg_tls_init" title='mg_tls_init' data-ref="mg_tls_init" data-ref-filename="mg_tls_init">mg_tls_init</a>(<a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>, &amp;<a class="local col5 ref" href="#5opts" title='opts' data-ref="5opts" data-ref-filename="5opts">opts</a>);</td></tr>
+<tr><th id="29">29</th><td>        }</td></tr>
+<tr><th id="30">30</th><td>    }</td></tr>
+<tr><th id="31">31</th><td>    <b>else</b> <b>if</b> (<a class="local col2 ref" href="#2ev" title='ev' data-ref="2ev" data-ref-filename="2ev">ev</a> == <a class="enum" href="util/mongoose.h.html#MG_EV_HTTP_MSG" title='MG_EV_HTTP_MSG' data-ref="MG_EV_HTTP_MSG" data-ref-filename="MG_EV_HTTP_MSG">MG_EV_HTTP_MSG</a>)</td></tr>
+<tr><th id="32">32</th><td>    {</td></tr>
+<tr><th id="33">33</th><td>        <b>struct</b> <a class="type" href="util/mongoose.h.html#mg_http_message" title='mg_http_message' data-ref="mg_http_message" data-ref-filename="mg_http_message">mg_http_message</a>* <dfn class="local col6 decl" id="6hm" title='hm' data-type='struct mg_http_message *' data-ref="6hm" data-ref-filename="6hm">hm</dfn> = (<b>struct</b> <a class="type" href="util/mongoose.h.html#mg_http_message" title='mg_http_message' data-ref="mg_http_message" data-ref-filename="mg_http_message">mg_http_message</a>*) <a class="local col3 ref" href="#3ev_data" title='ev_data' data-ref="3ev_data" data-ref-filename="3ev_data">ev_data</a>;</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td>        <b>if</b> (<a class="ref fn" href="util/mongoose.h.html#mg_http_match_uri" title='mg_http_match_uri' data-ref="mg_http_match_uri" data-ref-filename="mg_http_match_uri">mg_http_match_uri</a>(<a class="local col6 ref" href="#6hm" title='hm' data-ref="6hm" data-ref-filename="6hm">hm</a>, <q>"/websocket"</q>))</td></tr>
+<tr><th id="36">36</th><td>        {</td></tr>
+<tr><th id="37">37</th><td>            <i>// Upgrade to websocket. From now on, a connection is a full-duplex</i></td></tr>
+<tr><th id="38">38</th><td><i>            // Websocket connection, which will receive MG_EV_WS_MSG events.</i></td></tr>
+<tr><th id="39">39</th><td>            <a class="ref fn" href="util/mongoose.h.html#mg_ws_upgrade" title='mg_ws_upgrade' data-ref="mg_ws_upgrade" data-ref-filename="mg_ws_upgrade">mg_ws_upgrade</a>(<a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>, <a class="local col6 ref" href="#6hm" title='hm' data-ref="6hm" data-ref-filename="6hm">hm</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="40">40</th><td>        }</td></tr>
+<tr><th id="41">41</th><td>        <b>else</b> <b>if</b> (<a class="ref fn" href="util/mongoose.h.html#mg_http_match_uri" title='mg_http_match_uri' data-ref="mg_http_match_uri" data-ref-filename="mg_http_match_uri">mg_http_match_uri</a>(<a class="local col6 ref" href="#6hm" title='hm' data-ref="6hm" data-ref-filename="6hm">hm</a>, <q>"/rest"</q>))</td></tr>
+<tr><th id="42">42</th><td>        {</td></tr>
+<tr><th id="43">43</th><td>            <i>// Serve REST response</i></td></tr>
+<tr><th id="44">44</th><td>            <a class="ref fn" href="util/mongoose.h.html#mg_http_reply" title='mg_http_reply' data-ref="mg_http_reply" data-ref-filename="mg_http_reply">mg_http_reply</a>(<a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>, <var>200</var>, <q>""</q>, <q>"{\"result\": %d}\n"</q>, <var>123</var>);</td></tr>
+<tr><th id="45">45</th><td>        }</td></tr>
+<tr><th id="46">46</th><td>        <b>else</b></td></tr>
+<tr><th id="47">47</th><td>        {</td></tr>
+<tr><th id="48">48</th><td>            <i>// Serve static files</i></td></tr>
+<tr><th id="49">49</th><td>            <b>struct</b> <a class="type" href="util/mongoose.h.html#mg_http_serve_opts" title='mg_http_serve_opts' data-ref="mg_http_serve_opts" data-ref-filename="mg_http_serve_opts">mg_http_serve_opts</a> <dfn class="local col7 decl" id="7opts" title='opts' data-type='struct mg_http_serve_opts' data-ref="7opts" data-ref-filename="7opts">opts</dfn> = {.<a class="ref field" href="util/mongoose.h.html#mg_http_serve_opts::root_dir" title='mg_http_serve_opts::root_dir' data-ref="mg_http_serve_opts::root_dir" data-ref-filename="mg_http_serve_opts..root_dir">root_dir</a> = <a class="tu ref" href="#s_web_root" title='s_web_root' data-use='r' data-ref="s_web_root" data-ref-filename="s_web_root">s_web_root</a>};</td></tr>
+<tr><th id="50">50</th><td>            <a class="ref fn" href="util/mongoose.h.html#mg_http_serve_dir" title='mg_http_serve_dir' data-ref="mg_http_serve_dir" data-ref-filename="mg_http_serve_dir">mg_http_serve_dir</a>(<a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>, <a class="local col3 ref" href="#3ev_data" title='ev_data' data-ref="3ev_data" data-ref-filename="3ev_data">ev_data</a>, &amp;<a class="local col7 ref" href="#7opts" title='opts' data-ref="7opts" data-ref-filename="7opts">opts</a>);</td></tr>
+<tr><th id="51">51</th><td>        }</td></tr>
+<tr><th id="52">52</th><td>    }</td></tr>
+<tr><th id="53">53</th><td>    <b>else</b> <b>if</b> (<a class="local col2 ref" href="#2ev" title='ev' data-ref="2ev" data-ref-filename="2ev">ev</a> == <a class="enum" href="util/mongoose.h.html#MG_EV_WS_MSG" title='MG_EV_WS_MSG' data-ref="MG_EV_WS_MSG" data-ref-filename="MG_EV_WS_MSG">MG_EV_WS_MSG</a>)</td></tr>
+<tr><th id="54">54</th><td>    {</td></tr>
+<tr><th id="55">55</th><td>        <i>// Got websocket frame. Received data is wm-&gt;data. Echo it back!</i></td></tr>
+<tr><th id="56">56</th><td>        <b>struct</b> <a class="type" href="util/mongoose.h.html#mg_ws_message" title='mg_ws_message' data-ref="mg_ws_message" data-ref-filename="mg_ws_message">mg_ws_message</a>* <dfn class="local col8 decl" id="8wm" title='wm' data-type='struct mg_ws_message *' data-ref="8wm" data-ref-filename="8wm">wm</dfn> = (<b>struct</b> <a class="type" href="util/mongoose.h.html#mg_ws_message" title='mg_ws_message' data-ref="mg_ws_message" data-ref-filename="mg_ws_message">mg_ws_message</a>*) <a class="local col3 ref" href="#3ev_data" title='ev_data' data-ref="3ev_data" data-ref-filename="3ev_data">ev_data</a>;</td></tr>
+<tr><th id="57">57</th><td>        <a class="ref fn" href="util/mongoose.h.html#mg_ws_send" title='mg_ws_send' data-ref="mg_ws_send" data-ref-filename="mg_ws_send">mg_ws_send</a>(<a class="local col1 ref" href="#1c" title='c' data-ref="1c" data-ref-filename="1c">c</a>, <a class="local col8 ref" href="#8wm" title='wm' data-ref="8wm" data-ref-filename="8wm">wm</a>-&gt;<a class="ref field" href="util/mongoose.h.html#mg_ws_message::data" title='mg_ws_message::data' data-ref="mg_ws_message::data" data-ref-filename="mg_ws_message..data">data</a>.<a class="ref field" href="util/mongoose.h.html#mg_str::ptr" title='mg_str::ptr' data-ref="mg_str::ptr" data-ref-filename="mg_str..ptr">ptr</a>, <a class="local col8 ref" href="#8wm" title='wm' data-ref="8wm" data-ref-filename="8wm">wm</a>-&gt;<a class="ref field" href="util/mongoose.h.html#mg_ws_message::data" title='mg_ws_message::data' data-ref="mg_ws_message::data" data-ref-filename="mg_ws_message..data">data</a>.<a class="ref field" href="util/mongoose.h.html#mg_str::len" title='mg_str::len' data-ref="mg_str::len" data-ref-filename="mg_str..len">len</a>, <a class="macro" href="util/mongoose.h.html#1388" title="1" data-ref="_M/WEBSOCKET_OP_TEXT">WEBSOCKET_OP_TEXT</a>);</td></tr>
+<tr><th id="58">58</th><td>    }</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td>    (<em>void</em>)<a class="local col4 ref" href="#4fn_data" title='fn_data' data-ref="4fn_data" data-ref-filename="4fn_data">fn_data</a>;</td></tr>
+<tr><th id="61">61</th><td>}</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><em>int</em> <dfn class="decl def fn" id="main" title='main' data-ref="main" data-ref-filename="main">main</dfn>(<em>void</em>)</td></tr>
+<tr><th id="64">64</th><td>{</td></tr>
+<tr><th id="65">65</th><td>    <b>struct</b> <a class="type" href="util/mongoose.h.html#mg_mgr" title='mg_mgr' data-ref="mg_mgr" data-ref-filename="mg_mgr">mg_mgr</a> <dfn class="local col9 decl" id="9mgr" title='mgr' data-type='struct mg_mgr' data-ref="9mgr" data-ref-filename="9mgr">mgr</dfn>;  <i>// Event manager</i></td></tr>
+<tr><th id="66">66</th><td>    <a class="ref fn" href="util/mongoose.h.html#mg_mgr_init" title='mg_mgr_init' data-ref="mg_mgr_init" data-ref-filename="mg_mgr_init">mg_mgr_init</a>(&amp;<a class="local col9 ref" href="#9mgr" title='mgr' data-ref="9mgr" data-ref-filename="9mgr">mgr</a>);  <i>// Initialise event manager</i></td></tr>
+<tr><th id="67">67</th><td>    <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"Starting WS listener on %s/websocket\n"</q>, <a class="tu ref" href="#s_listen_on" title='s_listen_on' data-use='r' data-ref="s_listen_on" data-ref-filename="s_listen_on">s_listen_on</a>);</td></tr>
+<tr><th id="68">68</th><td>    <a class="ref fn" href="util/mongoose.h.html#mg_http_listen" title='mg_http_listen' data-ref="mg_http_listen" data-ref-filename="mg_http_listen">mg_http_listen</a>(&amp;<a class="local col9 ref" href="#9mgr" title='mgr' data-ref="9mgr" data-ref-filename="9mgr">mgr</a>, <a class="tu ref" href="#s_listen_on" title='s_listen_on' data-use='r' data-ref="s_listen_on" data-ref-filename="s_listen_on">s_listen_on</a>, <a class="tu ref fn" href="#fn" title='fn' data-use='r' data-ref="fn" data-ref-filename="fn">fn</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);  <i>// Create HTTP listener</i></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td>    <i>// Infinite event loop</i></td></tr>
+<tr><th id="71">71</th><td>    <b>for</b> (;;)</td></tr>
+<tr><th id="72">72</th><td>    {</td></tr>
+<tr><th id="73">73</th><td>        <a class="ref fn" href="util/mongoose.h.html#mg_mgr_poll" title='mg_mgr_poll' data-ref="mg_mgr_poll" data-ref-filename="mg_mgr_poll">mg_mgr_poll</a>(&amp;<a class="local col9 ref" href="#9mgr" title='mgr' data-ref="9mgr" data-ref-filename="9mgr">mgr</a>, <var>1000</var>);</td></tr>
+<tr><th id="74">74</th><td>    }</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <a class="ref fn" href="util/mongoose.h.html#mg_mgr_free" title='mg_mgr_free' data-ref="mg_mgr_free" data-ref-filename="mg_mgr_free">mg_mgr_free</a>(&amp;<a class="local col9 ref" href="#9mgr" title='mgr' data-ref="9mgr" data-ref-filename="9mgr">mgr</a>);</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="79">79</th><td>}</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

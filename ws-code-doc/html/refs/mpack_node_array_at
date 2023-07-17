@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1247' type='mpack_node_t mpack_node_array_at(mpack_node_t node, size_t index)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2347' ll='2362' type='mpack_node_t mpack_node_array_at(mpack_node_t node, size_t index)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1241'>/**
+ * Returns the node in the given array at the given index. If the node
+ * is not an array, @ref mpack_error_type is raised and a nil node is returned.
+ * If the given index is out of bounds, @ref mpack_error_data is raised and
+ * a nil node is returned.
+ */</doc>

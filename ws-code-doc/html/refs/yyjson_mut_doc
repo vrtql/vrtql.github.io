@@ -1,0 +1,7 @@
+<use f='codebrowser/src/util/yyjson.h' l='640'/>
+<def f='codebrowser/src/util/yyjson.h' l='5201' ll='5206'/>
+<size>120</size>
+<mbr r='yyjson_mut_doc::root' o='0' t='yyjson_mut_val *'/>
+<mbr r='yyjson_mut_doc::alc' o='64' t='yyjson_alc'/>
+<mbr r='yyjson_mut_doc::str_pool' o='320' t='yyjson_str_pool'/>
+<mbr r='yyjson_mut_doc::val_pool' o='640' t='yyjson_val_pool'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='815' type='int mpack_node_int(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2132' ll='2145' type='int mpack_node_int(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='808'>/**
+ * Returns the int value of the node.
+ *
+ * Returns zero if an error occurs.
+ *
+ * @throws mpack_error_type If the node is not an integer type or does not fit in the range of an int
+ */</doc>

@@ -1,0 +1,25 @@
+<def f='codebrowser/src/util/yyjson.h' l='733' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='732'>/** Unexpected ending, such as `[123`. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5483' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5600' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='5990' u='r' c='read_root_pretty'/>

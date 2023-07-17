@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1210' type='unsigned int'/>
+<offset>1666</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1210'>// Accepted (server) connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='1040' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='407' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' u='r' c='mg_tls_init'/>

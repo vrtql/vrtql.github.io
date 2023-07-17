@@ -1,0 +1,31 @@
+<def f='codebrowser/src/util/yyjson.h' l='1855' ll='1860'/>
+<use f='codebrowser/src/util/yyjson.h' l='1855'/>
+<size>32</size>
+<doc f='codebrowser/src/util/yyjson.h' l='1831'>/**
+ A JSON object iterator.
+ 
+ @par Example
+ @code
+    yyjson_val *key, *val;
+    yyjson_obj_iter iter = yyjson_obj_iter_with(obj);
+    while ((key = yyjson_obj_iter_next(&amp;iter))) {
+        val = yyjson_obj_iter_get_val(key);
+        your_func(key, val);
+    }
+ @endcode
+ 
+ If the ordering of the keys is known at compile-time, you can use this method
+ to speed up value lookups:
+ @code
+    // {&quot;k1&quot;:1, &quot;k2&quot;: 3, &quot;k3&quot;: 3}
+    yyjson_val *key, *val;
+    yyjson_obj_iter iter = yyjson_obj_iter_with(obj);
+    yyjson_val *v1 = yyjson_obj_iter_get(&amp;iter, &quot;k1&quot;);
+    yyjson_val *v3 = yyjson_obj_iter_get(&amp;iter, &quot;k3&quot;);
+ @endcode
+ @see yyjson_obj_iter_get() and yyjson_obj_iter_getn()
+ */</doc>
+<mbr r='yyjson_obj_iter::idx' o='0' t='size_t'/>
+<mbr r='yyjson_obj_iter::max' o='64' t='size_t'/>
+<mbr r='yyjson_obj_iter::cur' o='128' t='yyjson_val *'/>
+<mbr r='yyjson_obj_iter::obj' o='192' t='yyjson_val *'/>

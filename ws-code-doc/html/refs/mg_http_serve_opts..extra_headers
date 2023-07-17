@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1284' type='const char *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1284'>// Extra HTTP headers to add in responses</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='553' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='560' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='594' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='594' u='r' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='694' u='r' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='694' u='r' c='listdir'/>

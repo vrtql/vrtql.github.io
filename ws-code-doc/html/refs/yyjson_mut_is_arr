@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/util/yyjson.h' l='2124' type='_Bool yyjson_mut_is_arr(yyjson_mut_val * val)'/>
+<def f='codebrowser/src/util/yyjson.h' l='5323' ll='5325' macro='1' type='_Bool yyjson_mut_is_arr(yyjson_mut_val * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5688' u='c' c='yyjson_mut_arr_size'/>
+<use f='codebrowser/src/util/yyjson.h' l='5725' u='c' c='yyjson_mut_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5975' u='c' c='yyjson_mut_arr_insert'/>
+<use f='codebrowser/src/util/yyjson.h' l='6006' u='c' c='yyjson_mut_arr_append'/>
+<use f='codebrowser/src/util/yyjson.h' l='6025' u='c' c='yyjson_mut_arr_prepend'/>
+<use f='codebrowser/src/util/yyjson.h' l='6045' u='c' c='yyjson_mut_arr_replace'/>
+<use f='codebrowser/src/util/yyjson.h' l='6072' u='c' c='yyjson_mut_arr_remove'/>
+<use f='codebrowser/src/util/yyjson.h' l='6096' u='c' c='yyjson_mut_arr_remove_first'/>
+<use f='codebrowser/src/util/yyjson.h' l='6115' u='c' c='yyjson_mut_arr_remove_last'/>
+<use f='codebrowser/src/util/yyjson.h' l='6137' u='c' c='yyjson_mut_arr_remove_range'/>
+<use f='codebrowser/src/util/yyjson.h' l='6158' u='c' c='yyjson_mut_arr_clear'/>
+<use f='codebrowser/src/util/yyjson.h' l='6167' u='c' c='yyjson_mut_arr_rotate'/>
+<use f='codebrowser/src/util/yyjson.h' l='6190' u='c' c='yyjson_mut_arr_add_null'/>
+<use f='codebrowser/src/util/yyjson.h' l='6199' u='c' c='yyjson_mut_arr_add_true'/>
+<use f='codebrowser/src/util/yyjson.h' l='6208' u='c' c='yyjson_mut_arr_add_false'/>
+<use f='codebrowser/src/util/yyjson.h' l='6218' u='c' c='yyjson_mut_arr_add_bool'/>
+<use f='codebrowser/src/util/yyjson.h' l='6228' u='c' c='yyjson_mut_arr_add_uint'/>
+<use f='codebrowser/src/util/yyjson.h' l='6238' u='c' c='yyjson_mut_arr_add_sint'/>
+<use f='codebrowser/src/util/yyjson.h' l='6248' u='c' c='yyjson_mut_arr_add_int'/>
+<use f='codebrowser/src/util/yyjson.h' l='6258' u='c' c='yyjson_mut_arr_add_real'/>
+<use f='codebrowser/src/util/yyjson.h' l='6268' u='c' c='yyjson_mut_arr_add_str'/>
+<use f='codebrowser/src/util/yyjson.h' l='6278' u='c' c='yyjson_mut_arr_add_strn'/>
+<use f='codebrowser/src/util/yyjson.h' l='6288' u='c' c='yyjson_mut_arr_add_strcpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6298' u='c' c='yyjson_mut_arr_add_strncpy'/>
+<use f='codebrowser/src/util/yyjson.h' l='6307' u='c' c='yyjson_mut_arr_add_arr'/>
+<use f='codebrowser/src/util/yyjson.h' l='6316' u='c' c='yyjson_mut_arr_add_obj'/>
+<use f='codebrowser/src/util/yyjson.c' l='2363' u='c' c='yyjson_mut_patch'/>

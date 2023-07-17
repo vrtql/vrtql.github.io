@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='1273' type='mpack_node_t mpack_node_map_value_at(mpack_node_t node, size_t index)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2398' ll='2400' type='mpack_node_t mpack_node_map_value_at(mpack_node_t node, size_t index)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='1265'>/**
+ * Returns the value node in the given map at the given index.
+ *
+ * A nil node is returned in case of error.
+ *
+ * @throws mpack_error_type if the node is not a map
+ * @throws mpack_error_data if the given index is out of bounds
+ */</doc>

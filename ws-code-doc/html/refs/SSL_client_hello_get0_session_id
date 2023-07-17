@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1806' type='size_t SSL_client_hello_get0_session_id(SSL * s, const unsigned char ** out)'/>

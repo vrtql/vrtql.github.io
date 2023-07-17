@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='198' type='mpack_tree_parse_state_t'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='85' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='184' u='r' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='222' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='271' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='379' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='797' u='r' c='mpack_tree_continue_parsing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='853' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='856' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='860' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='891' u='w' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='943' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='965' u='w' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='974' u='r' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='983' u='w' c='mpack_tree_try_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1000' u='r' c='mpack_tree_root'/>
+<offset>0</offset>

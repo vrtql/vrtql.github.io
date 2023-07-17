@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='877' type='size_t mg_queue_book(struct mg_queue * , char ** buf, size_t )'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='877'>// Reserve space</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='9' u='c' c='mg_queue_vprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='46' ll='57' type='size_t mg_queue_book(struct mg_queue * q, char ** buf, size_t len)'/>

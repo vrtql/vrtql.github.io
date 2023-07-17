@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1009' type='struct mg_fd * mg_fs_open(struct mg_fs * fs, const char * path, int flags)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='5' ll='16' type='struct mg_fd * mg_fs_open(struct mg_fs * fs, const char * path, int flags)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='30' u='c' c='mg_file_read'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' u='c' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='538' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='542' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='547' u='c' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='902' u='c' c='mg_http_upload'/>

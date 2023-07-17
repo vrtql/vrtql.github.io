@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='688' type='void mpack_start_array(mpack_writer_t * writer, uint32_t count)'/>
+<use f='codebrowser/src/message.c' l='94' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='676'>/**
+ * Opens an array.
+ *
+ * `count` elements must follow, and mpack_finish_array() must be called
+ * when done.
+ *
+ * If you do not know the number of elements to be written ahead of time, call
+ * mpack_build_array() instead.
+ *
+ * @see mpack_finish_array()
+ * @see mpack_build_array() to count the number of elements automatically
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='630' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1143' ll='1148' type='void mpack_start_array(mpack_writer_t * writer, uint32_t count)'/>

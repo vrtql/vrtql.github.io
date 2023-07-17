@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='996' type='_Bool (*)(const char *)'/>
+<offset>576</offset>

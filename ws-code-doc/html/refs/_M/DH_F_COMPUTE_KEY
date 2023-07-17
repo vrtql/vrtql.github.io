@@ -1,0 +1,4 @@
+<dec f='include/openssl/dherr.h' l='30'/>
+<doc f='include/openssl/dherr.h' l='27'>/*
+ * DH function codes.
+ */</doc>

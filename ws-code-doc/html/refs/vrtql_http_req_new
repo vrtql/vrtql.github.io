@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/http_request.h' l='43' type='vrtql_http_req * vrtql_http_req_new()'/>
+<def f='codebrowser/src/http_request.c' l='75' ll='102' type='vrtql_http_req * vrtql_http_req_new()'/>
+<doc f='codebrowser/src/http_request.c' l='71'>//------------------------------------------------------------------------------
+// HTTP Request
+//------------------------------------------------------------------------------</doc>
+<doc f='codebrowser/src/http_request.h' l='39'>/**
+ * @brief Creates a new instance of vrtql_http_req.
+ * @return The newly created vrtql_http_req instance.
+ */</doc>
+<use f='codebrowser/src/server.c' l='1592' u='c' c='vrtql_msg_svr_new'/>
+<use f='codebrowser/src/test/test_http_request.c' l='13' u='c' c='ctest_test_rpc_call_run'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1203' type='void *'/>
+<offset>1152</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1203'>// User-specified function parameter</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='11' u='r' c='mg_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='164' u='w' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='186' u='w' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='199' u='w' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='413' u='w' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='413' u='r' c='accept_conn'/>

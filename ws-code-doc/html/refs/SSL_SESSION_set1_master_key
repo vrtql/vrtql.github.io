@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2009' type='int SSL_SESSION_set1_master_key(SSL_SESSION * sess, const unsigned char * in, size_t len)'/>

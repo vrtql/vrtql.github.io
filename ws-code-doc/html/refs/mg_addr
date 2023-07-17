@@ -1,0 +1,23 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1166' ll='1170'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1196'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1197'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1242' c='mg_aton'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1544'/>
+<size>20</size>
+<mbr r='mg_addr::ip' o='0' t='uint8_t [16]'/>
+<mbr r='mg_addr::port' o='128' t='uint16_t'/>
+<mbr r='mg_addr::is_ip6' o='144' t='_Bool'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' c='mg_atonl'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='33' c='mg_atone'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' c='mg_aton4'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='61' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='79' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='117' c='mg_aton'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' c='mg_print_ip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' c='mg_print_ip'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' c='mg_print_ip_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' c='mg_print_ip_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='56' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='73' c='tomgaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='85' c='setlocaddr'/>
+<size>20</size>

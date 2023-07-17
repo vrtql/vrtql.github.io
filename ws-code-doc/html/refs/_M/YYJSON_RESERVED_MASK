@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/util/yyjson.h' l='542'/>
+<doc f='codebrowser/src/util/yyjson.h' l='541'>/** The mask used to extract the reserved bits of a JSON value. */</doc>

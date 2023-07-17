@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='986'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='79' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='82' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1996' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1999' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='681' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='817' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='931' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='946' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='961' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='995' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1017' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1050' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1162' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1187' u='c'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1272' u='c'/>

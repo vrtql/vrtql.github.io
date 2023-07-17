@@ -1,0 +1,15 @@
+<def f='codebrowser/src/util/yyjson.h' l='724' type='const yyjson_read_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='723'>/** Memory allocation failure occurs. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5573' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5573' macro='1' u='r' c='read_root_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='5960' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='5960' macro='1' u='r' c='read_root_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='6391' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6391' macro='1' u='r' c='read_root_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='6463' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6467' macro='1' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6508' u='r' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6600' macro='1' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6616' macro='1' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6621' macro='1' u='r' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='6624' macro='1' u='r' c='yyjson_read_fp'/>

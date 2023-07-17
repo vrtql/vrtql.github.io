@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/ctest.h' l='67' type='const char *'/>
+<use f='codebrowser/src/test/ctest.h' l='558' u='r' c='ctest_main'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/ctest.h' l='67'>// test name</doc>

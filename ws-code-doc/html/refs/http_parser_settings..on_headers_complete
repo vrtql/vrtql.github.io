@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/http_parser.h' l='341' type='http_cb'/>
+<use f='codebrowser/src/http_parser.c' l='1916' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1917' u='r' c='http_parser_execute'/>
+<offset>320</offset>
+<use f='codebrowser/src/http_request.c' l='92' u='w' c='vrtql_http_req_new'/>

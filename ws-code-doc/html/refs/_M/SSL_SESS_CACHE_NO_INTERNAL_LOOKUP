@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='678'/>
+<doc f='include/openssl/ssl.h' l='677'>/* enough comments already ... see SSL_CTX_set_session_cache_mode(3) */</doc>

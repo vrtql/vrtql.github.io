@@ -1,0 +1,7 @@
+<def f='codebrowser/src/util/yyjson.h' l='1042' type='const yyjson_write_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1041'>/** NaN or Infinity number occurs. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='8158' macro='1' u='r' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8335' macro='1' u='r' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8537' macro='1' u='r' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8884' macro='1' u='r' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9092' macro='1' u='r' c='yyjson_mut_write_pretty'/>

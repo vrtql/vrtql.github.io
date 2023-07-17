@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-expect.h' l='977' ll='984' macro='1' type='uint32_t mpack_expect_str_max(mpack_reader_t * reader, uint32_t maxsize)'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='652' u='c' c='mpack_expect_cstr_alloc_unchecked'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='989' type='void *(*)(const char *, int)'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='989'>// Open file</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='8' u='r' c='mg_fs_open'/>

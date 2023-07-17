@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='999' type='struct mg_fs'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='999'>// POSIX open/close/read/write/seek</doc>
+<def f='codebrowser/src/test/util/mongoose.c' l='259' ll='260' type='struct mg_fs'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='525' u='a' c='mg_http_serve_file'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='619' u='a' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='682' u='a' c='listdir'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='778' u='a' c='uri_to_path'/>

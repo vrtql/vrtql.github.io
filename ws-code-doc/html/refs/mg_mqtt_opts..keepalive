@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1495' type='uint16_t'/>
+<offset>656</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1495'>// Keep-alive timer in seconds</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='298' u='r' c='mg_mqtt_login'/>

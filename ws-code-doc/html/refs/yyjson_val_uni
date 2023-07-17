@@ -1,0 +1,10 @@
+<def f='codebrowser/src/util/yyjson.h' l='4379' ll='4386'/>
+<use f='codebrowser/src/util/yyjson.h' l='4379'/>
+<size>8</size>
+<doc f='codebrowser/src/util/yyjson.h' l='4378'>/** Payload of a JSON value (8 bytes). */</doc>
+<mbr r='yyjson_val_uni::u64' o='0' t='uint64_t'/>
+<mbr r='yyjson_val_uni::i64' o='0' t='int64_t'/>
+<mbr r='yyjson_val_uni::f64' o='0' t='double'/>
+<mbr r='yyjson_val_uni::str' o='0' t='const char *'/>
+<mbr r='yyjson_val_uni::ptr' o='0' t='void *'/>
+<mbr r='yyjson_val_uni::ofs' o='0' t='size_t'/>

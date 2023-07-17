@@ -1,0 +1,3 @@
+<def f='codebrowser/src/util/yyjson.h' l='5219' ll='5232' macro='1' type='char * unsafe_yyjson_mut_str_alc(yyjson_mut_doc * doc, size_t len)'/>
+<use f='codebrowser/src/util/yyjson.h' l='5236' u='c' c='unsafe_yyjson_mut_strncpy'/>
+<use f='codebrowser/src/util/yyjson.c' l='1881' u='c' c='ptr_new_key'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1523' type='void mg_mqtt_sub(struct mg_connection * , const struct mg_mqtt_opts * opts)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='346' ll='359' type='void mg_mqtt_sub(struct mg_connection * c, const struct mg_mqtt_opts * opts)'/>

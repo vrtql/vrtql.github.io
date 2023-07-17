@@ -1,0 +1,2 @@
+<dec f='include/openssl/ct.h' l='73' type='void CT_POLICY_EVAL_CTX_free(CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='72'>/* Deletes a policy evaluation context and anything it owns. */</doc>

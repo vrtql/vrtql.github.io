@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='368' type='int32_t mpack_expect_i32_range(mpack_reader_t * reader, int32_t min_value, int32_t max_value)'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='392' u='c' c='mpack_expect_int_range'/>
+<use f='codebrowser/src/mpack/mpack-expect.h' l='432' u='c' c='mpack_expect_i32_max'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='360'>/**
+ * Reads a 32-bit signed integer, ensuring that it falls within the given range.
+ *
+ * The underlying type may be an integer type of any size and signedness,
+ * as long as the value can be represented in a 32-bit signed int.
+ *
+ * Returns min_value if an error occurs.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='293' type='int32_t mpack_expect_i32_range(mpack_reader_t * reader, int32_t min_value, int32_t max_value)'/>

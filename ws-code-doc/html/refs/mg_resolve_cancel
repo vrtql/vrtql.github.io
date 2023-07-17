@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1566' type='void mg_resolve_cancel(struct mg_connection * )'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='26' ll='32' type='void mg_resolve_cancel(struct mg_connection * c)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='135' u='c' c='mg_close_conn'/>

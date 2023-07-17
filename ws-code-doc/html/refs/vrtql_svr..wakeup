@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/server.h' l='203' type='uv_async_t'/>
+<use f='codebrowser/src/server.c' l='668' u='a' c='vrtql_svr_send'/>
+<use f='codebrowser/src/server.c' l='790' u='a' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='832' u='m' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='833' u='a' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='880' u='m' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='881' u='a' c='svr_dtor'/>
+<offset>384</offset>
+<doc f='codebrowser/src/server.h' l='202'>/**&lt; Asynchronous handle for event-based programming */</doc>

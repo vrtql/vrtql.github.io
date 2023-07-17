@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl3.h' l='33'/>
+<doc f='include/openssl/ssl3.h' l='29'>/*
+ * Signalling cipher suite value from draft-ietf-tls-downgrade-scsv-00
+ * (TLS_FALLBACK_SCSV)
+ */</doc>

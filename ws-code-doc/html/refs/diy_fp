@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.c' l='4117' ll='4121'/>
+<use f='codebrowser/src/util/yyjson.c' l='4117'/>
+<size>16</size>
+<doc f='codebrowser/src/util/yyjson.c' l='4116'>/** &quot;Do It Yourself Floating Point&quot; struct. */</doc>

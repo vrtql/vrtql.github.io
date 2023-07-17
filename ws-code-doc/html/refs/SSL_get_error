@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1855' type='int SSL_get_error(const SSL * s, int ret_code)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' u='c' c='mg_tls_err'/>

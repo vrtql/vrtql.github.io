@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1132' type='1'/>
+<use f='codebrowser/src/test/client.c' l='8' u='r' c='fn'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1132'>// Connection created           NULL</doc>
+<use f='codebrowser/src/test/server.c' l='12' u='r' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='166' u='r' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='187' u='r' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='201' u='r' c='mg_wrapfd'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='416' u='r' c='accept_conn'/>

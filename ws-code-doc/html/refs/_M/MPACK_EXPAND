@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='1168'/>
+<doc f='codebrowser/src/mpack/mpack-platform.h' l='1161'>// This is a workaround for MSVC&apos;s incorrect expansion of __VA_ARGS__. It
+// treats __VA_ARGS__ as a single preprocessor token when passed in the
+// argument list of another macro unless we use an outer wrapper to expand it
+// lexically first. (For safety/consistency we use this in all variadic macros
+// that don&apos;t ignore the variadic arguments regardless of whether __VA_ARGS__
+// is passed to another macro.)
+//     https://stackoverflow.com/a/32400131</doc>

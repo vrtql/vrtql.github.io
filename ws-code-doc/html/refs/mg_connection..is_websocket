@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1217' type='unsigned int'/>
+<offset>1673</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1217'>// WebSocket connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='154' u='w' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='171' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='279' u='w' c='mg_ws_upgrade'/>

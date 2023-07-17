@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='171' type='void *'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='391' u='w' c='mpack_writer_set_context'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='401' u='r' c='mpack_writer_context'/>
+<offset>192</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='171'>/* Context for writer callbacks */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='102' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='273' u='w' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='305' u='r' c='mpack_file_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='314' u='w' c='mpack_file_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='318' u='r' c='mpack_file_writer_teardown_close'/>

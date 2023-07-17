@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='1733' type='size_t'/>
+<use f='codebrowser/src/util/yyjson.h' l='5007' u='w' c='yyjson_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5022' u='r' c='yyjson_arr_iter_has_next'/>
+<use f='codebrowser/src/util/yyjson.h' l='5027' u='r' c='yyjson_arr_iter_next'/>
+<offset>64</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='1733'>/**&lt; maximum index (arr.size) */</doc>

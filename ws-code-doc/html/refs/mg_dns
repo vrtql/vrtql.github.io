@@ -1,0 +1,10 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1161' ll='1164'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1174'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1175'/>
+<size>16</size>
+<mbr r='mg_dns::url' o='0' t='const char *'/>
+<mbr r='mg_dns::c' o='64' t='struct mg_connection *'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='18' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='226' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='265' c='mg_resolve'/>
+<size>16</size>

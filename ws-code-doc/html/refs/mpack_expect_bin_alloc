@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1164' type='char * mpack_expect_bin_alloc(mpack_reader_t * reader, size_t maxsize, size_t * size)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1161'>/**
+ * Reads a binary blob with the given total maximum size, allocating storage for it.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='717' ll='739' type='char * mpack_expect_bin_alloc(mpack_reader_t * reader, size_t maxsize, size_t * size)'/>

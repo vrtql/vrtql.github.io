@@ -1,0 +1,9 @@
+<dec f='include/string.h' l='124' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<doc f='include/string.h' l='123'>/* Copy no more than N characters of SRC to DEST.  */</doc>
+<use f='codebrowser/src/rpc.c' l='160' u='c' c='parse_rpc_string'/>
+<use f='codebrowser/src/rpc.c' l='164' u='c' c='parse_rpc_string'/>
+<use f='codebrowser/src/test/test_server.c' l='20' u='c' c='process_data'/>
+<use f='codebrowser/src/vrtql.c' l='739' u='c' c='url_extract_part'/>
+<use f='codebrowser/src/websocket.c' l='993' u='c' c='extract_websocket_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1008' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1009' u='c' c='vws_accept_key'/>

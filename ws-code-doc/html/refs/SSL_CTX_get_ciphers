@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1914' type='struct stack_st_SSL_CIPHER * SSL_CTX_get_ciphers(const SSL_CTX * ctx)'/>

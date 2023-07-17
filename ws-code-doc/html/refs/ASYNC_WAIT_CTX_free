@@ -1,0 +1,1 @@
+<dec f='include/openssl/async.h' l='45' type='void ASYNC_WAIT_CTX_free(ASYNC_WAIT_CTX * ctx)'/>

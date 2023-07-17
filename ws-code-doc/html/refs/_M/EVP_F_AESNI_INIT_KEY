@@ -1,0 +1,4 @@
+<dec f='include/openssl/evperr.h' l='24'/>
+<doc f='include/openssl/evperr.h' l='21'>/*
+ * EVP function codes.
+ */</doc>

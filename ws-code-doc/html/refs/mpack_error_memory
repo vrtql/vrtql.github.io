@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='168' type='7'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='168'>/**&lt; An allocation failure occurred. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='38' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='479' u='r' c='mpack_expect_array_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='128' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='238' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='250' u='r' c='mpack_tree_push_stack'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='329' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='340' u='r' c='mpack_tree_parse_children'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='910' u='r' c='mpack_tree_parse_start'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1141' u='r' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1178' u='r' c='mpack_tree_init_stdfile_noclose'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1646' u='r' c='mpack_node_data_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1682' u='r' c='mpack_node_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1719' u='r' c='mpack_node_utf8_cstr_alloc'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='156' u='r' c='mpack_reader_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='522' u='r' c='mpack_read_bytes_alloc_impl'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='223' u='r' c='mpack_growable_writer_flush'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='257' u='r' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='293' u='r' c='mpack_writer_init_growable'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='335' u='r' c='mpack_writer_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1499' u='r' c='mpack_builder_add_page'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1558' u='r' c='mpack_builder_begin'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='418'/>
+<doc f='include/openssl/ssl.h' l='417'>/* Related to removed SSLv2. */</doc>

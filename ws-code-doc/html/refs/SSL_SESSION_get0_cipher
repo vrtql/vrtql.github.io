@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1633' type='const SSL_CIPHER * SSL_SESSION_get0_cipher(const SSL_SESSION * s)'/>

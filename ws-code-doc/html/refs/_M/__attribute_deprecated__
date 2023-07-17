@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/sys/cdefs.h' l='251'/>
+<use f='include/pthread.h' l='358' u='c'/>
+<use f='include/pthread.h' l='366' u='c'/>
+<use f='include/unistd.h' l='526' u='c'/>
+<use f='include/dirent.h' l='186' u='c'/>
+<use f='include/signal.h' l='170' u='c'/>
+<use f='include/signal.h' l='173' u='c'/>
+<use f='include/signal.h' l='176' u='c'/>
+<use f='include/signal.h' l='336' u='c'/>

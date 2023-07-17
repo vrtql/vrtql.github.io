@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='915' type='void mg_pfn_iobuf(char ch, void * param)'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='914'>// Various output functions</doc>
+<doc f='codebrowser/src/test/util/mongoose.h' l='915'>// param: struct mg_iobuf *</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='294' u='r' c='mg_http_vprintf_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='396' u='r' c='mg_http_reply'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='12' u='r' c='mg_vprintf'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='42' ll='44' type='void mg_pfn_iobuf(char ch, void * param)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='r' c='mg_vmprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22' u='r' c='mg_ws_vprintf'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='48' u='r' c='ws_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='54' u='r' c='ws_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='244' u='r' c='mg_ws_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='255' u='r' c='mg_ws_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='258' u='r' c='mg_ws_connect'/>

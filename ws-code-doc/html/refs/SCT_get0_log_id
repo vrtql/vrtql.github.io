@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='176' type='size_t SCT_get0_log_id(const SCT * sct, unsigned char ** log_id)'/>
+<doc f='include/openssl/ct.h' l='171'>/*
+ * Gets the ID of the log that an SCT came from.
+ * Ownership of the log ID remains with the SCT.
+ * Returns the length of the log ID.
+ */</doc>

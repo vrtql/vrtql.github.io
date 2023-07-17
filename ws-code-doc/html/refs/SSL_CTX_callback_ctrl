@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1847' type='long SSL_CTX_callback_ctrl(SSL_CTX * , int , void (*)(void) )'/>

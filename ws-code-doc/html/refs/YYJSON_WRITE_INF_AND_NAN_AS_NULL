@@ -1,0 +1,4 @@
+<def f='codebrowser/src/util/yyjson.h' l='1011' type='const yyjson_write_flag'/>
+<doc f='codebrowser/src/util/yyjson.h' l='1009'>/** Write inf and nan number as null literal.
+    This flag will override `YYJSON_WRITE_ALLOW_INF_AND_NAN` flag. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='7179' u='r' c='write_f64_raw'/>

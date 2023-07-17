@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='448' type='void CTLOG_STORE_free(CTLOG_STORE * store)'/>
+<doc f='include/openssl/ct.h' l='445'>/*
+ * Deletes a CT log store and all of the CT log instances held within.
+ */</doc>

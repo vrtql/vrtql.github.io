@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='353'/>
+<doc f='include/openssl/ssl.h' l='349'>/*
+ * Enable TLSv1.3 Compatibility mode. This is on by default. A future version
+ * of OpenSSL may have this disabled by default.
+ */</doc>

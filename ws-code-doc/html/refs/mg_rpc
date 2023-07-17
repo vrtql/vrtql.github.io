@@ -1,0 +1,22 @@
+<use f='codebrowser/src/test/util/mongoose.h' l='1597'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1598'/>
+<def f='codebrowser/src/test/util/mongoose.h' l='1606' ll='1611'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1607'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1613' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.h' l='1615' c='mg_rpc_del'/>
+<size>40</size>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1605'>// JSON-RPC method handler</doc>
+<mbr r='mg_rpc::next' o='0' t='struct mg_rpc *'/>
+<mbr r='mg_rpc::method' o='64' t='struct mg_str'/>
+<mbr r='mg_rpc::fn' o='192' t='void (*)(struct mg_rpc_req *)'/>
+<mbr r='mg_rpc::fn_data' o='256' t='void *'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='5' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='7' c='mg_rpc_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='15' c='mg_rpc_del'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='28' c='mg_rpc_call'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' c='print_methods'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' c='print_methods'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='90' c='print_methods'/>
+<size>40</size>

@@ -1,0 +1,2 @@
+<dec f='include/netinet/tcp.h' l='304'/>
+<doc f='include/netinet/tcp.h' l='303'>/* Flags for getsockopt */</doc>

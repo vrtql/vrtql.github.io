@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='706' type='void mpack_start_map(mpack_writer_t * writer, uint32_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='690'>/**
+ * Opens a map.
+ *
+ * `count * 2` elements must follow, and mpack_finish_map() must be called
+ * when done.
+ *
+ * If you do not know the number of elements to be written ahead of time, call
+ * mpack_build_map() instead.
+ *
+ * Remember that while map elements in MessagePack are implicitly ordered,
+ * they are not ordered in JSON. If you need elements to be read back
+ * in the order they are written, consider use an array instead.
+ *
+ * @see mpack_finish_map()
+ * @see mpack_build_map() to count the number of key/value pairs automatically
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='631' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1150' ll='1155' type='void mpack_start_map(mpack_writer_t * writer, uint32_t count)'/>

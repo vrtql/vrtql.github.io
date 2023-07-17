@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1181' type='void *'/>
+<offset>576</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1181'>// TLS context shared by all TLS sessions</doc>

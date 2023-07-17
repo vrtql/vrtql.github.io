@@ -1,0 +1,7 @@
+<def f='codebrowser/src/http_request.c' l='159' ll='167' type='char * lcase(char * s)'/>
+<use f='codebrowser/src/http_request.c' l='181' u='c' c='on_header_field'/>
+<doc f='codebrowser/src/http_request.c' l='154'>/**
+ * @brief Converts a string to lowercase.
+ * @param s The string to convert.
+ * @return The converted lowercase string.
+ */</doc>

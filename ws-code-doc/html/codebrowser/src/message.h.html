@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>message.h source code [codebrowser/src/message.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="vrtql_msg "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/message.h'; var root_path = '../..'; var data_path = '../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='message.h.html'>message.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/VRTQL_MSG_DECLARE">VRTQL_MSG_DECLARE</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/VRTQL_MSG_DECLARE" data-ref="_M/VRTQL_MSG_DECLARE">VRTQL_MSG_DECLARE</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="websocket.h.html">"websocket.h"</a></u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="7">7</th><td>{</td></tr>
+<tr><th id="8">8</th><td>    <dfn class="enum" id="VM_MPACK_FORMAT" title='VM_MPACK_FORMAT' data-ref="VM_MPACK_FORMAT" data-ref-filename="VM_MPACK_FORMAT">VM_MPACK_FORMAT</dfn>,</td></tr>
+<tr><th id="9">9</th><td>    <dfn class="enum" id="VM_JSON_FORMAT" title='VM_JSON_FORMAT' data-ref="VM_JSON_FORMAT" data-ref-filename="VM_JSON_FORMAT">VM_JSON_FORMAT</dfn></td></tr>
+<tr><th id="10">10</th><td>} <dfn class="typedef" id="vrtql_msg_format" title='vrtql_msg_format' data-type='enum vrtql_msg_format' data-ref="vrtql_msg_format" data-ref-filename="vrtql_msg_format">vrtql_msg_format</dfn>;</td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="13">13</th><td>{</td></tr>
+<tr><th id="14">14</th><td>    <dfn class="enum" id="VM_MSG_VALID" title='VM_MSG_VALID' data-ref="VM_MSG_VALID" data-ref-filename="VM_MSG_VALID">VM_MSG_VALID</dfn>       = (<var>1</var> &lt;&lt; <var>1</var>),</td></tr>
+<tr><th id="15">15</th><td>    <dfn class="enum" id="VM_MSG_PRIORITY" title='VM_MSG_PRIORITY' data-ref="VM_MSG_PRIORITY" data-ref-filename="VM_MSG_PRIORITY">VM_MSG_PRIORITY</dfn>    = (<var>1</var> &lt;&lt; <var>2</var>),</td></tr>
+<tr><th id="16">16</th><td>    <dfn class="enum" id="VM_MSG_OUT_OF_BAND" title='VM_MSG_OUT_OF_BAND' data-ref="VM_MSG_OUT_OF_BAND" data-ref-filename="VM_MSG_OUT_OF_BAND">VM_MSG_OUT_OF_BAND</dfn> = (<var>1</var> &lt;&lt; <var>3</var>)</td></tr>
+<tr><th id="17">17</th><td>} <dfn class="typedef" id="vrtql_msg_state" title='vrtql_msg_state' data-type='enum vrtql_msg_state' data-ref="vrtql_msg_state" data-ref-filename="vrtql_msg_state">vrtql_msg_state</dfn>;</td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * <span class="command">@brief</span> Represents a message with routing, headers, and content.</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="22">22</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vrtql_msg" title='vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg"><a class="type" href="#vrtql_msg" title='vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a></dfn></td></tr>
+<tr><th id="23">23</th><td>{</td></tr>
+<tr><th id="24">24</th><td>    <b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a> <dfn class="decl field" id="vrtql_msg::routing" title='vrtql_msg::routing' data-ref="vrtql_msg::routing" data-ref-filename="vrtql_msg..routing">routing</dfn>; <i class="doc">/**&lt; A map storing routing information. */</i></td></tr>
+<tr><th id="25">25</th><td>    <b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a> <dfn class="decl field" id="vrtql_msg::headers" title='vrtql_msg::headers' data-ref="vrtql_msg::headers" data-ref-filename="vrtql_msg..headers">headers</dfn>; <i class="doc">/**&lt; A map storing header fields.       */</i></td></tr>
+<tr><th id="26">26</th><td>    <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="decl field" id="vrtql_msg::content" title='vrtql_msg::content' data-ref="vrtql_msg::content" data-ref-filename="vrtql_msg..content">content</dfn>;     <i class="doc">/**&lt; Buffer for the message content.    */</i></td></tr>
+<tr><th id="27">27</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="vrtql_msg::flags" title='vrtql_msg::flags' data-ref="vrtql_msg::flags" data-ref-filename="vrtql_msg..flags">flags</dfn>;            <i class="doc">/**&lt; Message state flags                */</i></td></tr>
+<tr><th id="28">28</th><td>    <a class="typedef" href="#vrtql_msg_format" title='vrtql_msg_format' data-type='enum vrtql_msg_format' data-ref="vrtql_msg_format" data-ref-filename="vrtql_msg_format">vrtql_msg_format</a> <dfn class="decl field" id="vrtql_msg::format" title='vrtql_msg::format' data-ref="vrtql_msg::format" data-ref-filename="vrtql_msg..format">format</dfn>;   <i class="doc">/**&lt; Message format                     */</i></td></tr>
+<tr><th id="29">29</th><td>} <dfn class="typedef" id="vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</dfn>;</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="32">32</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new vrtql_msg instance.</i></td></tr>
+<tr><th id="33">33</th><td><i class="doc"> * <span class="command">@return</span> A pointer to the new vrtql_msg instance.</i></td></tr>
+<tr><th id="34">34</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="35">35</th><td><a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <a class="decl fn" href="message.c.html#vrtql_msg_new" title='vrtql_msg_new' data-ref="vrtql_msg_new" data-ref-filename="vrtql_msg_new" id="vrtql_msg_new">vrtql_msg_new</a>();</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="38">38</th><td><i class="doc"> * <span class="command">@brief</span> Frees a vrtql_msg instance.</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance to be freed.</i></td></tr>
+<tr><th id="40">40</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="41">41</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free" id="vrtql_msg_free">vrtql_msg_free</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col2 decl" id="10052msg" title='msg' data-type='vrtql_msg *' data-ref="10052msg" data-ref-filename="10052msg">msg</dfn>);</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="44">44</th><td><i class="doc"> * <span class="command">@brief</span> Gets a header value by key.</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The header key.</i></td></tr>
+<tr><th id="47">47</th><td><i class="doc"> * <span class="command">@return</span> The header value. Returns NULL if the key doesn't exist.</i></td></tr>
+<tr><th id="48">48</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="49">49</th><td><a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <a class="decl fn" href="message.c.html#vrtql_msg_get_header" title='vrtql_msg_get_header' data-ref="vrtql_msg_get_header" data-ref-filename="vrtql_msg_get_header" id="vrtql_msg_get_header">vrtql_msg_get_header</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col3 decl" id="10053msg" title='msg' data-type='vrtql_msg *' data-ref="10053msg" data-ref-filename="10053msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="10054key" title='key' data-type='cstr' data-ref="10054key" data-ref-filename="10054key">key</dfn>);</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc"> * <span class="command">@brief</span> Sets a header key-value pair.</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The header key.</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The header value.</i></td></tr>
+<tr><th id="56">56</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="57">57</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header" id="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col5 decl" id="10055msg" title='msg' data-type='vrtql_msg *' data-ref="10055msg" data-ref-filename="10055msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="10056key" title='key' data-type='cstr' data-ref="10056key" data-ref-filename="10056key">key</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col7 decl" id="10057value" title='value' data-type='cstr' data-ref="10057value" data-ref-filename="10057value">value</dfn>);</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="60">60</th><td><i class="doc"> * <span class="command">@brief</span> Removes a header key-value pair.</i></td></tr>
+<tr><th id="61">61</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="62">62</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The header key to be removed.</i></td></tr>
+<tr><th id="63">63</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="64">64</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_clear_header" title='vrtql_msg_clear_header' data-ref="vrtql_msg_clear_header" data-ref-filename="vrtql_msg_clear_header" id="vrtql_msg_clear_header">vrtql_msg_clear_header</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col8 decl" id="10058msg" title='msg' data-type='vrtql_msg *' data-ref="10058msg" data-ref-filename="10058msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col9 decl" id="10059key" title='key' data-type='cstr' data-ref="10059key" data-ref-filename="10059key">key</dfn>);</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="67">67</th><td><i class="doc"> * <span class="command">@brief</span> Gets a routing value by key.</i></td></tr>
+<tr><th id="68">68</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="69">69</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The routing key.</i></td></tr>
+<tr><th id="70">70</th><td><i class="doc"> * <span class="command">@return</span> The routing value. Returns NULL if the key doesn't exist.</i></td></tr>
+<tr><th id="71">71</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="72">72</th><td><a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <a class="decl fn" href="message.c.html#vrtql_msg_get_routing" title='vrtql_msg_get_routing' data-ref="vrtql_msg_get_routing" data-ref-filename="vrtql_msg_get_routing" id="vrtql_msg_get_routing">vrtql_msg_get_routing</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col0 decl" id="10060msg" title='msg' data-type='vrtql_msg *' data-ref="10060msg" data-ref-filename="10060msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col1 decl" id="10061key" title='key' data-type='cstr' data-ref="10061key" data-ref-filename="10061key">key</dfn>);</td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="75">75</th><td><i class="doc"> * <span class="command">@brief</span> Sets a routing key-value pair.</i></td></tr>
+<tr><th id="76">76</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="77">77</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The routing key.</i></td></tr>
+<tr><th id="78">78</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The routing value.</i></td></tr>
+<tr><th id="79">79</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="80">80</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_set_routing" title='vrtql_msg_set_routing' data-ref="vrtql_msg_set_routing" data-ref-filename="vrtql_msg_set_routing" id="vrtql_msg_set_routing">vrtql_msg_set_routing</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col2 decl" id="10062msg" title='msg' data-type='vrtql_msg *' data-ref="10062msg" data-ref-filename="10062msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col3 decl" id="10063key" title='key' data-type='cstr' data-ref="10063key" data-ref-filename="10063key">key</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="10064value" title='value' data-type='cstr' data-ref="10064value" data-ref-filename="10064value">value</dfn>);</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="83">83</th><td><i class="doc"> * <span class="command">@brief</span> Removes a routing key-value pair.</i></td></tr>
+<tr><th id="84">84</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="85">85</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The routing key to be removed.</i></td></tr>
+<tr><th id="86">86</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="87">87</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_clear_routing" title='vrtql_msg_clear_routing' data-ref="vrtql_msg_clear_routing" data-ref-filename="vrtql_msg_clear_routing" id="vrtql_msg_clear_routing">vrtql_msg_clear_routing</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col5 decl" id="10065msg" title='msg' data-type='vrtql_msg *' data-ref="10065msg" data-ref-filename="10065msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="10066key" title='key' data-type='cstr' data-ref="10066key" data-ref-filename="10066key">key</dfn>);</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="90">90</th><td><i class="doc"> * <span class="command">@brief</span> Gets the content of the message.</i></td></tr>
+<tr><th id="91">91</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="92">92</th><td><i class="doc"> * <span class="command">@return</span> The content of the message. Returns NULL if no content is set.</i></td></tr>
+<tr><th id="93">93</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="94">94</th><td><a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <a class="decl fn" href="message.c.html#vrtql_msg_get_content" title='vrtql_msg_get_content' data-ref="vrtql_msg_get_content" data-ref-filename="vrtql_msg_get_content" id="vrtql_msg_get_content">vrtql_msg_get_content</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col7 decl" id="10067msg" title='msg' data-type='vrtql_msg *' data-ref="10067msg" data-ref-filename="10067msg">msg</dfn>);</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="97">97</th><td><i class="doc"> * <span class="command">@brief</span> Gets the size of the content.</i></td></tr>
+<tr><th id="98">98</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="99">99</th><td><i class="doc"> * <span class="command">@return</span> The size of the content in bytes.</i></td></tr>
+<tr><th id="100">100</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="101">101</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <a class="decl fn" href="message.c.html#vrtql_msg_get_content_size" title='vrtql_msg_get_content_size' data-ref="vrtql_msg_get_content_size" data-ref-filename="vrtql_msg_get_content_size" id="vrtql_msg_get_content_size">vrtql_msg_get_content_size</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col8 decl" id="10068msg" title='msg' data-type='vrtql_msg *' data-ref="10068msg" data-ref-filename="10068msg">msg</dfn>);</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="104">104</th><td><i class="doc"> * <span class="command">@brief</span> Sets the content of the message from a string.</i></td></tr>
+<tr><th id="105">105</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The content to be set.</i></td></tr>
+<tr><th id="107">107</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="108">108</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_set_content" title='vrtql_msg_set_content' data-ref="vrtql_msg_set_content" data-ref-filename="vrtql_msg_set_content" id="vrtql_msg_set_content">vrtql_msg_set_content</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col9 decl" id="10069msg" title='msg' data-type='vrtql_msg *' data-ref="10069msg" data-ref-filename="10069msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col0 decl" id="10070value" title='value' data-type='cstr' data-ref="10070value" data-ref-filename="10070value">value</dfn>);</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="111">111</th><td><i class="doc"> * <span class="command">@brief</span> Sets the content of the message from a binary data.</i></td></tr>
+<tr><th id="112">112</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="113">113</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The content to be set.</i></td></tr>
+<tr><th id="114">114</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the content in bytes.</i></td></tr>
+<tr><th id="115">115</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="116">116</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_set_content_binary" title='vrtql_msg_set_content_binary' data-ref="vrtql_msg_set_content_binary" data-ref-filename="vrtql_msg_set_content_binary" id="vrtql_msg_set_content_binary">vrtql_msg_set_content_binary</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col1 decl" id="10071msg" title='msg' data-type='vrtql_msg *' data-ref="10071msg" data-ref-filename="10071msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col2 decl" id="10072value" title='value' data-type='cstr' data-ref="10072value" data-ref-filename="10072value">value</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="10073size" title='size' data-type='size_t' data-ref="10073size" data-ref-filename="10073size">size</dfn>);</td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc"> * <span class="command">@brief</span> Clears the content of the message.</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="122">122</th><td><em>void</em> <a class="decl fn" href="message.c.html#vrtql_msg_clear_content" title='vrtql_msg_clear_content' data-ref="vrtql_msg_clear_content" data-ref-filename="vrtql_msg_clear_content" id="vrtql_msg_clear_content">vrtql_msg_clear_content</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col4 decl" id="10074msg" title='msg' data-type='vrtql_msg *' data-ref="10074msg" data-ref-filename="10074msg">msg</dfn>);</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc"> * <span class="command">@brief</span> Serializes a vrtql_msg instance to a buffer.</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="127">127</th><td><i class="doc"> * <span class="command">@return</span> A buffer containing the serialized message.</i></td></tr>
+<tr><th id="128">128</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="129">129</th><td><a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <a class="decl fn" href="message.c.html#vrtql_msg_serialize" title='vrtql_msg_serialize' data-ref="vrtql_msg_serialize" data-ref-filename="vrtql_msg_serialize" id="vrtql_msg_serialize">vrtql_msg_serialize</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col5 decl" id="10075msg" title='msg' data-type='vrtql_msg *' data-ref="10075msg" data-ref-filename="10075msg">msg</dfn>);</td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc"> * <span class="command">@brief</span> Deserializes a buffer to a vrtql_msg instance.</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">msg</span> The vrtql_msg instance.</i></td></tr>
+<tr><th id="134">134</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The buffer containing the serialized message.</i></td></tr>
+<tr><th id="135">135</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">length</span> The length of the buffer in bytes.</i></td></tr>
+<tr><th id="136">136</th><td><i class="doc"> * <span class="command">@return</span> true on success, false on failure.</i></td></tr>
+<tr><th id="137">137</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="138">138</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="decl fn" href="message.c.html#vrtql_msg_deserialize" title='vrtql_msg_deserialize' data-ref="vrtql_msg_deserialize" data-ref-filename="vrtql_msg_deserialize" id="vrtql_msg_deserialize">vrtql_msg_deserialize</a>(<a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col6 decl" id="10076msg" title='msg' data-type='vrtql_msg *' data-ref="10076msg" data-ref-filename="10076msg">msg</dfn>, <a class="typedef" href="vrtql.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col7 decl" id="10077data" title='data' data-type='ucstr' data-ref="10077data" data-ref-filename="10077data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="10078length" title='length' data-type='size_t' data-ref="10078length" data-ref-filename="10078length">length</dfn>);</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="141">141</th><td><i class="doc"> * <span class="command">@brief</span> Sends a message via a websocket connection. Does not take ownership of</i></td></tr>
+<tr><th id="142">142</th><td><i class="doc"> * message. Caller is still responsible for freeing message. This is to allow</i></td></tr>
+<tr><th id="143">143</th><td><i class="doc"> * reuse of messages.</i></td></tr>
+<tr><th id="144">144</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="145">145</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The data to send.</i></td></tr>
+<tr><th id="147">147</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
+<tr><th id="148">148</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
+<tr><th id="149">149</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="150">150</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <a class="decl fn" href="message.c.html#vrtql_msg_send" title='vrtql_msg_send' data-ref="vrtql_msg_send" data-ref-filename="vrtql_msg_send" id="vrtql_msg_send">vrtql_msg_send</a>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col9 decl" id="10079c" title='c' data-type='vws_cnx *' data-ref="10079c" data-ref-filename="10079c">c</dfn>, <a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col0 decl" id="10080msg" title='msg' data-type='vrtql_msg *' data-ref="10080msg" data-ref-filename="10080msg">msg</dfn>);</td></tr>
+<tr><th id="151">151</th><td></td></tr>
+<tr><th id="152">152</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="153">153</th><td><i class="doc"> * <span class="command">@brief</span> Receives a message from the connection.</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="155">155</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="156">156</th><td><i class="doc"> * <span class="command">@return</span> Returns the most recent message or NULL if the socket timed out</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc"> *   without receiving a full message.</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="159">159</th><td><a class="typedef" href="#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <a class="decl fn" href="message.c.html#vrtql_msg_receive" title='vrtql_msg_receive' data-ref="vrtql_msg_receive" data-ref-filename="vrtql_msg_receive" id="vrtql_msg_receive">vrtql_msg_receive</a>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col1 decl" id="10081c" title='c' data-type='vws_cnx *' data-ref="10081c" data-ref-filename="10081c">c</dfn>);</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td><u>#<span data-ppcond="1">endif</span> /* VRTQL_MSG_DECLARE */</u></td></tr>
+<tr><th id="163">163</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-17</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

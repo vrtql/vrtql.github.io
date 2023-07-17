@@ -1,0 +1,2 @@
+<dec f='include/stdlib.h' l='117' type='double strtod(const char *restrict __nptr, char **restrict __endptr)'/>
+<doc f='include/stdlib.h' l='116'>/* Convert a string to a floating-point number.  */</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/websocket.h' l='346' type='vws_msg * vws_recv_msg(vws_cnx * c)'/>
+<use f='codebrowser/src/message.c' l='443' u='c' c='vrtql_msg_receive'/>
+<doc f='codebrowser/src/websocket.h' l='339'>/**
+ * @brief Receives a websocket message from the connection.
+ *
+ * @param c The connection.
+ * @return Returns the most recent websocket message or NULL if the socket
+ *   timed out without receiving a full message.
+ */</doc>
+<use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_frame_run'/>
+<def f='codebrowser/src/websocket.c' l='563' ll='590' type='vws_msg * vws_recv_msg(vws_cnx * c)'/>

@@ -1,0 +1,11 @@
+<use f='codebrowser/src/util/yyjson.h' l='647'/>
+<def f='codebrowser/src/util/yyjson.h' l='5153' ll='5157'/>
+<size>24</size>
+<doc f='codebrowser/src/util/yyjson.h' l='5148'>/**
+ Mutable JSON value, 24 bytes.
+ The &apos;tag&apos; and &apos;uni&apos; field is same as immutable value.
+ The &apos;next&apos; field links all elements inside the container to be a cycle.
+ */</doc>
+<mbr r='yyjson_mut_val::tag' o='0' t='uint64_t'/>
+<mbr r='yyjson_mut_val::uni' o='64' t='yyjson_val_uni'/>
+<mbr r='yyjson_mut_val::next' o='128' t='yyjson_mut_val *'/>

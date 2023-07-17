@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='731' type='void mpack_node_missing(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1963' ll='1968' type='void mpack_node_missing(mpack_node_t node)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='725'>/**
+ * Checks that the given node indicates a missing node, raising @ref
+ * mpack_error_type otherwise.
+ *
+ * Use mpack_node_is_missing() to return whether the node is missing.
+ */</doc>

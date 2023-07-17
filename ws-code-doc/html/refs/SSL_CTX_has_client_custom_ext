@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='863' type='int SSL_CTX_has_client_custom_ext(const SSL_CTX * ctx, unsigned int ext_type)'/>
+<doc f='include/openssl/ssl.h' l='861'>/* Register callbacks to handle custom TLS Extensions for client or server. */</doc>

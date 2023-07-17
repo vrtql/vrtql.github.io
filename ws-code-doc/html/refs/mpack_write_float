@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='604' type='void mpack_write_float(mpack_writer_t * writer, float value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='603'>/** Writes a float. */</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='606' u='c' c='mpack_write_tag'/>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1072' ll='1075' type='void mpack_write_float(mpack_writer_t * writer, float value)'/>

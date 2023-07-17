@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='556' type='void mpack_expect_uint_match(mpack_reader_t * reader, uint64_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='550'>/**
+ * Reads an unsigned integer, ensuring that it exactly matches the given value.
+ *
+ * mpack_error_type is raised if the value is not representable as an unsigned
+ * integer or if it does not exactly match the given value.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='309' ll='312' type='void mpack_expect_uint_match(mpack_reader_t * reader, uint64_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.c' l='307'>// Matching Number Functions</doc>

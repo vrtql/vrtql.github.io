@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='929' type='void mg_log_set(int log_level)'/>
+<use f='codebrowser/src/test/client.c' l='58' u='c' c='main'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1057' u='c' c='mg_hfn'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='25' ll='28' type='void mg_log_set(int log_level)'/>

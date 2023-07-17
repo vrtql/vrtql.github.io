@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='170' type='9'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='170'>/**&lt; The contained data is not valid. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='40' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1753' u='r' c='mpack_node_map_int_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1785' u='r' c='mpack_node_map_uint_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1819' u='r' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1835' u='r' c='mpack_node_wrap_lookup'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2357' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2387' u='r' c='mpack_node_map_at'/>

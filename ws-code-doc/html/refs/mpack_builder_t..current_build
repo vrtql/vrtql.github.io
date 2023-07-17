@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='151' type='mpack_build_t *'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='712' u='r' c='mpack_builder_compound_push'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='723' u='r' c='mpack_builder_compound_pop'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='151'>// build which is accumulating elements</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='76' u='r' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='77' u='r' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='114' u='w' c='mpack_writer_clear'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='394' u='r' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='431' u='r' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='472' u='r' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='540' u='r' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1539' u='r' c='mpack_builder_begin'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1580' u='r' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1612' u='r' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1620' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1668' u='w' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1778' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1780' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1783' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1789' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1800' u='r' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1803' u='w' c='mpack_builder_complete'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1803' u='r' c='mpack_builder_complete'/>

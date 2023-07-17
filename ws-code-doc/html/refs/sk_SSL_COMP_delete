@@ -1,0 +1,1 @@
+<def f='include/openssl/ssl.h' l='959' macro='1' type='SSL_COMP * sk_SSL_COMP_delete(struct stack_st_SSL_COMP * sk, int i)'/>

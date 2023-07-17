@@ -1,0 +1,2 @@
+<dec f='include/openssl/tls1.h' l='491'/>
+<doc f='include/openssl/tls1.h' l='490'>/* TLS 1.2 Camellia SHA-256 ciphersuites from RFC5932 */</doc>

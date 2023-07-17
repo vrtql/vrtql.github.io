@@ -1,0 +1,4 @@
+<dec f='include/openssl/dsaerr.h' l='57'/>
+<doc f='include/openssl/dsaerr.h' l='54'>/*
+ * DSA reason codes.
+ */</doc>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2405'/>
+<doc f='include/openssl/ssl.h' l='2404'>/* Use the ticket, send a renewed ticket to the client */</doc>

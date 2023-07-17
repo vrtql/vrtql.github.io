@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1923' type='int SSL_renegotiate_pending(const SSL * s)'/>

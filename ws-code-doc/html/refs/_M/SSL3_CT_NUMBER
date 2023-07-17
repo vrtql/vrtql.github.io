@@ -1,0 +1,7 @@
+<dec f='include/openssl/ssl3.h' l='268'/>
+<use f='include/openssl/tls1.h' l='1147' u='a'/>
+<use f='include/openssl/tls1.h' l='1148' u='c'/>
+<doc f='include/openssl/ssl3.h' l='264'>/*
+ * SSL3_CT_NUMBER is used to size arrays and it must be large enough to
+ * contain all of the cert types defined for *either* SSLv3 and TLSv1.
+ */</doc>

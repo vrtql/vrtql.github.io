@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1745' type='int SSL_get0_dane_authority(SSL * s, X509 ** mcert, EVP_PKEY ** mspki)'/>

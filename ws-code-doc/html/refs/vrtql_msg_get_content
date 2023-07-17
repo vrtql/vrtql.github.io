@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/message.h' l='94' type='cstr vrtql_msg_get_content(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='410' ll='413' type='cstr vrtql_msg_get_content(vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='89'>/**
+ * @brief Gets the content of the message.
+ * @param msg The vrtql_msg instance.
+ * @return The content of the message. Returns NULL if no content is set.
+ */</doc>

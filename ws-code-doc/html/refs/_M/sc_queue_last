@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/util/sc_queue.h' l='166'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='162'>/**
+ * @param q queue
+ * @return  index of the last element. If queue is empty, result is undefined.
+ */</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1544' type='struct mg_addr'/>
+<offset>32</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1544'>// Resolved address</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='124' u='m' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='125' u='m' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='129' u='m' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='130' u='m' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='164' u='m' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='165' u='r' c='dns_cb'/>

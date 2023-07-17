@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='188' type='0'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='188'>/**&lt; Special type indicating a missing optional value. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='56' c='mpack_type_to_string'/>
+<use f='codebrowser/src/mpack/mpack-common.c' l='96' c='mpack_tag_cmp'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1013' u='r' c='mpack_tree_init_clear'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1261' c='mpack_node_tag'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1953' u='r' c='mpack_node_is_missing'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1966' u='r' c='mpack_node_missing'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='594' c='mpack_write_tag'/>

@@ -1,0 +1,47 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='465' type='mpack_tag_t mpack_read_tag(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/message.c' l='476' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='501' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='519' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='550' u='c' c='msg_parse_content'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='443'>/**
+ * Reads a MessagePack object header (an MPack tag.)
+ *
+ * If an error occurs, the reader is placed in an error state and a
+ * nil tag is returned. If the reader is already in an error state,
+ * a nil tag is returned.
+ *
+ * If the type is compound (i.e. is a map, array, string, binary or
+ * extension type), additional reads are required to get the contained
+ * data, and the corresponding done function must be called when done.
+ *
+ * @note Maps in JSON are unordered, so it is recommended not to expect
+ * a specific ordering for your map values in case your data is converted
+ * to/from JSON.
+ *
+ * @see mpack_read_bytes()
+ * @see mpack_done_array()
+ * @see mpack_done_map()
+ * @see mpack_done_str()
+ * @see mpack_done_bin()
+ * @see mpack_done_ext()
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='77' u='c' c='mpack_expect_u8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='90' u='c' c='mpack_expect_u16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='103' u='c' c='mpack_expect_u32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='116' u='c' c='mpack_expect_u64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='128' u='c' c='mpack_expect_i8'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='141' u='c' c='mpack_expect_i16'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='154' u='c' c='mpack_expect_i32'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='167' u='c' c='mpack_expect_i64'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='180' u='c' c='mpack_expect_float'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='203' u='c' c='mpack_expect_double'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='219' u='c' c='mpack_expect_float_strict'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='229' u='c' c='mpack_expect_double_strict'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='370' u='c' c='mpack_expect_map'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='385' u='c' c='mpack_expect_map_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='412' u='c' c='mpack_expect_array'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='427' u='c' c='mpack_expect_array_or_nil'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='556' u='c' c='mpack_expect_bin'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='711' u='c' c='mpack_expect_tag'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='933' ll='974' type='mpack_tag_t mpack_read_tag(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='992' u='c' c='mpack_discard'/>

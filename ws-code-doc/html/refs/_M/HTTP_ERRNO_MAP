@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/http_parser.h' l='237'/>
+<use f='codebrowser/src/http_parser.h' l='288' u='c'/>
+<use f='codebrowser/src/http_parser.c' l='540' u='c'/>
+<doc f='codebrowser/src/http_parser.h' l='233'>/* Map for errno-related constants
+ *
+ * The provided argument should be a macro that takes 2 arguments.
+ */</doc>

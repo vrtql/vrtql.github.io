@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1350' type='size_t mg_tls_pending(struct mg_connection * )'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='515' u='c' c='mg_iotest'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='139' ll='142' type='size_t mg_tls_pending(struct mg_connection * c)'/>

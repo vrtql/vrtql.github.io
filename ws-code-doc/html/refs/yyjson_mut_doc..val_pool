@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/util/yyjson.h' l='5205' type='yyjson_val_pool'/>
+<use f='codebrowser/src/util/yyjson.h' l='5247' u='a' c='unsafe_yyjson_mut_val'/>
+<offset>640</offset>
+<doc f='codebrowser/src/util/yyjson.h' l='5205'>/**&lt; value memory pool */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='1229' u='m' c='yyjson_mut_doc_set_val_pool_size'/>
+<use f='codebrowser/src/util/yyjson.c' l='1237' u='a' c='yyjson_mut_doc_free'/>
+<use f='codebrowser/src/util/yyjson.c' l='1252' u='m' c='yyjson_mut_doc_new'/>
+<use f='codebrowser/src/util/yyjson.c' l='1253' u='m' c='yyjson_mut_doc_new'/>
+<use f='codebrowser/src/util/yyjson.c' l='8690' u='m' c='yyjson_mut_doc_estimated_val_num'/>
+<use f='codebrowser/src/util/yyjson.c' l='8693' u='m' c='yyjson_mut_doc_estimated_val_num'/>
+<use f='codebrowser/src/util/yyjson.c' l='8694' u='m' c='yyjson_mut_doc_estimated_val_num'/>
+<use f='codebrowser/src/util/yyjson.c' l='8694' u='m' c='yyjson_mut_doc_estimated_val_num'/>

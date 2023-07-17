@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1490' type='struct mg_str'/>
+<offset>256</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1490'>// Client ID</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='260' u='r' c='mg_mqtt_login'/>

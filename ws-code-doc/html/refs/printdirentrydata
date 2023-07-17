@@ -1,0 +1,5 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='610' ll='615'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='618' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='618' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='683' c='listdir'/>
+<size>32</size>

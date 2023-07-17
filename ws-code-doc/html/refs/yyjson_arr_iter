@@ -1,0 +1,18 @@
+<def f='codebrowser/src/util/yyjson.h' l='1731' ll='1735'/>
+<use f='codebrowser/src/util/yyjson.h' l='1731'/>
+<size>24</size>
+<doc f='codebrowser/src/util/yyjson.h' l='1719'>/**
+ A JSON array iterator.
+ 
+ @par Example
+ @code
+    yyjson_val *val;
+    yyjson_arr_iter iter = yyjson_arr_iter_with(arr);
+    while ((val = yyjson_arr_iter_next(&amp;iter))) {
+        your_func(val);
+    }
+ @endcode
+ */</doc>
+<mbr r='yyjson_arr_iter::idx' o='0' t='size_t'/>
+<mbr r='yyjson_arr_iter::max' o='64' t='size_t'/>
+<mbr r='yyjson_arr_iter::cur' o='128' t='yyjson_val *'/>

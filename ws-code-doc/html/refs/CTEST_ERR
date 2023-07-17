@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/test/ctest.h' l='168' type='void CTEST_ERR(const char * fmt)'/>
+<def f='codebrowser/src/test/ctest.h' l='338' ll='349' type='void CTEST_ERR(const char * fmt)'/>
+<use f='codebrowser/src/test/ctest.h' l='358' u='c' c='assert_str'/>
+<use f='codebrowser/src/test/ctest.h' l='367' u='c' c='assert_wstr'/>
+<use f='codebrowser/src/test/ctest.h' l='376' u='c' c='assert_data'/>
+<use f='codebrowser/src/test/ctest.h' l='380' u='c' c='assert_data'/>
+<use f='codebrowser/src/test/ctest.h' l='398' u='c' c='assert_compare'/>
+<use f='codebrowser/src/test/ctest.h' l='406' u='c' c='assert_compare_u'/>
+<use f='codebrowser/src/test/ctest.h' l='412' u='c' c='assert_interval'/>
+<use f='codebrowser/src/test/ctest.h' l='437' u='c' c='assert_dbl_compare'/>
+<use f='codebrowser/src/test/ctest.h' l='443' u='c' c='assert_null'/>
+<use f='codebrowser/src/test/ctest.h' l='449' u='c' c='assert_not_null'/>
+<use f='codebrowser/src/test/ctest.h' l='455' u='c' c='assert_true'/>
+<use f='codebrowser/src/test/ctest.h' l='461' u='c' c='assert_false'/>
+<use f='codebrowser/src/test/ctest.h' l='466' u='c' c='assert_fail'/>
+<doc f='codebrowser/src/test/ctest.h' l='168'>// doesn&apos;t return</doc>

@@ -1,0 +1,7 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='520' ll='529' macro='1' type='void mpack_write_native(mpack_writer_t * writer, const char * p, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='662' u='c' c='mpack_write_object_bytes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1284' u='c' c='mpack_write_str'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1294' u='c' c='mpack_write_str'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1297' u='c' c='mpack_write_str'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1322' u='c' c='mpack_write_bytes'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1718' u='c' c='mpack_builder_resolve'/>

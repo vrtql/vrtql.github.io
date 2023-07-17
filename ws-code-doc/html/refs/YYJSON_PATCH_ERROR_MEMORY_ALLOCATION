@@ -1,0 +1,54 @@
+<def f='codebrowser/src/util/yyjson.h' l='4290' type='const yyjson_patch_code'/>
+<doc f='codebrowser/src/util/yyjson.h' l='4289'>/** Memory allocation failure occurs. */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2248' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2279' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2328' macro='1' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2367' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2398' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2449' macro='1' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2201' u='r' c='yyjson_mut_patch'/>

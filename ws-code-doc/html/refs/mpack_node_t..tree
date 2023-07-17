@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='145' type='mpack_tree_t *'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='280' u='w' c='mpack_node'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='620' u='r' c='mpack_node_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='43' u='r' c='mpack_node_data_unchecked'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1250' u='r' c='mpack_node_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1809' u='r' c='mpack_node_map_str_impl'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1851' u='r' c='mpack_node_map_int'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1855' u='r' c='mpack_node_map_int_optional'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1859' u='r' c='mpack_node_map_uint'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1863' u='r' c='mpack_node_map_uint_optional'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1867' u='r' c='mpack_node_map_str'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1871' u='r' c='mpack_node_map_str_optional'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2349' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2353' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2358' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2361' u='r' c='mpack_node_array_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2379' u='r' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2383' u='r' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2388' u='r' c='mpack_node_map_at'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2391' u='r' c='mpack_node_map_at'/>
+<offset>64</offset>

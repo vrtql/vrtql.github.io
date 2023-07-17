@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1139' type='8'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1139'>// Data written to socket       long *bytes_written</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='422' u='r' c='static_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='117' u='r' c='iolog'/>

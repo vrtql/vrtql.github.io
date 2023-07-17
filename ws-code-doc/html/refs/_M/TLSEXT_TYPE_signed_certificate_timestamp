@@ -1,0 +1,5 @@
+<dec f='include/openssl/tls1.h' l='120'/>
+<doc f='include/openssl/tls1.h' l='116'>/*
+ * Extension type for Certificate Transparency
+ * https://tools.ietf.org/html/rfc6962#section-3.3.1
+ */</doc>

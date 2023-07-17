@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1505' type='void SSL_CTX_free(SSL_CTX * )'/>
+<use f='codebrowser/src/socket.c' l='524' u='c' c='vws_socket_close'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='134' u='c' c='mg_tls_free'/>

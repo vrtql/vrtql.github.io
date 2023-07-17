@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='781' type='void mpack_build_array(struct mpack_writer_t * writer)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='763'>/**
+ * Starts building an array.
+ *
+ * Elements must follow, and mpack_complete_array() must be called when done. The
+ * number of elements is determined automatically.
+ *
+ * If you know ahead of time the number of elements in the array, it is more
+ * efficient to call mpack_start_array() instead, even if you are already
+ * within another open build.
+ *
+ * Builder containers can be nested within normal (known size) containers and
+ * vice versa. You can call mpack_build_array(), then mpack_start_array()
+ * inside it, then mpack_build_array() inside that, and so forth.
+ *
+ * @see mpack_complete_array() to complete this array
+ * @see mpack_start_array() if you already know the size of the array
+ * @see mpack_build_map() for implementation details
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1815' ll='1817' type='void mpack_build_array(mpack_writer_t * writer)'/>

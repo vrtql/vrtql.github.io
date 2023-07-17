@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='82'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='81'>// http://esr.ibiblio.org/?p=5095</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='8' u='c'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='15' u='c'/>

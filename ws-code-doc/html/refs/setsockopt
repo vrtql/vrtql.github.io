@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='215' type='int setsockopt(int __fd, int __level, int __optname, const void * __optval, socklen_t __optlen)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='212'>/* Set socket FD&apos;s option OPTNAME at protocol level LEVEL
+   to *OPTVAL (which is OPTLEN bytes long).
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/src/socket.c' l='138' u='c' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='146' u='c' c='socket_set_timeout'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='203' u='c' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='218' u='c' c='mg_open_listener'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='324' u='c' c='setsockopts'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='326' u='c' c='setsockopts'/>

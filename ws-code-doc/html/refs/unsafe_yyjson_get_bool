@@ -1,0 +1,8 @@
+<def f='codebrowser/src/util/yyjson.h' l='4552' ll='4555' macro='1' type='_Bool unsafe_yyjson_get_bool(void * val)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4834' u='c' c='yyjson_get_bool'/>
+<use f='codebrowser/src/util/yyjson.h' l='7604' u='c' c='yyjson_ptr_get_bool'/>
+<use f='codebrowser/src/util/yyjson.c' l='8124' u='c' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8284' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8479' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/util/yyjson.c' l='8831' u='c' c='yyjson_mut_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='9032' u='c' c='yyjson_mut_write_pretty'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='977' type='2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='52' u='r' c='mg_file_write'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='r' c='packed_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='40' u='r' c='p_stat'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='902' u='r' c='mg_http_upload'/>

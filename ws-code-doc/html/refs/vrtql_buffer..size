@@ -1,0 +1,44 @@
+<dec f='codebrowser/src/vrtql.h' l='147' type='size_t'/>
+<use f='codebrowser/src/http_request.c' l='173' u='r' c='on_header_field'/>
+<offset>128</offset>
+<doc f='codebrowser/src/vrtql.h' l='147'>/**&lt; The current size of the data in the buffer   */</doc>
+<use f='codebrowser/src/message.c' l='91' u='a' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='118' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='175' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='268' u='w' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='417' u='r' c='vrtql_msg_get_content_size'/>
+<use f='codebrowser/src/message.c' l='435' u='r' c='vrtql_msg_send'/>
+<use f='codebrowser/src/message.c' l='453' u='r' c='vrtql_msg_receive'/>
+<use f='codebrowser/src/server.c' l='615' u='r' c='vrtql_svr_data_new'/>
+<use f='codebrowser/src/server.c' l='619' u='w' c='vrtql_svr_data_new'/>
+<use f='codebrowser/src/server.c' l='1387' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1471' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1506' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1557' u='r' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/test/test_message.c' l='17' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='57' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='30' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='95' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='86' u='r' c='ctest_test_message_run'/>
+<use f='codebrowser/src/vrtql.c' l='411' u='w' c='vrtql_buffer_new'/>
+<use f='codebrowser/src/vrtql.c' l='427' u='w' c='vrtql_buffer_clear'/>
+<use f='codebrowser/src/vrtql.c' l='472' u='r' c='vrtql_buffer_append'/>
+<use f='codebrowser/src/vrtql.c' l='491' u='r' c='vrtql_buffer_append'/>
+<use f='codebrowser/src/vrtql.c' l='492' u='w' c='vrtql_buffer_append'/>
+<use f='codebrowser/src/vrtql.c' l='502' u='r' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/vrtql.c' l='509' u='r' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/vrtql.c' l='510' u='w' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/vrtql.c' l='511' u='r' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/websocket.c' l='469' u='r' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='471' u='r' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='524' u='r' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='532' u='r' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='774' u='w' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='897' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='922' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1081' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1096' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1100' u='r' c='vws_socket_ingress'/>

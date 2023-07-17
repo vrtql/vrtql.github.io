@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='256' type='int SCT_set1_signature(SCT * sct, const unsigned char * sig, size_t sig_len)'/>
+<doc f='include/openssl/ct.h' l='252'>/*
+ * Set the signature of an SCT to be a copy of the *sig specified.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

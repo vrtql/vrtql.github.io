@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1090' type='size_t mg_iobuf_del(struct mg_iobuf * , size_t ofs, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='951' u='c' c='mg_http_delete_chunk'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='978' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='985' u='c' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1009' u='c' c='deliver_normal_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1042' u='c' c='http_cb'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='64' ll='71' type='size_t mg_iobuf_del(struct mg_iobuf * io, size_t ofs, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='492' u='c' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='51' u='c' c='sntp_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='112' u='c' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='157' u='c' c='mg_ws_client_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='212' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='219' u='c' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='225' u='c' c='mg_ws_cb'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/http_request.h' l='23' type='vrtql_buffer *'/>
+<use f='codebrowser/src/http_request.c' l='81' u='w' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_request.c' l='119' u='r' c='vrtql_http_req_free'/>
+<use f='codebrowser/src/http_request.c' l='149' u='r' c='on_url'/>
+<use f='codebrowser/src/http_request.c' l='208' u='r' c='on_body'/>
+<offset>384</offset>
+<doc f='codebrowser/src/http_request.h' l='22'>/**&lt; The url */</doc>

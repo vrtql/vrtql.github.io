@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1107' type='void mg_md5_update(mg_md5_ctx * c, const unsigned char * data, size_t len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='124' ll='157' type='void mg_md5_update(mg_md5_ctx * ctx, const unsigned char * buf, size_t len)'/>

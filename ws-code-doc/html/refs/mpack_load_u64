@@ -1,0 +1,5 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='875' ll='890' macro='1' type='uint64_t mpack_load_u64(const char * p)'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='941' u='c' c='mpack_load_i64'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='968' u='c' c='mpack_load_double'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='606' u='c' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='785' u='c' c='mpack_parse_tag'/>

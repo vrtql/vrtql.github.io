@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1492'/>
+<doc f='include/openssl/ssl.h' l='1488'>/*
+ * We &quot;pretend&quot; to call the callback to avoid warnings about unused static
+ * functions.
+ */</doc>

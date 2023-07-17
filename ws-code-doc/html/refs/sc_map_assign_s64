@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/sc_map.c' l='411' macro='1' type='void sc_map_assign_s64(struct sc_map_item_s64 * t, const char * key, uint64_t value, uint32_t hash)'/>
+<use f='codebrowser/src/util/sc_map.c' l='411' macro='1' u='c' c='sc_map_put_s64'/>

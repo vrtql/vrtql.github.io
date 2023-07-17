@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/mpack/mpack-platform.h' l='980'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='130' u='c'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='133' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2012' u='c'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2015' u='c'/>

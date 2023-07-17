@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='344' type='void mpack_reader_set_skip(mpack_reader_t * reader, mpack_reader_skip_t skip)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='328'>/**
+ * Sets the skip function to discard bytes from the source stream.
+ *
+ * It&apos;s not necessary to implement this function. If the stream is not
+ * seekable, don&apos;t set a skip callback. The reader will fall back to
+ * using the fill function instead.
+ *
+ * This should normally be used with mpack_reader_set_context() to register
+ * a custom pointer to pass to the skip function.
+ *
+ * The skip function is ignored in size-optimized builds to reduce code
+ * size. Data will be skipped with the fill function when necessary.
+ *
+ * @param reader The MPack reader.
+ * @param skip The function to discard bytes from the source stream.
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='92' ll='95' type='void mpack_reader_set_skip(mpack_reader_t * reader, mpack_reader_skip_t skip)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='166' u='c' c='mpack_reader_init_stdfile'/>

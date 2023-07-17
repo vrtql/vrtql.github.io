@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/mpack/mpack-reader.h' l='817' type='void mpack_discard(mpack_reader_t * reader)'/>
+<doc f='codebrowser/src/mpack/mpack-reader.h' l='813'>/**
+ * Reads and discards the next object. This will read and discard all
+ * contained data as well if it is a compound type.
+ */</doc>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='803' u='c' c='mpack_expect_enum_optional'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='840' u='c' c='mpack_expect_key_uint'/>
+<def f='codebrowser/src/mpack/mpack-reader.c' l='991' ll='1032' type='void mpack_discard(mpack_reader_t * reader)'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1012' u='c' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1021' u='c' c='mpack_discard'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='1022' u='c' c='mpack_discard'/>

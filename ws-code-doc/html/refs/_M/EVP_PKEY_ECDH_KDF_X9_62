@@ -1,0 +1,6 @@
+<dec f='include/openssl/ec.h' l='1472'/>
+<doc f='include/openssl/ec.h' l='1467'>/** The old name for EVP_PKEY_ECDH_KDF_X9_63
+ *  The ECDH KDF specification has been mistakingly attributed to ANSI X9.62,
+ *  it is actually specified in ANSI X9.63.
+ *  This identifier is retained for backwards compatibility
+ */</doc>

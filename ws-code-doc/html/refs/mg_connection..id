@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1199' type='unsigned long'/>
+<offset>512</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1199'>// Auto-incrementing unique connection ID</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='167' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='179' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='249' u='r' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='21' u='r' c='mg_error'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' u='r' c='mg_http_bauth'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='630' u='r' c='printdirentry'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='741' u='r' c='uri_to_path2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='327' u='r' c='mg_mqtt_pub'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='439' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='443' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='449' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='451' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='456' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='129' u='w' c='mg_alloc_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='142' u='r' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='165' u='r' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' u='r' c='mg_listen'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='46' u='r' c='sntp_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='62' u='r' c='mg_sntp_request'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='103' u='r' c='iolog'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='141' u='r' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='271' u='r' c='read_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='282' u='r' c='write_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='360' u='r' c='mg_connect_resolved'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='390' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='398' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='414' u='r' c='accept_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='474' u='r' c='mg_mkpipe'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='637' u='r' c='mg_mgr_poll'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='108' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='121' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='197' u='r' c='mg_ws_cb'/>

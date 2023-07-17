@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1846' type='long SSL_CTX_ctrl(SSL_CTX * ctx, int cmd, long larg, void * parg)'/>

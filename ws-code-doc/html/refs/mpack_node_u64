@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='791' type='uint64_t mpack_node_u64(mpack_node_t node)'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='2087' ll='2100' type='uint64_t mpack_node_u64(mpack_node_t node)'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='2124' u='c' c='mpack_node_uint'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='787'>/**
+ * Returns the 64-bit unsigned value of the node. If this node is not
+ * of a compatible type, @ref mpack_error_type is raised, and zero is returned.
+ */</doc>

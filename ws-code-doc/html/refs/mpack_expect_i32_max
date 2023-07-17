@@ -1,0 +1,1 @@
+<def f='codebrowser/src/mpack/mpack-expect.h' l='431' ll='433' macro='1' type='int32_t mpack_expect_i32_max(mpack_reader_t * reader, int32_t max_value)'/>

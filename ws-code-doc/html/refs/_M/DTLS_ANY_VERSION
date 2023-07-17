@@ -1,0 +1,2 @@
+<dec f='include/openssl/dtls1.h' l='26'/>
+<doc f='include/openssl/dtls1.h' l='25'>/* Special value for method supporting multiple versions */</doc>

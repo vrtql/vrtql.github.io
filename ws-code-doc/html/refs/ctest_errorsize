@@ -1,0 +1,7 @@
+<def f='codebrowser/src/test/ctest.h' l='256' type='size_t'/>
+<use f='codebrowser/src/test/ctest.h' l='291' u='r' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='296' u='r' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='296' u='r' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='298' u='w' c='vprint_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='556' u='w' c='ctest_main'/>
+<use f='codebrowser/src/test/ctest.h' l='583' u='r' c='ctest_main'/>

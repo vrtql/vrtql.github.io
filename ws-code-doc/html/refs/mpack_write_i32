@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='566' type='void mpack_write_i32(mpack_writer_t * writer, int32_t value)'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='565'>/** Writes a 32-bit integer in the most efficient packing available. */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='1008' ll='1032' type='void mpack_write_i32(mpack_writer_t * writer, int32_t value)'/>

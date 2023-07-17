@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='214' ll='217' macro='1' type='void mpack_writer_track_pop_builder(mpack_writer_t * writer, mpack_type_t type)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1773' u='c' c='mpack_builder_complete'/>

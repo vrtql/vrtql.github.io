@@ -1,0 +1,4 @@
+<dec f='include/openssl/bioerr.h' l='86'/>
+<doc f='include/openssl/bioerr.h' l='83'>/*
+ * BIO reason codes.
+ */</doc>

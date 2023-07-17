@@ -1,0 +1,4 @@
+<dec f='include/openssl/ct.h' l='273' type='const char * SCT_validation_status_string(const SCT * sct)'/>
+<doc f='include/openssl/ct.h' l='270'>/*
+ * Returns a text string describing the validation status of |sct|.
+ */</doc>

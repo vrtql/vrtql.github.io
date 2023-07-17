@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1209' type='unsigned int'/>
+<offset>1665</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1209'>// Outbound (client) connection</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='163' u='w' c='mg_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='105' u='r' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='119' u='r' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='126' u='r' c='mg_ws_mask'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='136' u='r' c='mg_ws_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='171' u='r' c='mg_ws_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='287' u='r' c='mg_ws_wrap'/>

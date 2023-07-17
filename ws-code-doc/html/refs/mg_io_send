@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1256' type='long mg_io_send(struct mg_connection * c, const void * buf, size_t len)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='122' ll='136' type='long mg_io_send(struct mg_connection * c, const void * buf, size_t len)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' u='c' c='mg_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='281' u='c' c='write_conn'/>

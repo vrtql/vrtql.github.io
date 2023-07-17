@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='272'/>
+<doc f='include/openssl/evp.h' l='271'>/* Allow non FIPS cipher in FIPS mode */</doc>

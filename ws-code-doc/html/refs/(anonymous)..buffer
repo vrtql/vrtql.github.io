@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.h' l='91' type='vrtql_svr_data **'/>
+<use f='codebrowser/src/server.c' l='1182' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1198' u='r' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1204' u='r' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1205' u='w' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1219' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1245' u='r' c='queue_pop'/>
+<offset>0</offset>
+<doc f='codebrowser/src/server.h' l='90'>/**&lt; The buffer holding datas in the queue */</doc>
+<dec f='codebrowser/src/test/util/mongoose.h' l='1116' type='unsigned char [64]'/>
+<offset>224</offset>
+<use f='codebrowser/src/test/util/mongoose.c' l='176' u='a' c='mg_sha1_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='r' c='mg_sha1_update'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='a' c='mg_sha1_update'/>

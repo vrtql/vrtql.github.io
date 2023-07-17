@@ -1,0 +1,18 @@
+<def f='codebrowser/src/mpack/mpack-writer.h' l='528' ll='530' macro='1' type='mpack_error_t mpack_writer_error(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='242' u='c' c='mpack_growable_writer_teardown'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='425' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='433' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='443' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='460' u='c' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='486' u='c' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='501' u='c' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='511' u='c' c='mpack_write_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='546' u='c' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='579' u='c' c='mpack_writer_destroy'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1477' u='c' c='mpack_builder_configure_buffer'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1572' u='c' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1585' u='c' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1630' u='c' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1644' u='c' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1768' u='c' c='mpack_builder_resolve'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1774' u='c' c='mpack_builder_complete'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1283' type='const char *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1283'>// SSI file name pattern, e.g. #.shtml</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='792' u='r' c='mg_http_serve_dir'/>

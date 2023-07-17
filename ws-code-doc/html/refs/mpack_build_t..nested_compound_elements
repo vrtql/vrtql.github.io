@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='139' type='uint32_t'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='714' u='w' c='mpack_builder_compound_push'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='725' u='r' c='mpack_builder_compound_pop'/>
+<use f='codebrowser/src/mpack/mpack-writer.h' l='726' u='w' c='mpack_builder_compound_pop'/>
+<offset>192</offset>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='137'>// depth of nested non-build compound elements within this
+    // build.</doc>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='80' u='r' c='mpack_writer_track_element'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1617' u='w' c='mpack_builder_build'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1789' u='r' c='mpack_builder_complete'/>

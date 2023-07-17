@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4356' type='yyjson_mut_val * yyjson_merge_patch(yyjson_mut_doc * doc, yyjson_val * orig, yyjson_val * patch)'/>
+<def f='codebrowser/src/util/yyjson.c' l='2486' ll='2535' type='yyjson_mut_val * yyjson_merge_patch(yyjson_mut_doc * doc, yyjson_val * orig, yyjson_val * patch)'/>
+<use f='codebrowser/src/util/yyjson.c' l='2530' u='c' c='yyjson_merge_patch'/>
+<doc f='codebrowser/src/util/yyjson.c' l='2482'>/*==============================================================================
+ * JSON Merge-Patch API (RFC 7386)
+ *============================================================================*/</doc>

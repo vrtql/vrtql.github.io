@@ -1,0 +1,9 @@
+<def f='codebrowser/src/mpack/mpack-common.h' l='161' ll='172'/>
+<use f='codebrowser/src/mpack/mpack-common.h' l='161'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='154'>/**
+ * Error states for MPack objects.
+ *
+ * When a reader, writer, or tree is in an error state, all subsequent calls
+ * are ignored and their return values are nil/zero. You should check whether
+ * the source is in an error state before using such values.
+ */</doc>

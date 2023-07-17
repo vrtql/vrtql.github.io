@@ -1,0 +1,19 @@
+<def f='codebrowser/src/test/util/mongoose.c' l='10' ll='15'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='11'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='20' c='mg_dns_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='21' c='mg_dns_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='22' c='mg_dns_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' c='mg_resolve_cancel'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' c='mg_resolve_cancel'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='27' c='mg_resolve_cancel'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='143' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='157' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='188' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='227' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='239' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='242' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='242' c='mg_sendnsreq'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='244' c='mg_sendnsreq'/>
+<size>32</size>

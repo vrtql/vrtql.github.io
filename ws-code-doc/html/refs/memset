@@ -1,0 +1,117 @@
+<dec f='include/string.h' l='60' type='void * memset(void * __s, int __c, size_t __n)'/>
+<use f='codebrowser/src/http_parser.c' l='2331' u='c' c='http_parser_init'/>
+<use f='codebrowser/src/http_parser.c' l='2341' u='c' c='http_parser_settings_init'/>
+<use f='codebrowser/src/http_parser.c' l='2524' u='c' c='http_parser_url_init'/>
+<doc f='include/string.h' l='59'>/* Set N bytes of S to C.  */</doc>
+<use f='codebrowser/src/util/yyjson.h' l='5011' u='c' c='yyjson_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5080' u='c' c='yyjson_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='5733' u='c' c='yyjson_mut_arr_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='6368' u='c' c='yyjson_mut_obj_iter_init'/>
+<use f='codebrowser/src/util/yyjson.h' l='7058' u='c' c='yyjson_mut_doc_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7096' u='c' c='yyjson_mut_ptr_getx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7133' u='c' c='yyjson_mut_doc_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7196' u='c' c='yyjson_mut_ptr_addx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7234' u='c' c='yyjson_mut_doc_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7300' u='c' c='yyjson_mut_ptr_setx'/>
+<use f='codebrowser/src/util/yyjson.h' l='7337' u='c' c='yyjson_mut_doc_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7381' u='c' c='yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7414' u='c' c='yyjson_mut_doc_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.h' l='7455' u='c' c='yyjson_mut_ptr_removex'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1011' macro='1' u='c' c='mpack_tree_init_clear'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='35' macro='1' u='c' c='mpack_reader_init'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='50' macro='1' u='c' c='mpack_reader_init_error'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='60' macro='1' u='c' c='mpack_reader_init_data'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='298' macro='1' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='312' macro='1' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='322' macro='1' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='333' macro='1' u='c' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/socket.c' l='70' u='c' c='vws_socket_new'/>
+<use f='codebrowser/src/socket.c' l='557' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_dns_parse_rr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='104' u='c' c='mg_dns_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='205' u='c' c='mg_dns_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='228' u='c' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='170' u='c' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='173' u='c' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='175' u='c' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='186' u='c' c='mg_md5_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='366' u='c' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='529' u='c' c='mg_mqtt_connect'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='35' u='c' c='mg_atone'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='72' u='c' c='mg_v4mapped'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='110' u='c' c='mg_aton6'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='147' u='c' c='mg_close_conn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='234' u='c' c='mg_mgr_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='149' u='c' c='mg_sha1_transform'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='207' u='c' c='mg_sha1_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='208' u='c' c='mg_sha1_final'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='58' u='c' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='372' u='c' c='raccept'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='427' u='c' c='mg_socketpair'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='17' u='c' c='urlparse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='69' u='c' c='ws_process'/>
+<use f='codebrowser/src/util/yyjson.c' l='1247' u='c' c='yyjson_mut_doc_new'/>
+<use f='codebrowser/src/util/yyjson.c' l='1508' u='c' c='yyjson_mut_val_imut_copy'/>
+<use f='codebrowser/src/util/yyjson.c' l='2115' u='c' c='unsafe_yyjson_mut_ptr_replacex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2137' u='c' c='unsafe_yyjson_mut_ptr_removex'/>
+<use f='codebrowser/src/util/yyjson.c' l='2238' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2239' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2357' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2358' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2203' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='6472' u='c' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6505' u='c' c='yyjson_read_opts'/>
+<use f='codebrowser/src/util/yyjson.c' l='6638' u='c' c='yyjson_read_fp'/>
+<use f='codebrowser/src/util/yyjson.c' l='7254' u='c' c='write_f64_raw'/>
+<use f='codebrowser/src/util/yyjson.c' l='7255' u='c' c='write_f64_raw'/>
+<use f='codebrowser/src/util/yyjson.c' l='7256' u='c' c='write_f64_raw'/>
+<use f='codebrowser/src/util/yyjson.c' l='8150' u='c' c='yyjson_write_single'/>
+<use f='codebrowser/src/util/yyjson.c' l='8327' u='c' c='yyjson_write_minify'/>
+<use f='codebrowser/src/util/yyjson.c' l='8529' u='c' c='yyjson_write_pretty'/>
+<use f='codebrowser/src/websocket.c' l='276' u='c' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='1049' u='c' c='socket_wait_for_frame'/>

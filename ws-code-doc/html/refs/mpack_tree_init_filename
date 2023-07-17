@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='393' type='void mpack_tree_init_filename(mpack_tree_t * tree, const char * filename, size_t max_bytes)'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='401' u='c' c='mpack_tree_init_file'/>
+<def f='codebrowser/src/mpack/mpack-node.c' l='1203' ll='1215' type='void mpack_tree_init_filename(mpack_tree_t * tree, const char * filename, size_t max_bytes)'/>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='382'>/**
+ * Initializes a tree to parse the given file. The tree must be destroyed with
+ * mpack_tree_destroy(), even if parsing fails.
+ *
+ * The file is opened, loaded fully into memory, and closed before this call
+ * returns.
+ *
+ * @param tree The tree to initialize
+ * @param filename The filename passed to fopen() to read the file
+ * @param max_bytes The maximum size of file to load, or 0 for unlimited size.
+ */</doc>

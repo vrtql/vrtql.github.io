@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1520' type='const char * SSL_CIPHER_get_name(const SSL_CIPHER * c)'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1579' type='int SSL_CTX_use_serverinfo_ex(SSL_CTX * ctx, unsigned int version, const unsigned char * serverinfo, size_t serverinfo_length)'/>

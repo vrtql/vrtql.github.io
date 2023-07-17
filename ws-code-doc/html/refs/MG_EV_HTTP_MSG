@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1141' type='10'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1141'>// HTTP request/response        struct mg_http_message *</doc>
+<use f='codebrowser/src/test/server.c' l='31' u='r' c='fn'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1041' u='r' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1049' u='r' c='mg_hfn'/>

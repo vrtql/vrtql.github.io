@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/socket.h' l='39' type='SSL *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/socket.h' l='38'>/**&lt; The SSL connection instance. */</doc>
+<use f='codebrowser/src/socket.c' l='78' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='265' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='267' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='298' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='300' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='302' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='397' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='400' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='478' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='481' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='503' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='505' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='510' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='518' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='519' u='w' c='vws_socket_close'/>

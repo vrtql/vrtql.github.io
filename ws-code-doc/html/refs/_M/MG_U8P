@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1042'/>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1041'>// For printing IPv4 addresses: printf(&quot;%d.%d.%d.%d\n&quot;, MG_IPADDR_PARTS(&amp;ip))</doc>

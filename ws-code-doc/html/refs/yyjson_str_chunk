@@ -1,0 +1,9 @@
+<def f='codebrowser/src/util/yyjson.h' l='5162' ll='5166'/>
+<use f='codebrowser/src/util/yyjson.h' l='5163'/>
+<use f='codebrowser/src/util/yyjson.h' l='5162'/>
+<size>16</size>
+<doc f='codebrowser/src/util/yyjson.h' l='5159'>/**
+ A memory chunk in string memory pool.
+ */</doc>
+<mbr r='yyjson_str_chunk::next' o='0' t='struct yyjson_str_chunk *'/>
+<mbr r='yyjson_str_chunk::chunk_size' o='64' t='size_t'/>

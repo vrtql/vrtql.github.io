@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='1985' type='int SSL_CTX_set_default_verify_file(SSL_CTX * ctx)'/>

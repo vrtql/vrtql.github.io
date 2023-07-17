@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1184' type='struct mg_timer *'/>
+<offset>768</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1184'>// Active timers</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='211' u='a' c='mg_timer_add'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='219' u='r' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='221' u='w' c='mg_mgr_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='627' u='a' c='mg_mgr_poll'/>

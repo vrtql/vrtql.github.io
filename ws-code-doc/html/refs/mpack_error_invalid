@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/mpack/mpack-common.h' l='164' type='3'/>
+<doc f='codebrowser/src/mpack/mpack-common.h' l='164'>/**&lt; The data read is not valid MessagePack. */</doc>
+<use f='codebrowser/src/mpack/mpack-common.c' l='34' c='mpack_error_to_string'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='855' u='r' c='mpack_expect_key_uint'/>
+<use f='codebrowser/src/mpack/mpack-expect.c' l='873' u='r' c='mpack_expect_key_cstr'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='105' u='r' c='mpack_tree_reserve_fill'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='193' u='r' c='mpack_tree_reserve_bytes'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='726' u='r' c='mpack_tree_parse_node_contents'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='946' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='959' u='r' c='mpack_tree_parse'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1127' u='r' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='264' u='r' c='mpack_reader_ensure_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='321' u='r' c='mpack_read_native_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='372' u='r' c='mpack_skip_bytes_straddle'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='904' u='r' c='mpack_parse_tag'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1329' u='r' c='mpack_write_cstr'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1343' u='r' c='mpack_write_utf8'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='1353' u='r' c='mpack_write_utf8_cstr'/>

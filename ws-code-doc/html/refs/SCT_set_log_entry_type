@@ -1,0 +1,5 @@
+<dec f='include/openssl/ct.h' l='169' type='int SCT_set_log_entry_type(SCT * sct, ct_log_entry_type_t entry_type)'/>
+<doc f='include/openssl/ct.h' l='165'>/*
+ * Set the log entry type of an SCT.
+ * Returns 1 on success, 0 otherwise.
+ */</doc>

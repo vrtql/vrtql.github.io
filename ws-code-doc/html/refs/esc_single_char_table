@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/yyjson.c' l='7567' ll='7633' macro='1' type='const u8 [512]'/>
+<use f='codebrowser/src/util/yyjson.c' l='7869' u='a' c='write_string'/>

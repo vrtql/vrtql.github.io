@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1508' type='uint16_t'/>
+<offset>384</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1508'>// For PUBACK, PUBREC, PUBREL, PUBCOMP, SUBACK, PUBLISH</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='399' u='w' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='410' u='w' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='459' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='477' u='r' c='mqtt_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='484' u='r' c='mqtt_cb'/>

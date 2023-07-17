@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='836' type='void SSL_CTX_set_psk_server_callback(SSL_CTX * ctx, SSL_psk_server_cb_func cb)'/>

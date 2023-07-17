@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/mpack/mpack-node.h' l='241' type='mpack_tree_error_t'/>
+<use f='codebrowser/src/mpack/mpack-node.h' l='567' u='w' c='mpack_tree_set_error_handler'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1237' u='r' c='mpack_tree_flag_error'/>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1238' u='r' c='mpack_tree_flag_error'/>
+<offset>0</offset>
+<doc f='codebrowser/src/mpack/mpack-node.h' l='241'>/* Function to call on error */</doc>

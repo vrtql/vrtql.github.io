@@ -1,0 +1,11 @@
+<dec f='include/stdio.h' l='246' type='FILE * fopen(const char *restrict __filename, const char *restrict __modes)'/>
+<doc f='include/stdio.h' l='242'>/* Open a file and create a new stream for it.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1208' u='c' c='mpack_tree_init_filename'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='175' u='c' c='mpack_reader_init_filename'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='353' u='c' c='mpack_writer_init_filename'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='177' u='c' c='p_open'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='14' u='c' c='mg_random'/>
+<use f='codebrowser/src/util/yyjson.c' l='914' u='c' c='fopen_safe'/>

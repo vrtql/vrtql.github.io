@@ -1,0 +1,2 @@
+<def f='codebrowser/src/util/yyjson.h' l='4620' ll='4622' macro='1' type='_Bool unsafe_yyjson_equals_str(void * val, const char * str)'/>
+<use f='codebrowser/src/util/yyjson.h' l='4868' u='c' c='yyjson_equals_str'/>

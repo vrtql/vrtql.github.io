@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/ctest.h' l='286' type='void vprint_errormsg(const char *const fmt, struct __va_list_tag * ap)'/>
+<def f='codebrowser/src/test/ctest.h' l='289' ll='301' type='void vprint_errormsg(const char *const fmt, struct __va_list_tag * ap)'/>
+<use f='codebrowser/src/test/ctest.h' l='306' u='c' c='print_errormsg'/>
+<use f='codebrowser/src/test/ctest.h' l='330' u='c' c='CTEST_LOG'/>
+<use f='codebrowser/src/test/ctest.h' l='344' u='c' c='CTEST_ERR'/>

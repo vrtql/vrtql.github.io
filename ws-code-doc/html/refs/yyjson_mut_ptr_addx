@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/util/yyjson.h' l='4001' type='_Bool yyjson_mut_ptr_addx(yyjson_mut_val * val, const char * ptr, size_t len, yyjson_mut_val * new_val, yyjson_mut_doc * doc, _Bool create_parent, yyjson_ptr_ctx * ctx, yyjson_ptr_err * err)'/>
+<use f='codebrowser/src/util/yyjson.h' l='7185' u='c' c='yyjson_mut_ptr_addn'/>
+<def f='codebrowser/src/util/yyjson.h' l='7188' ll='7212' macro='1' type='_Bool yyjson_mut_ptr_addx(yyjson_mut_val * val, const char * ptr, size_t len, yyjson_mut_val * new_val, yyjson_mut_doc * doc, _Bool create_parent, yyjson_ptr_ctx * ctx, yyjson_ptr_err * err)'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_mut_patch'/>
+<use f='codebrowser/src/util/yyjson.c' l='2221' u='c' c='yyjson_mut_patch'/>

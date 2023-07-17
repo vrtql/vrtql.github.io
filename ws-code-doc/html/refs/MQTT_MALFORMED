@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1478' type='2'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='379' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='387' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='398' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='403' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='407' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='409' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='413' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='416' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='420' u='r' c='mg_mqtt_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='438' u='r' c='mqtt_cb'/>

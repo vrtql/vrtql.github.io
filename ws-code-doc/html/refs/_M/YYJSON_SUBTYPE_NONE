@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/util/yyjson.h' l='519'/>
+<use f='codebrowser/src/util/yyjson.h' l='4646' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4652' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4683' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4691' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4697' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4702' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4805' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4814' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4815' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4816' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4818' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4819' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5532' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5622' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5653' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5787' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6453' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6745' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6823' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='518'>/** No subtype. */</doc>

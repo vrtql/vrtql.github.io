@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1277' type='struct mg_str'/>
+<offset>8576</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1277'>// Request + headers + body</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='231' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='235' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='257' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='277' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='284' u='m' c='mg_http_parse'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='983' u='m' c='deliver_chunked_chunks'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1029' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1030' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1030' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1039' u='m' c='http_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='1042' u='m' c='http_cb'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/util/yyjson.h' l='531'/>
+<use f='codebrowser/src/util/yyjson.h' l='4683' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='4817' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5622' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='5653' u='c'/>
+<use f='codebrowser/src/util/yyjson.h' l='6823' u='c'/>
+<doc f='codebrowser/src/util/yyjson.h' l='530'>/** String that do not need to be escaped for writing (internal use). */</doc>
+<use f='codebrowser/src/util/yyjson.c' l='5203' u='c'/>

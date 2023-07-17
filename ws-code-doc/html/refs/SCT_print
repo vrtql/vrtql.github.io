@@ -1,0 +1,7 @@
+<dec f='include/openssl/ct.h' l='281' type='void SCT_print(const SCT * sct, BIO * out, int indent, const CTLOG_STORE * logs)'/>
+<doc f='include/openssl/ct.h' l='275'>/*
+ * Pretty-prints an |sct| to |out|.
+ * It will be indented by the number of spaces specified by |indent|.
+ * If |logs| is not NULL, it will be used to lookup the CT log that the SCT came
+ * from, so that the log name can be printed.
+ */</doc>

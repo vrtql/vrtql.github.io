@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/websocket.h' l='158' type='void vws_dump_websocket_frame(const unsigned char * data, size_t size)'/>
+<doc f='codebrowser/src/websocket.h' l='150'>/**
+ * @brief Dumps the contents of a WebSocket frame for debugging purposes.
+ *
+ * @param data The data of the WebSocket frame.
+ * @param size The size of the WebSocket frame.
+ *
+ * @ingroup TraceFunctions
+ */</doc>
+<use f='codebrowser/src/websocket.c' l='524' u='c' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='1096' u='c' c='vws_socket_ingress'/>
+<def f='codebrowser/src/websocket.c' l='1222' ll='1303' type='void vws_dump_websocket_frame(const uint8_t * frame, size_t size)'/>

@@ -1,0 +1,18 @@
+<def f='codebrowser/src/test/util/mongoose.h' l='1380' ll='1383'/>
+<size>16</size>
+<mbr r='mg_tls::ctx' o='0' t='SSL_CTX *'/>
+<mbr r='mg_tls::ssl' o='64' t='SSL *'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='6' c='mg_tls_err'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='25' c='mg_tls_init'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='116' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='116' c='mg_tls_handshake'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='131' c='mg_tls_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='131' c='mg_tls_free'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' c='mg_tls_pending'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='140' c='mg_tls_pending'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' c='mg_tls_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='145' c='mg_tls_recv'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='153' c='mg_tls_send'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='153' c='mg_tls_send'/>
+<size>16</size>

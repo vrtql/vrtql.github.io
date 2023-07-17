@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1168' type='uint16_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/test/util/mongoose.h' l='1168'>// TCP or UDP port in network byte order</doc>
+<use f='codebrowser/src/test/util/mongoose.c' l='164' u='w' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='164' u='r' c='dns_cb'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='259' u='w' c='mg_resolve'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='111' u='r' c='mg_print_ip_port'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='60' u='r' c='tousa'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='75' u='w' c='tomgaddr'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='184' u='w' c='mg_open_listener'/>

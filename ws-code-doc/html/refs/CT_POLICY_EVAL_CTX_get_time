@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='107' type='uint64_t CT_POLICY_EVAL_CTX_get_time(const CT_POLICY_EVAL_CTX * ctx)'/>
+<doc f='include/openssl/ct.h' l='102'>/*
+ * Gets the time, in milliseconds since the Unix epoch, that will be used as the
+ * current time when checking whether an SCT was issued in the future.
+ * Such SCTs will fail validation, as required by RFC6962.
+ */</doc>

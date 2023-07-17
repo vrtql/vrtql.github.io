@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1555' type='void SSL_set_verify(SSL * s, int mode, SSL_verify_cb callback)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_tls_init'/>

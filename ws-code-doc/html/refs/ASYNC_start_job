@@ -1,0 +1,1 @@
+<dec f='include/openssl/async.h' l='63' type='int ASYNC_start_job(ASYNC_JOB ** job, ASYNC_WAIT_CTX * ctx, int * ret, int (*)(void *) func, void * args, size_t size)'/>

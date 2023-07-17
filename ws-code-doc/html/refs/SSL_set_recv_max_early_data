@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='937' type='int SSL_set_recv_max_early_data(SSL * s, uint32_t recv_max_early_data)'/>

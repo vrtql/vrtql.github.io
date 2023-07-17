@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/mpack/mpack-writer.h' l='356' type='mpack_error_t mpack_writer_destroy(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/message.c' l='127' u='c' c='vrtql_msg_serialize'/>
+<doc f='codebrowser/src/mpack/mpack-writer.h' l='330'>/**
+ * Cleans up the MPack writer, flushing and closing the underlying stream,
+ * if any. Returns the final error state of the writer.
+ *
+ * No flushing is performed if the writer is in an error state. The attached
+ * teardown function is called whether or not the writer is in an error state.
+ *
+ * This will assert in tracking mode if the writer is not in an error
+ * state and has any unclosed compound types. If you want to cancel
+ * writing in the middle of a document, you need to flag an error on
+ * the writer before destroying it (such as mpack_error_data).
+ *
+ * Note that a writer may raise an error and call your error handler during
+ * the final flush. It is safe to longjmp or throw out of this error handler,
+ * but if you do, the writer will not be destroyed, and the teardown function
+ * will not be called. You can still get the writer&apos;s error state, and you
+ * must call @ref mpack_writer_destroy() again. (The second call is guaranteed
+ * not to call your error handler again since the writer is already in an error
+ * state.)
+ *
+ * @see mpack_writer_set_error_handler
+ * @see mpack_writer_set_flush
+ * @see mpack_writer_set_teardown
+ * @see mpack_writer_flag_error
+ * @see mpack_error_data
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-writer.c' l='531' ll='590' type='mpack_error_t mpack_writer_destroy(mpack_writer_t * writer)'/>

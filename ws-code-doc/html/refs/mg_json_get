@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/test/util/mongoose.h' l='1581' type='int mg_json_get(struct mg_str json, const char * path, int * toklen)'/>
+<def f='codebrowser/src/test/util/mongoose.c' l='78' ll='215' type='int mg_json_get(struct mg_str json, const char * path, int * toklen)'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='219' u='c' c='mg_json_get_num'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='228' u='c' c='mg_json_get_bool'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='263' u='c' c='mg_json_get_str'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='277' u='c' c='mg_json_get_b64'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='288' u='c' c='mg_json_get_hex'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='39' u='c' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='43' u='c' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='44' u='c' c='mg_rpc_process'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='53' u='c' c='mg_rpc_vok'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='70' u='c' c='mg_rpc_verr'/>

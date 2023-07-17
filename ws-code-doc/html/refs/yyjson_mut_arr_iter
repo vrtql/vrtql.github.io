@@ -1,0 +1,26 @@
+<def f='codebrowser/src/util/yyjson.h' l='2411' ll='2417'/>
+<use f='codebrowser/src/util/yyjson.h' l='2411'/>
+<size>40</size>
+<doc f='codebrowser/src/util/yyjson.h' l='2393'>/**
+ A mutable JSON array iterator.
+ 
+ @warning You should not modify the array while iterating over it, but you can
+    use `yyjson_mut_arr_iter_remove()` to remove current value.
+ 
+ @par Example
+ @code
+    yyjson_mut_val *val;
+    yyjson_mut_arr_iter iter = yyjson_mut_arr_iter_with(arr);
+    while ((val = yyjson_mut_arr_iter_next(&amp;iter))) {
+        your_func(val);
+        if (your_val_is_unused(val)) {
+            yyjson_mut_arr_iter_remove(&amp;iter);
+        }
+    }
+ @endcode
+ */</doc>
+<mbr r='yyjson_mut_arr_iter::idx' o='0' t='size_t'/>
+<mbr r='yyjson_mut_arr_iter::max' o='64' t='size_t'/>
+<mbr r='yyjson_mut_arr_iter::cur' o='128' t='yyjson_mut_val *'/>
+<mbr r='yyjson_mut_arr_iter::pre' o='192' t='yyjson_mut_val *'/>
+<mbr r='yyjson_mut_arr_iter::arr' o='256' t='yyjson_mut_val *'/>

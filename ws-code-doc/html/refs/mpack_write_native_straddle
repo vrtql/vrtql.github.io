@@ -1,0 +1,2 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='457' ll='517' macro='1' type='void mpack_write_native_straddle(mpack_writer_t * writer, const char * p, size_t count)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='524' u='c' c='mpack_write_native'/>

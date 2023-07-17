@@ -1,0 +1,17 @@
+<dec f='include/stdio.h' l='213' type='int fclose(FILE * __stream)'/>
+<doc f='include/stdio.h' l='209'>/* Close STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/mpack/mpack-node.c' l='1200' u='c' c='mpack_tree_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='142' u='c' c='mpack_file_reader_teardown_close'/>
+<use f='codebrowser/src/mpack/mpack-reader.c' l='158' u='c' c='mpack_reader_init_stdfile'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='321' u='c' c='mpack_file_writer_teardown_close'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='337' u='c' c='mpack_writer_init_stdfile'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='182' u='c' c='p_close'/>
+<use f='codebrowser/src/test/util/mongoose.c' l='17' u='c' c='mg_random'/>
+<use f='codebrowser/src/util/yyjson.c' l='6553' u='c' c='yyjson_read_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8018' u='c' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8018' u='c' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8029' u='c' c='write_dat_to_file'/>
+<use f='codebrowser/src/util/yyjson.c' l='8018' u='c' c='write_dat_to_file'/>

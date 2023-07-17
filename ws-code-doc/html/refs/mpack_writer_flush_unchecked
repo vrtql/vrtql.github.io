@@ -1,0 +1,4 @@
+<def f='codebrowser/src/mpack/mpack-writer.c' l='373' ll='380' macro='1' type='void mpack_writer_flush_unchecked(mpack_writer_t * writer)'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='408' u='c' c='mpack_writer_flush_message'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='442' u='c' c='mpack_writer_ensure'/>
+<use f='codebrowser/src/mpack/mpack-writer.c' l='500' u='c' c='mpack_write_native_straddle'/>

@@ -1,0 +1,6 @@
+<dec f='include/openssl/ct.h' l='223' type='size_t SCT_get0_extensions(const SCT * sct, unsigned char ** ext)'/>
+<doc f='include/openssl/ct.h' l='218'>/*
+ * Set *ext to point to the extension data for the SCT. ext must not be NULL.
+ * The SCT retains ownership of this pointer.
+ * Returns length of the data pointed to.
+ */</doc>

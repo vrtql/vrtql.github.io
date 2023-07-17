@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/mpack/mpack-expect.h' l='1471' type='size_t mpack_expect_key_cstr(mpack_reader_t * reader, const char ** keys, _Bool * found, size_t count)'/>
+<doc f='codebrowser/src/mpack/mpack-expect.h' l='1445'>/**
+ * Expects a string map key matching one of the strings in the given key list,
+ * marking it as found in the given bool array and returning its index.
+ *
+ * This is a helper for switching among string keys in a map. It is
+ * typically used with an enum with names matching the strings in the
+ * array to define the key indices. It should be called in the expression
+ * of a switch() statement. See @ref docs/expect.md for an example.
+ *
+ * The found array must be cleared before expecting the first key. If the
+ * flag for a given key is already set when found (i.e. the map contains a
+ * duplicate key), mpack_error_invalid is flagged.
+ *
+ * If the key is unrecognized, count is returned and no error is flagged. If
+ * you want an error on unrecognized keys, flag an error in the default case
+ * in your switch; otherwise you must call mpack_discard() to discard its content.
+ *
+ * The maximum key length is the size of the buffer (keys are read in-place.)
+ *
+ * @param reader The reader
+ * @param keys An array of expected string keys of length count
+ * @param found An array of bool flags of length count
+ * @param count The number of values in the keys and found arrays
+ *
+ * @see @ref docs/expect.md
+ */</doc>
+<def f='codebrowser/src/mpack/mpack-expect.c' l='863' ll='879' type='size_t mpack_expect_key_cstr(mpack_reader_t * reader, const char ** keys, _Bool * found, size_t count)'/>
