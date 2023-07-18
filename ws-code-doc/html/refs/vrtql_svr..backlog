@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='215' type='int'/>
-<use f='codebrowser/src/server.c' l='714' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='822' u='w' c='svr_ctor'/>
-<offset>3648</offset>
-<doc f='codebrowser/src/server.h' l='214'>/**&lt; Maximum connections allowed */</doc>
+<dec f='codebrowser/src/server.h' l='212' type='int'/>
+<use f='codebrowser/src/server.c' l='715' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='825' u='w' c='svr_ctor'/>
+<offset>2368</offset>
+<doc f='codebrowser/src/server.h' l='211'>/**&lt; Maximum connections allowed */</doc>

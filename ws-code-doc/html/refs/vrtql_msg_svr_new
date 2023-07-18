@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='378' type='vrtql_msg_svr * vrtql_msg_svr_new(int pool_size, int backlog, int queue_size)'/>
-<def f='codebrowser/src/server.c' l='1580' ll='1603' type='vrtql_msg_svr * vrtql_msg_svr_new(int num_threads, int backlog, int queue_size)'/>
-<doc f='codebrowser/src/server.h' l='368'>/**
+<dec f='codebrowser/src/server.h' l='375' type='vrtql_msg_svr * vrtql_msg_svr_new(int pool_size, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='1581' ll='1604' type='vrtql_msg_svr * vrtql_msg_svr_new(int num_threads, int backlog, int queue_size)'/>
+<doc f='codebrowser/src/server.h' l='365'>/**
  * @brief Creates a new VRTQL message server.
  *
  * @param pool_size The number of threads to run in worker pool

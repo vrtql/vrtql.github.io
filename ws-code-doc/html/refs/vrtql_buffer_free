@@ -11,11 +11,11 @@
 <use f='codebrowser/src/message.c' l='67' u='c' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='136' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='436' u='c' c='vrtql_msg_send'/>
-<use f='codebrowser/src/server.c' l='1285' u='c' c='msg_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1314' u='c' c='msg_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1458' u='c' c='msg_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1573' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1286' u='c' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1315' u='c' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1459' u='c' c='msg_svr_client_data_in'/>
 <use f='codebrowser/src/server.c' l='1574' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1575' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/socket.c' l='103' u='c' c='vws_socket_dtor'/>
 <use f='codebrowser/src/test/test_common.c' l='80' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_message.c' l='24' u='c' c='ctest_test_message_mpack_serialization_run'/>

@@ -1,4 +1,0 @@
-<dec f='codebrowser/src/server.h' l='200' type='uv_mutex_t'/>
-<use f='codebrowser/src/server.c' l='830' u='a' c='svr_ctor'/>
-<offset>64</offset>
-<doc f='codebrowser/src/server.h' l='199'>/**&lt; Mutex for thread safety */</doc>

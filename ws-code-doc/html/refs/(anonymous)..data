@@ -6,10 +6,10 @@
 <dec f='codebrowser/src/server.h' l='77' type='char *'/>
 <use f='codebrowser/src/server.c' l='631' u='w' c='vrtql_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='641' u='r' c='vrtql_svr_data_free'/>
-<use f='codebrowser/src/server.c' l='956' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1376' u='r' c='msg_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1505' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='955' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1377' u='r' c='msg_svr_client_data_in'/>
 <use f='codebrowser/src/server.c' l='1506' u='r' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1507' u='r' c='msg_svr_client_data_in'/>
 <offset>128</offset>
 <doc f='codebrowser/src/server.h' l='76'>/**&lt; The data */</doc>
 <use f='codebrowser/src/test/test_server.c' l='20' u='r' c='process_data'/>

@@ -1,13 +1,15 @@
-<dec f='codebrowser/src/server.h' l='206' type='uv_loop_t *'/>
-<use f='codebrowser/src/server.c' l='689' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='741' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='823' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='826' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='833' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='886' u='r' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='899' u='r' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='902' u='r' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1065' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1089' u='r' c='svr_on_connect'/>
-<offset>1408</offset>
-<doc f='codebrowser/src/server.h' l='205'>/**&lt; Event loop handle */</doc>
+<dec f='codebrowser/src/server.h' l='203' type='uv_loop_t *'/>
+<use f='codebrowser/src/server.c' l='690' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='742' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='826' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='829' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='836' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='889' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='891' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='894' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='896' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='901' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1064' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1088' u='r' c='svr_on_connect'/>
+<offset>128</offset>
+<doc f='codebrowser/src/server.h' l='202'>/**&lt; Event loop handle */</doc>

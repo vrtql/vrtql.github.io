@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.h' l='342' type='struct vrtql_svr'/>
-<use f='codebrowser/src/server.c' l='1586' u='m' c='vrtql_msg_svr_new'/>
+<dec f='codebrowser/src/server.h' l='339' type='struct vrtql_svr'/>
 <use f='codebrowser/src/server.c' l='1587' u='m' c='vrtql_msg_svr_new'/>
 <use f='codebrowser/src/server.c' l='1588' u='m' c='vrtql_msg_svr_new'/>
+<use f='codebrowser/src/server.c' l='1589' u='m' c='vrtql_msg_svr_new'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='341'>/**&lt; Base class */</doc>
+<doc f='codebrowser/src/server.h' l='338'>/**&lt; Base class */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='16' u='m' c='process_message'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='56' u='m' c='ctest_test_msg_server_echo_run'/>

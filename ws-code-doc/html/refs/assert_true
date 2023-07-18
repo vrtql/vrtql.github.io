@@ -4,7 +4,7 @@
 <use f='codebrowser/src/test/test_json.c' l='39' macro='1' u='c' c='ctest_test_read_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='62' macro='1' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='79' macro='1' u='c' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='96' macro='1' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='87' macro='1' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_rpc.c' l='65' macro='1' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_rpc.c' l='69' macro='1' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_server.c' l='66' macro='1' u='c' c='ctest_test_server_echo_run'/>

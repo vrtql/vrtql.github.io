@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/server.h' l='272' type='void vrtql_svr_data_free(vrtql_svr_data * t)'/>
+<dec f='codebrowser/src/server.h' l='269' type='void vrtql_svr_data_free(vrtql_svr_data * t)'/>
 <def f='codebrowser/src/server.c' l='637' ll='644' type='void vrtql_svr_data_free(vrtql_svr_data * t)'/>
-<use f='codebrowser/src/server.c' l='944' u='c' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1144' u='c' c='svr_on_write_complete'/>
-<use f='codebrowser/src/server.c' l='1379' u='c' c='msg_svr_client_data_in'/>
-<doc f='codebrowser/src/server.h' l='267'>/**
+<use f='codebrowser/src/server.c' l='943' u='c' c='svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1143' u='c' c='svr_on_write_complete'/>
+<use f='codebrowser/src/server.c' l='1380' u='c' c='msg_svr_client_data_in'/>
+<doc f='codebrowser/src/server.h' l='264'>/**
  * @brief Frees the resources allocated to a thread data
  *
  * @param t The data

@@ -1,2 +1,1 @@
-<use f='codebrowser/src/server.c' l='830' u='c' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1192' u='c' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1193' u='c' c='queue_init'/>

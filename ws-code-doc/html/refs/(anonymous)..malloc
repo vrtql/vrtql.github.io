@@ -12,13 +12,15 @@
 <use f='codebrowser/src/rpc.c' l='157' u='r' c='parse_rpc_string'/>
 <use f='codebrowser/src/server.c' l='627' u='r' c='vrtql_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='648' u='r' c='vrtql_svr_new'/>
-<use f='codebrowser/src/server.c' l='814' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='823' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='957' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1030' u='r' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1079' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1182' u='r' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1582' u='r' c='vrtql_msg_svr_new'/>
+<use f='codebrowser/src/server.c' l='688' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='817' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='826' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='834' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='956' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1029' u='r' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1078' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1183' u='r' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1583' u='r' c='vrtql_msg_svr_new'/>
 <use f='codebrowser/src/socket.c' l='69' u='r' c='vws_socket_new'/>
 <use f='codebrowser/src/test/test_server.c' l='17' u='r' c='process_data'/>
 <use f='codebrowser/src/vrtql.c' l='386' u='w'/>

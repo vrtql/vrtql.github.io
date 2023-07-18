@@ -21,7 +21,7 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='29' u='r' c='process_message'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='30' u='r' c='process_message'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='31' u='r' c='process_message'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='94' u='r' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='95' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='85' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='86' u='r' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='85' u='r' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='86' u='r' c='ctest_test_message_run'/>
