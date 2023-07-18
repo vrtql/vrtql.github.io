@@ -6,10 +6,10 @@
  *
  * @param msg The message to be deallocated.
  */</doc>
-<use f='codebrowser/src/server.c' l='1657' u='c' c='ws_svr_client_process'/>
-<use f='codebrowser/src/server.c' l='1663' u='c' c='ws_svr_client_msg_out'/>
-<use f='codebrowser/src/server.c' l='1739' u='c' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1754' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1671' u='c' c='ws_svr_client_process'/>
+<use f='codebrowser/src/server.c' l='1677' u='c' c='ws_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1753' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1768' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_frame_run'/>

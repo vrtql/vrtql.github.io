@@ -2,9 +2,9 @@
 <offset>768</offset>
 <doc f='codebrowser/src/vrtql.h' l='131'>/**&lt; Turns on tracing            */</doc>
 <dec f='codebrowser/src/server.h' l='119' type='uint8_t'/>
-<use f='codebrowser/src/server.c' l='859' u='w' c='vrtql_svr_trace'/>
-<use f='codebrowser/src/server.c' l='860' u='w' c='vrtql_svr_trace'/>
-<use f='codebrowser/src/server.c' l='1282' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='873' u='w' c='vrtql_svr_trace'/>
+<use f='codebrowser/src/server.c' l='874' u='w' c='vrtql_svr_trace'/>
+<use f='codebrowser/src/server.c' l='1296' u='w' c='queue_init'/>
 <offset>1024</offset>
 <doc f='codebrowser/src/server.h' l='118'>/**&lt; Debugging trace flag */</doc>
 <use f='codebrowser/src/socket.c' l='565' u='r' c='connect_to_host'/>

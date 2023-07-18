@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/server.c' l='613' type='_Bool queue_empty(vrtql_svr_queue * queue)'/>
-<use f='codebrowser/src/server.c' l='681' u='c' c='uv_thread'/>
-<def f='codebrowser/src/server.c' l='1348' ll='1355' macro='1' type='_Bool queue_empty(vrtql_svr_queue * queue)'/>
+<dec f='codebrowser/src/server.c' l='627' type='_Bool queue_empty(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='695' u='c' c='uv_thread'/>
+<def f='codebrowser/src/server.c' l='1362' ll='1369' macro='1' type='_Bool queue_empty(vrtql_svr_queue * queue)'/>

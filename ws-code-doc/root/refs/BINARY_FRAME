@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/websocket.h' l='45' type='2'/>
 <doc f='codebrowser/src/websocket.h' l='44'>/** A binary data frame. */</doc>
-<use f='codebrowser/src/server.c' l='1388' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1777' u='r' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1402' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1791' u='r' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/websocket.c' l='907' c='process_frame'/>

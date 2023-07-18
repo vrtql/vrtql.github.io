@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/server.h' l='57' type='2'/>
-<use f='codebrowser/src/server.c' l='685' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='1470' u='r' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='699' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='1484' u='r' c='vrtql_svr_close'/>
 <doc f='codebrowser/src/server.h' l='56'>/* uv_thread() is to close connection */</doc>

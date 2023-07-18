@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='300' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
-<def f='codebrowser/src/server.c' l='764' ll='854' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
+<def f='codebrowser/src/server.c' l='778' ll='868' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
 <doc f='codebrowser/src/server.h' l='292'>/**
  * @brief Starts a VRTQL server.
  *

@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/server.h' l='323' type='void vrtql_svr_stop(vrtql_svr * server)'/>
-<def f='codebrowser/src/server.c' l='863' ll='892' type='void vrtql_svr_stop(vrtql_svr * server)'/>
-<use f='codebrowser/src/server.c' l='970' u='c' c='svr_dtor'/>
+<def f='codebrowser/src/server.c' l='877' ll='906' type='void vrtql_svr_stop(vrtql_svr * server)'/>
+<use f='codebrowser/src/server.c' l='984' u='c' c='svr_dtor'/>
 <doc f='codebrowser/src/server.h' l='318'>/**
  * @brief Stops a VRTQL server.
  *

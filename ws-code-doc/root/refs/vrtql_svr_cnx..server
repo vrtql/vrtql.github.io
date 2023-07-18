@@ -1,22 +1,22 @@
 <dec f='codebrowser/src/server.h' l='131' type='struct vrtql_svr *'/>
-<use f='codebrowser/src/server.c' l='1008' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1016' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1024' u='r' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1033' u='r' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1082' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1113' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1123' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1376' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1405' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1437' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1451' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1473' u='r' c='vrtql_svr_close'/>
-<use f='codebrowser/src/server.c' l='1481' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1566' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1640' u='r' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1648' u='r' c='ws_svr_client_msg_in'/>
-<use f='codebrowser/src/server.c' l='1757' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1764' u='r' c='msg_svr_client_msg_in'/>
+<use f='codebrowser/src/server.c' l='1022' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1030' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1038' u='r' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1047' u='r' c='svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1096' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1127' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1137' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1390' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1419' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1451' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1465' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1487' u='r' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='1495' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1580' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1654' u='r' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1662' u='r' c='ws_svr_client_msg_in'/>
+<use f='codebrowser/src/server.c' l='1771' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1778' u='r' c='msg_svr_client_msg_in'/>
 <offset>0</offset>
 <doc f='codebrowser/src/server.h' l='130'>/**&lt; The server associated with the connection */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='14' u='r' c='process_message'/>

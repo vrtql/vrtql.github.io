@@ -1,14 +1,14 @@
 <dec f='codebrowser/src/server.h' l='199' type='uint8_t'/>
-<use f='codebrowser/src/server.c' l='637' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='661' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='742' u='r' c='vrtql_svr_state'/>
-<use f='codebrowser/src/server.c' l='826' u='w' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='851' u='w' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='866' u='w' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='888' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='920' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='968' u='r' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1141' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='651' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='675' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='756' u='r' c='vrtql_svr_state'/>
+<use f='codebrowser/src/server.c' l='840' u='w' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='865' u='w' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='880' u='w' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='902' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='934' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='982' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1155' u='r' c='svr_shutdown'/>
 <offset>0</offset>
 <doc f='codebrowser/src/server.h' l='198'>/**&lt; Current state of the server */</doc>
 <use f='codebrowser/src/test/test_server.c' l='58' u='r' c='ctest_test_server_echo_run'/>

@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='283' type='vrtql_svr * vrtql_svr_new(int pool_size, int backlog, int queue_size)'/>
-<def f='codebrowser/src/server.c' l='734' ll='738' type='vrtql_svr * vrtql_svr_new(int num_threads, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='748' ll='752' type='vrtql_svr * vrtql_svr_new(int num_threads, int backlog, int queue_size)'/>
 <doc f='codebrowser/src/server.h' l='273'>/**
  * @brief Creates a new VRTQL server.
  *

@@ -1,11 +1,11 @@
 <dec f='codebrowser/src/websocket.h' l='209' type='struct vws_socket'/>
 <offset>0</offset>
 <doc f='codebrowser/src/websocket.h' l='208'>/**&lt; Base class */</doc>
-<use f='codebrowser/src/server.c' l='1483' u='m' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1493' u='m' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1494' u='m' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1528' u='m' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1582' u='m' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1497' u='m' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1507' u='m' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1508' u='m' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1542' u='m' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1596' u='m' c='ws_svr_client_data_in'/>
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='m' c='ctest_test_setup'/>
 <use f='codebrowser/src/websocket.c' l='281' u='m' c='vws_cnx_new'/>
 <use f='codebrowser/src/websocket.c' l='517' u='m' c='vws_send_frame'/>

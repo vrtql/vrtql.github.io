@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='340' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
-<def f='codebrowser/src/server.c' l='740' ll='743' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
+<def f='codebrowser/src/server.c' l='754' ll='757' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
 <doc f='codebrowser/src/server.h' l='334'>/**
  * @brief Returns the server operational state.
  *

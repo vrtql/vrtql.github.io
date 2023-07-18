@@ -4,6 +4,6 @@
  * @brief Frees the resources associated with the vrtql_http_req instance.
  * @param req The vrtql_http_req instance to free.
  */</doc>
-<use f='codebrowser/src/server.c' l='1577' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1704' u='c' c='ws_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1591' u='c' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1718' u='c' c='ws_svr_dtor'/>
 <use f='codebrowser/src/test/test_http_request.c' l='26' u='c' c='ctest_test_rpc_call_run'/>
