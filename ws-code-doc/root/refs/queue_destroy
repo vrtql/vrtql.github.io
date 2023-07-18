@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.c' l='486' type='void queue_destroy(vrtql_svr_queue * queue)'/>
-<use f='codebrowser/src/server.c' l='1059' u='c' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1060' u='c' c='svr_shutdown'/>
-<def f='codebrowser/src/server.c' l='1197' ll='1209' type='void queue_destroy(vrtql_svr_queue * queue)'/>
-<doc f='codebrowser/src/server.c' l='476'>/**
+<dec f='codebrowser/src/server.c' l='574' type='void queue_destroy(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='1152' u='c' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1153' u='c' c='svr_shutdown'/>
+<def f='codebrowser/src/server.c' l='1290' ll='1302' type='void queue_destroy(vrtql_svr_queue * queue)'/>
+<doc f='codebrowser/src/server.c' l='564'>/**
  * @brief Destroys a server queue.
  *
  * This function cleans up the resources associated with the provided queue.

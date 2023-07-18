@@ -1,5 +1,5 @@
 <def f='codebrowser/src/test/test_msg_server.c' l='6' type='cstr'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='44' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='41' u='r' c='server_thread'/>
 <def f='codebrowser/src/test/test_server.c' l='6' type='cstr'/>
 <use f='codebrowser/src/test/test_server.c' l='43' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='66' u='r' c='ctest_test_server_echo_run'/>

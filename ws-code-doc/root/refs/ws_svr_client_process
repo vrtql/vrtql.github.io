@@ -1,0 +1,2 @@
+<def f='codebrowser/src/server.c' l='1654' ll='1658' type='void ws_svr_client_process(vrtql_svr_cnx * cnx, vws_msg * m)'/>
+<use f='codebrowser/src/server.c' l='1684' u='r' c='ws_svr_ctor'/>

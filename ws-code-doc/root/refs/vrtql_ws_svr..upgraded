@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='371' type='_Bool'/>
+<use f='codebrowser/src/server.c' l='1489' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1574' u='w' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1676' u='w' c='ws_svr_ctor'/>
+<offset>3136</offset>

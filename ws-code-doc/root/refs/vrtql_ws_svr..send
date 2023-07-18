@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/server.h' l='395' type='vws_svr_process_msg'/>
+<use f='codebrowser/src/server.c' l='1685' u='w' c='ws_svr_ctor'/>
+<offset>3648</offset>
+<doc f='codebrowser/src/server.h' l='394'>/**&lt; Derived: for sending messages to the client (calls on_msg_out()) */</doc>

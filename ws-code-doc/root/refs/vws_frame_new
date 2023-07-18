@@ -7,7 +7,7 @@
  * @param oc The opcode for the frame.
  * @return Returns a pointer to the new frame.
  */</doc>
-<use f='codebrowser/src/server.c' l='1558' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1627' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/test/test_websocket.c' l='64' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_send_data'/>
 <def f='codebrowser/src/websocket.c' l='596' ll='616' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>

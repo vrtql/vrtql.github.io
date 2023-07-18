@@ -89,5 +89,5 @@
 <use f='codebrowser/src/http_parser.c' l='2352' c='http_errno_description'/>
 <use f='codebrowser/src/http_parser.c' l='2656' macro='1' c='http_parser_pause'/>
 <use f='codebrowser/src/http_parser.c' l='2657' macro='1' c='http_parser_pause'/>
-<use f='codebrowser/src/server.c' l='1395' c='msg_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1395' macro='1' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1501' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1501' macro='1' c='ws_svr_client_data_in'/>

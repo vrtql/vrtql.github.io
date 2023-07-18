@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/server.h' l='416' type='void vrtql_ws_svr_free(vrtql_ws_svr * s)'/>
+<def f='codebrowser/src/server.c' l='1710' ll='1719' type='void vrtql_ws_svr_free(vrtql_ws_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='411'>/**
+ * @brief Frees the resources allocated to a WebSocket server.
+ *
+ * @param s The server to free.
+ */</doc>

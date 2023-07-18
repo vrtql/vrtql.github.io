@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/server.h' l='374' type='vrtql_http_req *'/>
+<use f='codebrowser/src/server.c' l='1495' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1498' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1501' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1534' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1577' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1578' u='w' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1677' u='w' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1702' u='r' c='ws_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1704' u='r' c='ws_svr_dtor'/>
+<offset>3200</offset>
+<doc f='codebrowser/src/server.h' l='373'>/* Flag holds the HTTP request that started connection. */</doc>

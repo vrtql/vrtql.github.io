@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.h' l='184' type='2'/>
-<use f='codebrowser/src/server.c' l='758' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='795' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='827' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1048' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1207' u='r' c='queue_destroy'/>
-<doc f='codebrowser/src/server.h' l='183'>/**&lt; Server is no running */</doc>
+<dec f='codebrowser/src/server.h' l='185' type='2'/>
+<use f='codebrowser/src/server.c' l='851' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='888' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='920' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1141' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1300' u='r' c='queue_destroy'/>
+<doc f='codebrowser/src/server.h' l='184'>/**&lt; Server is not running */</doc>

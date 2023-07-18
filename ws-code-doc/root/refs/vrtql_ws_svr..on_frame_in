@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/server.h' l='380' type='vws_svr_process_frame'/>
+<offset>3328</offset>
+<doc f='codebrowser/src/server.h' l='379'>/**&lt; Function for processing an incoming frame */</doc>

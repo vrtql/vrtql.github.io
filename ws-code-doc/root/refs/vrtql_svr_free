@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='288' type='void vrtql_svr_free(vrtql_svr * s)'/>
-<def f='codebrowser/src/server.c' l='652' ll='661' type='void vrtql_svr_free(vrtql_svr * server)'/>
-<doc f='codebrowser/src/server.h' l='283'>/**
+<dec f='codebrowser/src/server.h' l='290' type='void vrtql_svr_free(vrtql_svr * s)'/>
+<def f='codebrowser/src/server.c' l='745' ll='754' type='void vrtql_svr_free(vrtql_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='285'>/**
  * @brief Frees the resources allocated to a VRTQL server.
  *
  * @param s The server to free.

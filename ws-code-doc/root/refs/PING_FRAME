@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/websocket.h' l='51' type='9'/>
 <doc f='codebrowser/src/websocket.h' l='50'>/** A ping control frame. */</doc>
-<use f='codebrowser/src/server.c' l='1304' c='msg_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1397' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/websocket.c' l='916' c='process_frame'/>

@@ -1,5 +1,9 @@
-<def f='codebrowser/src/server.h' l='175' ll='186'/>
-<use f='codebrowser/src/server.h' l='175'/>
-<doc f='codebrowser/src/server.h' l='172'>/**
- * @brief Enumerates server state
+<dec f='codebrowser/src/server.h' l='340' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
+<def f='codebrowser/src/server.c' l='740' ll='743' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='334'>/**
+ * @brief Returns the server operational state.
+ *
+ * @param server The server to check.
+ * @return The state of the server in the form of the vrtql_svr_state_t enum.
  */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='53' u='c' c='ctest_test_msg_server_echo_run'/>

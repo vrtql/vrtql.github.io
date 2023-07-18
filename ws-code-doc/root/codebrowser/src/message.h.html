@@ -21,14 +21,14 @@
 <tr><th id="7">7</th><td>{</td></tr>
 <tr><th id="8">8</th><td>    <dfn class="enum" id="VM_MPACK_FORMAT" title='VM_MPACK_FORMAT' data-ref="VM_MPACK_FORMAT" data-ref-filename="VM_MPACK_FORMAT">VM_MPACK_FORMAT</dfn>,</td></tr>
 <tr><th id="9">9</th><td>    <dfn class="enum" id="VM_JSON_FORMAT" title='VM_JSON_FORMAT' data-ref="VM_JSON_FORMAT" data-ref-filename="VM_JSON_FORMAT">VM_JSON_FORMAT</dfn></td></tr>
-<tr><th id="10">10</th><td>} <dfn class="typedef" id="vrtql_msg_format" title='vrtql_msg_format' data-type='enum vrtql_msg_format' data-ref="vrtql_msg_format" data-ref-filename="vrtql_msg_format">vrtql_msg_format</dfn>;</td></tr>
+<tr><th id="10">10</th><td>} <dfn class="typedef" id="vrtql_msg_format_t" title='vrtql_msg_format_t' data-type='enum vrtql_msg_format_t' data-ref="vrtql_msg_format_t" data-ref-filename="vrtql_msg_format_t">vrtql_msg_format_t</dfn>;</td></tr>
 <tr><th id="11">11</th><td></td></tr>
 <tr><th id="12">12</th><td><b>typedef</b> <b>enum</b></td></tr>
 <tr><th id="13">13</th><td>{</td></tr>
 <tr><th id="14">14</th><td>    <dfn class="enum" id="VM_MSG_VALID" title='VM_MSG_VALID' data-ref="VM_MSG_VALID" data-ref-filename="VM_MSG_VALID">VM_MSG_VALID</dfn>       = (<var>1</var> &lt;&lt; <var>1</var>),</td></tr>
 <tr><th id="15">15</th><td>    <dfn class="enum" id="VM_MSG_PRIORITY" title='VM_MSG_PRIORITY' data-ref="VM_MSG_PRIORITY" data-ref-filename="VM_MSG_PRIORITY">VM_MSG_PRIORITY</dfn>    = (<var>1</var> &lt;&lt; <var>2</var>),</td></tr>
 <tr><th id="16">16</th><td>    <dfn class="enum" id="VM_MSG_OUT_OF_BAND" title='VM_MSG_OUT_OF_BAND' data-ref="VM_MSG_OUT_OF_BAND" data-ref-filename="VM_MSG_OUT_OF_BAND">VM_MSG_OUT_OF_BAND</dfn> = (<var>1</var> &lt;&lt; <var>3</var>)</td></tr>
-<tr><th id="17">17</th><td>} <dfn class="typedef" id="vrtql_msg_state" title='vrtql_msg_state' data-type='enum vrtql_msg_state' data-ref="vrtql_msg_state" data-ref-filename="vrtql_msg_state">vrtql_msg_state</dfn>;</td></tr>
+<tr><th id="17">17</th><td>} <dfn class="typedef" id="vrtql_msg_state_t" title='vrtql_msg_state_t' data-type='enum vrtql_msg_state_t' data-ref="vrtql_msg_state_t" data-ref-filename="vrtql_msg_state_t">vrtql_msg_state_t</dfn>;</td></tr>
 <tr><th id="18">18</th><td></td></tr>
 <tr><th id="19">19</th><td><i class="doc">/**</i></td></tr>
 <tr><th id="20">20</th><td><i class="doc"> * <span class="command">@brief</span> Represents a message with routing, headers, and content.</i></td></tr>
@@ -39,7 +39,7 @@
 <tr><th id="25">25</th><td>    <b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a> <dfn class="decl field" id="vrtql_msg::headers" title='vrtql_msg::headers' data-ref="vrtql_msg::headers" data-ref-filename="vrtql_msg..headers">headers</dfn>; <i class="doc">/**&lt; A map storing header fields.       */</i></td></tr>
 <tr><th id="26">26</th><td>    <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="decl field" id="vrtql_msg::content" title='vrtql_msg::content' data-ref="vrtql_msg::content" data-ref-filename="vrtql_msg..content">content</dfn>;     <i class="doc">/**&lt; Buffer for the message content.    */</i></td></tr>
 <tr><th id="27">27</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="vrtql_msg::flags" title='vrtql_msg::flags' data-ref="vrtql_msg::flags" data-ref-filename="vrtql_msg..flags">flags</dfn>;            <i class="doc">/**&lt; Message state flags                */</i></td></tr>
-<tr><th id="28">28</th><td>    <a class="typedef" href="#vrtql_msg_format" title='vrtql_msg_format' data-type='enum vrtql_msg_format' data-ref="vrtql_msg_format" data-ref-filename="vrtql_msg_format">vrtql_msg_format</a> <dfn class="decl field" id="vrtql_msg::format" title='vrtql_msg::format' data-ref="vrtql_msg::format" data-ref-filename="vrtql_msg..format">format</dfn>;   <i class="doc">/**&lt; Message format                     */</i></td></tr>
+<tr><th id="28">28</th><td>    <a class="typedef" href="#vrtql_msg_format_t" title='vrtql_msg_format_t' data-type='enum vrtql_msg_format_t' data-ref="vrtql_msg_format_t" data-ref-filename="vrtql_msg_format_t">vrtql_msg_format_t</a> <dfn class="decl field" id="vrtql_msg::format" title='vrtql_msg::format' data-ref="vrtql_msg::format" data-ref-filename="vrtql_msg..format">format</dfn>; <i class="doc">/**&lt; Message format                     */</i></td></tr>
 <tr><th id="29">29</th><td>} <dfn class="typedef" id="vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</dfn>;</td></tr>
 <tr><th id="30">30</th><td></td></tr>
 <tr><th id="31">31</th><td><i class="doc">/**</i></td></tr>

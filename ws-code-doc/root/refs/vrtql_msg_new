@@ -8,13 +8,13 @@
  * @brief Creates a new vrtql_msg instance.
  * @return A pointer to the new vrtql_msg instance.
  */</doc>
-<use f='codebrowser/src/server.c' l='1505' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1730' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_message.c' l='9' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='10' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='48' u='c' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='49' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='25' u='c' c='process_message'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='75' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='22' u='c' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='72' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_rpc.c' l='8' u='c' c='session_login'/>
 <use f='codebrowser/src/test/test_rpc.c' l='17' u='c' c='session_logout'/>
 <use f='codebrowser/src/test/test_rpc.c' l='26' u='c' c='session_info'/>

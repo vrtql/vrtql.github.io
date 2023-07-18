@@ -11,6 +11,6 @@
  * @return The total number of bytes consumed from the socket buffer.
  *         If no complete frame is available or an error occurs, it returns 0.
  */</doc>
-<use f='codebrowser/src/server.c' l='1490' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1600' u='c' c='ws_svr_client_data_in'/>
 <use f='codebrowser/src/websocket.c' l='1064' u='c' c='socket_wait_for_frame'/>
 <def f='codebrowser/src/websocket.c' l='1073' ll='1131' type='ssize_t vws_socket_ingress(vws_cnx * c)'/>

@@ -16,11 +16,11 @@
 <use f='codebrowser/src/message.c' l='423' u='c' c='vrtql_msg_set_content'/>
 <use f='codebrowser/src/message.c' l='429' u='c' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='572' u='c' c='msg_parse_content'/>
-<use f='codebrowser/src/server.c' l='1377' u='c' c='msg_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1483' u='c' c='ws_svr_client_data_in'/>
 <use f='codebrowser/src/socket.c' l='416' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_common.c' l='67' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='70' u='c' c='ctest_test_buffer_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='31' u='c' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='28' u='c' c='process_message'/>
 <use f='codebrowser/src/vrtql.c' l='458' u='c' c='vrtql_buffer_printf'/>
 <def f='codebrowser/src/vrtql.c' l='465' ll='493' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
 <use f='codebrowser/src/websocket.c' l='1181' u='c' c='vws_pop_message'/>

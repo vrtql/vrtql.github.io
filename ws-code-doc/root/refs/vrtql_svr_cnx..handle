@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/server.h' l='133' type='uv_stream_t *'/>
-<use f='codebrowser/src/server.c' l='600' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='917' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='925' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='959' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1031' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1346' u='r' c='msg_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1360' u='r' c='msg_svr_client_disconnect'/>
+<dec f='codebrowser/src/server.h' l='134' type='uv_stream_t *'/>
+<use f='codebrowser/src/server.c' l='688' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='1010' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1018' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1052' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1124' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1439' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1453' u='r' c='ws_svr_client_disconnect'/>
 <offset>64</offset>
-<doc f='codebrowser/src/server.h' l='132'>/**&lt; The client associated with the connection */</doc>
+<doc f='codebrowser/src/server.h' l='133'>/**&lt; The client associated with the connection */</doc>

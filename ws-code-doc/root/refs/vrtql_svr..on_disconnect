@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.h' l='227' type='vrtql_svr_disconnect'/>
-<use f='codebrowser/src/server.c' l='821' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='989' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1020' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1159' u='r' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1588' u='w' c='vrtql_msg_svr_new'/>
+<dec f='codebrowser/src/server.h' l='229' type='vrtql_svr_disconnect'/>
+<use f='codebrowser/src/server.c' l='914' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1082' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1113' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1252' u='r' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1672' u='w' c='ws_svr_ctor'/>
 <offset>2816</offset>
-<doc f='codebrowser/src/server.h' l='226'>/**&lt; Callback function for disconnect */</doc>
+<doc f='codebrowser/src/server.h' l='228'>/**&lt; Callback function for disconnect */</doc>

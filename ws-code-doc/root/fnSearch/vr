@@ -29,6 +29,7 @@ vrtql_rpc_system_new|vrtql_rpc_system_new
 vrtql_rpc_system_set|vrtql_rpc_system_set
 vrtql_msg_svr_free|vrtql_msg_svr_free
 vrtql_msg_svr_new|vrtql_msg_svr_new
+vrtql_svr_close|vrtql_svr_close
 vrtql_svr_data_free|vrtql_svr_data_free
 vrtql_svr_data_new|vrtql_svr_data_new
 vrtql_svr_data_own|vrtql_svr_data_own
@@ -36,8 +37,11 @@ vrtql_svr_free|vrtql_svr_free
 vrtql_svr_new|vrtql_svr_new
 vrtql_svr_run|vrtql_svr_run
 vrtql_svr_send|vrtql_svr_send
+vrtql_svr_state|vrtql_svr_state
 vrtql_svr_stop|vrtql_svr_stop
 vrtql_svr_trace|vrtql_svr_trace
+vrtql_ws_svr_free|vrtql_ws_svr_free
+vrtql_ws_svr_new|vrtql_ws_svr_new
 vrtql_base64_decode|vrtql_base64_decode
 vrtql_base64_encode|vrtql_base64_encode
 vrtql_buffer_append|vrtql_buffer_append

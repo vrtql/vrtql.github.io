@@ -1,5 +1,0 @@
-<def f='codebrowser/src/server.c' l='1268' ll='1340' type='void msg_svr_process_frame(vws_cnx * c, vws_frame * f)'/>
-<use f='codebrowser/src/server.c' l='1351' u='r' c='msg_svr_client_connect'/>
-<doc f='codebrowser/src/server.c' l='1264'>//------------------------------------------------------------------------------
-// Messaging Server
-//------------------------------------------------------------------------------</doc>

@@ -1,10 +1,11 @@
-<use f='codebrowser/src/server.h' l='130'/>
-<def f='codebrowser/src/server.h' l='194' ll='241'/>
-<use f='codebrowser/src/server.h' l='194'/>
-<use f='codebrowser/src/server.h' l='339'/>
+<use f='codebrowser/src/server.h' l='131'/>
+<def f='codebrowser/src/server.h' l='196' ll='243'/>
+<use f='codebrowser/src/server.h' l='196'/>
+<use f='codebrowser/src/server.h' l='367'/>
 <size>392</size>
-<doc f='codebrowser/src/server.h' l='191'>/**
- * @brief Struct representing a VRTQL server.
+<doc f='codebrowser/src/server.h' l='192'>/**
+ * @brief Struct representing a basic server. It does not do anything but
+ * process raw data. It does not have any knowledge of WebSockets.
  */</doc>
 <mbr r='vrtql_svr::state' o='0' t='uint8_t'/>
 <mbr r='vrtql_svr::wakeup' o='64' t='uv_async_t *'/>

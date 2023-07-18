@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/server.h' l='323' type='void vrtql_svr_trace(vrtql_svr * server, int flag)'/>
-<def f='codebrowser/src/server.c' l='763' ll='768' type='void vrtql_svr_trace(vrtql_svr * server, int flag)'/>
-<doc f='codebrowser/src/server.h' l='316'>/**
+<dec f='codebrowser/src/server.h' l='332' type='void vrtql_svr_trace(vrtql_svr * server, int flag)'/>
+<def f='codebrowser/src/server.c' l='856' ll='861' type='void vrtql_svr_trace(vrtql_svr * server, int flag)'/>
+<doc f='codebrowser/src/server.h' l='325'>/**
  * @brief Toggles debugging trace for a VRTQL server.
  *
  * @param server The server to trace.
  * @param flag The flag to set the trace. Non-zero value enables tracing,
- *   zero disables.
+ *   zero disables it.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='43' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='40' u='c' c='server_thread'/>

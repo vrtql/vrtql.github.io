@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.h' l='141' type='vrtql_msg_format'/>
-<use f='codebrowser/src/server.c' l='1033' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1525' u='w' c='msg_svr_client_data_in'/>
+<dec f='codebrowser/src/server.h' l='142' type='vrtql_msg_format_t'/>
+<use f='codebrowser/src/server.c' l='1126' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1751' u='w' c='msg_svr_client_ws_msg_in'/>
 <offset>192</offset>
-<doc f='codebrowser/src/server.h' l='138'>/**&lt; The format to serialize. If VM_MPACK_FORMAT, serialize into MessagePack
+<doc f='codebrowser/src/server.h' l='139'>/**&lt; The format to serialize. If VM_MPACK_FORMAT, serialize into MessagePack
      *   binary format. If VM_JSON_FORMAT, then serialize into JSON format.
      */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='26' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='23' u='r' c='process_message'/>
