@@ -6,6 +6,6 @@
  * @param msg The vrtql_msg instance.
  * @return A buffer containing the serialized message.
  */</doc>
-<use f='codebrowser/src/server.c' l='1788' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1780' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/test/test_message.c' l='16' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='56' u='c' c='ctest_test_message_json_serialization_run'/>

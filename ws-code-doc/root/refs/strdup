@@ -2,7 +2,7 @@
 <doc f='include/string.h' l='165'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
 <use f='codebrowser/src/rpc.c' l='61' u='c' c='vrtql_rpc_module_new'/>
 <use f='codebrowser/src/rpc.c' l='266' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/server.c' l='1297' u='c' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1289' u='c' c='queue_init'/>
 <use f='codebrowser/src/vrtql.c' l='268' u='c' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='540' u='c' c='vrtql_map_set'/>
 <use f='codebrowser/src/vrtql.c' l='543' u='c' c='vrtql_map_set'/>

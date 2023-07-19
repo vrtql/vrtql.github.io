@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/socket.h' l='127' type='_Bool vws_socket_set_timeout(vws_socket * s, int sec)'/>
+<dec f='codebrowser/src/socket.h' l='128' type='_Bool vws_socket_set_timeout(vws_socket * s, int sec)'/>
 <def f='codebrowser/src/socket.c' l='118' ll='121' macro='1' type='_Bool vws_socket_set_timeout(vws_socket * s, int sec)'/>

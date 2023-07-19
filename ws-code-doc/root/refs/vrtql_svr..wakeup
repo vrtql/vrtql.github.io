@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/server.h' l='202' type='uv_async_t *'/>
-<use f='codebrowser/src/server.c' l='775' u='r' c='vrtql_svr_send'/>
-<use f='codebrowser/src/server.c' l='900' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='941' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='942' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='943' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='991' u='r' c='svr_dtor'/>
+<dec f='codebrowser/src/server.h' l='199' type='uv_async_t *'/>
+<use f='codebrowser/src/server.c' l='778' u='r' c='vrtql_svr_send'/>
+<use f='codebrowser/src/server.c' l='894' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='934' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='935' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='936' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='984' u='r' c='svr_dtor'/>
 <offset>64</offset>
-<doc f='codebrowser/src/server.h' l='201'>/**&lt; Asynchronous handle for event-based programming */</doc>
+<doc f='codebrowser/src/server.h' l='198'>/**&lt; Asynchronous handle for event-based programming */</doc>

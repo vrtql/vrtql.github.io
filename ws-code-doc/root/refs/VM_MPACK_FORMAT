@@ -2,5 +2,5 @@
 <use f='codebrowser/src/message.c' l='46' u='r' c='vrtql_msg_new'/>
 <use f='codebrowser/src/message.c' l='80' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='289' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/server.c' l='1140' u='r' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1133' u='r' c='svr_cnx_new'/>
 <use f='codebrowser/src/test/test_message.c' l='55' u='r' c='ctest_test_message_json_serialization_run'/>

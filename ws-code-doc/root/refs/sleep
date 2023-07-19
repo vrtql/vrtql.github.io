@@ -1,5 +1,5 @@
 <dec f='include/unistd.h' l='444' type='unsigned int sleep(unsigned int __seconds)'/>
-<use f='codebrowser/src/server.c' l='904' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='898' u='c' c='vrtql_svr_stop'/>
 <doc f='include/unistd.h' l='434'>/* Make the process sleep for SECONDS seconds, or until a signal arrives
    and is not ignored.  The function returns the number of seconds less
    than SECONDS which it actually slept (thus zero if it slept the full time).

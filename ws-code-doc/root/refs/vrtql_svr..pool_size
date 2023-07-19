@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.h' l='217' type='int'/>
-<use f='codebrowser/src/server.c' l='685' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='785' u='r' c='vrtql_svr_run'/>
+<dec f='codebrowser/src/server.h' l='214' type='int'/>
+<use f='codebrowser/src/server.c' l='688' u='r' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='788' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='925' u='w' c='svr_ctor'/>
-<offset>2400</offset>
-<doc f='codebrowser/src/server.h' l='216'>/**&lt; Number of threads in the worker pool */</doc>
+<use f='codebrowser/src/server.c' l='791' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='919' u='w' c='svr_ctor'/>
+<offset>2272</offset>
+<doc f='codebrowser/src/server.h' l='213'>/**&lt; Number of threads in the worker pool */</doc>

@@ -1,32 +1,31 @@
-<dec f='codebrowser/src/vrtql.h' l='173' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
-<doc f='codebrowser/src/vrtql.h' l='166'>/**
+<dec f='codebrowser/src/vrtql.h' l='188' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
+<doc f='codebrowser/src/vrtql.h' l='181'>/**
  * @brief Logs a trace message.
  *
  * @param level The level of the log
  * @param format The format string for the message
  * @param ... The arguments for the format string
  */</doc>
-<use f='codebrowser/src/server.c' l='637' u='c' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='655' u='c' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='679' u='c' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='782' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='809' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='832' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='844' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='857' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='861' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='887' u='c' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='897' u='c' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='958' u='c' c='on_uv_close'/>
-<use f='codebrowser/src/server.c' l='967' u='c' c='on_uv_walk'/>
-<use f='codebrowser/src/server.c' l='1024' u='c' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1032' u='c' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1057' u='c' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1162' u='c' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1260' u='c' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1308' u='c' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1453' u='c' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1467' u='c' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='639' u='c' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='658' u='c' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='682' u='c' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='785' u='c' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='812' u='c' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='835' u='c' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='847' u='c' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='862' u='c' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='881' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='891' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='951' u='c' c='on_uv_close'/>
+<use f='codebrowser/src/server.c' l='960' u='c' c='on_uv_walk'/>
+<use f='codebrowser/src/server.c' l='1017' u='c' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1025' u='c' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1050' u='c' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1155' u='c' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1253' u='c' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1300' u='c' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1445' u='c' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1459' u='c' c='ws_svr_client_disconnect'/>
 <use f='codebrowser/src/socket.c' l='568' u='c' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='111' u='c' c='ctest_test_trace_run'/>
 <use f='codebrowser/src/test/test_common.c' l='112' u='c' c='ctest_test_trace_run'/>

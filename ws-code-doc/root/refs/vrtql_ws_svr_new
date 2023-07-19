@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='409' type='vrtql_ws_svr * vrtql_ws_svr_new(int pool_size, int backlog, int queue_size)'/>
-<def f='codebrowser/src/server.c' l='1702' ll='1707' type='vrtql_ws_svr * vrtql_ws_svr_new(int num_threads, int backlog, int queue_size)'/>
-<doc f='codebrowser/src/server.h' l='399'>/**
+<dec f='codebrowser/src/server.h' l='394' type='vrtql_ws_svr * vrtql_ws_svr_new(int pool_size, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='1694' ll='1699' type='vrtql_ws_svr * vrtql_ws_svr_new(int num_threads, int backlog, int queue_size)'/>
+<doc f='codebrowser/src/server.h' l='384'>/**
  * @brief Creates a new WebSocket server.
  *
  * @param pool_size The number of threads to run in the worker pool

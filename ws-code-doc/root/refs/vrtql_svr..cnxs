@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/server.h' l='223' type='vrtql_svr_cnx_map'/>
-<use f='codebrowser/src/server.c' l='937' u='a' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1012' u='a' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1013' u='a' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1218' u='a' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1239' u='a' c='svr_on_read'/>
-<use f='codebrowser/src/server.c' l='1257' u='a' c='svr_on_close'/>
-<offset>2496</offset>
-<doc f='codebrowser/src/server.h' l='222'>/**&lt; Map of active connections */</doc>
+<dec f='codebrowser/src/server.h' l='220' type='vrtql_svr_cnx_map'/>
+<use f='codebrowser/src/server.c' l='930' u='a' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1005' u='a' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1006' u='a' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1211' u='a' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1232' u='a' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1250' u='a' c='svr_on_close'/>
+<offset>2368</offset>
+<doc f='codebrowser/src/server.h' l='219'>/**&lt; Map of active connections */</doc>

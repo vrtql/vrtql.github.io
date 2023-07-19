@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='382' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vrtql.h' l='375'>/**
+<dec f='codebrowser/src/vrtql.h' l='397' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vrtql.h' l='390'>/**
  * @brief Clears a specific flag.
  *
  * @param flags The flags to modify

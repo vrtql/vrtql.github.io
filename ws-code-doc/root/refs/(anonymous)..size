@@ -1,15 +1,15 @@
 <dec f='codebrowser/src/server.h' l='75' type='size_t'/>
 <dec f='codebrowser/src/server.h' l='95' type='int'/>
-<use f='codebrowser/src/server.c' l='732' u='w' c='vrtql_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='735' u='w' c='vrtql_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='1048' u='r' c='svr_client_data_out'/>
 <use f='codebrowser/src/server.c' l='1055' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1062' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1291' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1322' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1329' u='w' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1340' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1355' u='w' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1365' u='r' c='queue_empty'/>
-<use f='codebrowser/src/server.c' l='1497' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1284' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1314' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1321' u='w' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1332' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1347' u='w' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1357' u='r' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='1489' u='r' c='ws_svr_client_data_in'/>
 <offset>64</offset>
 <doc f='codebrowser/src/server.h' l='74'>/**&lt; The number of bytes of data */</doc>
 <doc f='codebrowser/src/server.h' l='94'>/**&lt; Current size of the queue */</doc>

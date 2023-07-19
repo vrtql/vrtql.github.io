@@ -39,7 +39,6 @@ vrtql_svr_run|vrtql_svr_run
 vrtql_svr_send|vrtql_svr_send
 vrtql_svr_state|vrtql_svr_state
 vrtql_svr_stop|vrtql_svr_stop
-vrtql_svr_trace|vrtql_svr_trace
 vrtql_ws_svr_free|vrtql_ws_svr_free
 vrtql_ws_svr_new|vrtql_ws_svr_new
 vrtql_base64_decode|vrtql_base64_decode

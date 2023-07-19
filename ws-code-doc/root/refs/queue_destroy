@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/server.c' l='588' type='void queue_destroy(vrtql_svr_queue * queue)'/>
-<use f='codebrowser/src/server.c' l='1166' u='c' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1167' u='c' c='svr_shutdown'/>
-<def f='codebrowser/src/server.c' l='1304' ll='1316' type='void queue_destroy(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='1159' u='c' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1160' u='c' c='svr_shutdown'/>
+<def f='codebrowser/src/server.c' l='1296' ll='1308' type='void queue_destroy(vrtql_svr_queue * queue)'/>
 <doc f='codebrowser/src/server.c' l='578'>/**
  * @brief Destroys a server queue.
  *

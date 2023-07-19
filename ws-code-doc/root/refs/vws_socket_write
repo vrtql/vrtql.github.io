@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='179' type='ssize_t vws_socket_write(vws_socket * s, ucstr data, size_t size)'/>
-<doc f='codebrowser/src/socket.h' l='169'>/**
+<dec f='codebrowser/src/socket.h' l='180' type='ssize_t vws_socket_write(vws_socket * s, ucstr data, size_t size)'/>
+<doc f='codebrowser/src/socket.h' l='170'>/**
  * @brief Writes data from a buffer to a socket
  *
  * @param c The vws_cnx representing the socket

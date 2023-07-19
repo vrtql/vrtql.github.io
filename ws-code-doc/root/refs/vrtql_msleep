@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='355' type='void vrtql_msleep(unsigned int ms)'/>
-<doc f='codebrowser/src/vrtql.h' l='342'>/**
+<dec f='codebrowser/src/vrtql.h' l='370' type='void vrtql_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vrtql.h' l='357'>/**
  * @brief Sleeps for the specified number of milliseconds.
  *
  * This function provides a platform-independent way to sleep for a specific

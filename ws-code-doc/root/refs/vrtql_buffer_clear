@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/vrtql.h' l='198' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
+<dec f='codebrowser/src/vrtql.h' l='213' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
 <use f='codebrowser/src/http_request.c' l='186' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_request.c' l='187' u='c' c='on_header_field'/>
-<doc f='codebrowser/src/vrtql.h' l='193'>/**
+<doc f='codebrowser/src/vrtql.h' l='208'>/**
  * @brief Clears a vrtql buffer.
  *
  * @param buffer The buffer to be cleared

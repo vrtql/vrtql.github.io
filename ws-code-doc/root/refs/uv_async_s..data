@@ -1,2 +1,2 @@
-<use f='codebrowser/src/server.c' l='673' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='942' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='676' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='935' u='w' c='svr_ctor'/>

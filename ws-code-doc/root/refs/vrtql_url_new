@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='329' type='vrtql_url vrtql_url_new()'/>
-<doc f='codebrowser/src/vrtql.h' l='324'>/**
+<dec f='codebrowser/src/vrtql.h' l='344' type='vrtql_url vrtql_url_new()'/>
+<doc f='codebrowser/src/vrtql.h' l='339'>/**
  * @brief Allocates a vrtql_url structure.
  *
  * @return Returns a new vrtql_url structure

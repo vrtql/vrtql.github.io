@@ -1,9 +1,9 @@
-<use f='codebrowser/src/server.h' l='131'/>
-<def f='codebrowser/src/server.h' l='196' ll='243'/>
-<use f='codebrowser/src/server.h' l='196'/>
-<use f='codebrowser/src/server.h' l='367'/>
-<size>392</size>
-<doc f='codebrowser/src/server.h' l='192'>/**
+<use f='codebrowser/src/server.h' l='128'/>
+<def f='codebrowser/src/server.h' l='193' ll='237'/>
+<use f='codebrowser/src/server.h' l='193'/>
+<use f='codebrowser/src/server.h' l='352'/>
+<size>368</size>
+<doc f='codebrowser/src/server.h' l='189'>/**
  * @brief Struct representing a basic server. It does not do anything but
  * process raw data. It does not have any knowledge of WebSockets.
  */</doc>
@@ -11,14 +11,13 @@
 <mbr r='vrtql_svr::wakeup' o='64' t='uv_async_t *'/>
 <mbr r='vrtql_svr::loop' o='128' t='uv_loop_t *'/>
 <mbr r='vrtql_svr::requests' o='192' t='vrtql_svr_queue'/>
-<mbr r='vrtql_svr::responses' o='1280' t='vrtql_svr_queue'/>
-<mbr r='vrtql_svr::backlog' o='2368' t='int'/>
-<mbr r='vrtql_svr::pool_size' o='2400' t='int'/>
-<mbr r='vrtql_svr::threads' o='2432' t='uv_thread_t *'/>
-<mbr r='vrtql_svr::cnxs' o='2496' t='vrtql_svr_cnx_map'/>
-<mbr r='vrtql_svr::on_connect' o='2752' t='vrtql_svr_connect'/>
-<mbr r='vrtql_svr::on_disconnect' o='2816' t='vrtql_svr_disconnect'/>
-<mbr r='vrtql_svr::on_read' o='2880' t='vrtql_svr_read'/>
-<mbr r='vrtql_svr::on_data_in' o='2944' t='vrtql_svr_process_data'/>
-<mbr r='vrtql_svr::on_data_out' o='3008' t='vrtql_svr_process_data'/>
-<mbr r='vrtql_svr::trace' o='3072' t='uint8_t'/>
+<mbr r='vrtql_svr::responses' o='1216' t='vrtql_svr_queue'/>
+<mbr r='vrtql_svr::backlog' o='2240' t='int'/>
+<mbr r='vrtql_svr::pool_size' o='2272' t='int'/>
+<mbr r='vrtql_svr::threads' o='2304' t='uv_thread_t *'/>
+<mbr r='vrtql_svr::cnxs' o='2368' t='vrtql_svr_cnx_map'/>
+<mbr r='vrtql_svr::on_connect' o='2624' t='vrtql_svr_connect'/>
+<mbr r='vrtql_svr::on_disconnect' o='2688' t='vrtql_svr_disconnect'/>
+<mbr r='vrtql_svr::on_read' o='2752' t='vrtql_svr_read'/>
+<mbr r='vrtql_svr::on_data_in' o='2816' t='vrtql_svr_process_data'/>
+<mbr r='vrtql_svr::on_data_out' o='2880' t='vrtql_svr_process_data'/>

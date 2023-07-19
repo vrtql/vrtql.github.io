@@ -1,12 +1,11 @@
-<dec f='codebrowser/src/server.h' l='208' type='vrtql_svr_queue'/>
-<use f='codebrowser/src/server.c' l='645' u='a' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='873' u='m' c='vrtql_svr_trace'/>
-<use f='codebrowser/src/server.c' l='881' u='m' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='890' u='m' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='891' u='m' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='892' u='m' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='938' u='a' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1042' u='a' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1166' u='a' c='svr_shutdown'/>
+<dec f='codebrowser/src/server.h' l='205' type='vrtql_svr_queue'/>
+<use f='codebrowser/src/server.c' l='648' u='a' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='875' u='m' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='884' u='m' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='885' u='m' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='886' u='m' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='931' u='a' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1035' u='a' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1159' u='a' c='svr_shutdown'/>
 <offset>192</offset>
-<doc f='codebrowser/src/server.h' l='207'>/**&lt; Request queue */</doc>
+<doc f='codebrowser/src/server.h' l='204'>/**&lt; Request queue */</doc>

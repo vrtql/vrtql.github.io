@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='301' type='char *'/>
+<dec f='codebrowser/src/vrtql.h' l='316' type='char *'/>
 <offset>64</offset>
-<doc f='codebrowser/src/vrtql.h' l='301'>/**&lt; The host name or IP address        */</doc>
+<doc f='codebrowser/src/vrtql.h' l='316'>/**&lt; The host name or IP address        */</doc>
 <use f='codebrowser/src/vrtql.c' l='854' u='w' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='856' u='r' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='864' u='r' c='vrtql_url_parse'/>

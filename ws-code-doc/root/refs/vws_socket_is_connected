@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/socket.h' l='146' type='_Bool vws_socket_is_connected(vws_socket * s)'/>
+<dec f='codebrowser/src/socket.h' l='147' type='_Bool vws_socket_is_connected(vws_socket * s)'/>
 <def f='codebrowser/src/socket.c' l='228' ll='236' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
 <use f='codebrowser/src/socket.c' l='337' u='c' c='vws_socket_disconnect'/>
 <use f='codebrowser/src/socket.c' l='431' u='c' c='vws_socket_write'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='407' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>
-<doc f='codebrowser/src/vrtql.h' l='400'>/**
+<dec f='codebrowser/src/vrtql.h' l='422' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>
+<doc f='codebrowser/src/vrtql.h' l='415'>/**
  * @brief Decodes a Base64-encoded string.
  *
  * @param data The Base64 string to decode

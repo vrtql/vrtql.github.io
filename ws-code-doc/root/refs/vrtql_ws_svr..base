@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='367' type='struct vrtql_svr'/>
-<use f='codebrowser/src/server.c' l='1685' u='m' c='ws_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1686' u='m' c='ws_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1687' u='m' c='ws_svr_ctor'/>
+<dec f='codebrowser/src/server.h' l='352' type='struct vrtql_svr'/>
+<use f='codebrowser/src/server.c' l='1677' u='m' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1678' u='m' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1679' u='m' c='ws_svr_ctor'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='366'>/**&lt; Base class */</doc>
+<doc f='codebrowser/src/server.h' l='351'>/**&lt; Base class */</doc>

@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='340' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
-<def f='codebrowser/src/server.c' l='754' ll='757' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
-<doc f='codebrowser/src/server.h' l='334'>/**
+<dec f='codebrowser/src/server.h' l='325' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
+<def f='codebrowser/src/server.c' l='757' ll='760' type='uint8_t vrtql_svr_state(vrtql_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='319'>/**
  * @brief Returns the server operational state.
  *
  * @param server The server to check.
