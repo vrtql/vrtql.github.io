@@ -1,0 +1,8 @@
+<def f='codebrowser/src/websocket.h' l='167' ll='174'/>
+<use f='codebrowser/src/websocket.h' l='167'/>
+<size>16</size>
+<doc f='codebrowser/src/websocket.h' l='164'>/**
+ * @brief Represents a websocket message, which contains opcode and data.
+ */</doc>
+<mbr r='vws_msg::opcode' o='0' t='unsigned char'/>
+<mbr r='vws_msg::data' o='64' t='vrtql_buffer *'/>

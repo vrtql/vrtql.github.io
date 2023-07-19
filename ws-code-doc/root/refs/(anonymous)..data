@@ -1,25 +1,8 @@
-<dec f='codebrowser/src/websocket.h' l='173' type='vrtql_buffer *'/>
-<use f='codebrowser/src/message.c' l='452' u='r' c='vrtql_msg_receive'/>
-<use f='codebrowser/src/message.c' l='453' u='r' c='vrtql_msg_receive'/>
-<offset>64</offset>
-<doc f='codebrowser/src/websocket.h' l='172'>/**&lt; The payload data for the message. */</doc>
 <dec f='codebrowser/src/server.h' l='78' type='char *'/>
 <use f='codebrowser/src/server.c' l='733' u='w' c='vrtql_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='743' u='r' c='vrtql_svr_data_free'/>
 <use f='codebrowser/src/server.c' l='1062' u='r' c='svr_client_data_out'/>
 <use f='codebrowser/src/server.c' l='1497' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1676' u='r' c='ws_svr_client_msg_out'/>
-<use f='codebrowser/src/server.c' l='1745' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1746' u='r' c='msg_svr_client_ws_msg_in'/>
 <offset>128</offset>
 <doc f='codebrowser/src/server.h' l='77'>/**&lt; The data */</doc>
 <use f='codebrowser/src/test/test_server.c' l='20' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_data_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_data_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='549' u='w' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='558' u='r' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='1181' u='r' c='vws_pop_message'/>

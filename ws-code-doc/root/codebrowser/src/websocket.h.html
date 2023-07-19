@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>websocket.h source code [codebrowser/src/websocket.h] - Woboq Code Browser</title>
-<meta name="woboq:interestingDefinitions" content="vws_cnx,vws_frame "/>
+<meta name="woboq:interestingDefinitions" content="vws_cnx,vws_frame,vws_msg "/>
 <link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
 <link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
 <script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
@@ -178,13 +178,13 @@
 <tr><th id="164">164</th><td><i class="doc">/**</i></td></tr>
 <tr><th id="165">165</th><td><i class="doc"> * <span class="command">@brief</span> Represents a websocket message, which contains opcode and data.</i></td></tr>
 <tr><th id="166">166</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="167">167</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="167">167</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vws_msg" title='vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg"><a class="type" href="#vws_msg" title='vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a></dfn></td></tr>
 <tr><th id="168">168</th><td>{</td></tr>
 <tr><th id="169">169</th><td>    <i class="doc">/**&lt; Defines the interpretation of the payload data. */</i></td></tr>
-<tr><th id="170">170</th><td>    <em>unsigned</em> <em>char</em> <dfn class="decl field" id="(anonymous)::opcode" title='(anonymous struct)::opcode' data-ref="(anonymous)::opcode" data-ref-filename="(anonymous)..opcode">opcode</dfn>;</td></tr>
+<tr><th id="170">170</th><td>    <em>unsigned</em> <em>char</em> <dfn class="decl field" id="vws_msg::opcode" title='vws_msg::opcode' data-ref="vws_msg::opcode" data-ref-filename="vws_msg..opcode">opcode</dfn>;</td></tr>
 <tr><th id="171">171</th><td></td></tr>
 <tr><th id="172">172</th><td>    <i class="doc">/**&lt; The payload data for the message. */</i></td></tr>
-<tr><th id="173">173</th><td>    <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="decl field" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data" data-ref-filename="(anonymous)..data">data</dfn>;</td></tr>
+<tr><th id="173">173</th><td>    <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="decl field" id="vws_msg::data" title='vws_msg::data' data-ref="vws_msg::data" data-ref-filename="vws_msg..data">data</dfn>;</td></tr>
 <tr><th id="174">174</th><td>} <dfn class="typedef" id="vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</dfn>;</td></tr>
 <tr><th id="175">175</th><td></td></tr>
 <tr><th id="176">176</th><td><i class="doc">/**</i></td></tr>
@@ -383,6 +383,6 @@
 <tr><th id="369">369</th><td><u>#<span data-ppcond="1">endif</span> /* VRTQL_WEBSOCKET_DECLARE */</u></td></tr>
 <tr><th id="370">370</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-18</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-19</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>
