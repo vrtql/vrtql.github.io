@@ -586,7 +586,7 @@
 <tr><th id="573">573</th><td></td></tr>
 <tr><th id="574">574</th><td>    <b>while</b> (<span class="macro" title="1" data-ref="_M/true">true</span>)</td></tr>
 <tr><th id="575">575</th><td>    {</td></tr>
-<tr><th id="576">576</th><td>        <a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="local col8 decl" id="48msg" title='msg' data-type='vws_msg *' data-ref="48msg" data-ref-filename="48msg">msg</dfn> = <a class="ref fn" href="#vws_pop_message" title='vws_pop_message' data-ref="vws_pop_message" data-ref-filename="vws_pop_message">vws_pop_message</a>(<a class="local col7 ref" href="#47c" title='c' data-ref="47c" data-ref-filename="47c">c</a>);</td></tr>
+<tr><th id="576">576</th><td>        <a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="local col8 decl" id="48msg" title='msg' data-type='vws_msg *' data-ref="48msg" data-ref-filename="48msg">msg</dfn> = <a class="ref fn" href="#vws_msg_pop" title='vws_msg_pop' data-ref="vws_msg_pop" data-ref-filename="vws_msg_pop">vws_msg_pop</a>(<a class="local col7 ref" href="#47c" title='c' data-ref="47c" data-ref-filename="47c">c</a>);</td></tr>
 <tr><th id="577">577</th><td></td></tr>
 <tr><th id="578">578</th><td>        <b>if</b> (<a class="local col8 ref" href="#48msg" title='msg' data-ref="48msg" data-ref-filename="48msg">msg</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="579">579</th><td>        {</td></tr>
@@ -1074,7 +1074,7 @@
 <tr><th id="1061">1061</th><td>            <b>return</b> <var>0</var>;</td></tr>
 <tr><th id="1062">1062</th><td>        }</td></tr>
 <tr><th id="1063">1063</th><td></td></tr>
-<tr><th id="1064">1064</th><td>        <b>if</b> (<a class="ref fn" href="#vws_socket_ingress" title='vws_socket_ingress' data-ref="vws_socket_ingress" data-ref-filename="vws_socket_ingress">vws_socket_ingress</a>(<a class="local col9 ref" href="#99c" title='c' data-ref="99c" data-ref-filename="99c">c</a>) &gt; <var>0</var>)</td></tr>
+<tr><th id="1064">1064</th><td>        <b>if</b> (<a class="ref fn" href="#vws_cnx_ingress" title='vws_cnx_ingress' data-ref="vws_cnx_ingress" data-ref-filename="vws_cnx_ingress">vws_cnx_ingress</a>(<a class="local col9 ref" href="#99c" title='c' data-ref="99c" data-ref-filename="99c">c</a>) &gt; <var>0</var>)</td></tr>
 <tr><th id="1065">1065</th><td>        {</td></tr>
 <tr><th id="1066">1066</th><td>            <b>break</b>;</td></tr>
 <tr><th id="1067">1067</th><td>        }</td></tr>
@@ -1083,7 +1083,7 @@
 <tr><th id="1070">1070</th><td>    <b>return</b> <a class="local col0 ref" href="#100n" title='n' data-ref="100n" data-ref-filename="100n">n</a>;</td></tr>
 <tr><th id="1071">1071</th><td>}</td></tr>
 <tr><th id="1072">1072</th><td></td></tr>
-<tr><th id="1073">1073</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl def fn" id="vws_socket_ingress" title='vws_socket_ingress' data-ref="vws_socket_ingress" data-ref-filename="vws_socket_ingress">vws_socket_ingress</dfn>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col2 decl" id="102c" title='c' data-type='vws_cnx *' data-ref="102c" data-ref-filename="102c">c</dfn>)</td></tr>
+<tr><th id="1073">1073</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl def fn" id="vws_cnx_ingress" title='vws_cnx_ingress' data-ref="vws_cnx_ingress" data-ref-filename="vws_cnx_ingress">vws_cnx_ingress</dfn>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col2 decl" id="102c" title='c' data-type='vws_cnx *' data-ref="102c" data-ref-filename="102c">c</dfn>)</td></tr>
 <tr><th id="1074">1074</th><td>{</td></tr>
 <tr><th id="1075">1075</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="103total_consumed" title='total_consumed' data-type='size_t' data-ref="103total_consumed" data-ref-filename="103total_consumed">total_consumed</dfn> = <var>0</var>;</td></tr>
 <tr><th id="1076">1076</th><td></td></tr>
@@ -1166,7 +1166,7 @@
 <tr><th id="1153">1153</th><td>    <b>return</b> <a class="ref fn" href="#vws_serialize" title='vws_serialize' data-ref="vws_serialize" data-ref-filename="vws_serialize">vws_serialize</a>(<a class="local col3 ref" href="#113f" title='f' data-ref="113f" data-ref-filename="113f">f</a>);</td></tr>
 <tr><th id="1154">1154</th><td>}</td></tr>
 <tr><th id="1155">1155</th><td></td></tr>
-<tr><th id="1156">1156</th><td><a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl def fn" id="vws_pop_message" title='vws_pop_message' data-ref="vws_pop_message" data-ref-filename="vws_pop_message">vws_pop_message</dfn>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="114c" title='c' data-type='vws_cnx *' data-ref="114c" data-ref-filename="114c">c</dfn>)</td></tr>
+<tr><th id="1156">1156</th><td><a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl def fn" id="vws_msg_pop" title='vws_msg_pop' data-ref="vws_msg_pop" data-ref-filename="vws_msg_pop">vws_msg_pop</dfn>(<a class="typedef" href="websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="114c" title='c' data-type='vws_cnx *' data-ref="114c" data-ref-filename="114c">c</dfn>)</td></tr>
 <tr><th id="1157">1157</th><td>{</td></tr>
 <tr><th id="1158">1158</th><td>    <b>if</b> (<a class="tu ref fn" href="#has_complete_message" title='has_complete_message' data-use='c' data-ref="has_complete_message" data-ref-filename="has_complete_message">has_complete_message</a>(<a class="local col4 ref" href="#114c" title='c' data-ref="114c" data-ref-filename="114c">c</a>) == <span class="macro" title="0" data-ref="_M/false">false</span>)</td></tr>
 <tr><th id="1159">1159</th><td>    {</td></tr>

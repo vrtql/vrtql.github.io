@@ -177,7 +177,7 @@
 <use f='codebrowser/src/websocket.c' l='1036' u='m' c='socket_wait_for_frame'/>
 <use f='codebrowser/src/websocket.c' l='1040' u='m' c='socket_wait_for_frame'/>
 <use f='codebrowser/src/websocket.c' l='1054' u='m' c='socket_wait_for_frame'/>
-<use f='codebrowser/src/websocket.c' l='1091' u='m' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1104' u='m' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1128' u='m' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1091' u='m' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1104' u='m' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1128' u='m' c='vws_cnx_ingress'/>
 <use f='codebrowser/src/websocket.c' l='1136' u='m' c='vws_generate_close_frame'/>

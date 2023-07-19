@@ -18,6 +18,6 @@
 <use f='codebrowser/src/websocket.c' l='926' u='c' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='935' u='c' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='943' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1105' u='c' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1113' u='c' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1187' u='c' c='vws_pop_message'/>
+<use f='codebrowser/src/websocket.c' l='1105' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1113' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1187' u='c' c='vws_msg_pop'/>

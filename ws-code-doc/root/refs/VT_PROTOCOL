@@ -2,4 +2,4 @@
 <use f='codebrowser/src/test/test_example.c' l='19' u='r' c='main'/>
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/websocket.c' l='517' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1091' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1091' u='r' c='vws_cnx_ingress'/>

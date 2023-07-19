@@ -11,6 +11,7 @@ vws_socket_set_timeout|vws_socket_set_timeout
 vws_socket_write|vws_socket_write
 vws_accept_key|vws_accept_key
 vws_cnx_free|vws_cnx_free
+vws_cnx_ingress|vws_cnx_ingress
 vws_cnx_new|vws_cnx_new
 vws_cnx_set_server_mode|vws_cnx_set_server_mode
 vws_connect|vws_connect
@@ -27,8 +28,7 @@ vws_generate_close_frame|vws_generate_close_frame
 vws_generate_pong_frame|vws_generate_pong_frame
 vws_msg_free|vws_msg_free
 vws_msg_new|vws_msg_new
+vws_msg_pop|vws_msg_pop
 vws_msg_recv|vws_msg_recv
-vws_pop_message|vws_pop_message
 vws_recv_frame|vws_recv_frame
 vws_serialize|vws_serialize
-vws_socket_ingress|vws_socket_ingress

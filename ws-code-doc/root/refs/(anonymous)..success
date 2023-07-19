@@ -17,4 +17,4 @@
 <use f='codebrowser/src/websocket.c' l='776' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='947' u='r' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='1036' u='r' c='socket_wait_for_frame'/>
-<use f='codebrowser/src/websocket.c' l='1128' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1128' u='r' c='vws_cnx_ingress'/>

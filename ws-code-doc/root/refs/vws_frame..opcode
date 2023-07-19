@@ -6,4 +6,4 @@
 <use f='codebrowser/src/websocket.c' l='683' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='791' u='w' c='vws_deserialize'/>
 <use f='codebrowser/src/websocket.c' l='886' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1177' u='r' c='vws_pop_message'/>
+<use f='codebrowser/src/websocket.c' l='1177' u='r' c='vws_msg_pop'/>

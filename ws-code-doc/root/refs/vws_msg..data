@@ -14,4 +14,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/websocket.c' l='549' u='w' c='vws_msg_new'/>
 <use f='codebrowser/src/websocket.c' l='558' u='r' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='1181' u='r' c='vws_pop_message'/>
+<use f='codebrowser/src/websocket.c' l='1181' u='r' c='vws_msg_pop'/>

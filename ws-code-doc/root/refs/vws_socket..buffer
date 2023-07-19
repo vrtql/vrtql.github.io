@@ -10,6 +10,6 @@
 <use f='codebrowser/src/socket.c' l='102' u='r' c='vws_socket_dtor'/>
 <use f='codebrowser/src/socket.c' l='423' u='r' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_server.c' l='82' u='r' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/websocket.c' l='1081' u='r' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1088' u='r' c='vws_socket_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1125' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1081' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1088' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1125' u='r' c='vws_cnx_ingress'/>

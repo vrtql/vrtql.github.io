@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='292' type='ssize_t vws_socket_ingress(vws_cnx * c)'/>
+<dec f='codebrowser/src/websocket.h' l='292' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>
 <doc f='codebrowser/src/websocket.h' l='280'>/**
- * @brief Processes incoming data from a WebSocket connection.
+ * @brief Processes incoming data from a Socket.
  *
  * This function parses the data in the socket buffer and attempts to extract
  * complete WebSocket frames. It processes as many frames as possible and
@@ -13,4 +13,4 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1609' u='c' c='ws_svr_client_data_in'/>
 <use f='codebrowser/src/websocket.c' l='1064' u='c' c='socket_wait_for_frame'/>
-<def f='codebrowser/src/websocket.c' l='1073' ll='1131' type='ssize_t vws_socket_ingress(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='1073' ll='1131' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>

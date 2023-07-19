@@ -53,5 +53,5 @@
 <use f='codebrowser/src/websocket.c' l='911' macro='1' u='r' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='911' macro='1' u='w' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='911' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1171' macro='1' u='r' c='vws_pop_message'/>
+<use f='codebrowser/src/websocket.c' l='1171' macro='1' u='r' c='vws_msg_pop'/>
 <use f='codebrowser/src/websocket.c' l='1202' macro='1' u='r' c='has_complete_message'/>

@@ -4,4 +4,4 @@
 <use f='codebrowser/src/websocket.c' l='813' u='r' c='vws_deserialize'/>
 <use f='codebrowser/src/websocket.c' l='834' u='r' c='vws_deserialize'/>
 <use f='codebrowser/src/websocket.c' l='861' u='r' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='1110' u='r' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1110' u='r' c='vws_cnx_ingress'/>

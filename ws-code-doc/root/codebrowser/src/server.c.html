@@ -1619,13 +1619,13 @@
 <tr><th id="1606">1606</th><td></td></tr>
 <tr><th id="1607">1607</th><td>    <i>//&gt; Process connection buffer data for complete messages</i></td></tr>
 <tr><th id="1608">1608</th><td></td></tr>
-<tr><th id="1609">1609</th><td>    <b>if</b> (<a class="ref fn" href="websocket.h.html#vws_socket_ingress" title='vws_socket_ingress' data-ref="vws_socket_ingress" data-ref-filename="vws_socket_ingress">vws_socket_ingress</a>(<a class="local col6 ref" href="#916c" title='c' data-ref="916c" data-ref-filename="916c">c</a>) &gt; <var>0</var>)</td></tr>
+<tr><th id="1609">1609</th><td>    <b>if</b> (<a class="ref fn" href="websocket.h.html#vws_cnx_ingress" title='vws_cnx_ingress' data-ref="vws_cnx_ingress" data-ref-filename="vws_cnx_ingress">vws_cnx_ingress</a>(<a class="local col6 ref" href="#916c" title='c' data-ref="916c" data-ref-filename="916c">c</a>) &gt; <var>0</var>)</td></tr>
 <tr><th id="1610">1610</th><td>    {</td></tr>
 <tr><th id="1611">1611</th><td>        <i>// Process as many messages as possible</i></td></tr>
 <tr><th id="1612">1612</th><td>        <b>while</b> (<span class="macro" title="1" data-ref="_M/true">true</span>)</td></tr>
 <tr><th id="1613">1613</th><td>        {</td></tr>
 <tr><th id="1614">1614</th><td>            <i>// Check for a complete message</i></td></tr>
-<tr><th id="1615">1615</th><td>            <a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="local col7 decl" id="927wsm" title='wsm' data-type='vws_msg *' data-ref="927wsm" data-ref-filename="927wsm">wsm</dfn> = <a class="ref fn" href="websocket.h.html#vws_pop_message" title='vws_pop_message' data-ref="vws_pop_message" data-ref-filename="vws_pop_message">vws_pop_message</a>(<a class="local col6 ref" href="#916c" title='c' data-ref="916c" data-ref-filename="916c">c</a>);</td></tr>
+<tr><th id="1615">1615</th><td>            <a class="typedef" href="websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="local col7 decl" id="927wsm" title='wsm' data-type='vws_msg *' data-ref="927wsm" data-ref-filename="927wsm">wsm</dfn> = <a class="ref fn" href="websocket.h.html#vws_msg_pop" title='vws_msg_pop' data-ref="vws_msg_pop" data-ref-filename="vws_msg_pop">vws_msg_pop</a>(<a class="local col6 ref" href="#916c" title='c' data-ref="916c" data-ref-filename="916c">c</a>);</td></tr>
 <tr><th id="1616">1616</th><td></td></tr>
 <tr><th id="1617">1617</th><td>            <b>if</b> (<a class="local col7 ref" href="#927wsm" title='wsm' data-ref="927wsm" data-ref-filename="927wsm">wsm</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="1618">1618</th><td>            {</td></tr>

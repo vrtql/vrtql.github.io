@@ -84,10 +84,10 @@
 <use f='codebrowser/src/websocket.c' l='911' u='a' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='911' u='a' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='911' u='a' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_pop_message'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_pop_message'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_pop_message'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_pop_message'/>
+<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1171' u='a' c='vws_msg_pop'/>
 <use f='codebrowser/src/websocket.c' l='1202' u='a' c='has_complete_message'/>
 <use f='codebrowser/src/websocket.c' l='1202' u='a' c='has_complete_message'/>
 <use f='codebrowser/src/websocket.c' l='1202' u='a' c='has_complete_message'/>

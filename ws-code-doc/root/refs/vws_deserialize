@@ -14,4 +14,4 @@
  * @ingroup FrameFunctions
  */</doc>
 <def f='codebrowser/src/websocket.c' l='781' ll='878' type='fs_t vws_deserialize(ucstr data, size_t size, vws_frame * f, size_t * consumed)'/>
-<use f='codebrowser/src/websocket.c' l='1100' u='c' c='vws_socket_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1100' u='c' c='vws_cnx_ingress'/>
