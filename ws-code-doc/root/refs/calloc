@@ -34,4 +34,4 @@
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_alloc_sll'/>
 <use f='codebrowser/src/vrtql.c' l='209' u='c' c='vrtql_calloc'/>
 <use f='codebrowser/src/websocket.c' l='289' macro='1' u='c' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='911' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='926' macro='1' u='c' c='process_frame'/>

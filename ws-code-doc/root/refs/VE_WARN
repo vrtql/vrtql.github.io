@@ -8,4 +8,4 @@
 <use f='codebrowser/src/socket.c' l='522' c='vws_socket_close'/>
 <use f='codebrowser/src/vrtql.c' l='87' u='r' c='vrtql_trace'/>
 <use f='codebrowser/src/vrtql.c' l='319' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='1104' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1119' c='vws_cnx_ingress'/>

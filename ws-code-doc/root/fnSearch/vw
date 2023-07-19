@@ -30,5 +30,8 @@ vws_msg_free|vws_msg_free
 vws_msg_new|vws_msg_new
 vws_msg_pop|vws_msg_pop
 vws_msg_recv|vws_msg_recv
+vws_msg_send_binary|vws_msg_send_binary
+vws_msg_send_data|vws_msg_send_data
+vws_msg_send_text|vws_msg_send_text
 vws_recv_frame|vws_recv_frame
 vws_serialize|vws_serialize

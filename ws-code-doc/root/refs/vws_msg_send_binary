@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/websocket.h' l='356' type='int vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
+<doc f='codebrowser/src/websocket.h' l='348'>/**
+ * @brief Sends a BINARY message
+ *
+ * @param c The connection.
+ * @param string The data to send.
+ * @param size The size of the data in bytes.
+ * @return Returns the number of bytes sent.
+ */</doc>
+<use f='codebrowser/src/test/test_example.c' l='46' u='c' c='main'/>
+<def f='codebrowser/src/websocket.c' l='510' ll='513' type='int vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

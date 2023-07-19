@@ -139,11 +139,11 @@
 <use f='codebrowser/src/websocket.c' l='322' u='c' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='447' u='c' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='451' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='559' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='624' u='c' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='630' u='c' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='744' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='911' macro='1' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1019' u='c' c='vws_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1028' u='c' c='verify_handshake'/>
-<use f='codebrowser/src/websocket.c' l='1142' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='574' u='c' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='639' u='c' c='vws_frame_free'/>
+<use f='codebrowser/src/websocket.c' l='645' u='c' c='vws_frame_free'/>
+<use f='codebrowser/src/websocket.c' l='759' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='926' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1034' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1043' u='c' c='verify_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1157' u='c' c='vws_generate_close_frame'/>

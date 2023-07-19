@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='367' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='360'>/**
+<dec f='codebrowser/src/websocket.h' l='397' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='390'>/**
  * @brief Receives a websocket frame from the connection.
  *
  * @param c The connection.

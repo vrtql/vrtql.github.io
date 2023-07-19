@@ -2,8 +2,10 @@
 <def f='codebrowser/src/socket.c' l='235' ll='243' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
 <use f='codebrowser/src/socket.c' l='344' u='c' c='vws_socket_disconnect'/>
 <use f='codebrowser/src/socket.c' l='438' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
+<use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='509' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='524' u='c' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_recv_frame'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='socket_wait_for_frame'/>

@@ -19,56 +19,64 @@
 <tr><th id="5">5</th><td>    <i>// Create connection object</i></td></tr>
 <tr><th id="6">6</th><td>    <a class="typedef" href="../websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col3 decl" id="3cnx" title='cnx' data-type='vws_cnx *' data-ref="3cnx" data-ref-filename="3cnx">cnx</dfn> = <a class="ref fn" href="../websocket.h.html#vws_cnx_new" title='vws_cnx_new' data-ref="vws_cnx_new" data-ref-filename="vws_cnx_new">vws_cnx_new</a>();</td></tr>
 <tr><th id="7">7</th><td></td></tr>
-<tr><th id="8">8</th><td>    <i>// Connect. This will automatically use SSL if "wss" scheme is used.</i></td></tr>
-<tr><th id="9">9</th><td>    <a class="typedef" href="../vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="4uri" title='uri' data-type='cstr' data-ref="4uri" data-ref-filename="4uri">uri</dfn> = <q>"ws://localhost:8181/websocket"</q>;</td></tr>
-<tr><th id="10">10</th><td>    <b>if</b> (<a class="ref fn" href="../websocket.h.html#vws_connect" title='vws_connect' data-ref="vws_connect" data-ref-filename="vws_connect">vws_connect</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <a class="local col4 ref" href="#4uri" title='uri' data-ref="4uri" data-ref-filename="4uri">uri</a>) == <span class="macro" title="0" data-ref="_M/false">false</span>)</td></tr>
-<tr><th id="11">11</th><td>    {</td></tr>
-<tr><th id="12">12</th><td>        <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"Failed to connect to the WebSocket server\n"</q>);</td></tr>
-<tr><th id="13">13</th><td>        <a class="ref fn" href="../websocket.h.html#vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
-<tr><th id="14">14</th><td>        <b>return</b> <var>1</var>;</td></tr>
-<tr><th id="15">15</th><td>    }</td></tr>
-<tr><th id="16">16</th><td></td></tr>
-<tr><th id="17">17</th><td>    <i>// Enable tracing. This will dump frames to the console in human-readable</i></td></tr>
-<tr><th id="18">18</th><td><i>    // format as they are sent and received.</i></td></tr>
-<tr><th id="19">19</th><td>    <a class="ref" href="../vrtql.h.html#vrtql" title='vrtql' data-ref="vrtql" data-ref-filename="vrtql">vrtql</a>.<a class="ref field" href="../vrtql.h.html#(anonymous)::trace" title='(anonymous struct)::trace' data-ref="(anonymous)::trace" data-ref-filename="(anonymous)..trace">trace</a> = <a class="enum" href="../vrtql.h.html#VT_PROTOCOL" title='VT_PROTOCOL' data-ref="VT_PROTOCOL" data-ref-filename="VT_PROTOCOL">VT_PROTOCOL</a>;</td></tr>
+<tr><th id="8">8</th><td>    <i>// Set connection timeout to 2 seconds (the default is 10). This applies</i></td></tr>
+<tr><th id="9">9</th><td><i>    // both to connect() and to read operations (i.e. poll()).</i></td></tr>
+<tr><th id="10">10</th><td>    <a class="ref fn" href="../socket.h.html#vws_socket_set_timeout" title='vws_socket_set_timeout' data-ref="vws_socket_set_timeout" data-ref-filename="vws_socket_set_timeout">vws_socket_set_timeout</a>((<a class="typedef" href="../socket.h.html#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>*)<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <var>2</var>);</td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td>    <i>// Connect. This will automatically use SSL if "wss" scheme is used.</i></td></tr>
+<tr><th id="13">13</th><td>    <a class="typedef" href="../vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="4uri" title='uri' data-type='cstr' data-ref="4uri" data-ref-filename="4uri">uri</dfn> = <q>"ws://localhost:8181/websocket"</q>;</td></tr>
+<tr><th id="14">14</th><td>    <b>if</b> (<a class="ref fn" href="../websocket.h.html#vws_connect" title='vws_connect' data-ref="vws_connect" data-ref-filename="vws_connect">vws_connect</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <a class="local col4 ref" href="#4uri" title='uri' data-ref="4uri" data-ref-filename="4uri">uri</a>) == <span class="macro" title="0" data-ref="_M/false">false</span>)</td></tr>
+<tr><th id="15">15</th><td>    {</td></tr>
+<tr><th id="16">16</th><td>        <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"Failed to connect to the WebSocket server\n"</q>);</td></tr>
+<tr><th id="17">17</th><td>        <a class="ref fn" href="../websocket.h.html#vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
+<tr><th id="18">18</th><td>        <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="19">19</th><td>    }</td></tr>
 <tr><th id="20">20</th><td></td></tr>
-<tr><th id="21">21</th><td>  <i>// Create</i></td></tr>
-<tr><th id="22">22</th><td>    <a class="typedef" href="../message.h.html#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col5 decl" id="5request" title='request' data-type='vrtql_msg *' data-ref="5request" data-ref-filename="5request">request</dfn> = <a class="ref fn" href="../message.h.html#vrtql_msg_new" title='vrtql_msg_new' data-ref="vrtql_msg_new" data-ref-filename="vrtql_msg_new">vrtql_msg_new</a>();</td></tr>
-<tr><th id="23">23</th><td></td></tr>
-<tr><th id="24">24</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_routing" title='vrtql_msg_set_routing' data-ref="vrtql_msg_set_routing" data-ref-filename="vrtql_msg_set_routing">vrtql_msg_set_routing</a>(<a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>, <q>"key"</q>, <q>"value"</q>);</td></tr>
-<tr><th id="25">25</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>, <q>"key"</q>, <q>"value"</q>);</td></tr>
-<tr><th id="26">26</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_content" title='vrtql_msg_set_content' data-ref="vrtql_msg_set_content" data-ref-filename="vrtql_msg_set_content">vrtql_msg_set_content</a>(<a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>, <q>"payload"</q>);</td></tr>
-<tr><th id="27">27</th><td></td></tr>
-<tr><th id="28">28</th><td>    <i>// Send</i></td></tr>
-<tr><th id="29">29</th><td>    <b>if</b> (<a class="ref fn" href="../message.h.html#vrtql_msg_send" title='vrtql_msg_send' data-ref="vrtql_msg_send" data-ref-filename="vrtql_msg_send">vrtql_msg_send</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>) &lt; <var>0</var>)</td></tr>
-<tr><th id="30">30</th><td>    {</td></tr>
-<tr><th id="31">31</th><td>        <a class="ref fn" href="../../../include/stdio.h.html#printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</a>(<q>"Failed to send: %s\n"</q>, <a class="ref" href="../vrtql.h.html#vrtql" title='vrtql' data-ref="vrtql" data-ref-filename="vrtql">vrtql</a>.<a class="ref field" href="../vrtql.h.html#(anonymous)::e" title='(anonymous struct)::e' data-ref="(anonymous)::e" data-ref-filename="(anonymous)..e">e</a>.<a class="ref field" href="../vrtql.h.html#(anonymous)::text" title='(anonymous struct)::text' data-ref="(anonymous)::text" data-ref-filename="(anonymous)..text">text</a>);</td></tr>
-<tr><th id="32">32</th><td>        <a class="ref fn" href="../message.h.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free">vrtql_msg_free</a>(<a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>);</td></tr>
-<tr><th id="33">33</th><td>        <a class="ref fn" href="../websocket.h.html#vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
-<tr><th id="34">34</th><td>        <b>return</b> <var>1</var>;</td></tr>
-<tr><th id="35">35</th><td>    }</td></tr>
-<tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td>    <i>// Receive</i></td></tr>
-<tr><th id="38">38</th><td>    <a class="typedef" href="../message.h.html#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col6 decl" id="6reply" title='reply' data-type='vrtql_msg *' data-ref="6reply" data-ref-filename="6reply">reply</dfn> = <a class="ref fn" href="../message.h.html#vrtql_msg_recv" title='vrtql_msg_recv' data-ref="vrtql_msg_recv" data-ref-filename="vrtql_msg_recv">vrtql_msg_recv</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
-<tr><th id="39">39</th><td></td></tr>
-<tr><th id="40">40</th><td>    <b>if</b> (<a class="local col6 ref" href="#6reply" title='reply' data-ref="6reply" data-ref-filename="6reply">reply</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
-<tr><th id="41">41</th><td>    {</td></tr>
-<tr><th id="42">42</th><td>        <i>// There was no message received and it resulted in timeout</i></td></tr>
+<tr><th id="21">21</th><td>    <i>// Can check connection state this way. Should always be true here as we</i></td></tr>
+<tr><th id="22">22</th><td><i>    // just successfully connected.</i></td></tr>
+<tr><th id="23">23</th><td>    <a class="macro" href="../../../include/assert.h.html#107" title="((void) sizeof ((vws_socket_is_connected((vws_socket*)cnx) == 1) ? 1 : 0), __extension__ ({ if (vws_socket_is_connected((vws_socket*)cnx) == 1) ; else __assert_fail (&quot;vws_socket_is_connected((vws_socket*)cnx) == true&quot;, &quot;/var/data/dev/source/active/vrtql/client/src/test/test_example.c&quot;, 23, __extension__ __PRETTY_FUNCTION__); }))" data-ref="_M/assert">assert</a>(<a class="ref fn" href="../socket.h.html#vws_socket_is_connected" title='vws_socket_is_connected' data-ref="vws_socket_is_connected" data-ref-filename="vws_socket_is_connected">vws_socket_is_connected</a>((<a class="typedef" href="../socket.h.html#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>*)<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>) == <span class="macro" title="1" data-ref="_M/true">true</span>);</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td>    <i>// Enable tracing. This will dump frames to the console in human-readable</i></td></tr>
+<tr><th id="26">26</th><td><i>    // format as they are sent and received.</i></td></tr>
+<tr><th id="27">27</th><td>    <a class="ref" href="../vrtql.h.html#vrtql" title='vrtql' data-ref="vrtql" data-ref-filename="vrtql">vrtql</a>.<a class="ref field" href="../vrtql.h.html#(anonymous)::trace" title='(anonymous struct)::trace' data-ref="(anonymous)::trace" data-ref-filename="(anonymous)..trace">trace</a> = <a class="enum" href="../vrtql.h.html#VT_PROTOCOL" title='VT_PROTOCOL' data-ref="VT_PROTOCOL" data-ref-filename="VT_PROTOCOL">VT_PROTOCOL</a>;</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td>    <i>// Send a TEXT frame</i></td></tr>
+<tr><th id="30">30</th><td>    <a class="ref fn" href="../websocket.h.html#vws_frame_send_text" title='vws_frame_send_text' data-ref="vws_frame_send_text" data-ref-filename="vws_frame_send_text">vws_frame_send_text</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <q>"Hello, world!"</q>);</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td>    <i>// Receive websocket message</i></td></tr>
+<tr><th id="33">33</th><td>    <a class="typedef" href="../websocket.h.html#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="local col5 decl" id="5reply" title='reply' data-type='vws_msg *' data-ref="5reply" data-ref-filename="5reply">reply</dfn> = <a class="ref fn" href="../websocket.h.html#vws_msg_recv" title='vws_msg_recv' data-ref="vws_msg_recv" data-ref-filename="vws_msg_recv">vws_msg_recv</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td>    <b>if</b> (<a class="local col5 ref" href="#5reply" title='reply' data-ref="5reply" data-ref-filename="5reply">reply</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="36">36</th><td>    {</td></tr>
+<tr><th id="37">37</th><td>        <i>// There was no message received and it resulted in timeout</i></td></tr>
+<tr><th id="38">38</th><td>    }</td></tr>
+<tr><th id="39">39</th><td>    <b>else</b></td></tr>
+<tr><th id="40">40</th><td>    {</td></tr>
+<tr><th id="41">41</th><td>        <i>// Free message</i></td></tr>
+<tr><th id="42">42</th><td>        <a class="ref fn" href="../websocket.h.html#vws_msg_free" title='vws_msg_free' data-ref="vws_msg_free" data-ref-filename="vws_msg_free">vws_msg_free</a>(<a class="local col5 ref" href="#5reply" title='reply' data-ref="5reply" data-ref-filename="5reply">reply</a>);</td></tr>
 <tr><th id="43">43</th><td>    }</td></tr>
-<tr><th id="44">44</th><td>    <b>else</b></td></tr>
-<tr><th id="45">45</th><td>    {</td></tr>
-<tr><th id="46">46</th><td>        <i>// Free message</i></td></tr>
-<tr><th id="47">47</th><td>        <a class="ref fn" href="../message.h.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free">vrtql_msg_free</a>(<a class="local col6 ref" href="#6reply" title='reply' data-ref="6reply" data-ref-filename="6reply">reply</a>);</td></tr>
-<tr><th id="48">48</th><td>    }</td></tr>
-<tr><th id="49">49</th><td></td></tr>
-<tr><th id="50">50</th><td>    <i>// Cleanup</i></td></tr>
-<tr><th id="51">51</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free">vrtql_msg_free</a>(<a class="local col5 ref" href="#5request" title='request' data-ref="5request" data-ref-filename="5request">request</a>);</td></tr>
-<tr><th id="52">52</th><td></td></tr>
-<tr><th id="53">53</th><td>    <a class="ref fn" href="../websocket.h.html#vws_disconnect" title='vws_disconnect' data-ref="vws_disconnect" data-ref-filename="vws_disconnect">vws_disconnect</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
-<tr><th id="54">54</th><td></td></tr>
-<tr><th id="55">55</th><td>    <b>return</b> <var>0</var>;</td></tr>
-<tr><th id="56">56</th><td>}</td></tr>
-<tr><th id="57">57</th><td></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>    <i>// Send a BINARY message</i></td></tr>
+<tr><th id="46">46</th><td>    <a class="ref fn" href="../websocket.h.html#vws_msg_send_binary" title='vws_msg_send_binary' data-ref="vws_msg_send_binary" data-ref-filename="vws_msg_send_binary">vws_msg_send_binary</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>, <span class='error' title="passing &apos;char [14]&apos; to parameter of type &apos;ucstr&apos; (aka &apos;const unsigned char *&apos;) converts between pointers to integer types with different sign"><q>"Hello, world!"</q></span>, <var>14</var>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td>    <i>// Receive websocket message</i></td></tr>
+<tr><th id="49">49</th><td>    <a class="local col5 ref" href="#5reply" title='reply' data-ref="5reply" data-ref-filename="5reply">reply</a> = <a class="ref fn" href="../websocket.h.html#vws_msg_recv" title='vws_msg_recv' data-ref="vws_msg_recv" data-ref-filename="vws_msg_recv">vws_msg_recv</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td>    <b>if</b> (<a class="local col5 ref" href="#5reply" title='reply' data-ref="5reply" data-ref-filename="5reply">reply</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="52">52</th><td>    {</td></tr>
+<tr><th id="53">53</th><td>        <i>// There was no message received and it resulted in timeout</i></td></tr>
+<tr><th id="54">54</th><td>    }</td></tr>
+<tr><th id="55">55</th><td>    <b>else</b></td></tr>
+<tr><th id="56">56</th><td>    {</td></tr>
+<tr><th id="57">57</th><td>        <i>// Free message</i></td></tr>
+<tr><th id="58">58</th><td>        <a class="ref fn" href="../websocket.h.html#vws_msg_free" title='vws_msg_free' data-ref="vws_msg_free" data-ref-filename="vws_msg_free">vws_msg_free</a>(<a class="local col5 ref" href="#5reply" title='reply' data-ref="5reply" data-ref-filename="5reply">reply</a>);</td></tr>
+<tr><th id="59">59</th><td>    }</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td>    <a class="ref fn" href="../websocket.h.html#vws_disconnect" title='vws_disconnect' data-ref="vws_disconnect" data-ref-filename="vws_disconnect">vws_disconnect</a>(<a class="local col3 ref" href="#3cnx" title='cnx' data-ref="3cnx" data-ref-filename="3cnx">cnx</a>);</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="64">64</th><td>}</td></tr>
+<tr><th id="65">65</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2023-Jul-19</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

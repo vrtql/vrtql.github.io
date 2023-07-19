@@ -9,7 +9,7 @@
  * @ingroup FrameFunctions
  */</doc>
 <use f='codebrowser/src/server.c' l='1642' u='c' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/websocket.c' l='515' u='c' c='vws_frame_send'/>
-<def f='codebrowser/src/websocket.c' l='661' ll='779' type='vrtql_buffer * vws_serialize(vws_frame * f)'/>
-<use f='codebrowser/src/websocket.c' l='1144' u='c' c='vws_generate_close_frame'/>
-<use f='codebrowser/src/websocket.c' l='1153' u='c' c='vws_generate_pong_frame'/>
+<use f='codebrowser/src/websocket.c' l='530' u='c' c='vws_frame_send'/>
+<def f='codebrowser/src/websocket.c' l='676' ll='794' type='vrtql_buffer * vws_serialize(vws_frame * f)'/>
+<use f='codebrowser/src/websocket.c' l='1159' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1168' u='c' c='vws_generate_pong_frame'/>

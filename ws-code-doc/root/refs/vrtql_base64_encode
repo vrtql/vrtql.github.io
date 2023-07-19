@@ -12,5 +12,5 @@
 <doc f='codebrowser/src/vrtql.c' l='617'>//------------------------------------------------------------------------------
 // Base 64
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='960' u='c' c='generate_websocket_key'/>
-<use f='codebrowser/src/websocket.c' l='1017' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='975' u='c' c='generate_websocket_key'/>
+<use f='codebrowser/src/websocket.c' l='1032' u='c' c='vws_accept_key'/>

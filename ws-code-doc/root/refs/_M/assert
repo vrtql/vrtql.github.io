@@ -26,6 +26,7 @@
    support function pointers and bit fields in this context, and to
    suppress the evaluation of variable length arrays.  */</doc>
 <dec f='codebrowser/src/test/util/mongoose.h' l='1024'/>
+<use f='codebrowser/src/test/test_example.c' l='23' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='36' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='69' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='74' u='c'/>

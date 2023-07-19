@@ -14,4 +14,4 @@
 <use f='codebrowser/src/socket.c' l='333' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='349' u='c' c='vws_socket_disconnect'/>
 <def f='codebrowser/src/socket.c' l='508' ll='552' type='void vws_socket_close(vws_socket * c)'/>
-<use f='codebrowser/src/websocket.c' l='1055' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='1070' u='c' c='socket_wait_for_frame'/>

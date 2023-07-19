@@ -22,7 +22,7 @@
 <use f='codebrowser/src/test/test_message.c' l='64' u='c' c='ctest_test_message_json_serialization_run'/>
 <def f='codebrowser/src/vrtql.c' l='431' ll='438' type='void vrtql_buffer_free(vrtql_buffer * buffer)'/>
 <use f='codebrowser/src/websocket.c' l='481' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='533' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='558' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='900' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='925' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='548' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='573' u='c' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='915' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='940' u='c' c='process_frame'/>

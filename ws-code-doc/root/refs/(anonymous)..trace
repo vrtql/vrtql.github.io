@@ -20,7 +20,7 @@
 <use f='codebrowser/src/server.c' l='1460' u='r' c='ws_svr_client_disconnect'/>
 <use f='codebrowser/src/socket.c' l='572' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='121' u='w' c='ctest_test_error_run'/>
-<use f='codebrowser/src/test/test_example.c' l='19' u='w' c='main'/>
+<use f='codebrowser/src/test/test_example.c' l='27' u='w' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='41' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='42' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process_data'/>
@@ -30,5 +30,5 @@
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/vrtql.c' l='314' u='r' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='397' u='w'/>
-<use f='codebrowser/src/websocket.c' l='517' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1091' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='532' u='r' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1106' u='r' c='vws_cnx_ingress'/>

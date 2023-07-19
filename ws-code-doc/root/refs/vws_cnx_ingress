@@ -12,5 +12,5 @@
  *         If no complete frame is available or an error occurs, it returns 0.
  */</doc>
 <use f='codebrowser/src/server.c' l='1609' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/websocket.c' l='1064' u='c' c='socket_wait_for_frame'/>
-<def f='codebrowser/src/websocket.c' l='1073' ll='1131' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>
+<use f='codebrowser/src/websocket.c' l='1079' u='c' c='socket_wait_for_frame'/>
+<def f='codebrowser/src/websocket.c' l='1088' ll='1146' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>

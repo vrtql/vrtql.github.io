@@ -4,4 +4,4 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='188' u='c' c='skip'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='skip'/>
 <use f='codebrowser/src/vrtql.c' l='776' u='c' c='vrtql_url_extract_port'/>
-<use f='codebrowser/src/websocket.c' l='983' u='c' c='extract_websocket_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='998' u='c' c='extract_websocket_accept_key'/>

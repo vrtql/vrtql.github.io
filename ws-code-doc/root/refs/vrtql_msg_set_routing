@@ -6,6 +6,5 @@
  * @param key The routing key.
  * @param value The routing value.
  */</doc>
-<use f='codebrowser/src/test/test_example.c' l='24' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='12' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='51' u='c' c='ctest_test_message_json_serialization_run'/>

@@ -94,11 +94,11 @@
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
 <use f='codebrowser/src/vrtql.c' l='491' u='c' c='vrtql_buffer_append'/>
 <use f='codebrowser/src/vrtql.c' l='636' u='c' c='vrtql_base64_encode'/>
-<use f='codebrowser/src/websocket.c' l='612' u='c' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='731' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='749' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='761' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='845' u='c' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='871' u='c' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='911' macro='1' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='911' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='627' u='c' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='746' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='764' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='776' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='860' u='c' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='886' u='c' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='926' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='926' macro='1' u='c' c='process_frame'/>
