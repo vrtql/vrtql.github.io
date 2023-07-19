@@ -1,7 +1,8 @@
-<dec f='codebrowser/src/websocket.h' l='376' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
+<dec f='codebrowser/src/websocket.h' l='377' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
 <use f='codebrowser/src/message.c' l='443' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/websocket.h' l='369'>/**
- * @brief Receives a websocket message from the connection.
+ * @brief Receives a websocket message from the connection. If there are no
+ *        messages in queue, it will call socket_wait_for_frame().
  *
  * @param c The connection.
  * @return Returns the most recent websocket message or NULL if the socket

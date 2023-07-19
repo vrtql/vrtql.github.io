@@ -70,7 +70,7 @@
 <use f='codebrowser/src/websocket.c' l='446' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='526' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='585' u='r' c='vws_msg_recv'/>
-<use f='codebrowser/src/websocket.c' l='656' u='r' c='vws_recv_frame'/>
+<use f='codebrowser/src/websocket.c' l='656' u='r' c='vws_frame_recv'/>
 <use f='codebrowser/src/websocket.c' l='680' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='758' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='1055' u='r' c='socket_wait_for_frame'/>

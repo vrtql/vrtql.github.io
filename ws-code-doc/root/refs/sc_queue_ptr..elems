@@ -44,7 +44,7 @@
 <use f='codebrowser/src/websocket.c' l='310' macro='1' u='r' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='316' macro='1' u='r' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='316' macro='1' u='w' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='664' macro='1' u='r' c='vws_recv_frame'/>
+<use f='codebrowser/src/websocket.c' l='664' macro='1' u='r' c='vws_frame_recv'/>
 <use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>

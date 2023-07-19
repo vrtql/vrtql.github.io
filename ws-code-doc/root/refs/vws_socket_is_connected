@@ -7,5 +7,5 @@
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_disconnect'/>
 <use f='codebrowser/src/websocket.c' l='524' u='c' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_msg_recv'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_recv_frame'/>
+<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_frame_recv'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='socket_wait_for_frame'/>

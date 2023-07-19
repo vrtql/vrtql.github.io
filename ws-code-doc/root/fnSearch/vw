@@ -20,6 +20,7 @@ vws_disconnect|vws_disconnect
 vws_dump_websocket_frame|vws_dump_websocket_frame
 vws_frame_free|vws_frame_free
 vws_frame_new|vws_frame_new
+vws_frame_recv|vws_frame_recv
 vws_frame_send|vws_frame_send
 vws_frame_send_binary|vws_frame_send_binary
 vws_frame_send_data|vws_frame_send_data
@@ -33,5 +34,4 @@ vws_msg_recv|vws_msg_recv
 vws_msg_send_binary|vws_msg_send_binary
 vws_msg_send_data|vws_msg_send_data
 vws_msg_send_text|vws_msg_send_text
-vws_recv_frame|vws_recv_frame
 vws_serialize|vws_serialize

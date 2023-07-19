@@ -162,8 +162,8 @@
 <use f='codebrowser/src/websocket.c' l='585' u='m' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='613' u='m' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='626' u='m' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='652' u='m' c='vws_recv_frame'/>
-<use f='codebrowser/src/websocket.c' l='656' u='m' c='vws_recv_frame'/>
+<use f='codebrowser/src/websocket.c' l='652' u='m' c='vws_frame_recv'/>
+<use f='codebrowser/src/websocket.c' l='656' u='m' c='vws_frame_recv'/>
 <use f='codebrowser/src/websocket.c' l='680' u='m' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='743' u='m' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='758' u='m' c='vws_serialize'/>
