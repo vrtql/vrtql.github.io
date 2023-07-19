@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 3. C API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL Websocket Client Library"><link rel="up" href="ws.html" title="VRTQL Websocket Client Library"><link rel="prev" href="ws.build.html" title="Chapter 2. Building and Installing"><link rel="next" href="ws.api.ws.html" title="2. Message API"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">Chapter 3. C API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.build.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ws.api.ws.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a name="ws.api"></a>Chapter 3. C API</h1></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="section"><a href="ws.api.html#ws.api.ws">1. The Client API</a></span></dt><dd><dl><dt><span class="section"><a href="ws.api.html#ws.api.ws.msg">1.1. Messages and Frames</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.errors">1.2. Error Handling</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.tracing">1.3. Tracing</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.memory">1.4. Memory Management</a></span></dt></dl></dd><dt><span class="section"><a href="ws.api.ws.html">2. Message API</a></span></dt></dl></div><p>There are two APIs in the library: the WebSockts API and the Messaging
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 3. C API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL Websocket Client Library"><link rel="up" href="ws.html" title="VRTQL Websocket Client Library"><link rel="prev" href="ws.build.html" title="Chapter 2. Building and Installing"><link rel="next" href="ws.api.ws.html" title="2. Message API"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">Chapter 3. C API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.build.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ws.api.ws.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a name="ws.api"></a>Chapter 3. C API</h1></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="section"><a href="ws.api.html#ws.api.ws">1. The Client API</a></span></dt><dd><dl><dt><span class="section"><a href="ws.api.html#ws.api.ws.msg">1.1. Messages and Frames</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.msg">1.2. The Message API</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.errors">1.3. Error Handling</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.tracing">1.4. Tracing</a></span></dt><dt><span class="section"><a href="ws.api.html#ws.api.ws.memory">1.5. Memory Management</a></span></dt></dl></dd><dt><span class="section"><a href="ws.api.ws.html">2. Message API</a></span></dt></dl></div><p>There are two APIs in the library: the WebSockts API and the Messaging
 API. The WebSockets API is built solely upon WebSocket constructs: frames,
 messages and connections, as you would expect. It intuitively follows the
 concepts and structure laid out in the standard. The Messaging API is built on
@@ -112,10 +112,87 @@ on a receive queue. The <code class="function"><a xmlns:fo="http://www.w3.org/19
 returns the first one it finds. If the queue is empty then it intiates a socket
 read and waits until the a frame arrives. If no frame arrives within the given
 timeout, it will return <code class="literal">NULL</code>. The <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/websocket.h.html#vws_msg_recv">vws_msg_recv</a>()</code> function works by the exact same
-logic but with messages.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.errors"></a>1.2. Error Handling</h3></div></div></div><p>
+logic but with messages.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.msg"></a>1.2. The Message API</h3></div></div></div><p>The client API includes an optional Message API which provides additional
+features for the purposes of creating protocols similar to what you would see in
+AMQP and MQTT, providing something that sits in between the two. This consists
+of a specific message structure (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg">vrtql_msg</a></code>) and functions to send (<code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg_send">vrtql_msg_send</a>()</code>) and receive (<code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg_recv">vrtql_msg_recv</a>()</code>) it. The message structure
+includes two maps (hashtables of string key/value pairs) and a payload. One map,
+called <code class="varname">routing</code>, is designed to hold routing information for
+messaging applications. The other map, called <code class="varname">headers</code>, is for
+application use. The payload can hold both text and binary data.</p><p>The Message API works atop the native WebSocket API. It takes a normal
+WebSocket connection (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/websocket.h.html#vws_cnx">vws_cnx</a></code>)
+and uses it to send and receive messages in the same way as the WebSocket
+API. The only difference is that it deals in <code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg">vrtql_msg</a></code> objects and automatically handles
+serialization and deserialization on and off the wire. Messages can be
+serialized in two formats: JSON and MessagePack. Both formats can be sent over
+the same connection on a message-by-message basis. That is, the connection is
+able to auto-detect each incoming message's format and deserialize
+accordingly. Thus connections support mixed-content messages: JSON and
+MessagePack.</p><p>The following is a basic example of using the high-level messaging API.
 
-</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.tracing"></a>1.3. Tracing</h3></div></div></div><p>
+</p><pre class="programlisting">
+<span class="preprocessor">#include</span> <span class="string">&lt;vrtql/message.h&gt;</span>
 
-</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.memory"></a>1.4. Memory Management</h3></div></div></div><p>
+<span class="type">int</span> <span class="function-name">main</span>()
+{
+    <span class="comment-delimiter">// </span><span class="comment">Create connection object
+</span>    <span class="type">vws_cnx</span>* <span class="variable-name">cnx</span> = vws_cnx_new();
+
+    <span class="comment-delimiter">// </span><span class="comment">Connect. This will automatically use SSL if "wss" scheme is used.
+</span>    <span class="type">cstr</span> <span class="variable-name">uri</span> = <span class="string">"ws://localhost:8181/websocket"</span>;
+    <span class="keyword">if</span> (vws_connect(cnx, uri) == <span class="constant">false</span>)
+    {
+        printf(<span class="string">"Failed to connect to the WebSocket server\n"</span>);
+        vws_cnx_free(cnx);
+        <span class="keyword">return</span> 1;
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Enable tracing. This will dump frames to the console in human-readable
+</span>    <span class="comment-delimiter">// </span><span class="comment">format as they are sent and received.
+</span>    vrtql.trace = VT_PROTOCOL;
+
+  <span class="comment-delimiter">// </span><span class="comment">Create
+</span>    <span class="type">vrtql_msg</span>* <span class="variable-name">request</span> = vrtql_msg_new();
+
+    vrtql_msg_set_routing(request, <span class="string">"key"</span>, <span class="string">"value"</span>);
+    vrtql_msg_set_header(request, <span class="string">"key"</span>, <span class="string">"value"</span>);
+    vrtql_msg_set_content(request, <span class="string">"payload"</span>);
+
+    <span class="comment-delimiter">// </span><span class="comment">Send
+</span>    <span class="keyword">if</span> (vrtql_msg_send(cnx, request) &lt; 0)
+    {
+        printf(<span class="string">"Failed to send: %s\n"</span>, vrtql.e.text);
+        vrtql_msg_free(request);
+        vws_cnx_free(cnx);
+        <span class="keyword">return</span> 1;
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Receive
+</span>    <span class="type">vrtql_msg</span>* <span class="variable-name">reply</span> = vrtql_msg_recv(cnx);
+
+    <span class="keyword">if</span> (reply == <span class="constant">NULL</span>)
+    {
+        <span class="comment-delimiter">// </span><span class="comment">There was no message received and it resulted in timeout
+</span>    }
+    <span class="keyword">else</span>
+    {
+        <span class="comment-delimiter">// </span><span class="comment">Free message
+</span>        vrtql_msg_free(reply);
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Cleanup
+</span>    vrtql_msg_free(request);
+
+    vws_disconnect(cnx);
+
+    <span class="keyword">return</span> 0;
+}
+</pre><p>
+
+</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.errors"></a>1.3. Error Handling</h3></div></div></div><p>
+
+</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.tracing"></a>1.4. Tracing</h3></div></div></div><p>
+
+</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.ws.memory"></a>1.5. Memory Management</h3></div></div></div><p>
 
 </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer" class="navtable"><tr><td width="40%" align="left"><a accesskey="p" href="ws.build.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ws.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ws.api.ws.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 2. Building and Installing </td><td width="20%" align="center"><a accesskey="h" href="ws.html">Home</a></td><td width="40%" align="right" valign="top"> 2. Message API</td></tr></table></div></body></html>
