@@ -2,6 +2,7 @@
 <offset>256</offset>
 <doc f='codebrowser/src/socket.h' l='44'>/**&lt; Socket timeout in milliseconds. */</doc>
 <use f='codebrowser/src/socket.c' l='80' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='291' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='365' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='450' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='125' u='w' c='vws_socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='298' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='372' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='457' u='r' c='vws_socket_write'/>

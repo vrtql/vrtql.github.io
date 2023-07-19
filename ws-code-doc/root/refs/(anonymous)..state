@@ -2,16 +2,16 @@
 <offset>832</offset>
 <doc f='codebrowser/src/vrtql.h' l='147'>/**&lt; Contains global state flags */</doc>
 <dec f='codebrowser/src/server.h' l='113' type='uint8_t'/>
-<use f='codebrowser/src/server.c' l='875' u='w' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='876' u='w' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1288' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1306' u='w' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1332' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1337' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='878' u='w' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='879' u='w' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1292' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1309' u='w' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1335' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1340' u='r' c='queue_pop'/>
 <offset>896</offset>
 <doc f='codebrowser/src/server.h' l='112'>/**&lt; Current state of the queue */</doc>
-<use f='codebrowser/src/socket.c' l='249' u='a' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='274' u='a' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='256' u='a' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='281' u='a' c='vws_socket_connect'/>
 <dec f='codebrowser/src/test/util/mongoose.h' l='1114' type='uint32_t [5]'/>
 <offset>0</offset>
 <use f='codebrowser/src/test/util/mongoose.c' l='159' u='w' c='mg_sha1_init'/>

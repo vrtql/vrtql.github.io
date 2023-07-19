@@ -1,13 +1,13 @@
 <dec f='codebrowser/src/vrtql.h' l='38' type='3'/>
-<use f='codebrowser/src/server.c' l='783' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='810' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='833' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='845' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='860' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='879' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='889' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1015' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1023' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1153' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1443' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1457' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='786' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='813' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='836' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='848' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='863' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='882' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='892' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1019' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1027' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1157' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1446' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1460' u='r' c='ws_svr_client_disconnect'/>

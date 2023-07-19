@@ -1,6 +1,6 @@
 <dec f='include/x86_64-linux-gnu/bits/poll.h' l='25'/>
-<use f='codebrowser/src/socket.c' l='363' u='c'/>
-<use f='codebrowser/src/socket.c' l='395' u='c'/>
+<use f='codebrowser/src/socket.c' l='370' u='c'/>
+<use f='codebrowser/src/socket.c' l='402' u='c'/>
 <doc f='include/x86_64-linux-gnu/bits/poll.h' l='22'>/* Event types that can be polled for.  These bits may be set in `events&apos;
    to indicate the interesting event types; they will appear in `revents&apos;
    to indicate the status of the file descriptor.  */</doc>

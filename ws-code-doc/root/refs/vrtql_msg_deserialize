@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/message.h' l='138' type='_Bool vrtql_msg_deserialize(vrtql_msg * msg, ucstr data, size_t length)'/>
 <def f='codebrowser/src/message.c' l='199' ll='373' macro='1' type='_Bool vrtql_msg_deserialize(vrtql_msg * msg, ucstr data, size_t length)'/>
 <use f='codebrowser/src/message.c' l='454' u='c' c='vrtql_msg_receive'/>
-<use f='codebrowser/src/server.c' l='1740' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1743' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_message.c' l='17' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='57' u='c' c='ctest_test_message_json_serialization_run'/>

@@ -1,4 +1,4 @@
 <dec f='include/x86_64-linux-gnu/bits/types/struct_timeval.h' l='10' type='__time_t'/>
 <offset>0</offset>
 <doc f='include/x86_64-linux-gnu/bits/types/struct_timeval.h' l='10'>/* Seconds.  */</doc>
-<use f='codebrowser/src/socket.c' l='134' u='w' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='141' u='w' c='socket_set_timeout'/>

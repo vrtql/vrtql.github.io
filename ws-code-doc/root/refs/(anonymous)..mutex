@@ -1,16 +1,16 @@
 <dec f='codebrowser/src/server.h' l='107' type='uv_mutex_t'/>
-<use f='codebrowser/src/server.c' l='884' u='a' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='886' u='a' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1292' u='a' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1302' u='a' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1312' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1316' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1325' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1330' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1334' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1340' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1349' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1356' u='a' c='queue_empty'/>
-<use f='codebrowser/src/server.c' l='1358' u='a' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='887' u='a' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='889' u='a' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1296' u='a' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1305' u='a' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1315' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1319' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1328' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1333' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1337' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1343' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1352' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1359' u='a' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='1361' u='a' c='queue_empty'/>
 <offset>192</offset>
 <doc f='codebrowser/src/server.h' l='106'>/**&lt; Mutex for thread safety */</doc>

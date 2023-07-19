@@ -4,8 +4,8 @@
  *
  * @return A pointer to the new connection instance.
  */</doc>
-<use f='codebrowser/src/server.c' l='1449' u='c' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='58' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/server.c' l='1452' u='c' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='61' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='37' u='c' c='ctest_test_setup'/>
 <def f='codebrowser/src/websocket.c' l='273' ll='292' type='vws_cnx * vws_cnx_new()'/>
 <doc f='codebrowser/src/websocket.c' l='269'>//------------------------------------------------------------------------------

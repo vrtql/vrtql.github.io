@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/server.c' l='576' type='void queue_init(vrtql_svr_queue * queue, int capacity, cstr name)'/>
-<use f='codebrowser/src/server.c' l='931' u='c' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='932' u='c' c='svr_ctor'/>
-<def f='codebrowser/src/server.c' l='1281' ll='1294' type='void queue_init(vrtql_svr_queue * queue, int size, cstr name)'/>
+<use f='codebrowser/src/server.c' l='935' u='c' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='936' u='c' c='svr_ctor'/>
+<def f='codebrowser/src/server.c' l='1285' ll='1298' type='void queue_init(vrtql_svr_queue * queue, int size, cstr name)'/>
 <doc f='codebrowser/src/server.c' l='564'>/**
  * @brief Initializes a server queue.
  *
@@ -14,6 +14,6 @@
  *
  * @ingroup QueueGroup
  */</doc>
-<doc f='codebrowser/src/server.c' l='1277'>//------------------------------------------------------------------------------
+<doc f='codebrowser/src/server.c' l='1281'>//------------------------------------------------------------------------------
 // Queue API
 //------------------------------------------------------------------------------</doc>

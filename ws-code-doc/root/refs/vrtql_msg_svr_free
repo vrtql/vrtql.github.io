@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.h' l='465' type='void vrtql_msg_svr_free(vrtql_msg_svr * s)'/>
-<def f='codebrowser/src/server.c' l='1816' ll='1825' type='void vrtql_msg_svr_free(vrtql_msg_svr * server)'/>
-<doc f='codebrowser/src/server.h' l='460'>/**
+<dec f='codebrowser/src/server.h' l='468' type='void vrtql_msg_svr_free(vrtql_msg_svr * s)'/>
+<def f='codebrowser/src/server.c' l='1819' ll='1828' type='void vrtql_msg_svr_free(vrtql_msg_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='463'>/**
  * @brief Frees the resources allocated to a VRTQL message server.
  *
  * @param s The server to free.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='98' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='101' u='c' c='ctest_test_msg_server_echo_run'/>

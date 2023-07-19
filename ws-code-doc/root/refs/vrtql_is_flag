@@ -6,6 +6,6 @@
  * @param flag  The flag to check for
  * @return Returns true if the flag is set, false otherwise
  */</doc>
-<use f='codebrowser/src/server.c' l='702' u='c' c='uv_thread'/>
-<use f='codebrowser/src/socket.c' l='249' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/server.c' l='705' u='c' c='uv_thread'/>
+<use f='codebrowser/src/socket.c' l='256' u='c' c='vws_socket_connect'/>
 <def f='codebrowser/src/vrtql.c' l='709' ll='712' type='uint8_t vrtql_is_flag(const uint64_t * flags, uint64_t flag)'/>

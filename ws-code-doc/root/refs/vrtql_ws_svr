@@ -1,18 +1,18 @@
-<def f='codebrowser/src/server.h' l='349' ll='382'/>
-<use f='codebrowser/src/server.h' l='349'/>
-<use f='codebrowser/src/server.h' l='432'/>
-<size>440</size>
-<doc f='codebrowser/src/server.h' l='345'>/**
+<def f='codebrowser/src/server.h' l='352' ll='385'/>
+<use f='codebrowser/src/server.h' l='352'/>
+<use f='codebrowser/src/server.h' l='435'/>
+<size>448</size>
+<doc f='codebrowser/src/server.h' l='348'>/**
  * @brief Struct representing a WebSocket server. It speaks the WebSocket
  * protocol and processes both WebSocket frames and messages.
  */</doc>
 <mbr r='vrtql_ws_svr::base' o='0' t='struct vrtql_svr'/>
-<mbr r='vrtql_ws_svr::upgraded' o='2944' t='_Bool'/>
-<mbr r='vrtql_ws_svr::http' o='3008' t='vrtql_http_req *'/>
-<mbr r='vrtql_ws_svr::on_data_in' o='3072' t='vrtql_svr_process_data'/>
-<mbr r='vrtql_ws_svr::on_frame_in' o='3136' t='vws_svr_process_frame'/>
-<mbr r='vrtql_ws_svr::on_frame_out' o='3200' t='vws_svr_process_frame'/>
-<mbr r='vrtql_ws_svr::on_msg_in' o='3264' t='vws_svr_process_msg'/>
-<mbr r='vrtql_ws_svr::on_msg_out' o='3328' t='vws_svr_process_msg'/>
-<mbr r='vrtql_ws_svr::process' o='3392' t='vws_svr_process_msg'/>
-<mbr r='vrtql_ws_svr::send' o='3456' t='vws_svr_process_msg'/>
+<mbr r='vrtql_ws_svr::upgraded' o='3008' t='_Bool'/>
+<mbr r='vrtql_ws_svr::http' o='3072' t='vrtql_http_req *'/>
+<mbr r='vrtql_ws_svr::on_data_in' o='3136' t='vrtql_svr_process_data'/>
+<mbr r='vrtql_ws_svr::on_frame_in' o='3200' t='vws_svr_process_frame'/>
+<mbr r='vrtql_ws_svr::on_frame_out' o='3264' t='vws_svr_process_frame'/>
+<mbr r='vrtql_ws_svr::on_msg_in' o='3328' t='vws_svr_process_msg'/>
+<mbr r='vrtql_ws_svr::on_msg_out' o='3392' t='vws_svr_process_msg'/>
+<mbr r='vrtql_ws_svr::process' o='3456' t='vws_svr_process_msg'/>
+<mbr r='vrtql_ws_svr::send' o='3520' t='vws_svr_process_msg'/>

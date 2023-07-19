@@ -1,2 +1,2 @@
-<def f='codebrowser/src/socket.c' l='189' ll='226' macro='1' type='_Bool socket_set_nonblocking(int sockfd)'/>
-<use f='codebrowser/src/socket.c' l='323' u='c' c='vws_socket_connect'/>
+<def f='codebrowser/src/socket.c' l='196' ll='233' macro='1' type='_Bool socket_set_nonblocking(int sockfd)'/>
+<use f='codebrowser/src/socket.c' l='330' u='c' c='vws_socket_connect'/>

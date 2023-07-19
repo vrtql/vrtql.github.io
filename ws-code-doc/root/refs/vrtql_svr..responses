@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/server.h' l='208' type='vrtql_svr_queue'/>
-<use f='codebrowser/src/server.c' l='698' u='a' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='700' u='a' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='775' u='a' c='vrtql_svr_send'/>
-<use f='codebrowser/src/server.c' l='876' u='m' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='932' u='a' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1160' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='701' u='a' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='703' u='a' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='778' u='a' c='vrtql_svr_send'/>
+<use f='codebrowser/src/server.c' l='879' u='m' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='936' u='a' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1164' u='a' c='svr_shutdown'/>
 <offset>1216</offset>
 <doc f='codebrowser/src/server.h' l='207'>/**&lt; Response queue */</doc>

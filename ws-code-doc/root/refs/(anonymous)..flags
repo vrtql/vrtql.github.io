@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/server.h' l='81' type='uint64_t'/>
-<use f='codebrowser/src/server.c' l='702' u='a' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='737' u='w' c='vrtql_svr_data_own'/>
-<use f='codebrowser/src/server.c' l='1476' u='a' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='705' u='a' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='740' u='w' c='vrtql_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='1479' u='a' c='vrtql_svr_close'/>
 <offset>192</offset>
 <doc f='codebrowser/src/server.h' l='80'>/**&lt; Message state flags */</doc>

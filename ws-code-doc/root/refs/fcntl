@@ -1,6 +1,6 @@
 <dec f='include/fcntl.h' l='148' type='int fcntl(int __fd, int __cmd)'/>
-<use f='codebrowser/src/socket.c' l='193' u='c' c='socket_set_nonblocking'/>
-<use f='codebrowser/src/socket.c' l='202' u='c' c='socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='200' u='c' c='socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='209' u='c' c='socket_set_nonblocking'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='176' u='c' c='mg_set_non_blocking_mode'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='176' u='c' c='mg_set_non_blocking_mode'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='177' u='c' c='mg_set_non_blocking_mode'/>

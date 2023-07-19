@@ -2,7 +2,6 @@
 <use f='codebrowser/src/test/test_websocket.c' l='37' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='38' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='39' u='r' c='ctest_test_setup'/>
-<use f='codebrowser/src/test/test_websocket.c' l='42' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='47' u='r' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_websocket.c' l='52' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='53' u='r' c='ctest_test_send_receive_run'/>

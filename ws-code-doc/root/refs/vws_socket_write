@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='180' type='ssize_t vws_socket_write(vws_socket * s, ucstr data, size_t size)'/>
-<doc f='codebrowser/src/socket.h' l='170'>/**
+<dec f='codebrowser/src/socket.h' l='177' type='ssize_t vws_socket_write(vws_socket * s, ucstr data, size_t size)'/>
+<doc f='codebrowser/src/socket.h' l='167'>/**
  * @brief Writes data from a buffer to a socket
  *
  * @param c The vws_cnx representing the socket
@@ -9,8 +9,8 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<def f='codebrowser/src/socket.c' l='426' ll='499' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
-<use f='codebrowser/src/test/test_server.c' l='72' u='c' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/socket.c' l='433' ll='506' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
+<use f='codebrowser/src/test/test_server.c' l='77' u='c' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/websocket.c' l='471' u='c' c='vws_disconnect'/>
 <use f='codebrowser/src/websocket.c' l='532' u='c' c='vws_send_frame'/>
 <use f='codebrowser/src/websocket.c' l='897' u='c' c='process_frame'/>

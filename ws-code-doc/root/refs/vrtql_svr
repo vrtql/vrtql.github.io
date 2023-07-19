@@ -1,8 +1,8 @@
 <use f='codebrowser/src/server.h' l='128'/>
-<def f='codebrowser/src/server.h' l='193' ll='237'/>
+<def f='codebrowser/src/server.h' l='193' ll='240'/>
 <use f='codebrowser/src/server.h' l='193'/>
-<use f='codebrowser/src/server.h' l='352'/>
-<size>368</size>
+<use f='codebrowser/src/server.h' l='355'/>
+<size>376</size>
 <doc f='codebrowser/src/server.h' l='189'>/**
  * @brief Struct representing a basic server. It does not do anything but
  * process raw data. It does not have any knowledge of WebSockets.
@@ -21,3 +21,4 @@
 <mbr r='vrtql_svr::on_read' o='2752' t='vrtql_svr_read'/>
 <mbr r='vrtql_svr::on_data_in' o='2816' t='vrtql_svr_process_data'/>
 <mbr r='vrtql_svr::on_data_out' o='2880' t='vrtql_svr_process_data'/>
+<mbr r='vrtql_svr::trace' o='2944' t='uint8_t'/>

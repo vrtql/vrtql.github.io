@@ -1,13 +1,13 @@
-<def f='codebrowser/src/server.h' l='429' ll='446'/>
-<use f='codebrowser/src/server.h' l='429'/>
-<size>472</size>
-<doc f='codebrowser/src/server.h' l='424'>/**
+<def f='codebrowser/src/server.h' l='432' ll='449'/>
+<use f='codebrowser/src/server.h' l='432'/>
+<size>480</size>
+<doc f='codebrowser/src/server.h' l='427'>/**
  * @brief Struct representing a VTQL message server. It is derived from the
  * WebSocket server and operates in terms of VRTQL messages (vrtql_msg) as
  * defined in message.h.
  */</doc>
 <mbr r='vrtql_msg_svr::base' o='0' t='struct vrtql_ws_svr'/>
-<mbr r='vrtql_msg_svr::on_msg_in' o='3520' t='vrtql_svr_process_msg'/>
-<mbr r='vrtql_msg_svr::on_msg_out' o='3584' t='vrtql_svr_process_msg'/>
-<mbr r='vrtql_msg_svr::process' o='3648' t='vrtql_svr_process_msg'/>
-<mbr r='vrtql_msg_svr::send' o='3712' t='vrtql_svr_process_msg'/>
+<mbr r='vrtql_msg_svr::on_msg_in' o='3584' t='vrtql_svr_process_msg'/>
+<mbr r='vrtql_msg_svr::on_msg_out' o='3648' t='vrtql_svr_process_msg'/>
+<mbr r='vrtql_msg_svr::process' o='3712' t='vrtql_svr_process_msg'/>
+<mbr r='vrtql_msg_svr::send' o='3776' t='vrtql_svr_process_msg'/>

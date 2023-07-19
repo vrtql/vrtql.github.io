@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='92' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='81'>/**
+<dec f='codebrowser/src/socket.h' l='89' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='78'>/**
  * @brief Server instance constructor
  *
  * Constructs a new server instance. This takes a new, empty vws_socket instance
@@ -11,5 +11,5 @@
  * @ingroup SocketFunctions
  */</doc>
 <use f='codebrowser/src/socket.c' l='72' u='c' c='vws_socket_new'/>
-<def f='codebrowser/src/socket.c' l='75' ll='86' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
+<def f='codebrowser/src/socket.c' l='75' ll='85' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
 <use f='codebrowser/src/websocket.c' l='279' u='c' c='vws_cnx_new'/>

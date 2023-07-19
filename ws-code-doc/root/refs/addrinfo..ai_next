@@ -1,4 +1,4 @@
 <dec f='include/netdb.h' l='574' type='struct addrinfo *'/>
 <offset>320</offset>
 <doc f='include/netdb.h' l='574'>/* Pointer to next in list.  */</doc>
-<use f='codebrowser/src/socket.c' l='576' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='583' u='r' c='connect_to_host'/>

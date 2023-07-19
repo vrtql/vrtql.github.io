@@ -1,1 +1,4 @@
 <dec f='codebrowser/src/vrtql.h' l='39' type='4'/>
+<use f='codebrowser/src/test/test_websocket.c' l='42' u='r' c='ctest_test_setup'/>
+<use f='codebrowser/src/websocket.c' l='517' u='r' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='1091' u='r' c='vws_socket_ingress'/>

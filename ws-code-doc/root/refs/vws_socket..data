@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/socket.h' l='51' type='char *'/>
+<dec f='codebrowser/src/socket.h' l='48' type='char *'/>
 <offset>320</offset>
-<doc f='codebrowser/src/socket.h' l='50'>/**&lt; User-defined data associated with the connection */</doc>
-<use f='codebrowser/src/socket.c' l='82' u='w' c='vws_socket_ctor'/>
+<doc f='codebrowser/src/socket.h' l='47'>/**&lt; User-defined data associated with the connection */</doc>
+<use f='codebrowser/src/socket.c' l='81' u='w' c='vws_socket_ctor'/>

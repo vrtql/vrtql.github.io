@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='475' type='int vrtql_msg_svr_run(vrtql_msg_svr * server, cstr host, int port)'/>
-<doc f='codebrowser/src/server.h' l='467'>/**
+<dec f='codebrowser/src/server.h' l='478' type='int vrtql_msg_svr_run(vrtql_msg_svr * server, cstr host, int port)'/>
+<doc f='codebrowser/src/server.h' l='470'>/**
  * @brief Starts a VRTQL message server.
  *
  * @param server The server to run.

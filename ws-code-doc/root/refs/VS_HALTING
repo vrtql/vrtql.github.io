@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/server.h' l='179' type='1'/>
-<use f='codebrowser/src/server.c' l='654' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='678' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='874' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='875' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='876' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1337' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='657' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='681' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='877' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='878' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='879' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1340' u='r' c='queue_pop'/>
 <doc f='codebrowser/src/server.h' l='178'>/**&lt; Server is shutting down */</doc>

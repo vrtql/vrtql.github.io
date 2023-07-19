@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='294' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
-<def f='codebrowser/src/server.c' l='781' ll='869' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
-<doc f='codebrowser/src/server.h' l='286'>/**
+<dec f='codebrowser/src/server.h' l='297' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
+<def f='codebrowser/src/server.c' l='784' ll='872' type='int vrtql_svr_run(vrtql_svr * server, cstr host, int port)'/>
+<doc f='codebrowser/src/server.h' l='289'>/**
  * @brief Starts a VRTQL server.
  *
  * @param server The server to run.
@@ -8,5 +8,5 @@
  * @param port The port to bind the server.
  * @return 0 if successful, an error code otherwise.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='41' u='c' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='43' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='44' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='49' u='c' c='server_thread'/>
