@@ -1,6 +1,7 @@
 <dec f='codebrowser/src/vrtql.h' l='145' type='vrtql_error_value'/>
 <offset>640</offset>
 <doc f='codebrowser/src/vrtql.h' l='145'>/**&lt; Last error value            */</doc>
+<use f='codebrowser/src/test/test_example.c' l='31' u='m' c='main'/>
 <use f='codebrowser/src/vrtql.c' l='258' u='m' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='260' u='m' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='261' u='m' c='vrtql_set_error'/>

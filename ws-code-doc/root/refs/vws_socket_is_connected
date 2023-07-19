@@ -3,7 +3,7 @@
 <use f='codebrowser/src/socket.c' l='344' u='c' c='vws_socket_disconnect'/>
 <use f='codebrowser/src/socket.c' l='438' u='c' c='vws_socket_write'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='509' u='c' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_recv_msg'/>
+<use f='codebrowser/src/websocket.c' l='509' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_recv_frame'/>
 <use f='codebrowser/src/websocket.c' l='194' u='c' c='socket_wait_for_frame'/>

@@ -17,6 +17,8 @@
 <use f='codebrowser/src/test/test_common.c' l='76' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='109' u='c' c='ctest_test_trace_run'/>
 <use f='codebrowser/src/test/test_common.c' l='119' u='c' c='ctest_test_error_run'/>
+<use f='codebrowser/src/test/test_example.c' l='12' u='c' c='main'/>
+<use f='codebrowser/src/test/test_example.c' l='31' u='c' c='main'/>
 <use f='codebrowser/src/test/test_http_request.c' l='18' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='23' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_json.c' l='41' u='c' c='ctest_test_read_run'/>
@@ -24,11 +26,11 @@
 <use f='codebrowser/src/test/test_json.c' l='46' u='c' c='ctest_test_read_run'/>
 <use f='codebrowser/src/test/test_json.c' l='54' u='c' c='ctest_test_read_run'/>
 <use f='codebrowser/src/test/test_json.c' l='82' u='c' c='ctest_test_write_run'/>
-<use f='codebrowser/src/websocket.c' l='519' u='c' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='520' u='c' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='521' u='c' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='522' u='c' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='525' u='c' c='vws_send_frame'/>
+<use f='codebrowser/src/websocket.c' l='519' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='520' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='521' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='522' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='525' u='c' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='1093' u='c' c='vws_socket_ingress'/>
 <use f='codebrowser/src/websocket.c' l='1094' u='c' c='vws_socket_ingress'/>
 <use f='codebrowser/src/websocket.c' l='1095' u='c' c='vws_socket_ingress'/>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='337' type='ssize_t vws_send_frame(vws_cnx * c, vws_frame * frame)'/>
+<dec f='codebrowser/src/websocket.h' l='337' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
 <doc f='codebrowser/src/websocket.h' l='328'>/**
  * @brief Sends a prebuilt websocket frame. This function will take ownership of
  * the frame and deallocate it for the caller.
@@ -9,5 +9,5 @@
  * @return Returns the number of bytes sent out on wire.
  */</doc>
 <use f='codebrowser/src/test/test_websocket.c' l='65' u='c' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_send_data'/>
-<def f='codebrowser/src/websocket.c' l='505' ll='539' type='ssize_t vws_send_frame(vws_cnx * c, vws_frame * frame)'/>
+<use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_frame_send_data'/>
+<def f='codebrowser/src/websocket.c' l='505' ll='539' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>

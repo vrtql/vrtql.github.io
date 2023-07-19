@@ -119,7 +119,7 @@
 <use f='codebrowser/src/vrtql.c' l='1020' u='c' c='vrtql_url_build'/>
 <use f='codebrowser/src/vrtql.c' l='1025' u='c' c='vrtql_url_build'/>
 <use f='codebrowser/src/websocket.c' l='392' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='492' u='c' c='vws_send_text'/>
+<use f='codebrowser/src/websocket.c' l='492' u='c' c='vws_frame_send_text'/>
 <use f='codebrowser/src/websocket.c' l='973' u='c' c='extract_websocket_accept_key'/>
 <use f='codebrowser/src/websocket.c' l='1003' u='c' c='vws_accept_key'/>
 <use f='codebrowser/src/websocket.c' l='1004' u='c' c='vws_accept_key'/>

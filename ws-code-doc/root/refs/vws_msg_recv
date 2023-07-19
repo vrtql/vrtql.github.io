@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='346' type='vws_msg * vws_recv_msg(vws_cnx * c)'/>
-<use f='codebrowser/src/message.c' l='443' u='c' c='vrtql_msg_receive'/>
+<dec f='codebrowser/src/websocket.h' l='346' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
+<use f='codebrowser/src/message.c' l='443' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/websocket.h' l='339'>/**
  * @brief Receives a websocket message from the connection.
  *
@@ -10,4 +10,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_frame_run'/>
-<def f='codebrowser/src/websocket.c' l='563' ll='590' type='vws_msg * vws_recv_msg(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='563' ll='590' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>

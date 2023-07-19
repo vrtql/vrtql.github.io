@@ -1,6 +1,7 @@
 <dec f='codebrowser/src/vrtql.h' l='53' type='char *'/>
 <offset>64</offset>
 <doc f='codebrowser/src/vrtql.h' l='53'>/**&lt; Error text */</doc>
+<use f='codebrowser/src/test/test_example.c' l='31' u='r' c='main'/>
 <use f='codebrowser/src/vrtql.c' l='258' u='r' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='260' u='r' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='261' u='w' c='vrtql_set_error'/>

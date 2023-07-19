@@ -6,6 +6,7 @@
  * @param msg The vrtql_msg instance.
  * @param value The content to be set.
  */</doc>
+<use f='codebrowser/src/test/test_example.c' l='26' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='14' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='53' u='c' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='76' u='c' c='ctest_test_msg_server_echo_run'/>

@@ -36,6 +36,7 @@ codebrowser/src/test/common.h
 codebrowser/src/test/ctest.h
 codebrowser/src/test/server.c
 codebrowser/src/test/test_common.c
+codebrowser/src/test/test_example.c
 codebrowser/src/test/test_http_request.c
 codebrowser/src/test/test_json.c
 codebrowser/src/test/test_message.c

@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/message.h' l='35' type='vrtql_msg * vrtql_msg_new()'/>
 <def f='codebrowser/src/message.c' l='38' ll='51' type='vrtql_msg * vrtql_msg_new()'/>
-<use f='codebrowser/src/message.c' l='451' u='c' c='vrtql_msg_receive'/>
+<use f='codebrowser/src/message.c' l='451' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/message.c' l='34'>//------------------------------------------------------------------------------
 // API functions
 //------------------------------------------------------------------------------</doc>
@@ -9,6 +9,7 @@
  * @return A pointer to the new vrtql_msg instance.
  */</doc>
 <use f='codebrowser/src/server.c' l='1739' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/test/test_example.c' l='22' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='9' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='10' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='48' u='c' c='ctest_test_message_json_serialization_run'/>

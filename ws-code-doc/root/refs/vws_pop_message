@@ -10,5 +10,5 @@
  * @ingroup MessageFunctions
  */</doc>
 <use f='codebrowser/src/server.c' l='1615' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/websocket.c' l='576' u='c' c='vws_recv_msg'/>
+<use f='codebrowser/src/websocket.c' l='576' u='c' c='vws_msg_recv'/>
 <def f='codebrowser/src/websocket.c' l='1156' ll='1197' type='vws_msg * vws_pop_message(vws_cnx * c)'/>

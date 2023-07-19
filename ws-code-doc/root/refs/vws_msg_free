@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/websocket.h' l='188' type='void vws_msg_free(vws_msg * msg)'/>
-<use f='codebrowser/src/message.c' l='457' u='c' c='vrtql_msg_receive'/>
-<use f='codebrowser/src/message.c' l='462' u='c' c='vrtql_msg_receive'/>
+<use f='codebrowser/src/message.c' l='457' u='c' c='vrtql_msg_recv'/>
+<use f='codebrowser/src/message.c' l='462' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/websocket.h' l='183'>/**
  * @brief Deallocates a websocket message.
  *

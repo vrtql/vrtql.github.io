@@ -11,8 +11,8 @@
 <use f='codebrowser/src/socket.c' l='436' u='r' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='676' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/vrtql.c' l='395' u='w'/>
-<use f='codebrowser/src/websocket.c' l='536' u='r' c='vws_send_frame'/>
-<use f='codebrowser/src/websocket.c' l='566' u='r' c='vws_recv_msg'/>
+<use f='codebrowser/src/websocket.c' l='536' u='r' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='566' u='r' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='637' u='r' c='vws_recv_frame'/>
 <use f='codebrowser/src/websocket.c' l='776' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='947' u='r' c='process_frame'/>

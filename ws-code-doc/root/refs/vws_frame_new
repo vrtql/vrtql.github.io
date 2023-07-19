@@ -9,7 +9,7 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1636' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/test/test_websocket.c' l='64' u='c' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_send_data'/>
+<use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_frame_send_data'/>
 <def f='codebrowser/src/websocket.c' l='596' ll='616' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
 <use f='codebrowser/src/websocket.c' l='1089' u='c' c='vws_socket_ingress'/>
 <use f='codebrowser/src/websocket.c' l='1140' u='c' c='vws_generate_close_frame'/>
