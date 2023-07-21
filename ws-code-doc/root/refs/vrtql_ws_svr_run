@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='414' type='int vrtql_ws_svr_run(vrtql_ws_svr * server, cstr host, int port)'/>
-<doc f='codebrowser/src/server.h' l='406'>/**
+<dec f='codebrowser/src/server.h' l='411' type='int vrtql_ws_svr_run(vrtql_ws_svr * server, cstr host, int port)'/>
+<doc f='codebrowser/src/server.h' l='403'>/**
  * @brief Starts a WebSocket server.
  *
  * @param server The server to run.
