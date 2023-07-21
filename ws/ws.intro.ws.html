@@ -1,0 +1,30 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>2. WebSocket Overview</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL WebSocket Library"><link rel="up" href="ws.intro.html" title="Chapter 1. Introduction"><link rel="prev" href="ws.intro.html" title="Chapter 1. Introduction"><link rel="next" href="ws.build.html" title="3. Building and Installing"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">2. WebSocket Overview</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.intro.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Introduction</th><td width="20%" align="right"> <a accesskey="n" href="ws.build.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ws.intro.ws"></a>2. WebSocket Overview</h2></div></div></div><p>WebSockets significantly enhance the capabilities of web applications
+compared to standard HTTP or raw TCP connections. They enable real-time data
+exchange with reduced latency due to the persistent connection, making them
+ideal for applications like live chat, gaming, real-time trading, and live
+sports updates.</p><p>Several large-scale applications and platforms utilize WebSockets today,
+including Slack, WhatsApp, and Facebook for real-time messaging. WebSockets are
+also integral to the functionality of collaborative coding platforms like
+Microsoft's Visual Studio Code Live Share. On the server-side, many popular
+software systems support WebSocket, including Node.js, Apache, and Nginx.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.overview.ws.bg"></a>2.1. Background</h3></div></div></div><p>Websockets emerged in the late 2000s in response to the growing need for
+real-time, bidirectional communication in web applications. The goal was to
+provide a standardized way for web servers to send content to browsers without
+being prompted by the user, and vice versa. In December 2011 they were
+standardized by the Internet Engineering Task Force (IETF) in RFC 6455. They now
+enjoy wide support and integration in modern browsers, smartphones, IoT devices
+and server software. They have become a fundamental technology in modern web
+applications.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.overview.concepts"></a>2.2. Concepts and Operation</h3></div></div></div><p>Unlike traditional HTTP connections, which are stateless and
+unidirectional, WebSocket connections are stateful and bidirectional. The
+connection is established through an HTTP handshake (HTTP Upgrade request),
+which is then upgraded to a WebSocket connection if the server supports it. The
+connection remains open until explicitly closed, enabling low-latency data
+exchange.</p><p>The WebSocket protocol communicates through a series of data units called
+frames. Each WebSocket frame has a maximum size of 2^64 bytes (but the actual
+size limit may be smaller due to network or system constraints). There are
+several types of frames, including text frames, binary frames, continuation
+frames, and control frames.</p><p>Text frames contain Unicode text data, while binary frames carry binary
+data. Continuation frames allow for larger messages to be broken down into
+smaller chunks. Control frames handle protocol-level interactions and include
+close frames, ping frames, and pong frames. The close frame is used to terminate
+a connection, ping frames are for checking the liveness of the connection, and
+pong frames are responses to ping frames.</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer" class="navtable"><tr><td width="40%" align="left"><a accesskey="p" href="ws.intro.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ws.intro.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ws.build.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 1. Introduction </td><td width="20%" align="center"><a accesskey="h" href="ws.html">Home</a></td><td width="40%" align="right" valign="top"> 3. Building and Installing</td></tr></table></div></body></html>

@@ -1,0 +1,71 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>3. The Message API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL WebSocket Library"><link rel="up" href="ws.api.html" title="Chapter 2. C API"><link rel="prev" href="ws.api.aux.html" title="2. Common Facilities"><link rel="next" href="ws.api.server.html" title="4. The Server API"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">3. The Message API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.api.aux.html">Prev</a> </td><th width="60%" align="center">Chapter 2. C API</th><td width="20%" align="right"> <a accesskey="n" href="ws.api.server.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ws.api.msg"></a>3. The Message API</h2></div></div></div><p>Working atop the Client API is an optional Message API which provides
+additional features for the purpose of creating protocols similar to AMQP and
+MQTT. It consists of a specific message structure (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg">vrtql_msg</a></code>) and functions to send (<code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg_send">vrtql_msg_send</a>()</code>) and receive (<code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg_recv">vrtql_msg_recv</a>()</code>) it. The message structure
+includes two maps (hashtables of string key/value pairs) and a payload. One map,
+called <code class="varname">routing</code>, is designed to hold routing information for
+messaging applications. The other map, called <code class="varname">headers</code>, is for
+application use. The payload can hold both text and binary data.</p><p>The Message API uses a normal WebSocket connection (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/websocket.h.html#vws_cnx">vws_cnx</a></code>) to send and receive messages in the
+same way as the Client API. The only difference is that it deals in
+<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg">vrtql_msg</a></code> objects and
+automatically handles serialization and deserialization on and off the
+wire. Messages can be serialized in two formats: JSON and MessagePack. Both
+formats can be sent over the same connection on a message-by-message basis. That
+is, the Message API is able to auto-detect each incoming message’s format and
+deserialize accordingly. Thus connections support mixed-content messages: JSON
+and MessagePack.</p><p>The following is a basic example of using the API.
+
+</p><pre class="programlisting">
+<span class="preprocessor">#include</span> <span class="string">&lt;vrtql/message.h&gt;</span>
+
+<span class="type">int</span> <span class="function-name">main</span>()
+{
+    <span class="type">vws_cnx</span>* <span class="variable-name">cnx</span> = vws_cnx_new();
+
+    <span class="type">cstr</span> <span class="variable-name">uri</span> = <span class="string">"ws://localhost:8181/websocket"</span>;
+    <span class="keyword">if</span> (vws_connect(cnx, uri) == <span class="constant">false</span>)
+    {
+        printf(<span class="string">"Failed to connect to the WebSocket server\n"</span>);
+        vws_cnx_free(cnx);
+        <span class="keyword">return</span> 1;
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Create a message
+</span>    <span class="type">vrtql_msg</span>* <span class="variable-name">request</span> = vrtql_msg_new();
+
+    vrtql_msg_set_routing(request, <span class="string">"key"</span>, <span class="string">"value"</span>);
+    vrtql_msg_set_header(request, <span class="string">"key"</span>, <span class="string">"value"</span>);
+    vrtql_msg_set_content(request, <span class="string">"payload"</span>);
+
+    <span class="comment-delimiter">// </span><span class="comment">Send
+</span>    <span class="keyword">if</span> (vrtql_msg_send(cnx, request) &lt; 0)
+    {
+        printf(<span class="string">"Failed to send: %s\n"</span>, vrtql.e.text);
+        vrtql_msg_free(request);
+        vws_cnx_free(cnx);
+        <span class="keyword">return</span> 1;
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Receive
+</span>    <span class="type">vrtql_msg</span>* <span class="variable-name">reply</span> = vrtql_msg_recv(cnx);
+
+    <span class="keyword">if</span> (reply == <span class="constant">NULL</span>)
+    {
+        <span class="comment-delimiter">// </span><span class="comment">There was no message received and it resulted in timeout
+</span>    }
+    <span class="keyword">else</span>
+    {
+        <span class="comment-delimiter">// </span><span class="comment">Free message
+</span>        vrtql_msg_free(reply);
+    }
+
+    <span class="comment-delimiter">// </span><span class="comment">Cleanup
+</span>    vrtql_msg_free(request);
+
+    vws_disconnect(cnx);
+    vws_cnx_free(cnx);
+
+    <span class="keyword">return</span> 0;
+}
+</pre><p>
+
+</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer" class="navtable"><tr><td width="40%" align="left"><a accesskey="p" href="ws.api.aux.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ws.api.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ws.api.server.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">2. Common Facilities </td><td width="20%" align="center"><a accesskey="h" href="ws.html">Home</a></td><td width="40%" align="right" valign="top"> 4. The Server API</td></tr></table></div></body></html>
