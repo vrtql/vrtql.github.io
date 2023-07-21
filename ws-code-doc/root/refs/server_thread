@@ -1,4 +1,4 @@
 <def f='codebrowser/src/test/test_msg_server.c' l='37' ll='44' type='void server_thread(void * arg)'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='92' u='r' c='ctest_test_msg_server_echo_run'/>
 <def f='codebrowser/src/test/test_server.c' l='42' ll='50' type='void server_thread(void * arg)'/>
-<use f='codebrowser/src/test/test_server.c' l='61' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='82' u='r' c='ctest_test_server_echo_run'/>

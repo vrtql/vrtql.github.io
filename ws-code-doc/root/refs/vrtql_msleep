@@ -13,7 +13,7 @@
  *       warnings specific to your environment.
  */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='97' u='c' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='66' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='87' u='c' c='ctest_test_server_echo_run'/>
 <def f='codebrowser/src/vrtql.c' l='729' ll='754' type='void vrtql_msleep(unsigned int ms)'/>
 <doc f='codebrowser/src/vrtql.c' l='716'>/**
  * @brief Sleeps for the specified number of milliseconds.

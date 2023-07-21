@@ -79,7 +79,7 @@
 <use f='codebrowser/src/test/test_common.c' l='70' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='15' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_json.c' l='33' u='c' c='ctest_test_read_run'/>
-<use f='codebrowser/src/test/test_server.c' l='77' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='62' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='58' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='64' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='204' u='c' c='mg_vxprintf'/>

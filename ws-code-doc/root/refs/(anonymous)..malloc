@@ -25,6 +25,7 @@
 <use f='codebrowser/src/socket.c' l='69' u='r' c='vws_socket_new'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='101' u='r' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='19' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='91' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/vrtql.c' l='432' u='w'/>
 <use f='codebrowser/src/vrtql.c' l='454' u='r' c='vrtql_buffer_new'/>
 <use f='codebrowser/src/vrtql.c' l='528' u='r' c='vrtql_buffer_append'/>

@@ -64,6 +64,7 @@
 <use f='codebrowser/src/test/test_json.c' l='24' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_json.c' l='83' u='c' c='ctest_test_write_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='115' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='105' u='c' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_dns_free'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='11' u='c' c='mg_fs_open'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='21' u='c' c='mg_fs_close'/>

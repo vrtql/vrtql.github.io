@@ -1,4 +1,5 @@
 <use f='codebrowser/src/server.c' l='810' u='c' c='vrtql_svr_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='92' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='105' u='c' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='61' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='82' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='95' u='c' c='ctest_test_server_echo_run'/>

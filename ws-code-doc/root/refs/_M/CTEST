@@ -9,4 +9,4 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='86' u='c'/>
 <use f='codebrowser/src/test/test_rpc.c' l='32' u='c'/>
 <use f='codebrowser/src/test/test_rpc.c' l='44' u='c'/>
-<use f='codebrowser/src/test/test_server.c' l='52' u='c'/>
+<use f='codebrowser/src/test/test_server.c' l='73' u='c'/>

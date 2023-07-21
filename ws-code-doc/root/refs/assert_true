@@ -7,8 +7,8 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='74' macro='1' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc.c' l='65' macro='1' u='c' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_rpc.c' l='69' macro='1' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_server.c' l='72' macro='1' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='81' macro='1' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='57' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='66' macro='1' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='38' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='39' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='53' macro='1' u='c' c='ctest_test_send_receive_run'/>

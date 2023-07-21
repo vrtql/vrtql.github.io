@@ -22,7 +22,7 @@
 <use f='codebrowser/src/test/test_message.c' l='80' u='r' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='26' u='r' c='process_message'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='72' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='82' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='67' u='r' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_frame_run'/>
