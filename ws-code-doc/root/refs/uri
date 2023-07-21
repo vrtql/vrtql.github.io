@@ -1,4 +1,4 @@
 <def f='codebrowser/src/test/test_msg_server.c' l='8' type='cstr'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='62' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='49' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_websocket.c' l='19' type='cstr'/>
 <use f='codebrowser/src/test/test_websocket.c' l='39' u='r' c='ctest_test_setup'/>

@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/util/sc_map.h' l='227' macro='1' type='const char * sc_map_put_str(struct sc_map_str * map, const char * key, const char * val)'/>
 <use f='codebrowser/src/message.c' l='535' u='c' c='msg_parse_map'/>
 <def f='codebrowser/src/util/sc_map.c' l='409' macro='1' type='const char * sc_map_put_str(struct sc_map_str * m, const char * key, const char * value)'/>
-<use f='codebrowser/src/vrtql.c' l='543' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='590' u='c' c='vrtql_map_set'/>

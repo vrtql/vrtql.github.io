@@ -1,34 +1,44 @@
-<dec f='codebrowser/src/vrtql.h' l='146' type='uint8_t'/>
+<dec f='codebrowser/src/vrtql.h' l='222' type='vrtql_trace_cb'/>
 <offset>768</offset>
-<doc f='codebrowser/src/vrtql.h' l='146'>/**&lt; Tracing leve (0 is off)     */</doc>
-<use f='codebrowser/src/server.c' l='638' u='w' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='640' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='659' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='683' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='786' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='813' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='836' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='848' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='863' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='882' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='892' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='931' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1019' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1027' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1157' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1446' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1460' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/socket.c' l='572' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_common.c' l='121' u='w' c='ctest_test_error_run'/>
-<use f='codebrowser/src/test/test_example.c' l='27' u='w' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='41' u='w' c='server_thread'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='42' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='46' u='w' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='47' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='55' u='w' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
-<use f='codebrowser/src/vrtql.c' l='314' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='397' u='w'/>
-<use f='codebrowser/src/websocket.c' l='532' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1106' u='r' c='vws_cnx_ingress'/>
+<doc f='codebrowser/src/vrtql.h' l='222'>/**&lt; Error clear function        */</doc>
+<use f='codebrowser/src/server.c' l='656' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='675' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='699' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='802' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='829' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='852' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='864' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='879' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='898' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='908' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='969' u='r' c='on_uv_close'/>
+<use f='codebrowser/src/server.c' l='978' u='r' c='on_uv_walk'/>
+<use f='codebrowser/src/server.c' l='1035' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1043' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1068' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1182' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1280' u='r' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1471' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1485' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/socket.c' l='586' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/test/test_common.c' l='111' u='r' c='ctest_test_trace_run'/>
+<use f='codebrowser/src/test/test_common.c' l='112' u='r' c='ctest_test_trace_run'/>
+<use f='codebrowser/src/test/test_common.c' l='113' u='r' c='ctest_test_trace_run'/>
+<use f='codebrowser/src/test/test_common.c' l='114' u='r' c='ctest_test_trace_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='16' u='r' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='106' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='112' u='r' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='14' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='32' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='58' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='70' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='73' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='76' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='82' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='89' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='95' u='r' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/vrtql.c' l='367' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='374' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='381' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='387' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='443' u='w'/>

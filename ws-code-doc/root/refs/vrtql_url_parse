@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vrtql.h' l='329' type='vrtql_url vrtql_url_parse(const char * url)'/>
-<doc f='codebrowser/src/vrtql.h' l='323'>/**
+<dec f='codebrowser/src/vrtql.h' l='381' type='vrtql_url vrtql_url_parse(const char * url)'/>
+<doc f='codebrowser/src/vrtql.h' l='375'>/**
  * @brief Parses a URL.
  *
  * @param url The URL to parse
  * @return Returns a vrtql_url structure with the parsed URL parts
  */</doc>
-<def f='codebrowser/src/vrtql.c' l='803' ll='900' type='vrtql_url vrtql_url_parse(const char * url)'/>
+<def f='codebrowser/src/vrtql.c' l='850' ll='947' type='vrtql_url vrtql_url_parse(const char * url)'/>
 <use f='codebrowser/src/websocket.c' l='343' u='c' c='vws_connect'/>

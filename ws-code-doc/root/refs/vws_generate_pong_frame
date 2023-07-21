@@ -8,6 +8,6 @@
  *
  * @ingroup FrameFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1409' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='934' u='c' c='process_frame'/>
-<def f='codebrowser/src/websocket.c' l='1162' ll='1169' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>
+<use f='codebrowser/src/server.c' l='1432' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/websocket.c' l='936' u='c' c='process_frame'/>
+<def f='codebrowser/src/websocket.c' l='1166' ll='1173' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>

@@ -1,4 +1,4 @@
 <dec f='include/openssl/buffer.h' l='39' type='size_t'/>
 <offset>0</offset>
 <doc f='include/openssl/buffer.h' l='39'>/* current number of bytes */</doc>
-<use f='codebrowser/src/vrtql.c' l='633' u='r' c='vrtql_base64_encode'/>
+<use f='codebrowser/src/vrtql.c' l='680' u='r' c='vrtql_base64_encode'/>

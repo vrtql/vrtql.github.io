@@ -7,5 +7,5 @@
  * @ingroup SocketFunctions
  */</doc>
 <use f='codebrowser/src/socket.c' l='99' u='c' c='vws_socket_dtor'/>
-<def f='codebrowser/src/socket.c' l='342' ll='352' type='void vws_socket_disconnect(vws_socket * c)'/>
+<def f='codebrowser/src/socket.c' l='353' ll='363' type='void vws_socket_disconnect(vws_socket * c)'/>
 <use f='codebrowser/src/websocket.c' l='483' u='c' c='vws_disconnect'/>

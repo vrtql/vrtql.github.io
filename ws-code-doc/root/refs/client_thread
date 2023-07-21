@@ -1,0 +1,2 @@
+<def f='codebrowser/src/test/test_msg_server.c' l='46' ll='84' type='void client_thread(void * arg)'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='105' u='r' c='ctest_test_msg_server_echo_run'/>

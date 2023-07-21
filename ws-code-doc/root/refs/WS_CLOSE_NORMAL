@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/websocket.c' l='42' type='1000'/>
-<use f='codebrowser/src/websocket.c' l='1154' u='r' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1158' u='r' c='vws_generate_close_frame'/>
 <doc f='codebrowser/src/websocket.c' l='40'>/** Normal Closure. This means that the purpose for which the connection was
      * established has been fulfilled. */</doc>

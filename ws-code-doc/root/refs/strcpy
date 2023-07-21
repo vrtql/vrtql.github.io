@@ -1,5 +1,5 @@
 <dec f='include/string.h' l='121' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
 <doc f='include/string.h' l='120'>/* Copy SRC to DEST.  */</doc>
 <use f='codebrowser/src/test/util/mongoose.c' l='61' u='c' c='packed_list'/>
-<use f='codebrowser/src/vrtql.c' l='887' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='891' u='c' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='934' u='c' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='938' u='c' c='vrtql_url_parse'/>

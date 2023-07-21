@@ -7,5 +7,5 @@
  * @return Returns the most recent message or NULL if the socket timed out
  *   without receiving a full message.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='82' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='69' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='81' u='c' c='ctest_test_message_run'/>

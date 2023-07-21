@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='276' type='cstr vrtql_map_get(struct sc_map_str * map, cstr key)'/>
-<doc f='codebrowser/src/vrtql.h' l='267'>/**
+<dec f='codebrowser/src/vrtql.h' l='328' type='cstr vrtql_map_get(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vrtql.h' l='319'>/**
  * @brief Retrieves a value from the map using a string key.
  *
  * Returns a constant string pointer to the value associated with the key.
@@ -10,9 +10,9 @@
  */</doc>
 <use f='codebrowser/src/message.c' l='377' u='c' c='vrtql_msg_get_header'/>
 <use f='codebrowser/src/message.c' l='392' u='c' c='vrtql_msg_get_routing'/>
-<use f='codebrowser/src/server.c' l='1544' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1545' u='c' c='ws_svr_client_data_in'/>
-<def f='codebrowser/src/vrtql.c' l='519' ll='530' type='cstr vrtql_map_get(struct sc_map_str * map, cstr key)'/>
-<doc f='codebrowser/src/vrtql.c' l='515'>//------------------------------------------------------------------------------
+<use f='codebrowser/src/server.c' l='1556' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1557' u='c' c='ws_svr_client_read'/>
+<def f='codebrowser/src/vrtql.c' l='566' ll='577' type='cstr vrtql_map_get(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vrtql.c' l='562'>//------------------------------------------------------------------------------
 // Map
 //------------------------------------------------------------------------------</doc>

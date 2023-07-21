@@ -1,8 +1,7 @@
-<dec f='codebrowser/src/server.h' l='313' type='void vrtql_svr_close(vrtql_svr_cnx * cnx)'/>
-<def f='codebrowser/src/server.c' l='1472' ll='1483' type='void vrtql_svr_close(vrtql_svr_cnx * cnx)'/>
-<use f='codebrowser/src/server.c' l='1519' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1751' u='c' c='msg_svr_client_ws_msg_in'/>
-<doc f='codebrowser/src/server.h' l='308'>/**
+<dec f='codebrowser/src/server.h' l='320' type='void vrtql_svr_close(vrtql_svr_cnx * cnx)'/>
+<def f='codebrowser/src/server.c' l='1495' ll='1506' type='void vrtql_svr_close(vrtql_svr_cnx * cnx)'/>
+<use f='codebrowser/src/server.c' l='1776' u='c' c='msg_svr_client_ws_msg_in'/>
+<doc f='codebrowser/src/server.h' l='315'>/**
  * @brief Close a VRTQL server connection.
  *
  * @param cnx The server connection to close.

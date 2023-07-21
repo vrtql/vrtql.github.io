@@ -2,17 +2,17 @@
 <offset>128</offset>
 <doc f='codebrowser/src/socket.h' l='38'>/**&lt; The SSL connection instance. */</doc>
 <use f='codebrowser/src/socket.c' l='78' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='272' u='w' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='274' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='305' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='307' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='309' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='404' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='407' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='485' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='488' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='510' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='512' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='517' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='525' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='526' u='w' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='283' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='285' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='316' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='318' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='320' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='415' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='418' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='496' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='499' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='521' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='523' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='528' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='536' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='537' u='w' c='vws_socket_close'/>

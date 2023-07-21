@@ -7,4 +7,4 @@
  * @return Returns the most recent websocket frame or NULL if the socket timed
  *   out without receiving a full frame.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='649' ll='674' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='651' ll='676' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>

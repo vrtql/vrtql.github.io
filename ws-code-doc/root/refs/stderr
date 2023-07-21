@@ -1,11 +1,11 @@
 <dec f='include/stdio.h' l='139' type='FILE *'/>
 <doc f='include/stdio.h' l='139'>/* Standard error output stream.  */</doc>
 <use f='codebrowser/src/test/util/mongoose.c' l='17' macro='1' u='r' c='mg_tls_err'/>
-<use f='codebrowser/src/vrtql.c' l='147' macro='1' u='r' c='vrtql_trace'/>
-<use f='codebrowser/src/vrtql.c' l='160' macro='1' u='r' c='vrtql_trace'/>
-<use f='codebrowser/src/vrtql.c' l='163' macro='1' u='r' c='vrtql_trace'/>
-<use f='codebrowser/src/vrtql.c' l='164' macro='1' u='r' c='vrtql_trace'/>
-<use f='codebrowser/src/vrtql.c' l='303' macro='1' u='r' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='350' macro='1' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='356' macro='1' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='364' macro='1' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='193' macro='1' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='206' macro='1' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='209' macro='1' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='210' macro='1' u='r' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='349' macro='1' u='r' c='vrtql_error_default_submit'/>
+<use f='codebrowser/src/vrtql.c' l='396' macro='1' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='402' macro='1' u='r' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='410' macro='1' u='r' c='vrtql_error_default_process'/>

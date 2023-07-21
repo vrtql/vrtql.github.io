@@ -2,5 +2,5 @@
 <use f='codebrowser/src/http_request.c' l='85' u='w' c='vrtql_http_req_new'/>
 <use f='codebrowser/src/http_request.c' l='136' u='w' c='on_headers_complete'/>
 <offset>640</offset>
-<use f='codebrowser/src/server.c' l='1507' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1530' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_http_request.c' l='16' u='r' c='ctest_test_rpc_call_run'/>

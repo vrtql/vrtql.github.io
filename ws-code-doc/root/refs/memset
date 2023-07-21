@@ -26,7 +26,7 @@
 <use f='codebrowser/src/mpack/mpack-reader.c' l='322' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='333' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/socket.c' l='70' u='c' c='vws_socket_new'/>
-<use f='codebrowser/src/socket.c' l='564' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='575' u='c' c='connect_to_host'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_dns_parse_rr'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='104' u='c' c='mg_dns_parse'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='205' u='c' c='mg_dns_send'/>
@@ -114,4 +114,4 @@
 <use f='codebrowser/src/util/yyjson.c' l='8327' u='c' c='yyjson_write_minify'/>
 <use f='codebrowser/src/util/yyjson.c' l='8529' u='c' c='yyjson_write_pretty'/>
 <use f='codebrowser/src/websocket.c' l='276' u='c' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='1064' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='1066' u='c' c='socket_wait_for_frame'/>

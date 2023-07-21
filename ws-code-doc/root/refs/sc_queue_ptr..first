@@ -1,12 +1,12 @@
 <dec f='codebrowser/src/util/sc_queue.h' l='59' type='size_t'/>
 <offset>128</offset>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='w' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='w' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1401' macro='1' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='w' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='w' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1424' macro='1' u='r' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/test/test_common.c' l='88' macro='1' u='w' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='r' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='r' c='ctest_test_queue_run'/>
@@ -25,12 +25,12 @@
 <use f='codebrowser/src/websocket.c' l='289' macro='1' u='w' c='vws_cnx_new'/>
 <use f='codebrowser/src/websocket.c' l='310' macro='1' u='r' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='316' macro='1' u='w' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='662' macro='1' u='r' c='vws_frame_recv'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='w' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='w' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='926' macro='1' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1217' macro='1' u='r' c='has_complete_message'/>
+<use f='codebrowser/src/websocket.c' l='664' macro='1' u='r' c='vws_frame_recv'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='w' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='w' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='928' macro='1' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1221' macro='1' u='r' c='has_complete_message'/>

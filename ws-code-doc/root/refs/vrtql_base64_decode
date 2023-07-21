@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='422' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>
-<doc f='codebrowser/src/vrtql.h' l='415'>/**
+<dec f='codebrowser/src/vrtql.h' l='474' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>
+<doc f='codebrowser/src/vrtql.h' l='467'>/**
  * @brief Decodes a Base64-encoded string.
  *
  * @param data The Base64 string to decode
@@ -7,4 +7,4 @@
  * @return Returns a pointer to the decoded data
  */</doc>
 <use f='codebrowser/src/test/test_common.c' l='52' u='c' c='ctest_test_base64_run'/>
-<def f='codebrowser/src/vrtql.c' l='644' ll='663' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>
+<def f='codebrowser/src/vrtql.c' l='691' ll='710' type='unsigned char * vrtql_base64_decode(const char * data, size_t * size)'/>

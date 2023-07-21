@@ -1,47 +1,11 @@
-<dec f='codebrowser/src/vrtql.h' l='188' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
-<doc f='codebrowser/src/vrtql.h' l='181'>/**
+<dec f='codebrowser/src/vrtql.h' l='79' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
+<doc f='codebrowser/src/vrtql.h' l='72'>/**
  * @brief Logs a trace message.
  *
  * @param level The level of the log
  * @param format The format string for the message
  * @param ... The arguments for the format string
  */</doc>
-<use f='codebrowser/src/server.c' l='642' u='c' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='661' u='c' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='685' u='c' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='788' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='815' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='838' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='850' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='865' u='c' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='884' u='c' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='894' u='c' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='955' u='c' c='on_uv_close'/>
-<use f='codebrowser/src/server.c' l='964' u='c' c='on_uv_walk'/>
-<use f='codebrowser/src/server.c' l='1021' u='c' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1029' u='c' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1054' u='c' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1159' u='c' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1257' u='c' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1448' u='c' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1462' u='c' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/socket.c' l='575' u='c' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_common.c' l='111' u='c' c='ctest_test_trace_run'/>
-<use f='codebrowser/src/test/test_common.c' l='112' u='c' c='ctest_test_trace_run'/>
-<use f='codebrowser/src/test/test_common.c' l='113' u='c' c='ctest_test_trace_run'/>
-<use f='codebrowser/src/test/test_common.c' l='114' u='c' c='ctest_test_trace_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='16' u='c' c='process_message'/>
-<use f='codebrowser/src/test/test_server.c' l='14' u='c' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='32' u='c' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='58' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='70' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='73' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='76' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='82' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='89' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='95' u='c' c='ctest_test_server_echo_run'/>
-<def f='codebrowser/src/vrtql.c' l='83' ll='179' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
-<use f='codebrowser/src/vrtql.c' l='321' u='c' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='328' u='c' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='335' u='c' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='341' u='c' c='vrtql_error_default_process'/>
+<def f='codebrowser/src/vrtql.c' l='129' ll='225' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
+<use f='codebrowser/src/vrtql.c' l='443'/>
+<use f='codebrowser/src/vrtql.c' l='443'/>

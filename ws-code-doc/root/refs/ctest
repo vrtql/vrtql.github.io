@@ -33,7 +33,7 @@
 <use f='codebrowser/src/test/test_message.c' l='7' macro='1'/>
 <use f='codebrowser/src/test/test_message.c' l='46' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_msg_server.c' l='47' macro='1'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='86' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_rpc.c' l='32' macro='1'/>
 <use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>

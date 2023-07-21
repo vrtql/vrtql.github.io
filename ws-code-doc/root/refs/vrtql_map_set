@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='287' type='void vrtql_map_set(struct sc_map_str * map, cstr key, cstr value)'/>
+<dec f='codebrowser/src/vrtql.h' l='339' type='void vrtql_map_set(struct sc_map_str * map, cstr key, cstr value)'/>
 <use f='codebrowser/src/http_request.c' l='183' u='c' c='on_header_field'/>
-<doc f='codebrowser/src/vrtql.h' l='278'>/**
+<doc f='codebrowser/src/vrtql.h' l='330'>/**
  * @brief Sets a value in the map using a string key and value.
  *
  * It will create a new key-value pair or update the value if the key already exists.
@@ -13,4 +13,4 @@
 <use f='codebrowser/src/message.c' l='341' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/message.c' l='382' u='c' c='vrtql_msg_set_header'/>
 <use f='codebrowser/src/message.c' l='397' u='c' c='vrtql_msg_set_routing'/>
-<def f='codebrowser/src/vrtql.c' l='532' ll='549' type='void vrtql_map_set(struct sc_map_str * map, cstr key, cstr value)'/>
+<def f='codebrowser/src/vrtql.c' l='579' ll='596' type='void vrtql_map_set(struct sc_map_str * map, cstr key, cstr value)'/>

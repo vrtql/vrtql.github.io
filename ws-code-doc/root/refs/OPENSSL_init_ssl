@@ -1,4 +1,4 @@
 <dec f='include/openssl/ssl.h' l='2364' type='int OPENSSL_init_ssl(uint64_t opts, const OPENSSL_INIT_SETTINGS * settings)'/>
-<use f='codebrowser/src/socket.c' l='258' macro='1' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='260' macro='1' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='269' macro='1' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='271' macro='1' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='36' macro='1' u='c' c='mg_tls_init'/>

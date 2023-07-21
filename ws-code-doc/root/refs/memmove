@@ -42,4 +42,4 @@
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
-<use f='codebrowser/src/vrtql.c' l='509' u='c' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/vrtql.c' l='556' u='c' c='vrtql_buffer_drain'/>

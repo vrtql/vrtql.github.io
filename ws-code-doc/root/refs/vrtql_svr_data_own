@@ -1,9 +1,10 @@
-<dec f='codebrowser/src/server.h' l='261' type='vrtql_svr_data * vrtql_svr_data_own(vrtql_svr_cnx * c, ucstr data, size_t size)'/>
-<use f='codebrowser/src/server.c' l='723' u='c' c='vrtql_svr_data_new'/>
-<def f='codebrowser/src/server.c' l='732' ll='743' type='vrtql_svr_data * vrtql_svr_data_own(vrtql_svr_cnx * c, ucstr data, size_t size)'/>
-<use f='codebrowser/src/server.c' l='1038' u='c' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1476' u='c' c='vrtql_svr_close'/>
-<doc f='codebrowser/src/server.h' l='252'>/**
+<dec f='codebrowser/src/server.h' l='268' type='vrtql_svr_data * vrtql_svr_data_own(vrtql_svr_cnx * c, ucstr data, size_t size)'/>
+<use f='codebrowser/src/server.c' l='737' u='c' c='vrtql_svr_data_new'/>
+<def f='codebrowser/src/server.c' l='746' ll='757' type='vrtql_svr_data * vrtql_svr_data_own(vrtql_svr_cnx * c, ucstr data, size_t size)'/>
+<use f='codebrowser/src/server.c' l='1052' u='c' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1499' u='c' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='1634' u='c' c='ws_svr_client_read'/>
+<doc f='codebrowser/src/server.h' l='259'>/**
  * @brief Creates a new thread data. This TAKES OWNERSHIP of the data. The
  * caller MUST NOT free() this data.
  *

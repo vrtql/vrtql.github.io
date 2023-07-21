@@ -1,6 +1,6 @@
 <dec f='include/stdio.h' l='358' type='int vsnprintf(char *restrict __s, size_t __maxlen, const char *restrict __format, struct __va_list_tag * __arg)'/>
 <use f='codebrowser/src/test/ctest.h' l='291' u='c' c='vprint_errormsg'/>
-<use f='codebrowser/src/vrtql.c' l='286' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='294' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='448' u='c' c='vrtql_buffer_printf'/>
-<use f='codebrowser/src/vrtql.c' l='456' u='c' c='vrtql_buffer_printf'/>
+<use f='codebrowser/src/vrtql.c' l='332' u='c' c='vrtql_error_default_submit'/>
+<use f='codebrowser/src/vrtql.c' l='340' u='c' c='vrtql_error_default_submit'/>
+<use f='codebrowser/src/vrtql.c' l='495' u='c' c='vrtql_buffer_printf'/>
+<use f='codebrowser/src/vrtql.c' l='503' u='c' c='vrtql_buffer_printf'/>

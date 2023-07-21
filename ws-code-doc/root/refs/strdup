@@ -2,12 +2,12 @@
 <doc f='include/string.h' l='165'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
 <use f='codebrowser/src/rpc.c' l='61' u='c' c='vrtql_rpc_module_new'/>
 <use f='codebrowser/src/rpc.c' l='266' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/server.c' l='1293' u='c' c='queue_init'/>
-<use f='codebrowser/src/vrtql.c' l='268' u='c' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='540' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='543' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='742' u='c' c='url_extract_part'/>
-<use f='codebrowser/src/vrtql.c' l='782' u='c' c='vrtql_url_extract_port'/>
-<use f='codebrowser/src/vrtql.c' l='813' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='869' u='c' c='vrtql_url_parse'/>
+<use f='codebrowser/src/server.c' l='1316' u='c' c='queue_init'/>
+<use f='codebrowser/src/vrtql.c' l='314' u='c' c='vrtql_set_error'/>
+<use f='codebrowser/src/vrtql.c' l='587' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='590' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='789' u='c' c='url_extract_part'/>
+<use f='codebrowser/src/vrtql.c' l='829' u='c' c='vrtql_url_extract_port'/>
+<use f='codebrowser/src/vrtql.c' l='860' u='c' c='vrtql_url_parse'/>
+<use f='codebrowser/src/vrtql.c' l='916' u='c' c='vrtql_url_parse'/>
 <use f='codebrowser/src/websocket.c' l='352' u='c' c='vws_connect'/>

@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vrtql.h' l='397' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vrtql.h' l='390'>/**
+<dec f='codebrowser/src/vrtql.h' l='449' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vrtql.h' l='442'>/**
  * @brief Clears a specific flag.
  *
  * @param flags The flags to modify
  * @param flag  The flag to clear
  * @return None
  */</doc>
-<def f='codebrowser/src/vrtql.c' l='719' ll='722' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<def f='codebrowser/src/vrtql.c' l='766' ll='769' type='void vrtql_clear_flag(uint64_t * flags, uint64_t flag)'/>

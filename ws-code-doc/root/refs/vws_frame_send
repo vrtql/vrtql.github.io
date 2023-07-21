@@ -11,4 +11,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='65' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/websocket.c' l='502' u='c' c='vws_frame_send_data'/>
 <use f='codebrowser/src/websocket.c' l='517' u='c' c='vws_msg_send_data'/>
-<def f='codebrowser/src/websocket.c' l='520' ll='554' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
+<def f='codebrowser/src/websocket.c' l='520' ll='556' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>

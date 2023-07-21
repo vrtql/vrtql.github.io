@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/util/sc_map.h' l='227' macro='1' type='const char * sc_map_get_str(struct sc_map_str * map, const char * key)'/>
 <def f='codebrowser/src/util/sc_map.c' l='409' macro='1' type='const char * sc_map_get_str(struct sc_map_str * m, const char * key)'/>
-<use f='codebrowser/src/vrtql.c' l='522' u='c' c='vrtql_map_get'/>
-<use f='codebrowser/src/vrtql.c' l='535' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='554' u='c' c='vrtql_map_remove'/>
+<use f='codebrowser/src/vrtql.c' l='569' u='c' c='vrtql_map_get'/>
+<use f='codebrowser/src/vrtql.c' l='582' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='601' u='c' c='vrtql_map_remove'/>

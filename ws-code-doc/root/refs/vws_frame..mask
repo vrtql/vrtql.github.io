@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/websocket.h' l='70' type='unsigned char'/>
 <offset>16</offset>
 <doc f='codebrowser/src/websocket.h' l='69'>/**&lt; Defines whether the payload is masked. */</doc>
-<use f='codebrowser/src/server.c' l='1639' u='w' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/websocket.c' l='619' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='733' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='750' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='809' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='842' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/server.c' l='1672' u='w' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/websocket.c' l='621' u='w' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='735' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='752' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='811' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='844' u='r' c='vws_deserialize'/>

@@ -1,13 +1,13 @@
-<dec f='codebrowser/src/server.h' l='250' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * memory)'/>
-<def f='codebrowser/src/server.c' l='721' ll='730' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/server.c' l='1384' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1413' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1572' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1646' u='c' c='ws_svr_client_data_out'/>
-<doc f='codebrowser/src/server.c' l='717'>//------------------------------------------------------------------------------
+<dec f='codebrowser/src/server.h' l='257' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * memory)'/>
+<def f='codebrowser/src/server.c' l='735' ll='744' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * buffer)'/>
+<use f='codebrowser/src/server.c' l='1407' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1436' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1584' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1679' u='c' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/server.c' l='731'>//------------------------------------------------------------------------------
 // Server API
 //------------------------------------------------------------------------------</doc>
-<doc f='codebrowser/src/server.h' l='242'>/**
+<doc f='codebrowser/src/server.h' l='249'>/**
  * @brief Creates a new thread data. This TAKES OWNERSHIP of the buffer data and
  * sets the buffer to zero.
  *

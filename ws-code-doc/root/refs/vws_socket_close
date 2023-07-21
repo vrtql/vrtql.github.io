@@ -6,12 +6,12 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='277' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='292' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='301' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='288' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='303' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='312' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='323' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='333' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='349' u='c' c='vws_socket_disconnect'/>
-<def f='codebrowser/src/socket.c' l='508' ll='552' type='void vws_socket_close(vws_socket * c)'/>
-<use f='codebrowser/src/websocket.c' l='1070' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/socket.c' l='334' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='344' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='360' u='c' c='vws_socket_disconnect'/>
+<def f='codebrowser/src/socket.c' l='519' ll='563' type='void vws_socket_close(vws_socket * c)'/>
+<use f='codebrowser/src/websocket.c' l='1072' u='c' c='socket_wait_for_frame'/>

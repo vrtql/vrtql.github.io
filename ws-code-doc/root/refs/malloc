@@ -20,6 +20,6 @@
 <use f='codebrowser/src/test/test_common.c' l='21' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_json.c' l='17' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/util/yyjson.c' l='942' u='c' c='default_malloc'/>
-<use f='codebrowser/src/vrtql.c' l='187' u='c' c='vrtql_malloc'/>
-<use f='codebrowser/src/vrtql.c' l='291' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='453' u='c' c='vrtql_buffer_printf'/>
+<use f='codebrowser/src/vrtql.c' l='233' u='c' c='vrtql_malloc'/>
+<use f='codebrowser/src/vrtql.c' l='337' u='c' c='vrtql_error_default_submit'/>
+<use f='codebrowser/src/vrtql.c' l='500' u='c' c='vrtql_buffer_printf'/>

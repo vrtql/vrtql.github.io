@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/vrtql.h' l='404' type='char * vrtql_generate_uuid()'/>
-<doc f='codebrowser/src/vrtql.h' l='399'>/**
+<dec f='codebrowser/src/vrtql.h' l='456' type='char * vrtql_generate_uuid()'/>
+<doc f='codebrowser/src/vrtql.h' l='451'>/**
  * @brief Generates a UUID.
  *
  * @return Returns a UUID string
  */</doc>
-<def f='codebrowser/src/vrtql.c' l='580' ll='615' type='char * vrtql_generate_uuid()'/>
-<doc f='codebrowser/src/vrtql.c' l='576'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/vrtql.c' l='627' ll='662' type='char * vrtql_generate_uuid()'/>
+<doc f='codebrowser/src/vrtql.c' l='623'>//------------------------------------------------------------------------------
 // UUID
 //------------------------------------------------------------------------------</doc>

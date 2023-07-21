@@ -1,4 +1,6 @@
 <def f='codebrowser/src/vrtql.c' l='61' type='pthread_mutex_t'/>
-<use f='codebrowser/src/vrtql.c' l='137' u='a' c='vrtql_trace'/>
-<use f='codebrowser/src/vrtql.c' l='143' u='a' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='100' u='a' c='vrtql_trace_lock'/>
+<use f='codebrowser/src/vrtql.c' l='121' u='a' c='vrtql_trace_unlock'/>
+<use f='codebrowser/src/vrtql.c' l='183' u='a' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='189' u='a' c='vrtql_trace'/>
 <doc f='codebrowser/src/vrtql.c' l='60'>// POSIX Mutex for thread-safe logging</doc>

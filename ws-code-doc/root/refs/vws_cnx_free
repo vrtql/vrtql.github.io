@@ -4,8 +4,8 @@
  *
  * @param c The websocket connection.
  */</doc>
-<use f='codebrowser/src/server.c' l='1467' u='c' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1490' u='c' c='ws_svr_client_disconnect'/>
 <use f='codebrowser/src/test/test_example.c' l='17' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='96' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='83' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='47' u='c' c='ctest_test_teardown'/>
 <def f='codebrowser/src/websocket.c' l='294' ll='326' type='void vws_cnx_free(vws_cnx * c)'/>

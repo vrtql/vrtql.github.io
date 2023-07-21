@@ -2,8 +2,8 @@
 <doc f='include/x86_64-linux-gnu/sys/socket.h' l='212'>/* Set socket FD&apos;s option OPTNAME at protocol level LEVEL
    to *OPTVAL (which is OPTLEN bytes long).
    Returns 0 on success, -1 for errors.  */</doc>
-<use f='codebrowser/src/socket.c' l='145' u='c' c='socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='153' u='c' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='150' u='c' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='158' u='c' c='socket_set_timeout'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='203' u='c' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='218' u='c' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='324' u='c' c='setsockopts'/>

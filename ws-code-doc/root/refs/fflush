@@ -4,4 +4,4 @@
    This function is a possible cancellation point and therefore not
    marked with __THROW.  */</doc>
 <use f='codebrowser/src/test/ctest.h' l='559' u='c' c='ctest_main'/>
-<use f='codebrowser/src/vrtql.c' l='164' u='c' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='210' u='c' c='vrtql_trace'/>

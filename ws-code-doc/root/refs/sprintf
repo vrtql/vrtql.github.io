@@ -1,4 +1,4 @@
 <dec f='include/stdio.h' l='334' type='int sprintf(char *restrict __s, const char *restrict __format)'/>
 <use f='codebrowser/src/http_parser.c' l='2292' u='c' c='http_version'/>
 <doc f='include/stdio.h' l='333'>/* Write formatted output to S.  */</doc>
-<use f='codebrowser/src/socket.c' l='286' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='297' u='c' c='vws_socket_connect'/>

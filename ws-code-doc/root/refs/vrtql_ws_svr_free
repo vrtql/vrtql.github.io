@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='404' type='void vrtql_ws_svr_free(vrtql_ws_svr * s)'/>
-<def f='codebrowser/src/server.c' l='1719' ll='1728' type='void vrtql_ws_svr_free(vrtql_ws_svr * server)'/>
+<def f='codebrowser/src/server.c' l='1744' ll='1753' type='void vrtql_ws_svr_free(vrtql_ws_svr * server)'/>
 <doc f='codebrowser/src/server.h' l='399'>/**
  * @brief Frees the resources allocated to a WebSocket server.
  *

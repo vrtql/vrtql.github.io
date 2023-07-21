@@ -33,5 +33,5 @@
 <mbr r='tm::tm_zone' o='384' t='const char *'/>
 <use f='include/wchar.h' l='837' c='wcsftime'/>
 <size>56</size>
-<use f='codebrowser/src/vrtql.c' l='92' c='vrtql_trace'/>
+<use f='codebrowser/src/vrtql.c' l='138' c='vrtql_trace'/>
 <size>56</size>

@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vrtql.h' l='253' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
+<dec f='codebrowser/src/vrtql.h' l='305' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
 <use f='codebrowser/src/http_request.c' l='149' u='c' c='on_url'/>
 <use f='codebrowser/src/http_request.c' l='178' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_request.c' l='179' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_request.c' l='191' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_request.c' l='200' u='c' c='on_header_value'/>
 <use f='codebrowser/src/http_request.c' l='208' u='c' c='on_body'/>
-<doc f='codebrowser/src/vrtql.h' l='246'>/**
+<doc f='codebrowser/src/vrtql.h' l='298'>/**
  * @brief Appends data to a vrtql buffer.
  *
  * @param buffer The buffer to append to
@@ -16,11 +16,11 @@
 <use f='codebrowser/src/message.c' l='423' u='c' c='vrtql_msg_set_content'/>
 <use f='codebrowser/src/message.c' l='429' u='c' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='572' u='c' c='msg_parse_content'/>
-<use f='codebrowser/src/server.c' l='1492' u='c' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/socket.c' l='423' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/server.c' l='1515' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/socket.c' l='434' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_common.c' l='67' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='70' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='28' u='c' c='process_message'/>
-<use f='codebrowser/src/vrtql.c' l='458' u='c' c='vrtql_buffer_printf'/>
-<def f='codebrowser/src/vrtql.c' l='465' ll='493' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
-<use f='codebrowser/src/websocket.c' l='1196' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/vrtql.c' l='505' u='c' c='vrtql_buffer_printf'/>
+<def f='codebrowser/src/vrtql.c' l='512' ll='540' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
+<use f='codebrowser/src/websocket.c' l='1200' u='c' c='vws_msg_pop'/>

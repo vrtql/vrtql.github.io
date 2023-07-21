@@ -6,4 +6,4 @@
 <use f='codebrowser/src/http_request.c' l='215' u='r' c='vrtql_http_req_parse'/>
 <offset>0</offset>
 <doc f='codebrowser/src/http_request.h' l='13'>/**&lt; The parser */</doc>
-<use f='codebrowser/src/server.c' l='1510' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1533' u='r' c='ws_svr_client_read'/>

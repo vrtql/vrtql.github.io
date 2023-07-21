@@ -1,3 +1,4 @@
 <dec f='include/pthread.h' l='774' type='int pthread_mutex_unlock(pthread_mutex_t * __mutex)'/>
 <doc f='include/pthread.h' l='773'>/* Unlock a mutex.  */</doc>
 <use f='codebrowser/src/vrtql.c' l='80' u='c' c='unlock_mutex'/>
+<use f='codebrowser/src/vrtql.c' l='121' u='c' c='vrtql_trace_unlock'/>

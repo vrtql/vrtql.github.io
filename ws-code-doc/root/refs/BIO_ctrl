@@ -1,3 +1,3 @@
 <dec f='include/openssl/bio.h' l='565' type='long BIO_ctrl(BIO * bp, int cmd, long larg, void * parg)'/>
-<use f='codebrowser/src/vrtql.c' l='629' macro='1' u='c' c='vrtql_base64_encode'/>
-<use f='codebrowser/src/vrtql.c' l='632' macro='1' u='c' c='vrtql_base64_encode'/>
+<use f='codebrowser/src/vrtql.c' l='676' macro='1' u='c' c='vrtql_base64_encode'/>
+<use f='codebrowser/src/vrtql.c' l='679' macro='1' u='c' c='vrtql_base64_encode'/>

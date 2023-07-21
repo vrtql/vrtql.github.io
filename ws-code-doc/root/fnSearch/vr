@@ -68,6 +68,8 @@ vrtql_realloc_error|vrtql_realloc_error
 vrtql_set_error|vrtql_set_error
 vrtql_set_flag|vrtql_set_flag
 vrtql_trace|vrtql_trace
+vrtql_trace_lock|vrtql_trace_lock
+vrtql_trace_unlock|vrtql_trace_unlock
 vrtql_url_build|vrtql_url_build
 vrtql_url_free|vrtql_url_free
 vrtql_url_new|vrtql_url_new

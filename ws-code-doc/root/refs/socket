@@ -2,7 +2,7 @@
 <doc f='include/x86_64-linux-gnu/sys/socket.h' l='99'>/* Create a new socket of type TYPE in domain DOMAIN, using
    protocol PROTOCOL.  If PROTOCOL is zero, one is chosen automatically.
    Returns a file descriptor for the new socket, or -1 for errors.  */</doc>
-<use f='codebrowser/src/socket.c' l='585' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='596' u='c' c='connect_to_host'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='195' u='c' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='335' u='c' c='mg_connect_resolved'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='432' u='c' c='mg_socketpair'/>

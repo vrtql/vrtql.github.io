@@ -10,7 +10,7 @@
 <use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='305' u='w' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='312' u='w' c='sc_map_del_str'/>
-<use f='codebrowser/src/vrtql.c' l='524' macro='1' u='r' c='vrtql_map_get'/>
-<use f='codebrowser/src/vrtql.c' l='537' macro='1' u='r' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='545' macro='1' u='r' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='556' macro='1' u='r' c='vrtql_map_remove'/>
+<use f='codebrowser/src/vrtql.c' l='571' macro='1' u='r' c='vrtql_map_get'/>
+<use f='codebrowser/src/vrtql.c' l='584' macro='1' u='r' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='592' macro='1' u='r' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='603' macro='1' u='r' c='vrtql_map_remove'/>
