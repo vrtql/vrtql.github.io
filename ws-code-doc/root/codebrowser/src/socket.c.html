@@ -466,11 +466,11 @@
 <tr><th id="453">453</th><td></td></tr>
 <tr><th id="454">454</th><td>    <b>if</b> (<a class="local col6 ref" href="#56fds" title='fds' data-ref="56fds" data-ref-filename="56fds">fds</a>.<a class="ref field" href="../../include/x86_64-linux-gnu/sys/poll.h.html#pollfd::revents" title='pollfd::revents' data-ref="pollfd::revents" data-ref-filename="pollfd..revents">revents</a> &amp; <a class="local col7 ref" href="#57poll_events" title='poll_events' data-ref="57poll_events" data-ref-filename="57poll_events">poll_events</a>)</td></tr>
 <tr><th id="455">455</th><td>    {</td></tr>
-<tr><th id="456">456</th><td>        <i>// We need running total bc we may make multiple SSL_read() calls.</i></td></tr>
-<tr><th id="457">457</th><td>        <em>int</em> <dfn class="local col3 decl" id="63total" title='total' data-type='int' data-ref="63total" data-ref-filename="63total">total</dfn> = <var>0</var>;</td></tr>
-<tr><th id="458">458</th><td></td></tr>
-<tr><th id="459">459</th><td>        <b>if</b> (<a class="local col5 ref" href="#55c" title='c' data-ref="55c" data-ref-filename="55c">c</a>-&gt;<a class="ref field" href="socket.h.html#vws_socket::ssl" title='vws_socket::ssl' data-ref="vws_socket::ssl" data-ref-filename="vws_socket..ssl">ssl</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
-<tr><th id="460">460</th><td>        {</td></tr>
+<tr><th id="456">456</th><td>        <b>if</b> (<a class="local col5 ref" href="#55c" title='c' data-ref="55c" data-ref-filename="55c">c</a>-&gt;<a class="ref field" href="socket.h.html#vws_socket::ssl" title='vws_socket::ssl' data-ref="vws_socket::ssl" data-ref-filename="vws_socket..ssl">ssl</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="457">457</th><td>        {</td></tr>
+<tr><th id="458">458</th><td>            <i>// We need running total bc we may make multiple SSL_read() calls.</i></td></tr>
+<tr><th id="459">459</th><td>            <em>int</em> <dfn class="local col3 decl" id="63total" title='total' data-type='int' data-ref="63total" data-ref-filename="63total">total</dfn> = <var>0</var>;</td></tr>
+<tr><th id="460">460</th><td></td></tr>
 <tr><th id="461">461</th><td>            <i>// Drain all data from SSL buffer</i></td></tr>
 <tr><th id="462">462</th><td>            <b>while</b> ((<a class="local col0 ref" href="#60n" title='n' data-ref="60n" data-ref-filename="60n">n</a> = <a class="ref fn" href="../../include/openssl/ssl.h.html#SSL_read" title='SSL_read' data-ref="SSL_read" data-ref-filename="SSL_read">SSL_read</a>(<a class="local col5 ref" href="#55c" title='c' data-ref="55c" data-ref-filename="55c">c</a>-&gt;<a class="ref field" href="socket.h.html#vws_socket::ssl" title='vws_socket::ssl' data-ref="vws_socket::ssl" data-ref-filename="vws_socket..ssl">ssl</a>, <span class='error' title="passing &apos;ucstr&apos; (aka &apos;const unsigned char *&apos;) to parameter of type &apos;void *&apos; discards qualifiers"><a class="local col1 ref" href="#61data" title='data' data-ref="61data" data-ref-filename="61data">data</a></span>, <a class="local col2 ref" href="#62size" title='size' data-ref="62size" data-ref-filename="62size">size</a>)) &gt; <var>0</var>)</td></tr>
 <tr><th id="463">463</th><td>            {</td></tr>
