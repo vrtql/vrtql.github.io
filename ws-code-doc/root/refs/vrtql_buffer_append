@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vrtql.h' l='312' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
+<dec f='codebrowser/src/vrtql.h' l='318' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
 <use f='codebrowser/src/http_message.c' l='97' u='c' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='98' u='c' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='187' u='c' c='on_url'/>
 <use f='codebrowser/src/http_message.c' l='199' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_message.c' l='208' u='c' c='on_header_value'/>
 <use f='codebrowser/src/http_message.c' l='216' u='c' c='on_body'/>
-<doc f='codebrowser/src/vrtql.h' l='305'>/**
+<doc f='codebrowser/src/vrtql.h' l='311'>/**
  * @brief Appends data to a vrtql buffer.
  *
  * @param buffer The buffer to append to
@@ -19,9 +19,9 @@
 <use f='codebrowser/src/server.c' l='1547' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='466' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='570' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/test/test_common.c' l='67' u='c' c='ctest_test_buffer_run'/>
-<use f='codebrowser/src/test/test_common.c' l='70' u='c' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='86' u='c' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='89' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='28' u='c' c='process_message'/>
-<use f='codebrowser/src/vrtql.c' l='505' u='c' c='vrtql_buffer_printf'/>
-<def f='codebrowser/src/vrtql.c' l='512' ll='540' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
-<use f='codebrowser/src/websocket.c' l='1230' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/vrtql.c' l='514' u='c' c='vrtql_buffer_printf'/>
+<def f='codebrowser/src/vrtql.c' l='521' ll='549' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
+<use f='codebrowser/src/websocket.c' l='1239' u='c' c='vws_msg_pop'/>

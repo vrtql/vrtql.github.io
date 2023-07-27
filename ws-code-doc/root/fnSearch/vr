@@ -53,6 +53,7 @@ vrtql_calloc|vrtql_calloc
 vrtql_calloc_error|vrtql_calloc_error
 vrtql_clear_flag|vrtql_clear_flag
 vrtql_error_success_default|vrtql_error_success_default
+vrtql_free|vrtql_free
 vrtql_generate_uuid|vrtql_generate_uuid
 vrtql_get_error|vrtql_get_error
 vrtql_is_flag|vrtql_is_flag
@@ -70,7 +71,3 @@ vrtql_set_flag|vrtql_set_flag
 vrtql_trace|vrtql_trace
 vrtql_trace_lock|vrtql_trace_lock
 vrtql_trace_unlock|vrtql_trace_unlock
-vrtql_url_build|vrtql_url_build
-vrtql_url_free|vrtql_url_free
-vrtql_url_new|vrtql_url_new
-vrtql_url_parse|vrtql_url_parse

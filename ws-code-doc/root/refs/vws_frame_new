@@ -9,12 +9,12 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1701' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/test/test_websocket.c' l='64' u='c' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='562' u='c' c='vws_frame_send_data'/>
-<use f='codebrowser/src/websocket.c' l='577' u='c' c='vws_msg_send_data'/>
-<def f='codebrowser/src/websocket.c' l='678' ll='698' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
-<use f='codebrowser/src/websocket.c' l='1136' u='c' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1189' u='c' c='vws_generate_close_frame'/>
-<use f='codebrowser/src/websocket.c' l='1199' u='c' c='vws_generate_pong_frame'/>
-<doc f='codebrowser/src/websocket.c' l='674'>//------------------------------------------------------------------------------
+<use f='codebrowser/src/websocket.c' l='571' u='c' c='vws_frame_send_data'/>
+<use f='codebrowser/src/websocket.c' l='586' u='c' c='vws_msg_send_data'/>
+<def f='codebrowser/src/websocket.c' l='687' ll='707' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
+<use f='codebrowser/src/websocket.c' l='1145' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1198' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1208' u='c' c='vws_generate_pong_frame'/>
+<doc f='codebrowser/src/websocket.c' l='683'>//------------------------------------------------------------------------------
 //&gt; Frame API
 //------------------------------------------------------------------------------</doc>

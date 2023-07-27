@@ -3,11 +3,17 @@
 <use f='codebrowser/src/rpc.c' l='61' u='c' c='vrtql_rpc_module_new'/>
 <use f='codebrowser/src/rpc.c' l='266' u='c' c='sys_map_set'/>
 <use f='codebrowser/src/server.c' l='1335' u='c' c='queue_init'/>
-<use f='codebrowser/src/vrtql.c' l='314' u='c' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='587' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='590' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='789' u='c' c='url_extract_part'/>
-<use f='codebrowser/src/vrtql.c' l='829' u='c' c='vrtql_url_extract_port'/>
-<use f='codebrowser/src/vrtql.c' l='860' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='916' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/websocket.c' l='354' u='c' c='vws_connect'/>
+<def f='codebrowser/src/url.c' l='34' ll='40' type='char * strdup(const char * str)'/>
+<use f='codebrowser/src/url.c' l='51' u='c' c='strff'/>
+<use f='codebrowser/src/url.c' l='58' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='59' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='60' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='81' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='97' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='128' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='170' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='248' u='c' c='url_get_hostname'/>
+<use f='codebrowser/src/vrtql.c' l='319' u='c' c='vrtql_set_error'/>
+<use f='codebrowser/src/vrtql.c' l='596' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='599' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/websocket.c' l='363' u='c' c='vws_connect'/>

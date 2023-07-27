@@ -4,8 +4,8 @@
  *
  * @return Returns a pointer to the new message.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='627' ll='634' type='vws_msg * vws_msg_new()'/>
-<use f='codebrowser/src/websocket.c' l='1213' u='c' c='vws_msg_pop'/>
-<doc f='codebrowser/src/websocket.c' l='623'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/websocket.c' l='636' ll='643' type='vws_msg * vws_msg_new()'/>
+<use f='codebrowser/src/websocket.c' l='1222' u='c' c='vws_msg_pop'/>
+<doc f='codebrowser/src/websocket.c' l='632'>//------------------------------------------------------------------------------
 //&gt; Message API
 //------------------------------------------------------------------------------</doc>

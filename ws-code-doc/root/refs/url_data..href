@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/url.h' l='53' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/url.c' l='96' u='w' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='413' u='r' c='url_data_inspect'/>
+<use f='codebrowser/src/url.c' l='413' u='r' c='url_data_inspect'/>

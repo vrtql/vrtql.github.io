@@ -36,6 +36,7 @@ codebrowser/src/test/common.h
 codebrowser/src/test/ctest.h
 codebrowser/src/test/server.c
 codebrowser/src/test/test_common.c
+codebrowser/src/url.h
 codebrowser/src/test/test_example.c
 codebrowser/src/test/test_http_request.c
 codebrowser/src/test/test_json.c
@@ -46,6 +47,7 @@ codebrowser/src/test/test_server.c
 codebrowser/src/test/test_vql.c
 codebrowser/src/test/test_websocket.c
 codebrowser/src/test/util/mongoose.c
+codebrowser/src/url.c
 codebrowser/src/util/sc_map.c
 codebrowser/src/util/yyjson.c
 codebrowser/src/vrtql.c

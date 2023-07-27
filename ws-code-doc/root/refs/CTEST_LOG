@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/test/ctest.h' l='167' type='void CTEST_LOG(const char * fmt)'/>
 <def f='codebrowser/src/test/ctest.h' l='324' ll='334' type='void CTEST_LOG(const char * fmt)'/>
-<use f='codebrowser/src/test/test_common.c' l='19' u='c' c='ctest_test_setup'/>
-<use f='codebrowser/src/test/test_common.c' l='26' u='c' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='20' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_common.c' l='27' u='c' c='ctest_test_teardown'/>

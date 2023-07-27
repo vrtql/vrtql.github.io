@@ -11,5 +11,5 @@
  */</doc>
 <def f='codebrowser/src/socket.c' l='382' ll='576' type='ssize_t vws_socket_read(vws_socket * c)'/>
 <use f='codebrowser/src/test/test_server.c' l='65' u='c' c='client_thread'/>
-<use f='codebrowser/src/websocket.c' l='433' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='1103' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='442' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1112' u='c' c='socket_wait_for_frame'/>

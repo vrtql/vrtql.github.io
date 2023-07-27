@@ -8,4 +8,4 @@
  */</doc>
 <use f='codebrowser/src/socket.c' l='105' u='c' c='vws_socket_dtor'/>
 <def f='codebrowser/src/socket.c' l='370' ll='380' type='void vws_socket_disconnect(vws_socket * c)'/>
-<use f='codebrowser/src/websocket.c' l='543' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='552' u='c' c='vws_disconnect'/>

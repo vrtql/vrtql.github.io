@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='231' type='unsigned char [4096]'/>
-<offset>960</offset>
-<doc f='codebrowser/src/vrtql.h' l='231'>/**&lt; Thread-local SSL buffer */</doc>
+<dec f='codebrowser/src/vrtql.h' l='237' type='unsigned char [4096]'/>
+<offset>1024</offset>
+<doc f='codebrowser/src/vrtql.h' l='237'>/**&lt; Thread-local SSL buffer */</doc>
 <use f='codebrowser/src/socket.c' l='451' u='a' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='452' u='r' c='vws_socket_read'/>

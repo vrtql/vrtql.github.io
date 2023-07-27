@@ -11,8 +11,8 @@
  */</doc>
 <def f='codebrowser/src/socket.c' l='578' ll='751' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
 <use f='codebrowser/src/test/test_server.c' l='62' u='c' c='client_thread'/>
-<use f='codebrowser/src/websocket.c' l='394' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='531' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='609' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='979' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1004' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='403' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='540' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='618' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='988' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1013' u='c' c='process_frame'/>

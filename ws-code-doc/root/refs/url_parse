@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/url.h' l='75' type='url_data_t * url_parse(char * url)'/>
+<use f='codebrowser/src/test/test_common.c' l='43' u='c' c='ctest_test_test_url_run'/>
+<doc f='codebrowser/src/url.h' l='69'>/**
+ * Parses a url into parts and returns
+ * a `url_data_t *` pointer
+ */</doc>
+<def f='codebrowser/src/url.c' l='91' ll='199' type='url_data_t * url_parse(char * url)'/>
+<use f='codebrowser/src/url.c' l='399' u='c' c='url_inspect'/>
+<use f='codebrowser/src/websocket.c' l='354' u='c' c='vws_connect'/>

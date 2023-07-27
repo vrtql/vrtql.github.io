@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/url.h' l='84' type='char * url_get_hostname(const char * url)'/>
+<def f='codebrowser/src/url.c' l='244' ll='266' type='char * url_get_hostname(const char * url)'/>
+<use f='codebrowser/src/url.c' l='271' u='c' c='url_get_host'/>
+<use f='codebrowser/src/url.c' l='301' u='c' c='url_get_path'/>
+<use f='codebrowser/src/url.c' l='387' u='c' c='url_get_port'/>

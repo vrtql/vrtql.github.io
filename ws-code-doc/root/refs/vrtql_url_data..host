@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/websocket.h' l='206' type='char *'/>
+<offset>128</offset>
+<use f='codebrowser/src/websocket.c' l='356' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='375' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='395' u='r' c='socket_handshake'/>

@@ -3,10 +3,4 @@
 <use f='codebrowser/src/message.c' l='133' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='282' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/test/ctest.h' l='592' u='c' c='ctest_main'/>
-<use f='codebrowser/src/vrtql.c' l='1047' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/vrtql.c' l='1052' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/vrtql.c' l='1057' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/vrtql.c' l='1062' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/vrtql.c' l='1067' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/vrtql.c' l='1072' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/websocket.c' l='386' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='395' u='c' c='socket_handshake'/>

@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/socket.h' l='113' type='_Bool vws_socket_connect(vws_socket * s, cstr host, int port, _Bool ssl)'/>
 <def f='codebrowser/src/socket.c' l='262' ll='368' macro='1' type='_Bool vws_socket_connect(vws_socket * c, cstr host, int port, _Bool ssl)'/>
 <use f='codebrowser/src/test/test_server.c' l='57' u='c' c='client_thread'/>
-<use f='codebrowser/src/websocket.c' l='366' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='375' u='c' c='vws_connect'/>

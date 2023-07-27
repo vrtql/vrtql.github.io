@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/websocket.c' l='52' type='1002'/>
-<doc f='codebrowser/src/websocket.c' l='50'>/** Protocol Error. The endpoint is terminating the connection due to a
+<dec f='codebrowser/src/websocket.c' l='53' type='1002'/>
+<doc f='codebrowser/src/websocket.c' l='51'>/** Protocol Error. The endpoint is terminating the connection due to a
      * protocol error. */</doc>

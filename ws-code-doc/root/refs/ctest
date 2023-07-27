@@ -17,13 +17,14 @@
 <mbr r='ctest::teardown' o='320' t='ctest_teardown_func *'/>
 <mbr r='ctest::skip' o='384' t='int'/>
 <mbr r='ctest::magic' o='416' t='unsigned int'/>
-<use f='codebrowser/src/test/test_common.c' l='34' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='39' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='61' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='83' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='101' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='107' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='117' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='35' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='40' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='58' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='80' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='102' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='120' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='126' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='136' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_http_request.c' l='5' macro='1'/>
 <size>56</size>

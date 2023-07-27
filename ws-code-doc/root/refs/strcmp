@@ -4,10 +4,14 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='59' u='c' c='packed_list'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='p_list'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='p_list'/>
+<use f='codebrowser/src/url.c' l='79' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='206' u='c' c='url_is_protocol'/>
+<use f='codebrowser/src/url.c' l='216' u='c' c='url_is_ssh'/>
+<use f='codebrowser/src/url.c' l='216' u='c' c='url_is_ssh'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_s64'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sll'/>
-<use f='codebrowser/src/websocket.c' l='357' u='c' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='361' u='c' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='1080' u='c' c='verify_handshake'/>
+<use f='codebrowser/src/websocket.c' l='366' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='370' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='1089' u='c' c='verify_handshake'/>

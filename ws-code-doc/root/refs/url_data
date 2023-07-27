@@ -1,0 +1,18 @@
+<def f='codebrowser/src/url.h' l='52' ll='64'/>
+<use f='codebrowser/src/url.h' l='52'/>
+<size>88</size>
+<doc f='codebrowser/src/url.h' l='47'>/**
+ * `url_data` struct that defines parts
+ * of a parsed URL such as host and protocol
+ */</doc>
+<mbr r='url_data::href' o='0' t='char *'/>
+<mbr r='url_data::protocol' o='64' t='char *'/>
+<mbr r='url_data::host' o='128' t='char *'/>
+<mbr r='url_data::auth' o='192' t='char *'/>
+<mbr r='url_data::hostname' o='256' t='char *'/>
+<mbr r='url_data::pathname' o='320' t='char *'/>
+<mbr r='url_data::search' o='384' t='char *'/>
+<mbr r='url_data::path' o='448' t='char *'/>
+<mbr r='url_data::hash' o='512' t='char *'/>
+<mbr r='url_data::query' o='576' t='char *'/>
+<mbr r='url_data::port' o='640' t='char *'/>

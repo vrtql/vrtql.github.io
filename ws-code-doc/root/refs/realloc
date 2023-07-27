@@ -4,4 +4,4 @@
    between objects pointed by the old and new pointers.  */</doc>
 <use f='codebrowser/src/mpack/mpack-platform.h' l='460' u='c' c='mpack_realloc'/>
 <use f='codebrowser/src/util/yyjson.c' l='946' u='c' c='default_realloc'/>
-<use f='codebrowser/src/vrtql.c' l='277' u='c' c='vrtql_realloc'/>
+<use f='codebrowser/src/vrtql.c' l='282' u='c' c='vrtql_realloc'/>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vrtql.h' l='225' type='vrtql_error_clear_cb'/>
-<offset>512</offset>
-<doc f='codebrowser/src/vrtql.h' l='225'>/**&lt; Error clear function        */</doc>
-<use f='codebrowser/src/vrtql.c' l='440' u='w'/>
+<dec f='codebrowser/src/vrtql.h' l='231' type='vrtql_error_clear_cb'/>
+<offset>576</offset>
+<doc f='codebrowser/src/vrtql.h' l='231'>/**&lt; Error clear function        */</doc>
+<use f='codebrowser/src/vrtql.c' l='449' u='w'/>

@@ -7,5 +7,5 @@
  * @param ... The arguments for the format string
  */</doc>
 <def f='codebrowser/src/vrtql.c' l='129' ll='225' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
-<use f='codebrowser/src/vrtql.c' l='443'/>
-<use f='codebrowser/src/vrtql.c' l='443'/>
+<use f='codebrowser/src/vrtql.c' l='452'/>
+<use f='codebrowser/src/vrtql.c' l='452'/>

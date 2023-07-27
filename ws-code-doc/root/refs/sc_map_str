@@ -6,10 +6,10 @@
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_put_str'/>
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_get_str'/>
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_del_str'/>
-<use f='codebrowser/src/vrtql.h' l='335' c='vrtql_map_get'/>
-<use f='codebrowser/src/vrtql.h' l='346' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.h' l='356' c='vrtql_map_remove'/>
-<use f='codebrowser/src/vrtql.h' l='363' c='vrtql_map_clear'/>
+<use f='codebrowser/src/vrtql.h' l='341' c='vrtql_map_get'/>
+<use f='codebrowser/src/vrtql.h' l='352' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.h' l='362' c='vrtql_map_remove'/>
+<use f='codebrowser/src/vrtql.h' l='369' c='vrtql_map_clear'/>
 <use f='codebrowser/src/http_message.h' l='20'/>
 <size>32</size>
 <mbr r='sc_map_str::mem' o='0' t='struct sc_map_item_str *'/>
@@ -37,10 +37,10 @@
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_get_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_del_str'/>
 <size>32</size>
-<use f='codebrowser/src/vrtql.c' l='566' c='vrtql_map_get'/>
-<use f='codebrowser/src/vrtql.c' l='579' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='598' c='vrtql_map_remove'/>
-<use f='codebrowser/src/vrtql.c' l='611' c='vrtql_map_clear'/>
+<use f='codebrowser/src/vrtql.c' l='575' c='vrtql_map_get'/>
+<use f='codebrowser/src/vrtql.c' l='588' c='vrtql_map_set'/>
+<use f='codebrowser/src/vrtql.c' l='607' c='vrtql_map_remove'/>
+<use f='codebrowser/src/vrtql.c' l='620' c='vrtql_map_clear'/>
 <size>32</size>
-<use f='codebrowser/src/websocket.c' l='494' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='503' c='socket_handshake'/>
 <size>32</size>

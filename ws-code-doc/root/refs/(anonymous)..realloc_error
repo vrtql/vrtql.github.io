@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='222' type='vrtql_realloc_error_cb'/>
+<dec f='codebrowser/src/vrtql.h' l='227' type='vrtql_realloc_error_cb'/>
 <offset>320</offset>
-<doc f='codebrowser/src/vrtql.h' l='222'>/**&lt; calloc error hanlding       */</doc>
-<use f='codebrowser/src/vrtql.c' l='281' u='r' c='vrtql_realloc'/>
-<use f='codebrowser/src/vrtql.c' l='437' u='w'/>
+<doc f='codebrowser/src/vrtql.h' l='227'>/**&lt; calloc error hanlding       */</doc>
+<use f='codebrowser/src/vrtql.c' l='286' u='r' c='vrtql_realloc'/>
+<use f='codebrowser/src/vrtql.c' l='445' u='w'/>

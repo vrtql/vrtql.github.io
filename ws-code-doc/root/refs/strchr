@@ -3,4 +3,3 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='53' u='c' c='packed_list'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='188' u='c' c='skip'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='190' u='c' c='skip'/>
-<use f='codebrowser/src/vrtql.c' l='823' u='c' c='vrtql_url_extract_port'/>

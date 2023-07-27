@@ -1,8 +1,7 @@
-<dec f='codebrowser/src/vrtql.h' l='396' type='char * vrtql_url_build(const vrtql_url * parts)'/>
-<doc f='codebrowser/src/vrtql.h' l='390'>/**
+<dec f='codebrowser/src/vrtql.h' l='402' type='char * vrtql_url_build(const vrtql_url * parts)'/>
+<doc f='codebrowser/src/vrtql.h' l='396'>/**
  * @brief Builds a URL string from parts.
  *
  * @param parts The URL parts
  * @return Returns a URL string built from the parts
  */</doc>
-<def f='codebrowser/src/vrtql.c' l='1002' ll='1076' type='char * vrtql_url_build(const vrtql_url * parts)'/>

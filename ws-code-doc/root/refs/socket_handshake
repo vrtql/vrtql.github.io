@@ -1,1 +1,1 @@
-<def f='codebrowser/src/websocket.c' l='369' ll='514' macro='1' type='_Bool socket_handshake(vws_socket * s)'/>
+<def f='codebrowser/src/websocket.c' l='378' ll='523' macro='1' type='_Bool socket_handshake(vws_socket * s)'/>

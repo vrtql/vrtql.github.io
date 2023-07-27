@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/vrtql.h' l='55' type='int'/>
 <offset>0</offset>
 <doc f='codebrowser/src/vrtql.h' l='55'>/**&lt; Error code */</doc>
-<use f='codebrowser/src/vrtql.c' l='310' u='w' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='442' u='w'/>
-<use f='codebrowser/src/vrtql.c' l='442' u='w'/>
-<use f='codebrowser/src/websocket.c' l='415' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='453' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/vrtql.c' l='315' u='w' c='vrtql_set_error'/>
+<use f='codebrowser/src/vrtql.c' l='451' u='w'/>
+<use f='codebrowser/src/vrtql.c' l='451' u='w'/>
+<use f='codebrowser/src/websocket.c' l='424' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='462' u='r' c='socket_handshake'/>

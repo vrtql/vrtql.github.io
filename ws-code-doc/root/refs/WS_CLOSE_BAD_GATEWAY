@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.c' l='103' type='1014'/>
-<doc f='codebrowser/src/websocket.c' l='100'>/** Bad Gateway. The server was acting as a gateway or proxy and received an
+<dec f='codebrowser/src/websocket.c' l='104' type='1014'/>
+<doc f='codebrowser/src/websocket.c' l='101'>/** Bad Gateway. The server was acting as a gateway or proxy and received an
      * invalid response from the upstream server. This is similar to 502 HTTP
      * Status Code. */</doc>

@@ -2,7 +2,7 @@
 <offset>0</offset>
 <doc f='codebrowser/src/websocket.h' l='169'>/**&lt; Defines the interpretation of the payload data. */</doc>
 <use f='codebrowser/src/server.c' l='1736' u='r' c='ws_svr_client_msg_out'/>
-<use f='codebrowser/src/websocket.c' l='630' u='w' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='1216' u='w' c='vws_msg_pop'/>
-<use f='codebrowser/src/websocket.c' l='1224' u='r' c='vws_msg_pop'/>
-<use f='codebrowser/src/websocket.c' l='1226' u='w' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='639' u='w' c='vws_msg_new'/>
+<use f='codebrowser/src/websocket.c' l='1225' u='w' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1233' u='r' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1235' u='w' c='vws_msg_pop'/>

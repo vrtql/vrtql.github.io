@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/url.h' l='90' type='char * url_get_pathname(const char * url)'/>
+<def f='codebrowser/src/url.c' l='282' ll='294' type='char * url_get_pathname(const char * url)'/>
+<use f='codebrowser/src/url.c' l='332' u='c' c='url_get_search'/>
+<use f='codebrowser/src/url.c' l='361' u='c' c='url_get_hash'/>

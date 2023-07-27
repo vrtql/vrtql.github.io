@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/websocket.h' l='54' type='10'/>
 <doc f='codebrowser/src/websocket.h' l='53'>/** A pong control frame, in response to a ping. */</doc>
 <use f='codebrowser/src/server.c' l='1480' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1013' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1199' u='r' c='vws_generate_pong_frame'/>
+<use f='codebrowser/src/websocket.c' l='1022' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1208' u='r' c='vws_generate_pong_frame'/>

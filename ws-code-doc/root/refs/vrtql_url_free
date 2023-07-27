@@ -1,9 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='410' type='void vrtql_url_free(vrtql_url parts)'/>
-<doc f='codebrowser/src/vrtql.h' l='405'>/**
+<dec f='codebrowser/src/vrtql.h' l='416' type='void vrtql_url_free(vrtql_url parts)'/>
+<doc f='codebrowser/src/vrtql.h' l='411'>/**
  * @brief Frees a vrtql_url structure.
  *
  * @param parts The vrtql_url structure to free
  */</doc>
-<def f='codebrowser/src/vrtql.c' l='963' ll='1000' type='void vrtql_url_free(vrtql_url url)'/>
-<use f='codebrowser/src/websocket.c' l='321' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='344' u='c' c='vws_connect'/>

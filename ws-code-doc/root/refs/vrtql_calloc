@@ -1,3 +1,3 @@
-<def f='codebrowser/src/vrtql.c' l='253' ll='263' type='void * vrtql_calloc(size_t nmemb, size_t size)'/>
-<use f='codebrowser/src/vrtql.c' l='434'/>
-<use f='codebrowser/src/vrtql.c' l='434'/>
+<def f='codebrowser/src/vrtql.c' l='258' ll='268' type='void * vrtql_calloc(size_t nmemb, size_t size)'/>
+<use f='codebrowser/src/vrtql.c' l='442'/>
+<use f='codebrowser/src/vrtql.c' l='442'/>

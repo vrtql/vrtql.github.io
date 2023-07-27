@@ -1,12 +1,5 @@
 <dec f='include/stdlib.h' l='563' type='void free(void * __ptr)'/>
-<use f='codebrowser/src/http_message.c' l='149' u='c' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='150' u='c' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='158' u='c' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='159' u='c' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='160' u='c' c='vrtql_http_msg_free'/>
 <doc f='include/stdlib.h' l='562'>/* Free a block allocated by `malloc&apos;, `realloc&apos; or `calloc&apos;.  */</doc>
-<use f='codebrowser/src/message.c' l='69' u='c' c='vrtql_msg_free'/>
-<use f='codebrowser/src/message.c' l='187' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='666' macro='1' u='c' c='mpack_expect_cstr_alloc'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='679' macro='1' u='c' c='mpack_expect_utf8_cstr_alloc'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='832' macro='1' u='c' c='mpack_tree_cleanup'/>
@@ -23,45 +16,14 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='312' macro='1' u='c' c='mpack_file_writer_teardown'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='560' macro='1' u='c' c='mpack_writer_destroy'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1469' macro='1' u='c' c='mpack_builder_free_page'/>
-<use f='codebrowser/src/rpc.c' l='74' u='c' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='79' u='c' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='80' u='c' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='115' u='c' c='vrtql_rpc_system_free'/>
-<use f='codebrowser/src/rpc.c' l='126' u='c' c='vrtql_rpc_system_free'/>
-<use f='codebrowser/src/rpc.c' l='208' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/rpc.c' l='209' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/rpc.c' l='222' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/rpc.c' l='223' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/rpc.c' l='228' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/rpc.c' l='229' u='c' c='vrtql_rpc'/>
-<use f='codebrowser/src/server.c' l='776' u='c' c='vrtql_svr_data_free'/>
-<use f='codebrowser/src/server.c' l='777' u='c' c='vrtql_svr_data_free'/>
-<use f='codebrowser/src/server.c' l='800' u='c' c='vrtql_svr_free'/>
-<use f='codebrowser/src/server.c' l='1011' u='c' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1031' u='c' c='svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1122' u='c' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1151' u='c' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1181' u='c' c='svr_cnx_free'/>
-<use f='codebrowser/src/server.c' l='1274' u='c' c='svr_on_read'/>
-<use f='codebrowser/src/server.c' l='1290' u='c' c='svr_on_write_complete'/>
-<use f='codebrowser/src/server.c' l='1311' u='c' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1314' u='c' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1346' u='c' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1349' u='c' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1359' u='c' c='queue_push'/>
 <use f='codebrowser/src/server.c' l='1456' macro='1' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1550' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1597' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1784' u='c' c='vrtql_ws_svr_free'/>
-<use f='codebrowser/src/server.c' l='1884' u='c' c='vrtql_msg_svr_free'/>
-<use f='codebrowser/src/socket.c' l='116' u='c' c='vws_socket_dtor'/>
-<use f='codebrowser/src/test/test_common.c' l='30' u='c' c='ctest_test_teardown'/>
-<use f='codebrowser/src/test/test_common.c' l='57' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='58' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='89' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='90' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='91' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='98' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='31' u='c' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='76' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='77' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='108' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='109' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='110' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='117' macro='1' u='c' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/test_json.c' l='24' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_json.c' l='83' u='c' c='ctest_test_write_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='126' u='c' c='client_test'/>
@@ -83,6 +45,54 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='99' u='c' c='mg_tls_init'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='112' u='c' c='mg_tls_init'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='135' u='c' c='mg_tls_free'/>
+<use f='codebrowser/src/url.c' l='74' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='84' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='85' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='86' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='101' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='102' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='123' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='133' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='135' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='154' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='163' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='165' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='176' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='183' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='195' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='196' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='230' u='c' c='url_get_protocol'/>
+<use f='codebrowser/src/url.c' l='240' u='c' c='url_get_auth'/>
+<use f='codebrowser/src/url.c' l='254' u='c' c='url_get_hostname'/>
+<use f='codebrowser/src/url.c' l='259' u='c' c='url_get_hostname'/>
+<use f='codebrowser/src/url.c' l='264' u='c' c='url_get_hostname'/>
+<use f='codebrowser/src/url.c' l='277' u='c' c='url_get_host'/>
+<use f='codebrowser/src/url.c' l='291' u='c' c='url_get_pathname'/>
+<use f='codebrowser/src/url.c' l='321' u='c' c='url_get_path'/>
+<use f='codebrowser/src/url.c' l='322' u='c' c='url_get_path'/>
+<use f='codebrowser/src/url.c' l='323' u='c' c='url_get_path'/>
+<use f='codebrowser/src/url.c' l='324' u='c' c='url_get_path'/>
+<use f='codebrowser/src/url.c' l='339' u='c' c='url_get_search'/>
+<use f='codebrowser/src/url.c' l='340' u='c' c='url_get_search'/>
+<use f='codebrowser/src/url.c' l='352' u='c' c='url_get_query'/>
+<use f='codebrowser/src/url.c' l='363' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='376' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='377' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='378' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='379' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='392' u='c' c='url_get_port'/>
+<use f='codebrowser/src/url.c' l='393' u='c' c='url_get_port'/>
+<use f='codebrowser/src/url.c' l='429' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='430' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='431' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='432' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='433' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='434' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='435' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='436' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='437' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='438' u='c' c='url_free'/>
+<use f='codebrowser/src/url.c' l='439' u='c' c='url_free'/>
 <use f='codebrowser/src/util/sc_map.c' l='397' macro='1' u='c' c='sc_map_term_int'/>
 <use f='codebrowser/src/util/sc_map.c' l='397' macro='1' u='c' c='sc_map_remap_int'/>
 <use f='codebrowser/src/util/sc_map.c' l='398' macro='1' u='c' c='sc_map_term_intv'/>
@@ -112,41 +122,6 @@
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_term_sll'/>
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_remap_sll'/>
 <use f='codebrowser/src/util/yyjson.c' l='950' u='c' c='default_free'/>
-<use f='codebrowser/src/vrtql.c' l='306' u='c' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='352' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='469' u='c' c='vrtql_buffer_clear'/>
-<use f='codebrowser/src/vrtql.c' l='483' u='c' c='vrtql_buffer_free'/>
-<use f='codebrowser/src/vrtql.c' l='508' u='c' c='vrtql_buffer_printf'/>
-<use f='codebrowser/src/vrtql.c' l='594' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='605' u='c' c='vrtql_map_remove'/>
-<use f='codebrowser/src/vrtql.c' l='616' u='c' c='vrtql_map_clear'/>
-<use f='codebrowser/src/vrtql.c' l='617' u='c' c='vrtql_map_clear'/>
-<use f='codebrowser/src/vrtql.c' l='793' u='c' c='url_extract_part'/>
-<use f='codebrowser/src/vrtql.c' l='840' u='c' c='vrtql_url_extract_port'/>
-<use f='codebrowser/src/vrtql.c' l='844' u='c' c='vrtql_url_extract_port'/>
-<use f='codebrowser/src/vrtql.c' l='875' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='880' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='890' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='895' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='905' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='917' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='921' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='941' u='c' c='vrtql_url_parse'/>
-<use f='codebrowser/src/vrtql.c' l='967' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/vrtql.c' l='973' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/vrtql.c' l='979' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/vrtql.c' l='985' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/vrtql.c' l='991' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/vrtql.c' l='997' u='c' c='vrtql_url_free'/>
-<use f='codebrowser/src/websocket.c' l='307' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='318' macro='1' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='324' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='507' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='641' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='706' u='c' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='712' u='c' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='826' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='993' macro='1' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1072' u='c' c='vws_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1081' u='c' c='verify_handshake'/>
-<use f='codebrowser/src/websocket.c' l='1191' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/vrtql.c' l='255' u='c' c='vrtql_free'/>
+<use f='codebrowser/src/websocket.c' l='319' macro='1' u='c' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='1002' macro='1' u='c' c='process_frame'/>

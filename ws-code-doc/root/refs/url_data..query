@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/url.h' l='62' type='char *'/>
+<use f='codebrowser/src/test/test_common.c' l='52' u='r' c='ctest_test_test_url_run'/>
+<offset>576</offset>
+<use f='codebrowser/src/url.c' l='188' u='w' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='422' u='r' c='url_data_inspect'/>
+<use f='codebrowser/src/url.c' l='422' u='r' c='url_data_inspect'/>
+<use f='codebrowser/src/url.c' l='438' u='r' c='url_free'/>

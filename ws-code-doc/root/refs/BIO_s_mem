@@ -1,2 +1,2 @@
 <dec f='include/openssl/bio.h' l='588' type='const BIO_METHOD * BIO_s_mem()'/>
-<use f='codebrowser/src/vrtql.c' l='670' u='c' c='vrtql_base64_encode'/>
+<use f='codebrowser/src/vrtql.c' l='679' u='c' c='vrtql_base64_encode'/>

@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/websocket.c' l='26' type='2'/>
-<doc f='codebrowser/src/websocket.c' l='25'>/** The connection with the client is established and open. */</doc>
+<dec f='codebrowser/src/websocket.c' l='27' type='2'/>
+<doc f='codebrowser/src/websocket.c' l='26'>/** The connection with the client is established and open. */</doc>

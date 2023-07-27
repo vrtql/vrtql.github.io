@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/vrtql.h' l='32' type='200'/>
 <doc f='codebrowser/src/vrtql.h' l='32'>/**&lt; Fatal error */</doc>
 <use f='codebrowser/src/server.c' l='1259' c='svr_on_connect'/>
-<use f='codebrowser/src/vrtql.c' l='379' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='400' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='384' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vrtql.c' l='405' c='vrtql_error_default_process'/>

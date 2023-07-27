@@ -1,2 +1,15 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='72' u='c' c='parse_net'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='73' u='c' c='parse_net'/>
+<use f='codebrowser/src/url.c' l='77' u='c' c='get_part'/>
+<use f='codebrowser/src/url.c' l='132' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='171' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='179' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='187' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='193' u='c' c='url_parse'/>
+<use f='codebrowser/src/url.c' l='227' u='c' c='url_get_protocol'/>
+<use f='codebrowser/src/url.c' l='275' u='c' c='url_get_host'/>
+<use f='codebrowser/src/url.c' l='289' u='c' c='url_get_pathname'/>
+<use f='codebrowser/src/url.c' l='337' u='c' c='url_get_search'/>
+<use f='codebrowser/src/url.c' l='351' u='c' c='url_get_query'/>
+<use f='codebrowser/src/url.c' l='374' u='c' c='url_get_hash'/>
+<use f='codebrowser/src/url.c' l='391' u='c' c='url_get_port'/>

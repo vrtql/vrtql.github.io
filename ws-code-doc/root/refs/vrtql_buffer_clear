@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/vrtql.h' l='272' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
+<dec f='codebrowser/src/vrtql.h' l='278' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
 <use f='codebrowser/src/http_message.c' l='105' u='c' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='106' u='c' c='process_header'/>
-<doc f='codebrowser/src/vrtql.h' l='267'>/**
+<doc f='codebrowser/src/vrtql.h' l='273'>/**
  * @brief Clears a vrtql buffer.
  *
  * @param buffer The buffer to be cleared
@@ -11,9 +11,9 @@
 <use f='codebrowser/src/message.c' l='428' u='c' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='573' u='c' c='msg_parse_content'/>
 <use f='codebrowser/src/socket.c' l='272' u='c' c='vws_socket_connect'/>
-<def f='codebrowser/src/vrtql.c' l='463' ll='476' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/vrtql.c' l='482' u='c' c='vrtql_buffer_free'/>
-<use f='codebrowser/src/vrtql.c' l='552' u='c' c='vrtql_buffer_drain'/>
-<use f='codebrowser/src/websocket.c' l='441' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='457' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='470' u='c' c='socket_handshake'/>
+<def f='codebrowser/src/vrtql.c' l='472' ll='485' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
+<use f='codebrowser/src/vrtql.c' l='491' u='c' c='vrtql_buffer_free'/>
+<use f='codebrowser/src/vrtql.c' l='561' u='c' c='vrtql_buffer_drain'/>
+<use f='codebrowser/src/websocket.c' l='450' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='466' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='479' u='c' c='socket_handshake'/>
