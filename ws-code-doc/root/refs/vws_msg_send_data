@@ -8,4 +8,4 @@
  * @param oc The websocket opcode defining the frame type.
  * @return Returns the number of bytes sent out on wire.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='515' ll='518' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<def f='codebrowser/src/websocket.c' l='575' ll='578' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>

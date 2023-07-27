@@ -1,2 +1,2 @@
-<use f='codebrowser/src/server.c' l='795' u='c' c='vrtql_svr_send'/>
-<use f='codebrowser/src/server.c' l='911' u='c' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='808' u='c' c='vrtql_svr_send'/>
+<use f='codebrowser/src/server.c' l='923' u='c' c='vrtql_svr_stop'/>

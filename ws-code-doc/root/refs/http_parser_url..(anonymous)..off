@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='376' type='uint16_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/http_parser.h' l='376'>/* Offset into buffer in which field starts */</doc>
 <use f='codebrowser/src/http_parser.c' l='2445' u='r' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2453' u='r' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2463' u='w' c='http_parse_host'/>
@@ -7,5 +9,3 @@
 <use f='codebrowser/src/http_parser.c' l='2491' u='w' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2595' u='w' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2627' u='r' c='http_parser_parse_url'/>
-<offset>0</offset>
-<doc f='codebrowser/src/http_parser.h' l='376'>/* Offset into buffer in which field starts */</doc>

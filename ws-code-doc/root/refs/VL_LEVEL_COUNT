@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vrtql.h' l='69' type='4'/>
-<doc f='codebrowser/src/vrtql.h' l='69'>/**&lt; Count of log levels   */</doc>
+<dec f='codebrowser/src/vrtql.h' l='75' type='4'/>
+<doc f='codebrowser/src/vrtql.h' l='75'>/**&lt; Count of log levels   */</doc>
 <use f='codebrowser/src/vrtql.c' l='70'/>
 <use f='codebrowser/src/vrtql.c' l='131' u='r' c='vrtql_trace'/>

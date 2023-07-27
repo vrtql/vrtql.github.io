@@ -4,6 +4,12 @@
 <use f='codebrowser/src/mpack/mpack-node.c' l='1115' macro='1' u='c' c='mpack_file_tree_read'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='1117' macro='1' u='c' c='mpack_file_tree_read'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='1119' macro='1' u='c' c='mpack_file_tree_read'/>
+<use f='codebrowser/src/socket.c' l='547' macro='1' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='547' macro='1' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='556' macro='1' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='726' macro='1' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='726' macro='1' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='782' macro='1' u='c' c='vws_socket_close'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='630' macro='1' u='c' c='printdirentry'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='903' macro='1' u='c' c='mg_http_upload'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='178' macro='1' u='c' c='mg_listen'/>
@@ -30,7 +36,3 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='363' macro='1' u='c' c='mg_connect_resolved'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='374' macro='1' u='c' c='raccept'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='390' macro='1' u='c' c='accept_conn'/>
-<use f='codebrowser/src/websocket.c' l='399' macro='1' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='399' macro='1' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='422' macro='1' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='422' macro='1' u='c' c='socket_handshake'/>

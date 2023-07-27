@@ -1,2 +1,6 @@
 <dec f='include/openssl/ssl.h' l='1182'/>
+<use f='codebrowser/src/socket.c' l='480' u='c'/>
+<use f='codebrowser/src/socket.c' l='485' u='c'/>
+<use f='codebrowser/src/socket.c' l='672' u='c'/>
+<use f='codebrowser/src/socket.c' l='676' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='19' u='c'/>

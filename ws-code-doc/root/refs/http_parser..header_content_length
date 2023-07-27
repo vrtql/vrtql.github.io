@@ -1,4 +1,7 @@
 <dec f='codebrowser/src/http_parser.h' l='314' type='uint64_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/http_parser.h' l='314'>/* The field content_length gets used within http_parser_execute
+  									 This field stores the original value. */</doc>
 <use f='codebrowser/src/http_parser.c' l='802' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='841' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='1000' u='w' c='http_parser_execute'/>
@@ -7,6 +10,3 @@
 <use f='codebrowser/src/http_parser.c' l='2231' u='r' c='http_header_only_message'/>
 <use f='codebrowser/src/http_parser.c' l='2244' u='r' c='http_header_only_message'/>
 <use f='codebrowser/src/http_parser.c' l='2247' u='r' c='http_header_only_message'/>
-<offset>128</offset>
-<doc f='codebrowser/src/http_parser.h' l='314'>/* The field content_length gets used within http_parser_execute
-  									 This field stores the original value. */</doc>

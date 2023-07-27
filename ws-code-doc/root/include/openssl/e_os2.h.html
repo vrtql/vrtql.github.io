@@ -225,12 +225,12 @@
 <tr><th id="212">212</th><td></td></tr>
 <tr><th id="213">213</th><td><u># <span data-ppcond="213">ifndef</span> <span class="macro" data-ref="_M/ossl_ssize_t">ossl_ssize_t</span></u></td></tr>
 <tr><th id="214">214</th><td><u>#  define <dfn class="macro" id="_M/ossl_ssize_t" data-ref="_M/ossl_ssize_t">ossl_ssize_t</dfn> ssize_t</u></td></tr>
-<tr><th id="215">215</th><td><u>#  <span data-ppcond="215">if</span> defined(<a class="macro" href="../x86_64-linux-gnu/bits/posix1_lim.h.html#169" data-ref="_M/SSIZE_MAX">SSIZE_MAX</a>)</u></td></tr>
-<tr><th id="216">216</th><td><u>#   define <dfn class="macro" id="_M/OSSL_SSIZE_MAX" data-ref="_M/OSSL_SSIZE_MAX">OSSL_SSIZE_MAX</dfn> SSIZE_MAX</u></td></tr>
-<tr><th id="217">217</th><td><u>#  <span data-ppcond="215">elif</span> defined(_POSIX_SSIZE_MAX)</u></td></tr>
+<tr><th id="215">215</th><td><u>#  <span data-ppcond="215">if</span> defined(<span class="macro" data-ref="_M/SSIZE_MAX">SSIZE_MAX</span>)</u></td></tr>
+<tr><th id="216">216</th><td><u>#   define OSSL_SSIZE_MAX SSIZE_MAX</u></td></tr>
+<tr><th id="217">217</th><td><u>#  <span data-ppcond="215">elif</span> defined(<span class="macro" data-ref="_M/_POSIX_SSIZE_MAX">_POSIX_SSIZE_MAX</span>)</u></td></tr>
 <tr><th id="218">218</th><td><u>#   define OSSL_SSIZE_MAX _POSIX_SSIZE_MAX</u></td></tr>
-<tr><th id="219">219</th><td><u>#  else</u></td></tr>
-<tr><th id="220">220</th><td><u>#   define OSSL_SSIZE_MAX ((ssize_t)(SIZE_MAX&gt;&gt;1))</u></td></tr>
+<tr><th id="219">219</th><td><u>#  <span data-ppcond="215">else</span></u></td></tr>
+<tr><th id="220">220</th><td><u>#   define <dfn class="macro" id="_M/OSSL_SSIZE_MAX" data-ref="_M/OSSL_SSIZE_MAX">OSSL_SSIZE_MAX</dfn> ((ssize_t)(SIZE_MAX&gt;&gt;1))</u></td></tr>
 <tr><th id="221">221</th><td><u>#  <span data-ppcond="215">endif</span></u></td></tr>
 <tr><th id="222">222</th><td><u># <span data-ppcond="213">endif</span></u></td></tr>
 <tr><th id="223">223</th><td></td></tr>
@@ -313,6 +313,6 @@
 <tr><th id="300">300</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
 <tr><th id="301">301</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='../../codebrowser/src/message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-21</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='../../codebrowser/src/http_message.c.html'>codebrowser/src/http_message.c</a><br/>Generated on <em>2023-Jul-27</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

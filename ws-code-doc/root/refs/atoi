@@ -2,4 +2,4 @@
 <doc f='include/stdlib.h' l='103'>/* Convert a string to an integer.  */</doc>
 <use f='codebrowser/src/test/util/mongoose.c' l='915' u='c' c='mg_http_status'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_url_port'/>
-<use f='codebrowser/src/websocket.c' l='364' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='366' u='c' c='vws_connect'/>

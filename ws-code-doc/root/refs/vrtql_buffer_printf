@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='296' type='void vrtql_buffer_printf(vrtql_buffer * buffer, cstr format)'/>
-<doc f='codebrowser/src/vrtql.h' l='267'>/**
+<dec f='codebrowser/src/vrtql.h' l='303' type='void vrtql_buffer_printf(vrtql_buffer * buffer, cstr format)'/>
+<doc f='codebrowser/src/vrtql.h' l='274'>/**
  * @brief Appends formatted data to a vrtql_buffer using printf() format.
  *
  * This function appends formatted data to the specified vrtql_buffer using a
@@ -28,13 +28,13 @@
  * @see vrtql_buffer_init
  * @see vrtql_buffer_append
  */</doc>
-<use f='codebrowser/src/server.c' l='1559' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1560' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1561' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1564' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1567' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1569' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1573' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1577' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1580' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1591' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1592' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1593' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1596' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1599' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1601' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1605' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1609' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1612' u='c' c='ws_svr_client_read'/>
 <def f='codebrowser/src/vrtql.c' l='487' ll='510' type='void vrtql_buffer_printf(vrtql_buffer * buffer, cstr format)'/>

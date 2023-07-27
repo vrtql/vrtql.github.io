@@ -8,7 +8,7 @@
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='30' u='c' c='main'/>
 <use f='codebrowser/src/test/test_websocket.c' l='52' u='c' c='ctest_test_send_receive_run'/>
-<def f='codebrowser/src/websocket.c' l='490' ll='493' type='int vws_frame_send_text(vws_cnx * c, cstr data)'/>
-<doc f='codebrowser/src/websocket.c' l='486'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/websocket.c' l='550' ll='553' type='int vws_frame_send_text(vws_cnx * c, cstr data)'/>
+<doc f='codebrowser/src/websocket.c' l='546'>//------------------------------------------------------------------------------
 //&gt; Messaging API
 //------------------------------------------------------------------------------</doc>

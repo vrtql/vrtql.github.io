@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='456' type='char * vrtql_generate_uuid()'/>
-<doc f='codebrowser/src/vrtql.h' l='451'>/**
+<dec f='codebrowser/src/vrtql.h' l='463' type='char * vrtql_generate_uuid()'/>
+<doc f='codebrowser/src/vrtql.h' l='458'>/**
  * @brief Generates a UUID.
  *
  * @return Returns a UUID string

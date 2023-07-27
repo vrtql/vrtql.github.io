@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='394' type='vrtql_ws_svr * vrtql_ws_svr_new(int pool_size, int backlog, int queue_size)'/>
-<def f='codebrowser/src/server.c' l='1727' ll='1732' type='vrtql_ws_svr * vrtql_ws_svr_new(int num_threads, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='1759' ll='1764' type='vrtql_ws_svr * vrtql_ws_svr_new(int num_threads, int backlog, int queue_size)'/>
 <doc f='codebrowser/src/server.h' l='384'>/**
  * @brief Creates a new WebSocket server.
  *

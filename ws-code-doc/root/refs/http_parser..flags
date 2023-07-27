@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='300' type='unsigned int'/>
+<offset>2</offset>
+<doc f='codebrowser/src/http_parser.h' l='300'>/* F_* values from &apos;flags&apos; enum; semi-public */</doc>
 <use f='codebrowser/src/http_parser.c' l='799' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='838' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='997' u='w' c='http_parser_execute'/>
@@ -50,5 +52,3 @@
 <use f='codebrowser/src/http_parser.c' l='2283' u='r' c='http_message_needs_eof'/>
 <use f='codebrowser/src/http_parser.c' l='2299' u='r' c='http_should_keep_alive'/>
 <use f='codebrowser/src/http_parser.c' l='2304' u='r' c='http_should_keep_alive'/>
-<offset>2</offset>
-<doc f='codebrowser/src/http_parser.h' l='300'>/* F_* values from &apos;flags&apos; enum; semi-public */</doc>

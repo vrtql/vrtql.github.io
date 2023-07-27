@@ -9,6 +9,6 @@
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1625' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/websocket.c' l='593' u='c' c='vws_msg_recv'/>
-<def f='codebrowser/src/websocket.c' l='1175' ll='1216' type='vws_msg * vws_msg_pop(vws_cnx * c)'/>
+<use f='codebrowser/src/server.c' l='1657' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/websocket.c' l='658' u='c' c='vws_msg_recv'/>
+<def f='codebrowser/src/websocket.c' l='1205' ll='1246' type='vws_msg * vws_msg_pop(vws_cnx * c)'/>

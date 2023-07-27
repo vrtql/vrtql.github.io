@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='465' type='char * vrtql_base64_encode(const unsigned char * data, size_t size)'/>
-<doc f='codebrowser/src/vrtql.h' l='458'>/**
+<dec f='codebrowser/src/vrtql.h' l='472' type='char * vrtql_base64_encode(const unsigned char * data, size_t size)'/>
+<doc f='codebrowser/src/vrtql.h' l='465'>/**
  * @brief Encodes data as Base64.
  *
  * @param data The data to encode
@@ -12,5 +12,5 @@
 <doc f='codebrowser/src/vrtql.c' l='664'>//------------------------------------------------------------------------------
 // Base 64
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='977' u='c' c='generate_websocket_key'/>
-<use f='codebrowser/src/websocket.c' l='1034' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1042' u='c' c='generate_websocket_key'/>
+<use f='codebrowser/src/websocket.c' l='1070' u='c' c='vws_accept_key'/>

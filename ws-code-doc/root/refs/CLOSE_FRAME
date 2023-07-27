@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/websocket.h' l='48' type='8'/>
 <doc f='codebrowser/src/websocket.h' l='47'>/** A close control frame. */</doc>
-<use f='codebrowser/src/server.c' l='1399' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='905' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1159' u='r' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/server.c' l='1431' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/websocket.c' l='970' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1189' u='r' c='vws_generate_close_frame'/>

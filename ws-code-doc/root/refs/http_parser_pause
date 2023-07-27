@@ -1,3 +1,3 @@
 <dec f='codebrowser/src/http_parser.h' l='446' type='void http_parser_pause(http_parser * parser, int paused)'/>
-<def f='codebrowser/src/http_parser.c' l='2650' ll='2663' type='void http_parser_pause(http_parser * parser, int paused)'/>
 <doc f='codebrowser/src/http_parser.h' l='445'>/* Pause or un-pause the parser; a nonzero value pauses */</doc>
+<def f='codebrowser/src/http_parser.c' l='2650' ll='2663' type='void http_parser_pause(http_parser * parser, int paused)'/>

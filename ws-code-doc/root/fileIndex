@@ -1,10 +1,10 @@
-codebrowser/src/http_parser.c
-codebrowser/src/http_parser.h
-codebrowser/src/http_request.c
-codebrowser/src/http_request.h
+codebrowser/src/http_message.c
+codebrowser/src/http_message.h
 codebrowser/src/vrtql.h
 codebrowser/src/common.h
 codebrowser/src/util/sc_map.h
+codebrowser/src/http_parser.h
+codebrowser/src/http_parser.c
 codebrowser/src/message.c
 codebrowser/src/mpack/mpack-expect.h
 codebrowser/src/mpack/mpack-reader.h
@@ -43,6 +43,7 @@ codebrowser/src/test/test_message.c
 codebrowser/src/test/test_msg_server.c
 codebrowser/src/test/test_rpc.c
 codebrowser/src/test/test_server.c
+codebrowser/src/test/test_vql.c
 codebrowser/src/test/test_websocket.c
 codebrowser/src/test/util/mongoose.c
 codebrowser/src/util/sc_map.c

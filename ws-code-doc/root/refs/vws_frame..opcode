@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/websocket.h' l='67' type='unsigned char'/>
 <offset>8</offset>
 <doc f='codebrowser/src/websocket.h' l='66'>/**&lt; Defines the interpretation of the payload data. */</doc>
-<use f='codebrowser/src/server.c' l='1397' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='620' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='700' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='808' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='903' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1196' u='r' c='vws_msg_pop'/>
+<use f='codebrowser/src/server.c' l='1429' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/websocket.c' l='685' u='w' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='765' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='873' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='968' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1226' u='r' c='vws_msg_pop'/>

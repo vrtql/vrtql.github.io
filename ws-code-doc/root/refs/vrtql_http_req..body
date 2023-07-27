@@ -1,5 +1,0 @@
-<dec f='codebrowser/src/http_request.h' l='26' type='vrtql_buffer *'/>
-<use f='codebrowser/src/http_request.c' l='82' u='w' c='vrtql_http_req_new'/>
-<use f='codebrowser/src/http_request.c' l='120' u='r' c='vrtql_http_req_free'/>
-<offset>448</offset>
-<doc f='codebrowser/src/http_request.h' l='25'>/**&lt; The body */</doc>

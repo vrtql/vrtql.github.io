@@ -5,6 +5,7 @@
 <use f='codebrowser/src/test/test_common.c' l='83' u='c'/>
 <use f='codebrowser/src/test/test_json.c' l='28' u='c'/>
 <use f='codebrowser/src/test/test_json.c' l='61' u='c'/>
+<use f='codebrowser/src/test/test_vql.c' l='45' u='c'/>
 <use f='codebrowser/src/test/test_websocket.c' l='50' u='c'/>
 <use f='codebrowser/src/test/test_websocket.c' l='56' u='c'/>
 <use f='codebrowser/src/test/test_websocket.c' l='62' u='c'/>

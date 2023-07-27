@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='303' type='unsigned int'/>
+<offset>24</offset>
+<doc f='codebrowser/src/http_parser.h' l='303'>/* index into current matcher */</doc>
 <use f='codebrowser/src/http_parser.c' l='829' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='965' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='1008' u='w' c='http_parser_execute'/>
@@ -50,5 +52,3 @@
 <use f='codebrowser/src/http_parser.c' l='1727' u='r' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='1735' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='1755' u='w' c='http_parser_execute'/>
-<offset>24</offset>
-<doc f='codebrowser/src/http_parser.h' l='303'>/* index into current matcher */</doc>

@@ -10,5 +10,7 @@
  * @param size The size of the data in bytes.
  * @return Returns the number of bytes sent.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='66' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='70' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_vql.c' l='56' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='64' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='78' u='c' c='ctest_test_message_run'/>

@@ -1,7 +1,7 @@
-<def f='codebrowser/src/vrtql.h' l='235' ll='240'/>
-<use f='codebrowser/src/vrtql.h' l='235'/>
+<def f='codebrowser/src/vrtql.h' l='242' ll='247'/>
+<use f='codebrowser/src/vrtql.h' l='242'/>
 <size>24</size>
-<doc f='codebrowser/src/vrtql.h' l='232'>/**
+<doc f='codebrowser/src/vrtql.h' l='239'>/**
  * @brief Defines a buffer for vrtql.
  */</doc>
 <mbr r='vrtql_buffer::data' o='0' t='unsigned char *'/>

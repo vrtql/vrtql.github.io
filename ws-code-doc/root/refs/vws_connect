@@ -1,5 +1,6 @@
 <dec f='codebrowser/src/websocket.h' l='249' type='_Bool vws_connect(vws_cnx * c, cstr uri)'/>
 <use f='codebrowser/src/test/test_example.c' l='14' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='49' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='50' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_vql.c' l='31' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='39' u='c' c='ctest_test_setup'/>
-<def f='codebrowser/src/websocket.c' l='333' ll='365' macro='1' type='_Bool vws_connect(vws_cnx * c, cstr uri)'/>
+<def f='codebrowser/src/websocket.c' l='335' ll='367' macro='1' type='_Bool vws_connect(vws_cnx * c, cstr uri)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/http_message.h' l='14' type='http_parser *'/>
+<use f='codebrowser/src/http_message.c' l='113' u='w' c='vrtql_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='115' u='r' c='vrtql_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='122' u='r' c='vrtql_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='158' u='r' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='223' u='r' c='vrtql_http_msg_parse'/>
+<offset>0</offset>
+<doc f='codebrowser/src/http_message.h' l='13'>/**&lt; The parser */</doc>
+<use f='codebrowser/src/server.c' l='1565' u='r' c='ws_svr_client_read'/>

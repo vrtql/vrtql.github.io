@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/http_message.h' l='32' type='vrtql_buffer *'/>
+<use f='codebrowser/src/http_message.c' l='92' u='r' c='process_header'/>
+<use f='codebrowser/src/http_message.c' l='98' u='r' c='process_header'/>
+<use f='codebrowser/src/http_message.c' l='101' u='r' c='process_header'/>
+<use f='codebrowser/src/http_message.c' l='106' u='r' c='process_header'/>
+<use f='codebrowser/src/http_message.c' l='119' u='w' c='vrtql_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='157' u='r' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='208' u='r' c='on_header_value'/>
+<offset>576</offset>
+<doc f='codebrowser/src/http_message.h' l='31'>/**&lt; Placeholder for header value */</doc>

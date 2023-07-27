@@ -38,6 +38,18 @@
 <use f='codebrowser/src/test/test_json.c' l='61' macro='1' c='ctest_test_write_run'/>
 <size>8</size>
 <mbr r='ctest_test_data::buffer' o='0' t='unsigned char *'/>
+<use f='codebrowser/src/test/test_vql.c' l='21' macro='1'/>
+<use f='codebrowser/src/test/test_vql.c' l='21' macro='1'/>
+<def f='codebrowser/src/test/test_vql.c' l='21' macro='1'/>
+<use f='codebrowser/src/test/test_vql.c' l='27' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_vql.c' l='27' macro='1'/>
+<use f='codebrowser/src/test/test_vql.c' l='27' macro='1' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_vql.c' l='45' macro='1'/>
+<use f='codebrowser/src/test/test_vql.c' l='45' macro='1' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='45' macro='1' c='ctest_test_message_run'/>
+<size>16</size>
+<mbr r='ctest_test_data::buffer' o='0' t='unsigned char *'/>
+<mbr r='ctest_test_data::c' o='64' t='vws_cnx *'/>
 <use f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>
 <def f='codebrowser/src/test/test_websocket.c' l='29' macro='1'/>

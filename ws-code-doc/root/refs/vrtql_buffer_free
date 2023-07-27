@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vrtql.h' l='258' type='void vrtql_buffer_free(vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/http_request.c' l='119' u='c' c='vrtql_http_req_free'/>
-<use f='codebrowser/src/http_request.c' l='120' u='c' c='vrtql_http_req_free'/>
-<use f='codebrowser/src/http_request.c' l='121' u='c' c='vrtql_http_req_free'/>
-<use f='codebrowser/src/http_request.c' l='122' u='c' c='vrtql_http_req_free'/>
-<doc f='codebrowser/src/vrtql.h' l='253'>/**
+<dec f='codebrowser/src/vrtql.h' l='265' type='void vrtql_buffer_free(vrtql_buffer * buffer)'/>
+<use f='codebrowser/src/http_message.c' l='154' u='c' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='155' u='c' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='156' u='c' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='157' u='c' c='vrtql_http_msg_free'/>
+<doc f='codebrowser/src/vrtql.h' l='260'>/**
  * @brief Frees a vrtql buffer.
  *
  * @param buffer The buffer to be freed
@@ -11,18 +11,19 @@
 <use f='codebrowser/src/message.c' l='67' u='c' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='136' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='436' u='c' c='vrtql_msg_send'/>
-<use f='codebrowser/src/server.c' l='1411' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1440' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1590' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1685' u='c' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1814' u='c' c='msg_svr_client_msg_out'/>
-<use f='codebrowser/src/socket.c' l='102' u='c' c='vws_socket_dtor'/>
+<use f='codebrowser/src/server.c' l='1443' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1472' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1622' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1717' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1846' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/socket.c' l='108' u='c' c='vws_socket_dtor'/>
 <use f='codebrowser/src/test/test_common.c' l='80' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_message.c' l='24' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='64' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='42' u='c' c='dump_msg'/>
 <def f='codebrowser/src/vrtql.c' l='478' ll='485' type='void vrtql_buffer_free(vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/websocket.c' l='481' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='550' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='575' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='917' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='942' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='541' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='610' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='640' u='c' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='982' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1007' u='c' c='process_frame'/>

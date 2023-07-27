@@ -1,3 +1,3 @@
 <dec f='include/openssl/ssl.h' l='1723' type='SSL * SSL_new(SSL_CTX * ctx)'/>
-<use f='codebrowser/src/socket.c' l='283' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='293' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='45' u='c' c='mg_tls_init'/>

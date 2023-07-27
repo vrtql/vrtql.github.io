@@ -8,6 +8,6 @@
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_s64'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sll'/>
-<use f='codebrowser/src/websocket.c' l='355' u='c' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='359' u='c' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='1044' u='c' c='verify_handshake'/>
+<use f='codebrowser/src/websocket.c' l='357' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='361' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='1080' u='c' c='verify_handshake'/>

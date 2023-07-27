@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='371' type='vws_svr_process_msg'/>
-<use f='codebrowser/src/server.c' l='1658' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1719' u='w' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1690' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1751' u='w' c='ws_svr_ctor'/>
 <offset>3136</offset>
 <doc f='codebrowser/src/server.h' l='370'>/**&lt; Function for processing an incoming message */</doc>

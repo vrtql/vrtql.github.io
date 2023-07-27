@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='356' type='void vrtql_map_clear(struct sc_map_str * map)'/>
-<doc f='codebrowser/src/vrtql.h' l='351'>/**
+<dec f='codebrowser/src/vrtql.h' l='363' type='void vrtql_map_clear(struct sc_map_str * map)'/>
+<doc f='codebrowser/src/vrtql.h' l='358'>/**
  * @brief Removes all key-value pair from the map, calling free() on them
  *
  * @param map The map to clear

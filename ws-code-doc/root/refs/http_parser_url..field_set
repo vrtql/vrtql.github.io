@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='372' type='uint16_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/http_parser.h' l='372'>/* Bitmask of (1 &lt;&lt; UF_*) values */</doc>
 <use f='codebrowser/src/http_parser.c' l='2447' u='r' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2447' u='r' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2484' u='w' c='http_parse_host'/>
@@ -10,5 +12,3 @@
 <use f='codebrowser/src/http_parser.c' l='2609' u='r' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2616' u='r' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2620' u='r' c='http_parser_parse_url'/>
-<offset>0</offset>
-<doc f='codebrowser/src/http_parser.h' l='372'>/* Bitmask of (1 &lt;&lt; UF_*) values */</doc>

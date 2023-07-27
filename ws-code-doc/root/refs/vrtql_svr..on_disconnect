@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/server.h' l='233' type='vrtql_svr_disconnect'/>
-<use f='codebrowser/src/server.c' l='938' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1107' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1138' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1286' u='r' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1714' u='w' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='950' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1119' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1150' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1305' u='r' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1746' u='w' c='ws_svr_ctor'/>
 <offset>2688</offset>
 <doc f='codebrowser/src/server.h' l='232'>/**&lt; Callback function for disconnect */</doc>

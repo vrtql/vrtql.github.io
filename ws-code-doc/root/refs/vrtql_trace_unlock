@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='125' type='void vrtql_trace_unlock()'/>
-<doc f='codebrowser/src/vrtql.h' l='102'>/**
+<dec f='codebrowser/src/vrtql.h' l='131' type='void vrtql_trace_unlock()'/>
+<doc f='codebrowser/src/vrtql.h' l='108'>/**
  * @brief Unlock the log mutex to release synchronization after accessing
  *        the logging functionality.
  *
@@ -23,5 +23,5 @@
  * @see vrtql_trace_lock()
  */</doc>
 <def f='codebrowser/src/vrtql.c' l='109' ll='127' type='void vrtql_trace_unlock()'/>
-<use f='codebrowser/src/websocket.c' l='542' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1116' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='602' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1146' u='c' c='vws_cnx_ingress'/>

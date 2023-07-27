@@ -1,4 +1,8 @@
 <dec f='codebrowser/src/http_parser.h' l='311' type='uint64_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/http_parser.h' l='311'>/* # bytes in body. `(uint64_t) -1` (all bits one)
+                            * if no Content-Length header.
+                            */</doc>
 <use f='codebrowser/src/http_parser.c' l='801' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='840' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='999' u='w' c='http_parser_execute'/>
@@ -34,7 +38,3 @@
 <use f='codebrowser/src/http_parser.c' l='2172' u='r' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='2172' u='r' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='2283' u='r' c='http_message_needs_eof'/>
-<offset>64</offset>
-<doc f='codebrowser/src/http_parser.h' l='311'>/* # bytes in body. `(uint64_t) -1` (all bits one)
-                            * if no Content-Length header.
-                            */</doc>

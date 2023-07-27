@@ -1,7 +1,7 @@
 <dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='26' type='1'/>
 <doc f='include/x86_64-linux-gnu/bits/socket_type.h' l='26'>/* Sequenced, reliable, connection-based
 				   byte streams.  */</doc>
-<use f='codebrowser/src/socket.c' l='577' macro='1' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='805' macro='1' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='191' macro='1' u='r' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='225' macro='1' u='r' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='333' macro='1' u='r' c='mg_connect_resolved'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='212' type='vrtql_malloc_error_cb'/>
+<dec f='codebrowser/src/vrtql.h' l='218' type='vrtql_malloc_error_cb'/>
 <offset>64</offset>
-<doc f='codebrowser/src/vrtql.h' l='212'>/**&lt; malloc error hanlding       */</doc>
+<doc f='codebrowser/src/vrtql.h' l='218'>/**&lt; malloc error hanlding       */</doc>
 <use f='codebrowser/src/vrtql.c' l='237' u='r' c='vrtql_malloc'/>
 <use f='codebrowser/src/vrtql.c' l='433' u='w'/>

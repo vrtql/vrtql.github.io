@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='377' type='uint16_t'/>
+<offset>16</offset>
+<doc f='codebrowser/src/http_parser.h' l='377'>/* Length of run in buffer */</doc>
 <use f='codebrowser/src/http_parser.c' l='2445' u='r' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2449' u='w' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2465' u='w' c='http_parse_host'/>
@@ -11,5 +13,3 @@
 <use f='codebrowser/src/http_parser.c' l='2591' u='w' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2596' u='w' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2628' u='r' c='http_parser_parse_url'/>
-<offset>16</offset>
-<doc f='codebrowser/src/http_parser.h' l='377'>/* Length of run in buffer */</doc>

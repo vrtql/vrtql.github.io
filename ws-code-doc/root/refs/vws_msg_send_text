@@ -6,4 +6,4 @@
  * @param string The text to send.
  * @return Returns the number of bytes sent.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='505' ll='508' type='int vws_msg_send_text(vws_cnx * c, cstr data)'/>
+<def f='codebrowser/src/websocket.c' l='565' ll='568' type='int vws_msg_send_text(vws_cnx * c, cstr data)'/>

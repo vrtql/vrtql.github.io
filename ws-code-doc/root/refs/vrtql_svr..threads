@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/server.h' l='224' type='uv_thread_t *'/>
-<use f='codebrowser/src/server.c' l='707' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='810' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='935' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='999' u='r' c='svr_dtor'/>
+<use f='codebrowser/src/server.c' l='714' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='823' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='947' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1011' u='r' c='svr_dtor'/>
 <offset>2304</offset>
 <doc f='codebrowser/src/server.h' l='223'>/**&lt; Thread handles */</doc>

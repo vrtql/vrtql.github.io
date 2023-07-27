@@ -1,18 +1,19 @@
-<dec f='codebrowser/src/socket.h' l='39' type='SSL *'/>
-<offset>128</offset>
-<doc f='codebrowser/src/socket.h' l='38'>/**&lt; The SSL connection instance. */</doc>
-<use f='codebrowser/src/socket.c' l='78' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='283' u='w' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='285' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='316' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='318' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='320' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='415' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='418' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='496' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='499' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='521' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='523' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='528' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='536' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='537' u='w' c='vws_socket_close'/>
+<dec f='codebrowser/src/socket.h' l='36' type='SSL *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/socket.h' l='35'>/**&lt; The SSL connection instance. */</doc>
+<use f='codebrowser/src/socket.c' l='84' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='293' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='295' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='325' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='327' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='329' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='459' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='462' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='478' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='663' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='666' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='670' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='755' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='758' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='769' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='770' u='w' c='vws_socket_close'/>

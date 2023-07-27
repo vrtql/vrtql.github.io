@@ -1,6 +1,6 @@
 <dec f='include/x86_64-linux-gnu/sys/poll.h' l='54' type='int poll(struct pollfd * __fds, nfds_t __nfds, int __timeout)'/>
-<use f='codebrowser/src/socket.c' l='383' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='468' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='410' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='620' u='c' c='vws_socket_write'/>
 <doc f='include/x86_64-linux-gnu/sys/poll.h' l='46'>/* Poll the file descriptors described by the NFDS structures starting at
    FDS.  If TIMEOUT is nonzero and not -1, allow TIMEOUT milliseconds for
    an event to occur; if TIMEOUT is -1, block until an event occurs.

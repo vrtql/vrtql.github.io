@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='367' type='char *'/>
+<dec f='codebrowser/src/vrtql.h' l='374' type='char *'/>
 <offset>0</offset>
-<doc f='codebrowser/src/vrtql.h' l='367'>/**&lt; The URL scheme (http, https, etc.) */</doc>
+<doc f='codebrowser/src/vrtql.h' l='374'>/**&lt; The URL scheme (http, https, etc.) */</doc>
 <use f='codebrowser/src/vrtql.c' l='856' u='w' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='858' u='r' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='953' u='w' c='vrtql_url_new'/>
@@ -11,5 +11,5 @@
 <use f='codebrowser/src/vrtql.c' l='1009' u='r' c='vrtql_url_build'/>
 <use f='codebrowser/src/vrtql.c' l='1045' u='r' c='vrtql_url_build'/>
 <use f='codebrowser/src/vrtql.c' l='1047' u='r' c='vrtql_url_build'/>
-<use f='codebrowser/src/websocket.c' l='355' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='359' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='357' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='361' u='r' c='vws_connect'/>

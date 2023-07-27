@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/util/sc_map.h' l='70' type='uint32_t'/>
-<use f='codebrowser/src/http_request.c' l='112' macro='1' u='r' c='vrtql_http_req_free'/>
+<use f='codebrowser/src/http_message.c' l='147' macro='1' u='r' c='vrtql_http_msg_free'/>
 <offset>64</offset>
 <use f='codebrowser/src/message.c' l='99' macro='1' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='109' macro='1' u='r' c='vrtql_msg_serialize'/>

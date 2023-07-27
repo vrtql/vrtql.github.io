@@ -33,12 +33,14 @@
 <use f='codebrowser/src/test/test_message.c' l='7' macro='1'/>
 <use f='codebrowser/src/test/test_message.c' l='46' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_msg_server.c' l='86' macro='1'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='130' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_rpc.c' l='32' macro='1'/>
 <use f='codebrowser/src/test/test_rpc.c' l='44' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_server.c' l='73' macro='1'/>
+<size>56</size>
+<use f='codebrowser/src/test/test_vql.c' l='45' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_websocket.c' l='50' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>

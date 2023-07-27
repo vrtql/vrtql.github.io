@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.c' l='96' type='1013'/>
-<doc f='codebrowser/src/websocket.c' l='93'>/** Try Again Later. The server is terminating the connection due to a
+<dec f='codebrowser/src/websocket.c' l='98' type='1013'/>
+<doc f='codebrowser/src/websocket.c' l='95'>/** Try Again Later. The server is terminating the connection due to a
      * temporary condition, e.g. it is overloaded and is casting off some of its
      * clients. */</doc>

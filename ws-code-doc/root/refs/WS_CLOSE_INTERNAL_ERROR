@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.c' l='87' type='1011'/>
-<doc f='codebrowser/src/websocket.c' l='84'>/** Internal Error. The server is terminating the connection because it
+<dec f='codebrowser/src/websocket.c' l='89' type='1011'/>
+<doc f='codebrowser/src/websocket.c' l='86'>/** Internal Error. The server is terminating the connection because it
      * encountered an unexpected condition that prevented it from fulfilling the
      * request. */</doc>

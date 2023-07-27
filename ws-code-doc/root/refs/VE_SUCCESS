@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='23' type='0'/>
-<doc f='codebrowser/src/vrtql.h' l='23'>/**&lt; No error */</doc>
+<dec f='codebrowser/src/vrtql.h' l='25' type='0'/>
+<doc f='codebrowser/src/vrtql.h' l='25'>/**&lt; No error */</doc>
 <use f='codebrowser/src/test/test_common.c' l='36' c='ctest_test_error_callbacks_run'/>
 <use f='codebrowser/src/vrtql.c' l='420' u='r' c='vrtql_error_clear_default'/>
 <use f='codebrowser/src/vrtql.c' l='425' u='r' c='vrtql_error_success_default'/>

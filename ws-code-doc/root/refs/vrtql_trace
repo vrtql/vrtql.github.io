@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='79' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
-<doc f='codebrowser/src/vrtql.h' l='72'>/**
+<dec f='codebrowser/src/vrtql.h' l='85' type='void vrtql_trace(vrtql_log_level_t level, const char * format)'/>
+<doc f='codebrowser/src/vrtql.h' l='78'>/**
  * @brief Logs a trace message.
  *
  * @param level The level of the log

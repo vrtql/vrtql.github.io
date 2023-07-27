@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vrtql.h' l='431' type='uint8_t vrtql_is_flag(const uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vrtql.h' l='424'>/**
+<dec f='codebrowser/src/vrtql.h' l='438' type='uint8_t vrtql_is_flag(const uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vrtql.h' l='431'>/**
  * @brief Checks if a specific flag is set.
  *
  * @param flags The flags to check
  * @param flag  The flag to check for
  * @return Returns true if the flag is set, false otherwise
  */</doc>
-<use f='codebrowser/src/server.c' l='719' u='c' c='uv_thread'/>
-<use f='codebrowser/src/socket.c' l='267' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/server.c' l='731' u='c' c='uv_thread'/>
+<use f='codebrowser/src/socket.c' l='276' u='c' c='vws_socket_connect'/>
 <def f='codebrowser/src/vrtql.c' l='756' ll='759' type='uint8_t vrtql_is_flag(const uint64_t * flags, uint64_t flag)'/>

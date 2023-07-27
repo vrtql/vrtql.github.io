@@ -8,4 +8,4 @@
  * @return Returns the number of bytes sent.
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='46' u='c' c='main'/>
-<def f='codebrowser/src/websocket.c' l='510' ll='513' type='int vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>
+<def f='codebrowser/src/websocket.c' l='570' ll='573' type='int vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

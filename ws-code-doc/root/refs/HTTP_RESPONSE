@@ -1,3 +1,4 @@
 <dec f='codebrowser/src/http_parser.h' l='217' type='1'/>
 <use f='codebrowser/src/http_parser.c' l='819' u='r' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='2334' u='r' c='http_parser_init'/>
+<use f='codebrowser/src/websocket.c' l='428' u='r' c='socket_handshake'/>

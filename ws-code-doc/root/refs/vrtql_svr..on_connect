@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/server.h' l='230' type='vrtql_svr_connect'/>
-<use f='codebrowser/src/server.c' l='937' u='w' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1245' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1713' u='w' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='949' u='w' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1264' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1745' u='w' c='ws_svr_ctor'/>
 <offset>2624</offset>
 <doc f='codebrowser/src/server.h' l='229'>/**&lt; Callback function for connect */</doc>

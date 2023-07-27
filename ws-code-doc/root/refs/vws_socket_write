@@ -9,9 +9,10 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<def f='codebrowser/src/socket.c' l='444' ll='517' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
+<def f='codebrowser/src/socket.c' l='578' ll='751' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
 <use f='codebrowser/src/test/test_server.c' l='62' u='c' c='client_thread'/>
-<use f='codebrowser/src/websocket.c' l='471' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='549' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='914' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='939' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='394' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='531' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='609' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='979' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1004' u='c' c='process_frame'/>

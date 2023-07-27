@@ -1,6 +1,5 @@
 <use f='codebrowser/src/http_parser.h' l='68'/>
 <def f='codebrowser/src/http_parser.h' l='297' ll='332'/>
-<use f='codebrowser/src/http_parser.c' l='2665' c='http_body_is_final'/>
 <size>40</size>
 <mbr r='http_parser::type' o='0' t='unsigned int'/>
 <mbr r='http_parser::flags' o='2' t='unsigned int'/>
@@ -20,3 +19,5 @@
 <mbr r='http_parser::http_errno' o='248' t='unsigned int'/>
 <mbr r='http_parser::upgrade' o='255' t='unsigned int'/>
 <mbr r='http_parser::data' o='256' t='void *'/>
+<use f='codebrowser/src/http_parser.c' l='2665' c='http_body_is_final'/>
+<size>40</size>

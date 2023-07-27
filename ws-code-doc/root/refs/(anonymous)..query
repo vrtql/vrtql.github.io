@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='371' type='char *'/>
+<dec f='codebrowser/src/vrtql.h' l='378' type='char *'/>
 <offset>256</offset>
-<doc f='codebrowser/src/vrtql.h' l='371'>/**&lt; The query parameters               */</doc>
+<doc f='codebrowser/src/vrtql.h' l='378'>/**&lt; The query parameters               */</doc>
 <use f='codebrowser/src/vrtql.c' l='886' u='w' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='888' u='r' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='957' u='w' c='vrtql_url_new'/>

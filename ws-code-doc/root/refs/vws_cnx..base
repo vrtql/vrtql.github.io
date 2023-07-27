@@ -1,12 +1,16 @@
 <dec f='codebrowser/src/websocket.h' l='209' type='struct vws_socket'/>
 <offset>0</offset>
 <doc f='codebrowser/src/websocket.h' l='208'>/**&lt; Base class */</doc>
-<use f='codebrowser/src/server.c' l='1515' u='m' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1525' u='m' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1526' u='m' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1549' u='m' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1603' u='m' c='ws_svr_client_read'/>
-<use f='codebrowser/src/websocket.c' l='281' u='m' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='1098' u='m' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1105' u='m' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1144' u='m' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/server.c' l='1547' u='m' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1557' u='m' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1558' u='m' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1581' u='m' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1635' u='m' c='ws_svr_client_read'/>
+<use f='codebrowser/src/websocket.c' l='283' u='m' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='441' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='457' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='470' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='487' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1128' u='m' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1135' u='m' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1174' u='m' c='vws_cnx_ingress'/>

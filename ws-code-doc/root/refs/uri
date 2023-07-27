@@ -1,4 +1,7 @@
 <def f='codebrowser/src/test/test_msg_server.c' l='8' type='cstr'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='49' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='50' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='52' u='r' c='client_thread'/>
+<def f='codebrowser/src/test/test_vql.c' l='19' type='cstr'/>
+<use f='codebrowser/src/test/test_vql.c' l='31' u='r' c='ctest_test_setup'/>
 <def f='codebrowser/src/test/test_websocket.c' l='19' type='cstr'/>
 <use f='codebrowser/src/test/test_websocket.c' l='39' u='r' c='ctest_test_setup'/>

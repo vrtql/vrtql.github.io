@@ -1,15 +1,15 @@
 <dec f='codebrowser/src/http_parser.h' l='343' type='http_cb'/>
-<use f='codebrowser/src/http_parser.c' l='735' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='735' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1957' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1957' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1963' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1963' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1994' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1994' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2002' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2002' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2058' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2058' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_message.c' l='128' u='w' c='vrtql_http_msg_new'/>
 <offset>448</offset>
-<use f='codebrowser/src/http_request.c' l='93' u='w' c='vrtql_http_req_new'/>
+<use f='codebrowser/src/http_parser.c' l='735' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='735' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1957' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1957' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1963' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1963' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1994' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='1994' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2002' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2002' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2058' macro='1' u='r' c='http_parser_execute'/>
+<use f='codebrowser/src/http_parser.c' l='2058' macro='1' u='r' c='http_parser_execute'/>

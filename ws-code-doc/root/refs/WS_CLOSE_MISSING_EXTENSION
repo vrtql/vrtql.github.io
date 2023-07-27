@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.c' l='82' type='1010'/>
-<doc f='codebrowser/src/websocket.c' l='79'>/** Missing Extension. The client is terminating the connection because it
+<dec f='codebrowser/src/websocket.c' l='84' type='1010'/>
+<doc f='codebrowser/src/websocket.c' l='81'>/** Missing Extension. The client is terminating the connection because it
      * wanted the server to negotiate one or more extension, but the server
      * didn&apos;t. */</doc>

@@ -4,5 +4,5 @@
  * @return  delete the last element from the queue and return its value.
  *          If queue is empty, result is undefined.
  */</doc>
-<use f='codebrowser/src/websocket.c' l='666' u='c'/>
-<use f='codebrowser/src/websocket.c' l='1190' u='c'/>
+<use f='codebrowser/src/websocket.c' l='731' u='c'/>
+<use f='codebrowser/src/websocket.c' l='1220' u='c'/>

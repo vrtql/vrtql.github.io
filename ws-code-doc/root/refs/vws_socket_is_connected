@@ -1,11 +1,17 @@
 <dec f='codebrowser/src/socket.h' l='144' type='_Bool vws_socket_is_connected(vws_socket * s)'/>
-<def f='codebrowser/src/socket.c' l='246' ll='254' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
-<use f='codebrowser/src/socket.c' l='355' u='c' c='vws_socket_disconnect'/>
-<use f='codebrowser/src/socket.c' l='449' u='c' c='vws_socket_write'/>
+<def f='codebrowser/src/socket.c' l='252' ll='260' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
+<use f='codebrowser/src/socket.c' l='372' u='c' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='387' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='583' u='c' c='vws_socket_write'/>
 <use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='524' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_msg_recv'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='vws_frame_recv'/>
-<use f='codebrowser/src/websocket.c' l='194' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='72' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='85' u='c' c='client_thread'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='584' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='vws_msg_recv'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='vws_frame_recv'/>
+<use f='codebrowser/src/websocket.c' l='196' u='c' c='socket_wait_for_frame'/>

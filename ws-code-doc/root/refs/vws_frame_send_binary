@@ -8,4 +8,4 @@
  * @param size The size of the data in bytes.
  * @return Returns the number of bytes sent.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='495' ll='498' type='int vws_frame_send_binary(vws_cnx * c, ucstr data, size_t size)'/>
+<def f='codebrowser/src/websocket.c' l='555' ll='558' type='int vws_frame_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

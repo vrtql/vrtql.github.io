@@ -1,4 +1,6 @@
 <dec f='codebrowser/src/http_parser.h' l='319' type='unsigned int'/>
+<offset>224</offset>
+<doc f='codebrowser/src/http_parser.h' l='319'>/* responses only */</doc>
 <use f='codebrowser/src/http_parser.c' l='926' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='950' u='w' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='951' u='w' c='http_parser_execute'/>
@@ -7,5 +9,3 @@
 <use f='codebrowser/src/http_parser.c' l='2270' u='r' c='http_message_needs_eof'/>
 <use f='codebrowser/src/http_parser.c' l='2271' u='r' c='http_message_needs_eof'/>
 <use f='codebrowser/src/http_parser.c' l='2272' u='r' c='http_message_needs_eof'/>
-<offset>224</offset>
-<doc f='codebrowser/src/http_parser.h' l='319'>/* responses only */</doc>

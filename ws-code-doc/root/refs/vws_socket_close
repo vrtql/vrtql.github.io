@@ -6,12 +6,18 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='288' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='303' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='298' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='312' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='323' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='334' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='344' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='360' u='c' c='vws_socket_disconnect'/>
-<def f='codebrowser/src/socket.c' l='519' ll='563' type='void vws_socket_close(vws_socket * c)'/>
-<use f='codebrowser/src/websocket.c' l='1072' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/socket.c' l='321' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='332' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='350' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='360' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='377' u='c' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='415' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='510' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='529' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='560' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='625' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='695' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='737' u='c' c='vws_socket_write'/>
+<def f='codebrowser/src/socket.c' l='753' ll='791' type='void vws_socket_close(vws_socket * c)'/>

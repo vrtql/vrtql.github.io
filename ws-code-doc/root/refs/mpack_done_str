@@ -1,7 +1,7 @@
 <def f='codebrowser/src/mpack/mpack-reader.h' l='783' ll='785' macro='1' type='void mpack_done_str(mpack_reader_t * reader)'/>
 <use f='codebrowser/src/message.c' l='515' u='c' c='msg_parse_map'/>
 <use f='codebrowser/src/message.c' l='533' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='573' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='575' u='c' c='msg_parse_content'/>
 <doc f='codebrowser/src/mpack/mpack-reader.h' l='776'>/**
  * @fn mpack_done_str(mpack_reader_t* reader)
  *

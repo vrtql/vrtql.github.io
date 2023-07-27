@@ -1,15 +1,15 @@
 <dec f='codebrowser/src/websocket.h' l='215' type='vrtql_url'/>
 <offset>512</offset>
 <doc f='codebrowser/src/websocket.h' l='214'>/**&lt; The URL of the websocket server. */</doc>
-<use f='codebrowser/src/websocket.c' l='283' u='w' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='319' u='r' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='342' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='343' u='w' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='345' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='355' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='356' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='356' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='359' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='364' u='m' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='387' u='m' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='388' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='285' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='321' u='r' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='344' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='345' u='w' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='347' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='357' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='358' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='358' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='361' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='366' u='m' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='386' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='386' u='m' c='socket_handshake'/>

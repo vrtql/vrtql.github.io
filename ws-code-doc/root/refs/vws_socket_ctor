@@ -10,6 +10,6 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='72' u='c' c='vws_socket_new'/>
-<def f='codebrowser/src/socket.c' l='75' ll='85' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
-<use f='codebrowser/src/websocket.c' l='279' u='c' c='vws_cnx_new'/>
+<use f='codebrowser/src/socket.c' l='77' u='c' c='vws_socket_new'/>
+<def f='codebrowser/src/socket.c' l='80' ll='91' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
+<use f='codebrowser/src/websocket.c' l='281' u='c' c='vws_cnx_new'/>

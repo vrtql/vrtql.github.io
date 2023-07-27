@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.c' l='628' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
-<use f='codebrowser/src/server.c' l='665' u='c' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='717' u='c' c='uv_thread'/>
-<def f='codebrowser/src/server.c' l='1354' ll='1378' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
-<doc f='codebrowser/src/server.c' l='617'>/**
+<dec f='codebrowser/src/server.c' l='635' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<use f='codebrowser/src/server.c' l='672' u='c' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='724' u='c' c='uv_thread'/>
+<def f='codebrowser/src/server.c' l='1386' ll='1410' type='vrtql_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<doc f='codebrowser/src/server.c' l='624'>/**
  * @brief Pops data from the server queue.
  *
  * This function removes and returns data from the front of the provided queue.

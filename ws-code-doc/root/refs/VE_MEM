@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='28' type='100'/>
-<doc f='codebrowser/src/vrtql.h' l='28'>/**&lt; Memory failure */</doc>
+<dec f='codebrowser/src/vrtql.h' l='31' type='100'/>
+<doc f='codebrowser/src/vrtql.h' l='31'>/**&lt; Memory failure */</doc>
 <use f='codebrowser/src/vrtql.c' l='247' c='vrtql_malloc_error'/>
 <use f='codebrowser/src/vrtql.c' l='269' c='vrtql_calloc_error'/>
 <use f='codebrowser/src/vrtql.c' l='291' c='vrtql_realloc_error'/>
@@ -10,4 +10,4 @@
 <use f='codebrowser/src/vrtql.c' l='839' c='vrtql_url_extract_port'/>
 <use f='codebrowser/src/vrtql.c' l='864' c='vrtql_url_parse'/>
 <use f='codebrowser/src/vrtql.c' l='913' c='vrtql_url_parse'/>
-<use f='codebrowser/src/websocket.c' l='347' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='349' c='vws_connect'/>

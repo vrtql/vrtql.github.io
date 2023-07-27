@@ -1,10 +1,10 @@
 <dec f='codebrowser/src/server.h' l='257' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * memory)'/>
-<def f='codebrowser/src/server.c' l='735' ll='744' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/server.c' l='1407' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1436' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1584' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1679' u='c' c='ws_svr_client_data_out'/>
-<doc f='codebrowser/src/server.c' l='731'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/server.c' l='748' ll='757' type='vrtql_svr_data * vrtql_svr_data_new(vrtql_svr_cnx * c, vrtql_buffer * buffer)'/>
+<use f='codebrowser/src/server.c' l='1439' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1468' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1616' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1711' u='c' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/server.c' l='744'>//------------------------------------------------------------------------------
 // Server API
 //------------------------------------------------------------------------------</doc>
 <doc f='codebrowser/src/server.h' l='249'>/**

@@ -3,6 +3,9 @@
 <use f='codebrowser/src/test/test_server.c' l='61' u='r' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='62' u='r' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='62' u='r' c='client_thread'/>
+<def f='codebrowser/src/test/test_vql.c' l='18' type='cstr'/>
+<use f='codebrowser/src/test/test_vql.c' l='66' u='w' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='67' u='r' c='ctest_test_message_run'/>
 <def f='codebrowser/src/test/test_websocket.c' l='18' type='cstr'/>
 <use f='codebrowser/src/test/test_websocket.c' l='52' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='53' u='r' c='ctest_test_send_receive_run'/>

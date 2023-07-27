@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='440' type='void vrtql_set_flag(uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vrtql.h' l='433'>/**
+<dec f='codebrowser/src/vrtql.h' l='447' type='void vrtql_set_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vrtql.h' l='440'>/**
  * @brief Sets a specific flag.
  *
  * @param flags The flags to modify
@@ -7,8 +7,8 @@
  * @return None
  */</doc>
 <use f='codebrowser/src/message.c' l='48' u='c' c='vrtql_msg_new'/>
-<use f='codebrowser/src/server.c' l='1502' u='c' c='vrtql_svr_close'/>
-<use f='codebrowser/src/socket.c' l='292' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/server.c' l='1534' u='c' c='vrtql_svr_close'/>
+<use f='codebrowser/src/socket.c' l='302' u='c' c='vws_socket_connect'/>
 <def f='codebrowser/src/vrtql.c' l='761' ll='764' type='void vrtql_set_flag(uint64_t * flags, uint64_t flag)'/>
-<use f='codebrowser/src/websocket.c' l='330' u='c' c='vws_cnx_set_server_mode'/>
-<use f='codebrowser/src/websocket.c' l='908' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='332' u='c' c='vws_cnx_set_server_mode'/>
+<use f='codebrowser/src/websocket.c' l='973' u='c' c='process_frame'/>

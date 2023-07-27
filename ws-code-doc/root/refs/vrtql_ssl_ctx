@@ -1,0 +1,6 @@
+<def f='codebrowser/src/vrtql.h' l='60' type='SSL_CTX *'/>
+<doc f='codebrowser/src/vrtql.h' l='59'>/**&lt; The SSL context for the connection. */</doc>
+<use f='codebrowser/src/socket.c' l='282' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='284' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='290' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='293' u='r' c='vws_socket_connect'/>

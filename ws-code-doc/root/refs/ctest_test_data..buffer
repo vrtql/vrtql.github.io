@@ -8,5 +8,7 @@
 <use f='codebrowser/src/test/test_json.c' l='22' u='r' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_json.c' l='24' u='r' c='ctest_test_teardown'/>
 <offset>0</offset>
+<dec f='codebrowser/src/test/test_vql.c' l='23' type='unsigned char *'/>
+<offset>0</offset>
 <dec f='codebrowser/src/test/test_websocket.c' l='31' type='unsigned char *'/>
 <offset>0</offset>

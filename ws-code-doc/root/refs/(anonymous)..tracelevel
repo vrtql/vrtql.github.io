@@ -1,24 +1,24 @@
-<dec f='codebrowser/src/vrtql.h' l='223' type='uint8_t'/>
+<dec f='codebrowser/src/vrtql.h' l='229' type='uint8_t'/>
 <offset>832</offset>
-<doc f='codebrowser/src/vrtql.h' l='223'>/**&lt; Tracing leve (0 is off)     */</doc>
-<use f='codebrowser/src/server.c' l='652' u='w' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='654' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='673' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='697' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='800' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='827' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='850' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='862' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='877' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='896' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='906' u='r' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='945' u='r' c='svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1033' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1041' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1180' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1469' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1483' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/socket.c' l='583' u='r' c='connect_to_host'/>
+<doc f='codebrowser/src/vrtql.h' l='229'>/**&lt; Tracing leve (0 is off)     */</doc>
+<use f='codebrowser/src/server.c' l='659' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='661' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='680' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='704' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='813' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='840' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='863' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='875' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='889' u='r' c='vrtql_svr_run'/>
+<use f='codebrowser/src/server.c' l='908' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='918' u='r' c='vrtql_svr_stop'/>
+<use f='codebrowser/src/server.c' l='957' u='r' c='svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1045' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1053' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1199' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1501' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1515' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/socket.c' l='811' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='121' u='w' c='ctest_test_error_run'/>
 <use f='codebrowser/src/test/test_example.c' l='27' u='w' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='40' u='w' c='server_thread'/>
@@ -30,5 +30,5 @@
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/vrtql.c' l='360' u='r' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='444' u='w'/>
-<use f='codebrowser/src/websocket.c' l='532' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1108' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='592' u='r' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1138' u='r' c='vws_cnx_ingress'/>

@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/server.h' l='313' type='int vrtql_svr_send(vrtql_svr * server, vrtql_svr_data * data)'/>
-<def f='codebrowser/src/server.c' l='790' ll='796' type='int vrtql_svr_send(vrtql_svr * server, vrtql_svr_data * data)'/>
-<use f='codebrowser/src/server.c' l='1408' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1437' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1505' u='c' c='vrtql_svr_close'/>
-<use f='codebrowser/src/server.c' l='1682' u='c' c='ws_svr_client_data_out'/>
+<def f='codebrowser/src/server.c' l='803' ll='809' type='int vrtql_svr_send(vrtql_svr * server, vrtql_svr_data * data)'/>
+<use f='codebrowser/src/server.c' l='1440' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1469' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1537' u='c' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='1714' u='c' c='ws_svr_client_data_out'/>
 <doc f='codebrowser/src/server.h' l='306'>/**
  * @brief Sends data from a VRTQL server.
  *

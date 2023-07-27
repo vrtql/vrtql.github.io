@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/http_parser.h' l='404' type='size_t http_parser_execute(http_parser * parser, const http_parser_settings * settings, const char * data, size_t len)'/>
-<def f='codebrowser/src/http_parser.c' l='705' ll='2224' type='size_t http_parser_execute(http_parser * parser, const http_parser_settings * settings, const char * data, size_t len)'/>
+<use f='codebrowser/src/http_message.c' l='226' u='c' c='vrtql_http_msg_parse'/>
 <doc f='codebrowser/src/http_parser.h' l='402'>/* Executes the parser. Returns number of parsed bytes. Sets
  * `parser-&gt;http_errno` on error. */</doc>
-<use f='codebrowser/src/http_request.c' l='218' u='c' c='vrtql_http_req_parse'/>
+<def f='codebrowser/src/http_parser.c' l='705' ll='2224' type='size_t http_parser_execute(http_parser * parser, const http_parser_settings * settings, const char * data, size_t len)'/>

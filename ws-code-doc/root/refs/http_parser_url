@@ -1,9 +1,6 @@
 <def f='codebrowser/src/http_parser.h' l='371' ll='379'/>
 <use f='codebrowser/src/http_parser.h' l='438' c='http_parser_url_init'/>
 <use f='codebrowser/src/http_parser.h' l='443' c='http_parser_parse_url'/>
-<use f='codebrowser/src/http_parser.c' l='2440' c='http_parse_host'/>
-<use f='codebrowser/src/http_parser.c' l='2522' c='http_parser_url_init'/>
-<use f='codebrowser/src/http_parser.c' l='2529' c='http_parser_parse_url'/>
 <size>32</size>
 <doc f='codebrowser/src/http_parser.h' l='364'>/* Result structure for http_parser_parse_url().
  *
@@ -15,3 +12,7 @@
 <mbr r='http_parser_url::field_set' o='0' t='uint16_t'/>
 <mbr r='http_parser_url::port' o='16' t='uint16_t'/>
 <mbr r='http_parser_url::field_data' o='32' t='struct (anonymous struct at /var/data/dev/source/active/vrtql/client/src/http_parser.h:375:3) [7]'/>
+<use f='codebrowser/src/http_parser.c' l='2440' c='http_parse_host'/>
+<use f='codebrowser/src/http_parser.c' l='2522' c='http_parser_url_init'/>
+<use f='codebrowser/src/http_parser.c' l='2529' c='http_parser_parse_url'/>
+<size>32</size>

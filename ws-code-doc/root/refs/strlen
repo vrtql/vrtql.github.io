@@ -118,9 +118,8 @@
 <use f='codebrowser/src/vrtql.c' l='1062' u='c' c='vrtql_url_build'/>
 <use f='codebrowser/src/vrtql.c' l='1067' u='c' c='vrtql_url_build'/>
 <use f='codebrowser/src/vrtql.c' l='1072' u='c' c='vrtql_url_build'/>
-<use f='codebrowser/src/websocket.c' l='392' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='492' u='c' c='vws_frame_send_text'/>
-<use f='codebrowser/src/websocket.c' l='507' u='c' c='vws_msg_send_text'/>
-<use f='codebrowser/src/websocket.c' l='990' u='c' c='extract_websocket_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1020' u='c' c='vws_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1021' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='390' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='552' u='c' c='vws_frame_send_text'/>
+<use f='codebrowser/src/websocket.c' l='567' u='c' c='vws_msg_send_text'/>
+<use f='codebrowser/src/websocket.c' l='1056' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1057' u='c' c='vws_accept_key'/>

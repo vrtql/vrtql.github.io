@@ -4,7 +4,8 @@
 <use f='codebrowser/src/test/test_http_request.c' l='31' u='c' c='main'/>
 <use f='codebrowser/src/test/test_json.c' l='92' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='88' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='125' u='c' c='main'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='154' u='c' c='main'/>
 <use f='codebrowser/src/test/test_rpc.c' l='78' u='c' c='main'/>
 <use f='codebrowser/src/test/test_server.c' l='118' u='c' c='main'/>
+<use f='codebrowser/src/test/test_vql.c' l='76' u='c' c='main'/>
 <use f='codebrowser/src/test/test_websocket.c' l='96' u='c' c='main'/>

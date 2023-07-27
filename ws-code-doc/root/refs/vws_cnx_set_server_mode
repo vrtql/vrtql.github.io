@@ -5,4 +5,4 @@
  * @param c The websocket connection.
  * @return Returns void.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='328' ll='331' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='330' ll='333' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
