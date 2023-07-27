@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='391' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
+<dec f='codebrowser/src/websocket.h' l='400' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
 <use f='codebrowser/src/message.c' l='443' u='c' c='vrtql_msg_recv'/>
-<doc f='codebrowser/src/websocket.h' l='383'>/**
+<doc f='codebrowser/src/websocket.h' l='392'>/**
  * @brief Receives a websocket message from the connection. If there are no
  *        messages in queue, it will call socket_wait_for_frame().
  *
@@ -13,4 +13,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='23' u='c' c='ctest_test_send_frame_run'/>
-<def f='codebrowser/src/websocket.c' l='654' ll='681' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='655' ll='681' type='vws_msg * vws_msg_recv(vws_cnx * c)'/>

@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/websocket.h' l='360' type='int vws_msg_send_text(vws_cnx * c, cstr string)'/>
-<doc f='codebrowser/src/websocket.h' l='353'>/**
+<dec f='codebrowser/src/websocket.h' l='369' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr string)'/>
+<doc f='codebrowser/src/websocket.h' l='362'>/**
  * @brief Sends a TEXT message
  *
  * @param c The connection.
  * @param string The text to send.
  * @return Returns the number of bytes sent.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='574' ll='577' type='int vws_msg_send_text(vws_cnx * c, cstr data)'/>
+<def f='codebrowser/src/websocket.c' l='578' ll='581' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr data)'/>

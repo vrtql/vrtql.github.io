@@ -30,5 +30,5 @@
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/vrtql.c' l='365' u='r' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='453' u='w'/>
-<use f='codebrowser/src/websocket.c' l='601' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1147' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='602' u='r' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1145' u='r' c='vws_cnx_ingress'/>

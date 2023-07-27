@@ -4,4 +4,4 @@
 <use f='codebrowser/src/socket.c' l='87' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='355' u='r' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='357' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/websocket.c' l='284' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='281' u='w' c='vws_cnx_new'/>

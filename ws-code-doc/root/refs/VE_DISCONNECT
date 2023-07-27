@@ -7,5 +7,4 @@
 <use f='codebrowser/src/socket.c' l='585' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='624' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='692' c='vws_socket_write'/>
-<use f='codebrowser/src/websocket.c' l='407' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='446' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='379' c='vws_cnx_is_connected'/>

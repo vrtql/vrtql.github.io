@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='319' type='int vws_frame_send_text(vws_cnx * c, cstr string)'/>
-<doc f='codebrowser/src/websocket.h' l='312'>/**
+<dec f='codebrowser/src/websocket.h' l='328' type='ssize_t vws_frame_send_text(vws_cnx * c, cstr string)'/>
+<doc f='codebrowser/src/websocket.h' l='321'>/**
  * @brief Sends a TEXT frame
  *
  * @param c The connection.
@@ -8,7 +8,7 @@
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='30' u='c' c='main'/>
 <use f='codebrowser/src/test/test_websocket.c' l='52' u='c' c='ctest_test_send_receive_run'/>
-<def f='codebrowser/src/websocket.c' l='559' ll='562' type='int vws_frame_send_text(vws_cnx * c, cstr data)'/>
-<doc f='codebrowser/src/websocket.c' l='555'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/websocket.c' l='563' ll='566' type='ssize_t vws_frame_send_text(vws_cnx * c, cstr data)'/>
+<doc f='codebrowser/src/websocket.c' l='559'>//------------------------------------------------------------------------------
 //&gt; Messaging API
 //------------------------------------------------------------------------------</doc>

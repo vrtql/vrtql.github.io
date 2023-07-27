@@ -50,7 +50,7 @@
 <use f='codebrowser/src/test/test_server.c' l='108' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='113' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_vql.c' l='41' u='r' c='dump_msg'/>
-<use f='codebrowser/src/test/test_vql.c' l='67' u='r' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='76' u='r' c='ctest_test_message_run'/>
 <use f='codebrowser/src/vrtql.c' l='372' u='r' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='379' u='r' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='386' u='r' c='vrtql_error_default_process'/>

@@ -18,5 +18,5 @@
 <doc f='codebrowser/src/vrtql.c' l='457'>//------------------------------------------------------------------------------
 // Buffer
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='640' u='c' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='861' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='641' u='c' c='vws_msg_new'/>
+<use f='codebrowser/src/websocket.c' l='860' u='c' c='vws_serialize'/>

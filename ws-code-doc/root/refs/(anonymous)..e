@@ -8,5 +8,5 @@
 <use f='codebrowser/src/vrtql.c' l='319' u='m' c='vrtql_set_error'/>
 <use f='codebrowser/src/vrtql.c' l='326' u='r' c='vrtql_get_error'/>
 <use f='codebrowser/src/vrtql.c' l='451' u='w'/>
-<use f='codebrowser/src/websocket.c' l='424' u='m' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='462' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='430' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='466' u='m' c='socket_handshake'/>

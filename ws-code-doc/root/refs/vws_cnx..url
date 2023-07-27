@@ -1,18 +1,18 @@
 <dec f='codebrowser/src/websocket.h' l='229' type='vrtql_url_data *'/>
 <offset>512</offset>
 <doc f='codebrowser/src/websocket.h' l='228'>/**&lt; The URL of the websocket server. */</doc>
-<use f='codebrowser/src/websocket.c' l='286' u='w' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='322' u='r' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='324' u='r' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='325' u='w' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='349' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='351' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='354' u='w' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='356' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='366' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='283' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='319' u='r' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='321' u='r' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='322' u='w' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='346' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='348' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='351' u='w' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='353' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='363' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='364' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='364' u='r' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='367' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='367' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='370' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='375' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='395' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='395' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='372' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='403' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='403' u='r' c='socket_handshake'/>

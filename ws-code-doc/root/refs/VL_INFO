@@ -43,6 +43,6 @@
 <use f='codebrowser/src/test/test_server.c' l='108' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='113' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_vql.c' l='41' c='dump_msg'/>
-<use f='codebrowser/src/test/test_vql.c' l='67' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_vql.c' l='76' c='ctest_test_message_run'/>
 <use f='codebrowser/src/vrtql.c' l='379' c='vrtql_error_default_process'/>
 <use f='codebrowser/src/vrtql.c' l='392' c='vrtql_error_default_process'/>

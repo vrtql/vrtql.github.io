@@ -58,16 +58,11 @@
 <use f='codebrowser/src/vrtql.c' l='274' u='r' c='vrtql_calloc_error'/>
 <use f='codebrowser/src/vrtql.c' l='296' u='r' c='vrtql_realloc_error'/>
 <use f='codebrowser/src/vrtql.c' l='447' u='w'/>
-<use f='codebrowser/src/websocket.c' l='345' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='358' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='407' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='446' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='508' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='515' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='595' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='661' u='r' c='vws_msg_recv'/>
-<use f='codebrowser/src/websocket.c' l='732' u='r' c='vws_frame_recv'/>
-<use f='codebrowser/src/websocket.c' l='756' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='834' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='1102' u='r' c='socket_wait_for_frame'/>
-<use f='codebrowser/src/websocket.c' l='1162' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='342' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='355' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='379' u='r' c='vws_cnx_is_connected'/>
+<use f='codebrowser/src/websocket.c' l='512' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='519' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='755' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='833' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='1160' u='r' c='vws_cnx_ingress'/>

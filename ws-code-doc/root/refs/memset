@@ -113,5 +113,5 @@
 <use f='codebrowser/src/util/yyjson.c' l='8150' u='c' c='yyjson_write_single'/>
 <use f='codebrowser/src/util/yyjson.c' l='8327' u='c' c='yyjson_write_minify'/>
 <use f='codebrowser/src/util/yyjson.c' l='8529' u='c' c='yyjson_write_pretty'/>
-<use f='codebrowser/src/websocket.c' l='279' u='c' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='1111' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='276' u='c' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='1109' u='c' c='socket_wait_for_frame'/>

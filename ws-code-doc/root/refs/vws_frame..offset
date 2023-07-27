@@ -2,7 +2,7 @@
 <offset>32</offset>
 <doc f='codebrowser/src/websocket.h' l='72'>/**&lt; Position of the data in the frame. */</doc>
 <use f='codebrowser/src/websocket.c' l='696' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='929' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='941' u='r' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='956' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='962' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='928' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='940' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='955' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='961' u='r' c='vws_deserialize'/>

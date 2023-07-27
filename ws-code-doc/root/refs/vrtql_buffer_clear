@@ -14,6 +14,6 @@
 <def f='codebrowser/src/vrtql.c' l='472' ll='485' type='void vrtql_buffer_clear(vrtql_buffer * buffer)'/>
 <use f='codebrowser/src/vrtql.c' l='491' u='c' c='vrtql_buffer_free'/>
 <use f='codebrowser/src/vrtql.c' l='561' u='c' c='vrtql_buffer_drain'/>
-<use f='codebrowser/src/websocket.c' l='450' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='466' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='479' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='454' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='470' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='483' u='c' c='socket_handshake'/>

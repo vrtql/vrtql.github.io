@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='370' type='int vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
-<doc f='codebrowser/src/websocket.h' l='362'>/**
+<dec f='codebrowser/src/websocket.h' l='379' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
+<doc f='codebrowser/src/websocket.h' l='371'>/**
  * @brief Sends a BINARY message
  *
  * @param c The connection.
@@ -8,4 +8,4 @@
  * @return Returns the number of bytes sent.
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='46' u='c' c='main'/>
-<def f='codebrowser/src/websocket.c' l='579' ll='582' type='int vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>
+<def f='codebrowser/src/websocket.c' l='583' ll='586' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

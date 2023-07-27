@@ -6,4 +6,4 @@
  */</doc>
 <def f='codebrowser/src/url.c' l='91' ll='199' type='url_data_t * url_parse(char * url)'/>
 <use f='codebrowser/src/url.c' l='399' u='c' c='url_inspect'/>
-<use f='codebrowser/src/websocket.c' l='354' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='351' u='c' c='vws_connect'/>

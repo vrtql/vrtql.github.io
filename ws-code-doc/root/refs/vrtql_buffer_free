@@ -22,8 +22,8 @@
 <use f='codebrowser/src/test/test_message.c' l='64' u='c' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_vql.c' l='42' u='c' c='dump_msg'/>
 <def f='codebrowser/src/vrtql.c' l='487' ll='494' type='void vrtql_buffer_free(vrtql_buffer * buffer)'/>
-<use f='codebrowser/src/websocket.c' l='550' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='619' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='649' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='991' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1016' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='554' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='620' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='650' u='c' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='990' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1015' u='c' c='process_frame'/>

@@ -8,4 +8,4 @@
 <use f='codebrowser/src/test/test_example.c' l='17' u='c' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='105' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='47' u='c' c='ctest_test_teardown'/>
-<def f='codebrowser/src/websocket.c' l='297' ll='333' type='void vws_cnx_free(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='294' ll='330' type='void vws_cnx_free(vws_cnx * c)'/>

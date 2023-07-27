@@ -9,7 +9,7 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='48' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_vql.c' l='29' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='37' u='c' c='ctest_test_setup'/>
-<def f='codebrowser/src/websocket.c' l='276' ll='295' type='vws_cnx * vws_cnx_new()'/>
-<doc f='codebrowser/src/websocket.c' l='272'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/websocket.c' l='273' ll='292' type='vws_cnx * vws_cnx_new()'/>
+<doc f='codebrowser/src/websocket.c' l='269'>//------------------------------------------------------------------------------
 //&gt; Connection API
 //------------------------------------------------------------------------------</doc>

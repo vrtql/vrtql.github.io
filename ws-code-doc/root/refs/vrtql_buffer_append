@@ -24,4 +24,4 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='28' u='c' c='process_message'/>
 <use f='codebrowser/src/vrtql.c' l='514' u='c' c='vrtql_buffer_printf'/>
 <def f='codebrowser/src/vrtql.c' l='521' ll='549' type='void vrtql_buffer_append(vrtql_buffer * buffer, ucstr data, size_t size)'/>
-<use f='codebrowser/src/websocket.c' l='1239' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1237' u='c' c='vws_msg_pop'/>
