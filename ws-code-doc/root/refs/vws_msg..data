@@ -3,9 +3,9 @@
 <use f='codebrowser/src/message.c' l='453' u='r' c='vrtql_msg_recv'/>
 <offset>64</offset>
 <doc f='codebrowser/src/websocket.h' l='172'>/**&lt; The payload data for the message. */</doc>
-<use f='codebrowser/src/server.c' l='1736' u='r' c='ws_svr_client_msg_out'/>
-<use f='codebrowser/src/server.c' l='1797' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1798' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1731' u='r' c='ws_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1792' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1793' u='r' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='25' u='r' c='ctest_test_send_data_run'/>

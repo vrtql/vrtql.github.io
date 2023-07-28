@@ -10,8 +10,8 @@
  */</doc>
 <use f='codebrowser/src/message.c' l='377' u='c' c='vrtql_msg_get_header'/>
 <use f='codebrowser/src/message.c' l='392' u='c' c='vrtql_msg_get_routing'/>
-<use f='codebrowser/src/server.c' l='1588' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1589' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1583' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1584' u='c' c='ws_svr_client_read'/>
 <def f='codebrowser/src/vws.c' l='583' ll='594' type='cstr vws_map_get(struct sc_map_str * map, cstr key)'/>
 <doc f='codebrowser/src/vws.c' l='579'>//------------------------------------------------------------------------------
 // Map

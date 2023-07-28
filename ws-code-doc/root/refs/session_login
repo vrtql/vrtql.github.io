@@ -1,4 +1,4 @@
-<def f='codebrowser/src/test/test_rpc.c' l='6' ll='12' type='vrtql_msg * session_login(vrtql_rpc_env * e, vrtql_msg * m)'/>
+<def f='codebrowser/src/test/test_rpc.c' l='6' ll='12' type='vrtql_msg * session_login(vws_rpc_env * e, vrtql_msg * m)'/>
 <use f='codebrowser/src/test/test_rpc.c' l='36' u='r' c='ctest_test_rpc_module_run'/>
 <use f='codebrowser/src/test/test_rpc.c' l='51' u='r' c='ctest_test_rpc_call_run'/>
 <doc f='codebrowser/src/test/test_rpc.c' l='5'>// RPC Call: session.login</doc>

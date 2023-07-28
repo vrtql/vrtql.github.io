@@ -10,6 +10,6 @@
 <use f='codebrowser/src/http_parser.c' l='516' u='r' c='http_parser_execute'/>
 <use f='codebrowser/src/http_parser.c' l='2265' u='r' c='http_message_needs_eof'/>
 <use f='codebrowser/src/http_parser.c' l='2334' u='r' c='http_parser_init'/>
-<use f='codebrowser/src/server.c' l='1167' u='r' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1796' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1164' u='r' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1791' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_http_request.c' l='13' u='r' c='ctest_test_rpc_call_run'/>

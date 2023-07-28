@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='444' type='vws_msg * vws_msg_pop(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='434'>/**
+<dec f='codebrowser/src/websocket.h' l='454' type='vws_msg * vws_msg_pop(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='444'>/**
  * @brief Removes and returns the first complete message from the connection&apos;s
  *         message queue.
  *
@@ -9,6 +9,6 @@
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1657' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1652' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/websocket.c' l='677' u='c' c='vws_msg_recv'/>
 <def f='codebrowser/src/websocket.c' l='1222' ll='1263' type='vws_msg * vws_msg_pop(vws_cnx * c)'/>

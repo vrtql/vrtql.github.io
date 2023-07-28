@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/server.h' l='72' type='struct vws_svr_cnx *'/>
-<use f='codebrowser/src/server.c' l='735' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='764' u='w' c='vws_svr_data_own'/>
-<use f='codebrowser/src/server.c' l='1070' u='r' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1089' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1677' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='734' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='763' u='w' c='vws_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='1067' u='r' c='svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1086' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1672' u='r' c='ws_svr_client_data_in'/>
 <offset>0</offset>
 <doc f='codebrowser/src/server.h' l='71'>/**&lt; The client connection associated with the data */</doc>
 <use f='codebrowser/src/test/test_server.c' l='12' u='r' c='process_data'/>

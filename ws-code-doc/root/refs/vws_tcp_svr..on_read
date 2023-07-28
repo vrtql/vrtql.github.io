@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/server.h' l='236' type='vws_tcp_svr_read'/>
+<use f='codebrowser/src/server.c' l='950' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1278' u='r' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1742' u='w' c='ws_svr_ctor'/>
+<offset>2752</offset>
+<doc f='codebrowser/src/server.h' l='235'>/**&lt; Callback function for reading incoming data */</doc>

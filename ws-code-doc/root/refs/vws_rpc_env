@@ -1,0 +1,7 @@
+<def f='codebrowser/src/rpc.h' l='17' ll='22'/>
+<use f='codebrowser/src/rpc.h' l='17'/>
+<size>8</size>
+<doc f='codebrowser/src/rpc.h' l='14'>/**
+ * @brief Struct representing a RPC environment
+ */</doc>
+<mbr r='vws_rpc_env::data' o='0' t='char *'/>

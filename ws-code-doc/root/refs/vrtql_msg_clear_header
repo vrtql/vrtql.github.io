@@ -1,7 +1,9 @@
-<dec f='codebrowser/src/message.h' l='64' type='void vrtql_msg_clear_header(vrtql_msg * msg, cstr key)'/>
+<dec f='codebrowser/src/message.h' l='83' type='void vrtql_msg_clear_header(vrtql_msg * msg, cstr key)'/>
 <def f='codebrowser/src/message.c' l='385' ll='388' type='void vrtql_msg_clear_header(vrtql_msg * msg, cstr key)'/>
-<doc f='codebrowser/src/message.h' l='59'>/**
+<doc f='codebrowser/src/message.h' l='76'>/**
  * @brief Removes a header key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The header key to be removed.
+ *
+ * @ingroup MessageFunctions
  */</doc>

@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/websocket.h' l='283' type='_Bool vws_reconnect(vws_cnx * c, cstr uri)'/>
+<dec f='codebrowser/src/websocket.h' l='284' type='_Bool vws_reconnect(vws_cnx * c, cstr uri)'/>
 <def f='codebrowser/src/websocket.c' l='370' ll='383' macro='1' type='_Bool vws_reconnect(vws_cnx * c, cstr uri)'/>

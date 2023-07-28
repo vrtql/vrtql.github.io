@@ -183,4 +183,4 @@
 <use f='codebrowser/src/http_parser.c' l='2656' macro='1' u='r' c='http_parser_pause'/>
 <use f='codebrowser/src/http_parser.c' l='2657' macro='1' u='r' c='http_parser_pause'/>
 <use f='codebrowser/src/http_parser.c' l='57' u='w' c='http_parser_pause'/>
-<use f='codebrowser/src/server.c' l='1565' macro='1' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1560' macro='1' u='r' c='ws_svr_client_read'/>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='214' type='char *'/>
+<dec f='codebrowser/src/websocket.h' l='215' type='char *'/>
 <offset>640</offset>
 <use f='codebrowser/src/websocket.c' l='282' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='282' u='r' c='cnx_connect'/>

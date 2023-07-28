@@ -1,8 +1,0 @@
-<dec f='codebrowser/src/server.h' l='320' type='void vrtql_svr_close(vws_svr_cnx * cnx)'/>
-<def f='codebrowser/src/server.c' l='1527' ll='1538' type='void vrtql_svr_close(vws_svr_cnx * cnx)'/>
-<use f='codebrowser/src/server.c' l='1808' u='c' c='msg_svr_client_ws_msg_in'/>
-<doc f='codebrowser/src/server.h' l='315'>/**
- * @brief Close a VRTQL server connection.
- *
- * @param cnx The server connection to close.
- */</doc>

@@ -1,8 +1,10 @@
-<dec f='codebrowser/src/message.h' l='116' type='void vrtql_msg_set_content_binary(vrtql_msg * msg, cstr value, size_t size)'/>
+<dec f='codebrowser/src/message.h' l='149' type='void vrtql_msg_set_content_binary(vrtql_msg * msg, cstr value, size_t size)'/>
 <def f='codebrowser/src/message.c' l='426' ll='430' type='void vrtql_msg_set_content_binary(vrtql_msg * msg, cstr value, size_t size)'/>
-<doc f='codebrowser/src/message.h' l='110'>/**
+<doc f='codebrowser/src/message.h' l='141'>/**
  * @brief Sets the content of the message from a binary data.
  * @param msg The vrtql_msg instance.
  * @param value The content to be set.
  * @param size The size of the content in bytes.
+ *
+ * @ingroup MessageFunctions
  */</doc>

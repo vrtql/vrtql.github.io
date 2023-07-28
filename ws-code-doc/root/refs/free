@@ -16,7 +16,7 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='312' macro='1' u='c' c='mpack_file_writer_teardown'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='560' macro='1' u='c' c='mpack_writer_destroy'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1469' macro='1' u='c' c='mpack_builder_free_page'/>
-<use f='codebrowser/src/server.c' l='1456' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1451' macro='1' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/test/test_common.c' l='31' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_common.c' l='76' u='c' c='ctest_test_base64_run'/>
 <use f='codebrowser/src/test/test_common.c' l='77' u='c' c='ctest_test_base64_run'/>

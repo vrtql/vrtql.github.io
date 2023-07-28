@@ -3,14 +3,14 @@
 <doc f='codebrowser/src/vws.h' l='236'>/**&lt; Contains global state flags */</doc>
 <dec f='codebrowser/src/server.h' l='113' type='uint8_t'/>
 <use f='codebrowser/src/server.c' l='726' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='904' u='w' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='905' u='w' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1334' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1351' u='w' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1357' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1370' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='903' u='w' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='904' u='w' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1329' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1346' u='w' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1352' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1365' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1385' u='r' c='queue_pop'/>
 <use f='codebrowser/src/server.c' l='1390' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1395' u='r' c='queue_pop'/>
 <offset>896</offset>
 <doc f='codebrowser/src/server.h' l='112'>/**&lt; Current state of the queue */</doc>
 <use f='codebrowser/src/socket.c' l='276' u='a' c='vws_socket_connect'/>

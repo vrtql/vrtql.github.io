@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/server.h' l='212' type='vws_svr_queue'/>
+<use f='codebrowser/src/server.c' l='672' u='a' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='903' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='912' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='913' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='914' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='960' u='a' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1062' u='a' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1200' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1662' u='a' c='ws_svr_client_read'/>
+<offset>192</offset>
+<doc f='codebrowser/src/server.h' l='211'>/**&lt; Request queue */</doc>

@@ -1,15 +1,15 @@
 <dec f='codebrowser/src/server.h' l='75' type='size_t'/>
 <dec f='codebrowser/src/server.h' l='95' type='int'/>
-<use f='codebrowser/src/server.c' l='765' u='w' c='vws_svr_data_own'/>
-<use f='codebrowser/src/server.c' l='1078' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1085' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1330' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1365' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1379' u='w' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1390' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1405' u='w' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1415' u='r' c='queue_empty'/>
-<use f='codebrowser/src/server.c' l='1686' u='w' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='764' u='w' c='vws_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='1075' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1082' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1325' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1360' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1374' u='w' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1385' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1400' u='w' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1410' u='r' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='1681' u='w' c='ws_svr_client_data_in'/>
 <offset>64</offset>
 <doc f='codebrowser/src/server.h' l='74'>/**&lt; The number of bytes of data */</doc>
 <doc f='codebrowser/src/server.h' l='94'>/**&lt; Current size of the queue */</doc>

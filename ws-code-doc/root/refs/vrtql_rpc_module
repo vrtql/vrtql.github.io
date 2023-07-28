@@ -1,5 +1,0 @@
-<def f='codebrowser/src/rpc.h' l='35' ll='43'/>
-<use f='codebrowser/src/rpc.h' l='35'/>
-<size>40</size>
-<mbr r='vrtql_rpc_module::name' o='0' t='cstr'/>
-<mbr r='vrtql_rpc_module::calls' o='64' t='vrtql_rpc_map'/>

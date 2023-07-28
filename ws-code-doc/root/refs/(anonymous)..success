@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/vws.h' l='232' type='vws_error_clear_cb'/>
 <offset>640</offset>
 <doc f='codebrowser/src/vws.h' l='232'>/**&lt; Error clear function        */</doc>
-<use f='codebrowser/src/rpc.c' l='176' u='r' c='vrtql_rpc'/>
-<use f='codebrowser/src/server.c' l='1496' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/rpc.c' l='176' u='r' c='vws_rpc'/>
+<use f='codebrowser/src/server.c' l='1491' u='r' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/socket.c' l='208' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='247' u='r' c='socket_set_nonblocking'/>
 <use f='codebrowser/src/socket.c' l='365' u='r' c='vws_socket_connect'/>

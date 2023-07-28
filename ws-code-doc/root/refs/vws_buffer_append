@@ -16,7 +16,7 @@
 <use f='codebrowser/src/message.c' l='423' u='c' c='vrtql_msg_set_content'/>
 <use f='codebrowser/src/message.c' l='429' u='c' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='574' u='c' c='msg_parse_content'/>
-<use f='codebrowser/src/server.c' l='1547' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1542' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='466' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='570' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_common.c' l='86' u='c' c='ctest_test_buffer_run'/>

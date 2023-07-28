@@ -1,6 +1,0 @@
-<dec f='codebrowser/src/rpc.h' l='38' type='cstr'/>
-<use f='codebrowser/src/rpc.c' l='61' u='w' c='vrtql_rpc_module_new'/>
-<use f='codebrowser/src/rpc.c' l='79' u='r' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='132' u='r' c='vrtql_rpc_system_set'/>
-<offset>0</offset>
-<doc f='codebrowser/src/rpc.h' l='37'>/**&lt; Module name. */</doc>

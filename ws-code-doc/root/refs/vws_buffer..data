@@ -9,11 +9,11 @@
 <use f='codebrowser/src/message.c' l='412' u='r' c='vrtql_msg_get_content'/>
 <use f='codebrowser/src/message.c' l='435' u='r' c='vrtql_msg_send'/>
 <use f='codebrowser/src/message.c' l='452' u='r' c='vrtql_msg_recv'/>
-<use f='codebrowser/src/server.c' l='750' u='r' c='vws_svr_data_new'/>
-<use f='codebrowser/src/server.c' l='753' u='w' c='vws_svr_data_new'/>
-<use f='codebrowser/src/server.c' l='1557' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1699' u='r' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1797' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='749' u='r' c='vws_svr_data_new'/>
+<use f='codebrowser/src/server.c' l='752' u='w' c='vws_svr_data_new'/>
+<use f='codebrowser/src/server.c' l='1552' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1694' u='r' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1792' u='r' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_common.c' l='95' u='r' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='96' u='r' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_message.c' l='17' u='r' c='ctest_test_message_mpack_serialization_run'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/rpc.h' l='113' type='vws_rpc_module * vws_rpc_system_get(vws_rpc_system * s, cstr n)'/>
+<def f='codebrowser/src/rpc.c' l='135' ll='138' type='vws_rpc_module * vws_rpc_system_get(vws_rpc_system * s, cstr n)'/>
+<use f='codebrowser/src/rpc.c' l='201' u='c' c='vws_rpc'/>
+<doc f='codebrowser/src/rpc.h' l='106'>/**
+ * @brief Gets a module from a system.
+ *
+ * @param s The RPC system
+ * @param n The name of the The RPC module
+ * @return m The RPC module if exists, NULL otherwise
+ */</doc>

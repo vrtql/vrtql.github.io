@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/http_parser.h' l='432' type='const char * http_errno_name(enum http_errno err)'/>
 <doc f='codebrowser/src/http_parser.h' l='431'>/* Return a string name of the given error */</doc>
 <def f='codebrowser/src/http_parser.c' l='2344' ll='2349' type='const char * http_errno_name(enum http_errno err)'/>
-<use f='codebrowser/src/server.c' l='1571' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1566' u='c' c='ws_svr_client_read'/>

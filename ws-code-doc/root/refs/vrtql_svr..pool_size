@@ -1,7 +1,0 @@
-<dec f='codebrowser/src/server.h' l='221' type='int'/>
-<use f='codebrowser/src/server.c' l='712' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='818' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='821' u='r' c='vrtql_svr_run'/>
-<use f='codebrowser/src/server.c' l='948' u='w' c='svr_ctor'/>
-<offset>2272</offset>
-<doc f='codebrowser/src/server.h' l='220'>/**&lt; Number of threads in the worker pool */</doc>

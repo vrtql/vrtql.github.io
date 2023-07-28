@@ -1,18 +1,18 @@
-<dec f='codebrowser/src/server.h' l='128' type='struct vrtql_svr *'/>
-<use f='codebrowser/src/server.c' l='1061' u='r' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1070' u='r' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1119' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1150' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1160' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1440' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1469' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1537' u='r' c='vrtql_svr_close'/>
-<use f='codebrowser/src/server.c' l='1543' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1678' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1714' u='r' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1722' u='r' c='ws_svr_client_msg_in'/>
-<use f='codebrowser/src/server.c' l='1823' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1830' u='r' c='msg_svr_client_msg_in'/>
+<dec f='codebrowser/src/server.h' l='128' type='struct vws_tcp_svr *'/>
+<use f='codebrowser/src/server.c' l='1058' u='r' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1067' u='r' c='svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1116' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1147' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1157' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1435' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1464' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1532' u='r' c='vws_tcp_svr_close'/>
+<use f='codebrowser/src/server.c' l='1538' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1673' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1709' u='r' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1717' u='r' c='ws_svr_client_msg_in'/>
+<use f='codebrowser/src/server.c' l='1818' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1825' u='r' c='msg_svr_client_msg_in'/>
 <offset>0</offset>
 <doc f='codebrowser/src/server.h' l='127'>/**&lt; The server associated with the connection */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='14' u='r' c='process_message'/>

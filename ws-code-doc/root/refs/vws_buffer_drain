@@ -5,7 +5,7 @@
  * @param buffer The buffer to drain
  * @param size The size to drain from the buffer
  */</doc>
-<use f='codebrowser/src/server.c' l='1581' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1576' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_common.c' l='92' u='c' c='ctest_test_buffer_run'/>
 <def f='codebrowser/src/vws.c' l='559' ll='577' type='void vws_buffer_drain(vws_buffer * buffer, size_t size)'/>
 <use f='codebrowser/src/websocket.c' l='510' u='c' c='socket_handshake'/>

@@ -1,8 +1,8 @@
 <dec f='include/string.h' l='166' type='char * strdup(const char * __s)'/>
 <doc f='include/string.h' l='165'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
-<use f='codebrowser/src/rpc.c' l='61' u='c' c='vrtql_rpc_module_new'/>
+<use f='codebrowser/src/rpc.c' l='61' u='c' c='vws_rpc_module_new'/>
 <use f='codebrowser/src/rpc.c' l='266' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/server.c' l='1335' u='c' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1330' u='c' c='queue_init'/>
 <def f='codebrowser/src/url.c' l='34' ll='40' type='char * strdup(const char * str)'/>
 <use f='codebrowser/src/url.c' l='51' u='c' c='strff'/>
 <use f='codebrowser/src/url.c' l='58' u='c' c='get_part'/>

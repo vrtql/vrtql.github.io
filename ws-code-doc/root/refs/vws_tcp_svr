@@ -1,0 +1,24 @@
+<use f='codebrowser/src/server.h' l='128'/>
+<def f='codebrowser/src/server.h' l='200' ll='247'/>
+<use f='codebrowser/src/server.h' l='200'/>
+<use f='codebrowser/src/server.h' l='362'/>
+<size>376</size>
+<doc f='codebrowser/src/server.h' l='196'>/**
+ * @brief Struct representing a basic server. It does not do anything but
+ * process raw data. It does not have any knowledge of WebSockets.
+ */</doc>
+<mbr r='vws_tcp_svr::state' o='0' t='uint8_t'/>
+<mbr r='vws_tcp_svr::wakeup' o='64' t='uv_async_t *'/>
+<mbr r='vws_tcp_svr::loop' o='128' t='uv_loop_t *'/>
+<mbr r='vws_tcp_svr::requests' o='192' t='vws_svr_queue'/>
+<mbr r='vws_tcp_svr::responses' o='1216' t='vws_svr_queue'/>
+<mbr r='vws_tcp_svr::backlog' o='2240' t='int'/>
+<mbr r='vws_tcp_svr::pool_size' o='2272' t='int'/>
+<mbr r='vws_tcp_svr::threads' o='2304' t='uv_thread_t *'/>
+<mbr r='vws_tcp_svr::cnxs' o='2368' t='vws_svr_cnx_map'/>
+<mbr r='vws_tcp_svr::on_connect' o='2624' t='vws_tcp_svr_connect'/>
+<mbr r='vws_tcp_svr::on_disconnect' o='2688' t='vws_tcp_svr_disconnect'/>
+<mbr r='vws_tcp_svr::on_read' o='2752' t='vws_tcp_svr_read'/>
+<mbr r='vws_tcp_svr::on_data_in' o='2816' t='vws_tcp_svr_process_data'/>
+<mbr r='vws_tcp_svr::on_data_out' o='2880' t='vws_tcp_svr_process_data'/>
+<mbr r='vws_tcp_svr::trace' o='2944' t='uint8_t'/>

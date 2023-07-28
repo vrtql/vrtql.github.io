@@ -1,12 +1,13 @@
-<dec f='codebrowser/src/websocket.h' l='381' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
-<doc f='codebrowser/src/websocket.h' l='372'>/**
+<dec f='codebrowser/src/websocket.h' l='386' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<doc f='codebrowser/src/websocket.h' l='376'>/**
  * @brief Sends custom frame containing data
  *
  * @param c The connection.
  * @param dataThe data to send.
  * @param size The size of the data in bytes.
  * @param oc The websocket opcode defining the frame type.
- * @return Returns the number of bytes sent out on wire.
+ * @return Returns the number of bytes sent or -1 on error. In the case of
+ *         error, check vws.e for details, especially for VE_SOCKET.
  */</doc>
 <use f='codebrowser/src/test/test_websocket.c' l='58' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/websocket.c' l='575' u='c' c='vws_frame_send_text'/>

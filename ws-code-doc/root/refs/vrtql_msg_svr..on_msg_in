@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='435' type='vrtql_svr_process_msg'/>
-<use f='codebrowser/src/server.c' l='1824' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1866' u='w' c='vrtql_msg_svr_new'/>
+<use f='codebrowser/src/server.c' l='1819' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1861' u='w' c='vrtql_msg_svr_new'/>
 <offset>3392</offset>
 <doc f='codebrowser/src/server.h' l='434'>/**&lt; Function for processing an incoming message */</doc>

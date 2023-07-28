@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/vws.h' l='28' type='3'/>
+<doc f='codebrowser/src/vws.h' l='28'>/**&lt; Socket error (disconnect) */</doc>
+<use f='codebrowser/src/socket.c' l='389' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='414' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='507' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='526' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='585' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='624' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='692' c='vws_socket_write'/>
+<use f='codebrowser/src/vws.c' l='378' c='vws_error_default_process'/>
+<use f='codebrowser/src/websocket.c' l='389' c='vws_cnx_is_connected'/>

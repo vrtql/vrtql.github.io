@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/server.h' l='206' type='uv_async_t *'/>
+<use f='codebrowser/src/server.c' l='807' u='r' c='vws_tcp_svr_send'/>
+<use f='codebrowser/src/server.c' l='922' u='r' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='963' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='964' u='r' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='965' u='r' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1012' u='r' c='tcp_svr_dtor'/>
+<offset>64</offset>
+<doc f='codebrowser/src/server.h' l='205'>/**&lt; Asynchronous handle for event-based programming */</doc>

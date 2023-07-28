@@ -1,8 +1,10 @@
-<def f='codebrowser/src/message.h' l='22' ll='29'/>
-<use f='codebrowser/src/message.h' l='22'/>
+<def f='codebrowser/src/message.h' l='31' ll='38'/>
+<use f='codebrowser/src/message.h' l='31'/>
 <size>88</size>
-<doc f='codebrowser/src/message.h' l='19'>/**
+<doc f='codebrowser/src/message.h' l='26'>/**
  * @brief Represents a message with routing, headers, and content.
+ *
+ * @ingroup MessageFunctions
  */</doc>
 <mbr r='vrtql_msg::routing' o='0' t='struct sc_map_str'/>
 <mbr r='vrtql_msg::headers' o='256' t='struct sc_map_str'/>

@@ -1,10 +1,11 @@
-<dec f='codebrowser/src/websocket.h' l='454' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='446'>/**
+<dec f='codebrowser/src/websocket.h' l='465' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='456'>/**
  * @brief Receives a websocket frame from the connection. If there are no
  *        frames in queue, it will call socket_wait_for_frame().
  *
  * @param c The connection.
  * @return Returns the most recent websocket frame or NULL if the socket timed
- *   out without receiving a full frame.
+ *   out without receiving a full frame. If NULL, check for
+ *   socket error (vws.e.code == VE_SOCKET or vws_cnx_is_connected()).
  */</doc>
 <def f='codebrowser/src/websocket.c' l='735' ll='759' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>

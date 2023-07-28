@@ -1,8 +1,8 @@
 <use f='codebrowser/src/websocket.h' l='201'/>
-<def f='codebrowser/src/websocket.h' l='227' ll='250'/>
-<use f='codebrowser/src/websocket.h' l='227'/>
+<def f='codebrowser/src/websocket.h' l='228' ll='251'/>
+<use f='codebrowser/src/websocket.h' l='228'/>
 <size>136</size>
-<doc f='codebrowser/src/websocket.h' l='224'>/**
+<doc f='codebrowser/src/websocket.h' l='225'>/**
  * @brief A WebSocket connection.
  */</doc>
 <mbr r='vws_cnx::base' o='0' t='struct vws_socket'/>

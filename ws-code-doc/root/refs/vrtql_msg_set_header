@@ -1,10 +1,12 @@
-<dec f='codebrowser/src/message.h' l='57' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
+<dec f='codebrowser/src/message.h' l='74' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
 <def f='codebrowser/src/message.c' l='380' ll='383' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
-<doc f='codebrowser/src/message.h' l='51'>/**
+<doc f='codebrowser/src/message.h' l='66'>/**
  * @brief Sets a header key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The header key.
  * @param value The header value.
+ *
+ * @ingroup MessageFunctions
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='25' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='13' u='c' c='ctest_test_message_mpack_serialization_run'/>

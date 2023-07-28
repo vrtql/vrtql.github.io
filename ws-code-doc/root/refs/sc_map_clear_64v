@@ -1,3 +1,3 @@
 <dec f='codebrowser/src/util/sc_map.h' l='223' macro='1' type='void sc_map_clear_64v(struct sc_map_64v * map)'/>
-<use f='codebrowser/src/server.c' l='1154' u='c' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1151' u='c' c='svr_cnx_map_clear'/>
 <def f='codebrowser/src/util/sc_map.c' l='405' macro='1' type='void sc_map_clear_64v(struct sc_map_64v * m)'/>

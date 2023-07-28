@@ -7,7 +7,7 @@
  * @return None
  */</doc>
 <use f='codebrowser/src/message.c' l='48' u='c' c='vrtql_msg_new'/>
-<use f='codebrowser/src/server.c' l='1534' u='c' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='1529' u='c' c='vws_tcp_svr_close'/>
 <use f='codebrowser/src/socket.c' l='302' u='c' c='vws_socket_connect'/>
 <def f='codebrowser/src/vws.c' l='779' ll='782' type='void vws_set_flag(uint64_t * flags, uint64_t flag)'/>
 <use f='codebrowser/src/websocket.c' l='348' u='c' c='vws_cnx_set_server_mode'/>

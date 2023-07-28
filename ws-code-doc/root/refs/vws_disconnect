@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='292' type='void vws_disconnect(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='285'>/**
+<dec f='codebrowser/src/websocket.h' l='293' type='void vws_disconnect(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='286'>/**
  * @brief Closes the connection to the host.
  *
  * @param c The websocket connection.

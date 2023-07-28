@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.c' l='635' type='vws_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<dec f='codebrowser/src/server.c' l='635' type='vws_svr_data * queue_pop(vws_svr_queue * queue)'/>
 <use f='codebrowser/src/server.c' l='672' u='c' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='724' u='c' c='uv_thread'/>
-<def f='codebrowser/src/server.c' l='1386' ll='1410' type='vws_svr_data * queue_pop(vrtql_svr_queue * queue)'/>
+<def f='codebrowser/src/server.c' l='1381' ll='1405' type='vws_svr_data * queue_pop(vws_svr_queue * queue)'/>
 <doc f='codebrowser/src/server.c' l='624'>/**
  * @brief Pops data from the server queue.
  *

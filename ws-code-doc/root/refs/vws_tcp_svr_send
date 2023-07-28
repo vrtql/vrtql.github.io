@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.h' l='313' type='int vws_tcp_svr_send(vws_tcp_svr * server, vws_svr_data * data)'/>
+<def f='codebrowser/src/server.c' l='802' ll='808' type='int vws_tcp_svr_send(vws_tcp_svr * server, vws_svr_data * data)'/>
+<use f='codebrowser/src/server.c' l='1435' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1464' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1532' u='c' c='vws_tcp_svr_close'/>
+<use f='codebrowser/src/server.c' l='1709' u='c' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/server.h' l='306'>/**
+ * @brief Sends data from a VRTQL server.
+ *
+ * @param server The server to send the data.
+ * @param data The data to be sent.
+ * @return 0 if successful, an error code otherwise.
+ */</doc>
+<use f='codebrowser/src/test/test_server.c' l='39' u='c' c='process_data'/>

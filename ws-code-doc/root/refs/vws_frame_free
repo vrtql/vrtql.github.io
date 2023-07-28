@@ -7,10 +7,10 @@
  *
  * @ingroup FrameFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1446' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1475' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1484' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1492' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1441' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1470' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1479' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1487' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/websocket.c' l='326' u='c' c='vws_cnx_free'/>
 <def f='codebrowser/src/websocket.c' l='719' ll='733' type='void vws_frame_free(vws_frame * f)'/>
 <use f='codebrowser/src/websocket.c' l='867' u='c' c='vws_serialize'/>

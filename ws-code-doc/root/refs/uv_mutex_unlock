@@ -1,6 +1,6 @@
-<use f='codebrowser/src/server.c' l='915' u='c' c='vrtql_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1373' u='c' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1383' u='c' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1398' u='c' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1407' u='c' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1416' u='c' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='914' u='c' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1368' u='c' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1378' u='c' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1393' u='c' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1402' u='c' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1411' u='c' c='queue_empty'/>

@@ -1,12 +1,12 @@
-<dec f='codebrowser/src/websocket.h' l='310' type='void vws_cnx_free(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='303'>/**
+<dec f='codebrowser/src/websocket.h' l='311' type='void vws_cnx_free(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='304'>/**
  * @brief Deallocates a websocket connection.
  *
  * @param c The websocket connection.
  *
  * @ingroup ConnectionFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1522' u='c' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1517' u='c' c='ws_svr_client_disconnect'/>
 <use f='codebrowser/src/test/test_example.c' l='13' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='33' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='57' u='c' c='main'/>
