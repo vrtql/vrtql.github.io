@@ -20,7 +20,7 @@
 <use f='codebrowser/src/server.c' l='1294' u='r' c='svr_on_close'/>
 <use f='codebrowser/src/server.c' l='1498' u='r' c='ws_svr_client_connect'/>
 <use f='codebrowser/src/server.c' l='1512' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/socket.c' l='814' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='861' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='45' u='r' c='ctest_test_test_url_run'/>
 <use f='codebrowser/src/test/test_common.c' l='46' u='r' c='ctest_test_test_url_run'/>
 <use f='codebrowser/src/test/test_common.c' l='47' u='r' c='ctest_test_test_url_run'/>

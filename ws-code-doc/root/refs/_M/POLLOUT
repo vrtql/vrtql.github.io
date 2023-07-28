@@ -1,5 +1,5 @@
 <dec f='include/x86_64-linux-gnu/bits/poll.h' l='27'/>
-<use f='codebrowser/src/socket.c' l='498' u='c'/>
-<use f='codebrowser/src/socket.c' l='598' u='c'/>
-<use f='codebrowser/src/socket.c' l='682' u='c'/>
-<use f='codebrowser/src/socket.c' l='701' u='c'/>
+<use f='codebrowser/src/socket.c' l='497' u='c'/>
+<use f='codebrowser/src/socket.c' l='619' u='c'/>
+<use f='codebrowser/src/socket.c' l='706' u='c'/>
+<use f='codebrowser/src/socket.c' l='748' u='c'/>

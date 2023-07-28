@@ -9,8 +9,8 @@
 <use f='codebrowser/src/socket.c' l='83' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='108' u='r' c='vws_socket_dtor'/>
 <use f='codebrowser/src/socket.c' l='272' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='466' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='570' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='465' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='591' u='r' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_server.c' l='67' u='r' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='464' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='480' u='r' c='socket_handshake'/>

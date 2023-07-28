@@ -1,7 +1,7 @@
 <def f='include/x86_64-linux-gnu/sys/poll.h' l='36' ll='41'/>
 <use f='include/x86_64-linux-gnu/sys/poll.h' l='54' c='poll'/>
-<use f='codebrowser/src/socket.c' l='400' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='616' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='399' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='637' c='vws_socket_write'/>
 <size>8</size>
 <doc f='include/x86_64-linux-gnu/sys/poll.h' l='35'>/* Data structure describing a polling request.  */</doc>
 <mbr r='pollfd::fd' o='0' t='int'/>

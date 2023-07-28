@@ -1,3 +1,5 @@
 <dec f='include/asm-generic/errno-base.h' l='15'/>
-<use f='codebrowser/src/socket.c' l='547' u='c'/>
+<use f='codebrowser/src/socket.c' l='515' u='c'/>
+<use f='codebrowser/src/socket.c' l='568' u='c'/>
 <use f='codebrowser/src/socket.c' l='726' u='c'/>
+<use f='codebrowser/src/socket.c' l='773' u='c'/>

@@ -7,13 +7,13 @@
 <use f='codebrowser/src/socket.c' l='286' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='297' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='311' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='331' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='359' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='650' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='734' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='817' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='828' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='837' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='330' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='358' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='671' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='781' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='864' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='875' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='884' c='connect_to_host'/>
 <use f='codebrowser/src/vws.c' l='102' u='r' c='vws_trace_lock'/>
 <use f='codebrowser/src/vws.c' l='123' u='r' c='vws_trace_unlock'/>
 <use f='codebrowser/src/vws.c' l='154' u='r' c='vws_trace'/>

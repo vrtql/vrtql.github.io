@@ -9,7 +9,7 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<def f='codebrowser/src/socket.c' l='578' ll='751' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
+<def f='codebrowser/src/socket.c' l='599' ll='798' type='ssize_t vws_socket_write(vws_socket * c, const ucstr data, size_t size)'/>
 <use f='codebrowser/src/test/test_server.c' l='62' u='c' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='421' u='c' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='554' u='c' c='vws_disconnect'/>

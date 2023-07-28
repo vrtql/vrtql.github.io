@@ -5,11 +5,11 @@
 <use f='codebrowser/src/server.c' l='1491' u='r' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/socket.c' l='208' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='247' u='r' c='socket_set_nonblocking'/>
-<use f='codebrowser/src/socket.c' l='365' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='379' u='r' c='vws_socket_disconnect'/>
-<use f='codebrowser/src/socket.c' l='385' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='581' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='915' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='364' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='378' u='r' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='384' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='602' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='962' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/vws.c' l='458' u='w'/>
 <use f='codebrowser/src/websocket.c' l='638' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='668' u='r' c='vws_msg_recv'/>
