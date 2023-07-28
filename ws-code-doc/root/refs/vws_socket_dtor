@@ -10,4 +10,4 @@
  */</doc>
 <use f='codebrowser/src/socket.c' l='100' u='c' c='vws_socket_free'/>
 <def f='codebrowser/src/socket.c' l='103' ll='117' type='void vws_socket_dtor(vws_socket * s)'/>
-<use f='codebrowser/src/websocket.c' l='329' u='c' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='343' u='c' c='vws_cnx_free'/>

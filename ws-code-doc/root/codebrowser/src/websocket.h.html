@@ -229,214 +229,246 @@
 <tr><th id="215">215</th><td>} <dfn class="typedef" id="vws_url_data" title='vws_url_data' data-type='struct vws_url_data' data-ref="vws_url_data" data-ref-filename="vws_url_data">vws_url_data</dfn>;</td></tr>
 <tr><th id="216">216</th><td></td></tr>
 <tr><th id="217">217</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="218">218</th><td><i class="doc"> * <span class="command">@brief</span> A WebSocket connection.</i></td></tr>
-<tr><th id="219">219</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="220">220</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx"><a class="type" href="#vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a></dfn></td></tr>
-<tr><th id="221">221</th><td>{</td></tr>
-<tr><th id="222">222</th><td>    <i class="doc">/**&lt; Base class */</i></td></tr>
-<tr><th id="223">223</th><td>    <b>struct</b> <a class="type" href="socket.h.html#vws_socket" title='vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a> <dfn class="decl field" id="vws_cnx::base" title='vws_cnx::base' data-ref="vws_cnx::base" data-ref-filename="vws_cnx..base">base</dfn>;</td></tr>
-<tr><th id="224">224</th><td></td></tr>
-<tr><th id="225">225</th><td>    <i class="doc">/**&lt; Connection state flags. */</i></td></tr>
-<tr><th id="226">226</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="vws_cnx::flags" title='vws_cnx::flags' data-ref="vws_cnx::flags" data-ref-filename="vws_cnx..flags">flags</dfn>;</td></tr>
-<tr><th id="227">227</th><td></td></tr>
-<tr><th id="228">228</th><td>    <i class="doc">/**&lt; The URL of the websocket server. */</i></td></tr>
-<tr><th id="229">229</th><td>    <a class="typedef" href="#vws_url_data" title='vws_url_data' data-type='struct vws_url_data' data-ref="vws_url_data" data-ref-filename="vws_url_data">vws_url_data</a>* <dfn class="decl field" id="vws_cnx::url" title='vws_cnx::url' data-ref="vws_cnx::url" data-ref-filename="vws_cnx..url">url</dfn>;</td></tr>
-<tr><th id="230">230</th><td></td></tr>
-<tr><th id="231">231</th><td>    <i class="doc">/**&lt; The WebSocket origin. */</i></td></tr>
-<tr><th id="232">232</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::origin" title='vws_cnx::origin' data-ref="vws_cnx::origin" data-ref-filename="vws_cnx..origin">origin</dfn>;</td></tr>
-<tr><th id="233">233</th><td></td></tr>
-<tr><th id="234">234</th><td>    <i class="doc">/**&lt; The websocket key. */</i></td></tr>
-<tr><th id="235">235</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::key" title='vws_cnx::key' data-ref="vws_cnx::key" data-ref-filename="vws_cnx..key">key</dfn>;</td></tr>
-<tr><th id="236">236</th><td></td></tr>
-<tr><th id="237">237</th><td>    <i class="doc">/**&lt; Queue for incoming frames. */</i></td></tr>
-<tr><th id="238">238</th><td>    <b>struct</b> <a class="type" href="util/sc_queue.h.html#286" title='sc_queue_ptr' data-ref="sc_queue_ptr" data-ref-filename="sc_queue_ptr">sc_queue_ptr</a> <dfn class="decl field" id="vws_cnx::queue" title='vws_cnx::queue' data-ref="vws_cnx::queue" data-ref-filename="vws_cnx..queue">queue</dfn>;</td></tr>
-<tr><th id="239">239</th><td></td></tr>
-<tr><th id="240">240</th><td>    <i class="doc">/**&lt; Frame processing callback. */</i></td></tr>
-<tr><th id="241">241</th><td>    <a class="typedef" href="#vws_process_frame" title='vws_process_frame' data-type='void (*)(struct vws_cnx *, vws_frame *)' data-ref="vws_process_frame" data-ref-filename="vws_process_frame">vws_process_frame</a> <dfn class="decl field" id="vws_cnx::process" title='vws_cnx::process' data-ref="vws_cnx::process" data-ref-filename="vws_cnx..process">process</dfn>;</td></tr>
-<tr><th id="242">242</th><td></td></tr>
-<tr><th id="243">243</th><td>    <i class="doc">/**&lt; User-defined data associated with the connection */</i></td></tr>
-<tr><th id="244">244</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::data" title='vws_cnx::data' data-ref="vws_cnx::data" data-ref-filename="vws_cnx..data">data</dfn>;</td></tr>
-<tr><th id="245">245</th><td></td></tr>
-<tr><th id="246">246</th><td>} <dfn class="typedef" id="vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</dfn>;</td></tr>
-<tr><th id="247">247</th><td></td></tr>
-<tr><th id="248">248</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="249">249</th><td><i class="doc"> * <span class="command">@brief</span> Generates a WebSocket accept key from input.</i></td></tr>
-<tr><th id="250">250</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="251">251</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The input key</i></td></tr>
-<tr><th id="252">252</th><td><i class="doc"> * <span class="command">@return</span> Returns the accept key on the heap. Caller MUST call free() on return</i></td></tr>
-<tr><th id="253">253</th><td><i class="doc"> * value</i></td></tr>
-<tr><th id="254">254</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="255">255</th><td><a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl fn" id="vws_accept_key" title='vws_accept_key' data-ref="vws_accept_key" data-ref-filename="vws_accept_key">vws_accept_key</dfn>(<a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="2354key" title='key' data-type='cstr' data-ref="2354key" data-ref-filename="2354key">key</dfn>);</td></tr>
-<tr><th id="256">256</th><td></td></tr>
-<tr><th id="257">257</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="258">258</th><td><i class="doc"> * <span class="command">@brief</span> Connects to a specified host URL.</i></td></tr>
-<tr><th id="259">259</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="260">260</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">uri</span> The URL of the host to connect to.</i></td></tr>
-<tr><th id="261">261</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the connection is successful, false otherwise.</i></td></tr>
-<tr><th id="262">262</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="263">263</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_connect" title='vws_connect' data-ref="vws_connect" data-ref-filename="vws_connect">vws_connect</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col5 decl" id="2355c" title='c' data-type='vws_cnx *' data-ref="2355c" data-ref-filename="2355c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="2356uri" title='uri' data-type='cstr' data-ref="2356uri" data-ref-filename="2356uri">uri</dfn>);</td></tr>
-<tr><th id="264">264</th><td></td></tr>
-<tr><th id="265">265</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="266">266</th><td><i class="doc"> * <span class="command">@brief</span> Closes the connection to the host.</i></td></tr>
-<tr><th id="267">267</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="268">268</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
-<tr><th id="269">269</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="270">270</th><td><em>void</em> <dfn class="decl fn" id="vws_disconnect" title='vws_disconnect' data-ref="vws_disconnect" data-ref-filename="vws_disconnect">vws_disconnect</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2357c" title='c' data-type='vws_cnx *' data-ref="2357c" data-ref-filename="2357c">c</dfn>);</td></tr>
-<tr><th id="271">271</th><td></td></tr>
-<tr><th id="272">272</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="273">273</th><td><i class="doc"> * <span class="command">@brief</span> Allocates a new websocket connection.</i></td></tr>
-<tr><th id="274">274</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="275">275</th><td><i class="doc"> * <span class="command">@return</span> A pointer to the new connection instance.</i></td></tr>
-<tr><th id="276">276</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="277">277</th><td><a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="decl fn" id="vws_cnx_new" title='vws_cnx_new' data-ref="vws_cnx_new" data-ref-filename="vws_cnx_new">vws_cnx_new</dfn>();</td></tr>
-<tr><th id="278">278</th><td></td></tr>
-<tr><th id="279">279</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="280">280</th><td><i class="doc"> * <span class="command">@brief</span> Deallocates a websocket connection.</i></td></tr>
-<tr><th id="281">281</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="282">282</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
-<tr><th id="283">283</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="284">284</th><td><em>void</em> <dfn class="decl fn" id="vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col8 decl" id="2358c" title='c' data-type='vws_cnx *' data-ref="2358c" data-ref-filename="2358c">c</dfn>);</td></tr>
-<tr><th id="285">285</th><td></td></tr>
-<tr><th id="286">286</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="287">287</th><td><i class="doc"> * <span class="command">@brief</span> Checks connection state</i></td></tr>
-<tr><th id="288">288</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="289">289</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
-<tr><th id="290">290</th><td><i class="doc"> * <span class="command">@return</span> Returns true if connection is established, false otherwise. If false,</i></td></tr>
-<tr><th id="291">291</th><td><i class="doc"> * sets vrtql.e to VE_DISCONNECT.</i></td></tr>
-<tr><th id="292">292</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="293">293</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_cnx_is_connected" title='vws_cnx_is_connected' data-ref="vws_cnx_is_connected" data-ref-filename="vws_cnx_is_connected">vws_cnx_is_connected</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col9 decl" id="2359c" title='c' data-type='vws_cnx *' data-ref="2359c" data-ref-filename="2359c">c</dfn>);</td></tr>
-<tr><th id="294">294</th><td></td></tr>
-<tr><th id="295">295</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="296">296</th><td><i class="doc"> * <span class="command">@brief</span> Sets the connection to server mode</i></td></tr>
-<tr><th id="297">297</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="298">298</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
-<tr><th id="299">299</th><td><i class="doc"> * <span class="command">@return</span> Returns void.</i></td></tr>
+<tr><th id="218">218</th><td><i class="doc"> * <span class="command">@defgroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="219">219</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="220">220</th><td><i class="doc"> * <span class="command">@brief</span> Functions that manage WebSocket connections</i></td></tr>
+<tr><th id="221">221</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="222">222</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="225">225</th><td><i class="doc"> * <span class="command">@brief</span> A WebSocket connection.</i></td></tr>
+<tr><th id="226">226</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="227">227</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx"><a class="type" href="#vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a></dfn></td></tr>
+<tr><th id="228">228</th><td>{</td></tr>
+<tr><th id="229">229</th><td>    <i class="doc">/**&lt; Base class */</i></td></tr>
+<tr><th id="230">230</th><td>    <b>struct</b> <a class="type" href="socket.h.html#vws_socket" title='vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a> <dfn class="decl field" id="vws_cnx::base" title='vws_cnx::base' data-ref="vws_cnx::base" data-ref-filename="vws_cnx..base">base</dfn>;</td></tr>
+<tr><th id="231">231</th><td></td></tr>
+<tr><th id="232">232</th><td>    <i class="doc">/**&lt; Connection state flags. */</i></td></tr>
+<tr><th id="233">233</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="vws_cnx::flags" title='vws_cnx::flags' data-ref="vws_cnx::flags" data-ref-filename="vws_cnx..flags">flags</dfn>;</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td>    <i class="doc">/**&lt; The URL of the websocket server. */</i></td></tr>
+<tr><th id="236">236</th><td>    <a class="typedef" href="#vws_url_data" title='vws_url_data' data-type='struct vws_url_data' data-ref="vws_url_data" data-ref-filename="vws_url_data">vws_url_data</a>* <dfn class="decl field" id="vws_cnx::url" title='vws_cnx::url' data-ref="vws_cnx::url" data-ref-filename="vws_cnx..url">url</dfn>;</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td>    <i class="doc">/**&lt; The websocket key. */</i></td></tr>
+<tr><th id="239">239</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::key" title='vws_cnx::key' data-ref="vws_cnx::key" data-ref-filename="vws_cnx..key">key</dfn>;</td></tr>
+<tr><th id="240">240</th><td></td></tr>
+<tr><th id="241">241</th><td>    <i class="doc">/**&lt; Queue for incoming frames. */</i></td></tr>
+<tr><th id="242">242</th><td>    <b>struct</b> <a class="type" href="util/sc_queue.h.html#286" title='sc_queue_ptr' data-ref="sc_queue_ptr" data-ref-filename="sc_queue_ptr">sc_queue_ptr</a> <dfn class="decl field" id="vws_cnx::queue" title='vws_cnx::queue' data-ref="vws_cnx::queue" data-ref-filename="vws_cnx..queue">queue</dfn>;</td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td>    <i class="doc">/**&lt; Frame processing callback. */</i></td></tr>
+<tr><th id="245">245</th><td>    <a class="typedef" href="#vws_process_frame" title='vws_process_frame' data-type='void (*)(struct vws_cnx *, vws_frame *)' data-ref="vws_process_frame" data-ref-filename="vws_process_frame">vws_process_frame</a> <dfn class="decl field" id="vws_cnx::process" title='vws_cnx::process' data-ref="vws_cnx::process" data-ref-filename="vws_cnx..process">process</dfn>;</td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td>    <i class="doc">/**&lt; User-defined data associated with the connection */</i></td></tr>
+<tr><th id="248">248</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::data" title='vws_cnx::data' data-ref="vws_cnx::data" data-ref-filename="vws_cnx..data">data</dfn>;</td></tr>
+<tr><th id="249">249</th><td></td></tr>
+<tr><th id="250">250</th><td>} <dfn class="typedef" id="vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</dfn>;</td></tr>
+<tr><th id="251">251</th><td></td></tr>
+<tr><th id="252">252</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="253">253</th><td><i class="doc"> * <span class="command">@brief</span> Generates a WebSocket accept key from input.</i></td></tr>
+<tr><th id="254">254</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="255">255</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The input key</i></td></tr>
+<tr><th id="256">256</th><td><i class="doc"> * <span class="command">@return</span> Returns the accept key on the heap. Caller MUST call free() on return</i></td></tr>
+<tr><th id="257">257</th><td><i class="doc"> * value</i></td></tr>
+<tr><th id="258">258</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="259">259</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="260">260</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="261">261</th><td><a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl fn" id="vws_accept_key" title='vws_accept_key' data-ref="vws_accept_key" data-ref-filename="vws_accept_key">vws_accept_key</dfn>(<a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="2354key" title='key' data-type='cstr' data-ref="2354key" data-ref-filename="2354key">key</dfn>);</td></tr>
+<tr><th id="262">262</th><td></td></tr>
+<tr><th id="263">263</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="264">264</th><td><i class="doc"> * <span class="command">@brief</span> Connects to a specified host URL.</i></td></tr>
+<tr><th id="265">265</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="266">266</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="267">267</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">uri</span> The URL of the host to connect to.</i></td></tr>
+<tr><th id="268">268</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the connection is successful, false otherwise.</i></td></tr>
+<tr><th id="269">269</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="270">270</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="271">271</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="272">272</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_connect" title='vws_connect' data-ref="vws_connect" data-ref-filename="vws_connect">vws_connect</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col5 decl" id="2355c" title='c' data-type='vws_cnx *' data-ref="2355c" data-ref-filename="2355c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="2356uri" title='uri' data-type='cstr' data-ref="2356uri" data-ref-filename="2356uri">uri</dfn>);</td></tr>
+<tr><th id="273">273</th><td></td></tr>
+<tr><th id="274">274</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="275">275</th><td><i class="doc"> * <span class="command">@brief</span> Attempts to reconnects based on previous URL. If no previous</i></td></tr>
+<tr><th id="276">276</th><td><i class="doc"> * connection was made, this function does nothing and returns false.</i></td></tr>
+<tr><th id="277">277</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="278">278</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="279">279</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the connection is successful, false otherwise.</i></td></tr>
+<tr><th id="280">280</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="281">281</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="282">282</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="283">283</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_reconnect" title='vws_reconnect' data-ref="vws_reconnect" data-ref-filename="vws_reconnect">vws_reconnect</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2357c" title='c' data-type='vws_cnx *' data-ref="2357c" data-ref-filename="2357c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col8 decl" id="2358uri" title='uri' data-type='cstr' data-ref="2358uri" data-ref-filename="2358uri">uri</dfn>);</td></tr>
+<tr><th id="284">284</th><td></td></tr>
+<tr><th id="285">285</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="286">286</th><td><i class="doc"> * <span class="command">@brief</span> Closes the connection to the host.</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="288">288</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="289">289</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="290">290</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="291">291</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="292">292</th><td><em>void</em> <dfn class="decl fn" id="vws_disconnect" title='vws_disconnect' data-ref="vws_disconnect" data-ref-filename="vws_disconnect">vws_disconnect</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col9 decl" id="2359c" title='c' data-type='vws_cnx *' data-ref="2359c" data-ref-filename="2359c">c</dfn>);</td></tr>
+<tr><th id="293">293</th><td></td></tr>
+<tr><th id="294">294</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"> * <span class="command">@brief</span> Allocates a new websocket connection.</i></td></tr>
+<tr><th id="296">296</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="297">297</th><td><i class="doc"> * <span class="command">@return</span> A pointer to the new connection instance.</i></td></tr>
+<tr><th id="298">298</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="299">299</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
 <tr><th id="300">300</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="301">301</th><td><em>void</em> <dfn class="decl fn" id="vws_cnx_set_server_mode" title='vws_cnx_set_server_mode' data-ref="vws_cnx_set_server_mode" data-ref-filename="vws_cnx_set_server_mode">vws_cnx_set_server_mode</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col0 decl" id="2360c" title='c' data-type='vws_cnx *' data-ref="2360c" data-ref-filename="2360c">c</dfn>);</td></tr>
+<tr><th id="301">301</th><td><a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="decl fn" id="vws_cnx_new" title='vws_cnx_new' data-ref="vws_cnx_new" data-ref-filename="vws_cnx_new">vws_cnx_new</dfn>();</td></tr>
 <tr><th id="302">302</th><td></td></tr>
 <tr><th id="303">303</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="304">304</th><td><i class="doc"> * <span class="command">@brief</span> Processes incoming data from a Socket.</i></td></tr>
+<tr><th id="304">304</th><td><i class="doc"> * <span class="command">@brief</span> Deallocates a websocket connection.</i></td></tr>
 <tr><th id="305">305</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="306">306</th><td><i class="doc"> * This function parses the data in the socket buffer and attempts to extract</i></td></tr>
-<tr><th id="307">307</th><td><i class="doc"> * complete WebSocket frames. It processes as many frames as possible and</i></td></tr>
-<tr><th id="308">308</th><td><i class="doc"> * calls the appropriate processing function for each frame. The consumed</i></td></tr>
-<tr><th id="309">309</th><td><i class="doc"> * data is then drained from the buffer.</i></td></tr>
-<tr><th id="310">310</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="311">311</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The WebSocket connection.</i></td></tr>
-<tr><th id="312">312</th><td><i class="doc"> * <span class="command">@return</span> The total number of bytes consumed from the socket buffer.</i></td></tr>
-<tr><th id="313">313</th><td><i class="doc"> *         If no complete frame is available or an error occurs, it returns 0.</i></td></tr>
-<tr><th id="314">314</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="315">315</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_cnx_ingress" title='vws_cnx_ingress' data-ref="vws_cnx_ingress" data-ref-filename="vws_cnx_ingress">vws_cnx_ingress</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col1 decl" id="2361c" title='c' data-type='vws_cnx *' data-ref="2361c" data-ref-filename="2361c">c</dfn>);</td></tr>
-<tr><th id="316">316</th><td></td></tr>
-<tr><th id="317">317</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="318">318</th><td><i>// Messaging API</i></td></tr>
-<tr><th id="319">319</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="320">320</th><td></td></tr>
-<tr><th id="321">321</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="322">322</th><td><i class="doc"> * <span class="command">@brief</span> Sends a TEXT frame</i></td></tr>
-<tr><th id="323">323</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="324">324</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="325">325</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The text to send.</i></td></tr>
-<tr><th id="326">326</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
-<tr><th id="327">327</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="328">328</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_text" title='vws_frame_send_text' data-ref="vws_frame_send_text" data-ref-filename="vws_frame_send_text">vws_frame_send_text</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col2 decl" id="2362c" title='c' data-type='vws_cnx *' data-ref="2362c" data-ref-filename="2362c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col3 decl" id="2363string" title='string' data-type='cstr' data-ref="2363string" data-ref-filename="2363string">string</dfn>);</td></tr>
-<tr><th id="329">329</th><td></td></tr>
-<tr><th id="330">330</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="331">331</th><td><i class="doc"> * <span class="command">@brief</span> Sends a BINARY frame</i></td></tr>
-<tr><th id="332">332</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="333">333</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="334">334</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The data to send.</i></td></tr>
-<tr><th id="335">335</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
-<tr><th id="336">336</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
-<tr><th id="337">337</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="338">338</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_binary" title='vws_frame_send_binary' data-ref="vws_frame_send_binary" data-ref-filename="vws_frame_send_binary">vws_frame_send_binary</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="2364c" title='c' data-type='vws_cnx *' data-ref="2364c" data-ref-filename="2364c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col5 decl" id="2365string" title='string' data-type='ucstr' data-ref="2365string" data-ref-filename="2365string">string</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col6 decl" id="2366size" title='size' data-type='size_t' data-ref="2366size" data-ref-filename="2366size">size</dfn>);</td></tr>
-<tr><th id="339">339</th><td></td></tr>
-<tr><th id="340">340</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="341">341</th><td><i class="doc"> * <span class="command">@brief</span> Sends custom frame containing data</i></td></tr>
-<tr><th id="342">342</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="343">343</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="344">344</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">dataThe</span> data to send.</i></td></tr>
-<tr><th id="345">345</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
-<tr><th id="346">346</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">oc</span> The websocket opcode defining the frame type.</i></td></tr>
-<tr><th id="347">347</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
-<tr><th id="348">348</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="349">349</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_data" title='vws_frame_send_data' data-ref="vws_frame_send_data" data-ref-filename="vws_frame_send_data">vws_frame_send_data</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2367c" title='c' data-type='vws_cnx *' data-ref="2367c" data-ref-filename="2367c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col8 decl" id="2368data" title='data' data-type='ucstr' data-ref="2368data" data-ref-filename="2368data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="2369size" title='size' data-type='size_t' data-ref="2369size" data-ref-filename="2369size">size</dfn>, <em>int</em> <dfn class="local col0 decl" id="2370oc" title='oc' data-type='int' data-ref="2370oc" data-ref-filename="2370oc">oc</dfn>);</td></tr>
-<tr><th id="350">350</th><td></td></tr>
-<tr><th id="351">351</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="352">352</th><td><i class="doc"> * <span class="command">@brief</span> Sends a prebuilt websocket frame. This function will take ownership of</i></td></tr>
-<tr><th id="353">353</th><td><i class="doc"> * the frame and deallocate it for the caller.</i></td></tr>
-<tr><th id="354">354</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="355">355</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="356">356</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">frame</span> The frame to send. This function will take ownership of the</i></td></tr>
-<tr><th id="357">357</th><td><i class="doc"> *   frame and deallocate it for the caller.</i></td></tr>
-<tr><th id="358">358</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
+<tr><th id="306">306</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="307">307</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="308">308</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="309">309</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="310">310</th><td><em>void</em> <dfn class="decl fn" id="vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col0 decl" id="2360c" title='c' data-type='vws_cnx *' data-ref="2360c" data-ref-filename="2360c">c</dfn>);</td></tr>
+<tr><th id="311">311</th><td></td></tr>
+<tr><th id="312">312</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="313">313</th><td><i class="doc"> * <span class="command">@brief</span> Checks connection state</i></td></tr>
+<tr><th id="314">314</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="315">315</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="316">316</th><td><i class="doc"> * <span class="command">@return</span> Returns true if connection is established, false otherwise. If false,</i></td></tr>
+<tr><th id="317">317</th><td><i class="doc"> * sets vrtql.e to VE_DISCONNECT.</i></td></tr>
+<tr><th id="318">318</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="319">319</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="320">320</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="321">321</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_cnx_is_connected" title='vws_cnx_is_connected' data-ref="vws_cnx_is_connected" data-ref-filename="vws_cnx_is_connected">vws_cnx_is_connected</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col1 decl" id="2361c" title='c' data-type='vws_cnx *' data-ref="2361c" data-ref-filename="2361c">c</dfn>);</td></tr>
+<tr><th id="322">322</th><td></td></tr>
+<tr><th id="323">323</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="324">324</th><td><i class="doc"> * <span class="command">@brief</span> Sets the connection to server mode</i></td></tr>
+<tr><th id="325">325</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="326">326</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The websocket connection.</i></td></tr>
+<tr><th id="327">327</th><td><i class="doc"> * <span class="command">@return</span> Returns void.</i></td></tr>
+<tr><th id="328">328</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="329">329</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="330">330</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="331">331</th><td><em>void</em> <dfn class="decl fn" id="vws_cnx_set_server_mode" title='vws_cnx_set_server_mode' data-ref="vws_cnx_set_server_mode" data-ref-filename="vws_cnx_set_server_mode">vws_cnx_set_server_mode</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col2 decl" id="2362c" title='c' data-type='vws_cnx *' data-ref="2362c" data-ref-filename="2362c">c</dfn>);</td></tr>
+<tr><th id="332">332</th><td></td></tr>
+<tr><th id="333">333</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="334">334</th><td><i class="doc"> * <span class="command">@brief</span> Processes incoming data from a Socket.</i></td></tr>
+<tr><th id="335">335</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="336">336</th><td><i class="doc"> * This function parses the data in the socket buffer and attempts to extract</i></td></tr>
+<tr><th id="337">337</th><td><i class="doc"> * complete WebSocket frames. It processes as many frames as possible and</i></td></tr>
+<tr><th id="338">338</th><td><i class="doc"> * calls the appropriate processing function for each frame. The consumed</i></td></tr>
+<tr><th id="339">339</th><td><i class="doc"> * data is then drained from the buffer.</i></td></tr>
+<tr><th id="340">340</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="341">341</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The WebSocket connection.</i></td></tr>
+<tr><th id="342">342</th><td><i class="doc"> * <span class="command">@return</span> The total number of bytes consumed from the socket buffer.</i></td></tr>
+<tr><th id="343">343</th><td><i class="doc"> *         If no complete frame is available or an error occurs, it returns 0.</i></td></tr>
+<tr><th id="344">344</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="345">345</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">ConnectionFunctions</span></i></td></tr>
+<tr><th id="346">346</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="347">347</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_cnx_ingress" title='vws_cnx_ingress' data-ref="vws_cnx_ingress" data-ref-filename="vws_cnx_ingress">vws_cnx_ingress</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col3 decl" id="2363c" title='c' data-type='vws_cnx *' data-ref="2363c" data-ref-filename="2363c">c</dfn>);</td></tr>
+<tr><th id="348">348</th><td></td></tr>
+<tr><th id="349">349</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="350">350</th><td><i>// Messaging API</i></td></tr>
+<tr><th id="351">351</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="352">352</th><td></td></tr>
+<tr><th id="353">353</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="354">354</th><td><i class="doc"> * <span class="command">@brief</span> Sends a TEXT frame</i></td></tr>
+<tr><th id="355">355</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="356">356</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="357">357</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The text to send.</i></td></tr>
+<tr><th id="358">358</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
 <tr><th id="359">359</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="360">360</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send" title='vws_frame_send' data-ref="vws_frame_send" data-ref-filename="vws_frame_send">vws_frame_send</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col1 decl" id="2371c" title='c' data-type='vws_cnx *' data-ref="2371c" data-ref-filename="2371c">c</dfn>, <a class="typedef" href="#vws_frame" title='vws_frame' data-type='struct vws_frame' data-ref="vws_frame" data-ref-filename="vws_frame">vws_frame</a>* <dfn class="local col2 decl" id="2372frame" title='frame' data-type='vws_frame *' data-ref="2372frame" data-ref-filename="2372frame">frame</dfn>);</td></tr>
+<tr><th id="360">360</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_text" title='vws_frame_send_text' data-ref="vws_frame_send_text" data-ref-filename="vws_frame_send_text">vws_frame_send_text</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="2364c" title='c' data-type='vws_cnx *' data-ref="2364c" data-ref-filename="2364c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col5 decl" id="2365string" title='string' data-type='cstr' data-ref="2365string" data-ref-filename="2365string">string</dfn>);</td></tr>
 <tr><th id="361">361</th><td></td></tr>
 <tr><th id="362">362</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="363">363</th><td><i class="doc"> * <span class="command">@brief</span> Sends a TEXT message</i></td></tr>
+<tr><th id="363">363</th><td><i class="doc"> * <span class="command">@brief</span> Sends a BINARY frame</i></td></tr>
 <tr><th id="364">364</th><td><i class="doc"> *</i></td></tr>
 <tr><th id="365">365</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="366">366</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The text to send.</i></td></tr>
-<tr><th id="367">367</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
-<tr><th id="368">368</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="369">369</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_text" title='vws_msg_send_text' data-ref="vws_msg_send_text" data-ref-filename="vws_msg_send_text">vws_msg_send_text</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col3 decl" id="2373c" title='c' data-type='vws_cnx *' data-ref="2373c" data-ref-filename="2373c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="2374string" title='string' data-type='cstr' data-ref="2374string" data-ref-filename="2374string">string</dfn>);</td></tr>
-<tr><th id="370">370</th><td></td></tr>
-<tr><th id="371">371</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="372">372</th><td><i class="doc"> * <span class="command">@brief</span> Sends a BINARY message</i></td></tr>
-<tr><th id="373">373</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="374">374</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="375">375</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The data to send.</i></td></tr>
-<tr><th id="376">376</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
-<tr><th id="377">377</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
-<tr><th id="378">378</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="379">379</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_binary" title='vws_msg_send_binary' data-ref="vws_msg_send_binary" data-ref-filename="vws_msg_send_binary">vws_msg_send_binary</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col5 decl" id="2375c" title='c' data-type='vws_cnx *' data-ref="2375c" data-ref-filename="2375c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col6 decl" id="2376string" title='string' data-type='ucstr' data-ref="2376string" data-ref-filename="2376string">string</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="2377size" title='size' data-type='size_t' data-ref="2377size" data-ref-filename="2377size">size</dfn>);</td></tr>
-<tr><th id="380">380</th><td></td></tr>
-<tr><th id="381">381</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="382">382</th><td><i class="doc"> * <span class="command">@brief</span> Sends custom message containing</i></td></tr>
-<tr><th id="383">383</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="384">384</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="385">385</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">dataThe</span> data to send.</i></td></tr>
-<tr><th id="386">386</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
-<tr><th id="387">387</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">oc</span> The websocket opcode defining the frame type.</i></td></tr>
-<tr><th id="388">388</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
-<tr><th id="389">389</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="390">390</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_data" title='vws_msg_send_data' data-ref="vws_msg_send_data" data-ref-filename="vws_msg_send_data">vws_msg_send_data</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col8 decl" id="2378c" title='c' data-type='vws_cnx *' data-ref="2378c" data-ref-filename="2378c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col9 decl" id="2379data" title='data' data-type='ucstr' data-ref="2379data" data-ref-filename="2379data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col0 decl" id="2380size" title='size' data-type='size_t' data-ref="2380size" data-ref-filename="2380size">size</dfn>, <em>int</em> <dfn class="local col1 decl" id="2381oc" title='oc' data-type='int' data-ref="2381oc" data-ref-filename="2381oc">oc</dfn>);</td></tr>
-<tr><th id="391">391</th><td></td></tr>
-<tr><th id="392">392</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="393">393</th><td><i class="doc"> * <span class="command">@brief</span> Receives a websocket message from the connection. If there are no</i></td></tr>
-<tr><th id="394">394</th><td><i class="doc"> *        messages in queue, it will call socket_wait_for_frame().</i></td></tr>
-<tr><th id="395">395</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="396">396</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="397">397</th><td><i class="doc"> * <span class="command">@return</span> Returns the most recent websocket message or NULL if the socket</i></td></tr>
-<tr><th id="398">398</th><td><i class="doc"> *   timed out without receiving a full message.</i></td></tr>
-<tr><th id="399">399</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="400">400</th><td><a class="typedef" href="#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl fn" id="vws_msg_recv" title='vws_msg_recv' data-ref="vws_msg_recv" data-ref-filename="vws_msg_recv">vws_msg_recv</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col2 decl" id="2382c" title='c' data-type='vws_cnx *' data-ref="2382c" data-ref-filename="2382c">c</dfn>);</td></tr>
-<tr><th id="401">401</th><td></td></tr>
-<tr><th id="402">402</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="403">403</th><td><i class="doc"> * <span class="command">@brief</span> Removes and returns the first complete message from the connection's</i></td></tr>
-<tr><th id="404">404</th><td><i class="doc"> *         message queue.</i></td></tr>
+<tr><th id="366">366</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The data to send.</i></td></tr>
+<tr><th id="367">367</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
+<tr><th id="368">368</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
+<tr><th id="369">369</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="370">370</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_binary" title='vws_frame_send_binary' data-ref="vws_frame_send_binary" data-ref-filename="vws_frame_send_binary">vws_frame_send_binary</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col6 decl" id="2366c" title='c' data-type='vws_cnx *' data-ref="2366c" data-ref-filename="2366c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col7 decl" id="2367string" title='string' data-type='ucstr' data-ref="2367string" data-ref-filename="2367string">string</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="2368size" title='size' data-type='size_t' data-ref="2368size" data-ref-filename="2368size">size</dfn>);</td></tr>
+<tr><th id="371">371</th><td></td></tr>
+<tr><th id="372">372</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="373">373</th><td><i class="doc"> * <span class="command">@brief</span> Sends custom frame containing data</i></td></tr>
+<tr><th id="374">374</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="375">375</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="376">376</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">dataThe</span> data to send.</i></td></tr>
+<tr><th id="377">377</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
+<tr><th id="378">378</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">oc</span> The websocket opcode defining the frame type.</i></td></tr>
+<tr><th id="379">379</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
+<tr><th id="380">380</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="381">381</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send_data" title='vws_frame_send_data' data-ref="vws_frame_send_data" data-ref-filename="vws_frame_send_data">vws_frame_send_data</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col9 decl" id="2369c" title='c' data-type='vws_cnx *' data-ref="2369c" data-ref-filename="2369c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col0 decl" id="2370data" title='data' data-type='ucstr' data-ref="2370data" data-ref-filename="2370data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="2371size" title='size' data-type='size_t' data-ref="2371size" data-ref-filename="2371size">size</dfn>, <em>int</em> <dfn class="local col2 decl" id="2372oc" title='oc' data-type='int' data-ref="2372oc" data-ref-filename="2372oc">oc</dfn>);</td></tr>
+<tr><th id="382">382</th><td></td></tr>
+<tr><th id="383">383</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="384">384</th><td><i class="doc"> * <span class="command">@brief</span> Sends a prebuilt websocket frame. This function will take ownership of</i></td></tr>
+<tr><th id="385">385</th><td><i class="doc"> * the frame and deallocate it for the caller.</i></td></tr>
+<tr><th id="386">386</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="387">387</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="388">388</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">frame</span> The frame to send. This function will take ownership of the</i></td></tr>
+<tr><th id="389">389</th><td><i class="doc"> *   frame and deallocate it for the caller.</i></td></tr>
+<tr><th id="390">390</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
+<tr><th id="391">391</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="392">392</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_frame_send" title='vws_frame_send' data-ref="vws_frame_send" data-ref-filename="vws_frame_send">vws_frame_send</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col3 decl" id="2373c" title='c' data-type='vws_cnx *' data-ref="2373c" data-ref-filename="2373c">c</dfn>, <a class="typedef" href="#vws_frame" title='vws_frame' data-type='struct vws_frame' data-ref="vws_frame" data-ref-filename="vws_frame">vws_frame</a>* <dfn class="local col4 decl" id="2374frame" title='frame' data-type='vws_frame *' data-ref="2374frame" data-ref-filename="2374frame">frame</dfn>);</td></tr>
+<tr><th id="393">393</th><td></td></tr>
+<tr><th id="394">394</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="395">395</th><td><i class="doc"> * <span class="command">@brief</span> Sends a TEXT message</i></td></tr>
+<tr><th id="396">396</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="397">397</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="398">398</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The text to send.</i></td></tr>
+<tr><th id="399">399</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
+<tr><th id="400">400</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="401">401</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_text" title='vws_msg_send_text' data-ref="vws_msg_send_text" data-ref-filename="vws_msg_send_text">vws_msg_send_text</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col5 decl" id="2375c" title='c' data-type='vws_cnx *' data-ref="2375c" data-ref-filename="2375c">c</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="2376string" title='string' data-type='cstr' data-ref="2376string" data-ref-filename="2376string">string</dfn>);</td></tr>
+<tr><th id="402">402</th><td></td></tr>
+<tr><th id="403">403</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="404">404</th><td><i class="doc"> * <span class="command">@brief</span> Sends a BINARY message</i></td></tr>
 <tr><th id="405">405</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="406">406</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the WebSocket connection.</i></td></tr>
-<tr><th id="407">407</th><td><i class="doc"> * <span class="command">@return</span> A pointer to the popped vws_msg object, or NULL if the queue is</i></td></tr>
-<tr><th id="408">408</th><td><i class="doc"> * empty.</i></td></tr>
-<tr><th id="409">409</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="410">410</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">MessageFunctions</span></i></td></tr>
-<tr><th id="411">411</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="412">412</th><td><a class="typedef" href="#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl fn" id="vws_msg_pop" title='vws_msg_pop' data-ref="vws_msg_pop" data-ref-filename="vws_msg_pop">vws_msg_pop</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col3 decl" id="2383c" title='c' data-type='vws_cnx *' data-ref="2383c" data-ref-filename="2383c">c</dfn>);</td></tr>
-<tr><th id="413">413</th><td></td></tr>
-<tr><th id="414">414</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="415">415</th><td><i class="doc"> * <span class="command">@brief</span> Receives a websocket frame from the connection. If there are no</i></td></tr>
-<tr><th id="416">416</th><td><i class="doc"> *        frames in queue, it will call socket_wait_for_frame().</i></td></tr>
-<tr><th id="417">417</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="418">418</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
-<tr><th id="419">419</th><td><i class="doc"> * <span class="command">@return</span> Returns the most recent websocket frame or NULL if the socket timed</i></td></tr>
-<tr><th id="420">420</th><td><i class="doc"> *   out without receiving a full frame.</i></td></tr>
+<tr><th id="406">406</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="407">407</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">string</span> The data to send.</i></td></tr>
+<tr><th id="408">408</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
+<tr><th id="409">409</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent.</i></td></tr>
+<tr><th id="410">410</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="411">411</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_binary" title='vws_msg_send_binary' data-ref="vws_msg_send_binary" data-ref-filename="vws_msg_send_binary">vws_msg_send_binary</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2377c" title='c' data-type='vws_cnx *' data-ref="2377c" data-ref-filename="2377c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col8 decl" id="2378string" title='string' data-type='ucstr' data-ref="2378string" data-ref-filename="2378string">string</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="2379size" title='size' data-type='size_t' data-ref="2379size" data-ref-filename="2379size">size</dfn>);</td></tr>
+<tr><th id="412">412</th><td></td></tr>
+<tr><th id="413">413</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="414">414</th><td><i class="doc"> * <span class="command">@brief</span> Sends custom message containing</i></td></tr>
+<tr><th id="415">415</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="416">416</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="417">417</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">dataThe</span> data to send.</i></td></tr>
+<tr><th id="418">418</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data in bytes.</i></td></tr>
+<tr><th id="419">419</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">oc</span> The websocket opcode defining the frame type.</i></td></tr>
+<tr><th id="420">420</th><td><i class="doc"> * <span class="command">@return</span> Returns the number of bytes sent out on wire.</i></td></tr>
 <tr><th id="421">421</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="422">422</th><td><a class="typedef" href="#vws_frame" title='vws_frame' data-type='struct vws_frame' data-ref="vws_frame" data-ref-filename="vws_frame">vws_frame</a>* <dfn class="decl fn" id="vws_frame_recv" title='vws_frame_recv' data-ref="vws_frame_recv" data-ref-filename="vws_frame_recv">vws_frame_recv</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="2384c" title='c' data-type='vws_cnx *' data-ref="2384c" data-ref-filename="2384c">c</dfn>);</td></tr>
+<tr><th id="422">422</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_msg_send_data" title='vws_msg_send_data' data-ref="vws_msg_send_data" data-ref-filename="vws_msg_send_data">vws_msg_send_data</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col0 decl" id="2380c" title='c' data-type='vws_cnx *' data-ref="2380c" data-ref-filename="2380c">c</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col1 decl" id="2381data" title='data' data-type='ucstr' data-ref="2381data" data-ref-filename="2381data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col2 decl" id="2382size" title='size' data-type='size_t' data-ref="2382size" data-ref-filename="2382size">size</dfn>, <em>int</em> <dfn class="local col3 decl" id="2383oc" title='oc' data-type='int' data-ref="2383oc" data-ref-filename="2383oc">oc</dfn>);</td></tr>
 <tr><th id="423">423</th><td></td></tr>
-<tr><th id="424">424</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_WEBSOCKET_DECLARE */</u></td></tr>
-<tr><th id="425">425</th><td></td></tr>
+<tr><th id="424">424</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="425">425</th><td><i class="doc"> * <span class="command">@brief</span> Receives a websocket message from the connection. If there are no</i></td></tr>
+<tr><th id="426">426</th><td><i class="doc"> *        messages in queue, it will call socket_wait_for_frame().</i></td></tr>
+<tr><th id="427">427</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="428">428</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="429">429</th><td><i class="doc"> * <span class="command">@return</span> Returns the most recent websocket message or NULL if the socket</i></td></tr>
+<tr><th id="430">430</th><td><i class="doc"> *   timed out without receiving a full message.</i></td></tr>
+<tr><th id="431">431</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="432">432</th><td><a class="typedef" href="#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl fn" id="vws_msg_recv" title='vws_msg_recv' data-ref="vws_msg_recv" data-ref-filename="vws_msg_recv">vws_msg_recv</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col4 decl" id="2384c" title='c' data-type='vws_cnx *' data-ref="2384c" data-ref-filename="2384c">c</dfn>);</td></tr>
+<tr><th id="433">433</th><td></td></tr>
+<tr><th id="434">434</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="435">435</th><td><i class="doc"> * <span class="command">@brief</span> Removes and returns the first complete message from the connection's</i></td></tr>
+<tr><th id="436">436</th><td><i class="doc"> *         message queue.</i></td></tr>
+<tr><th id="437">437</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="438">438</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the WebSocket connection.</i></td></tr>
+<tr><th id="439">439</th><td><i class="doc"> * <span class="command">@return</span> A pointer to the popped vws_msg object, or NULL if the queue is</i></td></tr>
+<tr><th id="440">440</th><td><i class="doc"> * empty.</i></td></tr>
+<tr><th id="441">441</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="442">442</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">MessageFunctions</span></i></td></tr>
+<tr><th id="443">443</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="444">444</th><td><a class="typedef" href="#vws_msg" title='vws_msg' data-type='struct vws_msg' data-ref="vws_msg" data-ref-filename="vws_msg">vws_msg</a>* <dfn class="decl fn" id="vws_msg_pop" title='vws_msg_pop' data-ref="vws_msg_pop" data-ref-filename="vws_msg_pop">vws_msg_pop</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col5 decl" id="2385c" title='c' data-type='vws_cnx *' data-ref="2385c" data-ref-filename="2385c">c</dfn>);</td></tr>
+<tr><th id="445">445</th><td></td></tr>
+<tr><th id="446">446</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="447">447</th><td><i class="doc"> * <span class="command">@brief</span> Receives a websocket frame from the connection. If there are no</i></td></tr>
+<tr><th id="448">448</th><td><i class="doc"> *        frames in queue, it will call socket_wait_for_frame().</i></td></tr>
+<tr><th id="449">449</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="450">450</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The connection.</i></td></tr>
+<tr><th id="451">451</th><td><i class="doc"> * <span class="command">@return</span> Returns the most recent websocket frame or NULL if the socket timed</i></td></tr>
+<tr><th id="452">452</th><td><i class="doc"> *   out without receiving a full frame.</i></td></tr>
+<tr><th id="453">453</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="454">454</th><td><a class="typedef" href="#vws_frame" title='vws_frame' data-type='struct vws_frame' data-ref="vws_frame" data-ref-filename="vws_frame">vws_frame</a>* <dfn class="decl fn" id="vws_frame_recv" title='vws_frame_recv' data-ref="vws_frame_recv" data-ref-filename="vws_frame_recv">vws_frame_recv</dfn>(<a class="typedef" href="#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col6 decl" id="2386c" title='c' data-type='vws_cnx *' data-ref="2386c" data-ref-filename="2386c">c</dfn>);</td></tr>
+<tr><th id="455">455</th><td></td></tr>
+<tr><th id="456">456</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_WEBSOCKET_DECLARE */</u></td></tr>
+<tr><th id="457">457</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-28</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

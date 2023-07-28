@@ -23,5 +23,5 @@
  * @see vws_trace_lock()
  */</doc>
 <def f='codebrowser/src/vws.c' l='109' ll='127' type='void vws_trace_unlock()'/>
-<use f='codebrowser/src/websocket.c' l='612' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1153' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='622' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1163' u='c' c='vws_cnx_ingress'/>

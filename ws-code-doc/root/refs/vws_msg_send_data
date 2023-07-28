@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='390' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
-<doc f='codebrowser/src/websocket.h' l='381'>/**
+<dec f='codebrowser/src/websocket.h' l='422' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<doc f='codebrowser/src/websocket.h' l='413'>/**
  * @brief Sends custom message containing
  *
  * @param c The connection.
@@ -8,4 +8,4 @@
  * @param oc The websocket opcode defining the frame type.
  * @return Returns the number of bytes sent out on wire.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='588' ll='591' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<def f='codebrowser/src/websocket.c' l='598' ll='601' type='ssize_t vws_msg_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>

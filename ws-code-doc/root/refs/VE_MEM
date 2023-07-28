@@ -5,4 +5,4 @@
 <use f='codebrowser/src/vws.c' l='296' c='vws_realloc_error'/>
 <use f='codebrowser/src/vws.c' l='391' c='vws_error_default_process'/>
 <use f='codebrowser/src/vws.c' l='407' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='355' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='276' c='cnx_connect'/>

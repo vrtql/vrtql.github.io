@@ -13,6 +13,9 @@
 <use f='codebrowser/src/server.c' l='1806' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/server.c' l='1847' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/server.c' l='1854' u='c' c='msg_svr_client_process'/>
+<use f='codebrowser/src/test/test_example.c' l='32' u='c' c='main'/>
+<use f='codebrowser/src/test/test_example.c' l='47' u='c' c='main'/>
+<use f='codebrowser/src/test/test_example.c' l='51' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='42' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='43' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='82' u='c' c='ctest_test_message_json_serialization_run'/>

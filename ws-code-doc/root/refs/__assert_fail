@@ -48,4 +48,3 @@
 <use f='codebrowser/src/http_parser.c' l='2632' macro='1' u='c' c='http_parser_parse_url'/>
 <use f='codebrowser/src/http_parser.c' l='2661' macro='1' u='c' c='http_parser_pause'/>
 <doc f='include/assert.h' l='68'>/* This prints an &quot;Assertion failed&quot; message and aborts.  */</doc>
-<use f='codebrowser/src/test/test_example.c' l='23' macro='1' u='c' c='main'/>

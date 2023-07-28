@@ -8,4 +8,4 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='731' u='c' c='uv_thread'/>
 <use f='codebrowser/src/socket.c' l='276' u='c' c='vws_socket_connect'/>
-<def f='codebrowser/src/vws.c' l='773' ll='776' type='uint8_t vws_is_flag(const uint64_t * flags, uint64_t flag)'/>
+<def f='codebrowser/src/vws.c' l='774' ll='777' type='uint8_t vws_is_flag(const uint64_t * flags, uint64_t flag)'/>

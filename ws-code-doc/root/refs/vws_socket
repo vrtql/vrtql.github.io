@@ -1,7 +1,7 @@
 <use f='codebrowser/src/socket.h' l='25'/>
 <def f='codebrowser/src/socket.h' l='30' ll='53'/>
 <use f='codebrowser/src/socket.h' l='30'/>
-<use f='codebrowser/src/websocket.h' l='223'/>
+<use f='codebrowser/src/websocket.h' l='230'/>
 <size>56</size>
 <doc f='codebrowser/src/socket.h' l='27'>/**
  * @brief A socket

@@ -11,5 +11,5 @@
  *  }
  */</doc>
 <use f='codebrowser/src/test/test_common.c' l='112' u='c'/>
-<use f='codebrowser/src/websocket.c' l='310' u='c'/>
-<use f='codebrowser/src/websocket.c' l='1258' u='c'/>
+<use f='codebrowser/src/websocket.c' l='324' u='c'/>
+<use f='codebrowser/src/websocket.c' l='1268' u='c'/>

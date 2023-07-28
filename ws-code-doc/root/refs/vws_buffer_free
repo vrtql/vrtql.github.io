@@ -21,8 +21,8 @@
 <use f='codebrowser/src/test/test_message.c' l='24' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='64' u='c' c='ctest_test_message_json_serialization_run'/>
 <def f='codebrowser/src/vws.c' l='495' ll='502' type='void vws_buffer_free(vws_buffer * buffer)'/>
-<use f='codebrowser/src/websocket.c' l='554' u='c' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='620' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='650' u='c' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='990' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1015' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='564' u='c' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='630' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='660' u='c' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='1000' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1025' u='c' c='process_frame'/>

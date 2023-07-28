@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='349' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
-<doc f='codebrowser/src/websocket.h' l='340'>/**
+<dec f='codebrowser/src/websocket.h' l='381' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<doc f='codebrowser/src/websocket.h' l='372'>/**
  * @brief Sends custom frame containing data
  *
  * @param c The connection.
@@ -9,8 +9,8 @@
  * @return Returns the number of bytes sent out on wire.
  */</doc>
 <use f='codebrowser/src/test/test_websocket.c' l='58' u='c' c='ctest_test_send_data_run'/>
-<use f='codebrowser/src/websocket.c' l='565' u='c' c='vws_frame_send_text'/>
-<use f='codebrowser/src/websocket.c' l='570' u='c' c='vws_frame_send_binary'/>
-<def f='codebrowser/src/websocket.c' l='573' ll='576' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
-<use f='codebrowser/src/websocket.c' l='580' u='c' c='vws_msg_send_text'/>
-<use f='codebrowser/src/websocket.c' l='585' u='c' c='vws_msg_send_binary'/>
+<use f='codebrowser/src/websocket.c' l='575' u='c' c='vws_frame_send_text'/>
+<use f='codebrowser/src/websocket.c' l='580' u='c' c='vws_frame_send_binary'/>
+<def f='codebrowser/src/websocket.c' l='583' ll='586' type='ssize_t vws_frame_send_data(vws_cnx * c, ucstr data, size_t size, int oc)'/>
+<use f='codebrowser/src/websocket.c' l='590' u='c' c='vws_msg_send_text'/>
+<use f='codebrowser/src/websocket.c' l='595' u='c' c='vws_msg_send_binary'/>

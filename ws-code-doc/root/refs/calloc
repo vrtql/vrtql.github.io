@@ -34,5 +34,5 @@
 <use f='codebrowser/src/util/sc_map.c' l='411' macro='1' u='c' c='sc_map_alloc_s64'/>
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_alloc_sll'/>
 <use f='codebrowser/src/vws.c' l='260' u='c' c='vws_calloc'/>
-<use f='codebrowser/src/websocket.c' l='289' macro='1' u='c' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='1001' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='308' macro='1' u='c' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='1011' macro='1' u='c' c='process_frame'/>

@@ -2,17 +2,17 @@
 <offset>128</offset>
 <doc f='codebrowser/src/websocket.h' l='78'>/**&lt; The payload data for the frame. */</doc>
 <use f='codebrowser/src/server.c' l='1464' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='698' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='702' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='703' u='r' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='713' u='r' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='715' u='r' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='716' u='w' c='vws_frame_free'/>
-<use f='codebrowser/src/websocket.c' l='845' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='851' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='931' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='940' u='r' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='958' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='961' u='r' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='1009' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1237' u='r' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='708' u='w' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='712' u='w' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='713' u='r' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='723' u='r' c='vws_frame_free'/>
+<use f='codebrowser/src/websocket.c' l='725' u='r' c='vws_frame_free'/>
+<use f='codebrowser/src/websocket.c' l='726' u='w' c='vws_frame_free'/>
+<use f='codebrowser/src/websocket.c' l='855' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='861' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='941' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='950' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='968' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='971' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='1019' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1247' u='r' c='vws_msg_pop'/>

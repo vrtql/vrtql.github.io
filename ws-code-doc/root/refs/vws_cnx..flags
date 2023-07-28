@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/websocket.h' l='226' type='uint64_t'/>
+<dec f='codebrowser/src/websocket.h' l='233' type='uint64_t'/>
 <offset>448</offset>
-<doc f='codebrowser/src/websocket.h' l='225'>/**&lt; Connection state flags. */</doc>
-<use f='codebrowser/src/websocket.c' l='282' u='w' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='334' u='a' c='vws_cnx_set_server_mode'/>
-<use f='codebrowser/src/websocket.c' l='538' u='w' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='981' u='a' c='process_frame'/>
+<doc f='codebrowser/src/websocket.h' l='232'>/**&lt; Connection state flags. */</doc>
+<use f='codebrowser/src/websocket.c' l='302' u='w' c='vws_cnx_new'/>
+<use f='codebrowser/src/websocket.c' l='348' u='a' c='vws_cnx_set_server_mode'/>
+<use f='codebrowser/src/websocket.c' l='548' u='w' c='vws_disconnect'/>
+<use f='codebrowser/src/websocket.c' l='991' u='a' c='process_frame'/>

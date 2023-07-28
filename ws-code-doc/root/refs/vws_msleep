@@ -14,7 +14,7 @@
  */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='141' u='c' c='ctest_test_msg_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='87' u='c' c='ctest_test_server_echo_run'/>
-<def f='codebrowser/src/vws.c' l='746' ll='771' type='void vws_msleep(unsigned int ms)'/>
+<def f='codebrowser/src/vws.c' l='746' ll='772' type='void vws_msleep(unsigned int ms)'/>
 <doc f='codebrowser/src/vws.c' l='733'>/**
  * @brief Sleeps for the specified number of milliseconds.
  *

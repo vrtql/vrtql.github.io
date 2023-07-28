@@ -3,8 +3,6 @@
 <use f='codebrowser/src/socket.c' l='372' u='c' c='vws_socket_disconnect'/>
 <use f='codebrowser/src/socket.c' l='387' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='583' u='c' c='vws_socket_write'/>
-<use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
-<use f='codebrowser/src/test/test_example.c' l='23' u='c' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='72' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='85' u='c' c='client_thread'/>
-<use f='codebrowser/src/websocket.c' l='377' u='c' c='vws_cnx_is_connected'/>
+<use f='codebrowser/src/websocket.c' l='387' u='c' c='vws_cnx_is_connected'/>

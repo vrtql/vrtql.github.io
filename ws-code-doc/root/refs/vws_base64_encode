@@ -12,5 +12,5 @@
 <doc f='codebrowser/src/vws.c' l='681'>//------------------------------------------------------------------------------
 // Base 64
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='1050' u='c' c='generate_websocket_key'/>
-<use f='codebrowser/src/websocket.c' l='1078' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1060' u='c' c='generate_websocket_key'/>
+<use f='codebrowser/src/websocket.c' l='1088' u='c' c='vws_accept_key'/>

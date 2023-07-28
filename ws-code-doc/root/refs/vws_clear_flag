@@ -6,4 +6,4 @@
  * @param flag  The flag to clear
  * @return None
  */</doc>
-<def f='codebrowser/src/vws.c' l='783' ll='786' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<def f='codebrowser/src/vws.c' l='784' ll='787' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>

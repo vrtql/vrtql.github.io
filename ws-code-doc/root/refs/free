@@ -123,5 +123,5 @@
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_remap_sll'/>
 <use f='codebrowser/src/util/yyjson.c' l='950' u='c' c='default_free'/>
 <use f='codebrowser/src/vws.c' l='255' u='c' c='vws_free'/>
-<use f='codebrowser/src/websocket.c' l='316' macro='1' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='1001' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='330' macro='1' u='c' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='1011' macro='1' u='c' c='process_frame'/>

@@ -767,38 +767,39 @@
 <tr><th id="754">754</th><td>    <a class="ref fn" href="../../include/unistd.h.html#usleep" title='usleep' data-ref="usleep" data-ref-filename="usleep">usleep</a>(<a class="local col6 ref" href="#86ms" title='ms' data-ref="86ms" data-ref-filename="86ms">ms</a> * <var>1000</var>);</td></tr>
 <tr><th id="755">755</th><td></td></tr>
 <tr><th id="756">756</th><td><u>#<span data-ppcond="748">elif</span> defined(__bsd__)</u></td></tr>
-<tr><th id="757">757</th><td>    usleep(ms * <var>1000</var>);</td></tr>
-<tr><th id="758">758</th><td></td></tr>
-<tr><th id="759">759</th><td><u>#elif defined(__sunos__)</u></td></tr>
-<tr><th id="760">760</th><td></td></tr>
-<tr><th id="761">761</th><td>    <b>struct</b> timespec ts;</td></tr>
-<tr><th id="762">762</th><td>    ts.tv_sec = ms / <var>1000</var>;</td></tr>
-<tr><th id="763">763</th><td>    ts.tv_nsec = (ms % <var>1000</var>) * <var>1000000</var>;</td></tr>
-<tr><th id="764">764</th><td>    nanosleep(&amp;ts, NULL);</td></tr>
-<tr><th id="765">765</th><td></td></tr>
-<tr><th id="766">766</th><td><u>#else</u></td></tr>
-<tr><th id="767">767</th><td></td></tr>
-<tr><th id="768">768</th><td><u>#error "Unsupported platform. msleep is not implemented for this platform."</u></td></tr>
-<tr><th id="769">769</th><td></td></tr>
-<tr><th id="770">770</th><td><u>#<span data-ppcond="748">endif</span></u></td></tr>
-<tr><th id="771">771</th><td>}</td></tr>
-<tr><th id="772">772</th><td></td></tr>
-<tr><th id="773">773</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl def fn" id="vws_is_flag" title='vws_is_flag' data-ref="vws_is_flag" data-ref-filename="vws_is_flag">vws_is_flag</dfn>(<em>const</em> <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col7 decl" id="87flags" title='flags' data-type='const uint64_t *' data-ref="87flags" data-ref-filename="87flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col8 decl" id="88flag" title='flag' data-type='uint64_t' data-ref="88flag" data-ref-filename="88flag">flag</dfn>)</td></tr>
-<tr><th id="774">774</th><td>{</td></tr>
-<tr><th id="775">775</th><td>    <b>return</b> (*<a class="local col7 ref" href="#87flags" title='flags' data-ref="87flags" data-ref-filename="87flags">flags</a> &amp; <a class="local col8 ref" href="#88flag" title='flag' data-ref="88flag" data-ref-filename="88flag">flag</a>) == <a class="local col8 ref" href="#88flag" title='flag' data-ref="88flag" data-ref-filename="88flag">flag</a>;</td></tr>
-<tr><th id="776">776</th><td>}</td></tr>
-<tr><th id="777">777</th><td></td></tr>
-<tr><th id="778">778</th><td><em>void</em> <dfn class="decl def fn" id="vws_set_flag" title='vws_set_flag' data-ref="vws_set_flag" data-ref-filename="vws_set_flag">vws_set_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col9 decl" id="89flags" title='flags' data-type='uint64_t *' data-ref="89flags" data-ref-filename="89flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col0 decl" id="90flag" title='flag' data-type='uint64_t' data-ref="90flag" data-ref-filename="90flag">flag</dfn>)</td></tr>
-<tr><th id="779">779</th><td>{</td></tr>
-<tr><th id="780">780</th><td>    *<a class="local col9 ref" href="#89flags" title='flags' data-ref="89flags" data-ref-filename="89flags">flags</a> |= <a class="local col0 ref" href="#90flag" title='flag' data-ref="90flag" data-ref-filename="90flag">flag</a>;</td></tr>
-<tr><th id="781">781</th><td>}</td></tr>
-<tr><th id="782">782</th><td></td></tr>
-<tr><th id="783">783</th><td><em>void</em> <dfn class="decl def fn" id="vws_clear_flag" title='vws_clear_flag' data-ref="vws_clear_flag" data-ref-filename="vws_clear_flag">vws_clear_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col1 decl" id="91flags" title='flags' data-type='uint64_t *' data-ref="91flags" data-ref-filename="91flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col2 decl" id="92flag" title='flag' data-type='uint64_t' data-ref="92flag" data-ref-filename="92flag">flag</dfn>)</td></tr>
-<tr><th id="784">784</th><td>{</td></tr>
-<tr><th id="785">785</th><td>    *<a class="local col1 ref" href="#91flags" title='flags' data-ref="91flags" data-ref-filename="91flags">flags</a> &amp;= ~<a class="local col2 ref" href="#92flag" title='flag' data-ref="92flag" data-ref-filename="92flag">flag</a>;</td></tr>
-<tr><th id="786">786</th><td>}</td></tr>
-<tr><th id="787">787</th><td></td></tr>
+<tr><th id="757">757</th><td></td></tr>
+<tr><th id="758">758</th><td>    usleep(ms * <var>1000</var>);</td></tr>
+<tr><th id="759">759</th><td></td></tr>
+<tr><th id="760">760</th><td><u>#elif defined(__sunos__)</u></td></tr>
+<tr><th id="761">761</th><td></td></tr>
+<tr><th id="762">762</th><td>    <b>struct</b> timespec ts;</td></tr>
+<tr><th id="763">763</th><td>    ts.tv_sec = ms / <var>1000</var>;</td></tr>
+<tr><th id="764">764</th><td>    ts.tv_nsec = (ms % <var>1000</var>) * <var>1000000</var>;</td></tr>
+<tr><th id="765">765</th><td>    nanosleep(&amp;ts, NULL);</td></tr>
+<tr><th id="766">766</th><td></td></tr>
+<tr><th id="767">767</th><td><u>#else</u></td></tr>
+<tr><th id="768">768</th><td></td></tr>
+<tr><th id="769">769</th><td><u>#error "Unsupported platform. msleep is not implemented for this platform."</u></td></tr>
+<tr><th id="770">770</th><td></td></tr>
+<tr><th id="771">771</th><td><u>#<span data-ppcond="748">endif</span></u></td></tr>
+<tr><th id="772">772</th><td>}</td></tr>
+<tr><th id="773">773</th><td></td></tr>
+<tr><th id="774">774</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl def fn" id="vws_is_flag" title='vws_is_flag' data-ref="vws_is_flag" data-ref-filename="vws_is_flag">vws_is_flag</dfn>(<em>const</em> <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col7 decl" id="87flags" title='flags' data-type='const uint64_t *' data-ref="87flags" data-ref-filename="87flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col8 decl" id="88flag" title='flag' data-type='uint64_t' data-ref="88flag" data-ref-filename="88flag">flag</dfn>)</td></tr>
+<tr><th id="775">775</th><td>{</td></tr>
+<tr><th id="776">776</th><td>    <b>return</b> (*<a class="local col7 ref" href="#87flags" title='flags' data-ref="87flags" data-ref-filename="87flags">flags</a> &amp; <a class="local col8 ref" href="#88flag" title='flag' data-ref="88flag" data-ref-filename="88flag">flag</a>) == <a class="local col8 ref" href="#88flag" title='flag' data-ref="88flag" data-ref-filename="88flag">flag</a>;</td></tr>
+<tr><th id="777">777</th><td>}</td></tr>
+<tr><th id="778">778</th><td></td></tr>
+<tr><th id="779">779</th><td><em>void</em> <dfn class="decl def fn" id="vws_set_flag" title='vws_set_flag' data-ref="vws_set_flag" data-ref-filename="vws_set_flag">vws_set_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col9 decl" id="89flags" title='flags' data-type='uint64_t *' data-ref="89flags" data-ref-filename="89flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col0 decl" id="90flag" title='flag' data-type='uint64_t' data-ref="90flag" data-ref-filename="90flag">flag</dfn>)</td></tr>
+<tr><th id="780">780</th><td>{</td></tr>
+<tr><th id="781">781</th><td>    *<a class="local col9 ref" href="#89flags" title='flags' data-ref="89flags" data-ref-filename="89flags">flags</a> |= <a class="local col0 ref" href="#90flag" title='flag' data-ref="90flag" data-ref-filename="90flag">flag</a>;</td></tr>
+<tr><th id="782">782</th><td>}</td></tr>
+<tr><th id="783">783</th><td></td></tr>
+<tr><th id="784">784</th><td><em>void</em> <dfn class="decl def fn" id="vws_clear_flag" title='vws_clear_flag' data-ref="vws_clear_flag" data-ref-filename="vws_clear_flag">vws_clear_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col1 decl" id="91flags" title='flags' data-type='uint64_t *' data-ref="91flags" data-ref-filename="91flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col2 decl" id="92flag" title='flag' data-type='uint64_t' data-ref="92flag" data-ref-filename="92flag">flag</dfn>)</td></tr>
+<tr><th id="785">785</th><td>{</td></tr>
+<tr><th id="786">786</th><td>    *<a class="local col1 ref" href="#91flags" title='flags' data-ref="91flags" data-ref-filename="91flags">flags</a> &amp;= ~<a class="local col2 ref" href="#92flag" title='flag' data-ref="92flag" data-ref-filename="92flag">flag</a>;</td></tr>
+<tr><th id="787">787</th><td>}</td></tr>
 <tr><th id="788">788</th><td></td></tr>
+<tr><th id="789">789</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2023-Jul-28</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

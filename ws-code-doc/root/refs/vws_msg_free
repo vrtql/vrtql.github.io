@@ -10,9 +10,7 @@
 <use f='codebrowser/src/server.c' l='1737' u='c' c='ws_svr_client_msg_out'/>
 <use f='codebrowser/src/server.c' l='1805' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/server.c' l='1820' u='c' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/test/test_example.c' l='42' u='c' c='main'/>
-<use f='codebrowser/src/test/test_example.c' l='58' u='c' c='main'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='26' u='c' c='ctest_test_send_frame_run'/>
-<def f='codebrowser/src/websocket.c' l='646' ll='653' type='void vws_msg_free(vws_msg * m)'/>
+<def f='codebrowser/src/websocket.c' l='656' ll='663' type='void vws_msg_free(vws_msg * m)'/>

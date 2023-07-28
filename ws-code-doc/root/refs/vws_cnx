@@ -1,15 +1,14 @@
 <use f='codebrowser/src/websocket.h' l='201'/>
-<def f='codebrowser/src/websocket.h' l='220' ll='246'/>
-<use f='codebrowser/src/websocket.h' l='220'/>
-<size>144</size>
-<doc f='codebrowser/src/websocket.h' l='217'>/**
+<def f='codebrowser/src/websocket.h' l='227' ll='250'/>
+<use f='codebrowser/src/websocket.h' l='227'/>
+<size>136</size>
+<doc f='codebrowser/src/websocket.h' l='224'>/**
  * @brief A WebSocket connection.
  */</doc>
 <mbr r='vws_cnx::base' o='0' t='struct vws_socket'/>
 <mbr r='vws_cnx::flags' o='448' t='uint64_t'/>
 <mbr r='vws_cnx::url' o='512' t='vws_url_data *'/>
-<mbr r='vws_cnx::origin' o='576' t='char *'/>
-<mbr r='vws_cnx::key' o='640' t='char *'/>
-<mbr r='vws_cnx::queue' o='704' t='struct sc_queue_ptr'/>
-<mbr r='vws_cnx::process' o='1024' t='vws_process_frame'/>
-<mbr r='vws_cnx::data' o='1088' t='char *'/>
+<mbr r='vws_cnx::key' o='576' t='char *'/>
+<mbr r='vws_cnx::queue' o='640' t='struct sc_queue_ptr'/>
+<mbr r='vws_cnx::process' o='960' t='vws_process_frame'/>
+<mbr r='vws_cnx::data' o='1024' t='char *'/>

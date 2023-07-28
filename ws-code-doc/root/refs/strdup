@@ -16,4 +16,3 @@
 <use f='codebrowser/src/vws.c' l='319' u='c' c='vws_set_error'/>
 <use f='codebrowser/src/vws.c' l='604' u='c' c='vws_map_set'/>
 <use f='codebrowser/src/vws.c' l='607' u='c' c='vws_map_set'/>
-<use f='codebrowser/src/websocket.c' l='360' u='c' c='vws_connect'/>

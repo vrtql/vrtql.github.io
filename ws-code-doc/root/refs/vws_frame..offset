@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/websocket.h' l='73' type='unsigned int'/>
 <offset>32</offset>
 <doc f='codebrowser/src/websocket.h' l='72'>/**&lt; Position of the data in the frame. */</doc>
-<use f='codebrowser/src/websocket.c' l='696' u='w' c='vws_frame_new'/>
-<use f='codebrowser/src/websocket.c' l='928' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='940' u='r' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='955' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='961' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='706' u='w' c='vws_frame_new'/>
+<use f='codebrowser/src/websocket.c' l='938' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='950' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='965' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='971' u='r' c='vws_deserialize'/>

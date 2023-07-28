@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='338' type='ssize_t vws_frame_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
+<dec f='codebrowser/src/websocket.h' l='370' type='ssize_t vws_frame_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
 <use f='codebrowser/src/message.c' l='435' u='c' c='vrtql_msg_send'/>
-<doc f='codebrowser/src/websocket.h' l='330'>/**
+<doc f='codebrowser/src/websocket.h' l='362'>/**
  * @brief Sends a BINARY frame
  *
  * @param c The connection.
@@ -8,4 +8,4 @@
  * @param size The size of the data in bytes.
  * @return Returns the number of bytes sent.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='568' ll='571' type='ssize_t vws_frame_send_binary(vws_cnx * c, ucstr data, size_t size)'/>
+<def f='codebrowser/src/websocket.c' l='578' ll='581' type='ssize_t vws_frame_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

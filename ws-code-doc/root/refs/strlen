@@ -125,8 +125,8 @@
 <use f='codebrowser/src/util/yyjson.c' l='3809' u='c' c='is_truncated_str'/>
 <use f='codebrowser/src/vws.c' l='666' u='c' c='vws_generate_uuid'/>
 <use f='codebrowser/src/vws.c' l='717' u='c' c='vws_base64_decode'/>
-<use f='codebrowser/src/websocket.c' l='407' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='565' u='c' c='vws_frame_send_text'/>
-<use f='codebrowser/src/websocket.c' l='580' u='c' c='vws_msg_send_text'/>
-<use f='codebrowser/src/websocket.c' l='1064' u='c' c='vws_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1065' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='417' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='575' u='c' c='vws_frame_send_text'/>
+<use f='codebrowser/src/websocket.c' l='590' u='c' c='vws_msg_send_text'/>
+<use f='codebrowser/src/websocket.c' l='1074' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1075' u='c' c='vws_accept_key'/>

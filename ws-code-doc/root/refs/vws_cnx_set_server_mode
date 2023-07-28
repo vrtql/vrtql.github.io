@@ -1,8 +1,10 @@
-<dec f='codebrowser/src/websocket.h' l='301' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='295'>/**
+<dec f='codebrowser/src/websocket.h' l='331' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='323'>/**
  * @brief Sets the connection to server mode
  *
  * @param c The websocket connection.
  * @return Returns void.
+ *
+ * @ingroup ConnectionFunctions
  */</doc>
-<def f='codebrowser/src/websocket.c' l='332' ll='335' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>
+<def f='codebrowser/src/websocket.c' l='346' ll='349' type='void vws_cnx_set_server_mode(vws_cnx * c)'/>

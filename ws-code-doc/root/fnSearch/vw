@@ -73,4 +73,5 @@ vws_msg_recv|vws_msg_recv
 vws_msg_send_binary|vws_msg_send_binary
 vws_msg_send_data|vws_msg_send_data
 vws_msg_send_text|vws_msg_send_text
+vws_reconnect|vws_reconnect
 vws_serialize|vws_serialize
