@@ -1,0 +1,14 @@
+<def f='codebrowser/src/websocket.h' l='203' ll='215'/>
+<use f='codebrowser/src/websocket.h' l='203'/>
+<size>88</size>
+<mbr r='vws_url_data::href' o='0' t='char *'/>
+<mbr r='vws_url_data::protocol' o='64' t='char *'/>
+<mbr r='vws_url_data::host' o='128' t='char *'/>
+<mbr r='vws_url_data::auth' o='192' t='char *'/>
+<mbr r='vws_url_data::hostname' o='256' t='char *'/>
+<mbr r='vws_url_data::pathname' o='320' t='char *'/>
+<mbr r='vws_url_data::search' o='384' t='char *'/>
+<mbr r='vws_url_data::path' o='448' t='char *'/>
+<mbr r='vws_url_data::hash' o='512' t='char *'/>
+<mbr r='vws_url_data::query' o='576' t='char *'/>
+<mbr r='vws_url_data::port' o='640' t='char *'/>

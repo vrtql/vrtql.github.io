@@ -13,7 +13,7 @@
 <use f='codebrowser/src/url.c' l='128' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='170' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='248' u='c' c='url_get_hostname'/>
-<use f='codebrowser/src/vrtql.c' l='319' u='c' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='596' u='c' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='599' u='c' c='vrtql_map_set'/>
+<use f='codebrowser/src/vws.c' l='319' u='c' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='604' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='607' u='c' c='vws_map_set'/>
 <use f='codebrowser/src/websocket.c' l='360' u='c' c='vws_connect'/>

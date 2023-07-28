@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/vws.h' l='402' type='char * vws_url_build(const vws_url * parts)'/>
+<doc f='codebrowser/src/vws.h' l='396'>/**
+ * @brief Builds a URL string from parts.
+ *
+ * @param parts The URL parts
+ * @return Returns a URL string built from the parts
+ */</doc>

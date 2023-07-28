@@ -12,7 +12,3 @@
 <use f='codebrowser/src/test/test_rpc.c' l='18' u='c' c='session_logout'/>
 <use f='codebrowser/src/test/test_rpc.c' l='27' u='c' c='session_info'/>
 <use f='codebrowser/src/test/test_rpc.c' l='61' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='50' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='53' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='54' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='55' u='c' c='ctest_test_message_run'/>

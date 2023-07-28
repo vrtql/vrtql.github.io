@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='92' type='vrtql_svr_data **'/>
+<dec f='codebrowser/src/server.h' l='92' type='vws_svr_data **'/>
 <use f='codebrowser/src/server.c' l='1329' u='w' c='queue_init'/>
 <use f='codebrowser/src/server.c' l='1344' u='r' c='queue_destroy'/>
 <use f='codebrowser/src/server.c' l='1349' u='r' c='queue_destroy'/>

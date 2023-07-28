@@ -1,12 +1,3 @@
-<dec f='codebrowser/src/test/test_vql.c' l='24' type='vws_cnx *'/>
-<use f='codebrowser/src/test/test_vql.c' l='29' u='w' c='ctest_test_setup'/>
-<use f='codebrowser/src/test/test_vql.c' l='30' u='r' c='ctest_test_setup'/>
-<use f='codebrowser/src/test/test_vql.c' l='31' u='r' c='ctest_test_setup'/>
-<use f='codebrowser/src/test/test_vql.c' l='61' u='r' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='62' u='r' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='73' u='r' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='74' u='r' c='ctest_test_message_run'/>
-<offset>64</offset>
 <dec f='codebrowser/src/test/test_websocket.c' l='32' type='vws_cnx *'/>
 <use f='codebrowser/src/test/test_websocket.c' l='37' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='38' u='r' c='ctest_test_setup'/>

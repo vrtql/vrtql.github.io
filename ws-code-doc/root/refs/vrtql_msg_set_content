@@ -9,6 +9,4 @@
 <use f='codebrowser/src/test/test_message.c' l='14' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='53' u='c' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='67' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_vql.c' l='58' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='72' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='75' u='c' c='ctest_test_message_run'/>

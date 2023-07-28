@@ -1,4 +1,4 @@
 <dec f='include/time.h' l='133' type='struct tm * localtime_r(const time_t *restrict __timer, struct tm *restrict __tp)'/>
 <doc f='include/time.h' l='131'>/* Return the `struct tm&apos; representation of *TIMER in local time,
    using *TP to store the result.  */</doc>
-<use f='codebrowser/src/vrtql.c' l='152' u='c' c='vrtql_trace'/>
+<use f='codebrowser/src/vws.c' l='152' u='c' c='vws_trace'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/server.h' l='257' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * memory)'/>
+<def f='codebrowser/src/server.c' l='748' ll='757' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * buffer)'/>
+<use f='codebrowser/src/server.c' l='1439' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1468' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1616' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1711' u='c' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/server.c' l='744'>//------------------------------------------------------------------------------
+// Server API
+//------------------------------------------------------------------------------</doc>
+<doc f='codebrowser/src/server.h' l='249'>/**
+ * @brief Creates a new thread data. This TAKES OWNERSHIP of the buffer data and
+ * sets the buffer to zero.
+ *
+ * @param c The connection
+ * @param buffer The buffer
+ * @return A new vws_svr_data instance with memory
+ */</doc>

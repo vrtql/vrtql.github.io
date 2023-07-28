@@ -1,6 +1,0 @@
-<def f='codebrowser/src/vrtql.c' l='231' ll='241' type='void * vrtql_malloc(size_t size)'/>
-<use f='codebrowser/src/vrtql.c' l='440'/>
-<use f='codebrowser/src/vrtql.c' l='440'/>
-<doc f='codebrowser/src/vrtql.c' l='227'>//------------------------------------------------------------------------------
-// Memory allocation
-//------------------------------------------------------------------------------</doc>

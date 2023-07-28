@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vrtql.h' l='228' type='vrtql_free_cb'/>
-<use f='codebrowser/src/http_message.c' l='149' u='r' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='150' u='r' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='158' u='r' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='159' u='r' c='vrtql_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='160' u='r' c='vrtql_http_msg_free'/>
+<dec f='codebrowser/src/vws.h' l='228' type='vws_free_cb'/>
+<use f='codebrowser/src/http_message.c' l='149' u='r' c='vws_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='150' u='r' c='vws_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='158' u='r' c='vws_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='159' u='r' c='vws_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='160' u='r' c='vws_http_msg_free'/>
 <offset>384</offset>
-<doc f='codebrowser/src/vrtql.h' l='228'>/**&lt; free function               */</doc>
+<doc f='codebrowser/src/vws.h' l='228'>/**&lt; free function               */</doc>
 <use f='codebrowser/src/message.c' l='69' u='r' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='187' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/rpc.c' l='74' u='r' c='vrtql_rpc_module_free'/>
@@ -19,8 +19,8 @@
 <use f='codebrowser/src/rpc.c' l='223' u='r' c='vrtql_rpc'/>
 <use f='codebrowser/src/rpc.c' l='228' u='r' c='vrtql_rpc'/>
 <use f='codebrowser/src/rpc.c' l='229' u='r' c='vrtql_rpc'/>
-<use f='codebrowser/src/server.c' l='776' u='r' c='vrtql_svr_data_free'/>
-<use f='codebrowser/src/server.c' l='777' u='r' c='vrtql_svr_data_free'/>
+<use f='codebrowser/src/server.c' l='776' u='r' c='vws_svr_data_free'/>
+<use f='codebrowser/src/server.c' l='777' u='r' c='vws_svr_data_free'/>
 <use f='codebrowser/src/server.c' l='800' u='r' c='vrtql_svr_free'/>
 <use f='codebrowser/src/server.c' l='1011' u='r' c='svr_dtor'/>
 <use f='codebrowser/src/server.c' l='1031' u='r' c='svr_dtor'/>
@@ -36,19 +36,19 @@
 <use f='codebrowser/src/server.c' l='1359' u='r' c='queue_push'/>
 <use f='codebrowser/src/server.c' l='1550' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/server.c' l='1597' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1784' u='r' c='vrtql_ws_svr_free'/>
+<use f='codebrowser/src/server.c' l='1784' u='r' c='vws_svr_free'/>
 <use f='codebrowser/src/server.c' l='1884' u='r' c='vrtql_msg_svr_free'/>
 <use f='codebrowser/src/socket.c' l='116' u='r' c='vws_socket_dtor'/>
-<use f='codebrowser/src/vrtql.c' l='311' u='r' c='vrtql_set_error'/>
-<use f='codebrowser/src/vrtql.c' l='357' u='r' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='446' u='w'/>
-<use f='codebrowser/src/vrtql.c' l='478' u='r' c='vrtql_buffer_clear'/>
-<use f='codebrowser/src/vrtql.c' l='492' u='r' c='vrtql_buffer_free'/>
-<use f='codebrowser/src/vrtql.c' l='517' u='r' c='vrtql_buffer_printf'/>
-<use f='codebrowser/src/vrtql.c' l='603' u='r' c='vrtql_map_set'/>
-<use f='codebrowser/src/vrtql.c' l='614' u='r' c='vrtql_map_remove'/>
-<use f='codebrowser/src/vrtql.c' l='625' u='r' c='vrtql_map_clear'/>
-<use f='codebrowser/src/vrtql.c' l='626' u='r' c='vrtql_map_clear'/>
+<use f='codebrowser/src/vws.c' l='311' u='r' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='354' u='r' c='vws_error_default_submit'/>
+<use f='codebrowser/src/vws.c' l='454' u='w'/>
+<use f='codebrowser/src/vws.c' l='486' u='r' c='vws_buffer_clear'/>
+<use f='codebrowser/src/vws.c' l='500' u='r' c='vws_buffer_free'/>
+<use f='codebrowser/src/vws.c' l='525' u='r' c='vws_buffer_printf'/>
+<use f='codebrowser/src/vws.c' l='611' u='r' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='622' u='r' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.c' l='633' u='r' c='vws_map_clear'/>
+<use f='codebrowser/src/vws.c' l='634' u='r' c='vws_map_clear'/>
 <use f='codebrowser/src/websocket.c' l='305' u='r' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='326' u='r' c='vws_cnx_free'/>
 <use f='codebrowser/src/websocket.c' l='520' u='r' c='socket_handshake'/>

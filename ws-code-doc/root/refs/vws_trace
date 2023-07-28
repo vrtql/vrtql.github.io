@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/vws.h' l='85' type='void vws_trace(vws_log_level_t level, const char * format)'/>
+<doc f='codebrowser/src/vws.h' l='78'>/**
+ * @brief Logs a trace message.
+ *
+ * @param level The level of the log
+ * @param format The format string for the message
+ * @param ... The arguments for the format string
+ */</doc>
+<def f='codebrowser/src/vws.c' l='129' ll='225' type='void vws_trace(vws_log_level_t level, const char * format)'/>
+<use f='codebrowser/src/vws.c' l='460'/>
+<use f='codebrowser/src/vws.c' l='460'/>

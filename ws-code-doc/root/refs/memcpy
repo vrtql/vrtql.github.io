@@ -92,8 +92,8 @@
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
-<use f='codebrowser/src/vrtql.c' l='547' u='c' c='vrtql_buffer_append'/>
-<use f='codebrowser/src/vrtql.c' l='692' u='c' c='vrtql_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='555' u='c' c='vws_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='700' u='c' c='vws_base64_encode'/>
 <use f='codebrowser/src/websocket.c' l='703' u='c' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='821' u='c' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='839' u='c' c='vws_serialize'/>

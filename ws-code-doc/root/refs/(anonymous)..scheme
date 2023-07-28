@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/vrtql.h' l='380' type='char *'/>
+<dec f='codebrowser/src/vws.h' l='380' type='char *'/>
 <offset>0</offset>
-<doc f='codebrowser/src/vrtql.h' l='380'>/**&lt; The URL scheme (http, https, etc.) */</doc>
+<doc f='codebrowser/src/vws.h' l='380'>/**&lt; The URL scheme (http, https, etc.) */</doc>

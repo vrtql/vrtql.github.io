@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/util/sc_map.h' l='74' type='_Bool'/>
-<use f='codebrowser/src/http_message.c' l='147' macro='1' u='r' c='vrtql_http_msg_free'/>
+<use f='codebrowser/src/http_message.c' l='147' macro='1' u='r' c='vws_http_msg_free'/>
 <offset>192</offset>
 <use f='codebrowser/src/message.c' l='99' macro='1' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='109' macro='1' u='r' c='vrtql_msg_serialize'/>
@@ -21,4 +21,4 @@
 <use f='codebrowser/src/util/sc_map.c' l='293' u='r' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='294' u='r' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='295' u='w' c='sc_map_del_str'/>
-<use f='codebrowser/src/vrtql.c' l='623' macro='1' u='r' c='vrtql_map_clear'/>
+<use f='codebrowser/src/vws.c' l='631' macro='1' u='r' c='vws_map_clear'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/http_message.h' l='11' ll='37'/>
+<use f='codebrowser/src/http_message.h' l='11'/>
+<size>88</size>
+<doc f='codebrowser/src/http_message.h' l='7'>/**
+ * @struct vws_http_msg
+ * @brief Structure representing an HTTP request
+ */</doc>
+<mbr r='vws_http_msg::parser' o='0' t='http_parser *'/>
+<mbr r='vws_http_msg::settings' o='64' t='http_parser_settings *'/>
+<mbr r='vws_http_msg::headers' o='128' t='struct sc_map_str'/>
+<mbr r='vws_http_msg::url' o='384' t='vws_buffer *'/>
+<mbr r='vws_http_msg::body' o='448' t='vws_buffer *'/>
+<mbr r='vws_http_msg::field' o='512' t='vws_buffer *'/>
+<mbr r='vws_http_msg::value' o='576' t='vws_buffer *'/>
+<mbr r='vws_http_msg::complete' o='640' t='_Bool'/>

@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/vrtql.h' l='31' type='100'/>
-<doc f='codebrowser/src/vrtql.h' l='31'>/**&lt; Memory failure */</doc>
-<use f='codebrowser/src/vrtql.c' l='247' c='vrtql_malloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='274' c='vrtql_calloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='296' c='vrtql_realloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='383' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='399' c='vrtql_error_default_process'/>
+<dec f='codebrowser/src/vws.h' l='31' type='100'/>
+<doc f='codebrowser/src/vws.h' l='31'>/**&lt; Memory failure */</doc>
+<use f='codebrowser/src/vws.c' l='247' c='vws_malloc_error'/>
+<use f='codebrowser/src/vws.c' l='274' c='vws_calloc_error'/>
+<use f='codebrowser/src/vws.c' l='296' c='vws_realloc_error'/>
+<use f='codebrowser/src/vws.c' l='391' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='407' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='355' c='vws_connect'/>

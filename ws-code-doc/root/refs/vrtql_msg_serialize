@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/message.h' l='129' type='vrtql_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
-<def f='codebrowser/src/message.c' l='73' ll='197' type='vrtql_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
+<dec f='codebrowser/src/message.h' l='129' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='73' ll='197' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
 <use f='codebrowser/src/message.c' l='434' u='c' c='vrtql_msg_send'/>
 <doc f='codebrowser/src/message.h' l='124'>/**
  * @brief Serializes a vrtql_msg instance to a buffer.
@@ -9,4 +9,3 @@
 <use f='codebrowser/src/server.c' l='1840' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/test/test_message.c' l='16' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='56' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='40' u='c' c='dump_msg'/>

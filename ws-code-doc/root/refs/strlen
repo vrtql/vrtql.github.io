@@ -123,8 +123,8 @@
 <use f='codebrowser/src/url.c' l='391' u='c' c='url_get_port'/>
 <use f='codebrowser/src/util/sc_map.c' l='355' u='c' c='murmurhash'/>
 <use f='codebrowser/src/util/yyjson.c' l='3809' u='c' c='is_truncated_str'/>
-<use f='codebrowser/src/vrtql.c' l='658' u='c' c='vrtql_generate_uuid'/>
-<use f='codebrowser/src/vrtql.c' l='709' u='c' c='vrtql_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='666' u='c' c='vws_generate_uuid'/>
+<use f='codebrowser/src/vws.c' l='717' u='c' c='vws_base64_decode'/>
 <use f='codebrowser/src/websocket.c' l='407' u='c' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='565' u='c' c='vws_frame_send_text'/>
 <use f='codebrowser/src/websocket.c' l='580' u='c' c='vws_msg_send_text'/>

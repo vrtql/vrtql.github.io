@@ -26,6 +26,6 @@
 <use f='codebrowser/src/url.c' l='224' u='c' c='url_get_protocol'/>
 <use f='codebrowser/src/url.c' l='318' u='c' c='url_get_path'/>
 <use f='codebrowser/src/util/yyjson.c' l='942' u='c' c='default_malloc'/>
-<use f='codebrowser/src/vrtql.c' l='233' u='c' c='vrtql_malloc'/>
-<use f='codebrowser/src/vrtql.c' l='342' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='509' u='c' c='vrtql_buffer_printf'/>
+<use f='codebrowser/src/vws.c' l='233' u='c' c='vws_malloc'/>
+<use f='codebrowser/src/vws.c' l='342' u='c' c='vws_error_default_submit'/>
+<use f='codebrowser/src/vws.c' l='517' u='c' c='vws_buffer_printf'/>

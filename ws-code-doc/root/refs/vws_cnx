@@ -7,7 +7,7 @@
  */</doc>
 <mbr r='vws_cnx::base' o='0' t='struct vws_socket'/>
 <mbr r='vws_cnx::flags' o='448' t='uint64_t'/>
-<mbr r='vws_cnx::url' o='512' t='vrtql_url_data *'/>
+<mbr r='vws_cnx::url' o='512' t='vws_url_data *'/>
 <mbr r='vws_cnx::origin' o='576' t='char *'/>
 <mbr r='vws_cnx::key' o='640' t='char *'/>
 <mbr r='vws_cnx::queue' o='704' t='struct sc_queue_ptr'/>

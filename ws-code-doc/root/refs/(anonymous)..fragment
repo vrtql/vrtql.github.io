@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/vrtql.h' l='385' type='char *'/>
+<dec f='codebrowser/src/vws.h' l='385' type='char *'/>
 <offset>320</offset>
-<doc f='codebrowser/src/vrtql.h' l='385'>/**&lt; The fragment identifier            */</doc>
+<doc f='codebrowser/src/vws.h' l='385'>/**&lt; The fragment identifier            */</doc>

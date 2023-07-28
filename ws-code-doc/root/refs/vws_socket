@@ -8,7 +8,7 @@
  */</doc>
 <mbr r='vws_socket::sockfd' o='0' t='int'/>
 <mbr r='vws_socket::ssl' o='64' t='SSL *'/>
-<mbr r='vws_socket::buffer' o='128' t='vrtql_buffer *'/>
+<mbr r='vws_socket::buffer' o='128' t='vws_buffer *'/>
 <mbr r='vws_socket::timeout' o='192' t='int'/>
 <mbr r='vws_socket::data' o='256' t='char *'/>
 <mbr r='vws_socket::hs' o='320' t='vws_socket_hs'/>

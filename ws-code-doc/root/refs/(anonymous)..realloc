@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='226' type='vrtql_realloc_cb'/>
+<dec f='codebrowser/src/vws.h' l='226' type='vws_realloc_cb'/>
 <offset>256</offset>
-<doc f='codebrowser/src/vrtql.h' l='226'>/**&lt; realloc function            */</doc>
+<doc f='codebrowser/src/vws.h' l='226'>/**&lt; realloc function            */</doc>
 <use f='codebrowser/src/server.c' l='1319' u='r' c='svr_on_realloc'/>
-<use f='codebrowser/src/vrtql.c' l='444' u='w'/>
-<use f='codebrowser/src/vrtql.c' l='541' u='r' c='vrtql_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='452' u='w'/>
+<use f='codebrowser/src/vws.c' l='549' u='r' c='vws_buffer_append'/>

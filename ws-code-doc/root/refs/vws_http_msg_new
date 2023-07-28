@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/http_message.h' l='45' type='vws_http_msg * vws_http_msg_new(int mode)'/>
+<def f='codebrowser/src/http_message.c' l='110' ll='137' type='vws_http_msg * vws_http_msg_new(int mode)'/>
+<doc f='codebrowser/src/http_message.h' l='39'>/**
+ * @brief Creates a new instance of vws_http_msg.
+ * @param mode Must be one of HTTP_REQUEST or HTTP_RESPONSE depending on the
+ *        message to parse.
+ * @return The newly created vws_http_msg instance.
+ */</doc>
+<use f='codebrowser/src/server.c' l='1167' u='c' c='svr_cnx_new'/>
+<use f='codebrowser/src/test/test_http_request.c' l='13' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/websocket.c' l='443' u='c' c='socket_handshake'/>

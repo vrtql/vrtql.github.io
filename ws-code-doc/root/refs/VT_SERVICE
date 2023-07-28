@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vrtql.h' l='41' type='3'/>
+<dec f='codebrowser/src/vws.h' l='41' type='3'/>
 <use f='codebrowser/src/server.c' l='813' u='r' c='vrtql_svr_run'/>
 <use f='codebrowser/src/server.c' l='840' u='r' c='vrtql_svr_run'/>
 <use f='codebrowser/src/server.c' l='863' u='r' c='vrtql_svr_run'/>

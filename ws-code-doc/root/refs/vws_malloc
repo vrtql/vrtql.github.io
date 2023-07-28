@@ -1,0 +1,6 @@
+<def f='codebrowser/src/vws.c' l='231' ll='241' type='void * vws_malloc(size_t size)'/>
+<use f='codebrowser/src/vws.c' l='448'/>
+<use f='codebrowser/src/vws.c' l='448'/>
+<doc f='codebrowser/src/vws.c' l='227'>//------------------------------------------------------------------------------
+// Memory allocation
+//------------------------------------------------------------------------------</doc>

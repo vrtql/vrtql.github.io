@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vrtql.h' l='25' type='0'/>
-<doc f='codebrowser/src/vrtql.h' l='25'>/**&lt; No error */</doc>
+<dec f='codebrowser/src/vws.h' l='25' type='0'/>
+<doc f='codebrowser/src/vws.h' l='25'>/**&lt; No error */</doc>
 <use f='codebrowser/src/test/test_common.c' l='37' c='ctest_test_error_callbacks_run'/>
-<use f='codebrowser/src/vrtql.c' l='425' u='r' c='vrtql_error_clear_default'/>
-<use f='codebrowser/src/vrtql.c' l='430' u='r' c='vrtql_error_success_default'/>
-<use f='codebrowser/src/vrtql.c' l='451'/>
-<use f='codebrowser/src/vrtql.c' l='451'/>
-<use f='codebrowser/src/vrtql.c' l='451'/>
-<use f='codebrowser/src/vrtql.c' l='451'/>
+<use f='codebrowser/src/vws.c' l='433' u='r' c='vws_error_clear_default'/>
+<use f='codebrowser/src/vws.c' l='438' u='r' c='vws_error_success_default'/>
+<use f='codebrowser/src/vws.c' l='459'/>
+<use f='codebrowser/src/vws.c' l='459'/>
+<use f='codebrowser/src/vws.c' l='459'/>
+<use f='codebrowser/src/vws.c' l='459'/>

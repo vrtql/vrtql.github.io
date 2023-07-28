@@ -11,7 +11,7 @@
  */</doc>
 <mbr r='http_parser_url::field_set' o='0' t='uint16_t'/>
 <mbr r='http_parser_url::port' o='16' t='uint16_t'/>
-<mbr r='http_parser_url::field_data' o='32' t='struct (anonymous struct at /var/data/dev/source/active/vrtql/client/src/http_parser.h:375:3) [7]'/>
+<mbr r='http_parser_url::field_data' o='32' t='struct (anonymous struct at /var/data/dev/source/active/vrtql/client/vws/src/http_parser.h:375:3) [7]'/>
 <use f='codebrowser/src/http_parser.c' l='2440' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2522' c='http_parser_url_init'/>
 <use f='codebrowser/src/http_parser.c' l='2529' c='http_parser_parse_url'/>

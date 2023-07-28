@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='234' type='vrtql_trace_cb'/>
+<dec f='codebrowser/src/vws.h' l='234' type='vws_trace_cb'/>
 <offset>832</offset>
-<doc f='codebrowser/src/vrtql.h' l='234'>/**&lt; Error clear function        */</doc>
+<doc f='codebrowser/src/vws.h' l='234'>/**&lt; Error clear function        */</doc>
 <use f='codebrowser/src/server.c' l='663' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='682' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='706' u='r' c='uv_thread'/>
@@ -49,10 +49,10 @@
 <use f='codebrowser/src/test/test_server.c' l='102' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='108' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='113' u='r' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='41' u='r' c='dump_msg'/>
-<use f='codebrowser/src/test/test_vql.c' l='76' u='r' c='ctest_test_message_run'/>
-<use f='codebrowser/src/vrtql.c' l='372' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='379' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='386' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='392' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='452' u='w'/>
+<use f='codebrowser/src/vws.c' l='368' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='374' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='380' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='387' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='394' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='400' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='460' u='w'/>

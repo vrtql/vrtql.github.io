@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='235' type='uint8_t'/>
+<dec f='codebrowser/src/vws.h' l='235' type='uint8_t'/>
 <offset>896</offset>
-<doc f='codebrowser/src/vrtql.h' l='235'>/**&lt; Tracing leve (0 is off)     */</doc>
+<doc f='codebrowser/src/vws.h' l='235'>/**&lt; Tracing leve (0 is off)     */</doc>
 <use f='codebrowser/src/server.c' l='659' u='w' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='661' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='680' u='r' c='worker_thread'/>
@@ -28,7 +28,7 @@
 <use f='codebrowser/src/test/test_server.c' l='47' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='76' u='w' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
-<use f='codebrowser/src/vrtql.c' l='365' u='r' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='453' u='w'/>
+<use f='codebrowser/src/vws.c' l='362' u='r' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='461' u='w'/>
 <use f='codebrowser/src/websocket.c' l='602' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='1145' u='r' c='vws_cnx_ingress'/>

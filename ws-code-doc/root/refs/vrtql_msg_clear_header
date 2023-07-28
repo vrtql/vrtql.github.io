@@ -5,6 +5,3 @@
  * @param msg The vrtql_msg instance.
  * @param key The header key to be removed.
  */</doc>
-<use f='codebrowser/src/test/test_vql.c' l='67' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='68' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='69' u='c' c='ctest_test_message_run'/>

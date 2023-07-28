@@ -8,4 +8,3 @@
  */</doc>
 <use f='codebrowser/src/test/test_message.c' l='12' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='51' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='49' u='c' c='ctest_test_message_run'/>

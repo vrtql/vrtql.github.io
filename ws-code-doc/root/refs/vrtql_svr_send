@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='313' type='int vrtql_svr_send(vrtql_svr * server, vrtql_svr_data * data)'/>
-<def f='codebrowser/src/server.c' l='803' ll='809' type='int vrtql_svr_send(vrtql_svr * server, vrtql_svr_data * data)'/>
+<dec f='codebrowser/src/server.h' l='313' type='int vrtql_svr_send(vrtql_svr * server, vws_svr_data * data)'/>
+<def f='codebrowser/src/server.c' l='803' ll='809' type='int vrtql_svr_send(vrtql_svr * server, vws_svr_data * data)'/>
 <use f='codebrowser/src/server.c' l='1440' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/server.c' l='1469' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/server.c' l='1537' u='c' c='vrtql_svr_close'/>

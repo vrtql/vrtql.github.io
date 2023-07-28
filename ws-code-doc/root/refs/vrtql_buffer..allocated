@@ -1,9 +1,0 @@
-<dec f='codebrowser/src/vrtql.h' l='251' type='size_t'/>
-<offset>64</offset>
-<doc f='codebrowser/src/vrtql.h' l='251'>/**&lt; The amount of space allocated for the buffer */</doc>
-<use f='codebrowser/src/vrtql.c' l='466' u='w' c='vrtql_buffer_new'/>
-<use f='codebrowser/src/vrtql.c' l='482' u='w' c='vrtql_buffer_clear'/>
-<use f='codebrowser/src/vrtql.c' l='530' u='r' c='vrtql_buffer_append'/>
-<use f='codebrowser/src/vrtql.c' l='532' u='w' c='vrtql_buffer_append'/>
-<use f='codebrowser/src/vrtql.c' l='537' u='r' c='vrtql_buffer_append'/>
-<use f='codebrowser/src/vrtql.c' l='541' u='r' c='vrtql_buffer_append'/>

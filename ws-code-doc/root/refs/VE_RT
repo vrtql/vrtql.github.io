@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='30' type='11'/>
-<doc f='codebrowser/src/vrtql.h' l='30'>/**&lt; Runtime error */</doc>
+<dec f='codebrowser/src/vws.h' l='30' type='11'/>
+<doc f='codebrowser/src/vws.h' l='30'>/**&lt; Runtime error */</doc>
 <use f='codebrowser/src/message.c' l='134' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='240' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/message.c' l='283' c='vrtql_msg_deserialize'/>
@@ -23,7 +23,7 @@
 <use f='codebrowser/src/socket.c' l='267' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='440' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_common.c' l='141' c='ctest_test_error_run'/>
-<use f='codebrowser/src/vrtql.c' l='377' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='385' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='342' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='519' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='755' c='vws_serialize'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/src/vws.h' l='248' ll='253'/>
+<use f='codebrowser/src/vws.h' l='248'/>
+<size>24</size>
+<doc f='codebrowser/src/vws.h' l='245'>/**
+ * @brief Defines a buffer for vrtql.
+ */</doc>
+<mbr r='vws_buffer::data' o='0' t='unsigned char *'/>
+<mbr r='vws_buffer::allocated' o='64' t='size_t'/>
+<mbr r='vws_buffer::size' o='128' t='size_t'/>

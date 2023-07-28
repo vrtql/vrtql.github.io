@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='26' type='1'/>
-<doc f='codebrowser/src/vrtql.h' l='26'>/**&lt; Socket timeout */</doc>
-<use f='codebrowser/src/vrtql.c' l='369' c='vrtql_error_default_process'/>
+<dec f='codebrowser/src/vws.h' l='26' type='1'/>
+<doc f='codebrowser/src/vws.h' l='26'>/**&lt; Socket timeout */</doc>
+<use f='codebrowser/src/vws.c' l='372' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='430' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='466' u='r' c='socket_handshake'/>

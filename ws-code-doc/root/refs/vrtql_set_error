@@ -1,9 +1,0 @@
-<def f='codebrowser/src/vrtql.c' l='307' ll='321' type='void vrtql_set_error(vrtql_error_code_t code, const char * message)'/>
-<use f='codebrowser/src/vrtql.c' l='348' u='c' c='vrtql_error_default_submit'/>
-<use f='codebrowser/src/vrtql.c' l='425' u='c' c='vrtql_error_clear_default'/>
-<use f='codebrowser/src/vrtql.c' l='430' u='c' c='vrtql_error_success_default'/>
-<doc f='codebrowser/src/vrtql.c' l='302'>//------------------------------------------------------------------------------
-// Error handling
-//------------------------------------------------------------------------------
-
-// Sets the last error for the current thread</doc>

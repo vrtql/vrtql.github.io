@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/vws.h' l='264' type='vws_buffer * vws_buffer_new()'/>
+<use f='codebrowser/src/http_message.c' l='116' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='117' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='118' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='119' u='c' c='vws_http_msg_new'/>
+<doc f='codebrowser/src/vws.h' l='259'>/**
+ * @brief Creates a new vrtql buffer.
+ *
+ * @return Returns a new vws_buffer instance
+ */</doc>
+<use f='codebrowser/src/message.c' l='44' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='85' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='148' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/server.c' l='1585' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/socket.c' l='83' u='c' c='vws_socket_ctor'/>
+<use f='codebrowser/src/test/test_common.c' l='82' u='c' c='ctest_test_buffer_run'/>
+<def f='codebrowser/src/vws.c' l='469' ll='478' type='vws_buffer * vws_buffer_new()'/>
+<doc f='codebrowser/src/vws.c' l='465'>//------------------------------------------------------------------------------
+// Buffer
+//------------------------------------------------------------------------------</doc>
+<use f='codebrowser/src/websocket.c' l='641' u='c' c='vws_msg_new'/>
+<use f='codebrowser/src/websocket.c' l='860' u='c' c='vws_serialize'/>

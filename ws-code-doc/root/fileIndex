@@ -1,6 +1,6 @@
 codebrowser/src/http_message.c
 codebrowser/src/http_message.h
-codebrowser/src/vrtql.h
+codebrowser/src/vws.h
 codebrowser/src/common.h
 codebrowser/src/util/sc_map.h
 codebrowser/src/http_parser.h
@@ -44,11 +44,10 @@ codebrowser/src/test/test_message.c
 codebrowser/src/test/test_msg_server.c
 codebrowser/src/test/test_rpc.c
 codebrowser/src/test/test_server.c
-codebrowser/src/test/test_vql.c
 codebrowser/src/test/test_websocket.c
 codebrowser/src/test/util/mongoose.c
 codebrowser/src/url.c
 codebrowser/src/util/sc_map.c
 codebrowser/src/util/yyjson.c
-codebrowser/src/vrtql.c
+codebrowser/src/vws.c
 codebrowser/src/websocket.c

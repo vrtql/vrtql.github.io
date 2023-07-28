@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='236' type='uint64_t'/>
+<dec f='codebrowser/src/vws.h' l='236' type='uint64_t'/>
 <offset>960</offset>
-<doc f='codebrowser/src/vrtql.h' l='236'>/**&lt; Contains global state flags */</doc>
+<doc f='codebrowser/src/vws.h' l='236'>/**&lt; Contains global state flags */</doc>
 <dec f='codebrowser/src/server.h' l='113' type='uint8_t'/>
 <use f='codebrowser/src/server.c' l='726' u='r' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='904' u='w' c='vrtql_svr_stop'/>
@@ -25,4 +25,4 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='177' u='r' c='mg_sha1_update'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='179' u='r' c='mg_sha1_update'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='205' u='r' c='mg_sha1_final'/>
-<use f='codebrowser/src/vrtql.c' l='454' u='w'/>
+<use f='codebrowser/src/vws.c' l='462' u='w'/>

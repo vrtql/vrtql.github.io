@@ -1,2 +1,0 @@
-<def f='codebrowser/src/vrtql.c' l='324' ll='327' type='vrtql_error_value vrtql_get_error()'/>
-<doc f='codebrowser/src/vrtql.c' l='323'>// Get the error value for the current thread</doc>

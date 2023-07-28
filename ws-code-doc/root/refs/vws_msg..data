@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='173' type='vrtql_buffer *'/>
+<dec f='codebrowser/src/websocket.h' l='173' type='vws_buffer *'/>
 <use f='codebrowser/src/message.c' l='452' u='r' c='vrtql_msg_recv'/>
 <use f='codebrowser/src/message.c' l='453' u='r' c='vrtql_msg_recv'/>
 <offset>64</offset>

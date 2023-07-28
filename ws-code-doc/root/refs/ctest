@@ -41,8 +41,6 @@
 <size>56</size>
 <use f='codebrowser/src/test/test_server.c' l='73' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_vql.c' l='45' macro='1'/>
-<size>56</size>
 <use f='codebrowser/src/test/test_websocket.c' l='50' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='56' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='62' macro='1'/>

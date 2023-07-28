@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/vws.h' l='131' type='void vws_trace_unlock()'/>
+<doc f='codebrowser/src/vws.h' l='108'>/**
+ * @brief Unlock the log mutex to release synchronization after accessing
+ *        the logging functionality.
+ *
+ * This function is responsible for unlocking the log mutex, allowing other
+ * threads to access the logging functionality. It complements the
+ * vws_trace_lock() function and should be called after finishing the
+ * logging-related tasks to release the mutex.
+ *
+ * This function uses platform-specific synchronization mechanisms depending
+ * on the platform:
+ *
+ * - On Windows, it uses the Windows API function ReleaseMutex() to unlock
+ *   the mutex.
+ * - On other platforms, it uses the pthread_mutex_unlock() function to
+ *   unlock the mutex.
+ *
+ * If an error occurs while trying to unlock the mutex, this function will
+ * submit an error message using vws_error_default_submit() with a
+ * corresponding error code.
+ *
+ * @see vws_trace_lock()
+ */</doc>
+<def f='codebrowser/src/vws.c' l='109' ll='127' type='void vws_trace_unlock()'/>
+<use f='codebrowser/src/websocket.c' l='612' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1153' u='c' c='vws_cnx_ingress'/>

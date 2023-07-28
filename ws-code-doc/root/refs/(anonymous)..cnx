@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='72' type='struct vrtql_svr_cnx *'/>
+<dec f='codebrowser/src/server.h' l='72' type='struct vws_svr_cnx *'/>
 <use f='codebrowser/src/server.c' l='735' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='764' u='w' c='vrtql_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='764' u='w' c='vws_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='1070' u='r' c='svr_client_data_in'/>
 <use f='codebrowser/src/server.c' l='1089' u='r' c='svr_client_data_out'/>
 <use f='codebrowser/src/server.c' l='1677' u='r' c='ws_svr_client_data_in'/>

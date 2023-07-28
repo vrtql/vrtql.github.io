@@ -1,2 +1,2 @@
-<def f='codebrowser/src/test/test_server.c' l='10' ll='40' type='void process_data(vrtql_svr_data * req)'/>
+<def f='codebrowser/src/test/test_server.c' l='10' ll='40' type='void process_data(vws_svr_data * req)'/>
 <use f='codebrowser/src/test/test_server.c' l='77' u='r' c='ctest_test_server_echo_run'/>

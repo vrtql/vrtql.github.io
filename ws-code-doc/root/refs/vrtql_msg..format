@@ -9,4 +9,3 @@
 <use f='codebrowser/src/server.c' l='1817' u='r' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_message.c' l='55' u='w' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='23' u='w' c='process_message'/>
-<use f='codebrowser/src/test/test_vql.c' l='39' u='w' c='dump_msg'/>

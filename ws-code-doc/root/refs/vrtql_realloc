@@ -1,3 +1,0 @@
-<def f='codebrowser/src/vrtql.c' l='280' ll='290' type='void * vrtql_realloc(void * ptr, size_t size)'/>
-<use f='codebrowser/src/vrtql.c' l='444'/>
-<use f='codebrowser/src/vrtql.c' l='444'/>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/http_parser.h' l='378' type='struct (anonymous struct at /var/data/dev/source/active/vrtql/client/src/http_parser.h:375:3) [7]'/>
+<dec f='codebrowser/src/http_parser.h' l='378' type='struct (anonymous struct at /var/data/dev/source/active/vrtql/client/vws/src/http_parser.h:375:3) [7]'/>
 <offset>32</offset>
 <use f='codebrowser/src/http_parser.c' l='2445' u='m' c='http_parse_host'/>
 <use f='codebrowser/src/http_parser.c' l='2445' u='m' c='http_parse_host'/>

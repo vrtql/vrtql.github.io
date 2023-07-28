@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='229' type='vrtql_url_data *'/>
+<dec f='codebrowser/src/websocket.h' l='229' type='vws_url_data *'/>
 <offset>512</offset>
 <doc f='codebrowser/src/websocket.h' l='228'>/**&lt; The URL of the websocket server. */</doc>
 <use f='codebrowser/src/websocket.c' l='283' u='w' c='vws_cnx_new'/>

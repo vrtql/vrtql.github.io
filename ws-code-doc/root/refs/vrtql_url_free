@@ -1,6 +1,0 @@
-<dec f='codebrowser/src/vrtql.h' l='416' type='void vrtql_url_free(vrtql_url parts)'/>
-<doc f='codebrowser/src/vrtql.h' l='411'>/**
- * @brief Frees a vrtql_url structure.
- *
- * @param parts The vrtql_url structure to free
- */</doc>

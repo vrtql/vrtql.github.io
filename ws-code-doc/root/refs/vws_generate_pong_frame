@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='148' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>
+<dec f='codebrowser/src/websocket.h' l='148' type='vws_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>
 <doc f='codebrowser/src/websocket.h' l='139'>/**
  * @brief Generates a pong frame in response to a received ping frame.
  *
@@ -10,4 +10,4 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1464' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/websocket.c' l='1009' u='c' c='process_frame'/>
-<def f='codebrowser/src/websocket.c' l='1203' ll='1210' type='vrtql_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>
+<def f='codebrowser/src/websocket.c' l='1203' ll='1210' type='vws_buffer * vws_generate_pong_frame(ucstr ping_data, size_t s)'/>

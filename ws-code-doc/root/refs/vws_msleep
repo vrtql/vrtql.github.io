@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/vws.h' l='435' type='void vws_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vws.h' l='422'>/**
+ * @brief Sleeps for the specified number of milliseconds.
+ *
+ * This function provides a platform-independent way to sleep for a specific
+ * duration in milliseconds. The behavior is similar to the standard `sleep`
+ * function, but with millisecond precision.
+ *
+ * @param ms The number of milliseconds to sleep.
+ *
+ * @note This function may not be available on all platforms. Make sure to
+ *       include the necessary headers and handle any compilation errors or
+ *       warnings specific to your environment.
+ */</doc>
+<use f='codebrowser/src/test/test_msg_server.c' l='141' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='87' u='c' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/vws.c' l='746' ll='771' type='void vws_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vws.c' l='733'>/**
+ * @brief Sleeps for the specified number of milliseconds.
+ *
+ * This function provides a platform-independent way to sleep for a specific
+ * duration in milliseconds. The behavior is similar to the standard `sleep`
+ * function, but with millisecond precision.
+ *
+ * @param ms The number of milliseconds to sleep.
+ *
+ * @note This function may not be available on all platforms. Make sure to
+ *       include the necessary headers and handle any compilation errors or
+ *       warnings specific to your environment.
+ */</doc>

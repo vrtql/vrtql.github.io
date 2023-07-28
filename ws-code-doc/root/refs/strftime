@@ -2,4 +2,4 @@
 <doc f='include/time.h' l='85'>/* Format TP into S according to FORMAT.
    Write no more than MAXSIZE characters and return the number
    of characters written, or 0 if it would exceed MAXSIZE.  */</doc>
-<use f='codebrowser/src/vrtql.c' l='159' u='c' c='vrtql_trace'/>
+<use f='codebrowser/src/vws.c' l='159' u='c' c='vws_trace'/>

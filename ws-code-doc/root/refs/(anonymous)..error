@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vrtql.h' l='229' type='vrtql_error_submit_cb'/>
+<dec f='codebrowser/src/vws.h' l='229' type='vws_error_submit_cb'/>
 <offset>448</offset>
-<doc f='codebrowser/src/vrtql.h' l='229'>/**&lt; Error submission function   */</doc>
+<doc f='codebrowser/src/vws.h' l='229'>/**&lt; Error submission function   */</doc>
 <use f='codebrowser/src/message.c' l='134' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='240' u='r' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/message.c' l='283' u='r' c='vrtql_msg_deserialize'/>
@@ -54,10 +54,10 @@
 <use f='codebrowser/src/socket.c' l='837' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='37' u='r' c='ctest_test_error_callbacks_run'/>
 <use f='codebrowser/src/test/test_common.c' l='141' u='r' c='ctest_test_error_run'/>
-<use f='codebrowser/src/vrtql.c' l='247' u='r' c='vrtql_malloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='274' u='r' c='vrtql_calloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='296' u='r' c='vrtql_realloc_error'/>
-<use f='codebrowser/src/vrtql.c' l='447' u='w'/>
+<use f='codebrowser/src/vws.c' l='247' u='r' c='vws_malloc_error'/>
+<use f='codebrowser/src/vws.c' l='274' u='r' c='vws_calloc_error'/>
+<use f='codebrowser/src/vws.c' l='296' u='r' c='vws_realloc_error'/>
+<use f='codebrowser/src/vws.c' l='455' u='w'/>
 <use f='codebrowser/src/websocket.c' l='342' u='r' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='355' u='r' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='379' u='r' c='vws_cnx_is_connected'/>

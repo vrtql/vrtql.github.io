@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vrtql.h' l='72' type='1'/>
-<doc f='codebrowser/src/vrtql.h' l='72'>/**&lt; Information level log */</doc>
+<dec f='codebrowser/src/vws.h' l='72' type='1'/>
+<doc f='codebrowser/src/vws.h' l='72'>/**&lt; Information level log */</doc>
 <use f='codebrowser/src/server.c' l='663' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='682' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='706' c='uv_thread'/>
@@ -42,7 +42,5 @@
 <use f='codebrowser/src/test/test_server.c' l='102' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='108' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='113' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='41' c='dump_msg'/>
-<use f='codebrowser/src/test/test_vql.c' l='76' c='ctest_test_message_run'/>
-<use f='codebrowser/src/vrtql.c' l='379' c='vrtql_error_default_process'/>
-<use f='codebrowser/src/vrtql.c' l='392' c='vrtql_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='387' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='400' c='vws_error_default_process'/>

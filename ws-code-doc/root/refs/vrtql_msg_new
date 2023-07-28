@@ -19,5 +19,4 @@
 <use f='codebrowser/src/test/test_rpc.c' l='17' u='c' c='session_logout'/>
 <use f='codebrowser/src/test/test_rpc.c' l='26' u='c' c='session_info'/>
 <use f='codebrowser/src/test/test_rpc.c' l='60' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_vql.c' l='48' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='74' u='c' c='ctest_test_message_run'/>

@@ -5,4 +5,4 @@
  * @brief Represents a websocket message, which contains opcode and data.
  */</doc>
 <mbr r='vws_msg::opcode' o='0' t='unsigned char'/>
-<mbr r='vws_msg::data' o='64' t='vrtql_buffer *'/>
+<mbr r='vws_msg::data' o='64' t='vws_buffer *'/>

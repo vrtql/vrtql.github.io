@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/server.h' l='268' type='vws_svr_data * vws_svr_data_own(vws_svr_cnx * c, ucstr data, size_t size)'/>
+<use f='codebrowser/src/server.c' l='750' u='c' c='vws_svr_data_new'/>
+<def f='codebrowser/src/server.c' l='759' ll='770' type='vws_svr_data * vws_svr_data_own(vws_svr_cnx * c, ucstr data, size_t size)'/>
+<use f='codebrowser/src/server.c' l='1064' u='c' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1531' u='c' c='vrtql_svr_close'/>
+<use f='codebrowser/src/server.c' l='1666' u='c' c='ws_svr_client_read'/>
+<doc f='codebrowser/src/server.h' l='259'>/**
+ * @brief Creates a new thread data. This TAKES OWNERSHIP of the data. The
+ * caller MUST NOT free() this data.
+ *
+ * @param c The connection
+ * @param size The number of bytes of data
+ * @param data The data
+ * @return A new vws_svr_data instance with memory
+ */</doc>
+<use f='codebrowser/src/test/test_server.c' l='25' u='c' c='process_data'/>

@@ -15,7 +15,7 @@
 <mbr r='vrtql_svr::backlog' o='2240' t='int'/>
 <mbr r='vrtql_svr::pool_size' o='2272' t='int'/>
 <mbr r='vrtql_svr::threads' o='2304' t='uv_thread_t *'/>
-<mbr r='vrtql_svr::cnxs' o='2368' t='vrtql_svr_cnx_map'/>
+<mbr r='vrtql_svr::cnxs' o='2368' t='vws_svr_cnx_map'/>
 <mbr r='vrtql_svr::on_connect' o='2624' t='vrtql_svr_connect'/>
 <mbr r='vrtql_svr::on_disconnect' o='2688' t='vrtql_svr_disconnect'/>
 <mbr r='vrtql_svr::on_read' o='2752' t='vrtql_svr_read'/>

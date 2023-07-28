@@ -1,6 +1,0 @@
-<dec f='codebrowser/src/vrtql.h' l='409' type='vrtql_url vrtql_url_new()'/>
-<doc f='codebrowser/src/vrtql.h' l='404'>/**
- * @brief Allocates a vrtql_url structure.
- *
- * @return Returns a new vrtql_url structure
- */</doc>

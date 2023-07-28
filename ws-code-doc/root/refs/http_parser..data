@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/http_parser.h' l='331' type='void *'/>
-<use f='codebrowser/src/http_message.c' l='115' u='w' c='vrtql_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='115' u='w' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='170' u='r' c='on_headers_complete'/>
 <use f='codebrowser/src/http_message.c' l='186' u='r' c='on_url'/>
 <use f='codebrowser/src/http_message.c' l='194' u='r' c='on_header_field'/>

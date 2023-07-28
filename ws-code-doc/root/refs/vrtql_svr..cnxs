@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='227' type='vrtql_svr_cnx_map'/>
+<dec f='codebrowser/src/server.h' l='227' type='vws_svr_cnx_map'/>
 <use f='codebrowser/src/server.c' l='960' u='a' c='svr_ctor'/>
 <use f='codebrowser/src/server.c' l='1035' u='a' c='svr_dtor'/>
 <use f='codebrowser/src/server.c' l='1036' u='a' c='svr_dtor'/>

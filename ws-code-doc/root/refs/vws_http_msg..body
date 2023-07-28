@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/http_message.h' l='26' type='vws_buffer *'/>
+<use f='codebrowser/src/http_message.c' l='117' u='w' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='155' u='r' c='vws_http_msg_free'/>
+<offset>448</offset>
+<doc f='codebrowser/src/http_message.h' l='25'>/**&lt; The body */</doc>

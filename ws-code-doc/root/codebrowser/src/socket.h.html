@@ -12,8 +12,8 @@
 </head>
 <body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='socket.h.html'>socket.h</a></h1></div>
 <hr/><div id='content'><table class="code">
-<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/VRTQL_SOCKET_DECLARE">VRTQL_SOCKET_DECLARE</span></u></td></tr>
-<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/VRTQL_SOCKET_DECLARE" data-ref="_M/VRTQL_SOCKET_DECLARE">VRTQL_SOCKET_DECLARE</dfn></u></td></tr>
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/VWS_SOCKET_DECLARE">VWS_SOCKET_DECLARE</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/VWS_SOCKET_DECLARE" data-ref="_M/VWS_SOCKET_DECLARE">VWS_SOCKET_DECLARE</dfn></u></td></tr>
 <tr><th id="3">3</th><td></td></tr>
 <tr><th id="4">4</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
 <tr><th id="5">5</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
@@ -24,7 +24,7 @@
 <tr><th id="10">10</th><td></td></tr>
 <tr><th id="11">11</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
 <tr><th id="12">12</th><td></td></tr>
-<tr><th id="13">13</th><td><u>#include <a href="vrtql.h.html">"vrtql.h"</a></u></td></tr>
+<tr><th id="13">13</th><td><u>#include <a href="vws.h.html">"vws.h"</a></u></td></tr>
 <tr><th id="14">14</th><td></td></tr>
 <tr><th id="15">15</th><td><b>struct</b> <a class="type" href="#vws_socket" title='vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>;</td></tr>
 <tr><th id="16">16</th><td></td></tr>
@@ -50,7 +50,7 @@
 <tr><th id="36">36</th><td>    <a class="typedef" href="../../include/openssl/ossl_typ.h.html#SSL" title='SSL' data-type='struct ssl_st' data-ref="SSL" data-ref-filename="SSL">SSL</a>* <dfn class="decl field" id="vws_socket::ssl" title='vws_socket::ssl' data-ref="vws_socket::ssl" data-ref-filename="vws_socket..ssl">ssl</dfn>;</td></tr>
 <tr><th id="37">37</th><td></td></tr>
 <tr><th id="38">38</th><td>    <i class="doc">/**&lt; Socket receive buffer. */</i></td></tr>
-<tr><th id="39">39</th><td>    <a class="typedef" href="vrtql.h.html#vrtql_buffer" title='vrtql_buffer' data-type='struct vrtql_buffer' data-ref="vrtql_buffer" data-ref-filename="vrtql_buffer">vrtql_buffer</a>* <dfn class="decl field" id="vws_socket::buffer" title='vws_socket::buffer' data-ref="vws_socket::buffer" data-ref-filename="vws_socket..buffer">buffer</dfn>;</td></tr>
+<tr><th id="39">39</th><td>    <a class="typedef" href="vws.h.html#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="decl field" id="vws_socket::buffer" title='vws_socket::buffer' data-ref="vws_socket::buffer" data-ref-filename="vws_socket..buffer">buffer</dfn>;</td></tr>
 <tr><th id="40">40</th><td></td></tr>
 <tr><th id="41">41</th><td>    <i class="doc">/**&lt; Socket timeout in milliseconds. */</i></td></tr>
 <tr><th id="42">42</th><td>    <em>int</em> <dfn class="decl field" id="vws_socket::timeout" title='vws_socket::timeout' data-ref="vws_socket::timeout" data-ref-filename="vws_socket..timeout">timeout</dfn>;</td></tr>
@@ -124,7 +124,7 @@
 <tr><th id="110">110</th><td><i class="doc"> *</i></td></tr>
 <tr><th id="111">111</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
 <tr><th id="112">112</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="113">113</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_connect" title='vws_socket_connect' data-ref="vws_socket_connect" data-ref-filename="vws_socket_connect">vws_socket_connect</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2322s" title='s' data-type='vws_socket *' data-ref="2322s" data-ref-filename="2322s">s</dfn>, <a class="typedef" href="vrtql.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col3 decl" id="2323host" title='host' data-type='cstr' data-ref="2323host" data-ref-filename="2323host">host</dfn>, <em>int</em> <dfn class="local col4 decl" id="2324port" title='port' data-type='int' data-ref="2324port" data-ref-filename="2324port">port</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col5 decl" id="2325ssl" title='ssl' data-type='_Bool' data-ref="2325ssl" data-ref-filename="2325ssl">ssl</dfn>);</td></tr>
+<tr><th id="113">113</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_connect" title='vws_socket_connect' data-ref="vws_socket_connect" data-ref-filename="vws_socket_connect">vws_socket_connect</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2322s" title='s' data-type='vws_socket *' data-ref="2322s" data-ref-filename="2322s">s</dfn>, <a class="typedef" href="vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col3 decl" id="2323host" title='host' data-type='cstr' data-ref="2323host" data-ref-filename="2323host">host</dfn>, <em>int</em> <dfn class="local col4 decl" id="2324port" title='port' data-type='int' data-ref="2324port" data-ref-filename="2324port">port</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col5 decl" id="2325ssl" title='ssl' data-type='_Bool' data-ref="2325ssl" data-ref-filename="2325ssl">ssl</dfn>);</td></tr>
 <tr><th id="114">114</th><td></td></tr>
 <tr><th id="115">115</th><td><i class="doc">/**</i></td></tr>
 <tr><th id="116">116</th><td><i class="doc"> * <span class="command">@brief</span> Sets a timeout on a socket read/write operations. The default</i></td></tr>
@@ -188,11 +188,11 @@
 <tr><th id="174">174</th><td><i class="doc"> *</i></td></tr>
 <tr><th id="175">175</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
 <tr><th id="176">176</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="177">177</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_write" title='vws_socket_write' data-ref="vws_socket_write" data-ref-filename="vws_socket_write">vws_socket_write</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2332s" title='s' data-type='vws_socket *' data-ref="2332s" data-ref-filename="2332s">s</dfn>, <a class="typedef" href="vrtql.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col3 decl" id="2333data" title='data' data-type='ucstr' data-ref="2333data" data-ref-filename="2333data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="2334size" title='size' data-type='size_t' data-ref="2334size" data-ref-filename="2334size">size</dfn>);</td></tr>
+<tr><th id="177">177</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_write" title='vws_socket_write' data-ref="vws_socket_write" data-ref-filename="vws_socket_write">vws_socket_write</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2332s" title='s' data-type='vws_socket *' data-ref="2332s" data-ref-filename="2332s">s</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col3 decl" id="2333data" title='data' data-type='ucstr' data-ref="2333data" data-ref-filename="2333data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="2334size" title='size' data-type='size_t' data-ref="2334size" data-ref-filename="2334size">size</dfn>);</td></tr>
 <tr><th id="178">178</th><td></td></tr>
-<tr><th id="179">179</th><td><u>#<span data-ppcond="1">endif</span> /* VRTQL_SOCKET_DECLARE */</u></td></tr>
+<tr><th id="179">179</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_SOCKET_DECLARE */</u></td></tr>
 <tr><th id="180">180</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-27</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Jul-28</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

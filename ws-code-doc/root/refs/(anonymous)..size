@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/server.h' l='75' type='size_t'/>
 <dec f='codebrowser/src/server.h' l='95' type='int'/>
-<use f='codebrowser/src/server.c' l='765' u='w' c='vrtql_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='765' u='w' c='vws_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='1078' u='r' c='svr_client_data_out'/>
 <use f='codebrowser/src/server.c' l='1085' u='r' c='svr_client_data_out'/>
 <use f='codebrowser/src/server.c' l='1330' u='w' c='queue_init'/>

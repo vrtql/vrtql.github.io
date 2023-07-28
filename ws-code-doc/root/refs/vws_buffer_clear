@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/vws.h' l='278' type='void vws_buffer_clear(vws_buffer * buffer)'/>
+<use f='codebrowser/src/http_message.c' l='105' u='c' c='process_header'/>
+<use f='codebrowser/src/http_message.c' l='106' u='c' c='process_header'/>
+<doc f='codebrowser/src/vws.h' l='273'>/**
+ * @brief Clears a vrtql buffer.
+ *
+ * @param buffer The buffer to be cleared
+ */</doc>
+<use f='codebrowser/src/message.c' l='407' u='c' c='vrtql_msg_clear_content'/>
+<use f='codebrowser/src/message.c' l='422' u='c' c='vrtql_msg_set_content'/>
+<use f='codebrowser/src/message.c' l='428' u='c' c='vrtql_msg_set_content_binary'/>
+<use f='codebrowser/src/message.c' l='573' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/socket.c' l='272' u='c' c='vws_socket_connect'/>
+<def f='codebrowser/src/vws.c' l='480' ll='493' type='void vws_buffer_clear(vws_buffer * buffer)'/>
+<use f='codebrowser/src/vws.c' l='499' u='c' c='vws_buffer_free'/>
+<use f='codebrowser/src/vws.c' l='569' u='c' c='vws_buffer_drain'/>
+<use f='codebrowser/src/websocket.c' l='454' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='470' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='483' u='c' c='socket_handshake'/>

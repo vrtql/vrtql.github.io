@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vrtql.h' l='43' type='5'/>
+<dec f='codebrowser/src/vws.h' l='43' type='5'/>
 <use f='codebrowser/src/server.c' l='661' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='680' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='704' u='r' c='uv_thread'/>
