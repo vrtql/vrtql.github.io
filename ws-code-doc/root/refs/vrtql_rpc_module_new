@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/rpc.h' l='153' type='vrtql_rpc_module * vrtql_rpc_module_new(cstr name)'/>
+<def f='codebrowser/src/rpc.c' l='302' ll='317' type='vrtql_rpc_module * vrtql_rpc_module_new(cstr name)'/>
+<doc f='codebrowser/src/rpc.c' l='298'>//------------------------------------------------------------------------------
+// Server-side API
+//------------------------------------------------------------------------------</doc>
+<doc f='codebrowser/src/rpc.h' l='148'>/**
+ * @brief Creates a new RPC module.
+ *
+ * @return A new thread RPC module.
+ */</doc>
+<use f='codebrowser/src/test/test_rpc_server.c' l='38' u='c' c='ctest_test_rpc_server_side_module_run'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='53' u='c' c='ctest_test_rpc_server_side_service_run'/>

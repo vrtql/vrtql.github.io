@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/mpack/mpack-common.h' l='178' type='const char * mpack_error_to_string(mpack_error_t error)'/>
 <use f='codebrowser/src/message.c' l='132' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='281' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='285' u='c' c='vrtql_msg_deserialize'/>
 <doc f='codebrowser/src/mpack/mpack-common.h' l='174'>/**
  * Converts an MPack error to a string. This function returns an empty
  * string when MPACK_DEBUG is not set.

@@ -6,10 +6,10 @@
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_put_str'/>
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_get_str'/>
 <use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_del_str'/>
-<use f='codebrowser/src/vws.h' l='341' c='vws_map_get'/>
-<use f='codebrowser/src/vws.h' l='352' c='vws_map_set'/>
-<use f='codebrowser/src/vws.h' l='362' c='vws_map_remove'/>
-<use f='codebrowser/src/vws.h' l='369' c='vws_map_clear'/>
+<use f='codebrowser/src/vws.h' l='343' c='vws_map_get'/>
+<use f='codebrowser/src/vws.h' l='354' c='vws_map_set'/>
+<use f='codebrowser/src/vws.h' l='364' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.h' l='371' c='vws_map_clear'/>
 <use f='codebrowser/src/http_message.h' l='20'/>
 <size>32</size>
 <mbr r='sc_map_str::mem' o='0' t='struct sc_map_item_str *'/>
@@ -23,9 +23,9 @@
 <use f='codebrowser/src/message.h' l='33'/>
 <use f='codebrowser/src/message.h' l='34'/>
 <use f='codebrowser/src/message.c' l='21' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='471' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='528' c='msg_parse_map'/>
 <size>32</size>
-<use f='codebrowser/src/server.c' l='1582' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1584' c='ws_svr_client_read'/>
 <size>32</size>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_init_str'/>
@@ -37,10 +37,10 @@
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_get_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_del_str'/>
 <size>32</size>
-<use f='codebrowser/src/vws.c' l='583' c='vws_map_get'/>
-<use f='codebrowser/src/vws.c' l='596' c='vws_map_set'/>
-<use f='codebrowser/src/vws.c' l='615' c='vws_map_remove'/>
-<use f='codebrowser/src/vws.c' l='628' c='vws_map_clear'/>
+<use f='codebrowser/src/vws.c' l='581' c='vws_map_get'/>
+<use f='codebrowser/src/vws.c' l='594' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='613' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.c' l='626' c='vws_map_clear'/>
 <size>32</size>
 <use f='codebrowser/src/websocket.c' l='517' c='socket_handshake'/>
 <size>32</size>

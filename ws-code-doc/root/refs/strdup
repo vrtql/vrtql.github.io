@@ -1,8 +1,8 @@
 <dec f='include/string.h' l='166' type='char * strdup(const char * __s)'/>
 <doc f='include/string.h' l='165'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
-<use f='codebrowser/src/rpc.c' l='61' u='c' c='vws_rpc_module_new'/>
-<use f='codebrowser/src/rpc.c' l='266' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/server.c' l='1330' u='c' c='queue_init'/>
+<use f='codebrowser/src/rpc.c' l='313' u='c' c='vrtql_rpc_module_new'/>
+<use f='codebrowser/src/rpc.c' l='518' u='c' c='sys_map_set'/>
+<use f='codebrowser/src/server.c' l='1332' u='c' c='queue_init'/>
 <def f='codebrowser/src/url.c' l='34' ll='40' type='char * strdup(const char * str)'/>
 <use f='codebrowser/src/url.c' l='51' u='c' c='strff'/>
 <use f='codebrowser/src/url.c' l='58' u='c' c='get_part'/>
@@ -14,5 +14,5 @@
 <use f='codebrowser/src/url.c' l='170' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='248' u='c' c='url_get_hostname'/>
 <use f='codebrowser/src/vws.c' l='319' u='c' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='604' u='c' c='vws_map_set'/>
-<use f='codebrowser/src/vws.c' l='607' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='602' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='605' u='c' c='vws_map_set'/>

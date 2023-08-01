@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/util/yyjson.h' l='1572' type='yyjson_type yyjson_get_type(yyjson_val * val)'/>
 <def f='codebrowser/src/util/yyjson.h' l='4800' ll='4802' macro='1' type='yyjson_type yyjson_get_type(yyjson_val * val)'/>
 <use f='codebrowser/src/util/yyjson.h' l='5342' u='c' c='yyjson_mut_get_type'/>
-<use f='codebrowser/src/test/test_json.c' l='39' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='41' u='c' c='ctest_test_read_run'/>

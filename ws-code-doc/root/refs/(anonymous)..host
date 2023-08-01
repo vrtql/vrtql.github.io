@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/vws.h' l='381' type='char *'/>
+<dec f='codebrowser/src/vws.h' l='383' type='char *'/>
 <offset>64</offset>
-<doc f='codebrowser/src/vws.h' l='381'>/**&lt; The host name or IP address        */</doc>
+<doc f='codebrowser/src/vws.h' l='383'>/**&lt; The host name or IP address        */</doc>

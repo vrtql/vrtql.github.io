@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/server.h' l='224' type='uv_thread_t *'/>
 <use f='codebrowser/src/server.c' l='714' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='822' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='946' u='w' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1009' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='824' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='948' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1011' u='r' c='tcp_svr_dtor'/>
 <offset>2304</offset>
 <doc f='codebrowser/src/server.h' l='223'>/**&lt; Thread handles */</doc>

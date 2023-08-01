@@ -1,12 +1,13 @@
 <dec f='include/string.h' l='139' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
 <doc f='include/string.h' l='138'>/* Compare N characters of S1 and S2.  */</doc>
+<use f='codebrowser/src/rpc.c' l='172' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/test/ctest.h' l='476' u='c' c='suite_filter'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='94' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_rpc.c' l='69' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_receive_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_data_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='25' u='c' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='87' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='96' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='72' u='c' c='ctest_test_rpc_server_side_service_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='28' u='c' c='ctest_test_send_receive_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='28' u='c' c='ctest_test_send_data_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='28' u='c' c='ctest_test_send_frame_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='90' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='29' u='c' c='is_dir_prefix'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='176' u='c' c='mg_json_get'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='mg_connect'/>

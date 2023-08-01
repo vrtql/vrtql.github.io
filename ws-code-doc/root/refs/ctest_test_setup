@@ -1,9 +1,12 @@
-<dec f='codebrowser/src/test/test_common.c' l='18' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
-<use f='codebrowser/src/test/test_common.c' l='18' macro='1' u='a'/>
-<def f='codebrowser/src/test/test_common.c' l='18' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
-<dec f='codebrowser/src/test/test_json.c' l='15' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
-<use f='codebrowser/src/test/test_json.c' l='15' macro='1' u='a'/>
-<def f='codebrowser/src/test/test_json.c' l='15' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
-<dec f='codebrowser/src/test/test_websocket.c' l='35' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
-<use f='codebrowser/src/test/test_websocket.c' l='35' macro='1' u='a'/>
-<def f='codebrowser/src/test/test_websocket.c' l='35' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<dec f='codebrowser/src/test/test_common.c' l='21' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<use f='codebrowser/src/test/test_common.c' l='21' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_common.c' l='21' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<dec f='codebrowser/src/test/test_json.c' l='17' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<use f='codebrowser/src/test/test_json.c' l='17' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_json.c' l='17' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<dec f='codebrowser/src/test/test_rpc_client.c' l='17' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='17' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_rpc_client.c' l='17' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<dec f='codebrowser/src/test/test_websocket.c' l='38' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>
+<use f='codebrowser/src/test/test_websocket.c' l='38' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_websocket.c' l='38' macro='1' type='void ctest_test_setup(struct ctest_test_data * data)'/>

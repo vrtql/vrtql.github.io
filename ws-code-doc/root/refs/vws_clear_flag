@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vws.h' l='462' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vws.h' l='455'>/**
+<dec f='codebrowser/src/vws.h' l='464' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vws.h' l='457'>/**
  * @brief Clears a specific flag.
  *
  * @param flags The flags to modify
  * @param flag  The flag to clear
  * @return None
  */</doc>
-<def f='codebrowser/src/vws.c' l='784' ll='787' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>
+<def f='codebrowser/src/vws.c' l='782' ll='785' type='void vws_clear_flag(uint64_t * flags, uint64_t flag)'/>

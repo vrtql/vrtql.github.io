@@ -1,5 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='26' type='1'/>
+<dec f='codebrowser/src/vws.h' l='26' type='2'/>
 <doc f='codebrowser/src/vws.h' l='26'>/**&lt; Socket timeout */</doc>
+<use f='codebrowser/src/rpc.c' l='186' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/socket.c' l='445' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='517' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='570' c='vws_socket_read'/>

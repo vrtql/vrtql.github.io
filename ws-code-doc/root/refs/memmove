@@ -42,4 +42,4 @@
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
 <use f='codebrowser/src/util/yyjson.c' l='8921' u='c' c='yyjson_mut_write_pretty'/>
-<use f='codebrowser/src/vws.c' l='573' u='c' c='vws_buffer_drain'/>
+<use f='codebrowser/src/vws.c' l='571' u='c' c='vws_buffer_drain'/>

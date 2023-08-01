@@ -1,3 +1,3 @@
 <dec f='include/openssl/bio.h' l='177' type='void BIO_set_flags(BIO * b, int flags)'/>
-<use f='codebrowser/src/vws.c' l='690' u='c' c='vws_base64_encode'/>
-<use f='codebrowser/src/vws.c' l='713' u='c' c='vws_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='688' u='c' c='vws_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='711' u='c' c='vws_base64_decode'/>

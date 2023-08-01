@@ -1,4 +1,4 @@
 <dec f='include/openssl/buffer.h' l='39' type='size_t'/>
 <offset>0</offset>
 <doc f='include/openssl/buffer.h' l='39'>/* current number of bytes */</doc>
-<use f='codebrowser/src/vws.c' l='697' u='r' c='vws_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='695' u='r' c='vws_base64_encode'/>

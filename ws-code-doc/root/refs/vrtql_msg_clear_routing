@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='112' type='void vrtql_msg_clear_routing(vrtql_msg * msg, cstr key)'/>
-<def f='codebrowser/src/message.c' l='400' ll='403' type='void vrtql_msg_clear_routing(vrtql_msg * msg, cstr key)'/>
-<doc f='codebrowser/src/message.h' l='105'>/**
+<dec f='codebrowser/src/message.h' l='120' type='void vrtql_msg_clear_routing(vrtql_msg * msg, cstr key)'/>
+<def f='codebrowser/src/message.c' l='457' ll='460' type='void vrtql_msg_clear_routing(vrtql_msg * msg, cstr key)'/>
+<doc f='codebrowser/src/message.h' l='113'>/**
  * @brief Removes a routing key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The routing key to be removed.

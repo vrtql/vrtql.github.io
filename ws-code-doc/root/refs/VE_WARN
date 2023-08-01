@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vws.h' l='27' type='2'/>
+<dec f='codebrowser/src/vws.h' l='27' type='4'/>
 <doc f='codebrowser/src/vws.h' l='27'>/**&lt; Warning */</doc>
 <use f='codebrowser/src/socket.c' l='395' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='578' c='vws_socket_read'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/rpc.h' l='209' type='vrtql_rpc_module * vrtql_rpc_system_get(vrtql_rpc_system * s, cstr n)'/>
+<def f='codebrowser/src/rpc.c' l='387' ll='390' type='vrtql_rpc_module * vrtql_rpc_system_get(vrtql_rpc_system * s, cstr n)'/>
+<use f='codebrowser/src/rpc.c' l='453' u='c' c='vrtql_rpc_service'/>
+<doc f='codebrowser/src/rpc.h' l='202'>/**
+ * @brief Gets a module from a system.
+ *
+ * @param s The RPC system
+ * @param n The name of the The RPC module
+ * @return m The RPC module if exists, NULL otherwise
+ */</doc>

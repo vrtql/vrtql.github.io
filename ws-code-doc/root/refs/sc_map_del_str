@@ -1,3 +1,3 @@
 <dec f='codebrowser/src/util/sc_map.h' l='227' macro='1' type='const char * sc_map_del_str(struct sc_map_str * map, const char * key)'/>
 <def f='codebrowser/src/util/sc_map.c' l='409' macro='1' type='const char * sc_map_del_str(struct sc_map_str * m, const char * key)'/>
-<use f='codebrowser/src/vws.c' l='625' u='c' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.c' l='623' u='c' c='vws_map_remove'/>

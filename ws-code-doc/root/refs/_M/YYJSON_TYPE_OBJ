@@ -7,7 +7,7 @@
 <use f='codebrowser/src/util/yyjson.h' l='6467' u='c'/>
 <use f='codebrowser/src/util/yyjson.h' l='6497' u='c'/>
 <doc f='codebrowser/src/util/yyjson.h' l='513'>/** Object type, no subtype. */</doc>
-<use f='codebrowser/src/test/test_json.c' l='39' u='c'/>
+<use f='codebrowser/src/test/test_json.c' l='41' u='c'/>
 <use f='codebrowser/src/util/yyjson.c' l='1336' u='c'/>
 <use f='codebrowser/src/util/yyjson.c' l='1375' u='c'/>
 <use f='codebrowser/src/util/yyjson.c' l='1421' u='c'/>

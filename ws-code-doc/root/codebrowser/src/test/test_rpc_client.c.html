@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>test_rpc_client.c source code [codebrowser/src/test/test_rpc_client.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/test/test_rpc_client.c'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>test</a>/<a href='test_rpc_client.c.html'>test_rpc_client.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#include <a href="../rpc.h.html">"rpc.h"</a></u></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#define <dfn class="macro" id="_M/CTEST_MAIN" data-ref="_M/CTEST_MAIN">CTEST_MAIN</dfn></u></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="ctest.h.html">"ctest.h"</a></u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="common.h.html">"common.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><a class="typedef" href="../vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl def" id="content" title='content' data-ref="content" data-ref-filename="content">content</dfn> = <q>"content"</q>;</td></tr>
+<tr><th id="9">9</th><td><a class="typedef" href="../vws.h.html#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl def" id="uri" title='uri' data-ref="uri" data-ref-filename="uri">uri</dfn>     = <q>"wss://gem.vrtql.com:2020"</q>;</td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><a class="macro" href="ctest.h.html#148" title="struct ctest_test_data; static void (*ctest_test_setup_ptr)(struct ctest_test_data*); static void (*ctest_test_teardown_ptr)(struct ctest_test_data*); struct ctest_test_data" data-ref="_M/CTEST_DATA">CTEST_DATA</a>(test)</td></tr>
+<tr><th id="12">12</th><td>{</td></tr>
+<tr><th id="13">13</th><td>    <a class="typedef" href="../websocket.h.html#vws_cnx" title='vws_cnx' data-type='struct vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="decl field" id="ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</dfn>;</td></tr>
+<tr><th id="14">14</th><td>    <a class="typedef" href="../rpc.h.html#vrtql_rpc" title='vrtql_rpc' data-type='struct vrtql_rpc' data-ref="vrtql_rpc" data-ref-filename="vrtql_rpc">vrtql_rpc</a>* <dfn class="decl field" id="ctest_test_data::rpc" title='ctest_test_data::rpc' data-ref="ctest_test_data::rpc" data-ref-filename="ctest_test_data..rpc">rpc</dfn>;</td></tr>
+<tr><th id="15">15</th><td>};</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><a class="macro" href="ctest.h.html#138" title="static void ctest_test_setup(struct ctest_test_data* data); static void (*ctest_test_setup_ptr)(struct ctest_test_data*) = &amp;ctest_test_setup; static void ctest_test_setup(struct ctest_test_data* data)" data-ref="_M/CTEST_SETUP">CTEST_SETUP</a>(test)</td></tr>
+<tr><th id="18">18</th><td>{</td></tr>
+<tr><th id="19">19</th><td>    <a class="local col1 ref" href="#17" title='data' data-ref="1data" data-ref-filename="1data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</a> = <a class="ref fn" href="../websocket.h.html#vws_cnx_new" title='vws_cnx_new' data-ref="vws_cnx_new" data-ref-filename="vws_cnx_new">vws_cnx_new</a>();</td></tr>
+<tr><th id="20">20</th><td>    <a class="macro" href="ctest.h.html#221" title="assert_true(data-&gt;c != ((void*)0), &quot;/var/data/dev/source/active/vrtql/client/vws/src/test/test_rpc_client.c&quot;, 20)" data-ref="_M/ASSERT_TRUE">ASSERT_TRUE</a>(<a class="local col1 ref" href="#17" title='data' data-ref="1data" data-ref-filename="1data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="21">21</th><td>    <a class="macro" href="ctest.h.html#221" title="assert_true(vws_connect(data-&gt;c, uri), &quot;/var/data/dev/source/active/vrtql/client/vws/src/test/test_rpc_client.c&quot;, 21)" data-ref="_M/ASSERT_TRUE">ASSERT_TRUE</a>(<a class="ref fn" href="../websocket.h.html#vws_connect" title='vws_connect' data-ref="vws_connect" data-ref-filename="vws_connect">vws_connect</a>(<a class="local col1 ref" href="#17" title='data' data-ref="1data" data-ref-filename="1data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</a>, <a class="ref" href="#uri" title='uri' data-ref="uri" data-ref-filename="uri">uri</a>));</td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td>    <a class="local col1 ref" href="#17" title='data' data-ref="1data" data-ref-filename="1data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::rpc" title='ctest_test_data::rpc' data-ref="ctest_test_data::rpc" data-ref-filename="ctest_test_data..rpc">rpc</a> = <a class="ref fn" href="../rpc.h.html#vrtql_rpc_new" title='vrtql_rpc_new' data-ref="vrtql_rpc_new" data-ref-filename="vrtql_rpc_new">vrtql_rpc_new</a>(<a class="local col1 ref" href="#17" title='data' data-ref="1data" data-ref-filename="1data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</a>);</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td>    <i>// Enable tracing</i></td></tr>
+<tr><th id="26">26</th><td>    <a class="ref" href="../vws.h.html#vws" title='vws' data-ref="vws" data-ref-filename="vws">vws</a>.<a class="ref field" href="../vws.h.html#(anonymous)::tracelevel" title='(anonymous struct)::tracelevel' data-ref="(anonymous)::tracelevel" data-ref-filename="(anonymous)..tracelevel">tracelevel</a> = <a class="enum" href="../vws.h.html#VT_PROTOCOL" title='VT_PROTOCOL' data-ref="VT_PROTOCOL" data-ref-filename="VT_PROTOCOL">VT_PROTOCOL</a>;</td></tr>
+<tr><th id="27">27</th><td>}</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><a class="macro" href="ctest.h.html#143" title="static void ctest_test_teardown(struct ctest_test_data* data); static void (*ctest_test_teardown_ptr)(struct ctest_test_data*) = &amp;ctest_test_teardown; static void ctest_test_teardown(struct ctest_test_data* data)" data-ref="_M/CTEST_TEARDOWN">CTEST_TEARDOWN</a>(test)</td></tr>
+<tr><th id="30">30</th><td>{</td></tr>
+<tr><th id="31">31</th><td>    <a class="ref fn" href="../websocket.h.html#vws_cnx_free" title='vws_cnx_free' data-ref="vws_cnx_free" data-ref-filename="vws_cnx_free">vws_cnx_free</a>(<a class="local col2 ref" href="#29" title='data' data-ref="2data" data-ref-filename="2data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::c" title='ctest_test_data::c' data-ref="ctest_test_data::c" data-ref-filename="ctest_test_data..c">c</a>);</td></tr>
+<tr><th id="32">32</th><td>    <a class="ref fn" href="../rpc.h.html#vrtql_rpc_free" title='vrtql_rpc_free' data-ref="vrtql_rpc_free" data-ref-filename="vrtql_rpc_free">vrtql_rpc_free</a>(<a class="local col2 ref" href="#29" title='data' data-ref="2data" data-ref-filename="2data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::rpc" title='ctest_test_data::rpc' data-ref="ctest_test_data::rpc" data-ref-filename="ctest_test_data..rpc">rpc</a>);</td></tr>
+<tr><th id="33">33</th><td>}</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><a class="macro" href="ctest.h.html#173" title="static struct ctest_test_data ctest_test_basic_data; static void ctest_test_basic_run(struct ctest_test_data* data); static struct ctest ctest_test_basic __attribute__ ((used, section (&quot;.ctest&quot;), aligned(1))) = { &quot;test&quot;, &quot;basic&quot;, { (ctest_nullary_run_func) ctest_test_basic_run }, &amp;ctest_test_basic_data, (ctest_setup_func*) &amp;ctest_test_setup_ptr, (ctest_teardown_func*) &amp;ctest_test_teardown_ptr, 0, (0xdeadbeef), }; static void ctest_test_basic_run(struct ctest_test_data* data)" data-ref="_M/CTEST2">CTEST2</a>(test, basic)</td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td>    <i>// Create request message</i></td></tr>
+<tr><th id="38">38</th><td>    <a class="typedef" href="../message.h.html#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col3 decl" id="3req" title='req' data-type='vrtql_msg *' data-ref="3req" data-ref-filename="3req">req</dfn> = <a class="ref fn" href="../message.h.html#vrtql_msg_new" title='vrtql_msg_new' data-ref="vrtql_msg_new" data-ref-filename="vrtql_msg_new">vrtql_msg_new</a>();</td></tr>
+<tr><th id="39">39</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>, <q>"id"</q>, <q>"vql"</q>);</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td>    <i>// Headers for authentication</i></td></tr>
+<tr><th id="42">42</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>, <q>"username"</q>, <q>"vrtql"</q>);</td></tr>
+<tr><th id="43">43</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>, <q>"password"</q>, <q>"vrtql"</q>);</td></tr>
+<tr><th id="44">44</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_header" title='vrtql_msg_set_header' data-ref="vrtql_msg_set_header" data-ref-filename="vrtql_msg_set_header">vrtql_msg_set_header</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>, <q>"domain"</q>, <q>"global"</q>);</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>    <i>// VQL command to execute</i></td></tr>
+<tr><th id="47">47</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_set_content" title='vrtql_msg_set_content' data-ref="vrtql_msg_set_content" data-ref-filename="vrtql_msg_set_content">vrtql_msg_set_content</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>, <q>"sql select * from solari"</q>);</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <a class="typedef" href="../message.h.html#vrtql_msg" title='vrtql_msg' data-type='struct vrtql_msg' data-ref="vrtql_msg" data-ref-filename="vrtql_msg">vrtql_msg</a>* <dfn class="local col4 decl" id="4reply" title='reply' data-type='vrtql_msg *' data-ref="4reply" data-ref-filename="4reply">reply</dfn> = <a class="ref fn" href="../rpc.h.html#vrtql_rpc_exec" title='vrtql_rpc_exec' data-ref="vrtql_rpc_exec" data-ref-filename="vrtql_rpc_exec">vrtql_rpc_exec</a>(<a class="local col5 ref" href="#35" title='data' data-ref="5data" data-ref-filename="5data">data</a>-&gt;<a class="ref field" href="#ctest_test_data::rpc" title='ctest_test_data::rpc' data-ref="ctest_test_data::rpc" data-ref-filename="ctest_test_data..rpc">rpc</a>, <a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>);</td></tr>
+<tr><th id="50">50</th><td>    <a class="macro" href="ctest.h.html#221" title="assert_true(reply != ((void*)0), &quot;/var/data/dev/source/active/vrtql/client/vws/src/test/test_rpc_client.c&quot;, 50)" data-ref="_M/ASSERT_TRUE">ASSERT_TRUE</a>(<a class="local col4 ref" href="#4reply" title='reply' data-ref="4reply" data-ref-filename="4reply">reply</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="51">51</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_dump" title='vrtql_msg_dump' data-ref="vrtql_msg_dump" data-ref-filename="vrtql_msg_dump">vrtql_msg_dump</a>(<a class="local col4 ref" href="#4reply" title='reply' data-ref="4reply" data-ref-filename="4reply">reply</a>);</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free">vrtql_msg_free</a>(<a class="local col3 ref" href="#3req" title='req' data-ref="3req" data-ref-filename="3req">req</a>);</td></tr>
+<tr><th id="54">54</th><td>    <a class="ref fn" href="../message.h.html#vrtql_msg_free" title='vrtql_msg_free' data-ref="vrtql_msg_free" data-ref-filename="vrtql_msg_free">vrtql_msg_free</a>(<a class="local col4 ref" href="#4reply" title='reply' data-ref="4reply" data-ref-filename="4reply">reply</a>);</td></tr>
+<tr><th id="55">55</th><td>}</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><em>int</em> <dfn class="decl def fn" id="main" title='main' data-ref="main" data-ref-filename="main">main</dfn>(<em>int</em> <dfn class="local col6 decl" id="6argc" title='argc' data-type='int' data-ref="6argc" data-ref-filename="6argc">argc</dfn>, <em>const</em> <em>char</em>* <dfn class="local col7 decl" id="7argv" title='argv' data-type='const char **' data-ref="7argv" data-ref-filename="7argv">argv</dfn>[])</td></tr>
+<tr><th id="58">58</th><td>{</td></tr>
+<tr><th id="59">59</th><td>    <b>return</b> <a class="ref fn" href="ctest.h.html#ctest_main" title='ctest_main' data-ref="ctest_main" data-ref-filename="ctest_main">ctest_main</a>(<a class="local col6 ref" href="#6argc" title='argc' data-ref="6argc" data-ref-filename="6argc">argc</a>, <a class="local col7 ref" href="#7argv" title='argv' data-ref="7argv" data-ref-filename="7argv">argv</a>);</td></tr>
+<tr><th id="60">60</th><td>}</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2023-Aug-01</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

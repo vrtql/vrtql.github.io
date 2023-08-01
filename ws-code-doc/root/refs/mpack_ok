@@ -1,10 +1,10 @@
 <dec f='codebrowser/src/mpack/mpack-common.h' l='162' type='0'/>
 <use f='codebrowser/src/mpack/mpack-reader.h' l='418' u='r' c='mpack_reader_flag_if_error'/>
 <use f='codebrowser/src/message.c' l='129' u='r' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='278' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='478' u='r' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='537' u='r' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='552' u='r' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='282' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='535' u='r' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='594' u='r' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='609' u='r' c='msg_parse_content'/>
 <doc f='codebrowser/src/mpack/mpack-common.h' l='162'>/**&lt; No error. */</doc>
 <use f='codebrowser/src/mpack/mpack-common.c' l='32' c='mpack_error_to_string'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='34' u='r' c='mpack_expect_native_u8'/>

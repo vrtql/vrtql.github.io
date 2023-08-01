@@ -1,0 +1,5 @@
+<def f='codebrowser/src/rpc.c' l='37' ll='61' type='char * vrtql_rpc_tag(uint16_t length)'/>
+<use f='codebrowser/src/rpc.c' l='110' u='c' c='vrtql_rpc_exec'/>
+<doc f='codebrowser/src/rpc.c' l='33'>//------------------------------------------------------------------------------
+// Client-side Internal functions
+//------------------------------------------------------------------------------</doc>

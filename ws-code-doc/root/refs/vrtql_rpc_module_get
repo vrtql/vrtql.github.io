@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/rpc.h' l='178' type='vrtql_rpc_call vrtql_rpc_module_get(vrtql_rpc_module * m, cstr n)'/>
+<def f='codebrowser/src/rpc.c' l='341' ll='344' type='vrtql_rpc_call vrtql_rpc_module_get(vrtql_rpc_module * m, cstr n)'/>
+<use f='codebrowser/src/rpc.c' l='467' u='c' c='vrtql_rpc_service'/>
+<doc f='codebrowser/src/rpc.h' l='171'>/**
+ * @brief Adds an RPC to module .
+ *
+ * @param m The RPC module
+ * @param n The name of the The RPC module
+ * @return c The RPC call if exists, NULL otherwise
+ */</doc>

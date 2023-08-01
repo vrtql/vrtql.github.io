@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='103' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
-<def f='codebrowser/src/message.c' l='395' ll='398' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
-<doc f='codebrowser/src/message.h' l='95'>/**
+<dec f='codebrowser/src/message.h' l='111' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
+<def f='codebrowser/src/message.c' l='452' ll='455' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
+<doc f='codebrowser/src/message.h' l='103'>/**
  * @brief Sets a routing key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The routing key.
@@ -8,6 +8,7 @@
  *
  * @ingroup MessageFunctions
  */</doc>
+<use f='codebrowser/src/rpc.c' l='111' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/test/test_example.c' l='24' u='c' c='main'/>
-<use f='codebrowser/src/test/test_message.c' l='12' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='51' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='15' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='54' u='c' c='ctest_test_message_json_serialization_run'/>

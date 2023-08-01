@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='32' type='200'/>
-<doc f='codebrowser/src/vws.h' l='32'>/**&lt; Fatal error */</doc>
-<use f='codebrowser/src/server.c' l='1254' c='svr_on_connect'/>
+<dec f='codebrowser/src/vws.h' l='34' type='512'/>
+<doc f='codebrowser/src/vws.h' l='34'>/**&lt; Fatal error */</doc>
+<use f='codebrowser/src/server.c' l='1256' c='svr_on_connect'/>
 <use f='codebrowser/src/vws.c' l='392' c='vws_error_default_process'/>
-<use f='codebrowser/src/vws.c' l='413' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='412' c='vws_error_default_process'/>

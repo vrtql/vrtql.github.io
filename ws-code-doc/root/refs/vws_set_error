@@ -1,7 +1,7 @@
 <def f='codebrowser/src/vws.c' l='307' ll='321' type='void vws_set_error(vws_error_code_t code, const char * message)'/>
 <use f='codebrowser/src/vws.c' l='348' u='c' c='vws_error_default_submit'/>
-<use f='codebrowser/src/vws.c' l='433' u='c' c='vws_error_clear_default'/>
-<use f='codebrowser/src/vws.c' l='438' u='c' c='vws_error_success_default'/>
+<use f='codebrowser/src/vws.c' l='431' u='c' c='vws_error_clear_default'/>
+<use f='codebrowser/src/vws.c' l='436' u='c' c='vws_error_success_default'/>
 <doc f='codebrowser/src/vws.c' l='302'>//------------------------------------------------------------------------------
 // Error handling
 //------------------------------------------------------------------------------

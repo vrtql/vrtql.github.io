@@ -1,9 +1,0 @@
-<dec f='codebrowser/src/rpc.h' l='64' type='void vws_rpc_module_free(vws_rpc_module * m)'/>
-<def f='codebrowser/src/rpc.c' l='67' ll='82' type='void vws_rpc_module_free(vws_rpc_module * m)'/>
-<use f='codebrowser/src/rpc.c' l='114' u='c' c='vws_rpc_system_free'/>
-<doc f='codebrowser/src/rpc.h' l='59'>/**
- * @brief Frees the resources allocated to a RPC module
- *
- * @param m The RPC module
- */</doc>
-<use f='codebrowser/src/test/test_rpc.c' l='41' u='c' c='ctest_test_rpc_module_run'/>

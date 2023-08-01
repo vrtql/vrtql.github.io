@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/server.h' l='257' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * memory)'/>
 <def f='codebrowser/src/server.c' l='747' ll='756' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * buffer)'/>
-<use f='codebrowser/src/server.c' l='1434' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1463' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1611' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1706' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1436' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1465' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1613' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1708' u='c' c='ws_svr_client_data_out'/>
 <doc f='codebrowser/src/server.c' l='743'>//------------------------------------------------------------------------------
 // Server API
 //------------------------------------------------------------------------------</doc>

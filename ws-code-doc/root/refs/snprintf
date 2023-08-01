@@ -1,6 +1,6 @@
 <dec f='include/stdio.h' l='354' type='int snprintf(char *restrict __s, size_t __maxlen, const char *restrict __format)'/>
 <doc f='include/stdio.h' l='353'>/* Maximum chars of output to write in MAXLEN.  */</doc>
 <use f='codebrowser/src/message.c' l='133' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='282' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='286' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/test/ctest.h' l='592' u='c' c='ctest_main'/>
 <use f='codebrowser/src/websocket.c' l='413' u='c' c='socket_handshake'/>

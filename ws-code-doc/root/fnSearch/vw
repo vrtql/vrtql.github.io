@@ -1,15 +1,6 @@
 vws_http_msg_free|vws_http_msg_free
 vws_http_msg_new|vws_http_msg_new
 vws_http_msg_parse|vws_http_msg_parse
-vws_rpc|vws_rpc
-vws_rpc_module_free|vws_rpc_module_free
-vws_rpc_module_get|vws_rpc_module_get
-vws_rpc_module_new|vws_rpc_module_new
-vws_rpc_module_set|vws_rpc_module_set
-vws_rpc_system_free|vws_rpc_system_free
-vws_rpc_system_get|vws_rpc_system_get
-vws_rpc_system_new|vws_rpc_system_new
-vws_rpc_system_set|vws_rpc_system_set
 vws_svr_data_free|vws_svr_data_free
 vws_svr_data_new|vws_svr_data_new
 vws_svr_data_own|vws_svr_data_own

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='230' type='vws_error_process_cb'/>
+<dec f='codebrowser/src/vws.h' l='232' type='vws_error_process_cb'/>
 <offset>512</offset>
-<doc f='codebrowser/src/vws.h' l='230'>/**&lt; Error processing function   */</doc>
+<doc f='codebrowser/src/vws.h' l='232'>/**&lt; Error processing function   */</doc>
 <use f='codebrowser/src/vws.c' l='351' u='r' c='vws_error_default_submit'/>
-<use f='codebrowser/src/vws.c' l='456' u='w'/>
+<use f='codebrowser/src/vws.c' l='454' u='w'/>

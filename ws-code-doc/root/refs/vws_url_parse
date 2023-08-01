@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='394' type='vws_url vws_url_parse(const char * url)'/>
-<doc f='codebrowser/src/vws.h' l='388'>/**
+<dec f='codebrowser/src/vws.h' l='396' type='vws_url vws_url_parse(const char * url)'/>
+<doc f='codebrowser/src/vws.h' l='390'>/**
  * @brief Parses a URL.
  *
  * @param url The URL to parse

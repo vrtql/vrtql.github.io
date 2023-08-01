@@ -3,8 +3,8 @@
 <use f='codebrowser/src/server.c' l='724' u='a' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='726' u='m' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='804' u='a' c='vws_tcp_svr_send'/>
-<use f='codebrowser/src/server.c' l='904' u='m' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='961' u='a' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1201' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='906' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='963' u='a' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1203' u='a' c='svr_shutdown'/>
 <offset>1216</offset>
 <doc f='codebrowser/src/server.h' l='214'>/**&lt; Response queue */</doc>

@@ -1,8 +1,14 @@
-<dec f='codebrowser/src/vws.h' l='55' type='int'/>
+<dec f='codebrowser/src/vws.h' l='57' type='uint64_t'/>
 <offset>0</offset>
-<doc f='codebrowser/src/vws.h' l='55'>/**&lt; Error code */</doc>
+<doc f='codebrowser/src/vws.h' l='57'>/**&lt; Error code */</doc>
+<use f='codebrowser/src/rpc.c' l='95' u='w' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='136' u='r' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='148' u='a' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='186' u='r' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='193' u='r' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='198' u='a' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/vws.c' l='315' u='w' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='459' u='w'/>
-<use f='codebrowser/src/vws.c' l='459' u='w'/>
+<use f='codebrowser/src/vws.c' l='457' u='w'/>
+<use f='codebrowser/src/vws.c' l='457' u='w'/>
 <use f='codebrowser/src/websocket.c' l='440' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='476' u='r' c='socket_handshake'/>

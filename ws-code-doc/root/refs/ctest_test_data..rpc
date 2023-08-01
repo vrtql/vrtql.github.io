@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/test/test_rpc_client.c' l='14' type='vrtql_rpc *'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='23' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='32' u='r' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='49' u='r' c='ctest_test_basic_run'/>
+<offset>64</offset>

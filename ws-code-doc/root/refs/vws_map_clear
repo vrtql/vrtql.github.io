@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/vws.h' l='369' type='void vws_map_clear(struct sc_map_str * map)'/>
-<doc f='codebrowser/src/vws.h' l='364'>/**
+<dec f='codebrowser/src/vws.h' l='371' type='void vws_map_clear(struct sc_map_str * map)'/>
+<doc f='codebrowser/src/vws.h' l='366'>/**
  * @brief Removes all key-value pair from the map, calling free() on them
  *
  * @param map The map to clear
  */</doc>
 <use f='codebrowser/src/message.c' l='61' u='c' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='62' u='c' c='vrtql_msg_free'/>
-<use f='codebrowser/src/message.c' l='474' u='c' c='msg_parse_map'/>
-<def f='codebrowser/src/vws.c' l='628' ll='638' type='void vws_map_clear(struct sc_map_str * map)'/>
+<use f='codebrowser/src/message.c' l='531' u='c' c='msg_parse_map'/>
+<def f='codebrowser/src/vws.c' l='626' ll='636' type='void vws_map_clear(struct sc_map_str * map)'/>

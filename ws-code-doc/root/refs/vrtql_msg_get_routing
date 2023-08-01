@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='93' type='cstr vrtql_msg_get_routing(vrtql_msg * msg, cstr key)'/>
-<def f='codebrowser/src/message.c' l='390' ll='393' type='cstr vrtql_msg_get_routing(vrtql_msg * msg, cstr key)'/>
-<doc f='codebrowser/src/message.h' l='85'>/**
+<dec f='codebrowser/src/message.h' l='101' type='cstr vrtql_msg_get_routing(vrtql_msg * msg, cstr key)'/>
+<def f='codebrowser/src/message.c' l='447' ll='450' type='cstr vrtql_msg_get_routing(vrtql_msg * msg, cstr key)'/>
+<doc f='codebrowser/src/message.h' l='93'>/**
  * @brief Gets a routing value by key.
  * @param msg The vrtql_msg instance.
  * @param key The routing key.
@@ -8,3 +8,4 @@
  *
  * @ingroup MessageFunctions
  */</doc>
+<use f='codebrowser/src/rpc.c' l='169' u='c' c='vrtql_rpc_exec'/>

@@ -5,5 +5,3 @@
 <use f='codebrowser/src/vws.c' l='206' macro='1' u='r' c='vws_trace'/>
 <use f='codebrowser/src/vws.c' l='209' macro='1' u='r' c='vws_trace'/>
 <use f='codebrowser/src/vws.c' l='210' macro='1' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='409' macro='1' u='r' c='vws_error_default_process'/>
-<use f='codebrowser/src/vws.c' l='415' macro='1' u='r' c='vws_error_default_process'/>

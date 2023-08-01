@@ -5,7 +5,7 @@
 <use f='codebrowser/src/util/yyjson.h' l='5059' u='c' c='yyjson_obj_getn'/>
 <use f='codebrowser/src/util/yyjson.h' l='5098' u='c' c='yyjson_obj_iter_next'/>
 <use f='codebrowser/src/util/yyjson.h' l='5125' u='c' c='yyjson_obj_iter_getn'/>
-<use f='codebrowser/src/test/test_json.c' l='52' macro='1' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/test/test_json.c' l='54' macro='1' u='c' c='ctest_test_read_run'/>
 <use f='codebrowser/src/util/yyjson.c' l='1305' u='c' c='yyjson_val_mut_copy'/>
 <use f='codebrowser/src/util/yyjson.c' l='1306' u='c' c='yyjson_val_mut_copy'/>
 <use f='codebrowser/src/util/yyjson.c' l='1327' u='c' c='yyjson_val_mut_copy'/>

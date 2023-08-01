@@ -1,2 +1,2 @@
 <dec f='include/openssl/bio.h' l='590' type='BIO * BIO_new_mem_buf(const void * buf, int len)'/>
-<use f='codebrowser/src/vws.c' l='710' u='c' c='vws_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='708' u='c' c='vws_base64_decode'/>

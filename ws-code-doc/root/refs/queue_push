@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/server.c' l='622' type='void queue_push(vws_svr_queue * queue, vws_svr_data * data)'/>
 <use f='codebrowser/src/server.c' l='804' u='c' c='vws_tcp_svr_send'/>
-<use f='codebrowser/src/server.c' l='1062' u='c' c='svr_client_read'/>
-<def f='codebrowser/src/server.c' l='1350' ll='1379' type='void queue_push(vws_svr_queue * queue, vws_svr_data * data)'/>
-<use f='codebrowser/src/server.c' l='1662' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1064' u='c' c='svr_client_read'/>
+<def f='codebrowser/src/server.c' l='1352' ll='1381' type='void queue_push(vws_svr_queue * queue, vws_svr_data * data)'/>
+<use f='codebrowser/src/server.c' l='1664' u='c' c='ws_svr_client_read'/>
 <doc f='codebrowser/src/server.c' l='611'>/**
  * @brief Pushes data to the server queue.
  *

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='29' type='10'/>
-<doc f='codebrowser/src/vws.h' l='29'>/**&lt; System call error */</doc>
+<dec f='codebrowser/src/vws.h' l='31' type='64'/>
+<doc f='codebrowser/src/vws.h' l='31'>/**&lt; System call error */</doc>
 <use f='codebrowser/src/socket.c' l='158' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='166' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='221' c='socket_set_nonblocking'/>

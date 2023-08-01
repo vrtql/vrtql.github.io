@@ -3,7 +3,7 @@
 <use f='codebrowser/src/mpack/mpack-common.h' l='550' u='r' c='mpack_tag_map_count'/>
 <use f='codebrowser/src/mpack/mpack-reader.h' l='773' u='r' c='mpack_done_map'/>
 <use f='codebrowser/src/mpack/mpack-writer.h' l='759' u='r' c='mpack_finish_map'/>
-<use f='codebrowser/src/message.c' l='483' u='r' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='540' u='r' c='msg_parse_map'/>
 <doc f='codebrowser/src/mpack/mpack-common.h' l='198'>/**&lt; An ordered map of key/value pairs of MessagePack objects. */</doc>
 <use f='codebrowser/src/mpack/mpack-common.c' l='66' c='mpack_type_to_string'/>
 <use f='codebrowser/src/mpack/mpack-common.c' l='114' c='mpack_tag_cmp'/>

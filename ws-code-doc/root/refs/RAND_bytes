@@ -1,4 +1,5 @@
 <dec f='include/openssl/rand.h' l='42' type='int RAND_bytes(unsigned char * buf, int num)'/>
-<use f='codebrowser/src/vws.c' l='648' u='c' c='vws_generate_uuid'/>
+<use f='codebrowser/src/rpc.c' l='43' u='c' c='vrtql_rpc_tag'/>
+<use f='codebrowser/src/vws.c' l='646' u='c' c='vws_generate_uuid'/>
 <use f='codebrowser/src/websocket.c' l='841' u='c' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='1054' u='c' c='generate_websocket_key'/>

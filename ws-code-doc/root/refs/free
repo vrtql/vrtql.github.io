@@ -16,18 +16,23 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='312' macro='1' u='c' c='mpack_file_writer_teardown'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='560' macro='1' u='c' c='mpack_writer_destroy'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1469' macro='1' u='c' c='mpack_builder_free_page'/>
-<use f='codebrowser/src/server.c' l='1451' macro='1' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/test/test_common.c' l='31' u='c' c='ctest_test_teardown'/>
-<use f='codebrowser/src/test/test_common.c' l='76' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='77' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='108' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='109' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='110' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='117' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_json.c' l='24' u='c' c='ctest_test_teardown'/>
-<use f='codebrowser/src/test/test_json.c' l='83' u='c' c='ctest_test_write_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='126' u='c' c='client_test'/>
-<use f='codebrowser/src/test/test_server.c' l='105' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/rpc.c' l='45' u='c' c='vrtql_rpc_tag'/>
+<use f='codebrowser/src/rpc.c' l='46' u='c' c='vrtql_rpc_tag'/>
+<use f='codebrowser/src/rpc.c' l='58' u='c' c='vrtql_rpc_tag'/>
+<use f='codebrowser/src/rpc.c' l='152' u='c' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='209' u='c' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/server.c' l='1453' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/test/test_common.c' l='34' u='c' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='79' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='80' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='111' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='112' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='113' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='120' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_json.c' l='26' u='c' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_json.c' l='85' u='c' c='ctest_test_write_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='128' u='c' c='client_test'/>
+<use f='codebrowser/src/test/test_server.c' l='108' u='c' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_dns_free'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='11' u='c' c='mg_fs_open'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='21' u='c' c='mg_fs_close'/>

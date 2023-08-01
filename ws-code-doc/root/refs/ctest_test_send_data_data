@@ -1,3 +1,3 @@
-<def f='codebrowser/src/test/test_websocket.c' l='56' macro='1' type='struct ctest_test_data'/>
-<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_websocket.c' l='56' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_websocket.c' l='59' macro='1' type='struct ctest_test_data'/>
+<use f='codebrowser/src/test/test_websocket.c' l='59' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_websocket.c' l='59' macro='1' u='a'/>

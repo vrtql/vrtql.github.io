@@ -6,5 +6,5 @@
 <mbr r='sc_queue_ptr::first' o='128' t='size_t'/>
 <mbr r='sc_queue_ptr::last' o='192' t='size_t'/>
 <mbr r='sc_queue_ptr::elems' o='256' t='void **'/>
-<use f='codebrowser/src/test/test_common.c' l='105' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='108' c='ctest_test_queue_run'/>
 <size>40</size>

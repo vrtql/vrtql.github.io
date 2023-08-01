@@ -1,3 +1,3 @@
 <def f='codebrowser/src/vws.c' l='270' ll='278' type='void * vws_calloc_error(size_t nmemb, size_t size)'/>
-<use f='codebrowser/src/vws.c' l='451'/>
-<use f='codebrowser/src/vws.c' l='451'/>
+<use f='codebrowser/src/vws.c' l='449'/>
+<use f='codebrowser/src/vws.c' l='449'/>

@@ -5,5 +5,5 @@
 <use f='codebrowser/src/util/yyjson.h' l='4973' u='c' c='yyjson_arr_get_first'/>
 <use f='codebrowser/src/util/yyjson.h' l='4982' u='c' c='yyjson_arr_get_last'/>
 <use f='codebrowser/src/util/yyjson.h' l='5005' u='c' c='yyjson_arr_iter_init'/>
-<use f='codebrowser/src/message.c' l='299' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='303' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/util/yyjson.c' l='2244' u='c' c='yyjson_patch'/>

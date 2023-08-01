@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/vws.h' l='487' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>
-<doc f='codebrowser/src/vws.h' l='480'>/**
+<dec f='codebrowser/src/vws.h' l='489' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>
+<doc f='codebrowser/src/vws.h' l='482'>/**
  * @brief Decodes a Base64-encoded string.
  *
  * @param data The Base64 string to decode
  * @param size Pointer to size which will be filled with the size of the decoded data
  * @return Returns a pointer to the decoded data
  */</doc>
-<use f='codebrowser/src/test/test_common.c' l='71' u='c' c='ctest_test_base64_run'/>
-<def f='codebrowser/src/vws.c' l='708' ll='727' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>
+<use f='codebrowser/src/test/test_common.c' l='74' u='c' c='ctest_test_base64_run'/>
+<def f='codebrowser/src/vws.c' l='706' ll='725' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>

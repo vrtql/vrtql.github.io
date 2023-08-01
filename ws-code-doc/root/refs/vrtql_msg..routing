@@ -10,18 +10,22 @@
 <use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='162' u='a' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='246' u='a' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='322' u='a' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='392' u='a' c='vrtql_msg_get_routing'/>
-<use f='codebrowser/src/message.c' l='397' u='a' c='vrtql_msg_set_routing'/>
-<use f='codebrowser/src/message.c' l='402' u='a' c='vrtql_msg_clear_routing'/>
+<use f='codebrowser/src/message.c' l='250' u='a' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='326' u='a' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='396' u='a' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='396' u='a' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='396' u='a' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='396' u='a' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='449' u='a' c='vrtql_msg_get_routing'/>
+<use f='codebrowser/src/message.c' l='454' u='a' c='vrtql_msg_set_routing'/>
+<use f='codebrowser/src/message.c' l='459' u='a' c='vrtql_msg_clear_routing'/>
 <offset>0</offset>
 <doc f='codebrowser/src/message.h' l='33'>/**&lt; A map storing routing information. */</doc>
-<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='28' u='a' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='68' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='31' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='31' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='31' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='31' u='a' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='71' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='71' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='71' u='a' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='71' u='a' c='ctest_test_message_json_serialization_run'/>

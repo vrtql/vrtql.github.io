@@ -10,6 +10,6 @@
  * @ingroup SocketFunctions
  */</doc>
 <def f='codebrowser/src/socket.c' l='381' ll='597' type='ssize_t vws_socket_read(vws_socket * c)'/>
-<use f='codebrowser/src/test/test_server.c' l='65' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='68' u='c' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='458' u='c' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='1120' u='c' c='socket_wait_for_frame'/>

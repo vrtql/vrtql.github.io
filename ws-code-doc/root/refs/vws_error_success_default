@@ -1,3 +1,3 @@
-<def f='codebrowser/src/vws.c' l='436' ll='439' type='void vws_error_success_default()'/>
-<use f='codebrowser/src/vws.c' l='458'/>
-<use f='codebrowser/src/vws.c' l='458'/>
+<def f='codebrowser/src/vws.c' l='434' ll='437' type='void vws_error_success_default()'/>
+<use f='codebrowser/src/vws.c' l='456'/>
+<use f='codebrowser/src/vws.c' l='456'/>

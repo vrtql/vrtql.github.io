@@ -1,0 +1,14 @@
+<use f='codebrowser/src/rpc.h' l='24'/>
+<use f='codebrowser/src/rpc.h' l='33'/>
+<def f='codebrowser/src/rpc.h' l='38' ll='58'/>
+<use f='codebrowser/src/rpc.h' l='38'/>
+<size>48</size>
+<doc f='codebrowser/src/rpc.h' l='35'>/**
+ * @brief Struct representing a RPC environment
+ */</doc>
+<mbr r='vrtql_rpc::cnx' o='0' t='vws_cnx *'/>
+<mbr r='vrtql_rpc::retries' o='64' t='uint8_t'/>
+<mbr r='vrtql_rpc::out_of_band' o='128' t='vrtql_rpc_ob'/>
+<mbr r='vrtql_rpc::reconnect' o='192' t='vrtql_rpc_reconnect'/>
+<mbr r='vrtql_rpc::val' o='256' t='vws_buffer *'/>
+<mbr r='vrtql_rpc::data' o='320' t='void *'/>

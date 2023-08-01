@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='116' type='cstr'/>
-<use f='codebrowser/src/server.c' l='1330' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1341' u='r' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1332' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1343' u='r' c='queue_destroy'/>
 <offset>960</offset>
 <doc f='codebrowser/src/server.h' l='115'>/**&lt; Queue name */</doc>

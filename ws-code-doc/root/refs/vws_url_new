@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='409' type='vws_url vws_url_new()'/>
-<doc f='codebrowser/src/vws.h' l='404'>/**
+<dec f='codebrowser/src/vws.h' l='411' type='vws_url vws_url_new()'/>
+<doc f='codebrowser/src/vws.h' l='406'>/**
  * @brief Allocates a vws_url structure.
  *
  * @return Returns a new vws_url structure

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/rpc.h' l='50' type='vrtql_rpc_reconnect'/>
+<use f='codebrowser/src/rpc.c' l='22' u='r' c='reconnect'/>
+<use f='codebrowser/src/rpc.c' l='24' u='r' c='reconnect'/>
+<use f='codebrowser/src/rpc.c' l='244' u='w' c='vrtql_rpc_new'/>
+<offset>192</offset>
+<doc f='codebrowser/src/rpc.h' l='49'>/**&gt; User-defined handler for reconnect */</doc>

@@ -2,3 +2,4 @@
 <def f='codebrowser/src/util/yyjson.h' l='5783' ll='5792' macro='1' type='yyjson_mut_val * yyjson_mut_arr(yyjson_mut_doc * doc)'/>
 <use f='codebrowser/src/util/yyjson.h' l='6308' u='c' c='yyjson_mut_arr_add_arr'/>
 <use f='codebrowser/src/message.c' l='154' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='388' u='c' c='vrtql_msg_dump'/>

@@ -1,34 +1,37 @@
-<dec f='codebrowser/src/vws.h' l='235' type='uint8_t'/>
+<dec f='codebrowser/src/vws.h' l='237' type='uint8_t'/>
 <offset>896</offset>
-<doc f='codebrowser/src/vws.h' l='235'>/**&lt; Tracing leve (0 is off)     */</doc>
+<doc f='codebrowser/src/vws.h' l='237'>/**&lt; Tracing leve (0 is off)     */</doc>
+<use f='codebrowser/src/rpc.c' l='113' u='r' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='211' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/server.c' l='659' u='w' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='661' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='680' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='704' u='r' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='812' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='839' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='862' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='874' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='888' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='907' u='r' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='917' u='r' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='956' u='r' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1042' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1050' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1194' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1496' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1510' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='814' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='841' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='864' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='876' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='890' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='909' u='r' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='919' u='r' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='958' u='r' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1044' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1052' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1196' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1498' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1512' u='r' c='ws_svr_client_disconnect'/>
 <use f='codebrowser/src/socket.c' l='858' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_common.c' l='140' u='w' c='ctest_test_error_run'/>
+<use f='codebrowser/src/test/test_common.c' l='143' u='w' c='ctest_test_error_run'/>
 <use f='codebrowser/src/test/test_example.c' l='19' u='w' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='40' u='w' c='server_thread'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='41' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='46' u='w' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='47' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='76' u='w' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='42' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='42' u='w' c='server_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='43' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='26' u='w' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_server.c' l='33' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='49' u='w' c='server_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='50' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='79' u='w' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='45' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/vws.c' l='362' u='r' c='vws_error_default_process'/>
-<use f='codebrowser/src/vws.c' l='461' u='w'/>
+<use f='codebrowser/src/vws.c' l='459' u='w'/>
 <use f='codebrowser/src/websocket.c' l='612' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='1155' u='r' c='vws_cnx_ingress'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='31' type='100'/>
-<doc f='codebrowser/src/vws.h' l='31'>/**&lt; Memory failure */</doc>
+<dec f='codebrowser/src/vws.h' l='33' type='256'/>
+<doc f='codebrowser/src/vws.h' l='33'>/**&lt; Memory failure */</doc>
 <use f='codebrowser/src/vws.c' l='247' c='vws_malloc_error'/>
 <use f='codebrowser/src/vws.c' l='274' c='vws_calloc_error'/>
 <use f='codebrowser/src/vws.c' l='296' c='vws_realloc_error'/>

@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/mpack/mpack-reader.h' l='465' type='mpack_tag_t mpack_read_tag(mpack_reader_t * reader)'/>
-<use f='codebrowser/src/message.c' l='476' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='501' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='519' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='550' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='533' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='558' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='576' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='607' u='c' c='msg_parse_content'/>
 <doc f='codebrowser/src/mpack/mpack-reader.h' l='443'>/**
  * Reads a MessagePack object header (an MPack tag.)
  *

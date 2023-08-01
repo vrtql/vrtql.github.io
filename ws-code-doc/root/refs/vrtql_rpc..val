@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/rpc.h' l='53' type='vws_buffer *'/>
+<use f='codebrowser/src/rpc.c' l='66' u='r' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='82' u='r' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='246' u='w' c='vrtql_rpc_new'/>
+<use f='codebrowser/src/rpc.c' l='255' u='r' c='vrtql_rpc_free'/>
+<offset>256</offset>
+<doc f='codebrowser/src/rpc.h' l='52'>/**&lt; Data from last response */</doc>

@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='157' type='void vrtql_msg_clear_content(vrtql_msg * msg)'/>
-<def f='codebrowser/src/message.c' l='405' ll='408' type='void vrtql_msg_clear_content(vrtql_msg * msg)'/>
-<doc f='codebrowser/src/message.h' l='151'>/**
+<dec f='codebrowser/src/message.h' l='165' type='void vrtql_msg_clear_content(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='462' ll='465' type='void vrtql_msg_clear_content(vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='159'>/**
  * @brief Clears the content of the message.
  * @param msg The vrtql_msg instance.
  *

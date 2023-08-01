@@ -1,0 +1,4 @@
+<def f='codebrowser/src/rpc.h' l='141' ll='146'/>
+<use f='codebrowser/src/rpc.h' l='141'/>
+<size>32</size>
+<mbr r='vrtql_rpc_system::modules' o='0' t='vrtql_rpc_map'/>

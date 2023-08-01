@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/server.h' l='227' type='vws_svr_cnx_map'/>
-<use f='codebrowser/src/server.c' l='959' u='a' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1032' u='a' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1033' u='a' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1252' u='a' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1273' u='a' c='svr_on_read'/>
-<use f='codebrowser/src/server.c' l='1291' u='a' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='961' u='a' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1034' u='a' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1035' u='a' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1254' u='a' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1275' u='a' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1293' u='a' c='svr_on_close'/>
 <offset>2368</offset>
 <doc f='codebrowser/src/server.h' l='226'>/**&lt; Map of active connections */</doc>

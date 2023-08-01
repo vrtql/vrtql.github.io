@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/server.h' l='218' type='int'/>
-<use f='codebrowser/src/server.c' l='854' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='953' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='856' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='955' u='w' c='tcp_svr_ctor'/>
 <offset>2240</offset>
 <doc f='codebrowser/src/server.h' l='217'>/**&lt; Maximum connections allowed */</doc>

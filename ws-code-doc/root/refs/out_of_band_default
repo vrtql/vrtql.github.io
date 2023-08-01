@@ -1,0 +1,2 @@
+<def f='codebrowser/src/rpc.c' l='226' ll='232' type='void out_of_band_default(vrtql_rpc * rpc, vrtql_msg * m)'/>
+<use f='codebrowser/src/rpc.c' l='243' u='r' c='vrtql_rpc_new'/>

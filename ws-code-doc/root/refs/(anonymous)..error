@@ -1,27 +1,28 @@
-<dec f='codebrowser/src/vws.h' l='229' type='vws_error_submit_cb'/>
+<dec f='codebrowser/src/vws.h' l='231' type='vws_error_submit_cb'/>
 <offset>448</offset>
-<doc f='codebrowser/src/vws.h' l='229'>/**&lt; Error submission function   */</doc>
+<doc f='codebrowser/src/vws.h' l='231'>/**&lt; Error submission function   */</doc>
 <use f='codebrowser/src/message.c' l='134' u='r' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='240' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='283' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='301' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='329' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='348' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='360' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/rpc.c' l='54' u='r' c='vws_rpc_module_new'/>
-<use f='codebrowser/src/rpc.c' l='182' u='r' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='193' u='r' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='205' u='r' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='219' u='r' c='vws_rpc'/>
-<use f='codebrowser/src/server.c' l='848' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='858' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='1078' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1215' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1223' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1231' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1239' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1254' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1565' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/message.c' l='244' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='287' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='305' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='333' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='352' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='364' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/rpc.c' l='91' u='r' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='306' u='r' c='vrtql_rpc_module_new'/>
+<use f='codebrowser/src/rpc.c' l='434' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='445' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='457' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='471' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/server.c' l='850' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='860' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='1080' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1217' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1225' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1233' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1241' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1256' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1567' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='142' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='158' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='166' u='r' c='socket_set_timeout'/>
@@ -54,12 +55,12 @@
 <use f='codebrowser/src/socket.c' l='864' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='875' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='884' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_common.c' l='37' u='r' c='ctest_test_error_callbacks_run'/>
-<use f='codebrowser/src/test/test_common.c' l='141' u='r' c='ctest_test_error_run'/>
+<use f='codebrowser/src/test/test_common.c' l='40' u='r' c='ctest_test_error_callbacks_run'/>
+<use f='codebrowser/src/test/test_common.c' l='144' u='r' c='ctest_test_error_run'/>
 <use f='codebrowser/src/vws.c' l='247' u='r' c='vws_malloc_error'/>
 <use f='codebrowser/src/vws.c' l='274' u='r' c='vws_calloc_error'/>
 <use f='codebrowser/src/vws.c' l='296' u='r' c='vws_realloc_error'/>
-<use f='codebrowser/src/vws.c' l='455' u='w'/>
+<use f='codebrowser/src/vws.c' l='453' u='w'/>
 <use f='codebrowser/src/websocket.c' l='276' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='356' u='r' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='389' u='r' c='vws_cnx_is_connected'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/rpc.h' l='44' type='uint8_t'/>
+<use f='codebrowser/src/rpc.c' l='161' u='r' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='242' u='w' c='vrtql_rpc_new'/>
+<offset>64</offset>
+<doc f='codebrowser/src/rpc.h' l='43'>/**&lt; The number of retries of timeout occurs (default 5) */</doc>

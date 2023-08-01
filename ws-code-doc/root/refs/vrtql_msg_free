@@ -1,30 +1,35 @@
 <dec f='codebrowser/src/message.h' l='54' type='void vrtql_msg_free(vrtql_msg * msg)'/>
 <def f='codebrowser/src/message.c' l='53' ll='71' type='void vrtql_msg_free(vrtql_msg * msg)'/>
-<use f='codebrowser/src/message.c' l='458' u='c' c='vrtql_msg_recv'/>
+<use f='codebrowser/src/message.c' l='515' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/message.h' l='48'>/**
  * @brief Frees a vrtql_msg instance.
  * @param msg The vrtql_msg instance to be freed.
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/rpc.c' l='184' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='195' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='207' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='221' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/rpc.c' l='235' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/server.c' l='1801' u='c' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1842' u='c' c='msg_svr_client_msg_out'/>
-<use f='codebrowser/src/server.c' l='1849' u='c' c='msg_svr_client_process'/>
+<use f='codebrowser/src/rpc.c' l='99' u='c' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='100' u='c' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='230' u='c' c='out_of_band_default'/>
+<use f='codebrowser/src/rpc.c' l='436' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='447' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='459' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='473' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='487' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/server.c' l='1803' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1844' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1851' u='c' c='msg_svr_client_process'/>
 <use f='codebrowser/src/test/test_example.c' l='32' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='47' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='51' u='c' c='main'/>
-<use f='codebrowser/src/test/test_message.c' l='42' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='43' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='82' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='83' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='34' u='c' c='process_message'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='95' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='100' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_rpc.c' l='72' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='90' u='c' c='ctest_test_message_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='91' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_message.c' l='45' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='46' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='85' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='86' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='36' u='c' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='97' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='102' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='53' u='c' c='ctest_test_basic_run'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='54' u='c' c='ctest_test_basic_run'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='75' u='c' c='ctest_test_rpc_server_side_service_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='93' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='94' u='c' c='ctest_test_message_run'/>

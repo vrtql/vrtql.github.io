@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='64' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
-<def f='codebrowser/src/message.c' l='375' ll='378' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
-<doc f='codebrowser/src/message.h' l='56'>/**
+<dec f='codebrowser/src/message.h' l='72' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
+<def f='codebrowser/src/message.c' l='432' ll='435' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
+<doc f='codebrowser/src/message.h' l='64'>/**
  * @brief Gets a header value by key.
  * @param msg The vrtql_msg instance.
  * @param key The header key.
@@ -8,5 +8,7 @@
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/rpc.c' l='178' u='c' c='vws_rpc'/>
-<use f='codebrowser/src/test/test_rpc.c' l='68' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/rpc.c' l='86' u='c' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='87' u='c' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='430' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='71' u='c' c='ctest_test_rpc_server_side_service_run'/>

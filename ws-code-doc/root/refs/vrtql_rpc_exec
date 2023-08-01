@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/rpc.h' l='87' type='vrtql_msg * vrtql_rpc_exec(vrtql_rpc * rpc, vrtql_msg * req)'/>
+<use f='codebrowser/src/rpc.c' l='69' u='c' c='vrtql_rpc_invoke'/>
+<def f='codebrowser/src/rpc.c' l='105' ll='224' type='vrtql_msg * vrtql_rpc_exec(vrtql_rpc * rpc, vrtql_msg * req)'/>
+<doc f='codebrowser/src/rpc.h' l='75'>/**
+ * @brief Low-level RPC call invocation. This takes a message as input, sends
+ * and waits for a response.
+ *
+ * @param rpc The RPC instance
+ * @param req The message to send
+ * @return The response message on success, NULL otherwise. The caller must free
+ *         message with vrtql_msg_free(). If connection fails, error will have
+ *         VE_SOCKET along with either VE_SEND if failure was on send or VE_RECV
+ *         if failure was on receive. Caller can check by using
+ *         vws_is_flag(&amp;vws.e, VE_SEND) or vws_is_flag(&amp;vws.e, VE_RECV).
+ */</doc>
+<use f='codebrowser/src/test/test_rpc_client.c' l='49' u='c' c='ctest_test_basic_run'/>

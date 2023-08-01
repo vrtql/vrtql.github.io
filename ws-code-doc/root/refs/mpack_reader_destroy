@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/mpack/mpack-reader.h' l='274' type='mpack_error_t mpack_reader_destroy(mpack_reader_t * reader)'/>
-<use f='codebrowser/src/message.c' l='276' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='280' u='c' c='vrtql_msg_deserialize'/>
 <doc f='codebrowser/src/mpack/mpack-reader.h' l='260'>/**
  * Cleans up the MPack reader, ensuring that all compound elements
  * have been completely read. Returns the final error state of the

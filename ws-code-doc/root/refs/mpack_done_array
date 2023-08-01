@@ -1,4 +1,4 @@
 <def f='codebrowser/src/mpack/mpack-reader.h' l='761' ll='763' macro='1' type='void mpack_done_array(mpack_reader_t * reader)'/>
-<use f='codebrowser/src/message.c' l='272' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='276' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='473' u='c' c='mpack_expect_array_alloc_impl'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='1016' u='c' c='mpack_discard'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/rpc.h' l='200' type='void vrtql_rpc_system_set(vrtql_rpc_system * s, vrtql_rpc_module * m)'/>
+<def f='codebrowser/src/rpc.c' l='382' ll='385' type='void vrtql_rpc_system_set(vrtql_rpc_system * s, vrtql_rpc_module * m)'/>
+<doc f='codebrowser/src/rpc.h' l='194'>/**
+ * @brief Adds a module to a system.
+ *
+ * @param s The RPC system
+ * @param m The RPC module
+ */</doc>
+<use f='codebrowser/src/test/test_rpc_server.c' l='59' u='c' c='ctest_test_rpc_server_side_service_run'/>

@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/vws.h' l='469' type='char * vws_generate_uuid()'/>
-<doc f='codebrowser/src/vws.h' l='464'>/**
+<dec f='codebrowser/src/vws.h' l='471' type='char * vws_generate_uuid()'/>
+<doc f='codebrowser/src/vws.h' l='466'>/**
  * @brief Generates a UUID.
  *
  * @return Returns a UUID string
  */</doc>
-<def f='codebrowser/src/vws.c' l='644' ll='679' type='char * vws_generate_uuid()'/>
-<doc f='codebrowser/src/vws.c' l='640'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/vws.c' l='642' ll='677' type='char * vws_generate_uuid()'/>
+<doc f='codebrowser/src/vws.c' l='638'>//------------------------------------------------------------------------------
 // UUID
 //------------------------------------------------------------------------------</doc>

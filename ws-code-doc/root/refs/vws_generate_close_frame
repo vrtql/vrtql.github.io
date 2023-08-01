@@ -6,7 +6,7 @@
  *
  * @ingroup FrameFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1429' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1431' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/websocket.c' l='550' u='c' c='vws_disconnect'/>
 <use f='codebrowser/src/websocket.c' l='994' u='c' c='process_frame'/>
 <def f='codebrowser/src/websocket.c' l='1199' ll='1211' type='vws_buffer * vws_generate_close_frame()'/>

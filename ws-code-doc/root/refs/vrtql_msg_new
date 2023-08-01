@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/message.h' l='46' type='vrtql_msg * vrtql_msg_new()'/>
 <def f='codebrowser/src/message.c' l='38' ll='51' type='vrtql_msg * vrtql_msg_new()'/>
-<use f='codebrowser/src/message.c' l='451' u='c' c='vrtql_msg_recv'/>
+<use f='codebrowser/src/message.c' l='508' u='c' c='vrtql_msg_recv'/>
 <doc f='codebrowser/src/message.c' l='34'>//------------------------------------------------------------------------------
 // API functions
 //------------------------------------------------------------------------------</doc>
@@ -10,16 +10,17 @@
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1791' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1793' u='c' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_example.c' l='22' u='c' c='main'/>
-<use f='codebrowser/src/test/test_message.c' l='9' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='10' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='48' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='49' u='c' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='22' u='c' c='process_message'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='66' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_rpc.c' l='8' u='c' c='session_login'/>
-<use f='codebrowser/src/test/test_rpc.c' l='17' u='c' c='session_logout'/>
-<use f='codebrowser/src/test/test_rpc.c' l='26' u='c' c='session_info'/>
-<use f='codebrowser/src/test/test_rpc.c' l='60' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_websocket.c' l='74' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_message.c' l='12' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='13' u='c' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='51' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='52' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='24' u='c' c='process_message'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='68' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_rpc_client.c' l='38' u='c' c='ctest_test_basic_run'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='11' u='c' c='session_login'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='20' u='c' c='session_logout'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='29' u='c' c='session_info'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='63' u='c' c='ctest_test_rpc_server_side_service_run'/>
+<use f='codebrowser/src/test/test_websocket.c' l='77' u='c' c='ctest_test_message_run'/>

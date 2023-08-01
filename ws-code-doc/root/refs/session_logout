@@ -1,4 +1,4 @@
-<def f='codebrowser/src/test/test_rpc.c' l='15' ll='21' type='vrtql_msg * session_logout(vws_rpc_env * e, vrtql_msg * m)'/>
-<use f='codebrowser/src/test/test_rpc.c' l='37' u='r' c='ctest_test_rpc_module_run'/>
-<use f='codebrowser/src/test/test_rpc.c' l='52' u='r' c='ctest_test_rpc_call_run'/>
-<doc f='codebrowser/src/test/test_rpc.c' l='14'>// RPC Call: session.logout</doc>
+<def f='codebrowser/src/test/test_rpc_server.c' l='18' ll='24' type='vrtql_msg * session_logout(vrtql_rpc_env * e, vrtql_msg * m)'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='40' u='r' c='ctest_test_rpc_server_side_module_run'/>
+<use f='codebrowser/src/test/test_rpc_server.c' l='55' u='r' c='ctest_test_rpc_server_side_service_run'/>
+<doc f='codebrowser/src/test/test_rpc_server.c' l='17'>// RPC Call: session.logout</doc>

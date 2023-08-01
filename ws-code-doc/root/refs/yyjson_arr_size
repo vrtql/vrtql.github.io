@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/util/yyjson.h' l='1695' type='size_t yyjson_arr_size(yyjson_val * arr)'/>
 <def f='codebrowser/src/util/yyjson.h' l='4953' ll='4955' macro='1' type='size_t yyjson_arr_size(yyjson_val * arr)'/>
-<use f='codebrowser/src/message.c' l='299' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/test/test_json.c' l='52' macro='1' u='c' c='ctest_test_read_run'/>
+<use f='codebrowser/src/message.c' l='303' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/test/test_json.c' l='54' macro='1' u='c' c='ctest_test_read_run'/>

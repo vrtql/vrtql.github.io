@@ -1,5 +1,7 @@
 <dec f='include/stdlib.h' l='104' type='int atoi(const char * __nptr)'/>
 <doc f='include/stdlib.h' l='103'>/* Convert a string to an integer.  */</doc>
+<use f='codebrowser/src/rpc.c' l='91' u='c' c='vrtql_rpc_invoke'/>
+<use f='codebrowser/src/rpc.c' l='95' u='c' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='915' u='c' c='mg_http_status'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='64' u='c' c='mg_url_port'/>
 <use f='codebrowser/src/websocket.c' l='290' u='c' c='cnx_connect'/>
