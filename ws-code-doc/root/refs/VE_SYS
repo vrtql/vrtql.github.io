@@ -20,4 +20,4 @@
 <use f='codebrowser/src/vws.c' l='161' u='r' c='vws_trace'/>
 <use f='codebrowser/src/vws.c' l='185' u='r' c='vws_trace'/>
 <use f='codebrowser/src/vws.c' l='384' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='522' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='523' c='socket_handshake'/>

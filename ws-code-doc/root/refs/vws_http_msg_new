@@ -8,4 +8,4 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1166' u='c' c='svr_cnx_new'/>
 <use f='codebrowser/src/test/test_http_request.c' l='16' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/websocket.c' l='453' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='454' u='c' c='socket_handshake'/>

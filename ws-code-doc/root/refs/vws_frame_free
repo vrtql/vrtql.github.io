@@ -11,13 +11,13 @@
 <use f='codebrowser/src/server.c' l='1472' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/server.c' l='1481' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/server.c' l='1489' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='326' u='c' c='vws_cnx_free'/>
-<def f='codebrowser/src/websocket.c' l='719' ll='733' type='void vws_frame_free(vws_frame * f)'/>
-<use f='codebrowser/src/websocket.c' l='867' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='1001' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1026' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1035' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='327' u='c' c='vws_cnx_free'/>
+<def f='codebrowser/src/websocket.c' l='727' ll='741' type='void vws_frame_free(vws_frame * f)'/>
+<use f='codebrowser/src/websocket.c' l='875' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='1009' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1034' u='c' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='1043' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1051' u='c' c='process_frame'/>
 <use f='codebrowser/src/websocket.c' l='1179' u='c' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1253' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1187' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1261' u='c' c='vws_msg_pop'/>

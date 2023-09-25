@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='398' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
-<doc f='codebrowser/src/websocket.h' l='388'>/**
+<dec f='codebrowser/src/websocket.h' l='409' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
+<doc f='codebrowser/src/websocket.h' l='399'>/**
  * @brief Sends a prebuilt websocket frame. This function will take ownership of
  * the frame and deallocate it for the caller.
  *
@@ -10,6 +10,6 @@
  *         error, check vws.e for details, especially for VE_SOCKET.
  */</doc>
 <use f='codebrowser/src/test/test_websocket.c' l='68' u='c' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='585' u='c' c='vws_frame_send_data'/>
-<use f='codebrowser/src/websocket.c' l='600' u='c' c='vws_msg_send_data'/>
-<def f='codebrowser/src/websocket.c' l='603' ll='641' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
+<use f='codebrowser/src/websocket.c' l='593' u='c' c='vws_frame_send_data'/>
+<use f='codebrowser/src/websocket.c' l='608' u='c' c='vws_msg_send_data'/>
+<def f='codebrowser/src/websocket.c' l='611' ll='649' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>

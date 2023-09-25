@@ -26,4 +26,4 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='30' u='c' c='process_message'/>
 <use f='codebrowser/src/vws.c' l='520' u='c' c='vws_buffer_printf'/>
 <def f='codebrowser/src/vws.c' l='527' ll='555' type='void vws_buffer_append(vws_buffer * buffer, ucstr data, size_t size)'/>
-<use f='codebrowser/src/websocket.c' l='1247' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1255' u='c' c='vws_msg_pop'/>

@@ -42,5 +42,5 @@
 <use f='codebrowser/src/vws.c' l='613' c='vws_map_remove'/>
 <use f='codebrowser/src/vws.c' l='626' c='vws_map_clear'/>
 <size>32</size>
-<use f='codebrowser/src/websocket.c' l='517' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='518' c='socket_handshake'/>
 <size>32</size>

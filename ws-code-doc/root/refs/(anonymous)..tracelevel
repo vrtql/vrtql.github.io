@@ -33,5 +33,5 @@
 <use f='codebrowser/src/test/test_websocket.c' l='45' u='w' c='ctest_test_setup'/>
 <use f='codebrowser/src/vws.c' l='362' u='r' c='vws_error_default_process'/>
 <use f='codebrowser/src/vws.c' l='459' u='w'/>
-<use f='codebrowser/src/websocket.c' l='612' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1155' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='620' u='r' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1163' u='r' c='vws_cnx_ingress'/>

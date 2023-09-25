@@ -7,4 +7,4 @@
 <use f='codebrowser/src/socket.c' l='830' c='vws_socket_close'/>
 <use f='codebrowser/src/vws.c' l='133' u='r' c='vws_trace'/>
 <use f='codebrowser/src/vws.c' l='366' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='1170' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1178' c='vws_cnx_ingress'/>

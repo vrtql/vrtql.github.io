@@ -2,4 +2,4 @@
 <offset>128</offset>
 <use f='codebrowser/src/websocket.c' l='274' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='290' u='r' c='cnx_connect'/>
-<use f='codebrowser/src/websocket.c' l='413' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='414' u='r' c='socket_handshake'/>

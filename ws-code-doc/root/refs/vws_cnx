@@ -1,8 +1,9 @@
 <use f='codebrowser/src/websocket.h' l='201'/>
-<def f='codebrowser/src/websocket.h' l='228' ll='251'/>
-<use f='codebrowser/src/websocket.h' l='228'/>
-<size>136</size>
-<doc f='codebrowser/src/websocket.h' l='225'>/**
+<use f='codebrowser/src/websocket.h' l='231'/>
+<def f='codebrowser/src/websocket.h' l='236' ll='262'/>
+<use f='codebrowser/src/websocket.h' l='236'/>
+<size>144</size>
+<doc f='codebrowser/src/websocket.h' l='233'>/**
  * @brief A WebSocket connection.
  */</doc>
 <mbr r='vws_cnx::base' o='0' t='struct vws_socket'/>
@@ -11,4 +12,5 @@
 <mbr r='vws_cnx::key' o='576' t='char *'/>
 <mbr r='vws_cnx::queue' o='640' t='struct sc_queue_ptr'/>
 <mbr r='vws_cnx::process' o='960' t='vws_process_frame'/>
-<mbr r='vws_cnx::data' o='1024' t='char *'/>
+<mbr r='vws_cnx::disconnect' o='1024' t='vws_cns_disconnect'/>
+<mbr r='vws_cnx::data' o='1088' t='char *'/>

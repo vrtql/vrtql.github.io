@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/websocket.h' l='42' type='1'/>
 <doc f='codebrowser/src/websocket.h' l='41'>/** A text data frame. */</doc>
 <use f='codebrowser/src/server.c' l='1448' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1006' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1153' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1014' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1161' u='r' c='vws_cnx_ingress'/>

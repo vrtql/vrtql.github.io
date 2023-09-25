@@ -21,5 +21,5 @@
 <doc f='codebrowser/src/vws.c' l='463'>//------------------------------------------------------------------------------
 // Buffer
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='651' u='c' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='870' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='659' u='c' c='vws_msg_new'/>
+<use f='codebrowser/src/websocket.c' l='878' u='c' c='vws_serialize'/>

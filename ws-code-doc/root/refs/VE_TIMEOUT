@@ -5,5 +5,5 @@
 <use f='codebrowser/src/socket.c' l='517' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='570' c='vws_socket_read'/>
 <use f='codebrowser/src/vws.c' l='372' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='440' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='476' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='441' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='477' u='r' c='socket_handshake'/>

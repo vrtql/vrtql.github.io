@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/rpc.h' l='169' type='void vrtql_rpc_module_set(vrtql_rpc_module * m, cstr n, vrtql_rpc_call c)'/>
+<dec f='codebrowser/src/rpc.h' l='168' type='void vrtql_rpc_module_set(vrtql_rpc_module * m, cstr n, vrtql_rpc_call c)'/>
 <def f='codebrowser/src/rpc.c' l='336' ll='339' type='void vrtql_rpc_module_set(vrtql_rpc_module * m, cstr n, vrtql_rpc_call c)'/>
-<doc f='codebrowser/src/rpc.h' l='162'>/**
+<doc f='codebrowser/src/rpc.h' l='161'>/**
  * @brief Adds an RPC to module.
  *
  * @param m The RPC module

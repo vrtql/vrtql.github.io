@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='419' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
-<doc f='codebrowser/src/websocket.h' l='410'>/**
+<dec f='codebrowser/src/websocket.h' l='430' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
+<doc f='codebrowser/src/websocket.h' l='421'>/**
  * @brief Sends a BINARY message
  *
  * @param c The connection.
@@ -8,4 +8,4 @@
  * @return Returns the number of bytes sent or -1 on error. In the case of
  *         error, check vws.e for details, especially for VE_SOCKET.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='593' ll='596' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>
+<def f='codebrowser/src/websocket.c' l='601' ll='604' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr data, size_t size)'/>

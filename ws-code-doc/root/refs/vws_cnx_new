@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='302' type='vws_cnx * vws_cnx_new()'/>
-<doc f='codebrowser/src/websocket.h' l='295'>/**
+<dec f='codebrowser/src/websocket.h' l='313' type='vws_cnx * vws_cnx_new()'/>
+<doc f='codebrowser/src/websocket.h' l='306'>/**
  * @brief Allocates a new websocket connection.
  *
  * @return A pointer to the new connection instance.
@@ -11,4 +11,4 @@
 <use f='codebrowser/src/test/test_msg_server.c' l='50' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='19' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='40' u='c' c='ctest_test_setup'/>
-<def f='codebrowser/src/websocket.c' l='293' ll='311' type='vws_cnx * vws_cnx_new()'/>
+<def f='codebrowser/src/websocket.c' l='293' ll='312' type='vws_cnx * vws_cnx_new()'/>

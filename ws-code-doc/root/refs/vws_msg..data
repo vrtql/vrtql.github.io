@@ -12,6 +12,6 @@
 <use f='codebrowser/src/test/test_websocket.c' l='28' u='r' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='28' u='r' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='28' u='r' c='ctest_test_send_frame_run'/>
-<use f='codebrowser/src/websocket.c' l='651' u='w' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='660' u='r' c='vws_msg_free'/>
-<use f='codebrowser/src/websocket.c' l='1247' u='r' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='659' u='w' c='vws_msg_new'/>
+<use f='codebrowser/src/websocket.c' l='668' u='r' c='vws_msg_free'/>
+<use f='codebrowser/src/websocket.c' l='1255' u='r' c='vws_msg_pop'/>

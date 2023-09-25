@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='408' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr string)'/>
-<doc f='codebrowser/src/websocket.h' l='400'>/**
+<dec f='codebrowser/src/websocket.h' l='419' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr string)'/>
+<doc f='codebrowser/src/websocket.h' l='411'>/**
  * @brief Sends a TEXT message
  *
  * @param c The connection.
@@ -7,4 +7,4 @@
  * @return Returns the number of bytes sent or -1 on error. In the case of
  *         error, check vws.e for details, especially for VE_SOCKET.
  */</doc>
-<def f='codebrowser/src/websocket.c' l='588' ll='591' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr data)'/>
+<def f='codebrowser/src/websocket.c' l='596' ll='599' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr data)'/>

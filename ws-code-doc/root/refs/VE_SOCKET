@@ -10,4 +10,4 @@
 <use f='codebrowser/src/socket.c' l='645' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='739' c='vws_socket_write'/>
 <use f='codebrowser/src/vws.c' l='378' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='389' c='vws_cnx_is_connected'/>
+<use f='codebrowser/src/websocket.c' l='390' c='vws_cnx_is_connected'/>

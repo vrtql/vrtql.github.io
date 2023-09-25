@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/rpc.h' l='104' type='_Bool vrtql_rpc_invoke(vrtql_rpc * rpc, vrtql_msg * req)'/>
+<dec f='codebrowser/src/rpc.h' l='103' type='_Bool vrtql_rpc_invoke(vrtql_rpc * rpc, vrtql_msg * req)'/>
 <def f='codebrowser/src/rpc.c' l='63' ll='103' macro='1' type='_Bool vrtql_rpc_invoke(vrtql_rpc * rpc, vrtql_msg * req)'/>

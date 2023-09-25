@@ -16,4 +16,4 @@
 <doc f='codebrowser/src/vws.c' l='577'>//------------------------------------------------------------------------------
 // Map
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='518' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='519' u='c' c='socket_handshake'/>

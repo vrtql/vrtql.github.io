@@ -1,3 +1,3 @@
 <def f='codebrowser/src/websocket.c' l='272' ll='291' macro='1' type='_Bool cnx_connect(vws_cnx * c)'/>
-<use f='codebrowser/src/websocket.c' l='367' u='c' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='379' u='c' c='vws_reconnect'/>
+<use f='codebrowser/src/websocket.c' l='368' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='380' u='c' c='vws_reconnect'/>

@@ -8,5 +8,5 @@
 <use f='codebrowser/src/server.c' l='1578' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_common.c' l='95' u='c' c='ctest_test_buffer_run'/>
 <def f='codebrowser/src/vws.c' l='557' ll='575' type='void vws_buffer_drain(vws_buffer * buffer, size_t size)'/>
-<use f='codebrowser/src/websocket.c' l='510' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='1191' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='511' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1199' u='c' c='vws_cnx_ingress'/>

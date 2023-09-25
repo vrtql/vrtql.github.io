@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/rpc.h' l='192' type='void vrtql_rpc_system_free(vrtql_rpc_system * s)'/>
+<dec f='codebrowser/src/rpc.h' l='191' type='void vrtql_rpc_system_free(vrtql_rpc_system * s)'/>
 <def f='codebrowser/src/rpc.c' l='359' ll='380' type='void vrtql_rpc_system_free(vrtql_rpc_system * s)'/>
-<doc f='codebrowser/src/rpc.h' l='187'>/**
+<doc f='codebrowser/src/rpc.h' l='186'>/**
  * @brief Frees the resources allocated to a RPC system
  *
  * @param s The RPC system

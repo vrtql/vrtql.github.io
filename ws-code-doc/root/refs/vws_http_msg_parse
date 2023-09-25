@@ -9,4 +9,4 @@
  */</doc>
 <use f='codebrowser/src/server.c' l='1556' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_http_request.c' l='18' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/websocket.c' l='505' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='506' u='c' c='socket_handshake'/>

@@ -15,6 +15,6 @@
 <def f='codebrowser/src/vws.c' l='478' ll='491' type='void vws_buffer_clear(vws_buffer * buffer)'/>
 <use f='codebrowser/src/vws.c' l='497' u='c' c='vws_buffer_free'/>
 <use f='codebrowser/src/vws.c' l='567' u='c' c='vws_buffer_drain'/>
-<use f='codebrowser/src/websocket.c' l='464' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='480' u='c' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='493' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='465' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='481' u='c' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='494' u='c' c='socket_handshake'/>

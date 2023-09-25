@@ -14,4 +14,4 @@
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sll'/>
 <use f='codebrowser/src/websocket.c' l='281' u='c' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='285' u='c' c='cnx_connect'/>
-<use f='codebrowser/src/websocket.c' l='1098' u='c' c='verify_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1106' u='c' c='verify_handshake'/>

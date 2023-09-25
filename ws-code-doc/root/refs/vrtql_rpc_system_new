@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/rpc.h' l='185' type='vrtql_rpc_system * vrtql_rpc_system_new()'/>
+<dec f='codebrowser/src/rpc.h' l='184' type='vrtql_rpc_system * vrtql_rpc_system_new()'/>
 <def f='codebrowser/src/rpc.c' l='350' ll='357' type='vrtql_rpc_system * vrtql_rpc_system_new()'/>
 <doc f='codebrowser/src/rpc.c' l='346'>//------------------------------------------------------------------------------
 // RPC System
 //------------------------------------------------------------------------------</doc>
-<doc f='codebrowser/src/rpc.h' l='180'>/**
+<doc f='codebrowser/src/rpc.h' l='179'>/**
  * @brief Creates a new RPC system.
  *
  * @return A new RPC system.

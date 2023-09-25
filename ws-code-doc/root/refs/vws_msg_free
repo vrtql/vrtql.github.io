@@ -13,4 +13,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='29' u='c' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='29' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='29' u='c' c='ctest_test_send_frame_run'/>
-<def f='codebrowser/src/websocket.c' l='656' ll='663' type='void vws_msg_free(vws_msg * m)'/>
+<def f='codebrowser/src/websocket.c' l='664' ll='671' type='void vws_msg_free(vws_msg * m)'/>

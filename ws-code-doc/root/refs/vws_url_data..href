@@ -1,3 +1,3 @@
 <dec f='codebrowser/src/websocket.h' l='205' type='char *'/>
 <offset>0</offset>
-<use f='codebrowser/src/websocket.c' l='413' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='414' u='r' c='socket_handshake'/>

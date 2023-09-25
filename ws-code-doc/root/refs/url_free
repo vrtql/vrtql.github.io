@@ -5,5 +5,5 @@
 <use f='codebrowser/src/url.c' l='155' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='166' u='c' c='url_parse'/>
 <def f='codebrowser/src/url.c' l='426' ll='440' type='void url_free(url_data_t * data)'/>
-<use f='codebrowser/src/websocket.c' l='335' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='362' u='c' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='336' u='c' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='363' u='c' c='vws_connect'/>

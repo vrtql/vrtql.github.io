@@ -20,5 +20,5 @@
 <use f='codebrowser/src/rpc.c' l='115' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='213' u='c' c='vrtql_rpc_exec'/>
 <def f='codebrowser/src/vws.c' l='83' ll='107' type='void vws_trace_lock()'/>
-<use f='codebrowser/src/websocket.c' l='614' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1157' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='622' u='c' c='vws_frame_send'/>
+<use f='codebrowser/src/websocket.c' l='1165' u='c' c='vws_cnx_ingress'/>

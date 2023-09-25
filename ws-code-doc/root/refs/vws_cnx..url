@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='237' type='vws_url_data *'/>
+<dec f='codebrowser/src/websocket.h' l='245' type='vws_url_data *'/>
 <offset>512</offset>
-<doc f='codebrowser/src/websocket.h' l='236'>/**&lt; The URL of the websocket server. */</doc>
+<doc f='codebrowser/src/websocket.h' l='244'>/**&lt; The URL of the websocket server. */</doc>
 <use f='codebrowser/src/websocket.c' l='274' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='281' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='282' u='r' c='cnx_connect'/>
@@ -8,13 +8,13 @@
 <use f='codebrowser/src/websocket.c' l='285' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='290' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='303' u='w' c='vws_cnx_new'/>
-<use f='codebrowser/src/websocket.c' l='333' u='r' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='335' u='r' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='336' u='w' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='360' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='362' u='r' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='365' u='w' c='vws_connect'/>
-<use f='codebrowser/src/websocket.c' l='377' u='r' c='vws_reconnect'/>
-<use f='codebrowser/src/websocket.c' l='413' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='413' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='413' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='334' u='r' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='336' u='r' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='337' u='w' c='vws_cnx_free'/>
+<use f='codebrowser/src/websocket.c' l='361' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='363' u='r' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='366' u='w' c='vws_connect'/>
+<use f='codebrowser/src/websocket.c' l='378' u='r' c='vws_reconnect'/>
+<use f='codebrowser/src/websocket.c' l='414' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='414' u='r' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='414' u='r' c='socket_handshake'/>

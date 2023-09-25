@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='262' type='cstr vws_accept_key(cstr key)'/>
-<doc f='codebrowser/src/websocket.h' l='253'>/**
+<dec f='codebrowser/src/websocket.h' l='273' type='cstr vws_accept_key(cstr key)'/>
+<doc f='codebrowser/src/websocket.h' l='264'>/**
  * @brief Generates a WebSocket accept key from input.
  *
  * @param key The input key
@@ -9,5 +9,5 @@
  * @ingroup ConnectionFunctions
  */</doc>
 <use f='codebrowser/src/server.c' l='1592' u='c' c='ws_svr_client_read'/>
-<def f='codebrowser/src/websocket.c' l='1070' ll='1093' type='cstr vws_accept_key(cstr key)'/>
-<use f='codebrowser/src/websocket.c' l='1097' u='c' c='verify_handshake'/>
+<def f='codebrowser/src/websocket.c' l='1078' ll='1101' type='cstr vws_accept_key(cstr key)'/>
+<use f='codebrowser/src/websocket.c' l='1105' u='c' c='verify_handshake'/>

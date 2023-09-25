@@ -15,5 +15,5 @@
 <use f='codebrowser/src/vws.c' l='319' u='m' c='vws_set_error'/>
 <use f='codebrowser/src/vws.c' l='326' u='r' c='vws_get_error'/>
 <use f='codebrowser/src/vws.c' l='457' u='w'/>
-<use f='codebrowser/src/websocket.c' l='440' u='m' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='476' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='441' u='m' c='socket_handshake'/>
+<use f='codebrowser/src/websocket.c' l='477' u='m' c='socket_handshake'/>
