@@ -13,7 +13,7 @@
 <mbr r='addrinfo::ai_addr' o='192' t='struct sockaddr *'/>
 <mbr r='addrinfo::ai_canonname' o='256' t='char *'/>
 <mbr r='addrinfo::ai_next' o='320' t='struct addrinfo *'/>
-<use f='codebrowser/src/socket.c' l='847' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='847' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='847' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='837' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='837' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='837' c='connect_to_host'/>
 <size>48</size>

@@ -1,0 +1,14 @@
+<def f='codebrowser/src/llhttp/api.c' l='386' ll='390' type='int llhttp__on_version(llhttp_t * s, const char * p, const char * endp)'/>
+<dec f='codebrowser/src/llhttp/llhttp.c' l='573' type='int llhttp__on_version(llhttp__internal_t * s, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='3532' u='r' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='6472' u='r' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8792' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8809' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8890' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8907' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8932' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9753' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9770' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9851' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9868' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9893' u='c' c='llhttp__internal__run'/>

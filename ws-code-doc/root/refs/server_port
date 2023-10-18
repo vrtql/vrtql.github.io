@@ -1,3 +1,6 @@
+<def f='codebrowser/src/test/test_inetd_server.c' l='14' type='int'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='67' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='93' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_msg_server.c' l='9' type='int'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='45' u='r' c='server_thread'/>
 <def f='codebrowser/src/test/test_server.c' l='10' type='int'/>

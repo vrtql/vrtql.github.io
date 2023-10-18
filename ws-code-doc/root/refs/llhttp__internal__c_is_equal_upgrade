@@ -1,0 +1,2 @@
+<def f='codebrowser/src/llhttp/llhttp.c' l='700' ll='705' type='int llhttp__internal__c_is_equal_upgrade(llhttp__internal_t * state, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1217' u='c' c='llhttp__internal__run'/>

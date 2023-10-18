@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='114' type='8'/>
+<use f='codebrowser/src/llhttp/api.c' l='280' u='r' c='llhttp_set_lenient_transfer_encoding'/>
+<use f='codebrowser/src/llhttp/api.c' l='282' u='r' c='llhttp_set_lenient_transfer_encoding'/>
+<use f='codebrowser/src/llhttp/http.c' l='76' u='r' c='llhttp__after_headers_complete'/>

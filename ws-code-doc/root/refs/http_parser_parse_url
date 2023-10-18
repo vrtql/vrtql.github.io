@@ -1,3 +1,0 @@
-<dec f='codebrowser/src/http_parser.h' l='441' type='int http_parser_parse_url(const char * buf, size_t buflen, int is_connect, struct http_parser_url * u)'/>
-<doc f='codebrowser/src/http_parser.h' l='440'>/* Parse a URL; return nonzero on failure */</doc>
-<def f='codebrowser/src/http_parser.c' l='2527' ll='2648' type='int http_parser_parse_url(const char * buf, size_t buflen, int is_connect, struct http_parser_url * u)'/>

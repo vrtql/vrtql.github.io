@@ -1,0 +1,917 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>llhttp.h source code [codebrowser/src/llhttp/llhttp.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="llhttp__internal_s,llhttp_errno,llhttp_finish,llhttp_flags,llhttp_lenient_flags,llhttp_method,llhttp_settings_s,llhttp_status,llhttp_type "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/llhttp/llhttp.h'; var root_path = '../../..'; var data_path = '../../../../data'; var ecma_script_api_version = 2;</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>llhttp</a>/<a href='llhttp.h.html'>llhttp.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td></td></tr>
+<tr><th id="2">2</th><td><u>#<span data-ppcond="2">ifndef</span> <span class="macro" data-ref="_M/INCLUDE_LLHTTP_H_">INCLUDE_LLHTTP_H_</span></u></td></tr>
+<tr><th id="3">3</th><td><u>#define <dfn class="macro" id="_M/INCLUDE_LLHTTP_H_" data-ref="_M/INCLUDE_LLHTTP_H_">INCLUDE_LLHTTP_H_</dfn></u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#define <dfn class="macro" id="_M/LLHTTP_VERSION_MAJOR" data-ref="_M/LLHTTP_VERSION_MAJOR">LLHTTP_VERSION_MAJOR</dfn> 9</u></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/LLHTTP_VERSION_MINOR" data-ref="_M/LLHTTP_VERSION_MINOR">LLHTTP_VERSION_MINOR</dfn> 1</u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/LLHTTP_VERSION_PATCH" data-ref="_M/LLHTTP_VERSION_PATCH">LLHTTP_VERSION_PATCH</dfn> 3</u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifndef</span> <span class="macro" data-ref="_M/INCLUDE_LLHTTP_ITSELF_H_">INCLUDE_LLHTTP_ITSELF_H_</span></u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/INCLUDE_LLHTTP_ITSELF_H_" data-ref="_M/INCLUDE_LLHTTP_ITSELF_H_">INCLUDE_LLHTTP_ITSELF_H_</dfn></u></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="12">12</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#llhttp__internal_s" title='llhttp__internal_s' data-ref="llhttp__internal_s" data-ref-filename="llhttp__internal_s">llhttp__internal_s</a> <dfn class="typedef" id="llhttp__internal_t" title='llhttp__internal_t' data-type='struct llhttp__internal_s' data-ref="llhttp__internal_t" data-ref-filename="llhttp__internal_t">llhttp__internal_t</dfn>;</td></tr>
+<tr><th id="18">18</th><td><b>struct</b> <dfn class="type def" id="llhttp__internal_s" title='llhttp__internal_s' data-ref="llhttp__internal_s" data-ref-filename="llhttp__internal_s">llhttp__internal_s</dfn> {</td></tr>
+<tr><th id="19">19</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-intn.h.html#int32_t" title='int32_t' data-type='__int32_t' data-ref="int32_t" data-ref-filename="int32_t">int32_t</a> <dfn class="decl field" id="llhttp__internal_s::_index" title='llhttp__internal_s::_index' data-ref="llhttp__internal_s::_index" data-ref-filename="llhttp__internal_s.._index">_index</dfn>;</td></tr>
+<tr><th id="20">20</th><td>  <em>void</em>* <dfn class="decl field" id="llhttp__internal_s::_span_pos0" title='llhttp__internal_s::_span_pos0' data-ref="llhttp__internal_s::_span_pos0" data-ref-filename="llhttp__internal_s.._span_pos0">_span_pos0</dfn>;</td></tr>
+<tr><th id="21">21</th><td>  <em>void</em>* <dfn class="decl field" id="llhttp__internal_s::_span_cb0" title='llhttp__internal_s::_span_cb0' data-ref="llhttp__internal_s::_span_cb0" data-ref-filename="llhttp__internal_s.._span_cb0">_span_cb0</dfn>;</td></tr>
+<tr><th id="22">22</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-intn.h.html#int32_t" title='int32_t' data-type='__int32_t' data-ref="int32_t" data-ref-filename="int32_t">int32_t</a> <dfn class="decl field" id="llhttp__internal_s::error" title='llhttp__internal_s::error' data-ref="llhttp__internal_s::error" data-ref-filename="llhttp__internal_s..error">error</dfn>;</td></tr>
+<tr><th id="23">23</th><td>  <em>const</em> <em>char</em>* <dfn class="decl field" id="llhttp__internal_s::reason" title='llhttp__internal_s::reason' data-ref="llhttp__internal_s::reason" data-ref-filename="llhttp__internal_s..reason">reason</dfn>;</td></tr>
+<tr><th id="24">24</th><td>  <em>const</em> <em>char</em>* <dfn class="decl field" id="llhttp__internal_s::error_pos" title='llhttp__internal_s::error_pos' data-ref="llhttp__internal_s::error_pos" data-ref-filename="llhttp__internal_s..error_pos">error_pos</dfn>;</td></tr>
+<tr><th id="25">25</th><td>  <em>void</em>* <dfn class="decl field" id="llhttp__internal_s::data" title='llhttp__internal_s::data' data-ref="llhttp__internal_s::data" data-ref-filename="llhttp__internal_s..data">data</dfn>;</td></tr>
+<tr><th id="26">26</th><td>  <em>void</em>* <dfn class="decl field" id="llhttp__internal_s::_current" title='llhttp__internal_s::_current' data-ref="llhttp__internal_s::_current" data-ref-filename="llhttp__internal_s.._current">_current</dfn>;</td></tr>
+<tr><th id="27">27</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="llhttp__internal_s::content_length" title='llhttp__internal_s::content_length' data-ref="llhttp__internal_s::content_length" data-ref-filename="llhttp__internal_s..content_length">content_length</dfn>;</td></tr>
+<tr><th id="28">28</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::type" title='llhttp__internal_s::type' data-ref="llhttp__internal_s::type" data-ref-filename="llhttp__internal_s..type">type</dfn>;</td></tr>
+<tr><th id="29">29</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::method" title='llhttp__internal_s::method' data-ref="llhttp__internal_s::method" data-ref-filename="llhttp__internal_s..method">method</dfn>;</td></tr>
+<tr><th id="30">30</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::http_major" title='llhttp__internal_s::http_major' data-ref="llhttp__internal_s::http_major" data-ref-filename="llhttp__internal_s..http_major">http_major</dfn>;</td></tr>
+<tr><th id="31">31</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::http_minor" title='llhttp__internal_s::http_minor' data-ref="llhttp__internal_s::http_minor" data-ref-filename="llhttp__internal_s..http_minor">http_minor</dfn>;</td></tr>
+<tr><th id="32">32</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::header_state" title='llhttp__internal_s::header_state' data-ref="llhttp__internal_s::header_state" data-ref-filename="llhttp__internal_s..header_state">header_state</dfn>;</td></tr>
+<tr><th id="33">33</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint16_t" title='uint16_t' data-type='__uint16_t' data-ref="uint16_t" data-ref-filename="uint16_t">uint16_t</a> <dfn class="decl field" id="llhttp__internal_s::lenient_flags" title='llhttp__internal_s::lenient_flags' data-ref="llhttp__internal_s::lenient_flags" data-ref-filename="llhttp__internal_s..lenient_flags">lenient_flags</dfn>;</td></tr>
+<tr><th id="34">34</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::upgrade" title='llhttp__internal_s::upgrade' data-ref="llhttp__internal_s::upgrade" data-ref-filename="llhttp__internal_s..upgrade">upgrade</dfn>;</td></tr>
+<tr><th id="35">35</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::finish" title='llhttp__internal_s::finish' data-ref="llhttp__internal_s::finish" data-ref-filename="llhttp__internal_s..finish">finish</dfn>;</td></tr>
+<tr><th id="36">36</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint16_t" title='uint16_t' data-type='__uint16_t' data-ref="uint16_t" data-ref-filename="uint16_t">uint16_t</a> <dfn class="decl field" id="llhttp__internal_s::flags" title='llhttp__internal_s::flags' data-ref="llhttp__internal_s::flags" data-ref-filename="llhttp__internal_s..flags">flags</dfn>;</td></tr>
+<tr><th id="37">37</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint16_t" title='uint16_t' data-type='__uint16_t' data-ref="uint16_t" data-ref-filename="uint16_t">uint16_t</a> <dfn class="decl field" id="llhttp__internal_s::status_code" title='llhttp__internal_s::status_code' data-ref="llhttp__internal_s::status_code" data-ref-filename="llhttp__internal_s..status_code">status_code</dfn>;</td></tr>
+<tr><th id="38">38</th><td>  <a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="llhttp__internal_s::initial_message_completed" title='llhttp__internal_s::initial_message_completed' data-ref="llhttp__internal_s::initial_message_completed" data-ref-filename="llhttp__internal_s..initial_message_completed">initial_message_completed</dfn>;</td></tr>
+<tr><th id="39">39</th><td>  <em>void</em>* <dfn class="decl field" id="llhttp__internal_s::settings" title='llhttp__internal_s::settings' data-ref="llhttp__internal_s::settings" data-ref-filename="llhttp__internal_s..settings">settings</dfn>;</td></tr>
+<tr><th id="40">40</th><td>};</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><em>int</em> <dfn class="decl fn" id="llhttp__internal_init" title='llhttp__internal_init' data-ref="llhttp__internal_init" data-ref-filename="llhttp__internal_init">llhttp__internal_init</dfn>(<a class="typedef" href="#llhttp__internal_t" title='llhttp__internal_t' data-type='struct llhttp__internal_s' data-ref="llhttp__internal_t" data-ref-filename="llhttp__internal_t">llhttp__internal_t</a>* <dfn class="local col0 decl" id="8420s" title='s' data-type='llhttp__internal_t *' data-ref="8420s" data-ref-filename="8420s">s</dfn>);</td></tr>
+<tr><th id="43">43</th><td><em>int</em> <dfn class="decl fn" id="llhttp__internal_execute" title='llhttp__internal_execute' data-ref="llhttp__internal_execute" data-ref-filename="llhttp__internal_execute">llhttp__internal_execute</dfn>(<a class="typedef" href="#llhttp__internal_t" title='llhttp__internal_t' data-type='struct llhttp__internal_s' data-ref="llhttp__internal_t" data-ref-filename="llhttp__internal_t">llhttp__internal_t</a>* <dfn class="local col1 decl" id="8421s" title='s' data-type='llhttp__internal_t *' data-ref="8421s" data-ref-filename="8421s">s</dfn>, <em>const</em> <em>char</em>* <dfn class="local col2 decl" id="8422p" title='p' data-type='const char *' data-ref="8422p" data-ref-filename="8422p">p</dfn>, <em>const</em> <em>char</em>* <dfn class="local col3 decl" id="8423endp" title='endp' data-type='const char *' data-ref="8423endp" data-ref-filename="8423endp">endp</dfn>);</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><u>#<span data-ppcond="45">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="46">46</th><td>}  <i>/* extern "C" */</i></td></tr>
+<tr><th id="47">47</th><td><u>#<span data-ppcond="45">endif</span></u></td></tr>
+<tr><th id="48">48</th><td><u>#<span data-ppcond="9">endif</span>  /* INCLUDE_LLHTTP_ITSELF_H_ */</u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="51">ifndef</span> <span class="macro" data-ref="_M/LLLLHTTP_C_HEADERS_">LLLLHTTP_C_HEADERS_</span></u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/LLLLHTTP_C_HEADERS_" data-ref="_M/LLLLHTTP_C_HEADERS_">LLLLHTTP_C_HEADERS_</dfn></u></td></tr>
+<tr><th id="53">53</th><td><u>#<span data-ppcond="53">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="54">54</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="53">endif</span></u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><b>enum</b> <dfn class="type def" id="llhttp_errno" title='llhttp_errno' data-ref="llhttp_errno" data-ref-filename="llhttp_errno">llhttp_errno</dfn> {</td></tr>
+<tr><th id="58">58</th><td>  <dfn class="enum" id="HPE_OK" title='HPE_OK' data-ref="HPE_OK" data-ref-filename="HPE_OK">HPE_OK</dfn> = <var>0</var>,</td></tr>
+<tr><th id="59">59</th><td>  <dfn class="enum" id="HPE_INTERNAL" title='HPE_INTERNAL' data-ref="HPE_INTERNAL" data-ref-filename="HPE_INTERNAL">HPE_INTERNAL</dfn> = <var>1</var>,</td></tr>
+<tr><th id="60">60</th><td>  <dfn class="enum" id="HPE_STRICT" title='HPE_STRICT' data-ref="HPE_STRICT" data-ref-filename="HPE_STRICT">HPE_STRICT</dfn> = <var>2</var>,</td></tr>
+<tr><th id="61">61</th><td>  <dfn class="enum" id="HPE_CR_EXPECTED" title='HPE_CR_EXPECTED' data-ref="HPE_CR_EXPECTED" data-ref-filename="HPE_CR_EXPECTED">HPE_CR_EXPECTED</dfn> = <var>25</var>,</td></tr>
+<tr><th id="62">62</th><td>  <dfn class="enum" id="HPE_LF_EXPECTED" title='HPE_LF_EXPECTED' data-ref="HPE_LF_EXPECTED" data-ref-filename="HPE_LF_EXPECTED">HPE_LF_EXPECTED</dfn> = <var>3</var>,</td></tr>
+<tr><th id="63">63</th><td>  <dfn class="enum" id="HPE_UNEXPECTED_CONTENT_LENGTH" title='HPE_UNEXPECTED_CONTENT_LENGTH' data-ref="HPE_UNEXPECTED_CONTENT_LENGTH" data-ref-filename="HPE_UNEXPECTED_CONTENT_LENGTH">HPE_UNEXPECTED_CONTENT_LENGTH</dfn> = <var>4</var>,</td></tr>
+<tr><th id="64">64</th><td>  <dfn class="enum" id="HPE_UNEXPECTED_SPACE" title='HPE_UNEXPECTED_SPACE' data-ref="HPE_UNEXPECTED_SPACE" data-ref-filename="HPE_UNEXPECTED_SPACE">HPE_UNEXPECTED_SPACE</dfn> = <var>30</var>,</td></tr>
+<tr><th id="65">65</th><td>  <dfn class="enum" id="HPE_CLOSED_CONNECTION" title='HPE_CLOSED_CONNECTION' data-ref="HPE_CLOSED_CONNECTION" data-ref-filename="HPE_CLOSED_CONNECTION">HPE_CLOSED_CONNECTION</dfn> = <var>5</var>,</td></tr>
+<tr><th id="66">66</th><td>  <dfn class="enum" id="HPE_INVALID_METHOD" title='HPE_INVALID_METHOD' data-ref="HPE_INVALID_METHOD" data-ref-filename="HPE_INVALID_METHOD">HPE_INVALID_METHOD</dfn> = <var>6</var>,</td></tr>
+<tr><th id="67">67</th><td>  <dfn class="enum" id="HPE_INVALID_URL" title='HPE_INVALID_URL' data-ref="HPE_INVALID_URL" data-ref-filename="HPE_INVALID_URL">HPE_INVALID_URL</dfn> = <var>7</var>,</td></tr>
+<tr><th id="68">68</th><td>  <dfn class="enum" id="HPE_INVALID_CONSTANT" title='HPE_INVALID_CONSTANT' data-ref="HPE_INVALID_CONSTANT" data-ref-filename="HPE_INVALID_CONSTANT">HPE_INVALID_CONSTANT</dfn> = <var>8</var>,</td></tr>
+<tr><th id="69">69</th><td>  <dfn class="enum" id="HPE_INVALID_VERSION" title='HPE_INVALID_VERSION' data-ref="HPE_INVALID_VERSION" data-ref-filename="HPE_INVALID_VERSION">HPE_INVALID_VERSION</dfn> = <var>9</var>,</td></tr>
+<tr><th id="70">70</th><td>  <dfn class="enum" id="HPE_INVALID_HEADER_TOKEN" title='HPE_INVALID_HEADER_TOKEN' data-ref="HPE_INVALID_HEADER_TOKEN" data-ref-filename="HPE_INVALID_HEADER_TOKEN">HPE_INVALID_HEADER_TOKEN</dfn> = <var>10</var>,</td></tr>
+<tr><th id="71">71</th><td>  <dfn class="enum" id="HPE_INVALID_CONTENT_LENGTH" title='HPE_INVALID_CONTENT_LENGTH' data-ref="HPE_INVALID_CONTENT_LENGTH" data-ref-filename="HPE_INVALID_CONTENT_LENGTH">HPE_INVALID_CONTENT_LENGTH</dfn> = <var>11</var>,</td></tr>
+<tr><th id="72">72</th><td>  <dfn class="enum" id="HPE_INVALID_CHUNK_SIZE" title='HPE_INVALID_CHUNK_SIZE' data-ref="HPE_INVALID_CHUNK_SIZE" data-ref-filename="HPE_INVALID_CHUNK_SIZE">HPE_INVALID_CHUNK_SIZE</dfn> = <var>12</var>,</td></tr>
+<tr><th id="73">73</th><td>  <dfn class="enum" id="HPE_INVALID_STATUS" title='HPE_INVALID_STATUS' data-ref="HPE_INVALID_STATUS" data-ref-filename="HPE_INVALID_STATUS">HPE_INVALID_STATUS</dfn> = <var>13</var>,</td></tr>
+<tr><th id="74">74</th><td>  <dfn class="enum" id="HPE_INVALID_EOF_STATE" title='HPE_INVALID_EOF_STATE' data-ref="HPE_INVALID_EOF_STATE" data-ref-filename="HPE_INVALID_EOF_STATE">HPE_INVALID_EOF_STATE</dfn> = <var>14</var>,</td></tr>
+<tr><th id="75">75</th><td>  <dfn class="enum" id="HPE_INVALID_TRANSFER_ENCODING" title='HPE_INVALID_TRANSFER_ENCODING' data-ref="HPE_INVALID_TRANSFER_ENCODING" data-ref-filename="HPE_INVALID_TRANSFER_ENCODING">HPE_INVALID_TRANSFER_ENCODING</dfn> = <var>15</var>,</td></tr>
+<tr><th id="76">76</th><td>  <dfn class="enum" id="HPE_CB_MESSAGE_BEGIN" title='HPE_CB_MESSAGE_BEGIN' data-ref="HPE_CB_MESSAGE_BEGIN" data-ref-filename="HPE_CB_MESSAGE_BEGIN">HPE_CB_MESSAGE_BEGIN</dfn> = <var>16</var>,</td></tr>
+<tr><th id="77">77</th><td>  <dfn class="enum" id="HPE_CB_HEADERS_COMPLETE" title='HPE_CB_HEADERS_COMPLETE' data-ref="HPE_CB_HEADERS_COMPLETE" data-ref-filename="HPE_CB_HEADERS_COMPLETE">HPE_CB_HEADERS_COMPLETE</dfn> = <var>17</var>,</td></tr>
+<tr><th id="78">78</th><td>  <dfn class="enum" id="HPE_CB_MESSAGE_COMPLETE" title='HPE_CB_MESSAGE_COMPLETE' data-ref="HPE_CB_MESSAGE_COMPLETE" data-ref-filename="HPE_CB_MESSAGE_COMPLETE">HPE_CB_MESSAGE_COMPLETE</dfn> = <var>18</var>,</td></tr>
+<tr><th id="79">79</th><td>  <dfn class="enum" id="HPE_CB_CHUNK_HEADER" title='HPE_CB_CHUNK_HEADER' data-ref="HPE_CB_CHUNK_HEADER" data-ref-filename="HPE_CB_CHUNK_HEADER">HPE_CB_CHUNK_HEADER</dfn> = <var>19</var>,</td></tr>
+<tr><th id="80">80</th><td>  <dfn class="enum" id="HPE_CB_CHUNK_COMPLETE" title='HPE_CB_CHUNK_COMPLETE' data-ref="HPE_CB_CHUNK_COMPLETE" data-ref-filename="HPE_CB_CHUNK_COMPLETE">HPE_CB_CHUNK_COMPLETE</dfn> = <var>20</var>,</td></tr>
+<tr><th id="81">81</th><td>  <dfn class="enum" id="HPE_PAUSED" title='HPE_PAUSED' data-ref="HPE_PAUSED" data-ref-filename="HPE_PAUSED">HPE_PAUSED</dfn> = <var>21</var>,</td></tr>
+<tr><th id="82">82</th><td>  <dfn class="enum" id="HPE_PAUSED_UPGRADE" title='HPE_PAUSED_UPGRADE' data-ref="HPE_PAUSED_UPGRADE" data-ref-filename="HPE_PAUSED_UPGRADE">HPE_PAUSED_UPGRADE</dfn> = <var>22</var>,</td></tr>
+<tr><th id="83">83</th><td>  <dfn class="enum" id="HPE_PAUSED_H2_UPGRADE" title='HPE_PAUSED_H2_UPGRADE' data-ref="HPE_PAUSED_H2_UPGRADE" data-ref-filename="HPE_PAUSED_H2_UPGRADE">HPE_PAUSED_H2_UPGRADE</dfn> = <var>23</var>,</td></tr>
+<tr><th id="84">84</th><td>  <dfn class="enum" id="HPE_USER" title='HPE_USER' data-ref="HPE_USER" data-ref-filename="HPE_USER">HPE_USER</dfn> = <var>24</var>,</td></tr>
+<tr><th id="85">85</th><td>  <dfn class="enum" id="HPE_CB_URL_COMPLETE" title='HPE_CB_URL_COMPLETE' data-ref="HPE_CB_URL_COMPLETE" data-ref-filename="HPE_CB_URL_COMPLETE">HPE_CB_URL_COMPLETE</dfn> = <var>26</var>,</td></tr>
+<tr><th id="86">86</th><td>  <dfn class="enum" id="HPE_CB_STATUS_COMPLETE" title='HPE_CB_STATUS_COMPLETE' data-ref="HPE_CB_STATUS_COMPLETE" data-ref-filename="HPE_CB_STATUS_COMPLETE">HPE_CB_STATUS_COMPLETE</dfn> = <var>27</var>,</td></tr>
+<tr><th id="87">87</th><td>  <dfn class="enum" id="HPE_CB_METHOD_COMPLETE" title='HPE_CB_METHOD_COMPLETE' data-ref="HPE_CB_METHOD_COMPLETE" data-ref-filename="HPE_CB_METHOD_COMPLETE">HPE_CB_METHOD_COMPLETE</dfn> = <var>32</var>,</td></tr>
+<tr><th id="88">88</th><td>  <dfn class="enum" id="HPE_CB_VERSION_COMPLETE" title='HPE_CB_VERSION_COMPLETE' data-ref="HPE_CB_VERSION_COMPLETE" data-ref-filename="HPE_CB_VERSION_COMPLETE">HPE_CB_VERSION_COMPLETE</dfn> = <var>33</var>,</td></tr>
+<tr><th id="89">89</th><td>  <dfn class="enum" id="HPE_CB_HEADER_FIELD_COMPLETE" title='HPE_CB_HEADER_FIELD_COMPLETE' data-ref="HPE_CB_HEADER_FIELD_COMPLETE" data-ref-filename="HPE_CB_HEADER_FIELD_COMPLETE">HPE_CB_HEADER_FIELD_COMPLETE</dfn> = <var>28</var>,</td></tr>
+<tr><th id="90">90</th><td>  <dfn class="enum" id="HPE_CB_HEADER_VALUE_COMPLETE" title='HPE_CB_HEADER_VALUE_COMPLETE' data-ref="HPE_CB_HEADER_VALUE_COMPLETE" data-ref-filename="HPE_CB_HEADER_VALUE_COMPLETE">HPE_CB_HEADER_VALUE_COMPLETE</dfn> = <var>29</var>,</td></tr>
+<tr><th id="91">91</th><td>  <dfn class="enum" id="HPE_CB_CHUNK_EXTENSION_NAME_COMPLETE" title='HPE_CB_CHUNK_EXTENSION_NAME_COMPLETE' data-ref="HPE_CB_CHUNK_EXTENSION_NAME_COMPLETE" data-ref-filename="HPE_CB_CHUNK_EXTENSION_NAME_COMPLETE">HPE_CB_CHUNK_EXTENSION_NAME_COMPLETE</dfn> = <var>34</var>,</td></tr>
+<tr><th id="92">92</th><td>  <dfn class="enum" id="HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE" title='HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE' data-ref="HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE" data-ref-filename="HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE">HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE</dfn> = <var>35</var>,</td></tr>
+<tr><th id="93">93</th><td>  <dfn class="enum" id="HPE_CB_RESET" title='HPE_CB_RESET' data-ref="HPE_CB_RESET" data-ref-filename="HPE_CB_RESET">HPE_CB_RESET</dfn> = <var>31</var></td></tr>
+<tr><th id="94">94</th><td>};</td></tr>
+<tr><th id="95">95</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_errno" title='llhttp_errno' data-ref="llhttp_errno" data-ref-filename="llhttp_errno">llhttp_errno</a> <dfn class="typedef" id="llhttp_errno_t" title='llhttp_errno_t' data-type='enum llhttp_errno' data-ref="llhttp_errno_t" data-ref-filename="llhttp_errno_t">llhttp_errno_t</dfn>;</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><b>enum</b> <dfn class="type def" id="llhttp_flags" title='llhttp_flags' data-ref="llhttp_flags" data-ref-filename="llhttp_flags">llhttp_flags</dfn> {</td></tr>
+<tr><th id="98">98</th><td>  <dfn class="enum" id="F_CONNECTION_KEEP_ALIVE" title='F_CONNECTION_KEEP_ALIVE' data-ref="F_CONNECTION_KEEP_ALIVE" data-ref-filename="F_CONNECTION_KEEP_ALIVE">F_CONNECTION_KEEP_ALIVE</dfn> = <var>0x1</var>,</td></tr>
+<tr><th id="99">99</th><td>  <dfn class="enum" id="F_CONNECTION_CLOSE" title='F_CONNECTION_CLOSE' data-ref="F_CONNECTION_CLOSE" data-ref-filename="F_CONNECTION_CLOSE">F_CONNECTION_CLOSE</dfn> = <var>0x2</var>,</td></tr>
+<tr><th id="100">100</th><td>  <dfn class="enum" id="F_CONNECTION_UPGRADE" title='F_CONNECTION_UPGRADE' data-ref="F_CONNECTION_UPGRADE" data-ref-filename="F_CONNECTION_UPGRADE">F_CONNECTION_UPGRADE</dfn> = <var>0x4</var>,</td></tr>
+<tr><th id="101">101</th><td>  <dfn class="enum" id="F_CHUNKED" title='F_CHUNKED' data-ref="F_CHUNKED" data-ref-filename="F_CHUNKED">F_CHUNKED</dfn> = <var>0x8</var>,</td></tr>
+<tr><th id="102">102</th><td>  <dfn class="enum" id="F_UPGRADE" title='F_UPGRADE' data-ref="F_UPGRADE" data-ref-filename="F_UPGRADE">F_UPGRADE</dfn> = <var>0x10</var>,</td></tr>
+<tr><th id="103">103</th><td>  <dfn class="enum" id="F_CONTENT_LENGTH" title='F_CONTENT_LENGTH' data-ref="F_CONTENT_LENGTH" data-ref-filename="F_CONTENT_LENGTH">F_CONTENT_LENGTH</dfn> = <var>0x20</var>,</td></tr>
+<tr><th id="104">104</th><td>  <dfn class="enum" id="F_SKIPBODY" title='F_SKIPBODY' data-ref="F_SKIPBODY" data-ref-filename="F_SKIPBODY">F_SKIPBODY</dfn> = <var>0x40</var>,</td></tr>
+<tr><th id="105">105</th><td>  <dfn class="enum" id="F_TRAILING" title='F_TRAILING' data-ref="F_TRAILING" data-ref-filename="F_TRAILING">F_TRAILING</dfn> = <var>0x80</var>,</td></tr>
+<tr><th id="106">106</th><td>  <dfn class="enum" id="F_TRANSFER_ENCODING" title='F_TRANSFER_ENCODING' data-ref="F_TRANSFER_ENCODING" data-ref-filename="F_TRANSFER_ENCODING">F_TRANSFER_ENCODING</dfn> = <var>0x200</var></td></tr>
+<tr><th id="107">107</th><td>};</td></tr>
+<tr><th id="108">108</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_flags" title='llhttp_flags' data-ref="llhttp_flags" data-ref-filename="llhttp_flags">llhttp_flags</a> <dfn class="typedef" id="llhttp_flags_t" title='llhttp_flags_t' data-type='enum llhttp_flags' data-ref="llhttp_flags_t" data-ref-filename="llhttp_flags_t">llhttp_flags_t</dfn>;</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><b>enum</b> <dfn class="type def" id="llhttp_lenient_flags" title='llhttp_lenient_flags' data-ref="llhttp_lenient_flags" data-ref-filename="llhttp_lenient_flags">llhttp_lenient_flags</dfn> {</td></tr>
+<tr><th id="111">111</th><td>  <dfn class="enum" id="LENIENT_HEADERS" title='LENIENT_HEADERS' data-ref="LENIENT_HEADERS" data-ref-filename="LENIENT_HEADERS">LENIENT_HEADERS</dfn> = <var>0x1</var>,</td></tr>
+<tr><th id="112">112</th><td>  <dfn class="enum" id="LENIENT_CHUNKED_LENGTH" title='LENIENT_CHUNKED_LENGTH' data-ref="LENIENT_CHUNKED_LENGTH" data-ref-filename="LENIENT_CHUNKED_LENGTH">LENIENT_CHUNKED_LENGTH</dfn> = <var>0x2</var>,</td></tr>
+<tr><th id="113">113</th><td>  <dfn class="enum" id="LENIENT_KEEP_ALIVE" title='LENIENT_KEEP_ALIVE' data-ref="LENIENT_KEEP_ALIVE" data-ref-filename="LENIENT_KEEP_ALIVE">LENIENT_KEEP_ALIVE</dfn> = <var>0x4</var>,</td></tr>
+<tr><th id="114">114</th><td>  <dfn class="enum" id="LENIENT_TRANSFER_ENCODING" title='LENIENT_TRANSFER_ENCODING' data-ref="LENIENT_TRANSFER_ENCODING" data-ref-filename="LENIENT_TRANSFER_ENCODING">LENIENT_TRANSFER_ENCODING</dfn> = <var>0x8</var>,</td></tr>
+<tr><th id="115">115</th><td>  <dfn class="enum" id="LENIENT_VERSION" title='LENIENT_VERSION' data-ref="LENIENT_VERSION" data-ref-filename="LENIENT_VERSION">LENIENT_VERSION</dfn> = <var>0x10</var>,</td></tr>
+<tr><th id="116">116</th><td>  <dfn class="enum" id="LENIENT_DATA_AFTER_CLOSE" title='LENIENT_DATA_AFTER_CLOSE' data-ref="LENIENT_DATA_AFTER_CLOSE" data-ref-filename="LENIENT_DATA_AFTER_CLOSE">LENIENT_DATA_AFTER_CLOSE</dfn> = <var>0x20</var>,</td></tr>
+<tr><th id="117">117</th><td>  <dfn class="enum" id="LENIENT_OPTIONAL_LF_AFTER_CR" title='LENIENT_OPTIONAL_LF_AFTER_CR' data-ref="LENIENT_OPTIONAL_LF_AFTER_CR" data-ref-filename="LENIENT_OPTIONAL_LF_AFTER_CR">LENIENT_OPTIONAL_LF_AFTER_CR</dfn> = <var>0x40</var>,</td></tr>
+<tr><th id="118">118</th><td>  <dfn class="enum" id="LENIENT_OPTIONAL_CRLF_AFTER_CHUNK" title='LENIENT_OPTIONAL_CRLF_AFTER_CHUNK' data-ref="LENIENT_OPTIONAL_CRLF_AFTER_CHUNK" data-ref-filename="LENIENT_OPTIONAL_CRLF_AFTER_CHUNK">LENIENT_OPTIONAL_CRLF_AFTER_CHUNK</dfn> = <var>0x80</var>,</td></tr>
+<tr><th id="119">119</th><td>  <dfn class="enum" id="LENIENT_OPTIONAL_CR_BEFORE_LF" title='LENIENT_OPTIONAL_CR_BEFORE_LF' data-ref="LENIENT_OPTIONAL_CR_BEFORE_LF" data-ref-filename="LENIENT_OPTIONAL_CR_BEFORE_LF">LENIENT_OPTIONAL_CR_BEFORE_LF</dfn> = <var>0x100</var>,</td></tr>
+<tr><th id="120">120</th><td>  <dfn class="enum" id="LENIENT_SPACES_AFTER_CHUNK_SIZE" title='LENIENT_SPACES_AFTER_CHUNK_SIZE' data-ref="LENIENT_SPACES_AFTER_CHUNK_SIZE" data-ref-filename="LENIENT_SPACES_AFTER_CHUNK_SIZE">LENIENT_SPACES_AFTER_CHUNK_SIZE</dfn> = <var>0x200</var></td></tr>
+<tr><th id="121">121</th><td>};</td></tr>
+<tr><th id="122">122</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_lenient_flags" title='llhttp_lenient_flags' data-ref="llhttp_lenient_flags" data-ref-filename="llhttp_lenient_flags">llhttp_lenient_flags</a> <dfn class="typedef" id="llhttp_lenient_flags_t" title='llhttp_lenient_flags_t' data-type='enum llhttp_lenient_flags' data-ref="llhttp_lenient_flags_t" data-ref-filename="llhttp_lenient_flags_t">llhttp_lenient_flags_t</dfn>;</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><b>enum</b> <dfn class="type def" id="llhttp_type" title='llhttp_type' data-ref="llhttp_type" data-ref-filename="llhttp_type">llhttp_type</dfn> {</td></tr>
+<tr><th id="125">125</th><td>  <dfn class="enum" id="HTTP_BOTH" title='HTTP_BOTH' data-ref="HTTP_BOTH" data-ref-filename="HTTP_BOTH">HTTP_BOTH</dfn> = <var>0</var>,</td></tr>
+<tr><th id="126">126</th><td>  <dfn class="enum" id="HTTP_REQUEST" title='HTTP_REQUEST' data-ref="HTTP_REQUEST" data-ref-filename="HTTP_REQUEST">HTTP_REQUEST</dfn> = <var>1</var>,</td></tr>
+<tr><th id="127">127</th><td>  <dfn class="enum" id="HTTP_RESPONSE" title='HTTP_RESPONSE' data-ref="HTTP_RESPONSE" data-ref-filename="HTTP_RESPONSE">HTTP_RESPONSE</dfn> = <var>2</var></td></tr>
+<tr><th id="128">128</th><td>};</td></tr>
+<tr><th id="129">129</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_type" title='llhttp_type' data-ref="llhttp_type" data-ref-filename="llhttp_type">llhttp_type</a> <dfn class="typedef" id="llhttp_type_t" title='llhttp_type_t' data-type='enum llhttp_type' data-ref="llhttp_type_t" data-ref-filename="llhttp_type_t">llhttp_type_t</dfn>;</td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><b>enum</b> <dfn class="type def" id="llhttp_finish" title='llhttp_finish' data-ref="llhttp_finish" data-ref-filename="llhttp_finish">llhttp_finish</dfn> {</td></tr>
+<tr><th id="132">132</th><td>  <dfn class="enum" id="HTTP_FINISH_SAFE" title='HTTP_FINISH_SAFE' data-ref="HTTP_FINISH_SAFE" data-ref-filename="HTTP_FINISH_SAFE">HTTP_FINISH_SAFE</dfn> = <var>0</var>,</td></tr>
+<tr><th id="133">133</th><td>  <dfn class="enum" id="HTTP_FINISH_SAFE_WITH_CB" title='HTTP_FINISH_SAFE_WITH_CB' data-ref="HTTP_FINISH_SAFE_WITH_CB" data-ref-filename="HTTP_FINISH_SAFE_WITH_CB">HTTP_FINISH_SAFE_WITH_CB</dfn> = <var>1</var>,</td></tr>
+<tr><th id="134">134</th><td>  <dfn class="enum" id="HTTP_FINISH_UNSAFE" title='HTTP_FINISH_UNSAFE' data-ref="HTTP_FINISH_UNSAFE" data-ref-filename="HTTP_FINISH_UNSAFE">HTTP_FINISH_UNSAFE</dfn> = <var>2</var></td></tr>
+<tr><th id="135">135</th><td>};</td></tr>
+<tr><th id="136">136</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_finish" title='llhttp_finish' data-ref="llhttp_finish" data-ref-filename="llhttp_finish">llhttp_finish</a> <dfn class="typedef" id="llhttp_finish_t" title='llhttp_finish_t' data-type='enum llhttp_finish' data-ref="llhttp_finish_t" data-ref-filename="llhttp_finish_t">llhttp_finish_t</dfn>;</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><b>enum</b> <dfn class="type def" id="llhttp_method" title='llhttp_method' data-ref="llhttp_method" data-ref-filename="llhttp_method">llhttp_method</dfn> {</td></tr>
+<tr><th id="139">139</th><td>  <dfn class="enum" id="HTTP_DELETE" title='HTTP_DELETE' data-ref="HTTP_DELETE" data-ref-filename="HTTP_DELETE">HTTP_DELETE</dfn> = <var>0</var>,</td></tr>
+<tr><th id="140">140</th><td>  <dfn class="enum" id="HTTP_GET" title='HTTP_GET' data-ref="HTTP_GET" data-ref-filename="HTTP_GET">HTTP_GET</dfn> = <var>1</var>,</td></tr>
+<tr><th id="141">141</th><td>  <dfn class="enum" id="HTTP_HEAD" title='HTTP_HEAD' data-ref="HTTP_HEAD" data-ref-filename="HTTP_HEAD">HTTP_HEAD</dfn> = <var>2</var>,</td></tr>
+<tr><th id="142">142</th><td>  <dfn class="enum" id="HTTP_POST" title='HTTP_POST' data-ref="HTTP_POST" data-ref-filename="HTTP_POST">HTTP_POST</dfn> = <var>3</var>,</td></tr>
+<tr><th id="143">143</th><td>  <dfn class="enum" id="HTTP_PUT" title='HTTP_PUT' data-ref="HTTP_PUT" data-ref-filename="HTTP_PUT">HTTP_PUT</dfn> = <var>4</var>,</td></tr>
+<tr><th id="144">144</th><td>  <dfn class="enum" id="HTTP_CONNECT" title='HTTP_CONNECT' data-ref="HTTP_CONNECT" data-ref-filename="HTTP_CONNECT">HTTP_CONNECT</dfn> = <var>5</var>,</td></tr>
+<tr><th id="145">145</th><td>  <dfn class="enum" id="HTTP_OPTIONS" title='HTTP_OPTIONS' data-ref="HTTP_OPTIONS" data-ref-filename="HTTP_OPTIONS">HTTP_OPTIONS</dfn> = <var>6</var>,</td></tr>
+<tr><th id="146">146</th><td>  <dfn class="enum" id="HTTP_TRACE" title='HTTP_TRACE' data-ref="HTTP_TRACE" data-ref-filename="HTTP_TRACE">HTTP_TRACE</dfn> = <var>7</var>,</td></tr>
+<tr><th id="147">147</th><td>  <dfn class="enum" id="HTTP_COPY" title='HTTP_COPY' data-ref="HTTP_COPY" data-ref-filename="HTTP_COPY">HTTP_COPY</dfn> = <var>8</var>,</td></tr>
+<tr><th id="148">148</th><td>  <dfn class="enum" id="HTTP_LOCK" title='HTTP_LOCK' data-ref="HTTP_LOCK" data-ref-filename="HTTP_LOCK">HTTP_LOCK</dfn> = <var>9</var>,</td></tr>
+<tr><th id="149">149</th><td>  <dfn class="enum" id="HTTP_MKCOL" title='HTTP_MKCOL' data-ref="HTTP_MKCOL" data-ref-filename="HTTP_MKCOL">HTTP_MKCOL</dfn> = <var>10</var>,</td></tr>
+<tr><th id="150">150</th><td>  <dfn class="enum" id="HTTP_MOVE" title='HTTP_MOVE' data-ref="HTTP_MOVE" data-ref-filename="HTTP_MOVE">HTTP_MOVE</dfn> = <var>11</var>,</td></tr>
+<tr><th id="151">151</th><td>  <dfn class="enum" id="HTTP_PROPFIND" title='HTTP_PROPFIND' data-ref="HTTP_PROPFIND" data-ref-filename="HTTP_PROPFIND">HTTP_PROPFIND</dfn> = <var>12</var>,</td></tr>
+<tr><th id="152">152</th><td>  <dfn class="enum" id="HTTP_PROPPATCH" title='HTTP_PROPPATCH' data-ref="HTTP_PROPPATCH" data-ref-filename="HTTP_PROPPATCH">HTTP_PROPPATCH</dfn> = <var>13</var>,</td></tr>
+<tr><th id="153">153</th><td>  <dfn class="enum" id="HTTP_SEARCH" title='HTTP_SEARCH' data-ref="HTTP_SEARCH" data-ref-filename="HTTP_SEARCH">HTTP_SEARCH</dfn> = <var>14</var>,</td></tr>
+<tr><th id="154">154</th><td>  <dfn class="enum" id="HTTP_UNLOCK" title='HTTP_UNLOCK' data-ref="HTTP_UNLOCK" data-ref-filename="HTTP_UNLOCK">HTTP_UNLOCK</dfn> = <var>15</var>,</td></tr>
+<tr><th id="155">155</th><td>  <dfn class="enum" id="HTTP_BIND" title='HTTP_BIND' data-ref="HTTP_BIND" data-ref-filename="HTTP_BIND">HTTP_BIND</dfn> = <var>16</var>,</td></tr>
+<tr><th id="156">156</th><td>  <dfn class="enum" id="HTTP_REBIND" title='HTTP_REBIND' data-ref="HTTP_REBIND" data-ref-filename="HTTP_REBIND">HTTP_REBIND</dfn> = <var>17</var>,</td></tr>
+<tr><th id="157">157</th><td>  <dfn class="enum" id="HTTP_UNBIND" title='HTTP_UNBIND' data-ref="HTTP_UNBIND" data-ref-filename="HTTP_UNBIND">HTTP_UNBIND</dfn> = <var>18</var>,</td></tr>
+<tr><th id="158">158</th><td>  <dfn class="enum" id="HTTP_ACL" title='HTTP_ACL' data-ref="HTTP_ACL" data-ref-filename="HTTP_ACL">HTTP_ACL</dfn> = <var>19</var>,</td></tr>
+<tr><th id="159">159</th><td>  <dfn class="enum" id="HTTP_REPORT" title='HTTP_REPORT' data-ref="HTTP_REPORT" data-ref-filename="HTTP_REPORT">HTTP_REPORT</dfn> = <var>20</var>,</td></tr>
+<tr><th id="160">160</th><td>  <dfn class="enum" id="HTTP_MKACTIVITY" title='HTTP_MKACTIVITY' data-ref="HTTP_MKACTIVITY" data-ref-filename="HTTP_MKACTIVITY">HTTP_MKACTIVITY</dfn> = <var>21</var>,</td></tr>
+<tr><th id="161">161</th><td>  <dfn class="enum" id="HTTP_CHECKOUT" title='HTTP_CHECKOUT' data-ref="HTTP_CHECKOUT" data-ref-filename="HTTP_CHECKOUT">HTTP_CHECKOUT</dfn> = <var>22</var>,</td></tr>
+<tr><th id="162">162</th><td>  <dfn class="enum" id="HTTP_MERGE" title='HTTP_MERGE' data-ref="HTTP_MERGE" data-ref-filename="HTTP_MERGE">HTTP_MERGE</dfn> = <var>23</var>,</td></tr>
+<tr><th id="163">163</th><td>  <dfn class="enum" id="HTTP_MSEARCH" title='HTTP_MSEARCH' data-ref="HTTP_MSEARCH" data-ref-filename="HTTP_MSEARCH">HTTP_MSEARCH</dfn> = <var>24</var>,</td></tr>
+<tr><th id="164">164</th><td>  <dfn class="enum" id="HTTP_NOTIFY" title='HTTP_NOTIFY' data-ref="HTTP_NOTIFY" data-ref-filename="HTTP_NOTIFY">HTTP_NOTIFY</dfn> = <var>25</var>,</td></tr>
+<tr><th id="165">165</th><td>  <dfn class="enum" id="HTTP_SUBSCRIBE" title='HTTP_SUBSCRIBE' data-ref="HTTP_SUBSCRIBE" data-ref-filename="HTTP_SUBSCRIBE">HTTP_SUBSCRIBE</dfn> = <var>26</var>,</td></tr>
+<tr><th id="166">166</th><td>  <dfn class="enum" id="HTTP_UNSUBSCRIBE" title='HTTP_UNSUBSCRIBE' data-ref="HTTP_UNSUBSCRIBE" data-ref-filename="HTTP_UNSUBSCRIBE">HTTP_UNSUBSCRIBE</dfn> = <var>27</var>,</td></tr>
+<tr><th id="167">167</th><td>  <dfn class="enum" id="HTTP_PATCH" title='HTTP_PATCH' data-ref="HTTP_PATCH" data-ref-filename="HTTP_PATCH">HTTP_PATCH</dfn> = <var>28</var>,</td></tr>
+<tr><th id="168">168</th><td>  <dfn class="enum" id="HTTP_PURGE" title='HTTP_PURGE' data-ref="HTTP_PURGE" data-ref-filename="HTTP_PURGE">HTTP_PURGE</dfn> = <var>29</var>,</td></tr>
+<tr><th id="169">169</th><td>  <dfn class="enum" id="HTTP_MKCALENDAR" title='HTTP_MKCALENDAR' data-ref="HTTP_MKCALENDAR" data-ref-filename="HTTP_MKCALENDAR">HTTP_MKCALENDAR</dfn> = <var>30</var>,</td></tr>
+<tr><th id="170">170</th><td>  <dfn class="enum" id="HTTP_LINK" title='HTTP_LINK' data-ref="HTTP_LINK" data-ref-filename="HTTP_LINK">HTTP_LINK</dfn> = <var>31</var>,</td></tr>
+<tr><th id="171">171</th><td>  <dfn class="enum" id="HTTP_UNLINK" title='HTTP_UNLINK' data-ref="HTTP_UNLINK" data-ref-filename="HTTP_UNLINK">HTTP_UNLINK</dfn> = <var>32</var>,</td></tr>
+<tr><th id="172">172</th><td>  <dfn class="enum" id="HTTP_SOURCE" title='HTTP_SOURCE' data-ref="HTTP_SOURCE" data-ref-filename="HTTP_SOURCE">HTTP_SOURCE</dfn> = <var>33</var>,</td></tr>
+<tr><th id="173">173</th><td>  <dfn class="enum" id="HTTP_PRI" title='HTTP_PRI' data-ref="HTTP_PRI" data-ref-filename="HTTP_PRI">HTTP_PRI</dfn> = <var>34</var>,</td></tr>
+<tr><th id="174">174</th><td>  <dfn class="enum" id="HTTP_DESCRIBE" title='HTTP_DESCRIBE' data-ref="HTTP_DESCRIBE" data-ref-filename="HTTP_DESCRIBE">HTTP_DESCRIBE</dfn> = <var>35</var>,</td></tr>
+<tr><th id="175">175</th><td>  <dfn class="enum" id="HTTP_ANNOUNCE" title='HTTP_ANNOUNCE' data-ref="HTTP_ANNOUNCE" data-ref-filename="HTTP_ANNOUNCE">HTTP_ANNOUNCE</dfn> = <var>36</var>,</td></tr>
+<tr><th id="176">176</th><td>  <dfn class="enum" id="HTTP_SETUP" title='HTTP_SETUP' data-ref="HTTP_SETUP" data-ref-filename="HTTP_SETUP">HTTP_SETUP</dfn> = <var>37</var>,</td></tr>
+<tr><th id="177">177</th><td>  <dfn class="enum" id="HTTP_PLAY" title='HTTP_PLAY' data-ref="HTTP_PLAY" data-ref-filename="HTTP_PLAY">HTTP_PLAY</dfn> = <var>38</var>,</td></tr>
+<tr><th id="178">178</th><td>  <dfn class="enum" id="HTTP_PAUSE" title='HTTP_PAUSE' data-ref="HTTP_PAUSE" data-ref-filename="HTTP_PAUSE">HTTP_PAUSE</dfn> = <var>39</var>,</td></tr>
+<tr><th id="179">179</th><td>  <dfn class="enum" id="HTTP_TEARDOWN" title='HTTP_TEARDOWN' data-ref="HTTP_TEARDOWN" data-ref-filename="HTTP_TEARDOWN">HTTP_TEARDOWN</dfn> = <var>40</var>,</td></tr>
+<tr><th id="180">180</th><td>  <dfn class="enum" id="HTTP_GET_PARAMETER" title='HTTP_GET_PARAMETER' data-ref="HTTP_GET_PARAMETER" data-ref-filename="HTTP_GET_PARAMETER">HTTP_GET_PARAMETER</dfn> = <var>41</var>,</td></tr>
+<tr><th id="181">181</th><td>  <dfn class="enum" id="HTTP_SET_PARAMETER" title='HTTP_SET_PARAMETER' data-ref="HTTP_SET_PARAMETER" data-ref-filename="HTTP_SET_PARAMETER">HTTP_SET_PARAMETER</dfn> = <var>42</var>,</td></tr>
+<tr><th id="182">182</th><td>  <dfn class="enum" id="HTTP_REDIRECT" title='HTTP_REDIRECT' data-ref="HTTP_REDIRECT" data-ref-filename="HTTP_REDIRECT">HTTP_REDIRECT</dfn> = <var>43</var>,</td></tr>
+<tr><th id="183">183</th><td>  <dfn class="enum" id="HTTP_RECORD" title='HTTP_RECORD' data-ref="HTTP_RECORD" data-ref-filename="HTTP_RECORD">HTTP_RECORD</dfn> = <var>44</var>,</td></tr>
+<tr><th id="184">184</th><td>  <dfn class="enum" id="HTTP_FLUSH" title='HTTP_FLUSH' data-ref="HTTP_FLUSH" data-ref-filename="HTTP_FLUSH">HTTP_FLUSH</dfn> = <var>45</var></td></tr>
+<tr><th id="185">185</th><td>};</td></tr>
+<tr><th id="186">186</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_method" title='llhttp_method' data-ref="llhttp_method" data-ref-filename="llhttp_method">llhttp_method</a> <dfn class="typedef" id="llhttp_method_t" title='llhttp_method_t' data-type='enum llhttp_method' data-ref="llhttp_method_t" data-ref-filename="llhttp_method_t">llhttp_method_t</dfn>;</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><b>enum</b> <dfn class="type def" id="llhttp_status" title='llhttp_status' data-ref="llhttp_status" data-ref-filename="llhttp_status">llhttp_status</dfn> {</td></tr>
+<tr><th id="189">189</th><td>  <dfn class="enum" id="HTTP_STATUS_CONTINUE" title='HTTP_STATUS_CONTINUE' data-ref="HTTP_STATUS_CONTINUE" data-ref-filename="HTTP_STATUS_CONTINUE">HTTP_STATUS_CONTINUE</dfn> = <var>100</var>,</td></tr>
+<tr><th id="190">190</th><td>  <dfn class="enum" id="HTTP_STATUS_SWITCHING_PROTOCOLS" title='HTTP_STATUS_SWITCHING_PROTOCOLS' data-ref="HTTP_STATUS_SWITCHING_PROTOCOLS" data-ref-filename="HTTP_STATUS_SWITCHING_PROTOCOLS">HTTP_STATUS_SWITCHING_PROTOCOLS</dfn> = <var>101</var>,</td></tr>
+<tr><th id="191">191</th><td>  <dfn class="enum" id="HTTP_STATUS_PROCESSING" title='HTTP_STATUS_PROCESSING' data-ref="HTTP_STATUS_PROCESSING" data-ref-filename="HTTP_STATUS_PROCESSING">HTTP_STATUS_PROCESSING</dfn> = <var>102</var>,</td></tr>
+<tr><th id="192">192</th><td>  <dfn class="enum" id="HTTP_STATUS_EARLY_HINTS" title='HTTP_STATUS_EARLY_HINTS' data-ref="HTTP_STATUS_EARLY_HINTS" data-ref-filename="HTTP_STATUS_EARLY_HINTS">HTTP_STATUS_EARLY_HINTS</dfn> = <var>103</var>,</td></tr>
+<tr><th id="193">193</th><td>  <dfn class="enum" id="HTTP_STATUS_RESPONSE_IS_STALE" title='HTTP_STATUS_RESPONSE_IS_STALE' data-ref="HTTP_STATUS_RESPONSE_IS_STALE" data-ref-filename="HTTP_STATUS_RESPONSE_IS_STALE">HTTP_STATUS_RESPONSE_IS_STALE</dfn> = <var>110</var>,</td></tr>
+<tr><th id="194">194</th><td>  <dfn class="enum" id="HTTP_STATUS_REVALIDATION_FAILED" title='HTTP_STATUS_REVALIDATION_FAILED' data-ref="HTTP_STATUS_REVALIDATION_FAILED" data-ref-filename="HTTP_STATUS_REVALIDATION_FAILED">HTTP_STATUS_REVALIDATION_FAILED</dfn> = <var>111</var>,</td></tr>
+<tr><th id="195">195</th><td>  <dfn class="enum" id="HTTP_STATUS_DISCONNECTED_OPERATION" title='HTTP_STATUS_DISCONNECTED_OPERATION' data-ref="HTTP_STATUS_DISCONNECTED_OPERATION" data-ref-filename="HTTP_STATUS_DISCONNECTED_OPERATION">HTTP_STATUS_DISCONNECTED_OPERATION</dfn> = <var>112</var>,</td></tr>
+<tr><th id="196">196</th><td>  <dfn class="enum" id="HTTP_STATUS_HEURISTIC_EXPIRATION" title='HTTP_STATUS_HEURISTIC_EXPIRATION' data-ref="HTTP_STATUS_HEURISTIC_EXPIRATION" data-ref-filename="HTTP_STATUS_HEURISTIC_EXPIRATION">HTTP_STATUS_HEURISTIC_EXPIRATION</dfn> = <var>113</var>,</td></tr>
+<tr><th id="197">197</th><td>  <dfn class="enum" id="HTTP_STATUS_MISCELLANEOUS_WARNING" title='HTTP_STATUS_MISCELLANEOUS_WARNING' data-ref="HTTP_STATUS_MISCELLANEOUS_WARNING" data-ref-filename="HTTP_STATUS_MISCELLANEOUS_WARNING">HTTP_STATUS_MISCELLANEOUS_WARNING</dfn> = <var>199</var>,</td></tr>
+<tr><th id="198">198</th><td>  <dfn class="enum" id="HTTP_STATUS_OK" title='HTTP_STATUS_OK' data-ref="HTTP_STATUS_OK" data-ref-filename="HTTP_STATUS_OK">HTTP_STATUS_OK</dfn> = <var>200</var>,</td></tr>
+<tr><th id="199">199</th><td>  <dfn class="enum" id="HTTP_STATUS_CREATED" title='HTTP_STATUS_CREATED' data-ref="HTTP_STATUS_CREATED" data-ref-filename="HTTP_STATUS_CREATED">HTTP_STATUS_CREATED</dfn> = <var>201</var>,</td></tr>
+<tr><th id="200">200</th><td>  <dfn class="enum" id="HTTP_STATUS_ACCEPTED" title='HTTP_STATUS_ACCEPTED' data-ref="HTTP_STATUS_ACCEPTED" data-ref-filename="HTTP_STATUS_ACCEPTED">HTTP_STATUS_ACCEPTED</dfn> = <var>202</var>,</td></tr>
+<tr><th id="201">201</th><td>  <dfn class="enum" id="HTTP_STATUS_NON_AUTHORITATIVE_INFORMATION" title='HTTP_STATUS_NON_AUTHORITATIVE_INFORMATION' data-ref="HTTP_STATUS_NON_AUTHORITATIVE_INFORMATION" data-ref-filename="HTTP_STATUS_NON_AUTHORITATIVE_INFORMATION">HTTP_STATUS_NON_AUTHORITATIVE_INFORMATION</dfn> = <var>203</var>,</td></tr>
+<tr><th id="202">202</th><td>  <dfn class="enum" id="HTTP_STATUS_NO_CONTENT" title='HTTP_STATUS_NO_CONTENT' data-ref="HTTP_STATUS_NO_CONTENT" data-ref-filename="HTTP_STATUS_NO_CONTENT">HTTP_STATUS_NO_CONTENT</dfn> = <var>204</var>,</td></tr>
+<tr><th id="203">203</th><td>  <dfn class="enum" id="HTTP_STATUS_RESET_CONTENT" title='HTTP_STATUS_RESET_CONTENT' data-ref="HTTP_STATUS_RESET_CONTENT" data-ref-filename="HTTP_STATUS_RESET_CONTENT">HTTP_STATUS_RESET_CONTENT</dfn> = <var>205</var>,</td></tr>
+<tr><th id="204">204</th><td>  <dfn class="enum" id="HTTP_STATUS_PARTIAL_CONTENT" title='HTTP_STATUS_PARTIAL_CONTENT' data-ref="HTTP_STATUS_PARTIAL_CONTENT" data-ref-filename="HTTP_STATUS_PARTIAL_CONTENT">HTTP_STATUS_PARTIAL_CONTENT</dfn> = <var>206</var>,</td></tr>
+<tr><th id="205">205</th><td>  <dfn class="enum" id="HTTP_STATUS_MULTI_STATUS" title='HTTP_STATUS_MULTI_STATUS' data-ref="HTTP_STATUS_MULTI_STATUS" data-ref-filename="HTTP_STATUS_MULTI_STATUS">HTTP_STATUS_MULTI_STATUS</dfn> = <var>207</var>,</td></tr>
+<tr><th id="206">206</th><td>  <dfn class="enum" id="HTTP_STATUS_ALREADY_REPORTED" title='HTTP_STATUS_ALREADY_REPORTED' data-ref="HTTP_STATUS_ALREADY_REPORTED" data-ref-filename="HTTP_STATUS_ALREADY_REPORTED">HTTP_STATUS_ALREADY_REPORTED</dfn> = <var>208</var>,</td></tr>
+<tr><th id="207">207</th><td>  <dfn class="enum" id="HTTP_STATUS_TRANSFORMATION_APPLIED" title='HTTP_STATUS_TRANSFORMATION_APPLIED' data-ref="HTTP_STATUS_TRANSFORMATION_APPLIED" data-ref-filename="HTTP_STATUS_TRANSFORMATION_APPLIED">HTTP_STATUS_TRANSFORMATION_APPLIED</dfn> = <var>214</var>,</td></tr>
+<tr><th id="208">208</th><td>  <dfn class="enum" id="HTTP_STATUS_IM_USED" title='HTTP_STATUS_IM_USED' data-ref="HTTP_STATUS_IM_USED" data-ref-filename="HTTP_STATUS_IM_USED">HTTP_STATUS_IM_USED</dfn> = <var>226</var>,</td></tr>
+<tr><th id="209">209</th><td>  <dfn class="enum" id="HTTP_STATUS_MISCELLANEOUS_PERSISTENT_WARNING" title='HTTP_STATUS_MISCELLANEOUS_PERSISTENT_WARNING' data-ref="HTTP_STATUS_MISCELLANEOUS_PERSISTENT_WARNING" data-ref-filename="HTTP_STATUS_MISCELLANEOUS_PERSISTENT_WARNING">HTTP_STATUS_MISCELLANEOUS_PERSISTENT_WARNING</dfn> = <var>299</var>,</td></tr>
+<tr><th id="210">210</th><td>  <dfn class="enum" id="HTTP_STATUS_MULTIPLE_CHOICES" title='HTTP_STATUS_MULTIPLE_CHOICES' data-ref="HTTP_STATUS_MULTIPLE_CHOICES" data-ref-filename="HTTP_STATUS_MULTIPLE_CHOICES">HTTP_STATUS_MULTIPLE_CHOICES</dfn> = <var>300</var>,</td></tr>
+<tr><th id="211">211</th><td>  <dfn class="enum" id="HTTP_STATUS_MOVED_PERMANENTLY" title='HTTP_STATUS_MOVED_PERMANENTLY' data-ref="HTTP_STATUS_MOVED_PERMANENTLY" data-ref-filename="HTTP_STATUS_MOVED_PERMANENTLY">HTTP_STATUS_MOVED_PERMANENTLY</dfn> = <var>301</var>,</td></tr>
+<tr><th id="212">212</th><td>  <dfn class="enum" id="HTTP_STATUS_FOUND" title='HTTP_STATUS_FOUND' data-ref="HTTP_STATUS_FOUND" data-ref-filename="HTTP_STATUS_FOUND">HTTP_STATUS_FOUND</dfn> = <var>302</var>,</td></tr>
+<tr><th id="213">213</th><td>  <dfn class="enum" id="HTTP_STATUS_SEE_OTHER" title='HTTP_STATUS_SEE_OTHER' data-ref="HTTP_STATUS_SEE_OTHER" data-ref-filename="HTTP_STATUS_SEE_OTHER">HTTP_STATUS_SEE_OTHER</dfn> = <var>303</var>,</td></tr>
+<tr><th id="214">214</th><td>  <dfn class="enum" id="HTTP_STATUS_NOT_MODIFIED" title='HTTP_STATUS_NOT_MODIFIED' data-ref="HTTP_STATUS_NOT_MODIFIED" data-ref-filename="HTTP_STATUS_NOT_MODIFIED">HTTP_STATUS_NOT_MODIFIED</dfn> = <var>304</var>,</td></tr>
+<tr><th id="215">215</th><td>  <dfn class="enum" id="HTTP_STATUS_USE_PROXY" title='HTTP_STATUS_USE_PROXY' data-ref="HTTP_STATUS_USE_PROXY" data-ref-filename="HTTP_STATUS_USE_PROXY">HTTP_STATUS_USE_PROXY</dfn> = <var>305</var>,</td></tr>
+<tr><th id="216">216</th><td>  <dfn class="enum" id="HTTP_STATUS_SWITCH_PROXY" title='HTTP_STATUS_SWITCH_PROXY' data-ref="HTTP_STATUS_SWITCH_PROXY" data-ref-filename="HTTP_STATUS_SWITCH_PROXY">HTTP_STATUS_SWITCH_PROXY</dfn> = <var>306</var>,</td></tr>
+<tr><th id="217">217</th><td>  <dfn class="enum" id="HTTP_STATUS_TEMPORARY_REDIRECT" title='HTTP_STATUS_TEMPORARY_REDIRECT' data-ref="HTTP_STATUS_TEMPORARY_REDIRECT" data-ref-filename="HTTP_STATUS_TEMPORARY_REDIRECT">HTTP_STATUS_TEMPORARY_REDIRECT</dfn> = <var>307</var>,</td></tr>
+<tr><th id="218">218</th><td>  <dfn class="enum" id="HTTP_STATUS_PERMANENT_REDIRECT" title='HTTP_STATUS_PERMANENT_REDIRECT' data-ref="HTTP_STATUS_PERMANENT_REDIRECT" data-ref-filename="HTTP_STATUS_PERMANENT_REDIRECT">HTTP_STATUS_PERMANENT_REDIRECT</dfn> = <var>308</var>,</td></tr>
+<tr><th id="219">219</th><td>  <dfn class="enum" id="HTTP_STATUS_BAD_REQUEST" title='HTTP_STATUS_BAD_REQUEST' data-ref="HTTP_STATUS_BAD_REQUEST" data-ref-filename="HTTP_STATUS_BAD_REQUEST">HTTP_STATUS_BAD_REQUEST</dfn> = <var>400</var>,</td></tr>
+<tr><th id="220">220</th><td>  <dfn class="enum" id="HTTP_STATUS_UNAUTHORIZED" title='HTTP_STATUS_UNAUTHORIZED' data-ref="HTTP_STATUS_UNAUTHORIZED" data-ref-filename="HTTP_STATUS_UNAUTHORIZED">HTTP_STATUS_UNAUTHORIZED</dfn> = <var>401</var>,</td></tr>
+<tr><th id="221">221</th><td>  <dfn class="enum" id="HTTP_STATUS_PAYMENT_REQUIRED" title='HTTP_STATUS_PAYMENT_REQUIRED' data-ref="HTTP_STATUS_PAYMENT_REQUIRED" data-ref-filename="HTTP_STATUS_PAYMENT_REQUIRED">HTTP_STATUS_PAYMENT_REQUIRED</dfn> = <var>402</var>,</td></tr>
+<tr><th id="222">222</th><td>  <dfn class="enum" id="HTTP_STATUS_FORBIDDEN" title='HTTP_STATUS_FORBIDDEN' data-ref="HTTP_STATUS_FORBIDDEN" data-ref-filename="HTTP_STATUS_FORBIDDEN">HTTP_STATUS_FORBIDDEN</dfn> = <var>403</var>,</td></tr>
+<tr><th id="223">223</th><td>  <dfn class="enum" id="HTTP_STATUS_NOT_FOUND" title='HTTP_STATUS_NOT_FOUND' data-ref="HTTP_STATUS_NOT_FOUND" data-ref-filename="HTTP_STATUS_NOT_FOUND">HTTP_STATUS_NOT_FOUND</dfn> = <var>404</var>,</td></tr>
+<tr><th id="224">224</th><td>  <dfn class="enum" id="HTTP_STATUS_METHOD_NOT_ALLOWED" title='HTTP_STATUS_METHOD_NOT_ALLOWED' data-ref="HTTP_STATUS_METHOD_NOT_ALLOWED" data-ref-filename="HTTP_STATUS_METHOD_NOT_ALLOWED">HTTP_STATUS_METHOD_NOT_ALLOWED</dfn> = <var>405</var>,</td></tr>
+<tr><th id="225">225</th><td>  <dfn class="enum" id="HTTP_STATUS_NOT_ACCEPTABLE" title='HTTP_STATUS_NOT_ACCEPTABLE' data-ref="HTTP_STATUS_NOT_ACCEPTABLE" data-ref-filename="HTTP_STATUS_NOT_ACCEPTABLE">HTTP_STATUS_NOT_ACCEPTABLE</dfn> = <var>406</var>,</td></tr>
+<tr><th id="226">226</th><td>  <dfn class="enum" id="HTTP_STATUS_PROXY_AUTHENTICATION_REQUIRED" title='HTTP_STATUS_PROXY_AUTHENTICATION_REQUIRED' data-ref="HTTP_STATUS_PROXY_AUTHENTICATION_REQUIRED" data-ref-filename="HTTP_STATUS_PROXY_AUTHENTICATION_REQUIRED">HTTP_STATUS_PROXY_AUTHENTICATION_REQUIRED</dfn> = <var>407</var>,</td></tr>
+<tr><th id="227">227</th><td>  <dfn class="enum" id="HTTP_STATUS_REQUEST_TIMEOUT" title='HTTP_STATUS_REQUEST_TIMEOUT' data-ref="HTTP_STATUS_REQUEST_TIMEOUT" data-ref-filename="HTTP_STATUS_REQUEST_TIMEOUT">HTTP_STATUS_REQUEST_TIMEOUT</dfn> = <var>408</var>,</td></tr>
+<tr><th id="228">228</th><td>  <dfn class="enum" id="HTTP_STATUS_CONFLICT" title='HTTP_STATUS_CONFLICT' data-ref="HTTP_STATUS_CONFLICT" data-ref-filename="HTTP_STATUS_CONFLICT">HTTP_STATUS_CONFLICT</dfn> = <var>409</var>,</td></tr>
+<tr><th id="229">229</th><td>  <dfn class="enum" id="HTTP_STATUS_GONE" title='HTTP_STATUS_GONE' data-ref="HTTP_STATUS_GONE" data-ref-filename="HTTP_STATUS_GONE">HTTP_STATUS_GONE</dfn> = <var>410</var>,</td></tr>
+<tr><th id="230">230</th><td>  <dfn class="enum" id="HTTP_STATUS_LENGTH_REQUIRED" title='HTTP_STATUS_LENGTH_REQUIRED' data-ref="HTTP_STATUS_LENGTH_REQUIRED" data-ref-filename="HTTP_STATUS_LENGTH_REQUIRED">HTTP_STATUS_LENGTH_REQUIRED</dfn> = <var>411</var>,</td></tr>
+<tr><th id="231">231</th><td>  <dfn class="enum" id="HTTP_STATUS_PRECONDITION_FAILED" title='HTTP_STATUS_PRECONDITION_FAILED' data-ref="HTTP_STATUS_PRECONDITION_FAILED" data-ref-filename="HTTP_STATUS_PRECONDITION_FAILED">HTTP_STATUS_PRECONDITION_FAILED</dfn> = <var>412</var>,</td></tr>
+<tr><th id="232">232</th><td>  <dfn class="enum" id="HTTP_STATUS_PAYLOAD_TOO_LARGE" title='HTTP_STATUS_PAYLOAD_TOO_LARGE' data-ref="HTTP_STATUS_PAYLOAD_TOO_LARGE" data-ref-filename="HTTP_STATUS_PAYLOAD_TOO_LARGE">HTTP_STATUS_PAYLOAD_TOO_LARGE</dfn> = <var>413</var>,</td></tr>
+<tr><th id="233">233</th><td>  <dfn class="enum" id="HTTP_STATUS_URI_TOO_LONG" title='HTTP_STATUS_URI_TOO_LONG' data-ref="HTTP_STATUS_URI_TOO_LONG" data-ref-filename="HTTP_STATUS_URI_TOO_LONG">HTTP_STATUS_URI_TOO_LONG</dfn> = <var>414</var>,</td></tr>
+<tr><th id="234">234</th><td>  <dfn class="enum" id="HTTP_STATUS_UNSUPPORTED_MEDIA_TYPE" title='HTTP_STATUS_UNSUPPORTED_MEDIA_TYPE' data-ref="HTTP_STATUS_UNSUPPORTED_MEDIA_TYPE" data-ref-filename="HTTP_STATUS_UNSUPPORTED_MEDIA_TYPE">HTTP_STATUS_UNSUPPORTED_MEDIA_TYPE</dfn> = <var>415</var>,</td></tr>
+<tr><th id="235">235</th><td>  <dfn class="enum" id="HTTP_STATUS_RANGE_NOT_SATISFIABLE" title='HTTP_STATUS_RANGE_NOT_SATISFIABLE' data-ref="HTTP_STATUS_RANGE_NOT_SATISFIABLE" data-ref-filename="HTTP_STATUS_RANGE_NOT_SATISFIABLE">HTTP_STATUS_RANGE_NOT_SATISFIABLE</dfn> = <var>416</var>,</td></tr>
+<tr><th id="236">236</th><td>  <dfn class="enum" id="HTTP_STATUS_EXPECTATION_FAILED" title='HTTP_STATUS_EXPECTATION_FAILED' data-ref="HTTP_STATUS_EXPECTATION_FAILED" data-ref-filename="HTTP_STATUS_EXPECTATION_FAILED">HTTP_STATUS_EXPECTATION_FAILED</dfn> = <var>417</var>,</td></tr>
+<tr><th id="237">237</th><td>  <dfn class="enum" id="HTTP_STATUS_IM_A_TEAPOT" title='HTTP_STATUS_IM_A_TEAPOT' data-ref="HTTP_STATUS_IM_A_TEAPOT" data-ref-filename="HTTP_STATUS_IM_A_TEAPOT">HTTP_STATUS_IM_A_TEAPOT</dfn> = <var>418</var>,</td></tr>
+<tr><th id="238">238</th><td>  <dfn class="enum" id="HTTP_STATUS_PAGE_EXPIRED" title='HTTP_STATUS_PAGE_EXPIRED' data-ref="HTTP_STATUS_PAGE_EXPIRED" data-ref-filename="HTTP_STATUS_PAGE_EXPIRED">HTTP_STATUS_PAGE_EXPIRED</dfn> = <var>419</var>,</td></tr>
+<tr><th id="239">239</th><td>  <dfn class="enum" id="HTTP_STATUS_ENHANCE_YOUR_CALM" title='HTTP_STATUS_ENHANCE_YOUR_CALM' data-ref="HTTP_STATUS_ENHANCE_YOUR_CALM" data-ref-filename="HTTP_STATUS_ENHANCE_YOUR_CALM">HTTP_STATUS_ENHANCE_YOUR_CALM</dfn> = <var>420</var>,</td></tr>
+<tr><th id="240">240</th><td>  <dfn class="enum" id="HTTP_STATUS_MISDIRECTED_REQUEST" title='HTTP_STATUS_MISDIRECTED_REQUEST' data-ref="HTTP_STATUS_MISDIRECTED_REQUEST" data-ref-filename="HTTP_STATUS_MISDIRECTED_REQUEST">HTTP_STATUS_MISDIRECTED_REQUEST</dfn> = <var>421</var>,</td></tr>
+<tr><th id="241">241</th><td>  <dfn class="enum" id="HTTP_STATUS_UNPROCESSABLE_ENTITY" title='HTTP_STATUS_UNPROCESSABLE_ENTITY' data-ref="HTTP_STATUS_UNPROCESSABLE_ENTITY" data-ref-filename="HTTP_STATUS_UNPROCESSABLE_ENTITY">HTTP_STATUS_UNPROCESSABLE_ENTITY</dfn> = <var>422</var>,</td></tr>
+<tr><th id="242">242</th><td>  <dfn class="enum" id="HTTP_STATUS_LOCKED" title='HTTP_STATUS_LOCKED' data-ref="HTTP_STATUS_LOCKED" data-ref-filename="HTTP_STATUS_LOCKED">HTTP_STATUS_LOCKED</dfn> = <var>423</var>,</td></tr>
+<tr><th id="243">243</th><td>  <dfn class="enum" id="HTTP_STATUS_FAILED_DEPENDENCY" title='HTTP_STATUS_FAILED_DEPENDENCY' data-ref="HTTP_STATUS_FAILED_DEPENDENCY" data-ref-filename="HTTP_STATUS_FAILED_DEPENDENCY">HTTP_STATUS_FAILED_DEPENDENCY</dfn> = <var>424</var>,</td></tr>
+<tr><th id="244">244</th><td>  <dfn class="enum" id="HTTP_STATUS_TOO_EARLY" title='HTTP_STATUS_TOO_EARLY' data-ref="HTTP_STATUS_TOO_EARLY" data-ref-filename="HTTP_STATUS_TOO_EARLY">HTTP_STATUS_TOO_EARLY</dfn> = <var>425</var>,</td></tr>
+<tr><th id="245">245</th><td>  <dfn class="enum" id="HTTP_STATUS_UPGRADE_REQUIRED" title='HTTP_STATUS_UPGRADE_REQUIRED' data-ref="HTTP_STATUS_UPGRADE_REQUIRED" data-ref-filename="HTTP_STATUS_UPGRADE_REQUIRED">HTTP_STATUS_UPGRADE_REQUIRED</dfn> = <var>426</var>,</td></tr>
+<tr><th id="246">246</th><td>  <dfn class="enum" id="HTTP_STATUS_PRECONDITION_REQUIRED" title='HTTP_STATUS_PRECONDITION_REQUIRED' data-ref="HTTP_STATUS_PRECONDITION_REQUIRED" data-ref-filename="HTTP_STATUS_PRECONDITION_REQUIRED">HTTP_STATUS_PRECONDITION_REQUIRED</dfn> = <var>428</var>,</td></tr>
+<tr><th id="247">247</th><td>  <dfn class="enum" id="HTTP_STATUS_TOO_MANY_REQUESTS" title='HTTP_STATUS_TOO_MANY_REQUESTS' data-ref="HTTP_STATUS_TOO_MANY_REQUESTS" data-ref-filename="HTTP_STATUS_TOO_MANY_REQUESTS">HTTP_STATUS_TOO_MANY_REQUESTS</dfn> = <var>429</var>,</td></tr>
+<tr><th id="248">248</th><td>  <dfn class="enum" id="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL" title='HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL' data-ref="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL" data-ref-filename="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL">HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL</dfn> = <var>430</var>,</td></tr>
+<tr><th id="249">249</th><td>  <dfn class="enum" id="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE" title='HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE' data-ref="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE" data-ref-filename="HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE">HTTP_STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE</dfn> = <var>431</var>,</td></tr>
+<tr><th id="250">250</th><td>  <dfn class="enum" id="HTTP_STATUS_LOGIN_TIMEOUT" title='HTTP_STATUS_LOGIN_TIMEOUT' data-ref="HTTP_STATUS_LOGIN_TIMEOUT" data-ref-filename="HTTP_STATUS_LOGIN_TIMEOUT">HTTP_STATUS_LOGIN_TIMEOUT</dfn> = <var>440</var>,</td></tr>
+<tr><th id="251">251</th><td>  <dfn class="enum" id="HTTP_STATUS_NO_RESPONSE" title='HTTP_STATUS_NO_RESPONSE' data-ref="HTTP_STATUS_NO_RESPONSE" data-ref-filename="HTTP_STATUS_NO_RESPONSE">HTTP_STATUS_NO_RESPONSE</dfn> = <var>444</var>,</td></tr>
+<tr><th id="252">252</th><td>  <dfn class="enum" id="HTTP_STATUS_RETRY_WITH" title='HTTP_STATUS_RETRY_WITH' data-ref="HTTP_STATUS_RETRY_WITH" data-ref-filename="HTTP_STATUS_RETRY_WITH">HTTP_STATUS_RETRY_WITH</dfn> = <var>449</var>,</td></tr>
+<tr><th id="253">253</th><td>  <dfn class="enum" id="HTTP_STATUS_BLOCKED_BY_PARENTAL_CONTROL" title='HTTP_STATUS_BLOCKED_BY_PARENTAL_CONTROL' data-ref="HTTP_STATUS_BLOCKED_BY_PARENTAL_CONTROL" data-ref-filename="HTTP_STATUS_BLOCKED_BY_PARENTAL_CONTROL">HTTP_STATUS_BLOCKED_BY_PARENTAL_CONTROL</dfn> = <var>450</var>,</td></tr>
+<tr><th id="254">254</th><td>  <dfn class="enum" id="HTTP_STATUS_UNAVAILABLE_FOR_LEGAL_REASONS" title='HTTP_STATUS_UNAVAILABLE_FOR_LEGAL_REASONS' data-ref="HTTP_STATUS_UNAVAILABLE_FOR_LEGAL_REASONS" data-ref-filename="HTTP_STATUS_UNAVAILABLE_FOR_LEGAL_REASONS">HTTP_STATUS_UNAVAILABLE_FOR_LEGAL_REASONS</dfn> = <var>451</var>,</td></tr>
+<tr><th id="255">255</th><td>  <dfn class="enum" id="HTTP_STATUS_CLIENT_CLOSED_LOAD_BALANCED_REQUEST" title='HTTP_STATUS_CLIENT_CLOSED_LOAD_BALANCED_REQUEST' data-ref="HTTP_STATUS_CLIENT_CLOSED_LOAD_BALANCED_REQUEST" data-ref-filename="HTTP_STATUS_CLIENT_CLOSED_LOAD_BALANCED_REQUEST">HTTP_STATUS_CLIENT_CLOSED_LOAD_BALANCED_REQUEST</dfn> = <var>460</var>,</td></tr>
+<tr><th id="256">256</th><td>  <dfn class="enum" id="HTTP_STATUS_INVALID_X_FORWARDED_FOR" title='HTTP_STATUS_INVALID_X_FORWARDED_FOR' data-ref="HTTP_STATUS_INVALID_X_FORWARDED_FOR" data-ref-filename="HTTP_STATUS_INVALID_X_FORWARDED_FOR">HTTP_STATUS_INVALID_X_FORWARDED_FOR</dfn> = <var>463</var>,</td></tr>
+<tr><th id="257">257</th><td>  <dfn class="enum" id="HTTP_STATUS_REQUEST_HEADER_TOO_LARGE" title='HTTP_STATUS_REQUEST_HEADER_TOO_LARGE' data-ref="HTTP_STATUS_REQUEST_HEADER_TOO_LARGE" data-ref-filename="HTTP_STATUS_REQUEST_HEADER_TOO_LARGE">HTTP_STATUS_REQUEST_HEADER_TOO_LARGE</dfn> = <var>494</var>,</td></tr>
+<tr><th id="258">258</th><td>  <dfn class="enum" id="HTTP_STATUS_SSL_CERTIFICATE_ERROR" title='HTTP_STATUS_SSL_CERTIFICATE_ERROR' data-ref="HTTP_STATUS_SSL_CERTIFICATE_ERROR" data-ref-filename="HTTP_STATUS_SSL_CERTIFICATE_ERROR">HTTP_STATUS_SSL_CERTIFICATE_ERROR</dfn> = <var>495</var>,</td></tr>
+<tr><th id="259">259</th><td>  <dfn class="enum" id="HTTP_STATUS_SSL_CERTIFICATE_REQUIRED" title='HTTP_STATUS_SSL_CERTIFICATE_REQUIRED' data-ref="HTTP_STATUS_SSL_CERTIFICATE_REQUIRED" data-ref-filename="HTTP_STATUS_SSL_CERTIFICATE_REQUIRED">HTTP_STATUS_SSL_CERTIFICATE_REQUIRED</dfn> = <var>496</var>,</td></tr>
+<tr><th id="260">260</th><td>  <dfn class="enum" id="HTTP_STATUS_HTTP_REQUEST_SENT_TO_HTTPS_PORT" title='HTTP_STATUS_HTTP_REQUEST_SENT_TO_HTTPS_PORT' data-ref="HTTP_STATUS_HTTP_REQUEST_SENT_TO_HTTPS_PORT" data-ref-filename="HTTP_STATUS_HTTP_REQUEST_SENT_TO_HTTPS_PORT">HTTP_STATUS_HTTP_REQUEST_SENT_TO_HTTPS_PORT</dfn> = <var>497</var>,</td></tr>
+<tr><th id="261">261</th><td>  <dfn class="enum" id="HTTP_STATUS_INVALID_TOKEN" title='HTTP_STATUS_INVALID_TOKEN' data-ref="HTTP_STATUS_INVALID_TOKEN" data-ref-filename="HTTP_STATUS_INVALID_TOKEN">HTTP_STATUS_INVALID_TOKEN</dfn> = <var>498</var>,</td></tr>
+<tr><th id="262">262</th><td>  <dfn class="enum" id="HTTP_STATUS_CLIENT_CLOSED_REQUEST" title='HTTP_STATUS_CLIENT_CLOSED_REQUEST' data-ref="HTTP_STATUS_CLIENT_CLOSED_REQUEST" data-ref-filename="HTTP_STATUS_CLIENT_CLOSED_REQUEST">HTTP_STATUS_CLIENT_CLOSED_REQUEST</dfn> = <var>499</var>,</td></tr>
+<tr><th id="263">263</th><td>  <dfn class="enum" id="HTTP_STATUS_INTERNAL_SERVER_ERROR" title='HTTP_STATUS_INTERNAL_SERVER_ERROR' data-ref="HTTP_STATUS_INTERNAL_SERVER_ERROR" data-ref-filename="HTTP_STATUS_INTERNAL_SERVER_ERROR">HTTP_STATUS_INTERNAL_SERVER_ERROR</dfn> = <var>500</var>,</td></tr>
+<tr><th id="264">264</th><td>  <dfn class="enum" id="HTTP_STATUS_NOT_IMPLEMENTED" title='HTTP_STATUS_NOT_IMPLEMENTED' data-ref="HTTP_STATUS_NOT_IMPLEMENTED" data-ref-filename="HTTP_STATUS_NOT_IMPLEMENTED">HTTP_STATUS_NOT_IMPLEMENTED</dfn> = <var>501</var>,</td></tr>
+<tr><th id="265">265</th><td>  <dfn class="enum" id="HTTP_STATUS_BAD_GATEWAY" title='HTTP_STATUS_BAD_GATEWAY' data-ref="HTTP_STATUS_BAD_GATEWAY" data-ref-filename="HTTP_STATUS_BAD_GATEWAY">HTTP_STATUS_BAD_GATEWAY</dfn> = <var>502</var>,</td></tr>
+<tr><th id="266">266</th><td>  <dfn class="enum" id="HTTP_STATUS_SERVICE_UNAVAILABLE" title='HTTP_STATUS_SERVICE_UNAVAILABLE' data-ref="HTTP_STATUS_SERVICE_UNAVAILABLE" data-ref-filename="HTTP_STATUS_SERVICE_UNAVAILABLE">HTTP_STATUS_SERVICE_UNAVAILABLE</dfn> = <var>503</var>,</td></tr>
+<tr><th id="267">267</th><td>  <dfn class="enum" id="HTTP_STATUS_GATEWAY_TIMEOUT" title='HTTP_STATUS_GATEWAY_TIMEOUT' data-ref="HTTP_STATUS_GATEWAY_TIMEOUT" data-ref-filename="HTTP_STATUS_GATEWAY_TIMEOUT">HTTP_STATUS_GATEWAY_TIMEOUT</dfn> = <var>504</var>,</td></tr>
+<tr><th id="268">268</th><td>  <dfn class="enum" id="HTTP_STATUS_HTTP_VERSION_NOT_SUPPORTED" title='HTTP_STATUS_HTTP_VERSION_NOT_SUPPORTED' data-ref="HTTP_STATUS_HTTP_VERSION_NOT_SUPPORTED" data-ref-filename="HTTP_STATUS_HTTP_VERSION_NOT_SUPPORTED">HTTP_STATUS_HTTP_VERSION_NOT_SUPPORTED</dfn> = <var>505</var>,</td></tr>
+<tr><th id="269">269</th><td>  <dfn class="enum" id="HTTP_STATUS_VARIANT_ALSO_NEGOTIATES" title='HTTP_STATUS_VARIANT_ALSO_NEGOTIATES' data-ref="HTTP_STATUS_VARIANT_ALSO_NEGOTIATES" data-ref-filename="HTTP_STATUS_VARIANT_ALSO_NEGOTIATES">HTTP_STATUS_VARIANT_ALSO_NEGOTIATES</dfn> = <var>506</var>,</td></tr>
+<tr><th id="270">270</th><td>  <dfn class="enum" id="HTTP_STATUS_INSUFFICIENT_STORAGE" title='HTTP_STATUS_INSUFFICIENT_STORAGE' data-ref="HTTP_STATUS_INSUFFICIENT_STORAGE" data-ref-filename="HTTP_STATUS_INSUFFICIENT_STORAGE">HTTP_STATUS_INSUFFICIENT_STORAGE</dfn> = <var>507</var>,</td></tr>
+<tr><th id="271">271</th><td>  <dfn class="enum" id="HTTP_STATUS_LOOP_DETECTED" title='HTTP_STATUS_LOOP_DETECTED' data-ref="HTTP_STATUS_LOOP_DETECTED" data-ref-filename="HTTP_STATUS_LOOP_DETECTED">HTTP_STATUS_LOOP_DETECTED</dfn> = <var>508</var>,</td></tr>
+<tr><th id="272">272</th><td>  <dfn class="enum" id="HTTP_STATUS_BANDWIDTH_LIMIT_EXCEEDED" title='HTTP_STATUS_BANDWIDTH_LIMIT_EXCEEDED' data-ref="HTTP_STATUS_BANDWIDTH_LIMIT_EXCEEDED" data-ref-filename="HTTP_STATUS_BANDWIDTH_LIMIT_EXCEEDED">HTTP_STATUS_BANDWIDTH_LIMIT_EXCEEDED</dfn> = <var>509</var>,</td></tr>
+<tr><th id="273">273</th><td>  <dfn class="enum" id="HTTP_STATUS_NOT_EXTENDED" title='HTTP_STATUS_NOT_EXTENDED' data-ref="HTTP_STATUS_NOT_EXTENDED" data-ref-filename="HTTP_STATUS_NOT_EXTENDED">HTTP_STATUS_NOT_EXTENDED</dfn> = <var>510</var>,</td></tr>
+<tr><th id="274">274</th><td>  <dfn class="enum" id="HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED" title='HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED' data-ref="HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED" data-ref-filename="HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED">HTTP_STATUS_NETWORK_AUTHENTICATION_REQUIRED</dfn> = <var>511</var>,</td></tr>
+<tr><th id="275">275</th><td>  <dfn class="enum" id="HTTP_STATUS_WEB_SERVER_UNKNOWN_ERROR" title='HTTP_STATUS_WEB_SERVER_UNKNOWN_ERROR' data-ref="HTTP_STATUS_WEB_SERVER_UNKNOWN_ERROR" data-ref-filename="HTTP_STATUS_WEB_SERVER_UNKNOWN_ERROR">HTTP_STATUS_WEB_SERVER_UNKNOWN_ERROR</dfn> = <var>520</var>,</td></tr>
+<tr><th id="276">276</th><td>  <dfn class="enum" id="HTTP_STATUS_WEB_SERVER_IS_DOWN" title='HTTP_STATUS_WEB_SERVER_IS_DOWN' data-ref="HTTP_STATUS_WEB_SERVER_IS_DOWN" data-ref-filename="HTTP_STATUS_WEB_SERVER_IS_DOWN">HTTP_STATUS_WEB_SERVER_IS_DOWN</dfn> = <var>521</var>,</td></tr>
+<tr><th id="277">277</th><td>  <dfn class="enum" id="HTTP_STATUS_CONNECTION_TIMEOUT" title='HTTP_STATUS_CONNECTION_TIMEOUT' data-ref="HTTP_STATUS_CONNECTION_TIMEOUT" data-ref-filename="HTTP_STATUS_CONNECTION_TIMEOUT">HTTP_STATUS_CONNECTION_TIMEOUT</dfn> = <var>522</var>,</td></tr>
+<tr><th id="278">278</th><td>  <dfn class="enum" id="HTTP_STATUS_ORIGIN_IS_UNREACHABLE" title='HTTP_STATUS_ORIGIN_IS_UNREACHABLE' data-ref="HTTP_STATUS_ORIGIN_IS_UNREACHABLE" data-ref-filename="HTTP_STATUS_ORIGIN_IS_UNREACHABLE">HTTP_STATUS_ORIGIN_IS_UNREACHABLE</dfn> = <var>523</var>,</td></tr>
+<tr><th id="279">279</th><td>  <dfn class="enum" id="HTTP_STATUS_TIMEOUT_OCCURED" title='HTTP_STATUS_TIMEOUT_OCCURED' data-ref="HTTP_STATUS_TIMEOUT_OCCURED" data-ref-filename="HTTP_STATUS_TIMEOUT_OCCURED">HTTP_STATUS_TIMEOUT_OCCURED</dfn> = <var>524</var>,</td></tr>
+<tr><th id="280">280</th><td>  <dfn class="enum" id="HTTP_STATUS_SSL_HANDSHAKE_FAILED" title='HTTP_STATUS_SSL_HANDSHAKE_FAILED' data-ref="HTTP_STATUS_SSL_HANDSHAKE_FAILED" data-ref-filename="HTTP_STATUS_SSL_HANDSHAKE_FAILED">HTTP_STATUS_SSL_HANDSHAKE_FAILED</dfn> = <var>525</var>,</td></tr>
+<tr><th id="281">281</th><td>  <dfn class="enum" id="HTTP_STATUS_INVALID_SSL_CERTIFICATE" title='HTTP_STATUS_INVALID_SSL_CERTIFICATE' data-ref="HTTP_STATUS_INVALID_SSL_CERTIFICATE" data-ref-filename="HTTP_STATUS_INVALID_SSL_CERTIFICATE">HTTP_STATUS_INVALID_SSL_CERTIFICATE</dfn> = <var>526</var>,</td></tr>
+<tr><th id="282">282</th><td>  <dfn class="enum" id="HTTP_STATUS_RAILGUN_ERROR" title='HTTP_STATUS_RAILGUN_ERROR' data-ref="HTTP_STATUS_RAILGUN_ERROR" data-ref-filename="HTTP_STATUS_RAILGUN_ERROR">HTTP_STATUS_RAILGUN_ERROR</dfn> = <var>527</var>,</td></tr>
+<tr><th id="283">283</th><td>  <dfn class="enum" id="HTTP_STATUS_SITE_IS_OVERLOADED" title='HTTP_STATUS_SITE_IS_OVERLOADED' data-ref="HTTP_STATUS_SITE_IS_OVERLOADED" data-ref-filename="HTTP_STATUS_SITE_IS_OVERLOADED">HTTP_STATUS_SITE_IS_OVERLOADED</dfn> = <var>529</var>,</td></tr>
+<tr><th id="284">284</th><td>  <dfn class="enum" id="HTTP_STATUS_SITE_IS_FROZEN" title='HTTP_STATUS_SITE_IS_FROZEN' data-ref="HTTP_STATUS_SITE_IS_FROZEN" data-ref-filename="HTTP_STATUS_SITE_IS_FROZEN">HTTP_STATUS_SITE_IS_FROZEN</dfn> = <var>530</var>,</td></tr>
+<tr><th id="285">285</th><td>  <dfn class="enum" id="HTTP_STATUS_IDENTITY_PROVIDER_AUTHENTICATION_ERROR" title='HTTP_STATUS_IDENTITY_PROVIDER_AUTHENTICATION_ERROR' data-ref="HTTP_STATUS_IDENTITY_PROVIDER_AUTHENTICATION_ERROR" data-ref-filename="HTTP_STATUS_IDENTITY_PROVIDER_AUTHENTICATION_ERROR">HTTP_STATUS_IDENTITY_PROVIDER_AUTHENTICATION_ERROR</dfn> = <var>561</var>,</td></tr>
+<tr><th id="286">286</th><td>  <dfn class="enum" id="HTTP_STATUS_NETWORK_READ_TIMEOUT" title='HTTP_STATUS_NETWORK_READ_TIMEOUT' data-ref="HTTP_STATUS_NETWORK_READ_TIMEOUT" data-ref-filename="HTTP_STATUS_NETWORK_READ_TIMEOUT">HTTP_STATUS_NETWORK_READ_TIMEOUT</dfn> = <var>598</var>,</td></tr>
+<tr><th id="287">287</th><td>  <dfn class="enum" id="HTTP_STATUS_NETWORK_CONNECT_TIMEOUT" title='HTTP_STATUS_NETWORK_CONNECT_TIMEOUT' data-ref="HTTP_STATUS_NETWORK_CONNECT_TIMEOUT" data-ref-filename="HTTP_STATUS_NETWORK_CONNECT_TIMEOUT">HTTP_STATUS_NETWORK_CONNECT_TIMEOUT</dfn> = <var>599</var></td></tr>
+<tr><th id="288">288</th><td>};</td></tr>
+<tr><th id="289">289</th><td><b>typedef</b> <b>enum</b> <a class="type" href="#llhttp_status" title='llhttp_status' data-ref="llhttp_status" data-ref-filename="llhttp_status">llhttp_status</a> <dfn class="typedef" id="llhttp_status_t" title='llhttp_status_t' data-type='enum llhttp_status' data-ref="llhttp_status_t" data-ref-filename="llhttp_status_t">llhttp_status_t</dfn>;</td></tr>
+<tr><th id="290">290</th><td></td></tr>
+<tr><th id="291">291</th><td><u>#define <dfn class="macro" id="_M/HTTP_ERRNO_MAP" data-ref="_M/HTTP_ERRNO_MAP">HTTP_ERRNO_MAP</dfn>(XX) \</u></td></tr>
+<tr><th id="292">292</th><td><u>  XX(0, OK, OK) \</u></td></tr>
+<tr><th id="293">293</th><td><u>  XX(1, INTERNAL, INTERNAL) \</u></td></tr>
+<tr><th id="294">294</th><td><u>  XX(2, STRICT, STRICT) \</u></td></tr>
+<tr><th id="295">295</th><td><u>  XX(25, CR_EXPECTED, CR_EXPECTED) \</u></td></tr>
+<tr><th id="296">296</th><td><u>  XX(3, LF_EXPECTED, LF_EXPECTED) \</u></td></tr>
+<tr><th id="297">297</th><td><u>  XX(4, UNEXPECTED_CONTENT_LENGTH, UNEXPECTED_CONTENT_LENGTH) \</u></td></tr>
+<tr><th id="298">298</th><td><u>  XX(30, UNEXPECTED_SPACE, UNEXPECTED_SPACE) \</u></td></tr>
+<tr><th id="299">299</th><td><u>  XX(5, CLOSED_CONNECTION, CLOSED_CONNECTION) \</u></td></tr>
+<tr><th id="300">300</th><td><u>  XX(6, INVALID_METHOD, INVALID_METHOD) \</u></td></tr>
+<tr><th id="301">301</th><td><u>  XX(7, INVALID_URL, INVALID_URL) \</u></td></tr>
+<tr><th id="302">302</th><td><u>  XX(8, INVALID_CONSTANT, INVALID_CONSTANT) \</u></td></tr>
+<tr><th id="303">303</th><td><u>  XX(9, INVALID_VERSION, INVALID_VERSION) \</u></td></tr>
+<tr><th id="304">304</th><td><u>  XX(10, INVALID_HEADER_TOKEN, INVALID_HEADER_TOKEN) \</u></td></tr>
+<tr><th id="305">305</th><td><u>  XX(11, INVALID_CONTENT_LENGTH, INVALID_CONTENT_LENGTH) \</u></td></tr>
+<tr><th id="306">306</th><td><u>  XX(12, INVALID_CHUNK_SIZE, INVALID_CHUNK_SIZE) \</u></td></tr>
+<tr><th id="307">307</th><td><u>  XX(13, INVALID_STATUS, INVALID_STATUS) \</u></td></tr>
+<tr><th id="308">308</th><td><u>  XX(14, INVALID_EOF_STATE, INVALID_EOF_STATE) \</u></td></tr>
+<tr><th id="309">309</th><td><u>  XX(15, INVALID_TRANSFER_ENCODING, INVALID_TRANSFER_ENCODING) \</u></td></tr>
+<tr><th id="310">310</th><td><u>  XX(16, CB_MESSAGE_BEGIN, CB_MESSAGE_BEGIN) \</u></td></tr>
+<tr><th id="311">311</th><td><u>  XX(17, CB_HEADERS_COMPLETE, CB_HEADERS_COMPLETE) \</u></td></tr>
+<tr><th id="312">312</th><td><u>  XX(18, CB_MESSAGE_COMPLETE, CB_MESSAGE_COMPLETE) \</u></td></tr>
+<tr><th id="313">313</th><td><u>  XX(19, CB_CHUNK_HEADER, CB_CHUNK_HEADER) \</u></td></tr>
+<tr><th id="314">314</th><td><u>  XX(20, CB_CHUNK_COMPLETE, CB_CHUNK_COMPLETE) \</u></td></tr>
+<tr><th id="315">315</th><td><u>  XX(21, PAUSED, PAUSED) \</u></td></tr>
+<tr><th id="316">316</th><td><u>  XX(22, PAUSED_UPGRADE, PAUSED_UPGRADE) \</u></td></tr>
+<tr><th id="317">317</th><td><u>  XX(23, PAUSED_H2_UPGRADE, PAUSED_H2_UPGRADE) \</u></td></tr>
+<tr><th id="318">318</th><td><u>  XX(24, USER, USER) \</u></td></tr>
+<tr><th id="319">319</th><td><u>  XX(26, CB_URL_COMPLETE, CB_URL_COMPLETE) \</u></td></tr>
+<tr><th id="320">320</th><td><u>  XX(27, CB_STATUS_COMPLETE, CB_STATUS_COMPLETE) \</u></td></tr>
+<tr><th id="321">321</th><td><u>  XX(32, CB_METHOD_COMPLETE, CB_METHOD_COMPLETE) \</u></td></tr>
+<tr><th id="322">322</th><td><u>  XX(33, CB_VERSION_COMPLETE, CB_VERSION_COMPLETE) \</u></td></tr>
+<tr><th id="323">323</th><td><u>  XX(28, CB_HEADER_FIELD_COMPLETE, CB_HEADER_FIELD_COMPLETE) \</u></td></tr>
+<tr><th id="324">324</th><td><u>  XX(29, CB_HEADER_VALUE_COMPLETE, CB_HEADER_VALUE_COMPLETE) \</u></td></tr>
+<tr><th id="325">325</th><td><u>  XX(34, CB_CHUNK_EXTENSION_NAME_COMPLETE, CB_CHUNK_EXTENSION_NAME_COMPLETE) \</u></td></tr>
+<tr><th id="326">326</th><td><u>  XX(35, CB_CHUNK_EXTENSION_VALUE_COMPLETE, CB_CHUNK_EXTENSION_VALUE_COMPLETE) \</u></td></tr>
+<tr><th id="327">327</th><td><u>  XX(31, CB_RESET, CB_RESET)</u> \</td></tr>
+<tr><th id="328">328</th><td></td></tr>
+<tr><th id="329">329</th><td></td></tr>
+<tr><th id="330">330</th><td><u>#define <dfn class="macro" id="_M/HTTP_METHOD_MAP" data-ref="_M/HTTP_METHOD_MAP">HTTP_METHOD_MAP</dfn>(XX) \</u></td></tr>
+<tr><th id="331">331</th><td><u>  XX(0, DELETE, DELETE) \</u></td></tr>
+<tr><th id="332">332</th><td><u>  XX(1, GET, GET) \</u></td></tr>
+<tr><th id="333">333</th><td><u>  XX(2, HEAD, HEAD) \</u></td></tr>
+<tr><th id="334">334</th><td><u>  XX(3, POST, POST) \</u></td></tr>
+<tr><th id="335">335</th><td><u>  XX(4, PUT, PUT) \</u></td></tr>
+<tr><th id="336">336</th><td><u>  XX(5, CONNECT, CONNECT) \</u></td></tr>
+<tr><th id="337">337</th><td><u>  XX(6, OPTIONS, OPTIONS) \</u></td></tr>
+<tr><th id="338">338</th><td><u>  XX(7, TRACE, TRACE) \</u></td></tr>
+<tr><th id="339">339</th><td><u>  XX(8, COPY, COPY) \</u></td></tr>
+<tr><th id="340">340</th><td><u>  XX(9, LOCK, LOCK) \</u></td></tr>
+<tr><th id="341">341</th><td><u>  XX(10, MKCOL, MKCOL) \</u></td></tr>
+<tr><th id="342">342</th><td><u>  XX(11, MOVE, MOVE) \</u></td></tr>
+<tr><th id="343">343</th><td><u>  XX(12, PROPFIND, PROPFIND) \</u></td></tr>
+<tr><th id="344">344</th><td><u>  XX(13, PROPPATCH, PROPPATCH) \</u></td></tr>
+<tr><th id="345">345</th><td><u>  XX(14, SEARCH, SEARCH) \</u></td></tr>
+<tr><th id="346">346</th><td><u>  XX(15, UNLOCK, UNLOCK) \</u></td></tr>
+<tr><th id="347">347</th><td><u>  XX(16, BIND, BIND) \</u></td></tr>
+<tr><th id="348">348</th><td><u>  XX(17, REBIND, REBIND) \</u></td></tr>
+<tr><th id="349">349</th><td><u>  XX(18, UNBIND, UNBIND) \</u></td></tr>
+<tr><th id="350">350</th><td><u>  XX(19, ACL, ACL) \</u></td></tr>
+<tr><th id="351">351</th><td><u>  XX(20, REPORT, REPORT) \</u></td></tr>
+<tr><th id="352">352</th><td><u>  XX(21, MKACTIVITY, MKACTIVITY) \</u></td></tr>
+<tr><th id="353">353</th><td><u>  XX(22, CHECKOUT, CHECKOUT) \</u></td></tr>
+<tr><th id="354">354</th><td><u>  XX(23, MERGE, MERGE) \</u></td></tr>
+<tr><th id="355">355</th><td><u>  XX(24, MSEARCH, M-SEARCH) \</u></td></tr>
+<tr><th id="356">356</th><td><u>  XX(25, NOTIFY, NOTIFY) \</u></td></tr>
+<tr><th id="357">357</th><td><u>  XX(26, SUBSCRIBE, SUBSCRIBE) \</u></td></tr>
+<tr><th id="358">358</th><td><u>  XX(27, UNSUBSCRIBE, UNSUBSCRIBE) \</u></td></tr>
+<tr><th id="359">359</th><td><u>  XX(28, PATCH, PATCH) \</u></td></tr>
+<tr><th id="360">360</th><td><u>  XX(29, PURGE, PURGE) \</u></td></tr>
+<tr><th id="361">361</th><td><u>  XX(30, MKCALENDAR, MKCALENDAR) \</u></td></tr>
+<tr><th id="362">362</th><td><u>  XX(31, LINK, LINK) \</u></td></tr>
+<tr><th id="363">363</th><td><u>  XX(32, UNLINK, UNLINK) \</u></td></tr>
+<tr><th id="364">364</th><td><u>  XX(33, SOURCE, SOURCE)</u> \</td></tr>
+<tr><th id="365">365</th><td></td></tr>
+<tr><th id="366">366</th><td></td></tr>
+<tr><th id="367">367</th><td><u>#define <dfn class="macro" id="_M/RTSP_METHOD_MAP" data-ref="_M/RTSP_METHOD_MAP">RTSP_METHOD_MAP</dfn>(XX) \</u></td></tr>
+<tr><th id="368">368</th><td><u>  XX(1, GET, GET) \</u></td></tr>
+<tr><th id="369">369</th><td><u>  XX(3, POST, POST) \</u></td></tr>
+<tr><th id="370">370</th><td><u>  XX(6, OPTIONS, OPTIONS) \</u></td></tr>
+<tr><th id="371">371</th><td><u>  XX(35, DESCRIBE, DESCRIBE) \</u></td></tr>
+<tr><th id="372">372</th><td><u>  XX(36, ANNOUNCE, ANNOUNCE) \</u></td></tr>
+<tr><th id="373">373</th><td><u>  XX(37, SETUP, SETUP) \</u></td></tr>
+<tr><th id="374">374</th><td><u>  XX(38, PLAY, PLAY) \</u></td></tr>
+<tr><th id="375">375</th><td><u>  XX(39, PAUSE, PAUSE) \</u></td></tr>
+<tr><th id="376">376</th><td><u>  XX(40, TEARDOWN, TEARDOWN) \</u></td></tr>
+<tr><th id="377">377</th><td><u>  XX(41, GET_PARAMETER, GET_PARAMETER) \</u></td></tr>
+<tr><th id="378">378</th><td><u>  XX(42, SET_PARAMETER, SET_PARAMETER) \</u></td></tr>
+<tr><th id="379">379</th><td><u>  XX(43, REDIRECT, REDIRECT) \</u></td></tr>
+<tr><th id="380">380</th><td><u>  XX(44, RECORD, RECORD) \</u></td></tr>
+<tr><th id="381">381</th><td><u>  XX(45, FLUSH, FLUSH)</u> \</td></tr>
+<tr><th id="382">382</th><td></td></tr>
+<tr><th id="383">383</th><td></td></tr>
+<tr><th id="384">384</th><td><u>#define <dfn class="macro" id="_M/HTTP_ALL_METHOD_MAP" data-ref="_M/HTTP_ALL_METHOD_MAP">HTTP_ALL_METHOD_MAP</dfn>(XX) \</u></td></tr>
+<tr><th id="385">385</th><td><u>  XX(0, DELETE, DELETE) \</u></td></tr>
+<tr><th id="386">386</th><td><u>  XX(1, GET, GET) \</u></td></tr>
+<tr><th id="387">387</th><td><u>  XX(2, HEAD, HEAD) \</u></td></tr>
+<tr><th id="388">388</th><td><u>  XX(3, POST, POST) \</u></td></tr>
+<tr><th id="389">389</th><td><u>  XX(4, PUT, PUT) \</u></td></tr>
+<tr><th id="390">390</th><td><u>  XX(5, CONNECT, CONNECT) \</u></td></tr>
+<tr><th id="391">391</th><td><u>  XX(6, OPTIONS, OPTIONS) \</u></td></tr>
+<tr><th id="392">392</th><td><u>  XX(7, TRACE, TRACE) \</u></td></tr>
+<tr><th id="393">393</th><td><u>  XX(8, COPY, COPY) \</u></td></tr>
+<tr><th id="394">394</th><td><u>  XX(9, LOCK, LOCK) \</u></td></tr>
+<tr><th id="395">395</th><td><u>  XX(10, MKCOL, MKCOL) \</u></td></tr>
+<tr><th id="396">396</th><td><u>  XX(11, MOVE, MOVE) \</u></td></tr>
+<tr><th id="397">397</th><td><u>  XX(12, PROPFIND, PROPFIND) \</u></td></tr>
+<tr><th id="398">398</th><td><u>  XX(13, PROPPATCH, PROPPATCH) \</u></td></tr>
+<tr><th id="399">399</th><td><u>  XX(14, SEARCH, SEARCH) \</u></td></tr>
+<tr><th id="400">400</th><td><u>  XX(15, UNLOCK, UNLOCK) \</u></td></tr>
+<tr><th id="401">401</th><td><u>  XX(16, BIND, BIND) \</u></td></tr>
+<tr><th id="402">402</th><td><u>  XX(17, REBIND, REBIND) \</u></td></tr>
+<tr><th id="403">403</th><td><u>  XX(18, UNBIND, UNBIND) \</u></td></tr>
+<tr><th id="404">404</th><td><u>  XX(19, ACL, ACL) \</u></td></tr>
+<tr><th id="405">405</th><td><u>  XX(20, REPORT, REPORT) \</u></td></tr>
+<tr><th id="406">406</th><td><u>  XX(21, MKACTIVITY, MKACTIVITY) \</u></td></tr>
+<tr><th id="407">407</th><td><u>  XX(22, CHECKOUT, CHECKOUT) \</u></td></tr>
+<tr><th id="408">408</th><td><u>  XX(23, MERGE, MERGE) \</u></td></tr>
+<tr><th id="409">409</th><td><u>  XX(24, MSEARCH, M-SEARCH) \</u></td></tr>
+<tr><th id="410">410</th><td><u>  XX(25, NOTIFY, NOTIFY) \</u></td></tr>
+<tr><th id="411">411</th><td><u>  XX(26, SUBSCRIBE, SUBSCRIBE) \</u></td></tr>
+<tr><th id="412">412</th><td><u>  XX(27, UNSUBSCRIBE, UNSUBSCRIBE) \</u></td></tr>
+<tr><th id="413">413</th><td><u>  XX(28, PATCH, PATCH) \</u></td></tr>
+<tr><th id="414">414</th><td><u>  XX(29, PURGE, PURGE) \</u></td></tr>
+<tr><th id="415">415</th><td><u>  XX(30, MKCALENDAR, MKCALENDAR) \</u></td></tr>
+<tr><th id="416">416</th><td><u>  XX(31, LINK, LINK) \</u></td></tr>
+<tr><th id="417">417</th><td><u>  XX(32, UNLINK, UNLINK) \</u></td></tr>
+<tr><th id="418">418</th><td><u>  XX(33, SOURCE, SOURCE) \</u></td></tr>
+<tr><th id="419">419</th><td><u>  XX(34, PRI, PRI) \</u></td></tr>
+<tr><th id="420">420</th><td><u>  XX(35, DESCRIBE, DESCRIBE) \</u></td></tr>
+<tr><th id="421">421</th><td><u>  XX(36, ANNOUNCE, ANNOUNCE) \</u></td></tr>
+<tr><th id="422">422</th><td><u>  XX(37, SETUP, SETUP) \</u></td></tr>
+<tr><th id="423">423</th><td><u>  XX(38, PLAY, PLAY) \</u></td></tr>
+<tr><th id="424">424</th><td><u>  XX(39, PAUSE, PAUSE) \</u></td></tr>
+<tr><th id="425">425</th><td><u>  XX(40, TEARDOWN, TEARDOWN) \</u></td></tr>
+<tr><th id="426">426</th><td><u>  XX(41, GET_PARAMETER, GET_PARAMETER) \</u></td></tr>
+<tr><th id="427">427</th><td><u>  XX(42, SET_PARAMETER, SET_PARAMETER) \</u></td></tr>
+<tr><th id="428">428</th><td><u>  XX(43, REDIRECT, REDIRECT) \</u></td></tr>
+<tr><th id="429">429</th><td><u>  XX(44, RECORD, RECORD) \</u></td></tr>
+<tr><th id="430">430</th><td><u>  XX(45, FLUSH, FLUSH)</u> \</td></tr>
+<tr><th id="431">431</th><td></td></tr>
+<tr><th id="432">432</th><td></td></tr>
+<tr><th id="433">433</th><td><u>#define <dfn class="macro" id="_M/HTTP_STATUS_MAP" data-ref="_M/HTTP_STATUS_MAP">HTTP_STATUS_MAP</dfn>(XX) \</u></td></tr>
+<tr><th id="434">434</th><td><u>  XX(100, CONTINUE, CONTINUE) \</u></td></tr>
+<tr><th id="435">435</th><td><u>  XX(101, SWITCHING_PROTOCOLS, SWITCHING_PROTOCOLS) \</u></td></tr>
+<tr><th id="436">436</th><td><u>  XX(102, PROCESSING, PROCESSING) \</u></td></tr>
+<tr><th id="437">437</th><td><u>  XX(103, EARLY_HINTS, EARLY_HINTS) \</u></td></tr>
+<tr><th id="438">438</th><td><u>  XX(110, RESPONSE_IS_STALE, RESPONSE_IS_STALE) \</u></td></tr>
+<tr><th id="439">439</th><td><u>  XX(111, REVALIDATION_FAILED, REVALIDATION_FAILED) \</u></td></tr>
+<tr><th id="440">440</th><td><u>  XX(112, DISCONNECTED_OPERATION, DISCONNECTED_OPERATION) \</u></td></tr>
+<tr><th id="441">441</th><td><u>  XX(113, HEURISTIC_EXPIRATION, HEURISTIC_EXPIRATION) \</u></td></tr>
+<tr><th id="442">442</th><td><u>  XX(199, MISCELLANEOUS_WARNING, MISCELLANEOUS_WARNING) \</u></td></tr>
+<tr><th id="443">443</th><td><u>  XX(200, OK, OK) \</u></td></tr>
+<tr><th id="444">444</th><td><u>  XX(201, CREATED, CREATED) \</u></td></tr>
+<tr><th id="445">445</th><td><u>  XX(202, ACCEPTED, ACCEPTED) \</u></td></tr>
+<tr><th id="446">446</th><td><u>  XX(203, NON_AUTHORITATIVE_INFORMATION, NON_AUTHORITATIVE_INFORMATION) \</u></td></tr>
+<tr><th id="447">447</th><td><u>  XX(204, NO_CONTENT, NO_CONTENT) \</u></td></tr>
+<tr><th id="448">448</th><td><u>  XX(205, RESET_CONTENT, RESET_CONTENT) \</u></td></tr>
+<tr><th id="449">449</th><td><u>  XX(206, PARTIAL_CONTENT, PARTIAL_CONTENT) \</u></td></tr>
+<tr><th id="450">450</th><td><u>  XX(207, MULTI_STATUS, MULTI_STATUS) \</u></td></tr>
+<tr><th id="451">451</th><td><u>  XX(208, ALREADY_REPORTED, ALREADY_REPORTED) \</u></td></tr>
+<tr><th id="452">452</th><td><u>  XX(214, TRANSFORMATION_APPLIED, TRANSFORMATION_APPLIED) \</u></td></tr>
+<tr><th id="453">453</th><td><u>  XX(226, IM_USED, IM_USED) \</u></td></tr>
+<tr><th id="454">454</th><td><u>  XX(299, MISCELLANEOUS_PERSISTENT_WARNING, MISCELLANEOUS_PERSISTENT_WARNING) \</u></td></tr>
+<tr><th id="455">455</th><td><u>  XX(300, MULTIPLE_CHOICES, MULTIPLE_CHOICES) \</u></td></tr>
+<tr><th id="456">456</th><td><u>  XX(301, MOVED_PERMANENTLY, MOVED_PERMANENTLY) \</u></td></tr>
+<tr><th id="457">457</th><td><u>  XX(302, FOUND, FOUND) \</u></td></tr>
+<tr><th id="458">458</th><td><u>  XX(303, SEE_OTHER, SEE_OTHER) \</u></td></tr>
+<tr><th id="459">459</th><td><u>  XX(304, NOT_MODIFIED, NOT_MODIFIED) \</u></td></tr>
+<tr><th id="460">460</th><td><u>  XX(305, USE_PROXY, USE_PROXY) \</u></td></tr>
+<tr><th id="461">461</th><td><u>  XX(306, SWITCH_PROXY, SWITCH_PROXY) \</u></td></tr>
+<tr><th id="462">462</th><td><u>  XX(307, TEMPORARY_REDIRECT, TEMPORARY_REDIRECT) \</u></td></tr>
+<tr><th id="463">463</th><td><u>  XX(308, PERMANENT_REDIRECT, PERMANENT_REDIRECT) \</u></td></tr>
+<tr><th id="464">464</th><td><u>  XX(400, BAD_REQUEST, BAD_REQUEST) \</u></td></tr>
+<tr><th id="465">465</th><td><u>  XX(401, UNAUTHORIZED, UNAUTHORIZED) \</u></td></tr>
+<tr><th id="466">466</th><td><u>  XX(402, PAYMENT_REQUIRED, PAYMENT_REQUIRED) \</u></td></tr>
+<tr><th id="467">467</th><td><u>  XX(403, FORBIDDEN, FORBIDDEN) \</u></td></tr>
+<tr><th id="468">468</th><td><u>  XX(404, NOT_FOUND, NOT_FOUND) \</u></td></tr>
+<tr><th id="469">469</th><td><u>  XX(405, METHOD_NOT_ALLOWED, METHOD_NOT_ALLOWED) \</u></td></tr>
+<tr><th id="470">470</th><td><u>  XX(406, NOT_ACCEPTABLE, NOT_ACCEPTABLE) \</u></td></tr>
+<tr><th id="471">471</th><td><u>  XX(407, PROXY_AUTHENTICATION_REQUIRED, PROXY_AUTHENTICATION_REQUIRED) \</u></td></tr>
+<tr><th id="472">472</th><td><u>  XX(408, REQUEST_TIMEOUT, REQUEST_TIMEOUT) \</u></td></tr>
+<tr><th id="473">473</th><td><u>  XX(409, CONFLICT, CONFLICT) \</u></td></tr>
+<tr><th id="474">474</th><td><u>  XX(410, GONE, GONE) \</u></td></tr>
+<tr><th id="475">475</th><td><u>  XX(411, LENGTH_REQUIRED, LENGTH_REQUIRED) \</u></td></tr>
+<tr><th id="476">476</th><td><u>  XX(412, PRECONDITION_FAILED, PRECONDITION_FAILED) \</u></td></tr>
+<tr><th id="477">477</th><td><u>  XX(413, PAYLOAD_TOO_LARGE, PAYLOAD_TOO_LARGE) \</u></td></tr>
+<tr><th id="478">478</th><td><u>  XX(414, URI_TOO_LONG, URI_TOO_LONG) \</u></td></tr>
+<tr><th id="479">479</th><td><u>  XX(415, UNSUPPORTED_MEDIA_TYPE, UNSUPPORTED_MEDIA_TYPE) \</u></td></tr>
+<tr><th id="480">480</th><td><u>  XX(416, RANGE_NOT_SATISFIABLE, RANGE_NOT_SATISFIABLE) \</u></td></tr>
+<tr><th id="481">481</th><td><u>  XX(417, EXPECTATION_FAILED, EXPECTATION_FAILED) \</u></td></tr>
+<tr><th id="482">482</th><td><u>  XX(418, IM_A_TEAPOT, IM_A_TEAPOT) \</u></td></tr>
+<tr><th id="483">483</th><td><u>  XX(419, PAGE_EXPIRED, PAGE_EXPIRED) \</u></td></tr>
+<tr><th id="484">484</th><td><u>  XX(420, ENHANCE_YOUR_CALM, ENHANCE_YOUR_CALM) \</u></td></tr>
+<tr><th id="485">485</th><td><u>  XX(421, MISDIRECTED_REQUEST, MISDIRECTED_REQUEST) \</u></td></tr>
+<tr><th id="486">486</th><td><u>  XX(422, UNPROCESSABLE_ENTITY, UNPROCESSABLE_ENTITY) \</u></td></tr>
+<tr><th id="487">487</th><td><u>  XX(423, LOCKED, LOCKED) \</u></td></tr>
+<tr><th id="488">488</th><td><u>  XX(424, FAILED_DEPENDENCY, FAILED_DEPENDENCY) \</u></td></tr>
+<tr><th id="489">489</th><td><u>  XX(425, TOO_EARLY, TOO_EARLY) \</u></td></tr>
+<tr><th id="490">490</th><td><u>  XX(426, UPGRADE_REQUIRED, UPGRADE_REQUIRED) \</u></td></tr>
+<tr><th id="491">491</th><td><u>  XX(428, PRECONDITION_REQUIRED, PRECONDITION_REQUIRED) \</u></td></tr>
+<tr><th id="492">492</th><td><u>  XX(429, TOO_MANY_REQUESTS, TOO_MANY_REQUESTS) \</u></td></tr>
+<tr><th id="493">493</th><td><u>  XX(430, REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL, REQUEST_HEADER_FIELDS_TOO_LARGE_UNOFFICIAL) \</u></td></tr>
+<tr><th id="494">494</th><td><u>  XX(431, REQUEST_HEADER_FIELDS_TOO_LARGE, REQUEST_HEADER_FIELDS_TOO_LARGE) \</u></td></tr>
+<tr><th id="495">495</th><td><u>  XX(440, LOGIN_TIMEOUT, LOGIN_TIMEOUT) \</u></td></tr>
+<tr><th id="496">496</th><td><u>  XX(444, NO_RESPONSE, NO_RESPONSE) \</u></td></tr>
+<tr><th id="497">497</th><td><u>  XX(449, RETRY_WITH, RETRY_WITH) \</u></td></tr>
+<tr><th id="498">498</th><td><u>  XX(450, BLOCKED_BY_PARENTAL_CONTROL, BLOCKED_BY_PARENTAL_CONTROL) \</u></td></tr>
+<tr><th id="499">499</th><td><u>  XX(451, UNAVAILABLE_FOR_LEGAL_REASONS, UNAVAILABLE_FOR_LEGAL_REASONS) \</u></td></tr>
+<tr><th id="500">500</th><td><u>  XX(460, CLIENT_CLOSED_LOAD_BALANCED_REQUEST, CLIENT_CLOSED_LOAD_BALANCED_REQUEST) \</u></td></tr>
+<tr><th id="501">501</th><td><u>  XX(463, INVALID_X_FORWARDED_FOR, INVALID_X_FORWARDED_FOR) \</u></td></tr>
+<tr><th id="502">502</th><td><u>  XX(494, REQUEST_HEADER_TOO_LARGE, REQUEST_HEADER_TOO_LARGE) \</u></td></tr>
+<tr><th id="503">503</th><td><u>  XX(495, SSL_CERTIFICATE_ERROR, SSL_CERTIFICATE_ERROR) \</u></td></tr>
+<tr><th id="504">504</th><td><u>  XX(496, SSL_CERTIFICATE_REQUIRED, SSL_CERTIFICATE_REQUIRED) \</u></td></tr>
+<tr><th id="505">505</th><td><u>  XX(497, HTTP_REQUEST_SENT_TO_HTTPS_PORT, HTTP_REQUEST_SENT_TO_HTTPS_PORT) \</u></td></tr>
+<tr><th id="506">506</th><td><u>  XX(498, INVALID_TOKEN, INVALID_TOKEN) \</u></td></tr>
+<tr><th id="507">507</th><td><u>  XX(499, CLIENT_CLOSED_REQUEST, CLIENT_CLOSED_REQUEST) \</u></td></tr>
+<tr><th id="508">508</th><td><u>  XX(500, INTERNAL_SERVER_ERROR, INTERNAL_SERVER_ERROR) \</u></td></tr>
+<tr><th id="509">509</th><td><u>  XX(501, NOT_IMPLEMENTED, NOT_IMPLEMENTED) \</u></td></tr>
+<tr><th id="510">510</th><td><u>  XX(502, BAD_GATEWAY, BAD_GATEWAY) \</u></td></tr>
+<tr><th id="511">511</th><td><u>  XX(503, SERVICE_UNAVAILABLE, SERVICE_UNAVAILABLE) \</u></td></tr>
+<tr><th id="512">512</th><td><u>  XX(504, GATEWAY_TIMEOUT, GATEWAY_TIMEOUT) \</u></td></tr>
+<tr><th id="513">513</th><td><u>  XX(505, HTTP_VERSION_NOT_SUPPORTED, HTTP_VERSION_NOT_SUPPORTED) \</u></td></tr>
+<tr><th id="514">514</th><td><u>  XX(506, VARIANT_ALSO_NEGOTIATES, VARIANT_ALSO_NEGOTIATES) \</u></td></tr>
+<tr><th id="515">515</th><td><u>  XX(507, INSUFFICIENT_STORAGE, INSUFFICIENT_STORAGE) \</u></td></tr>
+<tr><th id="516">516</th><td><u>  XX(508, LOOP_DETECTED, LOOP_DETECTED) \</u></td></tr>
+<tr><th id="517">517</th><td><u>  XX(509, BANDWIDTH_LIMIT_EXCEEDED, BANDWIDTH_LIMIT_EXCEEDED) \</u></td></tr>
+<tr><th id="518">518</th><td><u>  XX(510, NOT_EXTENDED, NOT_EXTENDED) \</u></td></tr>
+<tr><th id="519">519</th><td><u>  XX(511, NETWORK_AUTHENTICATION_REQUIRED, NETWORK_AUTHENTICATION_REQUIRED) \</u></td></tr>
+<tr><th id="520">520</th><td><u>  XX(520, WEB_SERVER_UNKNOWN_ERROR, WEB_SERVER_UNKNOWN_ERROR) \</u></td></tr>
+<tr><th id="521">521</th><td><u>  XX(521, WEB_SERVER_IS_DOWN, WEB_SERVER_IS_DOWN) \</u></td></tr>
+<tr><th id="522">522</th><td><u>  XX(522, CONNECTION_TIMEOUT, CONNECTION_TIMEOUT) \</u></td></tr>
+<tr><th id="523">523</th><td><u>  XX(523, ORIGIN_IS_UNREACHABLE, ORIGIN_IS_UNREACHABLE) \</u></td></tr>
+<tr><th id="524">524</th><td><u>  XX(524, TIMEOUT_OCCURED, TIMEOUT_OCCURED) \</u></td></tr>
+<tr><th id="525">525</th><td><u>  XX(525, SSL_HANDSHAKE_FAILED, SSL_HANDSHAKE_FAILED) \</u></td></tr>
+<tr><th id="526">526</th><td><u>  XX(526, INVALID_SSL_CERTIFICATE, INVALID_SSL_CERTIFICATE) \</u></td></tr>
+<tr><th id="527">527</th><td><u>  XX(527, RAILGUN_ERROR, RAILGUN_ERROR) \</u></td></tr>
+<tr><th id="528">528</th><td><u>  XX(529, SITE_IS_OVERLOADED, SITE_IS_OVERLOADED) \</u></td></tr>
+<tr><th id="529">529</th><td><u>  XX(530, SITE_IS_FROZEN, SITE_IS_FROZEN) \</u></td></tr>
+<tr><th id="530">530</th><td><u>  XX(561, IDENTITY_PROVIDER_AUTHENTICATION_ERROR, IDENTITY_PROVIDER_AUTHENTICATION_ERROR) \</u></td></tr>
+<tr><th id="531">531</th><td><u>  XX(598, NETWORK_READ_TIMEOUT, NETWORK_READ_TIMEOUT) \</u></td></tr>
+<tr><th id="532">532</th><td><u>  XX(599, NETWORK_CONNECT_TIMEOUT, NETWORK_CONNECT_TIMEOUT)</u> \</td></tr>
+<tr><th id="533">533</th><td></td></tr>
+<tr><th id="534">534</th><td></td></tr>
+<tr><th id="535">535</th><td><u>#<span data-ppcond="535">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="536">536</th><td>}  <i>/* extern "C" */</i></td></tr>
+<tr><th id="537">537</th><td><u>#<span data-ppcond="535">endif</span></u></td></tr>
+<tr><th id="538">538</th><td><u>#<span data-ppcond="51">endif</span>  /* LLLLHTTP_C_HEADERS_ */</u></td></tr>
+<tr><th id="539">539</th><td></td></tr>
+<tr><th id="540">540</th><td></td></tr>
+<tr><th id="541">541</th><td><u>#<span data-ppcond="541">ifndef</span> <span class="macro" data-ref="_M/INCLUDE_LLHTTP_API_H_">INCLUDE_LLHTTP_API_H_</span></u></td></tr>
+<tr><th id="542">542</th><td><u>#define <dfn class="macro" id="_M/INCLUDE_LLHTTP_API_H_" data-ref="_M/INCLUDE_LLHTTP_API_H_">INCLUDE_LLHTTP_API_H_</dfn></u></td></tr>
+<tr><th id="543">543</th><td><u>#<span data-ppcond="543">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="544">544</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="545">545</th><td><u>#<span data-ppcond="543">endif</span></u></td></tr>
+<tr><th id="546">546</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="547">547</th><td></td></tr>
+<tr><th id="548">548</th><td><u>#<span data-ppcond="548">if</span> defined(<span class="macro" data-ref="_M/__wasm__">__wasm__</span>)</u></td></tr>
+<tr><th id="549">549</th><td><u>#define LLHTTP_EXPORT __attribute__((visibility("default")))</u></td></tr>
+<tr><th id="550">550</th><td><u>#<span data-ppcond="548">else</span></u></td></tr>
+<tr><th id="551">551</th><td><u>#define <dfn class="macro" id="_M/LLHTTP_EXPORT" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</dfn></u></td></tr>
+<tr><th id="552">552</th><td><u>#<span data-ppcond="548">endif</span></u></td></tr>
+<tr><th id="553">553</th><td></td></tr>
+<tr><th id="554">554</th><td><b>typedef</b> <a class="typedef" href="#llhttp__internal_t" title='llhttp__internal_t' data-type='struct llhttp__internal_s' data-ref="llhttp__internal_t" data-ref-filename="llhttp__internal_t">llhttp__internal_t</a> <dfn class="typedef" id="llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</dfn>;</td></tr>
+<tr><th id="555">555</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#llhttp_settings_s" title='llhttp_settings_s' data-ref="llhttp_settings_s" data-ref-filename="llhttp_settings_s">llhttp_settings_s</a> <dfn class="typedef" id="llhttp_settings_t" title='llhttp_settings_t' data-type='struct llhttp_settings_s' data-ref="llhttp_settings_t" data-ref-filename="llhttp_settings_t">llhttp_settings_t</dfn>;</td></tr>
+<tr><th id="556">556</th><td></td></tr>
+<tr><th id="557">557</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</dfn>)(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>*, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="8424at" title='at' data-type='const char *' data-ref="8424at" data-ref-filename="8424at">at</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="8425length" title='length' data-type='size_t' data-ref="8425length" data-ref-filename="8425length">length</dfn>);</td></tr>
+<tr><th id="558">558</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</dfn>)(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>*);</td></tr>
+<tr><th id="559">559</th><td></td></tr>
+<tr><th id="560">560</th><td><b>struct</b> <dfn class="type def" id="llhttp_settings_s" title='llhttp_settings_s' data-ref="llhttp_settings_s" data-ref-filename="llhttp_settings_s">llhttp_settings_s</dfn> {</td></tr>
+<tr><th id="561">561</th><td>  <i>/* Possible return values 0, -1, `HPE_PAUSED` */</i></td></tr>
+<tr><th id="562">562</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_message_begin" title='llhttp_settings_s::on_message_begin' data-ref="llhttp_settings_s::on_message_begin" data-ref-filename="llhttp_settings_s..on_message_begin">on_message_begin</dfn>;</td></tr>
+<tr><th id="563">563</th><td></td></tr>
+<tr><th id="564">564</th><td>  <i>/* Possible return values 0, -1, HPE_USER */</i></td></tr>
+<tr><th id="565">565</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_url" title='llhttp_settings_s::on_url' data-ref="llhttp_settings_s::on_url" data-ref-filename="llhttp_settings_s..on_url">on_url</dfn>;</td></tr>
+<tr><th id="566">566</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_status" title='llhttp_settings_s::on_status' data-ref="llhttp_settings_s::on_status" data-ref-filename="llhttp_settings_s..on_status">on_status</dfn>;</td></tr>
+<tr><th id="567">567</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_method" title='llhttp_settings_s::on_method' data-ref="llhttp_settings_s::on_method" data-ref-filename="llhttp_settings_s..on_method">on_method</dfn>;</td></tr>
+<tr><th id="568">568</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_version" title='llhttp_settings_s::on_version' data-ref="llhttp_settings_s::on_version" data-ref-filename="llhttp_settings_s..on_version">on_version</dfn>;</td></tr>
+<tr><th id="569">569</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_header_field" title='llhttp_settings_s::on_header_field' data-ref="llhttp_settings_s::on_header_field" data-ref-filename="llhttp_settings_s..on_header_field">on_header_field</dfn>;</td></tr>
+<tr><th id="570">570</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_header_value" title='llhttp_settings_s::on_header_value' data-ref="llhttp_settings_s::on_header_value" data-ref-filename="llhttp_settings_s..on_header_value">on_header_value</dfn>;</td></tr>
+<tr><th id="571">571</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_extension_name" title='llhttp_settings_s::on_chunk_extension_name' data-ref="llhttp_settings_s::on_chunk_extension_name" data-ref-filename="llhttp_settings_s..on_chunk_extension_name">on_chunk_extension_name</dfn>;</td></tr>
+<tr><th id="572">572</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_extension_value" title='llhttp_settings_s::on_chunk_extension_value' data-ref="llhttp_settings_s::on_chunk_extension_value" data-ref-filename="llhttp_settings_s..on_chunk_extension_value">on_chunk_extension_value</dfn>;</td></tr>
+<tr><th id="573">573</th><td></td></tr>
+<tr><th id="574">574</th><td>  <i>/* Possible return values:</i></td></tr>
+<tr><th id="575">575</th><td><i>   * 0  - Proceed normally</i></td></tr>
+<tr><th id="576">576</th><td><i>   * 1  - Assume that request/response has no body, and proceed to parsing the</i></td></tr>
+<tr><th id="577">577</th><td><i>   *      next message</i></td></tr>
+<tr><th id="578">578</th><td><i>   * 2  - Assume absence of body (as above) and make `llhttp_execute()` return</i></td></tr>
+<tr><th id="579">579</th><td><i>   *      `HPE_PAUSED_UPGRADE`</i></td></tr>
+<tr><th id="580">580</th><td><i>   * -1 - Error</i></td></tr>
+<tr><th id="581">581</th><td><i>   * `HPE_PAUSED`</i></td></tr>
+<tr><th id="582">582</th><td><i>   */</i></td></tr>
+<tr><th id="583">583</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_headers_complete" title='llhttp_settings_s::on_headers_complete' data-ref="llhttp_settings_s::on_headers_complete" data-ref-filename="llhttp_settings_s..on_headers_complete">on_headers_complete</dfn>;</td></tr>
+<tr><th id="584">584</th><td></td></tr>
+<tr><th id="585">585</th><td>  <i>/* Possible return values 0, -1, HPE_USER */</i></td></tr>
+<tr><th id="586">586</th><td>  <a class="typedef" href="#llhttp_data_cb" title='llhttp_data_cb' data-type='int (*)(llhttp_t *, const char *, size_t)' data-ref="llhttp_data_cb" data-ref-filename="llhttp_data_cb">llhttp_data_cb</a> <dfn class="decl field" id="llhttp_settings_s::on_body" title='llhttp_settings_s::on_body' data-ref="llhttp_settings_s::on_body" data-ref-filename="llhttp_settings_s..on_body">on_body</dfn>;</td></tr>
+<tr><th id="587">587</th><td></td></tr>
+<tr><th id="588">588</th><td>  <i>/* Possible return values 0, -1, `HPE_PAUSED` */</i></td></tr>
+<tr><th id="589">589</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_message_complete" title='llhttp_settings_s::on_message_complete' data-ref="llhttp_settings_s::on_message_complete" data-ref-filename="llhttp_settings_s..on_message_complete">on_message_complete</dfn>;</td></tr>
+<tr><th id="590">590</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_url_complete" title='llhttp_settings_s::on_url_complete' data-ref="llhttp_settings_s::on_url_complete" data-ref-filename="llhttp_settings_s..on_url_complete">on_url_complete</dfn>;</td></tr>
+<tr><th id="591">591</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_status_complete" title='llhttp_settings_s::on_status_complete' data-ref="llhttp_settings_s::on_status_complete" data-ref-filename="llhttp_settings_s..on_status_complete">on_status_complete</dfn>;</td></tr>
+<tr><th id="592">592</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_method_complete" title='llhttp_settings_s::on_method_complete' data-ref="llhttp_settings_s::on_method_complete" data-ref-filename="llhttp_settings_s..on_method_complete">on_method_complete</dfn>;</td></tr>
+<tr><th id="593">593</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_version_complete" title='llhttp_settings_s::on_version_complete' data-ref="llhttp_settings_s::on_version_complete" data-ref-filename="llhttp_settings_s..on_version_complete">on_version_complete</dfn>;</td></tr>
+<tr><th id="594">594</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_header_field_complete" title='llhttp_settings_s::on_header_field_complete' data-ref="llhttp_settings_s::on_header_field_complete" data-ref-filename="llhttp_settings_s..on_header_field_complete">on_header_field_complete</dfn>;</td></tr>
+<tr><th id="595">595</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_header_value_complete" title='llhttp_settings_s::on_header_value_complete' data-ref="llhttp_settings_s::on_header_value_complete" data-ref-filename="llhttp_settings_s..on_header_value_complete">on_header_value_complete</dfn>;</td></tr>
+<tr><th id="596">596</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_extension_name_complete" title='llhttp_settings_s::on_chunk_extension_name_complete' data-ref="llhttp_settings_s::on_chunk_extension_name_complete" data-ref-filename="llhttp_settings_s..on_chunk_extension_name_complete">on_chunk_extension_name_complete</dfn>;</td></tr>
+<tr><th id="597">597</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_extension_value_complete" title='llhttp_settings_s::on_chunk_extension_value_complete' data-ref="llhttp_settings_s::on_chunk_extension_value_complete" data-ref-filename="llhttp_settings_s..on_chunk_extension_value_complete">on_chunk_extension_value_complete</dfn>;</td></tr>
+<tr><th id="598">598</th><td></td></tr>
+<tr><th id="599">599</th><td>  <i>/* When on_chunk_header is called, the current chunk length is stored</i></td></tr>
+<tr><th id="600">600</th><td><i>   * in parser-&gt;content_length.</i></td></tr>
+<tr><th id="601">601</th><td><i>   * Possible return values 0, -1, `HPE_PAUSED`</i></td></tr>
+<tr><th id="602">602</th><td><i>   */</i></td></tr>
+<tr><th id="603">603</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_header" title='llhttp_settings_s::on_chunk_header' data-ref="llhttp_settings_s::on_chunk_header" data-ref-filename="llhttp_settings_s..on_chunk_header">on_chunk_header</dfn>;</td></tr>
+<tr><th id="604">604</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_chunk_complete" title='llhttp_settings_s::on_chunk_complete' data-ref="llhttp_settings_s::on_chunk_complete" data-ref-filename="llhttp_settings_s..on_chunk_complete">on_chunk_complete</dfn>;</td></tr>
+<tr><th id="605">605</th><td>  <a class="typedef" href="#llhttp_cb" title='llhttp_cb' data-type='int (*)(llhttp_t *)' data-ref="llhttp_cb" data-ref-filename="llhttp_cb">llhttp_cb</a>      <dfn class="decl field" id="llhttp_settings_s::on_reset" title='llhttp_settings_s::on_reset' data-ref="llhttp_settings_s::on_reset" data-ref-filename="llhttp_settings_s..on_reset">on_reset</dfn>;</td></tr>
+<tr><th id="606">606</th><td>};</td></tr>
+<tr><th id="607">607</th><td></td></tr>
+<tr><th id="608">608</th><td><i>/* Initialize the parser with specific type and user settings.</i></td></tr>
+<tr><th id="609">609</th><td><i> *</i></td></tr>
+<tr><th id="610">610</th><td><i> * NOTE: lifetime of `settings` has to be at least the same as the lifetime of</i></td></tr>
+<tr><th id="611">611</th><td><i> * the `parser` here. In practice, `settings` has to be either a static</i></td></tr>
+<tr><th id="612">612</th><td><i> * variable or be allocated with `malloc`, `new`, etc.</i></td></tr>
+<tr><th id="613">613</th><td><i> */</i></td></tr>
+<tr><th id="614">614</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="615">615</th><td><em>void</em> <dfn class="decl fn" id="llhttp_init" title='llhttp_init' data-ref="llhttp_init" data-ref-filename="llhttp_init">llhttp_init</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col6 decl" id="8426parser" title='parser' data-type='llhttp_t *' data-ref="8426parser" data-ref-filename="8426parser">parser</dfn>, <a class="typedef" href="#llhttp_type_t" title='llhttp_type_t' data-type='enum llhttp_type' data-ref="llhttp_type_t" data-ref-filename="llhttp_type_t">llhttp_type_t</a> <dfn class="local col7 decl" id="8427type" title='type' data-type='llhttp_type_t' data-ref="8427type" data-ref-filename="8427type">type</dfn>,</td></tr>
+<tr><th id="616">616</th><td>                 <em>const</em> <a class="typedef" href="#llhttp_settings_t" title='llhttp_settings_t' data-type='struct llhttp_settings_s' data-ref="llhttp_settings_t" data-ref-filename="llhttp_settings_t">llhttp_settings_t</a>* <dfn class="local col8 decl" id="8428settings" title='settings' data-type='const llhttp_settings_t *' data-ref="8428settings" data-ref-filename="8428settings">settings</dfn>);</td></tr>
+<tr><th id="617">617</th><td></td></tr>
+<tr><th id="618">618</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="619">619</th><td><a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="decl fn" id="llhttp_alloc" title='llhttp_alloc' data-ref="llhttp_alloc" data-ref-filename="llhttp_alloc">llhttp_alloc</dfn>(<a class="typedef" href="#llhttp_type_t" title='llhttp_type_t' data-type='enum llhttp_type' data-ref="llhttp_type_t" data-ref-filename="llhttp_type_t">llhttp_type_t</a> <dfn class="local col9 decl" id="8429type" title='type' data-type='llhttp_type_t' data-ref="8429type" data-ref-filename="8429type">type</dfn>);</td></tr>
+<tr><th id="620">620</th><td></td></tr>
+<tr><th id="621">621</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="622">622</th><td><em>void</em> <dfn class="decl fn" id="llhttp_free" title='llhttp_free' data-ref="llhttp_free" data-ref-filename="llhttp_free">llhttp_free</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col0 decl" id="8430parser" title='parser' data-type='llhttp_t *' data-ref="8430parser" data-ref-filename="8430parser">parser</dfn>);</td></tr>
+<tr><th id="623">623</th><td></td></tr>
+<tr><th id="624">624</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="625">625</th><td><a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="llhttp_get_type" title='llhttp_get_type' data-ref="llhttp_get_type" data-ref-filename="llhttp_get_type">llhttp_get_type</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col1 decl" id="8431parser" title='parser' data-type='llhttp_t *' data-ref="8431parser" data-ref-filename="8431parser">parser</dfn>);</td></tr>
+<tr><th id="626">626</th><td></td></tr>
+<tr><th id="627">627</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="628">628</th><td><a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="llhttp_get_http_major" title='llhttp_get_http_major' data-ref="llhttp_get_http_major" data-ref-filename="llhttp_get_http_major">llhttp_get_http_major</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col2 decl" id="8432parser" title='parser' data-type='llhttp_t *' data-ref="8432parser" data-ref-filename="8432parser">parser</dfn>);</td></tr>
+<tr><th id="629">629</th><td></td></tr>
+<tr><th id="630">630</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="631">631</th><td><a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="llhttp_get_http_minor" title='llhttp_get_http_minor' data-ref="llhttp_get_http_minor" data-ref-filename="llhttp_get_http_minor">llhttp_get_http_minor</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col3 decl" id="8433parser" title='parser' data-type='llhttp_t *' data-ref="8433parser" data-ref-filename="8433parser">parser</dfn>);</td></tr>
+<tr><th id="632">632</th><td></td></tr>
+<tr><th id="633">633</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="634">634</th><td><a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="llhttp_get_method" title='llhttp_get_method' data-ref="llhttp_get_method" data-ref-filename="llhttp_get_method">llhttp_get_method</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col4 decl" id="8434parser" title='parser' data-type='llhttp_t *' data-ref="8434parser" data-ref-filename="8434parser">parser</dfn>);</td></tr>
+<tr><th id="635">635</th><td></td></tr>
+<tr><th id="636">636</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="637">637</th><td><em>int</em> <dfn class="decl fn" id="llhttp_get_status_code" title='llhttp_get_status_code' data-ref="llhttp_get_status_code" data-ref-filename="llhttp_get_status_code">llhttp_get_status_code</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col5 decl" id="8435parser" title='parser' data-type='llhttp_t *' data-ref="8435parser" data-ref-filename="8435parser">parser</dfn>);</td></tr>
+<tr><th id="638">638</th><td></td></tr>
+<tr><th id="639">639</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="640">640</th><td><a class="typedef" href="../../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="llhttp_get_upgrade" title='llhttp_get_upgrade' data-ref="llhttp_get_upgrade" data-ref-filename="llhttp_get_upgrade">llhttp_get_upgrade</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col6 decl" id="8436parser" title='parser' data-type='llhttp_t *' data-ref="8436parser" data-ref-filename="8436parser">parser</dfn>);</td></tr>
+<tr><th id="641">641</th><td></td></tr>
+<tr><th id="642">642</th><td><i>/* Reset an already initialized parser back to the start state, preserving the</i></td></tr>
+<tr><th id="643">643</th><td><i> * existing parser type, callback settings, user data, and lenient flags.</i></td></tr>
+<tr><th id="644">644</th><td><i> */</i></td></tr>
+<tr><th id="645">645</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="646">646</th><td><em>void</em> <dfn class="decl fn" id="llhttp_reset" title='llhttp_reset' data-ref="llhttp_reset" data-ref-filename="llhttp_reset">llhttp_reset</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col7 decl" id="8437parser" title='parser' data-type='llhttp_t *' data-ref="8437parser" data-ref-filename="8437parser">parser</dfn>);</td></tr>
+<tr><th id="647">647</th><td></td></tr>
+<tr><th id="648">648</th><td><i>/* Initialize the settings object */</i></td></tr>
+<tr><th id="649">649</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="650">650</th><td><em>void</em> <dfn class="decl fn" id="llhttp_settings_init" title='llhttp_settings_init' data-ref="llhttp_settings_init" data-ref-filename="llhttp_settings_init">llhttp_settings_init</dfn>(<a class="typedef" href="#llhttp_settings_t" title='llhttp_settings_t' data-type='struct llhttp_settings_s' data-ref="llhttp_settings_t" data-ref-filename="llhttp_settings_t">llhttp_settings_t</a>* <dfn class="local col8 decl" id="8438settings" title='settings' data-type='llhttp_settings_t *' data-ref="8438settings" data-ref-filename="8438settings">settings</dfn>);</td></tr>
+<tr><th id="651">651</th><td></td></tr>
+<tr><th id="652">652</th><td><i>/* Parse full or partial request/response, invoking user callbacks along the</i></td></tr>
+<tr><th id="653">653</th><td><i> * way.</i></td></tr>
+<tr><th id="654">654</th><td><i> *</i></td></tr>
+<tr><th id="655">655</th><td><i> * If any of `llhttp_data_cb` returns errno not equal to `HPE_OK` - the parsing</i></td></tr>
+<tr><th id="656">656</th><td><i> * interrupts, and such errno is returned from `llhttp_execute()`. If</i></td></tr>
+<tr><th id="657">657</th><td><i> * `HPE_PAUSED` was used as a errno, the execution can be resumed with</i></td></tr>
+<tr><th id="658">658</th><td><i> * `llhttp_resume()` call.</i></td></tr>
+<tr><th id="659">659</th><td><i> *</i></td></tr>
+<tr><th id="660">660</th><td><i> * In a special case of CONNECT/Upgrade request/response `HPE_PAUSED_UPGRADE`</i></td></tr>
+<tr><th id="661">661</th><td><i> * is returned after fully parsing the request/response. If the user wishes to</i></td></tr>
+<tr><th id="662">662</th><td><i> * continue parsing, they need to invoke `llhttp_resume_after_upgrade()`.</i></td></tr>
+<tr><th id="663">663</th><td><i> *</i></td></tr>
+<tr><th id="664">664</th><td><i> * NOTE: if this function ever returns a non-pause type error, it will continue</i></td></tr>
+<tr><th id="665">665</th><td><i> * to return the same error upon each successive call up until `llhttp_init()`</i></td></tr>
+<tr><th id="666">666</th><td><i> * is called.</i></td></tr>
+<tr><th id="667">667</th><td><i> */</i></td></tr>
+<tr><th id="668">668</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="669">669</th><td><a class="typedef" href="#llhttp_errno_t" title='llhttp_errno_t' data-type='enum llhttp_errno' data-ref="llhttp_errno_t" data-ref-filename="llhttp_errno_t">llhttp_errno_t</a> <dfn class="decl fn" id="llhttp_execute" title='llhttp_execute' data-ref="llhttp_execute" data-ref-filename="llhttp_execute">llhttp_execute</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col9 decl" id="8439parser" title='parser' data-type='llhttp_t *' data-ref="8439parser" data-ref-filename="8439parser">parser</dfn>, <em>const</em> <em>char</em>* <dfn class="local col0 decl" id="8440data" title='data' data-type='const char *' data-ref="8440data" data-ref-filename="8440data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="8441len" title='len' data-type='size_t' data-ref="8441len" data-ref-filename="8441len">len</dfn>);</td></tr>
+<tr><th id="670">670</th><td></td></tr>
+<tr><th id="671">671</th><td><i>/* This method should be called when the other side has no further bytes to</i></td></tr>
+<tr><th id="672">672</th><td><i> * send (e.g. shutdown of readable side of the TCP connection.)</i></td></tr>
+<tr><th id="673">673</th><td><i> *</i></td></tr>
+<tr><th id="674">674</th><td><i> * Requests without `Content-Length` and other messages might require treating</i></td></tr>
+<tr><th id="675">675</th><td><i> * all incoming bytes as the part of the body, up to the last byte of the</i></td></tr>
+<tr><th id="676">676</th><td><i> * connection. This method will invoke `on_message_complete()` callback if the</i></td></tr>
+<tr><th id="677">677</th><td><i> * request was terminated safely. Otherwise a error code would be returned.</i></td></tr>
+<tr><th id="678">678</th><td><i> */</i></td></tr>
+<tr><th id="679">679</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="680">680</th><td><a class="typedef" href="#llhttp_errno_t" title='llhttp_errno_t' data-type='enum llhttp_errno' data-ref="llhttp_errno_t" data-ref-filename="llhttp_errno_t">llhttp_errno_t</a> <dfn class="decl fn" id="llhttp_finish" title='llhttp_finish' data-ref="llhttp_finish" data-ref-filename="llhttp_finish">llhttp_finish</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col2 decl" id="8442parser" title='parser' data-type='llhttp_t *' data-ref="8442parser" data-ref-filename="8442parser">parser</dfn>);</td></tr>
+<tr><th id="681">681</th><td></td></tr>
+<tr><th id="682">682</th><td><i>/* Returns `1` if the incoming message is parsed until the last byte, and has</i></td></tr>
+<tr><th id="683">683</th><td><i> * to be completed by calling `llhttp_finish()` on EOF</i></td></tr>
+<tr><th id="684">684</th><td><i> */</i></td></tr>
+<tr><th id="685">685</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="686">686</th><td><em>int</em> <dfn class="decl fn" id="llhttp_message_needs_eof" title='llhttp_message_needs_eof' data-ref="llhttp_message_needs_eof" data-ref-filename="llhttp_message_needs_eof">llhttp_message_needs_eof</dfn>(<em>const</em> <a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col3 decl" id="8443parser" title='parser' data-type='const llhttp_t *' data-ref="8443parser" data-ref-filename="8443parser">parser</dfn>);</td></tr>
+<tr><th id="687">687</th><td></td></tr>
+<tr><th id="688">688</th><td><i>/* Returns `1` if there might be any other messages following the last that was</i></td></tr>
+<tr><th id="689">689</th><td><i> * successfully parsed.</i></td></tr>
+<tr><th id="690">690</th><td><i> */</i></td></tr>
+<tr><th id="691">691</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="692">692</th><td><em>int</em> <dfn class="decl fn" id="llhttp_should_keep_alive" title='llhttp_should_keep_alive' data-ref="llhttp_should_keep_alive" data-ref-filename="llhttp_should_keep_alive">llhttp_should_keep_alive</dfn>(<em>const</em> <a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col4 decl" id="8444parser" title='parser' data-type='const llhttp_t *' data-ref="8444parser" data-ref-filename="8444parser">parser</dfn>);</td></tr>
+<tr><th id="693">693</th><td></td></tr>
+<tr><th id="694">694</th><td><i>/* Make further calls of `llhttp_execute()` return `HPE_PAUSED` and set</i></td></tr>
+<tr><th id="695">695</th><td><i> * appropriate error reason.</i></td></tr>
+<tr><th id="696">696</th><td><i> *</i></td></tr>
+<tr><th id="697">697</th><td><i> * Important: do not call this from user callbacks! User callbacks must return</i></td></tr>
+<tr><th id="698">698</th><td><i> * `HPE_PAUSED` if pausing is required.</i></td></tr>
+<tr><th id="699">699</th><td><i> */</i></td></tr>
+<tr><th id="700">700</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="701">701</th><td><em>void</em> <dfn class="decl fn" id="llhttp_pause" title='llhttp_pause' data-ref="llhttp_pause" data-ref-filename="llhttp_pause">llhttp_pause</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col5 decl" id="8445parser" title='parser' data-type='llhttp_t *' data-ref="8445parser" data-ref-filename="8445parser">parser</dfn>);</td></tr>
+<tr><th id="702">702</th><td></td></tr>
+<tr><th id="703">703</th><td><i>/* Might be called to resume the execution after the pause in user's callback.</i></td></tr>
+<tr><th id="704">704</th><td><i> * See `llhttp_execute()` above for details.</i></td></tr>
+<tr><th id="705">705</th><td><i> *</i></td></tr>
+<tr><th id="706">706</th><td><i> * Call this only if `llhttp_execute()` returns `HPE_PAUSED`.</i></td></tr>
+<tr><th id="707">707</th><td><i> */</i></td></tr>
+<tr><th id="708">708</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="709">709</th><td><em>void</em> <dfn class="decl fn" id="llhttp_resume" title='llhttp_resume' data-ref="llhttp_resume" data-ref-filename="llhttp_resume">llhttp_resume</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col6 decl" id="8446parser" title='parser' data-type='llhttp_t *' data-ref="8446parser" data-ref-filename="8446parser">parser</dfn>);</td></tr>
+<tr><th id="710">710</th><td></td></tr>
+<tr><th id="711">711</th><td><i>/* Might be called to resume the execution after the pause in user's callback.</i></td></tr>
+<tr><th id="712">712</th><td><i> * See `llhttp_execute()` above for details.</i></td></tr>
+<tr><th id="713">713</th><td><i> *</i></td></tr>
+<tr><th id="714">714</th><td><i> * Call this only if `llhttp_execute()` returns `HPE_PAUSED_UPGRADE`</i></td></tr>
+<tr><th id="715">715</th><td><i> */</i></td></tr>
+<tr><th id="716">716</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="717">717</th><td><em>void</em> <dfn class="decl fn" id="llhttp_resume_after_upgrade" title='llhttp_resume_after_upgrade' data-ref="llhttp_resume_after_upgrade" data-ref-filename="llhttp_resume_after_upgrade">llhttp_resume_after_upgrade</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col7 decl" id="8447parser" title='parser' data-type='llhttp_t *' data-ref="8447parser" data-ref-filename="8447parser">parser</dfn>);</td></tr>
+<tr><th id="718">718</th><td></td></tr>
+<tr><th id="719">719</th><td><i>/* Returns the latest return error */</i></td></tr>
+<tr><th id="720">720</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="721">721</th><td><a class="typedef" href="#llhttp_errno_t" title='llhttp_errno_t' data-type='enum llhttp_errno' data-ref="llhttp_errno_t" data-ref-filename="llhttp_errno_t">llhttp_errno_t</a> <dfn class="decl fn" id="llhttp_get_errno" title='llhttp_get_errno' data-ref="llhttp_get_errno" data-ref-filename="llhttp_get_errno">llhttp_get_errno</dfn>(<em>const</em> <a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col8 decl" id="8448parser" title='parser' data-type='const llhttp_t *' data-ref="8448parser" data-ref-filename="8448parser">parser</dfn>);</td></tr>
+<tr><th id="722">722</th><td></td></tr>
+<tr><th id="723">723</th><td><i>/* Returns the verbal explanation of the latest returned error.</i></td></tr>
+<tr><th id="724">724</th><td><i> *</i></td></tr>
+<tr><th id="725">725</th><td><i> * Note: User callback should set error reason when returning the error. See</i></td></tr>
+<tr><th id="726">726</th><td><i> * `llhttp_set_error_reason()` for details.</i></td></tr>
+<tr><th id="727">727</th><td><i> */</i></td></tr>
+<tr><th id="728">728</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="729">729</th><td><em>const</em> <em>char</em>* <dfn class="decl fn" id="llhttp_get_error_reason" title='llhttp_get_error_reason' data-ref="llhttp_get_error_reason" data-ref-filename="llhttp_get_error_reason">llhttp_get_error_reason</dfn>(<em>const</em> <a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col9 decl" id="8449parser" title='parser' data-type='const llhttp_t *' data-ref="8449parser" data-ref-filename="8449parser">parser</dfn>);</td></tr>
+<tr><th id="730">730</th><td></td></tr>
+<tr><th id="731">731</th><td><i>/* Assign verbal description to the returned error. Must be called in user</i></td></tr>
+<tr><th id="732">732</th><td><i> * callbacks right before returning the errno.</i></td></tr>
+<tr><th id="733">733</th><td><i> *</i></td></tr>
+<tr><th id="734">734</th><td><i> * Note: `HPE_USER` error code might be useful in user callbacks.</i></td></tr>
+<tr><th id="735">735</th><td><i> */</i></td></tr>
+<tr><th id="736">736</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="737">737</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_error_reason" title='llhttp_set_error_reason' data-ref="llhttp_set_error_reason" data-ref-filename="llhttp_set_error_reason">llhttp_set_error_reason</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col0 decl" id="8450parser" title='parser' data-type='llhttp_t *' data-ref="8450parser" data-ref-filename="8450parser">parser</dfn>, <em>const</em> <em>char</em>* <dfn class="local col1 decl" id="8451reason" title='reason' data-type='const char *' data-ref="8451reason" data-ref-filename="8451reason">reason</dfn>);</td></tr>
+<tr><th id="738">738</th><td></td></tr>
+<tr><th id="739">739</th><td><i>/* Returns the pointer to the last parsed byte before the returned error. The</i></td></tr>
+<tr><th id="740">740</th><td><i> * pointer is relative to the `data` argument of `llhttp_execute()`.</i></td></tr>
+<tr><th id="741">741</th><td><i> *</i></td></tr>
+<tr><th id="742">742</th><td><i> * Note: this method might be useful for counting the number of parsed bytes.</i></td></tr>
+<tr><th id="743">743</th><td><i> */</i></td></tr>
+<tr><th id="744">744</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="745">745</th><td><em>const</em> <em>char</em>* <dfn class="decl fn" id="llhttp_get_error_pos" title='llhttp_get_error_pos' data-ref="llhttp_get_error_pos" data-ref-filename="llhttp_get_error_pos">llhttp_get_error_pos</dfn>(<em>const</em> <a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col2 decl" id="8452parser" title='parser' data-type='const llhttp_t *' data-ref="8452parser" data-ref-filename="8452parser">parser</dfn>);</td></tr>
+<tr><th id="746">746</th><td></td></tr>
+<tr><th id="747">747</th><td><i>/* Returns textual name of error code */</i></td></tr>
+<tr><th id="748">748</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="749">749</th><td><em>const</em> <em>char</em>* <dfn class="decl fn" id="llhttp_errno_name" title='llhttp_errno_name' data-ref="llhttp_errno_name" data-ref-filename="llhttp_errno_name">llhttp_errno_name</dfn>(<a class="typedef" href="#llhttp_errno_t" title='llhttp_errno_t' data-type='enum llhttp_errno' data-ref="llhttp_errno_t" data-ref-filename="llhttp_errno_t">llhttp_errno_t</a> <dfn class="local col3 decl" id="8453err" title='err' data-type='llhttp_errno_t' data-ref="8453err" data-ref-filename="8453err">err</dfn>);</td></tr>
+<tr><th id="750">750</th><td></td></tr>
+<tr><th id="751">751</th><td><i>/* Returns textual name of HTTP method */</i></td></tr>
+<tr><th id="752">752</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="753">753</th><td><em>const</em> <em>char</em>* <dfn class="decl fn" id="llhttp_method_name" title='llhttp_method_name' data-ref="llhttp_method_name" data-ref-filename="llhttp_method_name">llhttp_method_name</dfn>(<a class="typedef" href="#llhttp_method_t" title='llhttp_method_t' data-type='enum llhttp_method' data-ref="llhttp_method_t" data-ref-filename="llhttp_method_t">llhttp_method_t</a> <dfn class="local col4 decl" id="8454method" title='method' data-type='llhttp_method_t' data-ref="8454method" data-ref-filename="8454method">method</dfn>);</td></tr>
+<tr><th id="754">754</th><td></td></tr>
+<tr><th id="755">755</th><td><i>/* Returns textual name of HTTP status */</i></td></tr>
+<tr><th id="756">756</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="757">757</th><td><em>const</em> <em>char</em>* <dfn class="decl fn" id="llhttp_status_name" title='llhttp_status_name' data-ref="llhttp_status_name" data-ref-filename="llhttp_status_name">llhttp_status_name</dfn>(<a class="typedef" href="#llhttp_status_t" title='llhttp_status_t' data-type='enum llhttp_status' data-ref="llhttp_status_t" data-ref-filename="llhttp_status_t">llhttp_status_t</a> <dfn class="local col5 decl" id="8455status" title='status' data-type='llhttp_status_t' data-ref="8455status" data-ref-filename="8455status">status</dfn>);</td></tr>
+<tr><th id="758">758</th><td></td></tr>
+<tr><th id="759">759</th><td><i>/* Enables/disables lenient header value parsing (disabled by default).</i></td></tr>
+<tr><th id="760">760</th><td><i> *</i></td></tr>
+<tr><th id="761">761</th><td><i> * Lenient parsing disables header value token checks, extending llhttp's</i></td></tr>
+<tr><th id="762">762</th><td><i> * protocol support to highly non-compliant clients/server. No</i></td></tr>
+<tr><th id="763">763</th><td><i> * `HPE_INVALID_HEADER_TOKEN` will be raised for incorrect header values when</i></td></tr>
+<tr><th id="764">764</th><td><i> * lenient parsing is "on".</i></td></tr>
+<tr><th id="765">765</th><td><i> *</i></td></tr>
+<tr><th id="766">766</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="767">767</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="768">768</th><td><i> */</i></td></tr>
+<tr><th id="769">769</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="770">770</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_headers" title='llhttp_set_lenient_headers' data-ref="llhttp_set_lenient_headers" data-ref-filename="llhttp_set_lenient_headers">llhttp_set_lenient_headers</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col6 decl" id="8456parser" title='parser' data-type='llhttp_t *' data-ref="8456parser" data-ref-filename="8456parser">parser</dfn>, <em>int</em> <dfn class="local col7 decl" id="8457enabled" title='enabled' data-type='int' data-ref="8457enabled" data-ref-filename="8457enabled">enabled</dfn>);</td></tr>
+<tr><th id="771">771</th><td></td></tr>
+<tr><th id="772">772</th><td></td></tr>
+<tr><th id="773">773</th><td><i>/* Enables/disables lenient handling of conflicting `Transfer-Encoding` and</i></td></tr>
+<tr><th id="774">774</th><td><i> * `Content-Length` headers (disabled by default).</i></td></tr>
+<tr><th id="775">775</th><td><i> *</i></td></tr>
+<tr><th id="776">776</th><td><i> * Normally `llhttp` would error when `Transfer-Encoding` is present in</i></td></tr>
+<tr><th id="777">777</th><td><i> * conjunction with `Content-Length`. This error is important to prevent HTTP</i></td></tr>
+<tr><th id="778">778</th><td><i> * request smuggling, but may be less desirable for small number of cases</i></td></tr>
+<tr><th id="779">779</th><td><i> * involving legacy servers.</i></td></tr>
+<tr><th id="780">780</th><td><i> *</i></td></tr>
+<tr><th id="781">781</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="782">782</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="783">783</th><td><i> */</i></td></tr>
+<tr><th id="784">784</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="785">785</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_chunked_length" title='llhttp_set_lenient_chunked_length' data-ref="llhttp_set_lenient_chunked_length" data-ref-filename="llhttp_set_lenient_chunked_length">llhttp_set_lenient_chunked_length</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col8 decl" id="8458parser" title='parser' data-type='llhttp_t *' data-ref="8458parser" data-ref-filename="8458parser">parser</dfn>, <em>int</em> <dfn class="local col9 decl" id="8459enabled" title='enabled' data-type='int' data-ref="8459enabled" data-ref-filename="8459enabled">enabled</dfn>);</td></tr>
+<tr><th id="786">786</th><td></td></tr>
+<tr><th id="787">787</th><td></td></tr>
+<tr><th id="788">788</th><td><i>/* Enables/disables lenient handling of `Connection: close` and HTTP/1.0</i></td></tr>
+<tr><th id="789">789</th><td><i> * requests responses.</i></td></tr>
+<tr><th id="790">790</th><td><i> *</i></td></tr>
+<tr><th id="791">791</th><td><i> * Normally `llhttp` would error on (in strict mode) or discard (in loose mode)</i></td></tr>
+<tr><th id="792">792</th><td><i> * the HTTP request/response after the request/response with `Connection: close`</i></td></tr>
+<tr><th id="793">793</th><td><i> * and `Content-Length`. This is important to prevent cache poisoning attacks,</i></td></tr>
+<tr><th id="794">794</th><td><i> * but might interact badly with outdated and insecure clients. With this flag</i></td></tr>
+<tr><th id="795">795</th><td><i> * the extra request/response will be parsed normally.</i></td></tr>
+<tr><th id="796">796</th><td><i> *</i></td></tr>
+<tr><th id="797">797</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="798">798</th><td><i> * poisoning attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="799">799</th><td><i> */</i></td></tr>
+<tr><th id="800">800</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="801">801</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_keep_alive" title='llhttp_set_lenient_keep_alive' data-ref="llhttp_set_lenient_keep_alive" data-ref-filename="llhttp_set_lenient_keep_alive">llhttp_set_lenient_keep_alive</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col0 decl" id="8460parser" title='parser' data-type='llhttp_t *' data-ref="8460parser" data-ref-filename="8460parser">parser</dfn>, <em>int</em> <dfn class="local col1 decl" id="8461enabled" title='enabled' data-type='int' data-ref="8461enabled" data-ref-filename="8461enabled">enabled</dfn>);</td></tr>
+<tr><th id="802">802</th><td></td></tr>
+<tr><th id="803">803</th><td><i>/* Enables/disables lenient handling of `Transfer-Encoding` header.</i></td></tr>
+<tr><th id="804">804</th><td><i> *</i></td></tr>
+<tr><th id="805">805</th><td><i> * Normally `llhttp` would error when a `Transfer-Encoding` has `chunked` value</i></td></tr>
+<tr><th id="806">806</th><td><i> * and another value after it (either in a single header or in multiple</i></td></tr>
+<tr><th id="807">807</th><td><i> * headers whose value are internally joined using `, `).</i></td></tr>
+<tr><th id="808">808</th><td><i> * This is mandated by the spec to reliably determine request body size and thus</i></td></tr>
+<tr><th id="809">809</th><td><i> * avoid request smuggling.</i></td></tr>
+<tr><th id="810">810</th><td><i> * With this flag the extra value will be parsed normally.</i></td></tr>
+<tr><th id="811">811</th><td><i> *</i></td></tr>
+<tr><th id="812">812</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="813">813</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="814">814</th><td><i> */</i></td></tr>
+<tr><th id="815">815</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="816">816</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_transfer_encoding" title='llhttp_set_lenient_transfer_encoding' data-ref="llhttp_set_lenient_transfer_encoding" data-ref-filename="llhttp_set_lenient_transfer_encoding">llhttp_set_lenient_transfer_encoding</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col2 decl" id="8462parser" title='parser' data-type='llhttp_t *' data-ref="8462parser" data-ref-filename="8462parser">parser</dfn>, <em>int</em> <dfn class="local col3 decl" id="8463enabled" title='enabled' data-type='int' data-ref="8463enabled" data-ref-filename="8463enabled">enabled</dfn>);</td></tr>
+<tr><th id="817">817</th><td></td></tr>
+<tr><th id="818">818</th><td><i>/* Enables/disables lenient handling of HTTP version.</i></td></tr>
+<tr><th id="819">819</th><td><i> *</i></td></tr>
+<tr><th id="820">820</th><td><i> * Normally `llhttp` would error when the HTTP version in the request or status line</i></td></tr>
+<tr><th id="821">821</th><td><i> * is not `0.9`, `1.0`, `1.1` or `2.0`.</i></td></tr>
+<tr><th id="822">822</th><td><i> * With this flag the invalid value will be parsed normally.</i></td></tr>
+<tr><th id="823">823</th><td><i> *</i></td></tr>
+<tr><th id="824">824</th><td><i> * **Enabling this flag can pose a security issue since you will allow unsupported</i></td></tr>
+<tr><th id="825">825</th><td><i> * HTTP versions. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="826">826</th><td><i> */</i></td></tr>
+<tr><th id="827">827</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="828">828</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_version" title='llhttp_set_lenient_version' data-ref="llhttp_set_lenient_version" data-ref-filename="llhttp_set_lenient_version">llhttp_set_lenient_version</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col4 decl" id="8464parser" title='parser' data-type='llhttp_t *' data-ref="8464parser" data-ref-filename="8464parser">parser</dfn>, <em>int</em> <dfn class="local col5 decl" id="8465enabled" title='enabled' data-type='int' data-ref="8465enabled" data-ref-filename="8465enabled">enabled</dfn>);</td></tr>
+<tr><th id="829">829</th><td></td></tr>
+<tr><th id="830">830</th><td><i>/* Enables/disables lenient handling of additional data received after a message ends</i></td></tr>
+<tr><th id="831">831</th><td><i> * and keep-alive is disabled.</i></td></tr>
+<tr><th id="832">832</th><td><i> *</i></td></tr>
+<tr><th id="833">833</th><td><i> * Normally `llhttp` would error when additional unexpected data is received if the message</i></td></tr>
+<tr><th id="834">834</th><td><i> * contains the `Connection` header with `close` value.</i></td></tr>
+<tr><th id="835">835</th><td><i> * With this flag the extra data will discarded without throwing an error.</i></td></tr>
+<tr><th id="836">836</th><td><i> *</i></td></tr>
+<tr><th id="837">837</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="838">838</th><td><i> * poisoning attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="839">839</th><td><i> */</i></td></tr>
+<tr><th id="840">840</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="841">841</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_data_after_close" title='llhttp_set_lenient_data_after_close' data-ref="llhttp_set_lenient_data_after_close" data-ref-filename="llhttp_set_lenient_data_after_close">llhttp_set_lenient_data_after_close</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col6 decl" id="8466parser" title='parser' data-type='llhttp_t *' data-ref="8466parser" data-ref-filename="8466parser">parser</dfn>, <em>int</em> <dfn class="local col7 decl" id="8467enabled" title='enabled' data-type='int' data-ref="8467enabled" data-ref-filename="8467enabled">enabled</dfn>);</td></tr>
+<tr><th id="842">842</th><td></td></tr>
+<tr><th id="843">843</th><td><i>/* Enables/disables lenient handling of incomplete CRLF sequences.</i></td></tr>
+<tr><th id="844">844</th><td><i> *</i></td></tr>
+<tr><th id="845">845</th><td><i> * Normally `llhttp` would error when a CR is not followed by LF when terminating the</i></td></tr>
+<tr><th id="846">846</th><td><i> * request line, the status line, the headers or a chunk header.</i></td></tr>
+<tr><th id="847">847</th><td><i> * With this flag only a CR is required to terminate such sections.</i></td></tr>
+<tr><th id="848">848</th><td><i> *</i></td></tr>
+<tr><th id="849">849</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="850">850</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="851">851</th><td><i> */</i></td></tr>
+<tr><th id="852">852</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="853">853</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_optional_lf_after_cr" title='llhttp_set_lenient_optional_lf_after_cr' data-ref="llhttp_set_lenient_optional_lf_after_cr" data-ref-filename="llhttp_set_lenient_optional_lf_after_cr">llhttp_set_lenient_optional_lf_after_cr</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col8 decl" id="8468parser" title='parser' data-type='llhttp_t *' data-ref="8468parser" data-ref-filename="8468parser">parser</dfn>, <em>int</em> <dfn class="local col9 decl" id="8469enabled" title='enabled' data-type='int' data-ref="8469enabled" data-ref-filename="8469enabled">enabled</dfn>);</td></tr>
+<tr><th id="854">854</th><td></td></tr>
+<tr><th id="855">855</th><td><i>/*</i></td></tr>
+<tr><th id="856">856</th><td><i> * Enables/disables lenient handling of line separators.</i></td></tr>
+<tr><th id="857">857</th><td><i> *</i></td></tr>
+<tr><th id="858">858</th><td><i> * Normally `llhttp` would error when a LF is not preceded by CR when terminating the</i></td></tr>
+<tr><th id="859">859</th><td><i> * request line, the status line, the headers, a chunk header or a chunk data.</i></td></tr>
+<tr><th id="860">860</th><td><i> * With this flag only a LF is required to terminate such sections.</i></td></tr>
+<tr><th id="861">861</th><td><i> *</i></td></tr>
+<tr><th id="862">862</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="863">863</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="864">864</th><td><i> */</i></td></tr>
+<tr><th id="865">865</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="866">866</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_optional_cr_before_lf" title='llhttp_set_lenient_optional_cr_before_lf' data-ref="llhttp_set_lenient_optional_cr_before_lf" data-ref-filename="llhttp_set_lenient_optional_cr_before_lf">llhttp_set_lenient_optional_cr_before_lf</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col0 decl" id="8470parser" title='parser' data-type='llhttp_t *' data-ref="8470parser" data-ref-filename="8470parser">parser</dfn>, <em>int</em> <dfn class="local col1 decl" id="8471enabled" title='enabled' data-type='int' data-ref="8471enabled" data-ref-filename="8471enabled">enabled</dfn>);</td></tr>
+<tr><th id="867">867</th><td></td></tr>
+<tr><th id="868">868</th><td><i>/* Enables/disables lenient handling of chunks not separated via CRLF.</i></td></tr>
+<tr><th id="869">869</th><td><i> *</i></td></tr>
+<tr><th id="870">870</th><td><i> * Normally `llhttp` would error when after a chunk data a CRLF is missing before</i></td></tr>
+<tr><th id="871">871</th><td><i> * starting a new chunk.</i></td></tr>
+<tr><th id="872">872</th><td><i> * With this flag the new chunk can start immediately after the previous one.</i></td></tr>
+<tr><th id="873">873</th><td><i> *</i></td></tr>
+<tr><th id="874">874</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="875">875</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="876">876</th><td><i> */</i></td></tr>
+<tr><th id="877">877</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="878">878</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_optional_crlf_after_chunk" title='llhttp_set_lenient_optional_crlf_after_chunk' data-ref="llhttp_set_lenient_optional_crlf_after_chunk" data-ref-filename="llhttp_set_lenient_optional_crlf_after_chunk">llhttp_set_lenient_optional_crlf_after_chunk</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col2 decl" id="8472parser" title='parser' data-type='llhttp_t *' data-ref="8472parser" data-ref-filename="8472parser">parser</dfn>, <em>int</em> <dfn class="local col3 decl" id="8473enabled" title='enabled' data-type='int' data-ref="8473enabled" data-ref-filename="8473enabled">enabled</dfn>);</td></tr>
+<tr><th id="879">879</th><td></td></tr>
+<tr><th id="880">880</th><td><i>/* Enables/disables lenient handling of spaces after chunk size.</i></td></tr>
+<tr><th id="881">881</th><td><i> *</i></td></tr>
+<tr><th id="882">882</th><td><i> * Normally `llhttp` would error when after a chunk size is followed by one or more</i></td></tr>
+<tr><th id="883">883</th><td><i> * spaces are present instead of a CRLF or `;`.</i></td></tr>
+<tr><th id="884">884</th><td><i> * With this flag this check is disabled.</i></td></tr>
+<tr><th id="885">885</th><td><i> *</i></td></tr>
+<tr><th id="886">886</th><td><i> * **Enabling this flag can pose a security issue since you will be exposed to</i></td></tr>
+<tr><th id="887">887</th><td><i> * request smuggling attacks. USE WITH CAUTION!**</i></td></tr>
+<tr><th id="888">888</th><td><i> */</i></td></tr>
+<tr><th id="889">889</th><td><a class="macro" href="#551" title="" data-ref="_M/LLHTTP_EXPORT">LLHTTP_EXPORT</a></td></tr>
+<tr><th id="890">890</th><td><em>void</em> <dfn class="decl fn" id="llhttp_set_lenient_spaces_after_chunk_size" title='llhttp_set_lenient_spaces_after_chunk_size' data-ref="llhttp_set_lenient_spaces_after_chunk_size" data-ref-filename="llhttp_set_lenient_spaces_after_chunk_size">llhttp_set_lenient_spaces_after_chunk_size</dfn>(<a class="typedef" href="#llhttp_t" title='llhttp_t' data-type='llhttp__internal_t' data-ref="llhttp_t" data-ref-filename="llhttp_t">llhttp_t</a>* <dfn class="local col4 decl" id="8474parser" title='parser' data-type='llhttp_t *' data-ref="8474parser" data-ref-filename="8474parser">parser</dfn>, <em>int</em> <dfn class="local col5 decl" id="8475enabled" title='enabled' data-type='int' data-ref="8475enabled" data-ref-filename="8475enabled">enabled</dfn>);</td></tr>
+<tr><th id="891">891</th><td></td></tr>
+<tr><th id="892">892</th><td><u>#<span data-ppcond="892">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="893">893</th><td>}  <i>/* extern "C" */</i></td></tr>
+<tr><th id="894">894</th><td><u>#<span data-ppcond="892">endif</span></u></td></tr>
+<tr><th id="895">895</th><td><u>#<span data-ppcond="541">endif</span>  /* INCLUDE_LLHTTP_API_H_ */</u></td></tr>
+<tr><th id="896">896</th><td></td></tr>
+<tr><th id="897">897</th><td></td></tr>
+<tr><th id="898">898</th><td><u>#<span data-ppcond="2">endif</span>  /* INCLUDE_LLHTTP_H_ */</u></td></tr>
+<tr><th id="899">899</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../http_message.c.html'>codebrowser/src/http_message.c</a><br/>Generated on <em>2023-Oct-18</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

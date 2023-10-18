@@ -1,3 +1,2 @@
-socket_set_nonblocking|socket_set_nonblocking
 socket_set_timeout|socket_set_timeout
 socket_handshake|socket_handshake

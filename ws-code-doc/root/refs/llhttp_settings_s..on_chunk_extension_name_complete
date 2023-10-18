@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='596' type='llhttp_cb'/>
+<offset>1152</offset>
+<use f='codebrowser/src/llhttp/api.c' l='465' u='r' c='llhttp__on_chunk_extension_name_complete'/>
+<use f='codebrowser/src/llhttp/api.c' l='465' u='r' c='llhttp__on_chunk_extension_name_complete'/>

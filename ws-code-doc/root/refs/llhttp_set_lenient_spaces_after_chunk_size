@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='890' type='void llhttp_set_lenient_spaces_after_chunk_size(llhttp_t * parser, int enabled)'/>
+<def f='codebrowser/src/llhttp/api.c' l='326' ll='332' type='void llhttp_set_lenient_spaces_after_chunk_size(llhttp_t * parser, int enabled)'/>

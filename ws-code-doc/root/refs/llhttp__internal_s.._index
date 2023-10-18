@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='19' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/llhttp/llhttp.c' l='236' u='r' c='llparse__match_sequence_to_lower'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='251' u='w' c='llparse__match_sequence_to_lower'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='256' u='w' c='llparse__match_sequence_to_lower'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='268' u='r' c='llparse__match_sequence_to_lower_unsafe'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='283' u='w' c='llparse__match_sequence_to_lower_unsafe'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='288' u='w' c='llparse__match_sequence_to_lower_unsafe'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='300' u='r' c='llparse__match_sequence_id'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='315' u='w' c='llparse__match_sequence_id'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='320' u='w' c='llparse__match_sequence_id'/>

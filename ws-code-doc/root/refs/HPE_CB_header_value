@@ -1,5 +1,0 @@
-<dec f='codebrowser/src/http_parser.h' l='288' macro='1' type='4'/>
-<use f='codebrowser/src/http_parser.c' l='1558' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1566' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1858' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2211' macro='1' u='r' c='http_parser_execute'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/server.h' l='317' type='int vws_tcp_svr_inetd_run(vws_tcp_svr * server, int sockfd)'/>
+<def f='codebrowser/src/server.c' l='933' ll='1012' type='int vws_tcp_svr_inetd_run(vws_tcp_svr * server, int sockfd)'/>
+<doc f='codebrowser/src/server.h' l='309'>/**
+ * @brief Starts a VRTQL server with a single open socket. This is designed to
+ * be used with tcpserver.
+ *
+ * @param server The server to run.
+ * @param sockfd The incoming socket
+ * @return 0 if successful, an error code otherwise.
+ */</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='85' u='c' c='server_thread'/>

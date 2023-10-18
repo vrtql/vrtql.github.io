@@ -1,7 +1,8 @@
 <dec f='codebrowser/src/server.h' l='245' type='uint8_t'/>
 <use f='codebrowser/src/server.c' l='659' u='r' c='worker_thread'/>
-<use f='codebrowser/src/server.c' l='958' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1079' u='w' c='tcp_svr_ctor'/>
 <offset>2944</offset>
 <doc f='codebrowser/src/server.h' l='244'>/**&lt; Tracing leve (0 is off) */</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='76' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='43' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='50' u='w' c='server_thread'/>

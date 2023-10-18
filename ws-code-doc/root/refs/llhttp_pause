@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='701' type='void llhttp_pause(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='175' ll='182' type='void llhttp_pause(llhttp_t * parser)'/>

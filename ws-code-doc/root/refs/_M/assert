@@ -1,25 +1,4 @@
 <dec f='include/assert.h' l='107'/>
-<use f='codebrowser/src/http_parser.c' l='1437' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='1601' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2018' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2067' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2068' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2085' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2120' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2131' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2152' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2153' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2171' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2172' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2179' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2188' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2204' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2347' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2354' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2447' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2585' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2632' u='c'/>
-<use f='codebrowser/src/http_parser.c' l='2661' u='c'/>
 <doc f='include/assert.h' l='102'>/* The first occurrence of EXPR is not evaluated due to the sizeof,
    but will trigger any pedantic warnings masked by the __extension__
    for the second occurrence.  The ternary operator is required to

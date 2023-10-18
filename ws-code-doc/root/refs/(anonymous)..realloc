@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/vws.h' l='228' type='vws_realloc_cb'/>
 <offset>256</offset>
 <doc f='codebrowser/src/vws.h' l='228'>/**&lt; realloc function            */</doc>
-<use f='codebrowser/src/server.c' l='1316' u='r' c='svr_on_realloc'/>
+<use f='codebrowser/src/server.c' l='1445' u='r' c='svr_on_realloc'/>
 <use f='codebrowser/src/vws.c' l='450' u='w'/>
 <use f='codebrowser/src/vws.c' l='547' u='r' c='vws_buffer_append'/>

@@ -139,60 +139,70 @@
 <tr><th id="125">125</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_set_timeout" title='vws_socket_set_timeout' data-ref="vws_socket_set_timeout" data-ref-filename="vws_socket_set_timeout">vws_socket_set_timeout</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col6 decl" id="2326s" title='s' data-type='vws_socket *' data-ref="2326s" data-ref-filename="2326s">s</dfn>, <em>int</em> <dfn class="local col7 decl" id="2327sec" title='sec' data-type='int' data-ref="2327sec" data-ref-filename="2327sec">sec</dfn>);</td></tr>
 <tr><th id="126">126</th><td></td></tr>
 <tr><th id="127">127</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="128">128</th><td><i class="doc"> * <span class="command">@brief</span> Closes the connection to the host.</i></td></tr>
+<tr><th id="128">128</th><td><i class="doc"> * <span class="command">@brief</span> Sets a socket to non-blocking mode.</i></td></tr>
 <tr><th id="129">129</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="130">130</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The socket connection.</i></td></tr>
-<tr><th id="131">131</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="132">132</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
-<tr><th id="133">133</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="134">134</th><td><em>void</em> <dfn class="decl fn" id="vws_socket_disconnect" title='vws_socket_disconnect' data-ref="vws_socket_disconnect" data-ref-filename="vws_socket_disconnect">vws_socket_disconnect</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col8 decl" id="2328s" title='s' data-type='vws_socket *' data-ref="2328s" data-ref-filename="2328s">s</dfn>);</td></tr>
-<tr><th id="135">135</th><td></td></tr>
-<tr><th id="136">136</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="137">137</th><td><i class="doc"> * <span class="command">@brief</span> Checks if a connection is established.</i></td></tr>
-<tr><th id="138">138</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="139">139</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The socket connection.</i></td></tr>
-<tr><th id="140">140</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the connection is established, false otherwise.</i></td></tr>
+<tr><th id="130">130</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">sockfd</span> The socket file descriptor.</i></td></tr>
+<tr><th id="131">131</th><td><i class="doc"> * <span class="command">@return</span> True if successful, false otherwise.</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
+<tr><th id="134">134</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="135">135</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_set_nonblocking" title='vws_socket_set_nonblocking' data-ref="vws_socket_set_nonblocking" data-ref-filename="vws_socket_set_nonblocking">vws_socket_set_nonblocking</dfn>(<em>int</em> <dfn class="local col8 decl" id="2328sockfd" title='sockfd' data-type='int' data-ref="2328sockfd" data-ref-filename="2328sockfd">sockfd</dfn>);</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="138">138</th><td><i class="doc"> * <span class="command">@brief</span> Closes the connection to the host.</i></td></tr>
+<tr><th id="139">139</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The socket connection.</i></td></tr>
 <tr><th id="141">141</th><td><i class="doc"> *</i></td></tr>
 <tr><th id="142">142</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
 <tr><th id="143">143</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="144">144</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_is_connected" title='vws_socket_is_connected' data-ref="vws_socket_is_connected" data-ref-filename="vws_socket_is_connected">vws_socket_is_connected</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col9 decl" id="2329s" title='s' data-type='vws_socket *' data-ref="2329s" data-ref-filename="2329s">s</dfn>);</td></tr>
+<tr><th id="144">144</th><td><em>void</em> <dfn class="decl fn" id="vws_socket_disconnect" title='vws_socket_disconnect' data-ref="vws_socket_disconnect" data-ref-filename="vws_socket_disconnect">vws_socket_disconnect</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col9 decl" id="2329s" title='s' data-type='vws_socket *' data-ref="2329s" data-ref-filename="2329s">s</dfn>);</td></tr>
 <tr><th id="145">145</th><td></td></tr>
 <tr><th id="146">146</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="147">147</th><td><i class="doc"> * <span class="command">@brief</span> Closes a socket</i></td></tr>
+<tr><th id="147">147</th><td><i class="doc"> * <span class="command">@brief</span> Checks if a connection is established.</i></td></tr>
 <tr><th id="148">148</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="149">149</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_socket</i></td></tr>
-<tr><th id="150">150</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="151">151</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
-<tr><th id="152">152</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="153">153</th><td><em>void</em> <dfn class="decl fn" id="vws_socket_close" title='vws_socket_close' data-ref="vws_socket_close" data-ref-filename="vws_socket_close">vws_socket_close</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col0 decl" id="2330c" title='c' data-type='vws_socket *' data-ref="2330c" data-ref-filename="2330c">c</dfn>);</td></tr>
-<tr><th id="154">154</th><td></td></tr>
-<tr><th id="155">155</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="156">156</th><td><i class="doc"> * <span class="command">@brief</span> Reads data from a socket connection into a buffer</i></td></tr>
-<tr><th id="157">157</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="158">158</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the Socket connection.</i></td></tr>
-<tr><th id="159">159</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The buffer to read data into.</i></td></tr>
-<tr><th id="160">160</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the buffer.</i></td></tr>
-<tr><th id="161">161</th><td><i class="doc"> * <span class="command">@return</span> The number of bytes read, or an error code if an error occurred.</i></td></tr>
-<tr><th id="162">162</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="163">163</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
-<tr><th id="164">164</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="165">165</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_read" title='vws_socket_read' data-ref="vws_socket_read" data-ref-filename="vws_socket_read">vws_socket_read</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col1 decl" id="2331s" title='s' data-type='vws_socket *' data-ref="2331s" data-ref-filename="2331s">s</dfn>);</td></tr>
-<tr><th id="166">166</th><td></td></tr>
-<tr><th id="167">167</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="168">168</th><td><i class="doc"> * <span class="command">@brief</span> Writes data from a buffer to a socket</i></td></tr>
-<tr><th id="169">169</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="170">170</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the socket</i></td></tr>
-<tr><th id="171">171</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The buffer containing the data to write.</i></td></tr>
-<tr><th id="172">172</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data to write.</i></td></tr>
-<tr><th id="173">173</th><td><i class="doc"> * <span class="command">@return</span> The number of bytes written, or an error code if an error occurred.</i></td></tr>
-<tr><th id="174">174</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="175">175</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
-<tr><th id="176">176</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="177">177</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_write" title='vws_socket_write' data-ref="vws_socket_write" data-ref-filename="vws_socket_write">vws_socket_write</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2332s" title='s' data-type='vws_socket *' data-ref="2332s" data-ref-filename="2332s">s</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col3 decl" id="2333data" title='data' data-type='ucstr' data-ref="2333data" data-ref-filename="2333data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="2334size" title='size' data-type='size_t' data-ref="2334size" data-ref-filename="2334size">size</dfn>);</td></tr>
-<tr><th id="178">178</th><td></td></tr>
-<tr><th id="179">179</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_SOCKET_DECLARE */</u></td></tr>
-<tr><th id="180">180</th><td></td></tr>
+<tr><th id="149">149</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The socket connection.</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the connection is established, false otherwise.</i></td></tr>
+<tr><th id="151">151</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="152">152</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
+<tr><th id="153">153</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="154">154</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="vws_socket_is_connected" title='vws_socket_is_connected' data-ref="vws_socket_is_connected" data-ref-filename="vws_socket_is_connected">vws_socket_is_connected</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col0 decl" id="2330s" title='s' data-type='vws_socket *' data-ref="2330s" data-ref-filename="2330s">s</dfn>);</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc"> * <span class="command">@brief</span> Closes a socket</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_socket</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
+<tr><th id="162">162</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="163">163</th><td><em>void</em> <dfn class="decl fn" id="vws_socket_close" title='vws_socket_close' data-ref="vws_socket_close" data-ref-filename="vws_socket_close">vws_socket_close</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col1 decl" id="2331c" title='c' data-type='vws_socket *' data-ref="2331c" data-ref-filename="2331c">c</dfn>);</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="166">166</th><td><i class="doc"> * <span class="command">@brief</span> Reads data from a socket connection into a buffer</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="168">168</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the Socket connection.</i></td></tr>
+<tr><th id="169">169</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The buffer to read data into.</i></td></tr>
+<tr><th id="170">170</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the buffer.</i></td></tr>
+<tr><th id="171">171</th><td><i class="doc"> * <span class="command">@return</span> The number of bytes read, or an error code if an error occurred.</i></td></tr>
+<tr><th id="172">172</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="173">173</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
+<tr><th id="174">174</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="175">175</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_read" title='vws_socket_read' data-ref="vws_socket_read" data-ref-filename="vws_socket_read">vws_socket_read</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col2 decl" id="2332s" title='s' data-type='vws_socket *' data-ref="2332s" data-ref-filename="2332s">s</dfn>);</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="178">178</th><td><i class="doc"> * <span class="command">@brief</span> Writes data from a buffer to a socket</i></td></tr>
+<tr><th id="179">179</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="180">180</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">c</span> The vws_cnx representing the socket</i></td></tr>
+<tr><th id="181">181</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The buffer containing the data to write.</i></td></tr>
+<tr><th id="182">182</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data to write.</i></td></tr>
+<tr><th id="183">183</th><td><i class="doc"> * <span class="command">@return</span> The number of bytes written, or an error code if an error occurred.</i></td></tr>
+<tr><th id="184">184</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="185">185</th><td><i class="doc"> * <span class="command">@ingroup</span> <span class="verb">SocketFunctions</span></i></td></tr>
+<tr><th id="186">186</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="187">187</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/sys/types.h.html#ssize_t" title='ssize_t' data-type='__ssize_t' data-ref="ssize_t" data-ref-filename="ssize_t">ssize_t</a> <dfn class="decl fn" id="vws_socket_write" title='vws_socket_write' data-ref="vws_socket_write" data-ref-filename="vws_socket_write">vws_socket_write</dfn>(<a class="typedef" href="#vws_socket" title='vws_socket' data-type='struct vws_socket' data-ref="vws_socket" data-ref-filename="vws_socket">vws_socket</a>* <dfn class="local col3 decl" id="2333s" title='s' data-type='vws_socket *' data-ref="2333s" data-ref-filename="2333s">s</dfn>, <a class="typedef" href="vws.h.html#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col4 decl" id="2334data" title='data' data-type='ucstr' data-ref="2334data" data-ref-filename="2334data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="2335size" title='size' data-type='size_t' data-ref="2335size" data-ref-filename="2335size">size</dfn>);</td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_SOCKET_DECLARE */</u></td></tr>
+<tr><th id="190">190</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Sep-25</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Oct-18</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

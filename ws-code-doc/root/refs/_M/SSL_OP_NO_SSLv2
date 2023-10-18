@@ -1,4 +1,4 @@
 <dec f='include/openssl/ssl.h' l='443'/>
 <doc f='include/openssl/ssl.h' l='442'>/* Removed from OpenSSL 1.1.0. Was 0x01000000L */</doc>
-<use f='codebrowser/src/socket.c' l='290' u='c'/>
+<use f='codebrowser/src/socket.c' l='280' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='52' u='c'/>

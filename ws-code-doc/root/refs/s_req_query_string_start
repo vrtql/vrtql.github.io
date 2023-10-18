@@ -1,7 +1,0 @@
-<dec f='codebrowser/src/http_parser.c' l='374' type='28'/>
-<use f='codebrowser/src/http_parser.c' l='624' u='r' c='parse_url_char'/>
-<use f='codebrowser/src/http_parser.c' l='644' u='r' c='parse_url_char'/>
-<use f='codebrowser/src/http_parser.c' l='652' c='parse_url_char'/>
-<use f='codebrowser/src/http_parser.c' l='763' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1135' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2556' c='http_parser_parse_url'/>

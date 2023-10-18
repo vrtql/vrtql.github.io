@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='637' type='int llhttp_get_status_code(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='116' ll='118' type='int llhttp_get_status_code(llhttp_t * parser)'/>

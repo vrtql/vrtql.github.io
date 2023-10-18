@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='34' type='uint8_t'/>
+<offset>640</offset>
+<use f='codebrowser/src/llhttp/api.c' l='121' u='r' c='llhttp_get_upgrade'/>
+<use f='codebrowser/src/llhttp/http.c' l='20' u='w' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='23' u='w' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='43' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='704' u='r' c='llhttp__internal__c_is_equal_upgrade'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='855' u='w' c='llhttp__internal__c_update_upgrade'/>

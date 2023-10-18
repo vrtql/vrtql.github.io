@@ -1,3 +1,0 @@
-<dec f='codebrowser/src/http_parser.c' l='354' type='10'/>
-<use f='codebrowser/src/http_parser.c' l='881' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='884' c='http_parser_execute'/>

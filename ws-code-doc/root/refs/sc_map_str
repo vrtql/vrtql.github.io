@@ -25,7 +25,7 @@
 <use f='codebrowser/src/message.c' l='21' c='msg_parse_map'/>
 <use f='codebrowser/src/message.c' l='528' c='msg_parse_map'/>
 <size>32</size>
-<use f='codebrowser/src/server.c' l='1584' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1713' c='ws_svr_client_read'/>
 <size>32</size>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_init_str'/>

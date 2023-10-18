@@ -1,16 +1,17 @@
 <dec f='codebrowser/src/socket.h' l='39' type='vws_buffer *'/>
 <offset>128</offset>
 <doc f='codebrowser/src/socket.h' l='38'>/**&lt; Socket receive buffer. */</doc>
-<use f='codebrowser/src/server.c' l='1544' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1554' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1555' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1578' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1632' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/socket.c' l='83' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='108' u='r' c='vws_socket_dtor'/>
-<use f='codebrowser/src/socket.c' l='272' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='465' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='591' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/server.c' l='1673' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1683' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1684' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1707' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1760' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/socket.c' l='73' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='98' u='r' c='vws_socket_dtor'/>
+<use f='codebrowser/src/socket.c' l='262' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='455' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='581' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='103' u='r' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='70' u='r' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='465' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='481' u='r' c='socket_handshake'/>

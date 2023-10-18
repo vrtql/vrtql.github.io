@@ -1,5 +1,6 @@
 <dec f='include/x86_64-linux-gnu/sys/socket.h' l='112' type='int bind(int __fd, const struct sockaddr * __addr, socklen_t __len)'/>
 <doc f='include/x86_64-linux-gnu/sys/socket.h' l='111'>/* Give the socket FD the local address ADDR (which is LEN bytes long).  */</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='70' u='c' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='223' u='c' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='434' u='c' c='mg_socketpair'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='434' u='c' c='mg_socketpair'/>

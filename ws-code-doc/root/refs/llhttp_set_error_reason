@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='737' type='void llhttp_set_error_reason(llhttp_t * parser, const char * reason)'/>
+<def f='codebrowser/src/llhttp/api.c' l='213' ll='215' type='void llhttp_set_error_reason(llhttp_t * parser, const char * reason)'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_url'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_status'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_method'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_version'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_header_field'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_header_value'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_body'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_chunk_extension_name'/>
+<use f='codebrowser/src/llhttp/api.c' l='29' u='c' c='llhttp__on_chunk_extension_value'/>

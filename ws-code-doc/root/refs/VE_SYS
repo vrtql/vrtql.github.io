@@ -1,19 +1,19 @@
 <dec f='codebrowser/src/vws.h' l='31' type='64'/>
 <doc f='codebrowser/src/vws.h' l='31'>/**&lt; System call error */</doc>
-<use f='codebrowser/src/socket.c' l='158' c='socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='166' c='socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='221' c='socket_set_nonblocking'/>
-<use f='codebrowser/src/socket.c' l='228' c='socket_set_nonblocking'/>
-<use f='codebrowser/src/socket.c' l='286' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='297' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='311' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='330' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='358' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='671' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='781' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='864' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='875' c='connect_to_host'/>
-<use f='codebrowser/src/socket.c' l='884' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='148' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='156' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='211' c='vws_socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='218' c='vws_socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='276' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='287' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='301' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='320' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='348' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='661' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='771' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='854' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='865' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='874' c='connect_to_host'/>
 <use f='codebrowser/src/vws.c' l='102' u='r' c='vws_trace_lock'/>
 <use f='codebrowser/src/vws.c' l='123' u='r' c='vws_trace_unlock'/>
 <use f='codebrowser/src/vws.c' l='154' u='r' c='vws_trace'/>

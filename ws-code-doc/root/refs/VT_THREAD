@@ -2,6 +2,7 @@
 <use f='codebrowser/src/server.c' l='661' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='680' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='704' u='r' c='uv_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='112' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='42' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='49' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='79' u='r' c='ctest_test_server_echo_run'/>

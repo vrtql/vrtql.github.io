@@ -1,0 +1,3 @@
+<def f='codebrowser/src/llhttp/llhttp.c' l='631' ll='638' type='int llhttp__internal__c_store_method(llhttp__internal_t * state, const unsigned char * p, const unsigned char * endp, int match)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9490' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9957' u='c' c='llhttp__internal__run'/>

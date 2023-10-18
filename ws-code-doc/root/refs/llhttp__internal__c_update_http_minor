@@ -1,0 +1,2 @@
+<def f='codebrowser/src/llhttp/llhttp.c' l='659' ll='665' type='int llhttp__internal__c_update_http_minor(llhttp__internal_t * state, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8645' u='c' c='llhttp__internal__run'/>

@@ -1,8 +1,4 @@
-<dec f='codebrowser/src/http_parser.h' l='212' macro='1' type='5'/>
-<use f='codebrowser/src/http_parser.c' l='1012' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1062' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1063' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1096' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1904' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1953' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2233' u='r' c='http_header_only_message'/>
+<dec f='codebrowser/src/llhttp/llhttp.h' l='144' type='5'/>
+<use f='codebrowser/src/llhttp/api.c' l='236' macro='1' c='llhttp_method_name'/>
+<use f='codebrowser/src/llhttp/http.c' l='23' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='43' u='r' c='llhttp__after_headers_complete'/>

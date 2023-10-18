@@ -1,3 +1,0 @@
-<def f='codebrowser/src/http_parser.h' l='156' ll='161'/>
-<use f='codebrowser/src/http_parser.h' l='429' c='http_status_str'/>
-<use f='codebrowser/src/http_parser.c' l='2318' c='http_status_str'/>

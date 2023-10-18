@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/server.h' l='268' type='vws_svr_data * vws_svr_data_own(vws_svr_cnx * c, ucstr data, size_t size)'/>
+<dec f='codebrowser/src/server.h' l='271' type='vws_svr_data * vws_svr_data_own(vws_svr_cnx * c, ucstr data, size_t size)'/>
 <use f='codebrowser/src/server.c' l='749' u='c' c='vws_svr_data_new'/>
 <def f='codebrowser/src/server.c' l='758' ll='769' type='vws_svr_data * vws_svr_data_own(vws_svr_cnx * c, ucstr data, size_t size)'/>
-<use f='codebrowser/src/server.c' l='1063' u='c' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1528' u='c' c='vws_tcp_svr_close'/>
-<use f='codebrowser/src/server.c' l='1663' u='c' c='ws_svr_client_read'/>
-<doc f='codebrowser/src/server.h' l='259'>/**
+<use f='codebrowser/src/server.c' l='1185' u='c' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1657' u='c' c='vws_tcp_svr_close'/>
+<use f='codebrowser/src/server.c' l='1791' u='c' c='ws_svr_client_read'/>
+<doc f='codebrowser/src/server.h' l='262'>/**
  * @brief Creates a new thread data. This TAKES OWNERSHIP of the data. The
  * caller MUST NOT free() this data.
  *
@@ -13,4 +13,5 @@
  * @param data The data
  * @return A new vws_svr_data instance with memory
  */</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='32' u='c' c='process_data'/>
 <use f='codebrowser/src/test/test_server.c' l='28' u='c' c='process_data'/>

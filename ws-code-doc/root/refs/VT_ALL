@@ -1,1 +1,2 @@
 <dec f='codebrowser/src/vws.h' l='49' type='9'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='75' u='r' c='server_thread'/>

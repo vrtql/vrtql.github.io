@@ -1,2 +1,2 @@
 <dec f='include/openssl/rand.h' l='64' type='int RAND_poll()'/>
-<use f='codebrowser/src/socket.c' l='279' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='269' u='c' c='vws_socket_connect'/>

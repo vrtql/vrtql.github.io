@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='21' type='void *'/>
+<offset>128</offset>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1301' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1633' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1701' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='2039' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='2060' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='2147' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='2758' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='3129' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='3532' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='4168' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='4200' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='5971' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='6034' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='6472' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='6616' u='w' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='10093' u='r' c='llhttp__internal_execute'/>

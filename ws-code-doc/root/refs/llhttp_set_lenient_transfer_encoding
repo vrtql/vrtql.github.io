@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='816' type='void llhttp_set_lenient_transfer_encoding(llhttp_t * parser, int enabled)'/>
+<def f='codebrowser/src/llhttp/api.c' l='278' ll='284' type='void llhttp_set_lenient_transfer_encoding(llhttp_t * parser, int enabled)'/>

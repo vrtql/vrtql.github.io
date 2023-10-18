@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='25' type='void *'/>
+<use f='codebrowser/src/http_message.c' l='129' u='w' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='167' u='r' c='on_headers_complete'/>
+<use f='codebrowser/src/http_message.c' l='178' u='r' c='on_message_complete'/>
+<use f='codebrowser/src/http_message.c' l='187' u='r' c='on_url'/>
+<use f='codebrowser/src/http_message.c' l='195' u='r' c='on_header_field'/>
+<use f='codebrowser/src/http_message.c' l='207' u='r' c='on_header_value'/>
+<use f='codebrowser/src/http_message.c' l='215' u='r' c='on_body'/>
+<offset>384</offset>
+<use f='codebrowser/src/llhttp/api.c' l='128' u='r' c='llhttp_reset'/>
+<use f='codebrowser/src/llhttp/api.c' l='135' u='w' c='llhttp_reset'/>

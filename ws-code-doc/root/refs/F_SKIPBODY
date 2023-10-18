@@ -1,7 +1,4 @@
-<dec f='codebrowser/src/http_parser.h' l='228' type='64'/>
-<use f='codebrowser/src/http_parser.c' l='1926' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1954' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1961' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2234' u='r' c='http_header_only_message'/>
-<use f='codebrowser/src/http_parser.c' l='2238' u='r' c='http_header_only_message'/>
-<use f='codebrowser/src/http_parser.c' l='2273' u='r' c='http_message_needs_eof'/>
+<dec f='codebrowser/src/llhttp/llhttp.h' l='104' type='64'/>
+<use f='codebrowser/src/llhttp/http.c' l='44' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='59' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='138' u='r' c='llhttp_message_needs_eof'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='589' type='llhttp_cb'/>
+<use f='codebrowser/src/http_message.c' l='122' u='w' c='vws_http_msg_new'/>
+<offset>704</offset>
+<doc f='codebrowser/src/llhttp/llhttp.h' l='588'>/* Possible return values 0, -1, `HPE_PAUSED` */</doc>
+<use f='codebrowser/src/llhttp/api.c' l='160' u='r' c='llhttp_finish'/>
+<use f='codebrowser/src/llhttp/api.c' l='160' u='r' c='llhttp_finish'/>
+<use f='codebrowser/src/llhttp/api.c' l='437' u='r' c='llhttp__on_message_complete'/>
+<use f='codebrowser/src/llhttp/api.c' l='437' u='r' c='llhttp__on_message_complete'/>

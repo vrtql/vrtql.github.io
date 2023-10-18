@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='84' type='24'/>
+<use f='codebrowser/src/llhttp/api.c' l='226' macro='1' c='llhttp_errno_name'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_url'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_status'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_method'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_version'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_header_field'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_header_value'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_body'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_chunk_extension_name'/>
+<use f='codebrowser/src/llhttp/api.c' l='28' u='r' c='llhttp__on_chunk_extension_value'/>

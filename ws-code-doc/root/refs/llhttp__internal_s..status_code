@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='37' type='uint16_t'/>
+<offset>672</offset>
+<use f='codebrowser/src/llhttp/api.c' l='117' u='r' c='llhttp_get_status_code'/>
+<use f='codebrowser/src/llhttp/http.c' l='21' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='46' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='52' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='62' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='63' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='64' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='65' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='135' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='136' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='137' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1110' u='w' c='llhttp__internal__c_update_status_code'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1120' u='r' c='llhttp__internal__c_mul_add_status_code'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1124' u='w' c='llhttp__internal__c_mul_add_status_code'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1128' u='r' c='llhttp__internal__c_mul_add_status_code'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1132' u='r' c='llhttp__internal__c_mul_add_status_code'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1136' u='w' c='llhttp__internal__c_mul_add_status_code'/>

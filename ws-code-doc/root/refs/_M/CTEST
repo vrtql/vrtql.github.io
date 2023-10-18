@@ -4,6 +4,7 @@
 <use f='codebrowser/src/test/test_common.c' l='129' u='c'/>
 <use f='codebrowser/src/test/test_common.c' l='139' u='c'/>
 <use f='codebrowser/src/test/test_http_request.c' l='8' u='c'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='109' u='c'/>
 <use f='codebrowser/src/test/test_message.c' l='10' u='c'/>
 <use f='codebrowser/src/test/test_message.c' l='49' u='c'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='132' u='c'/>

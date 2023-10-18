@@ -1,0 +1,4 @@
+<def f='codebrowser/src/llhttp/llhttp.c' l='1114' ll='1138' type='int llhttp__internal__c_mul_add_status_code(llhttp__internal_t * state, const unsigned char * p, const unsigned char * endp, int match)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9656' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9675' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='9694' u='c' c='llhttp__internal__run'/>

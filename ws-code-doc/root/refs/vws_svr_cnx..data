@@ -1,10 +1,10 @@
 <dec f='codebrowser/src/server.h' l='141' type='char *'/>
-<use f='codebrowser/src/server.c' l='1161' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1507' u='w' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1517' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1519' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1520' u='w' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1541' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1676' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1283' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1636' u='w' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1646' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1648' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1649' u='w' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1670' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1804' u='r' c='ws_svr_client_data_in'/>
 <offset>256</offset>
 <doc f='codebrowser/src/server.h' l='140'>/**&lt; User-defined data associated with the connection */</doc>

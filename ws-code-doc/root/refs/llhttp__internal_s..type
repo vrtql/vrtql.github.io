@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='28' type='uint8_t'/>
+<offset>576</offset>
+<use f='codebrowser/src/llhttp/api.c' l='37' u='w' c='llhttp_init'/>
+<use f='codebrowser/src/llhttp/api.c' l='101' u='r' c='llhttp_get_type'/>
+<use f='codebrowser/src/llhttp/api.c' l='126' u='r' c='llhttp_reset'/>
+<use f='codebrowser/src/llhttp/api.c' l='133' u='w' c='llhttp_reset'/>
+<use f='codebrowser/src/llhttp/api.c' l='504' u='r' c='llhttp__debug'/>
+<use f='codebrowser/src/llhttp/api.c' l='508' u='r' c='llhttp__debug'/>
+<use f='codebrowser/src/llhttp/http.c' l='21' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='46' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='52' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='61' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='74' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='130' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='628' u='r' c='llhttp__internal__c_load_type'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1148' u='w' c='llhttp__internal__c_update_type'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1156' u='w' c='llhttp__internal__c_update_type_1'/>

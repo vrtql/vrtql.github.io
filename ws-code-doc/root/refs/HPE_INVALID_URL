@@ -1,5 +1,2 @@
-<dec f='codebrowser/src/http_parser.h' l='288' macro='1' type='17'/>
-<use f='codebrowser/src/http_parser.c' l='1102' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1119' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1124' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='1157' u='r' c='http_parser_execute'/>
+<dec f='codebrowser/src/llhttp/llhttp.h' l='67' type='7'/>
+<use f='codebrowser/src/llhttp/api.c' l='226' macro='1' c='llhttp_errno_name'/>

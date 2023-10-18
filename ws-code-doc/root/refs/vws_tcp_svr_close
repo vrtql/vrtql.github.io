@@ -1,7 +1,8 @@
-<dec f='codebrowser/src/server.h' l='320' type='void vws_tcp_svr_close(vws_svr_cnx * cnx)'/>
-<def f='codebrowser/src/server.c' l='1524' ll='1535' type='void vws_tcp_svr_close(vws_svr_cnx * cnx)'/>
-<use f='codebrowser/src/server.c' l='1805' u='c' c='msg_svr_client_ws_msg_in'/>
-<doc f='codebrowser/src/server.h' l='315'>/**
+<dec f='codebrowser/src/server.h' l='340' type='void vws_tcp_svr_close(vws_svr_cnx * cnx)'/>
+<use f='codebrowser/src/server.c' l='1308' u='c' c='svr_cnx_close'/>
+<def f='codebrowser/src/server.c' l='1653' ll='1664' type='void vws_tcp_svr_close(vws_svr_cnx * cnx)'/>
+<use f='codebrowser/src/server.c' l='1933' u='c' c='msg_svr_client_ws_msg_in'/>
+<doc f='codebrowser/src/server.h' l='335'>/**
  * @brief Close a VRTQL server connection.
  *
  * @param cnx The server connection to close.

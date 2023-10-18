@@ -1,8 +1,0 @@
-<dec f='codebrowser/src/http_parser.h' l='338' type='http_data_cb'/>
-<offset>128</offset>
-<use f='codebrowser/src/http_parser.c' l='976' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='976' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='982' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='982' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2214' macro='1' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2214' macro='1' u='r' c='http_parser_execute'/>

@@ -27,6 +27,8 @@
 <mbr r='ctest::magic' o='416' t='unsigned int'/>
 <use f='codebrowser/src/test/test_http_request.c' l='8' macro='1'/>
 <size>56</size>
+<use f='codebrowser/src/test/test_inetd_server.c' l='109' macro='1'/>
+<size>56</size>
 <use f='codebrowser/src/test/test_json.c' l='30' macro='1'/>
 <use f='codebrowser/src/test/test_json.c' l='63' macro='1'/>
 <size>56</size>

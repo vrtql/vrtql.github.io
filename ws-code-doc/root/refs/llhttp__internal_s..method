@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='29' type='uint8_t'/>
+<offset>584</offset>
+<use f='codebrowser/src/llhttp/api.c' l='113' u='r' c='llhttp_get_method'/>
+<use f='codebrowser/src/llhttp/http.c' l='23' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='43' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='636' u='w' c='llhttp__internal__c_store_method'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='648' u='r' c='llhttp__internal__c_is_equal_method'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1060' u='r' c='llhttp__internal__c_load_method'/>

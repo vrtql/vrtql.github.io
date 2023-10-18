@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='828' type='void llhttp_set_lenient_version(llhttp_t * parser, int enabled)'/>
+<def f='codebrowser/src/llhttp/api.c' l='286' ll='292' type='void llhttp_set_lenient_version(llhttp_t * parser, int enabled)'/>

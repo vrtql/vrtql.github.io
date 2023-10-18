@@ -6,8 +6,9 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<def f='codebrowser/src/socket.c' l='72' ll='78' type='vws_socket * vws_socket_new()'/>
-<doc f='codebrowser/src/socket.c' l='68'>//------------------------------------------------------------------------------
+<def f='codebrowser/src/socket.c' l='62' ll='68' type='vws_socket * vws_socket_new()'/>
+<doc f='codebrowser/src/socket.c' l='58'>//------------------------------------------------------------------------------
 //&gt; Socket API
 //------------------------------------------------------------------------------</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='92' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='59' u='c' c='client_thread'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='583' type='llhttp_cb'/>
+<use f='codebrowser/src/http_message.c' l='121' u='w' c='vws_http_msg_new'/>
+<offset>576</offset>
+<doc f='codebrowser/src/llhttp/llhttp.h' l='574'>/* Possible return values:
+   * 0  - Proceed normally
+   * 1  - Assume that request/response has no body, and proceed to parsing the
+   *      next message
+   * 2  - Assume absence of body (as above) and make `llhttp_execute()` return
+   *      `HPE_PAUSED_UPGRADE`
+   * -1 - Error
+   * `HPE_PAUSED`
+   */</doc>
+<use f='codebrowser/src/llhttp/api.c' l='430' u='r' c='llhttp__on_headers_complete'/>
+<use f='codebrowser/src/llhttp/api.c' l='430' u='r' c='llhttp__on_headers_complete'/>

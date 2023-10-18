@@ -1,0 +1,4 @@
+<def f='codebrowser/src/llhttp/api.c' l='337' ll='341' type='int llhttp__on_message_begin(llhttp_t * s, const char * p, const char * endp)'/>
+<doc f='codebrowser/src/llhttp/api.c' l='334'>/* Callbacks */</doc>
+<dec f='codebrowser/src/llhttp/llhttp.c' l='620' type='int llhttp__on_message_begin(llhttp__internal_t * s, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='10017' u='c' c='llhttp__internal__run'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='112' type='2'/>
+<use f='codebrowser/src/llhttp/api.c' l='263' u='r' c='llhttp_set_lenient_chunked_length'/>
+<use f='codebrowser/src/llhttp/api.c' l='265' u='r' c='llhttp_set_lenient_chunked_length'/>
+<use f='codebrowser/src/llhttp/http.c' l='75' u='r' c='llhttp__after_headers_complete'/>

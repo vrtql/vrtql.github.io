@@ -1,0 +1,11 @@
+<def f='codebrowser/src/llhttp/http.c' l='37' ll='113' type='int llhttp__after_headers_complete(llhttp_t * parser, const char * p, const char * endp)'/>
+<doc f='codebrowser/src/llhttp/http.c' l='29'>/* Return values:
+ * 0 - No body, `restart`, message_complete
+ * 1 - CONNECT request, `restart`, message_complete, and pause
+ * 2 - chunk_size_start
+ * 3 - body_identity
+ * 4 - body_identity_eof
+ * 5 - invalid transfer-encoding for request
+ */</doc>
+<dec f='codebrowser/src/llhttp/llhttp.c' l='757' type='int llhttp__after_headers_complete(llhttp__internal_t * s, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='2067' u='c' c='llhttp__internal__run'/>

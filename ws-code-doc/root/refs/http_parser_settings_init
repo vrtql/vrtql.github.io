@@ -1,5 +1,0 @@
-<dec f='codebrowser/src/http_parser.h' l='399' type='void http_parser_settings_init(http_parser_settings * settings)'/>
-<use f='codebrowser/src/http_message.c' l='123' u='c' c='vws_http_msg_new'/>
-<doc f='codebrowser/src/http_parser.h' l='397'>/* Initialize http_parser_settings members to 0
- */</doc>
-<def f='codebrowser/src/http_parser.c' l='2338' ll='2342' type='void http_parser_settings_init(http_parser_settings * settings)'/>

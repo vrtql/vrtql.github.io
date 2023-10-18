@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/socket.h' l='135' type='_Bool vws_socket_set_nonblocking(int sockfd)'/>
+<use f='codebrowser/src/server.c' l='956' u='c' c='vws_tcp_svr_inetd_run'/>
+<def f='codebrowser/src/socket.c' l='203' ll='240' macro='1' type='_Bool vws_socket_set_nonblocking(int sockfd)'/>
+<use f='codebrowser/src/socket.c' l='336' u='c' c='vws_socket_connect'/>

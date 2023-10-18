@@ -1,3 +1,7 @@
+<def f='codebrowser/src/test/test_inetd_server.c' l='15' type='cstr'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='97' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_msg_server.c' l='11' type='cstr'/>
 <def f='codebrowser/src/test/test_rpc_client.c' l='8' type='cstr'/>
 <def f='codebrowser/src/test/test_server.c' l='11' type='cstr'/>

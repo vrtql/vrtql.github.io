@@ -1,0 +1,4 @@
+<def f='codebrowser/src/llhttp/llhttp.h' l='131' ll='135'/>
+<use f='codebrowser/src/llhttp/llhttp.h' l='136'/>
+<dec f='codebrowser/src/llhttp/llhttp.h' l='680' type='llhttp_errno_t llhttp_finish(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='150' ll='172' type='llhttp_errno_t llhttp_finish(llhttp_t * parser)'/>

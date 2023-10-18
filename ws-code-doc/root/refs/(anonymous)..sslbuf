@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/vws.h' l='239' type='unsigned char [4096]'/>
 <offset>1024</offset>
 <doc f='codebrowser/src/vws.h' l='239'>/**&lt; Thread-local SSL buffer */</doc>
-<use f='codebrowser/src/socket.c' l='450' u='a' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='451' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='440' u='a' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='441' u='r' c='vws_socket_read'/>

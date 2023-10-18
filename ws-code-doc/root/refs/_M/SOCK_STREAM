@@ -1,5 +1,6 @@
 <dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='28'/>
-<use f='codebrowser/src/socket.c' l='852' u='c'/>
+<use f='codebrowser/src/socket.c' l='842' u='c'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='52' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='191' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='225' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='333' u='c'/>

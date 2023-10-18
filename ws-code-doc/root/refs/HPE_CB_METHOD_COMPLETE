@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='87' type='32'/>
+<use f='codebrowser/src/llhttp/api.c' l='226' macro='1' c='llhttp_errno_name'/>

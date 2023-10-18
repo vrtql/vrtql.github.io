@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='38' type='uint8_t'/>
+<offset>688</offset>
+<use f='codebrowser/src/llhttp/llhttp.c' l='605' u='r' c='llhttp__internal__c_load_initial_message_completed'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='723' u='w' c='llhttp__internal__c_update_initial_message_completed'/>

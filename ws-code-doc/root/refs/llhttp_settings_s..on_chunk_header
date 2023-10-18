@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='603' type='llhttp_cb'/>
+<offset>1280</offset>
+<doc f='codebrowser/src/llhttp/llhttp.h' l='599'>/* When on_chunk_header is called, the current chunk length is stored
+   * in parser-&gt;content_length.
+   * Possible return values 0, -1, `HPE_PAUSED`
+   */</doc>
+<use f='codebrowser/src/llhttp/api.c' l='451' u='r' c='llhttp__on_chunk_header'/>
+<use f='codebrowser/src/llhttp/api.c' l='451' u='r' c='llhttp__on_chunk_header'/>

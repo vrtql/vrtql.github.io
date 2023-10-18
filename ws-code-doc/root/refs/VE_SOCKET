@@ -2,12 +2,12 @@
 <doc f='codebrowser/src/vws.h' l='28'>/**&lt; Socket disconnect */</doc>
 <use f='codebrowser/src/rpc.c' l='136' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='193' u='r' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/socket.c' l='388' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='413' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='528' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='547' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='606' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='645' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='739' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='378' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='403' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='518' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='537' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='596' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='635' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='729' c='vws_socket_write'/>
 <use f='codebrowser/src/vws.c' l='378' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='390' c='vws_cnx_is_connected'/>

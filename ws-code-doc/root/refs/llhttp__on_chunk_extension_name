@@ -1,0 +1,8 @@
+<def f='codebrowser/src/llhttp/api.c' l='456' ll='460' type='int llhttp__on_chunk_extension_name(llhttp_t * s, const char * p, const char * endp)'/>
+<dec f='codebrowser/src/llhttp/llhttp.c' l='589' type='int llhttp__on_chunk_extension_name(llhttp__internal_t * s, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1701' u='r' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7072' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7107' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7143' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7424' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7442' u='c' c='llhttp__internal__run'/>

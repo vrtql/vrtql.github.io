@@ -1,8 +1,7 @@
 <dec f='include/string.h' l='60' type='void * memset(void * __s, int __c, size_t __n)'/>
 <doc f='include/string.h' l='59'>/* Set N bytes of S to C.  */</doc>
-<use f='codebrowser/src/http_parser.c' l='2331' u='c' c='http_parser_init'/>
-<use f='codebrowser/src/http_parser.c' l='2341' u='c' c='http_parser_settings_init'/>
-<use f='codebrowser/src/http_parser.c' l='2524' u='c' c='http_parser_url_init'/>
+<use f='codebrowser/src/llhttp/api.c' l='146' u='c' c='llhttp_settings_init'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1161' u='c' c='llhttp__internal_init'/>
 <use f='codebrowser/src/util/yyjson.h' l='5011' u='c' c='yyjson_arr_iter_init'/>
 <use f='codebrowser/src/util/yyjson.h' l='5080' u='c' c='yyjson_obj_iter_init'/>
 <use f='codebrowser/src/util/yyjson.h' l='5733' u='c' c='yyjson_mut_arr_iter_init'/>
@@ -25,8 +24,9 @@
 <use f='codebrowser/src/mpack/mpack-reader.c' l='312' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='322' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='333' macro='1' u='c' c='mpack_read_native_straddle'/>
-<use f='codebrowser/src/socket.c' l='75' u='c' c='vws_socket_new'/>
-<use f='codebrowser/src/socket.c' l='850' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='65' u='c' c='vws_socket_new'/>
+<use f='codebrowser/src/socket.c' l='840' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='64' u='c' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_dns_parse_rr'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='104' u='c' c='mg_dns_parse'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='205' u='c' c='mg_dns_send'/>

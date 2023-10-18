@@ -1,8 +1,14 @@
-<dec f='codebrowser/src/http_message.h' l='17' type='http_parser_settings *'/>
-<use f='codebrowser/src/http_message.c' l='114' u='w' c='vws_http_msg_new'/>
+<dec f='codebrowser/src/http_message.h' l='17' type='llhttp_settings_t *'/>
+<use f='codebrowser/src/http_message.c' l='110' u='w' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='118' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='120' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='121' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='122' u='r' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='123' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='124' u='r' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='125' u='r' c='vws_http_msg_new'/>
-<use f='codebrowser/src/http_message.c' l='159' u='r' c='vws_http_msg_free'/>
-<use f='codebrowser/src/http_message.c' l='224' u='r' c='vws_http_msg_parse'/>
+<use f='codebrowser/src/http_message.c' l='126' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='128' u='r' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='156' u='r' c='vws_http_msg_free'/>
 <offset>64</offset>
 <doc f='codebrowser/src/http_message.h' l='16'>/**&lt; The parser settings */</doc>

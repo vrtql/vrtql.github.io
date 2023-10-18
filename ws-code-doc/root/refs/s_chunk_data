@@ -1,7 +1,0 @@
-<dec f='codebrowser/src/http_parser.c' l='415' type='59'/>
-<use f='codebrowser/src/http_parser.c' l='2141' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2147' c='http_parser_execute'/>
-<doc f='codebrowser/src/http_parser.c' l='410'>/* Important: &apos;s_headers_done&apos; must be the last &apos;header&apos; state. All
-   * states beyond this must be &apos;body&apos; states. It is used for overflow
-   * checking. See the PARSING_HEADER() macro.
-   */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='853' type='void llhttp_set_lenient_optional_lf_after_cr(llhttp_t * parser, int enabled)'/>
+<def f='codebrowser/src/llhttp/api.c' l='302' ll='308' type='void llhttp_set_lenient_optional_lf_after_cr(llhttp_t * parser, int enabled)'/>

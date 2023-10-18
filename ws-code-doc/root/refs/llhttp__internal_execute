@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='43' type='int llhttp__internal_execute(llhttp__internal_t * s, const char * p, const char * endp)'/>
+<use f='codebrowser/src/llhttp/api.c' l='141' u='c' c='llhttp_execute'/>
+<def f='codebrowser/src/llhttp/llhttp.c' l='10070' ll='10102' type='int llhttp__internal_execute(llhttp__internal_t * state, const char * p, const char * endp)'/>

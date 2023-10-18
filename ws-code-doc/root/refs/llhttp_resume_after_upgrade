@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='717' type='void llhttp_resume_after_upgrade(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='194' ll='200' type='void llhttp_resume_after_upgrade(llhttp_t * parser)'/>

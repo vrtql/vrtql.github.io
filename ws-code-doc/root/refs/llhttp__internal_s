@@ -1,0 +1,24 @@
+<use f='codebrowser/src/llhttp/llhttp.h' l='17'/>
+<def f='codebrowser/src/llhttp/llhttp.h' l='18' ll='40'/>
+<size>96</size>
+<mbr r='llhttp__internal_s::_index' o='0' t='int32_t'/>
+<mbr r='llhttp__internal_s::_span_pos0' o='64' t='void *'/>
+<mbr r='llhttp__internal_s::_span_cb0' o='128' t='void *'/>
+<mbr r='llhttp__internal_s::error' o='192' t='int32_t'/>
+<mbr r='llhttp__internal_s::reason' o='256' t='const char *'/>
+<mbr r='llhttp__internal_s::error_pos' o='320' t='const char *'/>
+<mbr r='llhttp__internal_s::data' o='384' t='void *'/>
+<mbr r='llhttp__internal_s::_current' o='448' t='void *'/>
+<mbr r='llhttp__internal_s::content_length' o='512' t='uint64_t'/>
+<mbr r='llhttp__internal_s::type' o='576' t='uint8_t'/>
+<mbr r='llhttp__internal_s::method' o='584' t='uint8_t'/>
+<mbr r='llhttp__internal_s::http_major' o='592' t='uint8_t'/>
+<mbr r='llhttp__internal_s::http_minor' o='600' t='uint8_t'/>
+<mbr r='llhttp__internal_s::header_state' o='608' t='uint8_t'/>
+<mbr r='llhttp__internal_s::lenient_flags' o='624' t='uint16_t'/>
+<mbr r='llhttp__internal_s::upgrade' o='640' t='uint8_t'/>
+<mbr r='llhttp__internal_s::finish' o='648' t='uint8_t'/>
+<mbr r='llhttp__internal_s::flags' o='656' t='uint16_t'/>
+<mbr r='llhttp__internal_s::status_code' o='672' t='uint16_t'/>
+<mbr r='llhttp__internal_s::initial_message_completed' o='688' t='uint8_t'/>
+<mbr r='llhttp__internal_s::settings' o='704' t='void *'/>

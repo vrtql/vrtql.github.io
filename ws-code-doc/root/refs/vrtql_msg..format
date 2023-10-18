@@ -6,6 +6,6 @@
 <use f='codebrowser/src/message.c' l='373' u='w' c='vrtql_msg_deserialize'/>
 <offset>640</offset>
 <doc f='codebrowser/src/message.h' l='37'>/**&lt; Message format                     */</doc>
-<use f='codebrowser/src/server.c' l='1814' u='r' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1942' u='r' c='msg_svr_client_ws_msg_in'/>
 <use f='codebrowser/src/test/test_message.c' l='58' u='w' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='25' u='w' c='process_message'/>

@@ -1,0 +1,26 @@
+<use f='codebrowser/src/llhttp/llhttp.h' l='555'/>
+<def f='codebrowser/src/llhttp/llhttp.h' l='560' ll='606'/>
+<size>184</size>
+<mbr r='llhttp_settings_s::on_message_begin' o='0' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_url' o='64' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_status' o='128' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_method' o='192' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_version' o='256' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_header_field' o='320' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_header_value' o='384' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_extension_name' o='448' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_extension_value' o='512' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_headers_complete' o='576' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_body' o='640' t='llhttp_data_cb'/>
+<mbr r='llhttp_settings_s::on_message_complete' o='704' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_url_complete' o='768' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_status_complete' o='832' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_method_complete' o='896' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_version_complete' o='960' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_header_field_complete' o='1024' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_header_value_complete' o='1088' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_extension_name_complete' o='1152' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_extension_value_complete' o='1216' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_header' o='1280' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_chunk_complete' o='1344' t='llhttp_cb'/>
+<mbr r='llhttp_settings_s::on_reset' o='1408' t='llhttp_cb'/>

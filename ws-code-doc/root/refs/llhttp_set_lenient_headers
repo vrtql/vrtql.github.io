@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='770' type='void llhttp_set_lenient_headers(llhttp_t * parser, int enabled)'/>
+<def f='codebrowser/src/llhttp/api.c' l='252' ll='258' type='void llhttp_set_lenient_headers(llhttp_t * parser, int enabled)'/>

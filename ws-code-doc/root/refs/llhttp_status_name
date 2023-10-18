@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='757' type='const char * llhttp_status_name(llhttp_status_t status)'/>
+<def f='codebrowser/src/llhttp/api.c' l='242' ll='249' type='const char * llhttp_status_name(llhttp_status_t status)'/>

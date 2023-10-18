@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/websocket.h' l='254' type='vws_process_frame'/>
 <offset>960</offset>
 <doc f='codebrowser/src/websocket.h' l='253'>/**&lt; Frame processing callback. */</doc>
-<use f='codebrowser/src/server.c' l='1505' u='w' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1634' u='w' c='ws_svr_client_connect'/>
 <use f='codebrowser/src/websocket.c' l='305' u='w' c='vws_cnx_new'/>
 <use f='codebrowser/src/websocket.c' l='1196' u='r' c='vws_cnx_ingress'/>

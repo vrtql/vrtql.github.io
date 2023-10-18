@@ -8,6 +8,8 @@ vws_svr_free|vws_svr_free
 vws_svr_new|vws_svr_new
 vws_tcp_svr_close|vws_tcp_svr_close
 vws_tcp_svr_free|vws_tcp_svr_free
+vws_tcp_svr_inetd_run|vws_tcp_svr_inetd_run
+vws_tcp_svr_inetd_stop|vws_tcp_svr_inetd_stop
 vws_tcp_svr_new|vws_tcp_svr_new
 vws_tcp_svr_run|vws_tcp_svr_run
 vws_tcp_svr_send|vws_tcp_svr_send
@@ -22,6 +24,7 @@ vws_socket_free|vws_socket_free
 vws_socket_is_connected|vws_socket_is_connected
 vws_socket_new|vws_socket_new
 vws_socket_read|vws_socket_read
+vws_socket_set_nonblocking|vws_socket_set_nonblocking
 vws_socket_set_timeout|vws_socket_set_timeout
 vws_socket_write|vws_socket_write
 vws_base64_decode|vws_base64_decode

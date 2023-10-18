@@ -28,13 +28,13 @@
  * @see vws_buffer_init
  * @see vws_buffer_append
  */</doc>
-<use f='codebrowser/src/server.c' l='1588' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1589' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1590' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1593' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1596' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1598' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1602' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1606' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1609' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1717' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1718' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1719' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1722' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1725' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1726' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1730' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1734' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1737' u='c' c='ws_svr_client_read'/>
 <def f='codebrowser/src/vws.c' l='502' ll='525' type='void vws_buffer_printf(vws_buffer * buffer, cstr format)'/>

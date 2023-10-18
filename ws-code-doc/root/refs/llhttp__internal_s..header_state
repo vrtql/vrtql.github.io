@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='32' type='uint8_t'/>
+<offset>608</offset>
+<use f='codebrowser/src/llhttp/llhttp.c' l='864' u='w' c='llhttp__internal__c_store_header_state'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='876' u='r' c='llhttp__internal__c_load_header_state'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='905' u='w' c='llhttp__internal__c_update_header_state'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='941' u='w' c='llhttp__internal__c_update_header_state_3'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='949' u='w' c='llhttp__internal__c_update_header_state_1'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='957' u='w' c='llhttp__internal__c_update_header_state_6'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='965' u='w' c='llhttp__internal__c_update_header_state_7'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1044' u='w' c='llhttp__internal__c_update_header_state_8'/>

@@ -21,7 +21,7 @@
 <use f='codebrowser/src/rpc.c' l='58' u='c' c='vrtql_rpc_tag'/>
 <use f='codebrowser/src/rpc.c' l='152' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='209' u='c' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/server.c' l='1453' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1582' macro='1' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/test/test_common.c' l='34' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_common.c' l='79' u='c' c='ctest_test_base64_run'/>
 <use f='codebrowser/src/test/test_common.c' l='80' u='c' c='ctest_test_base64_run'/>
@@ -29,6 +29,7 @@
 <use f='codebrowser/src/test/test_common.c' l='112' macro='1' u='c' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/test_common.c' l='113' macro='1' u='c' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/test_common.c' l='120' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='141' u='c' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_json.c' l='26' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_json.c' l='85' u='c' c='ctest_test_write_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='128' u='c' c='client_test'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='753' type='const char * llhttp_method_name(llhttp_method_t method)'/>
+<def f='codebrowser/src/llhttp/api.c' l='233' ll='240' type='const char * llhttp_method_name(llhttp_method_t method)'/>

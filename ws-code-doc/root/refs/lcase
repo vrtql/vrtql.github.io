@@ -1,6 +1,6 @@
-<def f='codebrowser/src/http_message.c' l='80' ll='88' type='ucstr lcase(char * s)'/>
-<use f='codebrowser/src/http_message.c' l='100' u='c' c='process_header'/>
-<doc f='codebrowser/src/http_message.c' l='75'>/**
+<def f='codebrowser/src/http_message.c' l='76' ll='84' type='ucstr lcase(char * s)'/>
+<use f='codebrowser/src/http_message.c' l='96' u='c' c='process_header'/>
+<doc f='codebrowser/src/http_message.c' l='71'>/**
  * @brief Converts a string to lowercase.
  * @param s The string to convert.
  * @return The converted lowercase string.

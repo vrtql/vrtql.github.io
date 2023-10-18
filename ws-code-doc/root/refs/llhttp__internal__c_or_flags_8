@@ -1,0 +1,4 @@
+<def f='codebrowser/src/llhttp/llhttp.c' l='929' ll='935' type='int llhttp__internal__c_or_flags_8(llhttp__internal_t * state, const unsigned char * p, const unsigned char * endp)'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='7890' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8012' u='c' c='llhttp__internal__run'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='8183' u='c' c='llhttp__internal__run'/>

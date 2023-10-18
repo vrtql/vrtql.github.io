@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='625' type='uint8_t llhttp_get_type(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='100' ll='102' type='uint8_t llhttp_get_type(llhttp_t * parser)'/>
+<doc f='codebrowser/src/llhttp/api.c' l='98'>/* Some getters required to get stuff from the parser */</doc>

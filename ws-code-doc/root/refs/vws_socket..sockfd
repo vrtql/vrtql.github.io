@@ -1,20 +1,20 @@
 <dec f='codebrowser/src/socket.h' l='33' type='int'/>
 <offset>0</offset>
 <doc f='codebrowser/src/socket.h' l='32'>/**&lt; The socket file descriptor. */</doc>
-<use f='codebrowser/src/socket.c' l='82' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='110' u='r' c='vws_socket_dtor'/>
-<use f='codebrowser/src/socket.c' l='112' u='r' c='vws_socket_dtor'/>
-<use f='codebrowser/src/socket.c' l='125' u='r' c='vws_socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='259' u='r' c='vws_socket_is_connected'/>
-<use f='codebrowser/src/socket.c' l='307' u='w' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='309' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='317' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='326' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='346' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='406' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='540' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='638' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='755' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='820' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='825' u='r' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='836' u='w' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='72' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='100' u='r' c='vws_socket_dtor'/>
+<use f='codebrowser/src/socket.c' l='102' u='r' c='vws_socket_dtor'/>
+<use f='codebrowser/src/socket.c' l='115' u='r' c='vws_socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='249' u='r' c='vws_socket_is_connected'/>
+<use f='codebrowser/src/socket.c' l='297' u='w' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='299' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='307' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='316' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='336' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='396' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='530' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='628' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='745' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='810' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='815' u='r' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='826' u='w' c='vws_socket_close'/>

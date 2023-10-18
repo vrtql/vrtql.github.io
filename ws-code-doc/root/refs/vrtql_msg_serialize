@@ -8,6 +8,6 @@
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1837' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1965' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/test/test_message.c' l='19' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='59' u='c' c='ctest_test_message_json_serialization_run'/>

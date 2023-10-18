@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='31' type='uint8_t'/>
+<offset>600</offset>
+<use f='codebrowser/src/llhttp/api.c' l='109' u='r' c='llhttp_get_http_minor'/>
+<use f='codebrowser/src/llhttp/http.c' l='157' u='r' c='llhttp_should_keep_alive'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='663' u='w' c='llhttp__internal__c_update_http_minor'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1077' u='w' c='llhttp__internal__c_store_http_minor'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1103' u='r' c='llhttp__internal__c_load_http_minor'/>

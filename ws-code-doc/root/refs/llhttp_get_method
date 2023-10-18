@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='634' type='uint8_t llhttp_get_method(llhttp_t * parser)'/>
+<def f='codebrowser/src/llhttp/api.c' l='112' ll='114' type='uint8_t llhttp_get_method(llhttp_t * parser)'/>

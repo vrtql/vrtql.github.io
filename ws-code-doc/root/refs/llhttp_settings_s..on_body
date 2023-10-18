@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='586' type='llhttp_data_cb'/>
+<use f='codebrowser/src/http_message.c' l='126' u='w' c='vws_http_msg_new'/>
+<offset>640</offset>
+<doc f='codebrowser/src/llhttp/llhttp.h' l='585'>/* Possible return values 0, -1, HPE_USER */</doc>
+<use f='codebrowser/src/llhttp/api.c' l='444' u='r' c='llhttp__on_body'/>
+<use f='codebrowser/src/llhttp/api.c' l='444' u='r' c='llhttp__on_body'/>

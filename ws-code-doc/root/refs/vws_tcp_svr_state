@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='335' type='uint8_t vws_tcp_svr_state(vws_tcp_svr * server)'/>
+<dec f='codebrowser/src/server.h' l='355' type='uint8_t vws_tcp_svr_state(vws_tcp_svr * server)'/>
 <def f='codebrowser/src/server.c' l='786' ll='789' type='uint8_t vws_tcp_svr_state(vws_tcp_svr * server)'/>
-<doc f='codebrowser/src/server.h' l='329'>/**
+<doc f='codebrowser/src/server.h' l='349'>/**
  * @brief Returns the server operational state.
  *
  * @param server The server to check.

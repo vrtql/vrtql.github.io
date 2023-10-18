@@ -81,6 +81,7 @@
 <use f='codebrowser/src/test/test_common.c' l='89' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='92' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='18' u='c' c='ctest_test_rpc_call_run'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_json.c' l='35' u='c' c='ctest_test_read_run'/>
 <use f='codebrowser/src/test/test_server.c' l='65' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='61' u='c' c='ctest_test_send_data_run'/>

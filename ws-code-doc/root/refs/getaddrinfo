@@ -4,4 +4,4 @@
 
    This function is a possible cancellation point and therefore not
    marked with __THROW.  */</doc>
-<use f='codebrowser/src/socket.c' l='854' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='844' u='c' c='connect_to_host'/>

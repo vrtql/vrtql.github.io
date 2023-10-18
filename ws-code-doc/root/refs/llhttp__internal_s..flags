@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='36' type='uint16_t'/>
+<offset>656</offset>
+<use f='codebrowser/src/llhttp/api.c' l='505' u='r' c='llhttp__debug'/>
+<use f='codebrowser/src/llhttp/api.c' l='508' u='r' c='llhttp__debug'/>
+<use f='codebrowser/src/llhttp/http.c' l='14' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='15' u='r' c='llhttp__before_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='41' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='44' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='59' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='70' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='73' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='97' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='122' u='w' c='llhttp__after_message_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='138' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='143' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='144' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='148' u='r' c='llhttp_message_needs_eof'/>
+<use f='codebrowser/src/llhttp/http.c' l='159' u='r' c='llhttp_should_keep_alive'/>
+<use f='codebrowser/src/llhttp/http.c' l='164' u='r' c='llhttp_should_keep_alive'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='689' u='r' c='llhttp__internal__c_test_flags'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='816' u='w' c='llhttp__internal__c_or_flags'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='847' u='w' c='llhttp__internal__c_or_flags_1'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='883' u='r' c='llhttp__internal__c_test_flags_4'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='897' u='w' c='llhttp__internal__c_or_flags_5'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='917' u='w' c='llhttp__internal__c_or_flags_6'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='925' u='w' c='llhttp__internal__c_or_flags_7'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='933' u='w' c='llhttp__internal__c_or_flags_8'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='973' u='r' c='llhttp__internal__c_test_flags_2'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1006' u='w' c='llhttp__internal__c_or_flags_17'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1014' u='r' c='llhttp__internal__c_test_flags_3'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1028' u='w' c='llhttp__internal__c_or_flags_18'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1036' u='w' c='llhttp__internal__c_and_flags'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1052' u='w' c='llhttp__internal__c_or_flags_20'/>

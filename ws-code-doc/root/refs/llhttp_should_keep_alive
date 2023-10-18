@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='692' type='int llhttp_should_keep_alive(const llhttp_t * parser)'/>
+<dec f='codebrowser/src/llhttp/http.c' l='9' type='int llhttp_should_keep_alive(const llhttp_t * parser)'/>
+<use f='codebrowser/src/llhttp/http.c' l='120' u='c' c='llhttp__after_message_complete'/>
+<def f='codebrowser/src/llhttp/http.c' l='156' ll='170' type='int llhttp_should_keep_alive(const llhttp_t * parser)'/>

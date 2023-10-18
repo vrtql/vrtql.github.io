@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='118' type='128'/>
+<use f='codebrowser/src/llhttp/api.c' l='312' u='r' c='llhttp_set_lenient_optional_crlf_after_chunk'/>
+<use f='codebrowser/src/llhttp/api.c' l='314' u='r' c='llhttp_set_lenient_optional_crlf_after_chunk'/>

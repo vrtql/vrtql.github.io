@@ -3,8 +3,10 @@ codebrowser/src/http_message.h
 codebrowser/src/vws.h
 codebrowser/src/common.h
 codebrowser/src/util/sc_map.h
-codebrowser/src/http_parser.h
-codebrowser/src/http_parser.c
+codebrowser/src/llhttp/llhttp.h
+codebrowser/src/llhttp/api.c
+codebrowser/src/llhttp/http.c
+codebrowser/src/llhttp/llhttp.c
 codebrowser/src/message.c
 codebrowser/src/mpack/mpack-expect.h
 codebrowser/src/mpack/mpack-reader.h
@@ -39,6 +41,7 @@ codebrowser/src/test/ctest.h
 codebrowser/src/url.h
 codebrowser/src/test/test_example.c
 codebrowser/src/test/test_http_request.c
+codebrowser/src/test/test_inetd_server.c
 codebrowser/src/test/test_json.c
 codebrowser/src/test/test_message.c
 codebrowser/src/test/test_msg_server.c

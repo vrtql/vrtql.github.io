@@ -1,6 +1,0 @@
-<dec f='codebrowser/src/http_parser.c' l='544' type='int http_message_needs_eof(const http_parser * parser)'/>
-<use f='codebrowser/src/http_parser.c' l='1999' u='c' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2251' u='c' c='http_header_only_message'/>
-<def f='codebrowser/src/http_parser.c' l='2263' ll='2288' type='int http_message_needs_eof(const http_parser * parser)'/>
-<use f='codebrowser/src/http_parser.c' l='2309' u='c' c='http_should_keep_alive'/>
-<doc f='codebrowser/src/http_parser.c' l='2262'>/* Does the parser need to see an EOF to find the end of the message? */</doc>

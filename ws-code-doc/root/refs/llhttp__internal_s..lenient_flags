@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='33' type='uint16_t'/>
+<offset>624</offset>
+<use f='codebrowser/src/llhttp/api.c' l='129' u='r' c='llhttp_reset'/>
+<use f='codebrowser/src/llhttp/api.c' l='136' u='w' c='llhttp_reset'/>
+<use f='codebrowser/src/llhttp/api.c' l='254' u='w' c='llhttp_set_lenient_headers'/>
+<use f='codebrowser/src/llhttp/api.c' l='256' u='w' c='llhttp_set_lenient_headers'/>
+<use f='codebrowser/src/llhttp/api.c' l='263' u='w' c='llhttp_set_lenient_chunked_length'/>
+<use f='codebrowser/src/llhttp/api.c' l='265' u='w' c='llhttp_set_lenient_chunked_length'/>
+<use f='codebrowser/src/llhttp/api.c' l='272' u='w' c='llhttp_set_lenient_keep_alive'/>
+<use f='codebrowser/src/llhttp/api.c' l='274' u='w' c='llhttp_set_lenient_keep_alive'/>
+<use f='codebrowser/src/llhttp/api.c' l='280' u='w' c='llhttp_set_lenient_transfer_encoding'/>
+<use f='codebrowser/src/llhttp/api.c' l='282' u='w' c='llhttp_set_lenient_transfer_encoding'/>
+<use f='codebrowser/src/llhttp/api.c' l='288' u='w' c='llhttp_set_lenient_version'/>
+<use f='codebrowser/src/llhttp/api.c' l='290' u='w' c='llhttp_set_lenient_version'/>
+<use f='codebrowser/src/llhttp/api.c' l='296' u='w' c='llhttp_set_lenient_data_after_close'/>
+<use f='codebrowser/src/llhttp/api.c' l='298' u='w' c='llhttp_set_lenient_data_after_close'/>
+<use f='codebrowser/src/llhttp/api.c' l='304' u='w' c='llhttp_set_lenient_optional_lf_after_cr'/>
+<use f='codebrowser/src/llhttp/api.c' l='306' u='w' c='llhttp_set_lenient_optional_lf_after_cr'/>
+<use f='codebrowser/src/llhttp/api.c' l='312' u='w' c='llhttp_set_lenient_optional_crlf_after_chunk'/>
+<use f='codebrowser/src/llhttp/api.c' l='314' u='w' c='llhttp_set_lenient_optional_crlf_after_chunk'/>
+<use f='codebrowser/src/llhttp/api.c' l='320' u='w' c='llhttp_set_lenient_optional_cr_before_lf'/>
+<use f='codebrowser/src/llhttp/api.c' l='322' u='w' c='llhttp_set_lenient_optional_cr_before_lf'/>
+<use f='codebrowser/src/llhttp/api.c' l='328' u='w' c='llhttp_set_lenient_spaces_after_chunk_size'/>
+<use f='codebrowser/src/llhttp/api.c' l='330' u='w' c='llhttp_set_lenient_spaces_after_chunk_size'/>
+<use f='codebrowser/src/llhttp/http.c' l='75' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='76' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='675' u='r' c='llhttp__internal__c_test_lenient_flags'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='682' u='r' c='llhttp__internal__c_test_lenient_flags_1'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='739' u='r' c='llhttp__internal__c_test_lenient_flags_2'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='746' u='r' c='llhttp__internal__c_test_lenient_flags_3'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='791' u='r' c='llhttp__internal__c_test_lenient_flags_4'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='809' u='r' c='llhttp__internal__c_test_lenient_flags_7'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='824' u='r' c='llhttp__internal__c_test_lenient_flags_8'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='890' u='r' c='llhttp__internal__c_test_lenient_flags_21'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1021' u='r' c='llhttp__internal__c_test_lenient_flags_19'/>
+<use f='codebrowser/src/llhttp/llhttp.c' l='1085' u='r' c='llhttp__internal__c_test_lenient_flags_23'/>

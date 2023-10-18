@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='82' type='22'/>
+<use f='codebrowser/src/http_message.c' l='228' u='r' c='vws_http_msg_parse'/>
+<use f='codebrowser/src/llhttp/api.c' l='195' u='r' c='llhttp_resume_after_upgrade'/>
+<use f='codebrowser/src/llhttp/api.c' l='226' macro='1' c='llhttp_errno_name'/>

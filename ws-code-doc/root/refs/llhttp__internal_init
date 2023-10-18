@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llhttp/llhttp.h' l='42' type='int llhttp__internal_init(llhttp__internal_t * s)'/>
+<use f='codebrowser/src/llhttp/api.c' l='35' u='c' c='llhttp_init'/>
+<use f='codebrowser/src/llhttp/api.c' l='131' u='c' c='llhttp_reset'/>
+<def f='codebrowser/src/llhttp/llhttp.c' l='1160' ll='1164' type='int llhttp__internal_init(llhttp__internal_t * state)'/>

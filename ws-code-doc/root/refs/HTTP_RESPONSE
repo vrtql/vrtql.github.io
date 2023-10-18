@@ -1,4 +1,5 @@
-<dec f='codebrowser/src/http_parser.h' l='217' type='1'/>
-<use f='codebrowser/src/http_parser.c' l='819' u='r' c='http_parser_execute'/>
-<use f='codebrowser/src/http_parser.c' l='2334' u='r' c='http_parser_init'/>
+<dec f='codebrowser/src/llhttp/llhttp.h' l='127' type='2'/>
+<use f='codebrowser/src/llhttp/http.c' l='46' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='52' u='r' c='llhttp__after_headers_complete'/>
+<use f='codebrowser/src/llhttp/http.c' l='61' u='r' c='llhttp__after_headers_complete'/>
 <use f='codebrowser/src/websocket.c' l='454' u='r' c='socket_handshake'/>

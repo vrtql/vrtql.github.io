@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/vws.h' l='266' type='vws_buffer * vws_buffer_new()'/>
-<use f='codebrowser/src/http_message.c' l='116' u='c' c='vws_http_msg_new'/>
-<use f='codebrowser/src/http_message.c' l='117' u='c' c='vws_http_msg_new'/>
-<use f='codebrowser/src/http_message.c' l='118' u='c' c='vws_http_msg_new'/>
-<use f='codebrowser/src/http_message.c' l='119' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='111' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='112' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='113' u='c' c='vws_http_msg_new'/>
+<use f='codebrowser/src/http_message.c' l='114' u='c' c='vws_http_msg_new'/>
 <doc f='codebrowser/src/vws.h' l='261'>/**
  * @brief Creates a new vrtql buffer.
  *
@@ -14,8 +14,8 @@
 <use f='codebrowser/src/message.c' l='382' u='c' c='vrtql_msg_dump'/>
 <use f='codebrowser/src/rpc.c' l='246' u='c' c='vrtql_rpc_new'/>
 <use f='codebrowser/src/rpc.c' l='255' u='c' c='vrtql_rpc_free'/>
-<use f='codebrowser/src/server.c' l='1582' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/socket.c' l='83' u='c' c='vws_socket_ctor'/>
+<use f='codebrowser/src/server.c' l='1711' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/socket.c' l='73' u='c' c='vws_socket_ctor'/>
 <use f='codebrowser/src/test/test_common.c' l='85' u='c' c='ctest_test_buffer_run'/>
 <def f='codebrowser/src/vws.c' l='467' ll='476' type='vws_buffer * vws_buffer_new()'/>
 <doc f='codebrowser/src/vws.c' l='463'>//------------------------------------------------------------------------------
