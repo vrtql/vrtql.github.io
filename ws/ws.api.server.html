@@ -55,9 +55,9 @@ things in place you call <code class="function"><a xmlns:fo="http://www.w3.org/1
     <span class="keyword">if</span> (vws.tracelevel &gt;= VT_APPLICATION)
     {
         vws.trace( VL_INFO,
-                     <span class="string">"process_data(%p): %i bytes"</span>,
-                     reply-&gt;cnx,
-                     reply-&gt;size);
+                   <span class="string">"process_data(%p): %i bytes"</span>,
+                   reply-&gt;cnx,
+                   reply-&gt;size );
     }
 
     <span class="comment-delimiter">// </span><span class="comment">Send reply. This will wakeup network thread.
@@ -67,8 +67,9 @@ things in place you call <code class="function"><a xmlns:fo="http://www.w3.org/1
 <span class="type">int</span> <span class="function-name">main</span>(<span class="type">int</span> <span class="variable-name">argc</span>, <span class="keyword">const</span> <span class="type">char</span>* <span class="variable-name">argv</span>[])
 {
     <span class="type">vrtql_svr</span>* <span class="variable-name">server</span>  = vrtql_svr_new(10, 0, 0);
-    vws.tracelevel   = VT_THREAD;
+    vws.tracelevel     = VT_THREAD;
     server-&gt;on_data_in = process_data;
+
     vrtql_svr_run(server, server_host, server_port);
 
     <span class="comment-delimiter">// </span><span class="comment">Shutdown
