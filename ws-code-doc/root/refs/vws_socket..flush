@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/socket.h' l='70' type='_Bool'/>
+<dec f='codebrowser/src/socket.h' l='72' type='_Bool'/>
 <offset>448</offset>
 <use f='codebrowser/src/socket.c' l='84' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='638' u='r' c='vws_socket_write'/>

@@ -1,10 +1,10 @@
 <use f='codebrowser/src/socket.h' l='29'/>
-<use f='codebrowser/src/socket.h' l='41'/>
-<def f='codebrowser/src/socket.h' l='46' ll='72'/>
-<use f='codebrowser/src/socket.h' l='46'/>
+<use f='codebrowser/src/socket.h' l='43'/>
+<def f='codebrowser/src/socket.h' l='48' ll='74'/>
+<use f='codebrowser/src/socket.h' l='48'/>
 <use f='codebrowser/src/websocket.h' l='243'/>
 <size>64</size>
-<doc f='codebrowser/src/socket.h' l='43'>/**
+<doc f='codebrowser/src/socket.h' l='45'>/**
  * @brief A socket
  */</doc>
 <mbr r='vws_socket::sockfd' o='0' t='int'/>

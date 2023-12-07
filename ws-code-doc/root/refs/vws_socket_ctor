@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='108' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='97'>/**
+<dec f='codebrowser/src/socket.h' l='110' type='vws_socket * vws_socket_ctor(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='99'>/**
  * @brief Server instance constructor
  *
  * Constructs a new server instance. This takes a new, empty vws_socket instance

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='95' type='void vws_socket_free(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='90'>/**
+<dec f='codebrowser/src/socket.h' l='97' type='void vws_socket_free(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='92'>/**
  * @brief Deallocates a socket connection.
  *
  * @param c The socket connection.

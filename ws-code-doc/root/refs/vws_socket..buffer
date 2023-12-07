@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/socket.h' l='55' type='vws_buffer *'/>
+<dec f='codebrowser/src/socket.h' l='57' type='vws_buffer *'/>
 <offset>128</offset>
-<doc f='codebrowser/src/socket.h' l='54'>/**&lt; Socket receive buffer. */</doc>
+<doc f='codebrowser/src/socket.h' l='56'>/**&lt; Socket receive buffer. */</doc>
 <use f='codebrowser/src/server.c' l='1669' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/server.c' l='1679' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/server.c' l='1680' u='r' c='ws_svr_client_read'/>

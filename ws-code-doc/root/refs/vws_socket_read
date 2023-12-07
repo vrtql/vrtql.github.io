@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='194' type='ssize_t vws_socket_read(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='184'>/**
+<dec f='codebrowser/src/socket.h' l='196' type='ssize_t vws_socket_read(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='186'>/**
  * @brief Reads data from a socket connection into a buffer
  *
  * @param c The vws_cnx representing the Socket connection.

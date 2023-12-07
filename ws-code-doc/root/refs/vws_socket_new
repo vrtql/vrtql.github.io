@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='88' type='vws_socket * vws_socket_new()'/>
-<doc f='codebrowser/src/socket.h' l='81'>/**
+<dec f='codebrowser/src/socket.h' l='90' type='vws_socket * vws_socket_new()'/>
+<doc f='codebrowser/src/socket.h' l='83'>/**
  * @brief Allocates a new socket connection.
  *
  * @return A pointer to the new connection instance.

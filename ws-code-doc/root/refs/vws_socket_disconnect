@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='163' type='void vws_socket_disconnect(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='156'>/**
+<dec f='codebrowser/src/socket.h' l='165' type='void vws_socket_disconnect(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='158'>/**
  * @brief Closes the connection to the host.
  *
  * @param c The socket connection.

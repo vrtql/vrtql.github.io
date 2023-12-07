@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/socket.h' l='52' type='SSL *'/>
+<dec f='codebrowser/src/socket.h' l='54' type='SSL *'/>
 <offset>64</offset>
-<doc f='codebrowser/src/socket.h' l='51'>/**&lt; The SSL connection instance. */</doc>
+<doc f='codebrowser/src/socket.h' l='53'>/**&lt; The SSL connection instance. */</doc>
 <use f='codebrowser/src/socket.c' l='79' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='301' u='w' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='303' u='r' c='vws_socket_connect'/>

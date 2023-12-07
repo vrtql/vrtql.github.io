@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/socket.h' l='49' type='int'/>
+<dec f='codebrowser/src/socket.h' l='51' type='int'/>
 <offset>0</offset>
-<doc f='codebrowser/src/socket.h' l='48'>/**&lt; The socket file descriptor. */</doc>
+<doc f='codebrowser/src/socket.h' l='50'>/**&lt; The socket file descriptor. */</doc>
 <use f='codebrowser/src/socket.c' l='77' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='106' u='r' c='vws_socket_dtor'/>
 <use f='codebrowser/src/socket.c' l='108' u='r' c='vws_socket_dtor'/>

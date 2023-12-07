@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='119' type='void vws_socket_dtor(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='110'>/**
+<dec f='codebrowser/src/socket.h' l='121' type='void vws_socket_dtor(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='112'>/**
  * @brief Socket instance destructor
  *
  * Destructs an initialized socket instance.

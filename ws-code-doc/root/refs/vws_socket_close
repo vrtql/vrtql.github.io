@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='182' type='void vws_socket_close(vws_socket * c)'/>
-<doc f='codebrowser/src/socket.h' l='175'>/**
+<dec f='codebrowser/src/socket.h' l='184' type='void vws_socket_close(vws_socket * c)'/>
+<doc f='codebrowser/src/socket.h' l='177'>/**
  * @brief Closes a socket
  *
  * @param c The vws_socket
