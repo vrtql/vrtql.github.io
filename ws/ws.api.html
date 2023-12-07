@@ -54,7 +54,7 @@ creating a connection object by calling <code class="function"><a xmlns:fo="http
 connect and disconnect. The following illustrates this process:
 
 </p><pre class="programlisting">
-<span class="preprocessor">#include</span> <span class="string">&lt;vrtql/websocket.h&gt;</span>
+<span class="preprocessor">#include</span> <span class="string">&lt;vws/websocket.h&gt;</span>
 
 <span class="type">int</span> <span class="function-name">main</span>()
 {
@@ -266,7 +266,7 @@ messages. Putting it all together, the following example illustrates the basic
 usage:
 
 </p><pre class="programlisting">
-<span class="preprocessor">#include</span> <span class="string">&lt;vrtql/websocket.h&gt;</span>
+<span class="preprocessor">#include</span> <span class="string">&lt;vws/websocket.h&gt;</span>
 
 <span class="type">int</span> <span class="function-name">main</span>()
 {
@@ -292,7 +292,7 @@ usage:
 
     <span class="comment-delimiter">// </span><span class="comment">Enable tracing. This will dump frames to the console in human-readable
 </span>    <span class="comment-delimiter">// </span><span class="comment">format as they are sent and received.
-</span>    vrtql.trace = VT_PROTOCOL;
+</span>    vws.trace = VT_PROTOCOL;
 
     <span class="comment-delimiter">// </span><span class="comment">Send a TEXT frame
 </span>    vws_frame_send_text(cnx, <span class="string">"Hello, world!"</span>);

@@ -1,29 +1,30 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>4. The Server API</title><link rel="stylesheet" type="text/css" href="screen.css"><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.2"><link rel="home" href="ws.html" title="VRTQL WebSocket Library"><link rel="up" href="ws.api.html" title="Chapter 2. C API"><link rel="prev" href="ws.api.msg.html" title="3. The Message API"><link rel="next" href="ws.api.rpc.html" title="5. RPC API"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header" class="navtable"><tr><th colspan="3" align="center">4. The Server API</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ws.api.msg.html">Prev</a> </td><th width="60%" align="center">Chapter 2. C API</th><td width="20%" align="right"> <a accesskey="n" href="ws.api.rpc.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ws.api.server"></a>4. The Server API</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.server.arch"></a>4.1. Architecture</h3></div></div></div><p>The server architecture is layered according to the type of data its
-handling. The base server works completely on unstructred data. For instance you
-could use it to create an echo server, or handle protocols, provided you parse
-the data accordingly. The base server is implemented using the <code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr">vrtql_svr</a></code> struct. Build on top of this is the
-WebSocket server (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_ws_svr">vrtql_ws_svr</a></code>). It
-works in the same way but deals in WebSocket frames and messages. On top of this
-is the messaging server (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_ws_svr">vrtql_ws_svr</a></code>) which works in terms of Messages
+handling. The base server works completely on unstructured data. For instance
+you could use it to create an echo server, or handle protocols, provided you
+parse the data accordingly. The base server is implemented using the
+<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr">vrtql_svr</a></code> struct. The WebSocket
+server (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_ws_svr">vrtql_ws_svr</a></code>) is built on
+top of this is. It works in the same way but deals in WebSocket frames and
+messages. On top of this is the messaging server (<code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_ws_svr">vrtql_ws_svr</a></code>) which works in terms of Messages
 API.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.server.core"></a>4.2. Core Server</h3></div></div></div><p>The core server API is the foundation on which all the other servers
 work. Once you understand how it works everything else is intuitive. The API
-simple and is designed to make it very each for you to focus on processing
-messages. There are only about three things you need to do it create server. You
-create server instance, defined a processing function to handle incoming data,
-all send data base to the remote peer. We will take each of these in
-turn.</p><p>You create a server instance the same way as every other object in the
+simple and is designed to make it very easy for you to focus on processing
+messages. There are only about three things you need to do it create a
+server. You create a server instance, define a processing function to handle
+incoming data and send data back to the remote peer. We will take each of these
+in turn.</p><p>You create a server instance the same way as every other object in the
 library. In this case you use the <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_new">vrtql_svr_new</a>()</code> function. This takes three
 arguments: The number of worker threads, the connection backlog, and the maximum
 message queue size. If you set the latter two arguments to zero it will use the
-defaults. The next thing you do is create a processing funciton. The signature
-of this function varies according to server. For the core server, which deals
-with unstructured data, this signature is given by the <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_process_data">vrtql_svr_process_data</a></code> callback. It takes a single
+default values. Next you create a processing funciton. The signature of this
+function varies according to server. For the core server, which deals with
+unstructured data, this signature is given by the <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_process_data">vrtql_svr_process_data</a></code> callback. It takes a single
 argument: a <code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_data">vrtql_svr_data</a></code>
-instances created on the heap. This structure simply holds a blob of data. You
-processing function makes sense of that data and sends whatever data back. The
-functions to send data back to the peer is <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_send">vrtql_svr_send</a>()</code>. With all these things in place
-you call <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_run">vrtql_svr_run</a>()</code> to start the
-server. The following illustrates writing a basic echo server:
+instances created on the heap. This structure simply holds a blob of data. It is
+up to your processing function makes sense of that data and respond
+accordingly. If you need to send data back to the peer you do so using
+<code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_send">vrtql_svr_send</a>()</code>.With all these
+things in place you call <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vrtql_svr_run">vrtql_svr_run</a>()</code> to start the server.</p><p>The following illustrates writing a basic echo server:
 
 </p><pre class="programlisting">
 <span class="preprocessor">#include</span> <span class="string">&lt;vrtql/server.h&gt;</span>
@@ -31,29 +32,29 @@ server. The following illustrates writing a basic echo server:
 <span class="type">cstr</span> <span class="variable-name">server_host</span> = <span class="string">"127.0.0.1"</span>;
 <span class="type">int</span>  <span class="variable-name">server_port</span> = 8181;
 
-<span class="type">void</span> <span class="function-name">process_data</span>(<span class="type">vrtql_svr_data</span>* <span class="variable-name">req</span>)
+<span class="type">void</span> <span class="function-name">process_data</span>(<span class="type">vws_svr_data</span>* <span class="variable-name">req</span>)
 {
     <span class="type">vrtql_svr</span>* <span class="variable-name">server</span> = req-&gt;cnx-&gt;server;
 
-    vrtql.trace(VL_INFO, <span class="string">"process_data (%p)"</span>, req);
+    vws.trace(VL_INFO, <span class="string">"process_data (%p)"</span>, req);
 
     <span class="comment-delimiter">//</span><span class="comment">&gt; Prepare the response: echo the data back
 </span>
     <span class="comment-delimiter">// </span><span class="comment">Allocate memory for the data to be sent in response
-</span>    <span class="type">char</span>* <span class="variable-name">data</span> = (<span class="type">char</span>*)vrtql.malloc(req-&gt;size);
+</span>    <span class="type">char</span>* <span class="variable-name">data</span> = (<span class="type">char</span>*)vws.malloc(req-&gt;size);
 
     <span class="comment-delimiter">// </span><span class="comment">Copy the request's data to the response data
 </span>    strncpy(data, req-&gt;data, req-&gt;size);
 
     <span class="comment-delimiter">// </span><span class="comment">Create response
-</span>    <span class="type">vrtql_svr_data</span>* <span class="variable-name">reply</span> = vrtql_svr_data_own(req-&gt;cnx, data, req-&gt;size);
+</span>    <span class="type">vws_svr_data</span>* <span class="variable-name">reply</span> = vws_svr_data_own(req-&gt;cnx, data, req-&gt;size);
 
     <span class="comment-delimiter">// </span><span class="comment">Free request
-</span>    vrtql_svr_data_free(req);
+</span>    vws_svr_data_free(req);
 
-    <span class="keyword">if</span> (vrtql.tracelevel &gt;= VT_APPLICATION)
+    <span class="keyword">if</span> (vws.tracelevel &gt;= VT_APPLICATION)
     {
-        vrtql.trace( VL_INFO,
+        vws.trace( VL_INFO,
                      <span class="string">"process_data(%p): %i bytes"</span>,
                      reply-&gt;cnx,
                      reply-&gt;size);
@@ -66,7 +67,7 @@ server. The following illustrates writing a basic echo server:
 <span class="type">int</span> <span class="function-name">main</span>(<span class="type">int</span> <span class="variable-name">argc</span>, <span class="keyword">const</span> <span class="type">char</span>* <span class="variable-name">argv</span>[])
 {
     <span class="type">vrtql_svr</span>* <span class="variable-name">server</span>  = vrtql_svr_new(10, 0, 0);
-    vrtql.tracelevel   = VT_THREAD;
+    vws.tracelevel   = VT_THREAD;
     server-&gt;on_data_in = process_data;
     vrtql_svr_run(server, server_host, server_port);
 
@@ -79,8 +80,8 @@ server. The following illustrates writing a basic echo server:
 
 </p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.server.vws"></a>4.3. WebSocket Server</h3></div></div></div><p>Writing a WebSocket server is even simpler. It follows the same pattern
 but uses <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vws_svr_new">vws_svr_new</a>()</code> to create the
-serve. The processing function signature is given by the <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vws_svr_process_msg">vws_svr_process_msg</a></code> callback. The following
-illustates writing a WebSocket server:
+server. The processing function signature is given by the <code class="function"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/server.h.html#vws_svr_process_msg">vws_svr_process_msg</a></code> callback. Rather than using
+unstructured data, it operates on websocket messages.</p><p>The following illustates writing a WebSocket server:
 
 </p><pre class="programlisting">
 <span class="preprocessor">#include</span> <span class="string">&lt;vrtql/server.h&gt;</span>
@@ -89,11 +90,11 @@ illustates writing a WebSocket server:
 <span class="type">int</span>  <span class="variable-name">server_port</span> = 8181;
 
 <span class="comment-delimiter">// </span><span class="comment">Server function to process messages. Runs in context of worker thread.
-</span><span class="type">void</span> <span class="function-name">process_message</span>(<span class="type">vrtql_svr_cnx</span>* <span class="variable-name">cnx</span>, <span class="type">vws_msg</span>* <span class="variable-name">m</span>)
+</span><span class="type">void</span> <span class="function-name">process_message</span>(<span class="type">vws_svr_cnx</span>* <span class="variable-name">cnx</span>, <span class="type">vws_msg</span>* <span class="variable-name">m</span>)
 {
     <span class="type">vws_svr</span>* <span class="variable-name">server</span> = (<span class="type">vws_svr</span>*)cnx-&gt;server;
 
-    vrtql.trace(VL_INFO, <span class="string">"process_message (%p) %p"</span>, cnx, m);
+    vws.trace(VL_INFO, <span class="string">"process_message (%p) %p"</span>, cnx, m);
 
     <span class="comment-delimiter">// </span><span class="comment">Echo back. Note: You should always set reply messages format to the
 </span>    <span class="comment-delimiter">// </span><span class="comment">format of the connection.
@@ -128,8 +129,9 @@ illustates writing a WebSocket server:
 }
 </pre><p>
 
-</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.server.msg"></a>4.4. Message Server</h3></div></div></div><p>The Message API server works in exactly the same way. The following
-illustrates creating an instance of it:
+</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="ws.api.server.msg"></a>4.4. Message Server</h3></div></div></div><p>The Message API server works in exactly the same way. The only difference
+is that is operates on <code class="classname"><a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:d="http://docbook.org/ns/docbook" href="https://vrtql.github.io/ws-code-doc/root/codebrowser/src/message.h.html#vrtql_msg">vrtql_msg</a></code>
+messages.</p><p>The following illustrates creating an instance of it:
 
 </p><pre class="programlisting">
 <span class="preprocessor">#include</span> <span class="string">&lt;vrtql/server.h&gt;</span>
@@ -138,11 +140,11 @@ illustrates creating an instance of it:
 <span class="type">int</span>  <span class="variable-name">server_port</span> = 8181;
 
 <span class="comment-delimiter">// </span><span class="comment">Server function to process messages. Runs in context of worker thread.
-</span><span class="type">void</span> <span class="function-name">process_message</span>(<span class="type">vrtql_svr_cnx</span>* <span class="variable-name">cnx</span>, <span class="type">vrtql_msg</span>* <span class="variable-name">m</span>)
+</span><span class="type">void</span> <span class="function-name">process_message</span>(<span class="type">vws_svr_cnx</span>* <span class="variable-name">cnx</span>, <span class="type">vrtql_msg</span>* <span class="variable-name">m</span>)
 {
     <span class="type">vrtql_msg_svr</span>* <span class="variable-name">server</span> = (<span class="type">vrtql_msg_svr</span>*)cnx-&gt;server;
 
-    vrtql.trace(VL_INFO, <span class="string">"process_message (%p) %p"</span>, cnx, m);
+    vws.trace(VL_INFO, <span class="string">"process_message (%p) %p"</span>, cnx, m);
 
     <span class="comment-delimiter">// </span><span class="comment">Echo back. Note: You should always set reply messages format to the
 </span>    <span class="comment-delimiter">// </span><span class="comment">format of the connection.

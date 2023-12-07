@@ -15,7 +15,7 @@ deserialize accordingly. Thus connections support mixed-content messages: JSON
 and MessagePack.</p><p>The following is a basic example of using the API.
 
 </p><pre class="programlisting">
-<span class="preprocessor">#include</span> <span class="string">&lt;vrtql/message.h&gt;</span>
+<span class="preprocessor">#include</span> <span class="string">&lt;vws/message.h&gt;</span>
 
 <span class="type">int</span> <span class="function-name">main</span>()
 {
@@ -39,7 +39,7 @@ and MessagePack.</p><p>The following is a basic example of using the API.
     <span class="comment-delimiter">// </span><span class="comment">Send
 </span>    <span class="keyword">if</span> (vrtql_msg_send(cnx, request) &lt; 0)
     {
-        printf(<span class="string">"Failed to send: %s\n"</span>, vrtql.e.text);
+        printf(<span class="string">"Failed to send: %s\n"</span>, vws.e.text);
         vrtql_msg_free(request);
         vws_cnx_free(cnx);
         <span class="keyword">return</span> 1;
