@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='446' type='uint8_t vws_is_flag(const uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vws.h' l='439'>/**
+<dec f='codebrowser/src/vws.h' l='450' type='uint8_t vws_is_flag(const uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vws.h' l='443'>/**
  * @brief Checks if a specific flag is set.
  *
  * @param flags The flags to check
@@ -7,5 +7,5 @@
  * @return Returns true if the flag is set, false otherwise
  */</doc>
 <use f='codebrowser/src/server.c' l='731' u='c' c='uv_thread'/>
-<use f='codebrowser/src/socket.c' l='266' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='284' u='c' c='vws_socket_connect'/>
 <def f='codebrowser/src/vws.c' l='772' ll='775' type='uint8_t vws_is_flag(const uint64_t * flags, uint64_t flag)'/>

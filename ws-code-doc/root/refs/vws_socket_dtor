@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='100' type='void vws_socket_dtor(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='91'>/**
+<dec f='codebrowser/src/socket.h' l='119' type='void vws_socket_dtor(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='110'>/**
  * @brief Socket instance destructor
  *
  * Destructs an initialized socket instance.
@@ -8,6 +8,6 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='90' u='c' c='vws_socket_free'/>
-<def f='codebrowser/src/socket.c' l='93' ll='107' type='void vws_socket_dtor(vws_socket * s)'/>
+<use f='codebrowser/src/socket.c' l='96' u='c' c='vws_socket_free'/>
+<def f='codebrowser/src/socket.c' l='99' ll='113' type='void vws_socket_dtor(vws_socket * s)'/>
 <use f='codebrowser/src/websocket.c' l='344' u='c' c='vws_cnx_free'/>

@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/socket.h' l='154' type='_Bool vws_socket_is_connected(vws_socket * s)'/>
-<def f='codebrowser/src/socket.c' l='242' ll='250' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
-<use f='codebrowser/src/socket.c' l='361' u='c' c='vws_socket_disconnect'/>
-<use f='codebrowser/src/socket.c' l='376' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='594' u='c' c='vws_socket_write'/>
+<dec f='codebrowser/src/socket.h' l='173' type='_Bool vws_socket_is_connected(vws_socket * s)'/>
+<def f='codebrowser/src/socket.c' l='260' ll='268' macro='1' type='_Bool vws_socket_is_connected(vws_socket * c)'/>
+<use f='codebrowser/src/socket.c' l='379' u='c' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='394' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='613' u='c' c='vws_socket_write'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='74' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='87' u='c' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='388' u='c' c='vws_cnx_is_connected'/>

@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='111' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
+<dec f='codebrowser/src/message.h' l='115' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
 <def f='codebrowser/src/message.c' l='452' ll='455' type='void vrtql_msg_set_routing(vrtql_msg * msg, cstr key, cstr value)'/>
-<doc f='codebrowser/src/message.h' l='103'>/**
+<doc f='codebrowser/src/message.h' l='107'>/**
  * @brief Sets a routing key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The routing key.

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/url.h' l='78' type='char * url_get_protocol(const char * url)'/>
+<dec f='codebrowser/src/url.h' l='82' type='char * url_get_protocol(const char * url)'/>
 <use f='codebrowser/src/url.c' l='99' u='c' c='url_parse'/>
 <def f='codebrowser/src/url.c' l='222' ll='232' type='char * url_get_protocol(const char * url)'/>
 <use f='codebrowser/src/url.c' l='237' u='c' c='url_get_auth'/>

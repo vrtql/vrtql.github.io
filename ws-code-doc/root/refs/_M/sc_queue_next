@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='174'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='168'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='178'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='172'>/**
  * @param q queue
  * @param i index
  * @return  index of the next element after i, if i is the last element,

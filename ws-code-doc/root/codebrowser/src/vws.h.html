@@ -27,484 +27,492 @@
 <tr><th id="13">13</th><td><b>typedef</b> <em>const</em> <em>char</em>* <dfn class="typedef" id="cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</dfn>;</td></tr>
 <tr><th id="14">14</th><td><b>typedef</b> <em>const</em> <em>unsigned</em> <em>char</em>* <dfn class="typedef" id="ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</dfn>;</td></tr>
 <tr><th id="15">15</th><td></td></tr>
-<tr><th id="16">16</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="17">17</th><td><i>// Error handling</i></td></tr>
-<tr><th id="18">18</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="16">16</th><td><u>#<span data-ppcond="16">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="17">17</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="18">18</th><td><u>#<span data-ppcond="16">endif</span></u></td></tr>
 <tr><th id="19">19</th><td></td></tr>
-<tr><th id="20">20</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="21">21</th><td><i class="doc"> * <span class="command">@brief</span> Enumerates error codes used in the library.</i></td></tr>
-<tr><th id="22">22</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="23">23</th><td><b>typedef</b> <b>enum</b></td></tr>
-<tr><th id="24">24</th><td>{</td></tr>
-<tr><th id="25">25</th><td>    <dfn class="enum" id="VE_SUCCESS" title='VE_SUCCESS' data-ref="VE_SUCCESS" data-ref-filename="VE_SUCCESS">VE_SUCCESS</dfn>    = <var>0</var>,        <i class="doc">/**&lt; No error */</i></td></tr>
-<tr><th id="26">26</th><td>    <dfn class="enum" id="VE_TIMEOUT" title='VE_TIMEOUT' data-ref="VE_TIMEOUT" data-ref-filename="VE_TIMEOUT">VE_TIMEOUT</dfn>    = (<var>1</var> &lt;&lt; <var>1</var>), <i class="doc">/**&lt; Socket timeout */</i></td></tr>
-<tr><th id="27">27</th><td>    <dfn class="enum" id="VE_WARN" title='VE_WARN' data-ref="VE_WARN" data-ref-filename="VE_WARN">VE_WARN</dfn>       = (<var>1</var> &lt;&lt; <var>2</var>), <i class="doc">/**&lt; Warning */</i></td></tr>
-<tr><th id="28">28</th><td>    <dfn class="enum" id="VE_SOCKET" title='VE_SOCKET' data-ref="VE_SOCKET" data-ref-filename="VE_SOCKET">VE_SOCKET</dfn>     = (<var>1</var> &lt;&lt; <var>3</var>), <i class="doc">/**&lt; Socket disconnect */</i></td></tr>
-<tr><th id="29">29</th><td>    <dfn class="enum" id="VE_SEND" title='VE_SEND' data-ref="VE_SEND" data-ref-filename="VE_SEND">VE_SEND</dfn>       = (<var>1</var> &lt;&lt; <var>4</var>), <i class="doc">/**&lt; Socket send error */</i></td></tr>
-<tr><th id="30">30</th><td>    <dfn class="enum" id="VE_RECV" title='VE_RECV' data-ref="VE_RECV" data-ref-filename="VE_RECV">VE_RECV</dfn>       = (<var>1</var> &lt;&lt; <var>5</var>), <i class="doc">/**&lt; Socket receive error */</i></td></tr>
-<tr><th id="31">31</th><td>    <dfn class="enum" id="VE_SYS" title='VE_SYS' data-ref="VE_SYS" data-ref-filename="VE_SYS">VE_SYS</dfn>        = (<var>1</var> &lt;&lt; <var>6</var>), <i class="doc">/**&lt; System call error */</i></td></tr>
-<tr><th id="32">32</th><td>    <dfn class="enum" id="VE_RT" title='VE_RT' data-ref="VE_RT" data-ref-filename="VE_RT">VE_RT</dfn>         = (<var>1</var> &lt;&lt; <var>7</var>), <i class="doc">/**&lt; Runtime error */</i></td></tr>
-<tr><th id="33">33</th><td>    <dfn class="enum" id="VE_MEM" title='VE_MEM' data-ref="VE_MEM" data-ref-filename="VE_MEM">VE_MEM</dfn>        = (<var>1</var> &lt;&lt; <var>8</var>), <i class="doc">/**&lt; Memory failure */</i></td></tr>
-<tr><th id="34">34</th><td>    <dfn class="enum" id="VE_FATAL" title='VE_FATAL' data-ref="VE_FATAL" data-ref-filename="VE_FATAL">VE_FATAL</dfn>      = (<var>1</var> &lt;&lt; <var>9</var>), <i class="doc">/**&lt; Fatal error */</i></td></tr>
-<tr><th id="35">35</th><td>} <dfn class="typedef" id="vws_error_code_t" title='vws_error_code_t' data-type='enum vws_error_code_t' data-ref="vws_error_code_t" data-ref-filename="vws_error_code_t">vws_error_code_t</dfn>;</td></tr>
-<tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td><i>// Trace levels</i></td></tr>
-<tr><th id="38">38</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="vws_tl_t" title='vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t"><a class="type" href="#vws_tl_t" title='vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t">vws_tl_t</a></dfn></td></tr>
-<tr><th id="39">39</th><td>{</td></tr>
-<tr><th id="40">40</th><td>    <dfn class="enum" id="VT_OFF" title='VT_OFF' data-ref="VT_OFF" data-ref-filename="VT_OFF">VT_OFF</dfn>         = <var>0</var>,</td></tr>
-<tr><th id="41">41</th><td>    <dfn class="enum" id="VT_APPLICATION" title='VT_APPLICATION' data-ref="VT_APPLICATION" data-ref-filename="VT_APPLICATION">VT_APPLICATION</dfn> = <var>1</var>,</td></tr>
-<tr><th id="42">42</th><td>    <dfn class="enum" id="VT_MODULE" title='VT_MODULE' data-ref="VT_MODULE" data-ref-filename="VT_MODULE">VT_MODULE</dfn>      = <var>2</var>,</td></tr>
-<tr><th id="43">43</th><td>    <dfn class="enum" id="VT_SERVICE" title='VT_SERVICE' data-ref="VT_SERVICE" data-ref-filename="VT_SERVICE">VT_SERVICE</dfn>     = <var>3</var>,</td></tr>
-<tr><th id="44">44</th><td>    <dfn class="enum" id="VT_PROTOCOL" title='VT_PROTOCOL' data-ref="VT_PROTOCOL" data-ref-filename="VT_PROTOCOL">VT_PROTOCOL</dfn>    = <var>4</var>,</td></tr>
-<tr><th id="45">45</th><td>    <dfn class="enum" id="VT_THREAD" title='VT_THREAD' data-ref="VT_THREAD" data-ref-filename="VT_THREAD">VT_THREAD</dfn>      = <var>5</var>,</td></tr>
-<tr><th id="46">46</th><td>    <dfn class="enum" id="VT_TCPIP" title='VT_TCPIP' data-ref="VT_TCPIP" data-ref-filename="VT_TCPIP">VT_TCPIP</dfn>       = <var>6</var>,</td></tr>
-<tr><th id="47">47</th><td>    <dfn class="enum" id="VT_LOCK" title='VT_LOCK' data-ref="VT_LOCK" data-ref-filename="VT_LOCK">VT_LOCK</dfn>        = <var>7</var>,</td></tr>
-<tr><th id="48">48</th><td>    <dfn class="enum" id="VT_MEMORY" title='VT_MEMORY' data-ref="VT_MEMORY" data-ref-filename="VT_MEMORY">VT_MEMORY</dfn>      = <var>8</var>,</td></tr>
-<tr><th id="49">49</th><td>    <dfn class="enum" id="VT_ALL" title='VT_ALL' data-ref="VT_ALL" data-ref-filename="VT_ALL">VT_ALL</dfn>         = <var>9</var></td></tr>
-<tr><th id="50">50</th><td>} <dfn class="typedef" id="vws_tl_t" title='vws_tl_t' data-type='enum vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t">vws_tl_t</dfn>;</td></tr>
-<tr><th id="51">51</th><td></td></tr>
-<tr><th id="52">52</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="53">53</th><td><i class="doc"> * <span class="command">@brief</span> Defines a structure for vrtql errors.</i></td></tr>
-<tr><th id="54">54</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="55">55</th><td><b>typedef</b> <b>struct</b></td></tr>
-<tr><th id="56">56</th><td>{</td></tr>
-<tr><th id="57">57</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="(anonymous)::code" title='(anonymous struct)::code' data-ref="(anonymous)::code" data-ref-filename="(anonymous)..code">code</dfn>;  <i class="doc">/**&lt; Error code */</i></td></tr>
-<tr><th id="58">58</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::text" title='(anonymous struct)::text' data-ref="(anonymous)::text" data-ref-filename="(anonymous)..text">text</dfn>;     <i class="doc">/**&lt; Error text */</i></td></tr>
-<tr><th id="59">59</th><td>} <dfn class="typedef" id="vws_error_value" title='vws_error_value' data-type='struct vws_error_value' data-ref="vws_error_value" data-ref-filename="vws_error_value">vws_error_value</dfn>;</td></tr>
-<tr><th id="60">60</th><td></td></tr>
-<tr><th id="61">61</th><td><i class="doc">/**&lt; The SSL context for the connection. */</i></td></tr>
-<tr><th id="62">62</th><td><b>extern</b> <a class="typedef" href="../../include/openssl/ossl_typ.h.html#SSL_CTX" title='SSL_CTX' data-type='struct ssl_ctx_st' data-ref="SSL_CTX" data-ref-filename="SSL_CTX">SSL_CTX</a>* <dfn class="decl" id="vws_ssl_ctx" title='vws_ssl_ctx' data-ref="vws_ssl_ctx" data-ref-filename="vws_ssl_ctx">vws_ssl_ctx</dfn>;</td></tr>
-<tr><th id="63">63</th><td></td></tr>
-<tr><th id="64">64</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="65">65</th><td><i>// Tracing</i></td></tr>
-<tr><th id="66">66</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="20">20</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="21">21</th><td><i>// Error handling</i></td></tr>
+<tr><th id="22">22</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"> * <span class="command">@brief</span> Enumerates error codes used in the library.</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="27">27</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="28">28</th><td>{</td></tr>
+<tr><th id="29">29</th><td>    <dfn class="enum" id="VE_SUCCESS" title='VE_SUCCESS' data-ref="VE_SUCCESS" data-ref-filename="VE_SUCCESS">VE_SUCCESS</dfn>    = <var>0</var>,        <i class="doc">/**&lt; No error */</i></td></tr>
+<tr><th id="30">30</th><td>    <dfn class="enum" id="VE_TIMEOUT" title='VE_TIMEOUT' data-ref="VE_TIMEOUT" data-ref-filename="VE_TIMEOUT">VE_TIMEOUT</dfn>    = (<var>1</var> &lt;&lt; <var>1</var>), <i class="doc">/**&lt; Socket timeout */</i></td></tr>
+<tr><th id="31">31</th><td>    <dfn class="enum" id="VE_WARN" title='VE_WARN' data-ref="VE_WARN" data-ref-filename="VE_WARN">VE_WARN</dfn>       = (<var>1</var> &lt;&lt; <var>2</var>), <i class="doc">/**&lt; Warning */</i></td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="VE_SOCKET" title='VE_SOCKET' data-ref="VE_SOCKET" data-ref-filename="VE_SOCKET">VE_SOCKET</dfn>     = (<var>1</var> &lt;&lt; <var>3</var>), <i class="doc">/**&lt; Socket disconnect */</i></td></tr>
+<tr><th id="33">33</th><td>    <dfn class="enum" id="VE_SEND" title='VE_SEND' data-ref="VE_SEND" data-ref-filename="VE_SEND">VE_SEND</dfn>       = (<var>1</var> &lt;&lt; <var>4</var>), <i class="doc">/**&lt; Socket send error */</i></td></tr>
+<tr><th id="34">34</th><td>    <dfn class="enum" id="VE_RECV" title='VE_RECV' data-ref="VE_RECV" data-ref-filename="VE_RECV">VE_RECV</dfn>       = (<var>1</var> &lt;&lt; <var>5</var>), <i class="doc">/**&lt; Socket receive error */</i></td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="VE_SYS" title='VE_SYS' data-ref="VE_SYS" data-ref-filename="VE_SYS">VE_SYS</dfn>        = (<var>1</var> &lt;&lt; <var>6</var>), <i class="doc">/**&lt; System call error */</i></td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="VE_RT" title='VE_RT' data-ref="VE_RT" data-ref-filename="VE_RT">VE_RT</dfn>         = (<var>1</var> &lt;&lt; <var>7</var>), <i class="doc">/**&lt; Runtime error */</i></td></tr>
+<tr><th id="37">37</th><td>    <dfn class="enum" id="VE_MEM" title='VE_MEM' data-ref="VE_MEM" data-ref-filename="VE_MEM">VE_MEM</dfn>        = (<var>1</var> &lt;&lt; <var>8</var>), <i class="doc">/**&lt; Memory failure */</i></td></tr>
+<tr><th id="38">38</th><td>    <dfn class="enum" id="VE_FATAL" title='VE_FATAL' data-ref="VE_FATAL" data-ref-filename="VE_FATAL">VE_FATAL</dfn>      = (<var>1</var> &lt;&lt; <var>9</var>), <i class="doc">/**&lt; Fatal error */</i></td></tr>
+<tr><th id="39">39</th><td>} <dfn class="typedef" id="vws_error_code_t" title='vws_error_code_t' data-type='enum vws_error_code_t' data-ref="vws_error_code_t" data-ref-filename="vws_error_code_t">vws_error_code_t</dfn>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><i>// Trace levels</i></td></tr>
+<tr><th id="42">42</th><td><b>typedef</b> <b>enum</b> <dfn class="type def" id="vws_tl_t" title='vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t"><a class="type" href="#vws_tl_t" title='vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t">vws_tl_t</a></dfn></td></tr>
+<tr><th id="43">43</th><td>{</td></tr>
+<tr><th id="44">44</th><td>    <dfn class="enum" id="VT_OFF" title='VT_OFF' data-ref="VT_OFF" data-ref-filename="VT_OFF">VT_OFF</dfn>         = <var>0</var>,</td></tr>
+<tr><th id="45">45</th><td>    <dfn class="enum" id="VT_APPLICATION" title='VT_APPLICATION' data-ref="VT_APPLICATION" data-ref-filename="VT_APPLICATION">VT_APPLICATION</dfn> = <var>1</var>,</td></tr>
+<tr><th id="46">46</th><td>    <dfn class="enum" id="VT_MODULE" title='VT_MODULE' data-ref="VT_MODULE" data-ref-filename="VT_MODULE">VT_MODULE</dfn>      = <var>2</var>,</td></tr>
+<tr><th id="47">47</th><td>    <dfn class="enum" id="VT_SERVICE" title='VT_SERVICE' data-ref="VT_SERVICE" data-ref-filename="VT_SERVICE">VT_SERVICE</dfn>     = <var>3</var>,</td></tr>
+<tr><th id="48">48</th><td>    <dfn class="enum" id="VT_PROTOCOL" title='VT_PROTOCOL' data-ref="VT_PROTOCOL" data-ref-filename="VT_PROTOCOL">VT_PROTOCOL</dfn>    = <var>4</var>,</td></tr>
+<tr><th id="49">49</th><td>    <dfn class="enum" id="VT_THREAD" title='VT_THREAD' data-ref="VT_THREAD" data-ref-filename="VT_THREAD">VT_THREAD</dfn>      = <var>5</var>,</td></tr>
+<tr><th id="50">50</th><td>    <dfn class="enum" id="VT_TCPIP" title='VT_TCPIP' data-ref="VT_TCPIP" data-ref-filename="VT_TCPIP">VT_TCPIP</dfn>       = <var>6</var>,</td></tr>
+<tr><th id="51">51</th><td>    <dfn class="enum" id="VT_LOCK" title='VT_LOCK' data-ref="VT_LOCK" data-ref-filename="VT_LOCK">VT_LOCK</dfn>        = <var>7</var>,</td></tr>
+<tr><th id="52">52</th><td>    <dfn class="enum" id="VT_MEMORY" title='VT_MEMORY' data-ref="VT_MEMORY" data-ref-filename="VT_MEMORY">VT_MEMORY</dfn>      = <var>8</var>,</td></tr>
+<tr><th id="53">53</th><td>    <dfn class="enum" id="VT_ALL" title='VT_ALL' data-ref="VT_ALL" data-ref-filename="VT_ALL">VT_ALL</dfn>         = <var>9</var></td></tr>
+<tr><th id="54">54</th><td>} <dfn class="typedef" id="vws_tl_t" title='vws_tl_t' data-type='enum vws_tl_t' data-ref="vws_tl_t" data-ref-filename="vws_tl_t">vws_tl_t</dfn>;</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="57">57</th><td><i class="doc"> * <span class="command">@brief</span> Defines a structure for vrtql errors.</i></td></tr>
+<tr><th id="58">58</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="59">59</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="60">60</th><td>{</td></tr>
+<tr><th id="61">61</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="(anonymous)::code" title='(anonymous struct)::code' data-ref="(anonymous)::code" data-ref-filename="(anonymous)..code">code</dfn>;  <i class="doc">/**&lt; Error code */</i></td></tr>
+<tr><th id="62">62</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::text" title='(anonymous struct)::text' data-ref="(anonymous)::text" data-ref-filename="(anonymous)..text">text</dfn>;     <i class="doc">/**&lt; Error text */</i></td></tr>
+<tr><th id="63">63</th><td>} <dfn class="typedef" id="vws_error_value" title='vws_error_value' data-type='struct vws_error_value' data-ref="vws_error_value" data-ref-filename="vws_error_value">vws_error_value</dfn>;</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><i class="doc">/**&lt; The SSL context for the connection. */</i></td></tr>
+<tr><th id="66">66</th><td><b>extern</b> <a class="typedef" href="../../include/openssl/ossl_typ.h.html#SSL_CTX" title='SSL_CTX' data-type='struct ssl_ctx_st' data-ref="SSL_CTX" data-ref-filename="SSL_CTX">SSL_CTX</a>* <dfn class="decl" id="vws_ssl_ctx" title='vws_ssl_ctx' data-ref="vws_ssl_ctx" data-ref-filename="vws_ssl_ctx">vws_ssl_ctx</dfn>;</td></tr>
 <tr><th id="67">67</th><td></td></tr>
-<tr><th id="68">68</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="69">69</th><td><i class="doc"> * <span class="command">@brief</span> Enumerates the levels of logging.</i></td></tr>
-<tr><th id="70">70</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="71">71</th><td><b>typedef</b> <b>enum</b></td></tr>
-<tr><th id="72">72</th><td>{</td></tr>
-<tr><th id="73">73</th><td>    <dfn class="enum" id="VL_DEBUG" title='VL_DEBUG' data-ref="VL_DEBUG" data-ref-filename="VL_DEBUG">VL_DEBUG</dfn>,         <i class="doc">/**&lt; Debug level log       */</i></td></tr>
-<tr><th id="74">74</th><td>    <dfn class="enum" id="VL_INFO" title='VL_INFO' data-ref="VL_INFO" data-ref-filename="VL_INFO">VL_INFO</dfn>,          <i class="doc">/**&lt; Information level log */</i></td></tr>
-<tr><th id="75">75</th><td>    <dfn class="enum" id="VL_WARN" title='VL_WARN' data-ref="VL_WARN" data-ref-filename="VL_WARN">VL_WARN</dfn>,          <i class="doc">/**&lt; Warning level log     */</i></td></tr>
-<tr><th id="76">76</th><td>    <dfn class="enum" id="VL_ERROR" title='VL_ERROR' data-ref="VL_ERROR" data-ref-filename="VL_ERROR">VL_ERROR</dfn>,         <i class="doc">/**&lt; Error level log       */</i></td></tr>
-<tr><th id="77">77</th><td>    <dfn class="enum" id="VL_LEVEL_COUNT" title='VL_LEVEL_COUNT' data-ref="VL_LEVEL_COUNT" data-ref-filename="VL_LEVEL_COUNT">VL_LEVEL_COUNT</dfn>    <i class="doc">/**&lt; Count of log levels   */</i></td></tr>
-<tr><th id="78">78</th><td>} <dfn class="typedef" id="vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</dfn>;</td></tr>
-<tr><th id="79">79</th><td></td></tr>
-<tr><th id="80">80</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="81">81</th><td><i class="doc"> * <span class="command">@brief</span> Logs a trace message.</i></td></tr>
-<tr><th id="82">82</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="83">83</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">level</span> The level of the log</i></td></tr>
-<tr><th id="84">84</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">format</span> The format string for the message</i></td></tr>
-<tr><th id="85">85</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">...</span> The arguments for the format string</i></td></tr>
-<tr><th id="86">86</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="87">87</th><td><em>void</em> <dfn class="decl fn" id="vws_trace" title='vws_trace' data-ref="vws_trace" data-ref-filename="vws_trace">vws_trace</dfn>(<a class="typedef" href="#vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</a> <dfn class="local col0 decl" id="8370level" title='level' data-type='vws_log_level_t' data-ref="8370level" data-ref-filename="8370level">level</dfn>, <em>const</em> <em>char</em>* <dfn class="local col1 decl" id="8371format" title='format' data-type='const char *' data-ref="8371format" data-ref-filename="8371format">format</dfn>, ...);</td></tr>
-<tr><th id="88">88</th><td></td></tr>
-<tr><th id="89">89</th><td></td></tr>
-<tr><th id="90">90</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="91">91</th><td><i class="doc"> * <span class="command">@brief</span> Lock the log mutex to synchronize access to the logging functionality.</i></td></tr>
-<tr><th id="92">92</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="93">93</th><td><i class="doc"> * This function is responsible for locking the log mutex, which ensures that</i></td></tr>
-<tr><th id="94">94</th><td><i class="doc"> * only one thread can access the logging functionality at a time. It uses</i></td></tr>
-<tr><th id="95">95</th><td><i class="doc"> * platform-specific synchronization mechanisms depending on the platform:</i></td></tr>
+<tr><th id="68">68</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="69">69</th><td><i>// Tracing</i></td></tr>
+<tr><th id="70">70</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="73">73</th><td><i class="doc"> * <span class="command">@brief</span> Enumerates the levels of logging.</i></td></tr>
+<tr><th id="74">74</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="75">75</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="76">76</th><td>{</td></tr>
+<tr><th id="77">77</th><td>    <dfn class="enum" id="VL_DEBUG" title='VL_DEBUG' data-ref="VL_DEBUG" data-ref-filename="VL_DEBUG">VL_DEBUG</dfn>,         <i class="doc">/**&lt; Debug level log       */</i></td></tr>
+<tr><th id="78">78</th><td>    <dfn class="enum" id="VL_INFO" title='VL_INFO' data-ref="VL_INFO" data-ref-filename="VL_INFO">VL_INFO</dfn>,          <i class="doc">/**&lt; Information level log */</i></td></tr>
+<tr><th id="79">79</th><td>    <dfn class="enum" id="VL_WARN" title='VL_WARN' data-ref="VL_WARN" data-ref-filename="VL_WARN">VL_WARN</dfn>,          <i class="doc">/**&lt; Warning level log     */</i></td></tr>
+<tr><th id="80">80</th><td>    <dfn class="enum" id="VL_ERROR" title='VL_ERROR' data-ref="VL_ERROR" data-ref-filename="VL_ERROR">VL_ERROR</dfn>,         <i class="doc">/**&lt; Error level log       */</i></td></tr>
+<tr><th id="81">81</th><td>    <dfn class="enum" id="VL_LEVEL_COUNT" title='VL_LEVEL_COUNT' data-ref="VL_LEVEL_COUNT" data-ref-filename="VL_LEVEL_COUNT">VL_LEVEL_COUNT</dfn>    <i class="doc">/**&lt; Count of log levels   */</i></td></tr>
+<tr><th id="82">82</th><td>} <dfn class="typedef" id="vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</dfn>;</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="85">85</th><td><i class="doc"> * <span class="command">@brief</span> Logs a trace message.</i></td></tr>
+<tr><th id="86">86</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="87">87</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">level</span> The level of the log</i></td></tr>
+<tr><th id="88">88</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">format</span> The format string for the message</i></td></tr>
+<tr><th id="89">89</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">...</span> The arguments for the format string</i></td></tr>
+<tr><th id="90">90</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="91">91</th><td><em>void</em> <dfn class="decl fn" id="vws_trace" title='vws_trace' data-ref="vws_trace" data-ref-filename="vws_trace">vws_trace</dfn>(<a class="typedef" href="#vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</a> <dfn class="local col0 decl" id="8370level" title='level' data-type='vws_log_level_t' data-ref="8370level" data-ref-filename="8370level">level</dfn>, <em>const</em> <em>char</em>* <dfn class="local col1 decl" id="8371format" title='format' data-type='const char *' data-ref="8371format" data-ref-filename="8371format">format</dfn>, ...);</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="95">95</th><td><i class="doc"> * <span class="command">@brief</span> Lock the log mutex to synchronize access to the logging functionality.</i></td></tr>
 <tr><th id="96">96</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="97">97</th><td><i class="doc"> * - On Windows, it uses the Windows API function WaitForSingleObject() to</i></td></tr>
-<tr><th id="98">98</th><td><i class="doc"> *   lock the mutex.</i></td></tr>
-<tr><th id="99">99</th><td><i class="doc"> * - On other platforms, it uses the pthread_mutex_lock() function to lock</i></td></tr>
-<tr><th id="100">100</th><td><i class="doc"> *   the mutex.</i></td></tr>
-<tr><th id="101">101</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="102">102</th><td><i class="doc"> * If an error occurs while trying to lock the mutex, this function will</i></td></tr>
-<tr><th id="103">103</th><td><i class="doc"> * submit an error message using vws_error_default_submit() with a</i></td></tr>
-<tr><th id="104">104</th><td><i class="doc"> * corresponding error code.</i></td></tr>
+<tr><th id="97">97</th><td><i class="doc"> * This function is responsible for locking the log mutex, which ensures that</i></td></tr>
+<tr><th id="98">98</th><td><i class="doc"> * only one thread can access the logging functionality at a time. It uses</i></td></tr>
+<tr><th id="99">99</th><td><i class="doc"> * platform-specific synchronization mechanisms depending on the platform:</i></td></tr>
+<tr><th id="100">100</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="101">101</th><td><i class="doc"> * - On Windows, it uses the Windows API function WaitForSingleObject() to</i></td></tr>
+<tr><th id="102">102</th><td><i class="doc"> *   lock the mutex.</i></td></tr>
+<tr><th id="103">103</th><td><i class="doc"> * - On other platforms, it uses the pthread_mutex_lock() function to lock</i></td></tr>
+<tr><th id="104">104</th><td><i class="doc"> *   the mutex.</i></td></tr>
 <tr><th id="105">105</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="106">106</th><td><i class="doc"> * <span class="command">@see</span> vws_trace_unlock()</i></td></tr>
-<tr><th id="107">107</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="108">108</th><td><em>void</em> <dfn class="decl fn" id="vws_trace_lock" title='vws_trace_lock' data-ref="vws_trace_lock" data-ref-filename="vws_trace_lock">vws_trace_lock</dfn>();</td></tr>
-<tr><th id="109">109</th><td></td></tr>
-<tr><th id="110">110</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="111">111</th><td><i class="doc"> * <span class="command">@brief</span> Unlock the log mutex to release synchronization after accessing</i></td></tr>
-<tr><th id="112">112</th><td><i class="doc"> *        the logging functionality.</i></td></tr>
-<tr><th id="113">113</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="114">114</th><td><i class="doc"> * This function is responsible for unlocking the log mutex, allowing other</i></td></tr>
-<tr><th id="115">115</th><td><i class="doc"> * threads to access the logging functionality. It complements the</i></td></tr>
-<tr><th id="116">116</th><td><i class="doc"> * vws_trace_lock() function and should be called after finishing the</i></td></tr>
-<tr><th id="117">117</th><td><i class="doc"> * logging-related tasks to release the mutex.</i></td></tr>
-<tr><th id="118">118</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="119">119</th><td><i class="doc"> * This function uses platform-specific synchronization mechanisms depending</i></td></tr>
-<tr><th id="120">120</th><td><i class="doc"> * on the platform:</i></td></tr>
-<tr><th id="121">121</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="122">122</th><td><i class="doc"> * - On Windows, it uses the Windows API function ReleaseMutex() to unlock</i></td></tr>
-<tr><th id="123">123</th><td><i class="doc"> *   the mutex.</i></td></tr>
-<tr><th id="124">124</th><td><i class="doc"> * - On other platforms, it uses the pthread_mutex_unlock() function to</i></td></tr>
-<tr><th id="125">125</th><td><i class="doc"> *   unlock the mutex.</i></td></tr>
-<tr><th id="126">126</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="127">127</th><td><i class="doc"> * If an error occurs while trying to unlock the mutex, this function will</i></td></tr>
-<tr><th id="128">128</th><td><i class="doc"> * submit an error message using vws_error_default_submit() with a</i></td></tr>
-<tr><th id="129">129</th><td><i class="doc"> * corresponding error code.</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc"> * If an error occurs while trying to lock the mutex, this function will</i></td></tr>
+<tr><th id="107">107</th><td><i class="doc"> * submit an error message using vws_error_default_submit() with a</i></td></tr>
+<tr><th id="108">108</th><td><i class="doc"> * corresponding error code.</i></td></tr>
+<tr><th id="109">109</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="110">110</th><td><i class="doc"> * <span class="command">@see</span> vws_trace_unlock()</i></td></tr>
+<tr><th id="111">111</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="112">112</th><td><em>void</em> <dfn class="decl fn" id="vws_trace_lock" title='vws_trace_lock' data-ref="vws_trace_lock" data-ref-filename="vws_trace_lock">vws_trace_lock</dfn>();</td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="115">115</th><td><i class="doc"> * <span class="command">@brief</span> Unlock the log mutex to release synchronization after accessing</i></td></tr>
+<tr><th id="116">116</th><td><i class="doc"> *        the logging functionality.</i></td></tr>
+<tr><th id="117">117</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="118">118</th><td><i class="doc"> * This function is responsible for unlocking the log mutex, allowing other</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc"> * threads to access the logging functionality. It complements the</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc"> * vws_trace_lock() function and should be called after finishing the</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc"> * logging-related tasks to release the mutex.</i></td></tr>
+<tr><th id="122">122</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="123">123</th><td><i class="doc"> * This function uses platform-specific synchronization mechanisms depending</i></td></tr>
+<tr><th id="124">124</th><td><i class="doc"> * on the platform:</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc"> * - On Windows, it uses the Windows API function ReleaseMutex() to unlock</i></td></tr>
+<tr><th id="127">127</th><td><i class="doc"> *   the mutex.</i></td></tr>
+<tr><th id="128">128</th><td><i class="doc"> * - On other platforms, it uses the pthread_mutex_unlock() function to</i></td></tr>
+<tr><th id="129">129</th><td><i class="doc"> *   unlock the mutex.</i></td></tr>
 <tr><th id="130">130</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="131">131</th><td><i class="doc"> * <span class="command">@see</span> vws_trace_lock()</i></td></tr>
-<tr><th id="132">132</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="133">133</th><td><em>void</em> <dfn class="decl fn" id="vws_trace_unlock" title='vws_trace_unlock' data-ref="vws_trace_unlock" data-ref-filename="vws_trace_unlock">vws_trace_unlock</dfn>();</td></tr>
-<tr><th id="134">134</th><td></td></tr>
-<tr><th id="135">135</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="136">136</th><td><i class="doc"> * <span class="command">@brief</span> Callback for tracing</i></td></tr>
-<tr><th id="137">137</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="138">138</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_trace_cb" title='vws_trace_cb' data-type='void (*)(vws_log_level_t, const char *, ...)' data-ref="vws_trace_cb" data-ref-filename="vws_trace_cb">vws_trace_cb</dfn>)(<a class="typedef" href="#vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</a> <dfn class="local col2 decl" id="8372level" title='level' data-type='vws_log_level_t' data-ref="8372level" data-ref-filename="8372level">level</dfn>, <em>const</em> <em>char</em>* <dfn class="local col3 decl" id="8373fmt" title='fmt' data-type='const char *' data-ref="8373fmt" data-ref-filename="8373fmt">fmt</dfn>, ...);</td></tr>
-<tr><th id="139">139</th><td></td></tr>
-<tr><th id="140">140</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="141">141</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with malloc().</i></td></tr>
-<tr><th id="142">142</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="143">143</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_malloc_cb" title='vws_malloc_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_cb" data-ref-filename="vws_malloc_cb">vws_malloc_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="8374size" title='size' data-type='size_t' data-ref="8374size" data-ref-filename="8374size">size</dfn>);</td></tr>
-<tr><th id="144">144</th><td></td></tr>
-<tr><th id="145">145</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="146">146</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory deallocatiion with free().</i></td></tr>
-<tr><th id="147">147</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="148">148</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_free_cb" title='vws_free_cb' data-type='void (*)(void *)' data-ref="vws_free_cb" data-ref-filename="vws_free_cb">vws_free_cb</dfn>)(<em>void</em>* <dfn class="local col5 decl" id="8375memory" title='memory' data-type='void *' data-ref="8375memory" data-ref-filename="8375memory">memory</dfn>);</td></tr>
-<tr><th id="149">149</th><td></td></tr>
-<tr><th id="150">150</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="151">151</th><td><i class="doc"> * <span class="command">@brief</span> Callback for malloc failure. This is called when vrtql.malloc() fails</i></td></tr>
-<tr><th id="152">152</th><td><i class="doc"> * to allocate memory. This function is meant to handle, report and/or recover</i></td></tr>
-<tr><th id="153">153</th><td><i class="doc"> * from the error. Whatever this function returns will be returned from the</i></td></tr>
-<tr><th id="154">154</th><td><i class="doc"> * vrtql.malloc().</i></td></tr>
-<tr><th id="155">155</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="156">156</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.malloc()</i></td></tr>
-<tr><th id="157">157</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="158">158</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_malloc_error_cb" title='vws_malloc_error_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_error_cb" data-ref-filename="vws_malloc_error_cb">vws_malloc_error_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col6 decl" id="8376size" title='size' data-type='size_t' data-ref="8376size" data-ref-filename="8376size">size</dfn>);</td></tr>
-<tr><th id="159">159</th><td></td></tr>
-<tr><th id="160">160</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="161">161</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with calloc.</i></td></tr>
-<tr><th id="162">162</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="163">163</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_calloc_cb" title='vws_calloc_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_cb" data-ref-filename="vws_calloc_cb">vws_calloc_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8377nmemb" title='nmemb' data-type='size_t' data-ref="8377nmemb" data-ref-filename="8377nmemb">nmemb</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="8378size" title='size' data-type='size_t' data-ref="8378size" data-ref-filename="8378size">size</dfn>);</td></tr>
-<tr><th id="164">164</th><td></td></tr>
-<tr><th id="165">165</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="166">166</th><td><i class="doc"> * <span class="command">@brief</span> Callback for calloc failure. This is called when vrtql.calloc() fails</i></td></tr>
-<tr><th id="167">167</th><td><i class="doc"> * to allocate memory. This function is meant to handle, report and/or recover</i></td></tr>
-<tr><th id="168">168</th><td><i class="doc"> * from the error. Whatever this function returns will be returned from the</i></td></tr>
-<tr><th id="169">169</th><td><i class="doc"> * vrtql.calloc().</i></td></tr>
-<tr><th id="170">170</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="171">171</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">nmemb</span> The nmemb argument passed to vrtql.calloc()</i></td></tr>
-<tr><th id="172">172</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.calloc()</i></td></tr>
-<tr><th id="173">173</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="174">174</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_calloc_error_cb" title='vws_calloc_error_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_error_cb" data-ref-filename="vws_calloc_error_cb">vws_calloc_error_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="8379nmemb" title='nmemb' data-type='size_t' data-ref="8379nmemb" data-ref-filename="8379nmemb">nmemb</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col0 decl" id="8380size" title='size' data-type='size_t' data-ref="8380size" data-ref-filename="8380size">size</dfn>);</td></tr>
-<tr><th id="175">175</th><td></td></tr>
-<tr><th id="176">176</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="177">177</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with realloc.</i></td></tr>
-<tr><th id="178">178</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="179">179</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ptr</span> The ptr argument passed to vrtql.realloc()</i></td></tr>
-<tr><th id="180">180</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="181">181</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_realloc_cb" title='vws_realloc_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_cb" data-ref-filename="vws_realloc_cb">vws_realloc_cb</dfn>)(<em>void</em>* <dfn class="local col1 decl" id="8381ptr" title='ptr' data-type='void *' data-ref="8381ptr" data-ref-filename="8381ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col2 decl" id="8382size" title='size' data-type='size_t' data-ref="8382size" data-ref-filename="8382size">size</dfn>);</td></tr>
-<tr><th id="182">182</th><td></td></tr>
-<tr><th id="183">183</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="184">184</th><td><i class="doc"> * <span class="command">@brief</span> Callback for realloc failure. This is called when vrtql.realloc()</i></td></tr>
-<tr><th id="185">185</th><td><i class="doc"> * fails to allocate memory. This function is meant to handle, report and/or</i></td></tr>
-<tr><th id="186">186</th><td><i class="doc"> * recover from the error. Whatever this function returns will be returned from</i></td></tr>
-<tr><th id="187">187</th><td><i class="doc"> * the vrtql.realloc().</i></td></tr>
-<tr><th id="188">188</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="189">189</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ptr</span> The ptr argument passed to vrtql.realloc()</i></td></tr>
-<tr><th id="190">190</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.realloc()</i></td></tr>
-<tr><th id="191">191</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="192">192</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_realloc_error_cb" title='vws_realloc_error_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_error_cb" data-ref-filename="vws_realloc_error_cb">vws_realloc_error_cb</dfn>)(<em>void</em>* <dfn class="local col3 decl" id="8383ptr" title='ptr' data-type='void *' data-ref="8383ptr" data-ref-filename="8383ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="8384size" title='size' data-type='size_t' data-ref="8384size" data-ref-filename="8384size">size</dfn>);</td></tr>
-<tr><th id="193">193</th><td></td></tr>
-<tr><th id="194">194</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="195">195</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error submission. Error submission function. Error</i></td></tr>
-<tr><th id="196">196</th><td><i class="doc"> * submission takes care of recording the error in the vrtql.e member. The next</i></td></tr>
-<tr><th id="197">197</th><td><i class="doc"> * step is the process the error.</i></td></tr>
-<tr><th id="198">198</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="199">199</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="vws_error_submit_cb" title='vws_error_submit_cb' data-type='int (*)(int, cstr, ...)' data-ref="vws_error_submit_cb" data-ref-filename="vws_error_submit_cb">vws_error_submit_cb</dfn>)(<em>int</em> <dfn class="local col5 decl" id="8385code" title='code' data-type='int' data-ref="8385code" data-ref-filename="8385code">code</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="8386message" title='message' data-type='cstr' data-ref="8386message" data-ref-filename="8386message">message</dfn>, ...);</td></tr>
-<tr><th id="200">200</th><td></td></tr>
-<tr><th id="201">201</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="202">202</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error processing. Error processing function. Error</i></td></tr>
-<tr><th id="203">203</th><td><i class="doc"> * processing makes policy decisions, if any, on how to handle specific classes</i></td></tr>
-<tr><th id="204">204</th><td><i class="doc"> * of errors, for example how to exit the process on fatal errors (VE_FATAL), or</i></td></tr>
-<tr><th id="205">205</th><td><i class="doc"> * how to handle memory allocation errors (VE_MEM).</i></td></tr>
-<tr><th id="206">206</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="207">207</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="vws_error_process_cb" title='vws_error_process_cb' data-type='int (*)(int, cstr)' data-ref="vws_error_process_cb" data-ref-filename="vws_error_process_cb">vws_error_process_cb</dfn>)(<em>int</em> <dfn class="local col7 decl" id="8387code" title='code' data-type='int' data-ref="8387code" data-ref-filename="8387code">code</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col8 decl" id="8388message" title='message' data-type='cstr' data-ref="8388message" data-ref-filename="8388message">message</dfn>);</td></tr>
-<tr><th id="208">208</th><td></td></tr>
-<tr><th id="209">209</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="210">210</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error clearing. The default is to set VE_SUCESS.</i></td></tr>
-<tr><th id="211">211</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="212">212</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</dfn>)();</td></tr>
-<tr><th id="213">213</th><td></td></tr>
-<tr><th id="214">214</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="215">215</th><td><i class="doc"> * <span class="command">@brief</span> Callback for success conditions. The default is to set VE_SUCESS.</i></td></tr>
-<tr><th id="216">216</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="217">217</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_error_success_cb" title='vws_error_success_cb' data-type='void (*)()' data-ref="vws_error_success_cb" data-ref-filename="vws_error_success_cb">vws_error_success_cb</dfn>)();</td></tr>
-<tr><th id="218">218</th><td></td></tr>
-<tr><th id="219">219</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="220">220</th><td><i class="doc"> * <span class="command">@brief</span> Defines the global vrtql environment.</i></td></tr>
-<tr><th id="221">221</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="222">222</th><td><b>typedef</b> <b>struct</b></td></tr>
-<tr><th id="223">223</th><td>{</td></tr>
-<tr><th id="224">224</th><td>    <a class="typedef" href="#vws_malloc_cb" title='vws_malloc_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_cb" data-ref-filename="vws_malloc_cb">vws_malloc_cb</a> <dfn class="decl field" id="(anonymous)::malloc" title='(anonymous struct)::malloc' data-ref="(anonymous)::malloc" data-ref-filename="(anonymous)..malloc">malloc</dfn>;               <i class="doc">/**&lt; malloc function             */</i></td></tr>
-<tr><th id="225">225</th><td>    <a class="typedef" href="#vws_malloc_error_cb" title='vws_malloc_error_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_error_cb" data-ref-filename="vws_malloc_error_cb">vws_malloc_error_cb</a> <dfn class="decl field" id="(anonymous)::malloc_error" title='(anonymous struct)::malloc_error' data-ref="(anonymous)::malloc_error" data-ref-filename="(anonymous)..malloc_error">malloc_error</dfn>;   <i class="doc">/**&lt; malloc error hanlding       */</i></td></tr>
-<tr><th id="226">226</th><td>    <a class="typedef" href="#vws_calloc_cb" title='vws_calloc_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_cb" data-ref-filename="vws_calloc_cb">vws_calloc_cb</a> <dfn class="decl field" id="(anonymous)::calloc" title='(anonymous struct)::calloc' data-ref="(anonymous)::calloc" data-ref-filename="(anonymous)..calloc">calloc</dfn>;               <i class="doc">/**&lt; calloc function             */</i></td></tr>
-<tr><th id="227">227</th><td>    <a class="typedef" href="#vws_calloc_error_cb" title='vws_calloc_error_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_error_cb" data-ref-filename="vws_calloc_error_cb">vws_calloc_error_cb</a> <dfn class="decl field" id="(anonymous)::calloc_error" title='(anonymous struct)::calloc_error' data-ref="(anonymous)::calloc_error" data-ref-filename="(anonymous)..calloc_error">calloc_error</dfn>;   <i class="doc">/**&lt; calloc error hanlding       */</i></td></tr>
-<tr><th id="228">228</th><td>    <a class="typedef" href="#vws_realloc_cb" title='vws_realloc_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_cb" data-ref-filename="vws_realloc_cb">vws_realloc_cb</a> <dfn class="decl field" id="(anonymous)::realloc" title='(anonymous struct)::realloc' data-ref="(anonymous)::realloc" data-ref-filename="(anonymous)..realloc">realloc</dfn>;             <i class="doc">/**&lt; realloc function            */</i></td></tr>
-<tr><th id="229">229</th><td>    <a class="typedef" href="#vws_realloc_error_cb" title='vws_realloc_error_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_error_cb" data-ref-filename="vws_realloc_error_cb">vws_realloc_error_cb</a> <dfn class="decl field" id="(anonymous)::realloc_error" title='(anonymous struct)::realloc_error' data-ref="(anonymous)::realloc_error" data-ref-filename="(anonymous)..realloc_error">realloc_error</dfn>; <i class="doc">/**&lt; calloc error hanlding       */</i></td></tr>
-<tr><th id="230">230</th><td>    <a class="typedef" href="#vws_free_cb" title='vws_free_cb' data-type='void (*)(void *)' data-ref="vws_free_cb" data-ref-filename="vws_free_cb">vws_free_cb</a> <dfn class="decl field" id="(anonymous)::free" title='(anonymous struct)::free' data-ref="(anonymous)::free" data-ref-filename="(anonymous)..free">free</dfn>;                   <i class="doc">/**&lt; free function               */</i></td></tr>
-<tr><th id="231">231</th><td>    <a class="typedef" href="#vws_error_submit_cb" title='vws_error_submit_cb' data-type='int (*)(int, cstr, ...)' data-ref="vws_error_submit_cb" data-ref-filename="vws_error_submit_cb">vws_error_submit_cb</a> <dfn class="decl field" id="(anonymous)::error" title='(anonymous struct)::error' data-ref="(anonymous)::error" data-ref-filename="(anonymous)..error">error</dfn>;          <i class="doc">/**&lt; Error submission function   */</i></td></tr>
-<tr><th id="232">232</th><td>    <a class="typedef" href="#vws_error_process_cb" title='vws_error_process_cb' data-type='int (*)(int, cstr)' data-ref="vws_error_process_cb" data-ref-filename="vws_error_process_cb">vws_error_process_cb</a> <dfn class="decl field" id="(anonymous)::process_error" title='(anonymous struct)::process_error' data-ref="(anonymous)::process_error" data-ref-filename="(anonymous)..process_error">process_error</dfn>; <i class="doc">/**&lt; Error processing function   */</i></td></tr>
-<tr><th id="233">233</th><td>    <a class="typedef" href="#vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</a> <dfn class="decl field" id="(anonymous)::clear_error" title='(anonymous struct)::clear_error' data-ref="(anonymous)::clear_error" data-ref-filename="(anonymous)..clear_error">clear_error</dfn>;     <i class="doc">/**&lt; Error clear function        */</i></td></tr>
-<tr><th id="234">234</th><td>    <a class="typedef" href="#vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</a> <dfn class="decl field" id="(anonymous)::success" title='(anonymous struct)::success' data-ref="(anonymous)::success" data-ref-filename="(anonymous)..success">success</dfn>;         <i class="doc">/**&lt; Error clear function        */</i></td></tr>
-<tr><th id="235">235</th><td>    <a class="typedef" href="#vws_error_value" title='vws_error_value' data-type='struct vws_error_value' data-ref="vws_error_value" data-ref-filename="vws_error_value">vws_error_value</a> <dfn class="decl field" id="(anonymous)::e" title='(anonymous struct)::e' data-ref="(anonymous)::e" data-ref-filename="(anonymous)..e">e</dfn>;                  <i class="doc">/**&lt; Last error value            */</i></td></tr>
-<tr><th id="236">236</th><td>    <a class="typedef" href="#vws_trace_cb" title='vws_trace_cb' data-type='void (*)(vws_log_level_t, const char *, ...)' data-ref="vws_trace_cb" data-ref-filename="vws_trace_cb">vws_trace_cb</a> <dfn class="decl field" id="(anonymous)::trace" title='(anonymous struct)::trace' data-ref="(anonymous)::trace" data-ref-filename="(anonymous)..trace">trace</dfn>;                 <i class="doc">/**&lt; Error clear function        */</i></td></tr>
-<tr><th id="237">237</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="(anonymous)::tracelevel" title='(anonymous struct)::tracelevel' data-ref="(anonymous)::tracelevel" data-ref-filename="(anonymous)..tracelevel">tracelevel</dfn>;                   <i class="doc">/**&lt; Tracing leve (0 is off)     */</i></td></tr>
-<tr><th id="238">238</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="(anonymous)::state" title='(anonymous struct)::state' data-ref="(anonymous)::state" data-ref-filename="(anonymous)..state">state</dfn>;                       <i class="doc">/**&lt; Contains global state flags */</i></td></tr>
-<tr><th id="239">239</th><td>    <em>unsigned</em> <em>char</em> <dfn class="decl field" id="(anonymous)::sslbuf" title='(anonymous struct)::sslbuf' data-ref="(anonymous)::sslbuf" data-ref-filename="(anonymous)..sslbuf">sslbuf</dfn>[<var>4096</var>];           <i class="doc">/**&lt; Thread-local SSL buffer */</i></td></tr>
-<tr><th id="240">240</th><td>} <dfn class="typedef" id="vws_env" title='vws_env' data-type='struct vws_env' data-ref="vws_env" data-ref-filename="vws_env">vws_env</dfn>;</td></tr>
-<tr><th id="241">241</th><td></td></tr>
-<tr><th id="242">242</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="243">243</th><td><i class="doc"> * <span class="command">@brief</span> The global vrtql environment variable</i></td></tr>
-<tr><th id="244">244</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="245">245</th><td><b>extern</b> <b>__thread</b> <a class="typedef" href="#vws_env" title='vws_env' data-type='struct vws_env' data-ref="vws_env" data-ref-filename="vws_env">vws_env</a> <dfn class="decl" id="vws" title='vws' data-ref="vws" data-ref-filename="vws">vws</dfn>;</td></tr>
-<tr><th id="246">246</th><td></td></tr>
-<tr><th id="247">247</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="248">248</th><td><i class="doc"> * <span class="command">@brief</span> Defines a buffer for vrtql.</i></td></tr>
-<tr><th id="249">249</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="250">250</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vws_buffer" title='vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer"><a class="type" href="#vws_buffer" title='vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a></dfn></td></tr>
-<tr><th id="251">251</th><td>{</td></tr>
-<tr><th id="252">252</th><td>    <em>unsigned</em> <em>char</em>* <dfn class="decl field" id="vws_buffer::data" title='vws_buffer::data' data-ref="vws_buffer::data" data-ref-filename="vws_buffer..data">data</dfn>; <i class="doc">/**&lt; The data in the buffer                       */</i></td></tr>
-<tr><th id="253">253</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="vws_buffer::allocated" title='vws_buffer::allocated' data-ref="vws_buffer::allocated" data-ref-filename="vws_buffer..allocated">allocated</dfn>;    <i class="doc">/**&lt; The amount of space allocated for the buffer */</i></td></tr>
-<tr><th id="254">254</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="vws_buffer::size" title='vws_buffer::size' data-ref="vws_buffer::size" data-ref-filename="vws_buffer..size">size</dfn>;         <i class="doc">/**&lt; The current size of the data in the buffer   */</i></td></tr>
-<tr><th id="255">255</th><td>} <dfn class="typedef" id="vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</dfn>;</td></tr>
-<tr><th id="256">256</th><td></td></tr>
-<tr><th id="257">257</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="258">258</th><td><i>// Buffer</i></td></tr>
-<tr><th id="259">259</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="131">131</th><td><i class="doc"> * If an error occurs while trying to unlock the mutex, this function will</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc"> * submit an error message using vws_error_default_submit() with a</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc"> * corresponding error code.</i></td></tr>
+<tr><th id="134">134</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="135">135</th><td><i class="doc"> * <span class="command">@see</span> vws_trace_lock()</i></td></tr>
+<tr><th id="136">136</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="137">137</th><td><em>void</em> <dfn class="decl fn" id="vws_trace_unlock" title='vws_trace_unlock' data-ref="vws_trace_unlock" data-ref-filename="vws_trace_unlock">vws_trace_unlock</dfn>();</td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc"> * <span class="command">@brief</span> Callback for tracing</i></td></tr>
+<tr><th id="141">141</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="142">142</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_trace_cb" title='vws_trace_cb' data-type='void (*)(vws_log_level_t, const char *, ...)' data-ref="vws_trace_cb" data-ref-filename="vws_trace_cb">vws_trace_cb</dfn>)(<a class="typedef" href="#vws_log_level_t" title='vws_log_level_t' data-type='enum vws_log_level_t' data-ref="vws_log_level_t" data-ref-filename="vws_log_level_t">vws_log_level_t</a> <dfn class="local col2 decl" id="8372level" title='level' data-type='vws_log_level_t' data-ref="8372level" data-ref-filename="8372level">level</dfn>, <em>const</em> <em>char</em>* <dfn class="local col3 decl" id="8373fmt" title='fmt' data-type='const char *' data-ref="8373fmt" data-ref-filename="8373fmt">fmt</dfn>, ...);</td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="145">145</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with malloc().</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="147">147</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_malloc_cb" title='vws_malloc_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_cb" data-ref-filename="vws_malloc_cb">vws_malloc_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="8374size" title='size' data-type='size_t' data-ref="8374size" data-ref-filename="8374size">size</dfn>);</td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory deallocatiion with free().</i></td></tr>
+<tr><th id="151">151</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="152">152</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_free_cb" title='vws_free_cb' data-type='void (*)(void *)' data-ref="vws_free_cb" data-ref-filename="vws_free_cb">vws_free_cb</dfn>)(<em>void</em>* <dfn class="local col5 decl" id="8375memory" title='memory' data-type='void *' data-ref="8375memory" data-ref-filename="8375memory">memory</dfn>);</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="155">155</th><td><i class="doc"> * <span class="command">@brief</span> Callback for malloc failure. This is called when vrtql.malloc() fails</i></td></tr>
+<tr><th id="156">156</th><td><i class="doc"> * to allocate memory. This function is meant to handle, report and/or recover</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc"> * from the error. Whatever this function returns will be returned from the</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> * vrtql.malloc().</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.malloc()</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="162">162</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_malloc_error_cb" title='vws_malloc_error_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_error_cb" data-ref-filename="vws_malloc_error_cb">vws_malloc_error_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col6 decl" id="8376size" title='size' data-type='size_t' data-ref="8376size" data-ref-filename="8376size">size</dfn>);</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="165">165</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with calloc.</i></td></tr>
+<tr><th id="166">166</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="167">167</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_calloc_cb" title='vws_calloc_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_cb" data-ref-filename="vws_calloc_cb">vws_calloc_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8377nmemb" title='nmemb' data-type='size_t' data-ref="8377nmemb" data-ref-filename="8377nmemb">nmemb</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="8378size" title='size' data-type='size_t' data-ref="8378size" data-ref-filename="8378size">size</dfn>);</td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="170">170</th><td><i class="doc"> * <span class="command">@brief</span> Callback for calloc failure. This is called when vrtql.calloc() fails</i></td></tr>
+<tr><th id="171">171</th><td><i class="doc"> * to allocate memory. This function is meant to handle, report and/or recover</i></td></tr>
+<tr><th id="172">172</th><td><i class="doc"> * from the error. Whatever this function returns will be returned from the</i></td></tr>
+<tr><th id="173">173</th><td><i class="doc"> * vrtql.calloc().</i></td></tr>
+<tr><th id="174">174</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="175">175</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">nmemb</span> The nmemb argument passed to vrtql.calloc()</i></td></tr>
+<tr><th id="176">176</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.calloc()</i></td></tr>
+<tr><th id="177">177</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="178">178</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_calloc_error_cb" title='vws_calloc_error_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_error_cb" data-ref-filename="vws_calloc_error_cb">vws_calloc_error_cb</dfn>)(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="8379nmemb" title='nmemb' data-type='size_t' data-ref="8379nmemb" data-ref-filename="8379nmemb">nmemb</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col0 decl" id="8380size" title='size' data-type='size_t' data-ref="8380size" data-ref-filename="8380size">size</dfn>);</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="181">181</th><td><i class="doc"> * <span class="command">@brief</span> Callback for memory allocation with realloc.</i></td></tr>
+<tr><th id="182">182</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="183">183</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ptr</span> The ptr argument passed to vrtql.realloc()</i></td></tr>
+<tr><th id="184">184</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="185">185</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_realloc_cb" title='vws_realloc_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_cb" data-ref-filename="vws_realloc_cb">vws_realloc_cb</dfn>)(<em>void</em>* <dfn class="local col1 decl" id="8381ptr" title='ptr' data-type='void *' data-ref="8381ptr" data-ref-filename="8381ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col2 decl" id="8382size" title='size' data-type='size_t' data-ref="8382size" data-ref-filename="8382size">size</dfn>);</td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="188">188</th><td><i class="doc"> * <span class="command">@brief</span> Callback for realloc failure. This is called when vrtql.realloc()</i></td></tr>
+<tr><th id="189">189</th><td><i class="doc"> * fails to allocate memory. This function is meant to handle, report and/or</i></td></tr>
+<tr><th id="190">190</th><td><i class="doc"> * recover from the error. Whatever this function returns will be returned from</i></td></tr>
+<tr><th id="191">191</th><td><i class="doc"> * the vrtql.realloc().</i></td></tr>
+<tr><th id="192">192</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="193">193</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ptr</span> The ptr argument passed to vrtql.realloc()</i></td></tr>
+<tr><th id="194">194</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size argument passed to vrtql.realloc()</i></td></tr>
+<tr><th id="195">195</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="196">196</th><td><b>typedef</b> <em>void</em>* (*<dfn class="typedef" id="vws_realloc_error_cb" title='vws_realloc_error_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_error_cb" data-ref-filename="vws_realloc_error_cb">vws_realloc_error_cb</dfn>)(<em>void</em>* <dfn class="local col3 decl" id="8383ptr" title='ptr' data-type='void *' data-ref="8383ptr" data-ref-filename="8383ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="8384size" title='size' data-type='size_t' data-ref="8384size" data-ref-filename="8384size">size</dfn>);</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="199">199</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error submission. Error submission function. Error</i></td></tr>
+<tr><th id="200">200</th><td><i class="doc"> * submission takes care of recording the error in the vrtql.e member. The next</i></td></tr>
+<tr><th id="201">201</th><td><i class="doc"> * step is the process the error.</i></td></tr>
+<tr><th id="202">202</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="203">203</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="vws_error_submit_cb" title='vws_error_submit_cb' data-type='int (*)(int, cstr, ...)' data-ref="vws_error_submit_cb" data-ref-filename="vws_error_submit_cb">vws_error_submit_cb</dfn>)(<em>int</em> <dfn class="local col5 decl" id="8385code" title='code' data-type='int' data-ref="8385code" data-ref-filename="8385code">code</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col6 decl" id="8386message" title='message' data-type='cstr' data-ref="8386message" data-ref-filename="8386message">message</dfn>, ...);</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="206">206</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error processing. Error processing function. Error</i></td></tr>
+<tr><th id="207">207</th><td><i class="doc"> * processing makes policy decisions, if any, on how to handle specific classes</i></td></tr>
+<tr><th id="208">208</th><td><i class="doc"> * of errors, for example how to exit the process on fatal errors (VE_FATAL), or</i></td></tr>
+<tr><th id="209">209</th><td><i class="doc"> * how to handle memory allocation errors (VE_MEM).</i></td></tr>
+<tr><th id="210">210</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="211">211</th><td><b>typedef</b> <em>int</em> (*<dfn class="typedef" id="vws_error_process_cb" title='vws_error_process_cb' data-type='int (*)(int, cstr)' data-ref="vws_error_process_cb" data-ref-filename="vws_error_process_cb">vws_error_process_cb</dfn>)(<em>int</em> <dfn class="local col7 decl" id="8387code" title='code' data-type='int' data-ref="8387code" data-ref-filename="8387code">code</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col8 decl" id="8388message" title='message' data-type='cstr' data-ref="8388message" data-ref-filename="8388message">message</dfn>);</td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="214">214</th><td><i class="doc"> * <span class="command">@brief</span> Callback for error clearing. The default is to set VE_SUCESS.</i></td></tr>
+<tr><th id="215">215</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="216">216</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</dfn>)();</td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="219">219</th><td><i class="doc"> * <span class="command">@brief</span> Callback for success conditions. The default is to set VE_SUCESS.</i></td></tr>
+<tr><th id="220">220</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="221">221</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_error_success_cb" title='vws_error_success_cb' data-type='void (*)()' data-ref="vws_error_success_cb" data-ref-filename="vws_error_success_cb">vws_error_success_cb</dfn>)();</td></tr>
+<tr><th id="222">222</th><td></td></tr>
+<tr><th id="223">223</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="224">224</th><td><i class="doc"> * <span class="command">@brief</span> Defines the global vrtql environment.</i></td></tr>
+<tr><th id="225">225</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="226">226</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="227">227</th><td>{</td></tr>
+<tr><th id="228">228</th><td>    <a class="typedef" href="#vws_malloc_cb" title='vws_malloc_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_cb" data-ref-filename="vws_malloc_cb">vws_malloc_cb</a> <dfn class="decl field" id="(anonymous)::malloc" title='(anonymous struct)::malloc' data-ref="(anonymous)::malloc" data-ref-filename="(anonymous)..malloc">malloc</dfn>;               <i class="doc">/**&lt; malloc function             */</i></td></tr>
+<tr><th id="229">229</th><td>    <a class="typedef" href="#vws_malloc_error_cb" title='vws_malloc_error_cb' data-type='void *(*)(size_t)' data-ref="vws_malloc_error_cb" data-ref-filename="vws_malloc_error_cb">vws_malloc_error_cb</a> <dfn class="decl field" id="(anonymous)::malloc_error" title='(anonymous struct)::malloc_error' data-ref="(anonymous)::malloc_error" data-ref-filename="(anonymous)..malloc_error">malloc_error</dfn>;   <i class="doc">/**&lt; malloc error hanlding       */</i></td></tr>
+<tr><th id="230">230</th><td>    <a class="typedef" href="#vws_calloc_cb" title='vws_calloc_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_cb" data-ref-filename="vws_calloc_cb">vws_calloc_cb</a> <dfn class="decl field" id="(anonymous)::calloc" title='(anonymous struct)::calloc' data-ref="(anonymous)::calloc" data-ref-filename="(anonymous)..calloc">calloc</dfn>;               <i class="doc">/**&lt; calloc function             */</i></td></tr>
+<tr><th id="231">231</th><td>    <a class="typedef" href="#vws_calloc_error_cb" title='vws_calloc_error_cb' data-type='void *(*)(size_t, size_t)' data-ref="vws_calloc_error_cb" data-ref-filename="vws_calloc_error_cb">vws_calloc_error_cb</a> <dfn class="decl field" id="(anonymous)::calloc_error" title='(anonymous struct)::calloc_error' data-ref="(anonymous)::calloc_error" data-ref-filename="(anonymous)..calloc_error">calloc_error</dfn>;   <i class="doc">/**&lt; calloc error hanlding       */</i></td></tr>
+<tr><th id="232">232</th><td>    <a class="typedef" href="#vws_realloc_cb" title='vws_realloc_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_cb" data-ref-filename="vws_realloc_cb">vws_realloc_cb</a> <dfn class="decl field" id="(anonymous)::realloc" title='(anonymous struct)::realloc' data-ref="(anonymous)::realloc" data-ref-filename="(anonymous)..realloc">realloc</dfn>;             <i class="doc">/**&lt; realloc function            */</i></td></tr>
+<tr><th id="233">233</th><td>    <a class="typedef" href="#vws_realloc_error_cb" title='vws_realloc_error_cb' data-type='void *(*)(void *, size_t)' data-ref="vws_realloc_error_cb" data-ref-filename="vws_realloc_error_cb">vws_realloc_error_cb</a> <dfn class="decl field" id="(anonymous)::realloc_error" title='(anonymous struct)::realloc_error' data-ref="(anonymous)::realloc_error" data-ref-filename="(anonymous)..realloc_error">realloc_error</dfn>; <i class="doc">/**&lt; calloc error hanlding       */</i></td></tr>
+<tr><th id="234">234</th><td>    <a class="typedef" href="#vws_free_cb" title='vws_free_cb' data-type='void (*)(void *)' data-ref="vws_free_cb" data-ref-filename="vws_free_cb">vws_free_cb</a> <dfn class="decl field" id="(anonymous)::free" title='(anonymous struct)::free' data-ref="(anonymous)::free" data-ref-filename="(anonymous)..free">free</dfn>;                   <i class="doc">/**&lt; free function               */</i></td></tr>
+<tr><th id="235">235</th><td>    <a class="typedef" href="#vws_error_submit_cb" title='vws_error_submit_cb' data-type='int (*)(int, cstr, ...)' data-ref="vws_error_submit_cb" data-ref-filename="vws_error_submit_cb">vws_error_submit_cb</a> <dfn class="decl field" id="(anonymous)::error" title='(anonymous struct)::error' data-ref="(anonymous)::error" data-ref-filename="(anonymous)..error">error</dfn>;          <i class="doc">/**&lt; Error submission function   */</i></td></tr>
+<tr><th id="236">236</th><td>    <a class="typedef" href="#vws_error_process_cb" title='vws_error_process_cb' data-type='int (*)(int, cstr)' data-ref="vws_error_process_cb" data-ref-filename="vws_error_process_cb">vws_error_process_cb</a> <dfn class="decl field" id="(anonymous)::process_error" title='(anonymous struct)::process_error' data-ref="(anonymous)::process_error" data-ref-filename="(anonymous)..process_error">process_error</dfn>; <i class="doc">/**&lt; Error processing function   */</i></td></tr>
+<tr><th id="237">237</th><td>    <a class="typedef" href="#vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</a> <dfn class="decl field" id="(anonymous)::clear_error" title='(anonymous struct)::clear_error' data-ref="(anonymous)::clear_error" data-ref-filename="(anonymous)..clear_error">clear_error</dfn>;     <i class="doc">/**&lt; Error clear function        */</i></td></tr>
+<tr><th id="238">238</th><td>    <a class="typedef" href="#vws_error_clear_cb" title='vws_error_clear_cb' data-type='void (*)()' data-ref="vws_error_clear_cb" data-ref-filename="vws_error_clear_cb">vws_error_clear_cb</a> <dfn class="decl field" id="(anonymous)::success" title='(anonymous struct)::success' data-ref="(anonymous)::success" data-ref-filename="(anonymous)..success">success</dfn>;         <i class="doc">/**&lt; Error clear function        */</i></td></tr>
+<tr><th id="239">239</th><td>    <a class="typedef" href="#vws_error_value" title='vws_error_value' data-type='struct vws_error_value' data-ref="vws_error_value" data-ref-filename="vws_error_value">vws_error_value</a> <dfn class="decl field" id="(anonymous)::e" title='(anonymous struct)::e' data-ref="(anonymous)::e" data-ref-filename="(anonymous)..e">e</dfn>;                  <i class="doc">/**&lt; Last error value            */</i></td></tr>
+<tr><th id="240">240</th><td>    <a class="typedef" href="#vws_trace_cb" title='vws_trace_cb' data-type='void (*)(vws_log_level_t, const char *, ...)' data-ref="vws_trace_cb" data-ref-filename="vws_trace_cb">vws_trace_cb</a> <dfn class="decl field" id="(anonymous)::trace" title='(anonymous struct)::trace' data-ref="(anonymous)::trace" data-ref-filename="(anonymous)..trace">trace</dfn>;                 <i class="doc">/**&lt; Error clear function        */</i></td></tr>
+<tr><th id="241">241</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl field" id="(anonymous)::tracelevel" title='(anonymous struct)::tracelevel' data-ref="(anonymous)::tracelevel" data-ref-filename="(anonymous)..tracelevel">tracelevel</dfn>;                   <i class="doc">/**&lt; Tracing leve (0 is off)     */</i></td></tr>
+<tr><th id="242">242</th><td>    <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="decl field" id="(anonymous)::state" title='(anonymous struct)::state' data-ref="(anonymous)::state" data-ref-filename="(anonymous)..state">state</dfn>;                       <i class="doc">/**&lt; Contains global state flags */</i></td></tr>
+<tr><th id="243">243</th><td>    <em>unsigned</em> <em>char</em> <dfn class="decl field" id="(anonymous)::sslbuf" title='(anonymous struct)::sslbuf' data-ref="(anonymous)::sslbuf" data-ref-filename="(anonymous)..sslbuf">sslbuf</dfn>[<var>4096</var>];           <i class="doc">/**&lt; Thread-local SSL buffer */</i></td></tr>
+<tr><th id="244">244</th><td>} <dfn class="typedef" id="vws_env" title='vws_env' data-type='struct vws_env' data-ref="vws_env" data-ref-filename="vws_env">vws_env</dfn>;</td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="247">247</th><td><i class="doc"> * <span class="command">@brief</span> The global vrtql environment variable</i></td></tr>
+<tr><th id="248">248</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="249">249</th><td><b>extern</b> <b>__thread</b> <a class="typedef" href="#vws_env" title='vws_env' data-type='struct vws_env' data-ref="vws_env" data-ref-filename="vws_env">vws_env</a> <dfn class="decl" id="vws" title='vws' data-ref="vws" data-ref-filename="vws">vws</dfn>;</td></tr>
+<tr><th id="250">250</th><td></td></tr>
+<tr><th id="251">251</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="252">252</th><td><i class="doc"> * <span class="command">@brief</span> Defines a buffer for vrtql.</i></td></tr>
+<tr><th id="253">253</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="254">254</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="vws_buffer" title='vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer"><a class="type" href="#vws_buffer" title='vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a></dfn></td></tr>
+<tr><th id="255">255</th><td>{</td></tr>
+<tr><th id="256">256</th><td>    <em>unsigned</em> <em>char</em>* <dfn class="decl field" id="vws_buffer::data" title='vws_buffer::data' data-ref="vws_buffer::data" data-ref-filename="vws_buffer..data">data</dfn>; <i class="doc">/**&lt; The data in the buffer                       */</i></td></tr>
+<tr><th id="257">257</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="vws_buffer::allocated" title='vws_buffer::allocated' data-ref="vws_buffer::allocated" data-ref-filename="vws_buffer..allocated">allocated</dfn>;    <i class="doc">/**&lt; The amount of space allocated for the buffer */</i></td></tr>
+<tr><th id="258">258</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="vws_buffer::size" title='vws_buffer::size' data-ref="vws_buffer::size" data-ref-filename="vws_buffer..size">size</dfn>;         <i class="doc">/**&lt; The current size of the data in the buffer   */</i></td></tr>
+<tr><th id="259">259</th><td>} <dfn class="typedef" id="vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</dfn>;</td></tr>
 <tr><th id="260">260</th><td></td></tr>
-<tr><th id="261">261</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="262">262</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new vrtql buffer.</i></td></tr>
-<tr><th id="263">263</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="264">264</th><td><i class="doc"> * <span class="command">@return</span> Returns a new vws_buffer instance</i></td></tr>
-<tr><th id="265">265</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="266">266</th><td><a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="decl fn" id="vws_buffer_new" title='vws_buffer_new' data-ref="vws_buffer_new" data-ref-filename="vws_buffer_new">vws_buffer_new</dfn>();</td></tr>
-<tr><th id="267">267</th><td></td></tr>
-<tr><th id="268">268</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="269">269</th><td><i class="doc"> * <span class="command">@brief</span> Frees a vrtql buffer.</i></td></tr>
-<tr><th id="270">270</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="271">271</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to be freed</i></td></tr>
-<tr><th id="272">272</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="273">273</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_free" title='vws_buffer_free' data-ref="vws_buffer_free" data-ref-filename="vws_buffer_free">vws_buffer_free</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col9 decl" id="8389buffer" title='buffer' data-type='vws_buffer *' data-ref="8389buffer" data-ref-filename="8389buffer">buffer</dfn>);</td></tr>
-<tr><th id="274">274</th><td></td></tr>
-<tr><th id="275">275</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="276">276</th><td><i class="doc"> * <span class="command">@brief</span> Clears a vrtql buffer.</i></td></tr>
-<tr><th id="277">277</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="278">278</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to be cleared</i></td></tr>
-<tr><th id="279">279</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="280">280</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_clear" title='vws_buffer_clear' data-ref="vws_buffer_clear" data-ref-filename="vws_buffer_clear">vws_buffer_clear</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col0 decl" id="8390buffer" title='buffer' data-type='vws_buffer *' data-ref="8390buffer" data-ref-filename="8390buffer">buffer</dfn>);</td></tr>
-<tr><th id="281">281</th><td></td></tr>
-<tr><th id="282">282</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="283">283</th><td><i class="doc"> * <span class="command">@brief</span> Appends formatted data to a vws_buffer using printf() format.</i></td></tr>
-<tr><th id="284">284</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="285">285</th><td><i class="doc"> * This function appends formatted data to the specified vws_buffer using a</i></td></tr>
-<tr><th id="286">286</th><td><i class="doc"> * printf()-style format string and variable arguments. The formatted data is</i></td></tr>
-<tr><th id="287">287</th><td><i class="doc"> * appended to the existing content of the buffer.</i></td></tr>
+<tr><th id="261">261</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="262">262</th><td><i>// Buffer</i></td></tr>
+<tr><th id="263">263</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="264">264</th><td></td></tr>
+<tr><th id="265">265</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="266">266</th><td><i class="doc"> * <span class="command">@brief</span> Creates a new vrtql buffer.</i></td></tr>
+<tr><th id="267">267</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="268">268</th><td><i class="doc"> * <span class="command">@return</span> Returns a new vws_buffer instance</i></td></tr>
+<tr><th id="269">269</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="270">270</th><td><a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="decl fn" id="vws_buffer_new" title='vws_buffer_new' data-ref="vws_buffer_new" data-ref-filename="vws_buffer_new">vws_buffer_new</dfn>();</td></tr>
+<tr><th id="271">271</th><td></td></tr>
+<tr><th id="272">272</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="273">273</th><td><i class="doc"> * <span class="command">@brief</span> Frees a vrtql buffer.</i></td></tr>
+<tr><th id="274">274</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="275">275</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to be freed</i></td></tr>
+<tr><th id="276">276</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="277">277</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_free" title='vws_buffer_free' data-ref="vws_buffer_free" data-ref-filename="vws_buffer_free">vws_buffer_free</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col9 decl" id="8389buffer" title='buffer' data-type='vws_buffer *' data-ref="8389buffer" data-ref-filename="8389buffer">buffer</dfn>);</td></tr>
+<tr><th id="278">278</th><td></td></tr>
+<tr><th id="279">279</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="280">280</th><td><i class="doc"> * <span class="command">@brief</span> Clears a vrtql buffer.</i></td></tr>
+<tr><th id="281">281</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="282">282</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to be cleared</i></td></tr>
+<tr><th id="283">283</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="284">284</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_clear" title='vws_buffer_clear' data-ref="vws_buffer_clear" data-ref-filename="vws_buffer_clear">vws_buffer_clear</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col0 decl" id="8390buffer" title='buffer' data-type='vws_buffer *' data-ref="8390buffer" data-ref-filename="8390buffer">buffer</dfn>);</td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc"> * <span class="command">@brief</span> Appends formatted data to a vws_buffer using printf() format.</i></td></tr>
 <tr><th id="288">288</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="289">289</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The vws_buffer to append the formatted data to.</i></td></tr>
-<tr><th id="290">290</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">format</span> The printf() format string specifying the format of the data to</i></td></tr>
-<tr><th id="291">291</th><td><i class="doc"> *        be appended.</i></td></tr>
-<tr><th id="292">292</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">...</span> Variable arguments corresponding to the format specifier in the</i></td></tr>
-<tr><th id="293">293</th><td><i class="doc"> *        format string.</i></td></tr>
-<tr><th id="294">294</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="295">295</th><td><i class="doc"> * <span class="command">@note</span> The behavior of this function is similar to the standard printf()</i></td></tr>
-<tr><th id="296">296</th><td><i class="doc"> *       function, where the format string specifies the expected format of the</i></td></tr>
-<tr><th id="297">297</th><td><i class="doc"> *       data and the variable arguments provide the values to be formatted and</i></td></tr>
-<tr><th id="298">298</th><td><i class="doc"> *       appended to the buffer.</i></td></tr>
-<tr><th id="299">299</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="300">300</th><td><i class="doc"> * <span class="command">@note</span> The vws_buffer must be initialized and have sufficient capacity to</i></td></tr>
-<tr><th id="301">301</th><td><i class="doc"> *       hold the appended data. If the buffer capacity is exceeded, the</i></td></tr>
-<tr><th id="302">302</th><td><i class="doc"> *       behavior is undefined.</i></td></tr>
+<tr><th id="289">289</th><td><i class="doc"> * This function appends formatted data to the specified vws_buffer using a</i></td></tr>
+<tr><th id="290">290</th><td><i class="doc"> * printf()-style format string and variable arguments. The formatted data is</i></td></tr>
+<tr><th id="291">291</th><td><i class="doc"> * appended to the existing content of the buffer.</i></td></tr>
+<tr><th id="292">292</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="293">293</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The vws_buffer to append the formatted data to.</i></td></tr>
+<tr><th id="294">294</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">format</span> The printf() format string specifying the format of the data to</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"> *        be appended.</i></td></tr>
+<tr><th id="296">296</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">...</span> Variable arguments corresponding to the format specifier in the</i></td></tr>
+<tr><th id="297">297</th><td><i class="doc"> *        format string.</i></td></tr>
+<tr><th id="298">298</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="299">299</th><td><i class="doc"> * <span class="command">@note</span> The behavior of this function is similar to the standard printf()</i></td></tr>
+<tr><th id="300">300</th><td><i class="doc"> *       function, where the format string specifies the expected format of the</i></td></tr>
+<tr><th id="301">301</th><td><i class="doc"> *       data and the variable arguments provide the values to be formatted and</i></td></tr>
+<tr><th id="302">302</th><td><i class="doc"> *       appended to the buffer.</i></td></tr>
 <tr><th id="303">303</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="304">304</th><td><i class="doc"> * <span class="command">@warning</span> Take care to ensure the format string and variable arguments are</i></td></tr>
-<tr><th id="305">305</th><td><i class="doc"> *          consistent, as mismatches can lead to undefined behavior or security</i></td></tr>
-<tr><th id="306">306</th><td><i class="doc"> *          vulnerabilities (e.g., format string vulnerabilities).</i></td></tr>
+<tr><th id="304">304</th><td><i class="doc"> * <span class="command">@note</span> The vws_buffer must be initialized and have sufficient capacity to</i></td></tr>
+<tr><th id="305">305</th><td><i class="doc"> *       hold the appended data. If the buffer capacity is exceeded, the</i></td></tr>
+<tr><th id="306">306</th><td><i class="doc"> *       behavior is undefined.</i></td></tr>
 <tr><th id="307">307</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="308">308</th><td><i class="doc"> * <span class="command">@see</span> vws_buffer_init</i></td></tr>
-<tr><th id="309">309</th><td><i class="doc"> * <span class="command">@see</span> vws_buffer_append</i></td></tr>
-<tr><th id="310">310</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="311">311</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_printf" title='vws_buffer_printf' data-ref="vws_buffer_printf" data-ref-filename="vws_buffer_printf">vws_buffer_printf</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col1 decl" id="8391buffer" title='buffer' data-type='vws_buffer *' data-ref="8391buffer" data-ref-filename="8391buffer">buffer</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col2 decl" id="8392format" title='format' data-type='cstr' data-ref="8392format" data-ref-filename="8392format">format</dfn>, ...);</td></tr>
-<tr><th id="312">312</th><td></td></tr>
-<tr><th id="313">313</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="314">314</th><td><i class="doc"> * <span class="command">@brief</span> Appends data to a vrtql buffer.</i></td></tr>
-<tr><th id="315">315</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="316">316</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to append to</i></td></tr>
-<tr><th id="317">317</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data to append</i></td></tr>
-<tr><th id="318">318</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data</i></td></tr>
-<tr><th id="319">319</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="320">320</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_append" title='vws_buffer_append' data-ref="vws_buffer_append" data-ref-filename="vws_buffer_append">vws_buffer_append</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col3 decl" id="8393buffer" title='buffer' data-type='vws_buffer *' data-ref="8393buffer" data-ref-filename="8393buffer">buffer</dfn>, <a class="typedef" href="#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col4 decl" id="8394data" title='data' data-type='ucstr' data-ref="8394data" data-ref-filename="8394data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="8395size" title='size' data-type='size_t' data-ref="8395size" data-ref-filename="8395size">size</dfn>);</td></tr>
-<tr><th id="321">321</th><td></td></tr>
-<tr><th id="322">322</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="323">323</th><td><i class="doc"> * <span class="command">@brief</span> Drains a vrtql buffer by a given size.</i></td></tr>
-<tr><th id="324">324</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="325">325</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to drain</i></td></tr>
-<tr><th id="326">326</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size to drain from the buffer</i></td></tr>
-<tr><th id="327">327</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="328">328</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_drain" title='vws_buffer_drain' data-ref="vws_buffer_drain" data-ref-filename="vws_buffer_drain">vws_buffer_drain</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col6 decl" id="8396buffer" title='buffer' data-type='vws_buffer *' data-ref="8396buffer" data-ref-filename="8396buffer">buffer</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8397size" title='size' data-type='size_t' data-ref="8397size" data-ref-filename="8397size">size</dfn>);</td></tr>
-<tr><th id="329">329</th><td></td></tr>
-<tr><th id="330">330</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="331">331</th><td><i>// Map</i></td></tr>
-<tr><th id="332">332</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="308">308</th><td><i class="doc"> * <span class="command">@warning</span> Take care to ensure the format string and variable arguments are</i></td></tr>
+<tr><th id="309">309</th><td><i class="doc"> *          consistent, as mismatches can lead to undefined behavior or security</i></td></tr>
+<tr><th id="310">310</th><td><i class="doc"> *          vulnerabilities (e.g., format string vulnerabilities).</i></td></tr>
+<tr><th id="311">311</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="312">312</th><td><i class="doc"> * <span class="command">@see</span> vws_buffer_init</i></td></tr>
+<tr><th id="313">313</th><td><i class="doc"> * <span class="command">@see</span> vws_buffer_append</i></td></tr>
+<tr><th id="314">314</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="315">315</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_printf" title='vws_buffer_printf' data-ref="vws_buffer_printf" data-ref-filename="vws_buffer_printf">vws_buffer_printf</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col1 decl" id="8391buffer" title='buffer' data-type='vws_buffer *' data-ref="8391buffer" data-ref-filename="8391buffer">buffer</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col2 decl" id="8392format" title='format' data-type='cstr' data-ref="8392format" data-ref-filename="8392format">format</dfn>, ...);</td></tr>
+<tr><th id="316">316</th><td></td></tr>
+<tr><th id="317">317</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="318">318</th><td><i class="doc"> * <span class="command">@brief</span> Appends data to a vrtql buffer.</i></td></tr>
+<tr><th id="319">319</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="320">320</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to append to</i></td></tr>
+<tr><th id="321">321</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data to append</i></td></tr>
+<tr><th id="322">322</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data</i></td></tr>
+<tr><th id="323">323</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="324">324</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_append" title='vws_buffer_append' data-ref="vws_buffer_append" data-ref-filename="vws_buffer_append">vws_buffer_append</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col3 decl" id="8393buffer" title='buffer' data-type='vws_buffer *' data-ref="8393buffer" data-ref-filename="8393buffer">buffer</dfn>, <a class="typedef" href="#ucstr" title='ucstr' data-type='const unsigned char *' data-ref="ucstr" data-ref-filename="ucstr">ucstr</a> <dfn class="local col4 decl" id="8394data" title='data' data-type='ucstr' data-ref="8394data" data-ref-filename="8394data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="8395size" title='size' data-type='size_t' data-ref="8395size" data-ref-filename="8395size">size</dfn>);</td></tr>
+<tr><th id="325">325</th><td></td></tr>
+<tr><th id="326">326</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="327">327</th><td><i class="doc"> * <span class="command">@brief</span> Drains a vrtql buffer by a given size.</i></td></tr>
+<tr><th id="328">328</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="329">329</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">buffer</span> The buffer to drain</i></td></tr>
+<tr><th id="330">330</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size to drain from the buffer</i></td></tr>
+<tr><th id="331">331</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="332">332</th><td><em>void</em> <dfn class="decl fn" id="vws_buffer_drain" title='vws_buffer_drain' data-ref="vws_buffer_drain" data-ref-filename="vws_buffer_drain">vws_buffer_drain</dfn>(<a class="typedef" href="#vws_buffer" title='vws_buffer' data-type='struct vws_buffer' data-ref="vws_buffer" data-ref-filename="vws_buffer">vws_buffer</a>* <dfn class="local col6 decl" id="8396buffer" title='buffer' data-type='vws_buffer *' data-ref="8396buffer" data-ref-filename="8396buffer">buffer</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8397size" title='size' data-type='size_t' data-ref="8397size" data-ref-filename="8397size">size</dfn>);</td></tr>
 <tr><th id="333">333</th><td></td></tr>
-<tr><th id="334">334</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="335">335</th><td><i class="doc"> * <span class="command">@brief</span> Retrieves a value from the map using a string key.</i></td></tr>
-<tr><th id="336">336</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="337">337</th><td><i class="doc"> * Returns a constant string pointer to the value associated with the key.</i></td></tr>
-<tr><th id="338">338</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="339">339</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map from which to retrieve the value.</i></td></tr>
-<tr><th id="340">340</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for retrieval.</i></td></tr>
-<tr><th id="341">341</th><td><i class="doc"> * <span class="command">@return</span> A constant string pointer to the value associated with the key.</i></td></tr>
-<tr><th id="342">342</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="343">343</th><td><a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl fn" id="vws_map_get" title='vws_map_get' data-ref="vws_map_get" data-ref-filename="vws_map_get">vws_map_get</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col8 decl" id="8398map" title='map' data-type='struct sc_map_str *' data-ref="8398map" data-ref-filename="8398map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col9 decl" id="8399key" title='key' data-type='cstr' data-ref="8399key" data-ref-filename="8399key">key</dfn>);</td></tr>
-<tr><th id="344">344</th><td></td></tr>
-<tr><th id="345">345</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="346">346</th><td><i class="doc"> * <span class="command">@brief</span> Sets a value in the map using a string key and value.</i></td></tr>
-<tr><th id="347">347</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="348">348</th><td><i class="doc"> * It will create a new key-value pair or update the value if the key already exists.</i></td></tr>
-<tr><th id="349">349</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="350">350</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map in which to set the value.</i></td></tr>
-<tr><th id="351">351</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for setting.</i></td></tr>
-<tr><th id="352">352</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The string value to set.</i></td></tr>
-<tr><th id="353">353</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="354">354</th><td><em>void</em> <dfn class="decl fn" id="vws_map_set" title='vws_map_set' data-ref="vws_map_set" data-ref-filename="vws_map_set">vws_map_set</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col0 decl" id="8400map" title='map' data-type='struct sc_map_str *' data-ref="8400map" data-ref-filename="8400map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col1 decl" id="8401key" title='key' data-type='cstr' data-ref="8401key" data-ref-filename="8401key">key</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col2 decl" id="8402value" title='value' data-type='cstr' data-ref="8402value" data-ref-filename="8402value">value</dfn>);</td></tr>
-<tr><th id="355">355</th><td></td></tr>
-<tr><th id="356">356</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="357">357</th><td><i class="doc"> * <span class="command">@brief</span> Removes a key-value pair from the map using a string key.</i></td></tr>
-<tr><th id="358">358</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="359">359</th><td><i class="doc"> * If the key exists in the map, it will be removed along with its associated value.</i></td></tr>
-<tr><th id="360">360</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="361">361</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map from which to remove the key-value pair.</i></td></tr>
-<tr><th id="362">362</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for removal.</i></td></tr>
-<tr><th id="363">363</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="364">364</th><td><em>void</em> <dfn class="decl fn" id="vws_map_remove" title='vws_map_remove' data-ref="vws_map_remove" data-ref-filename="vws_map_remove">vws_map_remove</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col3 decl" id="8403map" title='map' data-type='struct sc_map_str *' data-ref="8403map" data-ref-filename="8403map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="8404key" title='key' data-type='cstr' data-ref="8404key" data-ref-filename="8404key">key</dfn>);</td></tr>
-<tr><th id="365">365</th><td></td></tr>
-<tr><th id="366">366</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="367">367</th><td><i class="doc"> * <span class="command">@brief</span> Removes all key-value pair from the map, calling free() on them</i></td></tr>
-<tr><th id="368">368</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="369">369</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map to clear</i></td></tr>
-<tr><th id="370">370</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="371">371</th><td><em>void</em> <dfn class="decl fn" id="vws_map_clear" title='vws_map_clear' data-ref="vws_map_clear" data-ref-filename="vws_map_clear">vws_map_clear</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#227" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col5 decl" id="8405map" title='map' data-type='struct sc_map_str *' data-ref="8405map" data-ref-filename="8405map">map</dfn>);</td></tr>
-<tr><th id="372">372</th><td></td></tr>
-<tr><th id="373">373</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="374">374</th><td><i>// URL</i></td></tr>
-<tr><th id="375">375</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="334">334</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="335">335</th><td><i>// Map</i></td></tr>
+<tr><th id="336">336</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="337">337</th><td></td></tr>
+<tr><th id="338">338</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="339">339</th><td><i class="doc"> * <span class="command">@brief</span> Retrieves a value from the map using a string key.</i></td></tr>
+<tr><th id="340">340</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="341">341</th><td><i class="doc"> * Returns a constant string pointer to the value associated with the key.</i></td></tr>
+<tr><th id="342">342</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="343">343</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map from which to retrieve the value.</i></td></tr>
+<tr><th id="344">344</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for retrieval.</i></td></tr>
+<tr><th id="345">345</th><td><i class="doc"> * <span class="command">@return</span> A constant string pointer to the value associated with the key.</i></td></tr>
+<tr><th id="346">346</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="347">347</th><td><a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="decl fn" id="vws_map_get" title='vws_map_get' data-ref="vws_map_get" data-ref-filename="vws_map_get">vws_map_get</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#231" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col8 decl" id="8398map" title='map' data-type='struct sc_map_str *' data-ref="8398map" data-ref-filename="8398map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col9 decl" id="8399key" title='key' data-type='cstr' data-ref="8399key" data-ref-filename="8399key">key</dfn>);</td></tr>
+<tr><th id="348">348</th><td></td></tr>
+<tr><th id="349">349</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="350">350</th><td><i class="doc"> * <span class="command">@brief</span> Sets a value in the map using a string key and value.</i></td></tr>
+<tr><th id="351">351</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="352">352</th><td><i class="doc"> * It will create a new key-value pair or update the value if the key already exists.</i></td></tr>
+<tr><th id="353">353</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="354">354</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map in which to set the value.</i></td></tr>
+<tr><th id="355">355</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for setting.</i></td></tr>
+<tr><th id="356">356</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">value</span> The string value to set.</i></td></tr>
+<tr><th id="357">357</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="358">358</th><td><em>void</em> <dfn class="decl fn" id="vws_map_set" title='vws_map_set' data-ref="vws_map_set" data-ref-filename="vws_map_set">vws_map_set</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#231" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col0 decl" id="8400map" title='map' data-type='struct sc_map_str *' data-ref="8400map" data-ref-filename="8400map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col1 decl" id="8401key" title='key' data-type='cstr' data-ref="8401key" data-ref-filename="8401key">key</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col2 decl" id="8402value" title='value' data-type='cstr' data-ref="8402value" data-ref-filename="8402value">value</dfn>);</td></tr>
+<tr><th id="359">359</th><td></td></tr>
+<tr><th id="360">360</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="361">361</th><td><i class="doc"> * <span class="command">@brief</span> Removes a key-value pair from the map using a string key.</i></td></tr>
+<tr><th id="362">362</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="363">363</th><td><i class="doc"> * If the key exists in the map, it will be removed along with its associated value.</i></td></tr>
+<tr><th id="364">364</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="365">365</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map from which to remove the key-value pair.</i></td></tr>
+<tr><th id="366">366</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">key</span> The string key to use for removal.</i></td></tr>
+<tr><th id="367">367</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="368">368</th><td><em>void</em> <dfn class="decl fn" id="vws_map_remove" title='vws_map_remove' data-ref="vws_map_remove" data-ref-filename="vws_map_remove">vws_map_remove</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#231" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col3 decl" id="8403map" title='map' data-type='struct sc_map_str *' data-ref="8403map" data-ref-filename="8403map">map</dfn>, <a class="typedef" href="#cstr" title='cstr' data-type='const char *' data-ref="cstr" data-ref-filename="cstr">cstr</a> <dfn class="local col4 decl" id="8404key" title='key' data-type='cstr' data-ref="8404key" data-ref-filename="8404key">key</dfn>);</td></tr>
+<tr><th id="369">369</th><td></td></tr>
+<tr><th id="370">370</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="371">371</th><td><i class="doc"> * <span class="command">@brief</span> Removes all key-value pair from the map, calling free() on them</i></td></tr>
+<tr><th id="372">372</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="373">373</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">map</span> The map to clear</i></td></tr>
+<tr><th id="374">374</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="375">375</th><td><em>void</em> <dfn class="decl fn" id="vws_map_clear" title='vws_map_clear' data-ref="vws_map_clear" data-ref-filename="vws_map_clear">vws_map_clear</dfn>(<b>struct</b> <a class="type" href="util/sc_map.h.html#231" title='sc_map_str' data-ref="sc_map_str" data-ref-filename="sc_map_str">sc_map_str</a>* <dfn class="local col5 decl" id="8405map" title='map' data-type='struct sc_map_str *' data-ref="8405map" data-ref-filename="8405map">map</dfn>);</td></tr>
 <tr><th id="376">376</th><td></td></tr>
-<tr><th id="377">377</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="378">378</th><td><i class="doc"> * <span class="command">@brief</span> Represents a parsed URL.</i></td></tr>
-<tr><th id="379">379</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="380">380</th><td><b>typedef</b> <b>struct</b></td></tr>
-<tr><th id="381">381</th><td>{</td></tr>
-<tr><th id="382">382</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::scheme" title='(anonymous struct)::scheme' data-ref="(anonymous)::scheme" data-ref-filename="(anonymous)..scheme">scheme</dfn>;    <i class="doc">/**&lt; The URL scheme (http, https, etc.) */</i></td></tr>
-<tr><th id="383">383</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::host" title='(anonymous struct)::host' data-ref="(anonymous)::host" data-ref-filename="(anonymous)..host">host</dfn>;      <i class="doc">/**&lt; The host name or IP address        */</i></td></tr>
-<tr><th id="384">384</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::port" title='(anonymous struct)::port' data-ref="(anonymous)::port" data-ref-filename="(anonymous)..port">port</dfn>;      <i class="doc">/**&lt; The port number                    */</i></td></tr>
-<tr><th id="385">385</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::path" title='(anonymous struct)::path' data-ref="(anonymous)::path" data-ref-filename="(anonymous)..path">path</dfn>;      <i class="doc">/**&lt; The path on the host               */</i></td></tr>
-<tr><th id="386">386</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::query" title='(anonymous struct)::query' data-ref="(anonymous)::query" data-ref-filename="(anonymous)..query">query</dfn>;     <i class="doc">/**&lt; The query parameters               */</i></td></tr>
-<tr><th id="387">387</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::fragment" title='(anonymous struct)::fragment' data-ref="(anonymous)::fragment" data-ref-filename="(anonymous)..fragment">fragment</dfn>;  <i class="doc">/**&lt; The fragment identifier            */</i></td></tr>
-<tr><th id="388">388</th><td>} <dfn class="typedef" id="vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</dfn>;</td></tr>
-<tr><th id="389">389</th><td></td></tr>
-<tr><th id="390">390</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="391">391</th><td><i class="doc"> * <span class="command">@brief</span> Parses a URL.</i></td></tr>
-<tr><th id="392">392</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="393">393</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">url</span> The URL to parse</i></td></tr>
-<tr><th id="394">394</th><td><i class="doc"> * <span class="command">@return</span> Returns a vws_url structure with the parsed URL parts</i></td></tr>
-<tr><th id="395">395</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="396">396</th><td><a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="decl fn" id="vws_url_parse" title='vws_url_parse' data-ref="vws_url_parse" data-ref-filename="vws_url_parse">vws_url_parse</dfn>(<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="8406url" title='url' data-type='const char *' data-ref="8406url" data-ref-filename="8406url">url</dfn>);</td></tr>
-<tr><th id="397">397</th><td></td></tr>
-<tr><th id="398">398</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="399">399</th><td><i class="doc"> * <span class="command">@brief</span> Builds a URL string from parts.</i></td></tr>
-<tr><th id="400">400</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="401">401</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">parts</span> The URL parts</i></td></tr>
-<tr><th id="402">402</th><td><i class="doc"> * <span class="command">@return</span> Returns a URL string built from the parts</i></td></tr>
-<tr><th id="403">403</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="404">404</th><td><em>char</em>* <dfn class="decl fn" id="vws_url_build" title='vws_url_build' data-ref="vws_url_build" data-ref-filename="vws_url_build">vws_url_build</dfn>(<em>const</em> <a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a>* <dfn class="local col7 decl" id="8407parts" title='parts' data-type='const vws_url *' data-ref="8407parts" data-ref-filename="8407parts">parts</dfn>);</td></tr>
-<tr><th id="405">405</th><td></td></tr>
-<tr><th id="406">406</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="407">407</th><td><i class="doc"> * <span class="command">@brief</span> Allocates a vws_url structure.</i></td></tr>
-<tr><th id="408">408</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="409">409</th><td><i class="doc"> * <span class="command">@return</span> Returns a new vws_url structure</i></td></tr>
-<tr><th id="410">410</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="411">411</th><td><a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="decl fn" id="vws_url_new" title='vws_url_new' data-ref="vws_url_new" data-ref-filename="vws_url_new">vws_url_new</dfn>();</td></tr>
-<tr><th id="412">412</th><td></td></tr>
-<tr><th id="413">413</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="414">414</th><td><i class="doc"> * <span class="command">@brief</span> Frees a vws_url structure.</i></td></tr>
-<tr><th id="415">415</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="416">416</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">parts</span> The vws_url structure to free</i></td></tr>
-<tr><th id="417">417</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="418">418</th><td><em>void</em> <dfn class="decl fn" id="vws_url_free" title='vws_url_free' data-ref="vws_url_free" data-ref-filename="vws_url_free">vws_url_free</dfn>(<a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="local col8 decl" id="8408parts" title='parts' data-type='vws_url' data-ref="8408parts" data-ref-filename="8408parts">parts</dfn>);</td></tr>
-<tr><th id="419">419</th><td></td></tr>
-<tr><th id="420">420</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
-<tr><th id="421">421</th><td><i>// Utilities</i></td></tr>
-<tr><th id="422">422</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="377">377</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="378">378</th><td><i>// URL</i></td></tr>
+<tr><th id="379">379</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="380">380</th><td></td></tr>
+<tr><th id="381">381</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="382">382</th><td><i class="doc"> * <span class="command">@brief</span> Represents a parsed URL.</i></td></tr>
+<tr><th id="383">383</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="384">384</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="385">385</th><td>{</td></tr>
+<tr><th id="386">386</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::scheme" title='(anonymous struct)::scheme' data-ref="(anonymous)::scheme" data-ref-filename="(anonymous)..scheme">scheme</dfn>;    <i class="doc">/**&lt; The URL scheme (http, https, etc.) */</i></td></tr>
+<tr><th id="387">387</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::host" title='(anonymous struct)::host' data-ref="(anonymous)::host" data-ref-filename="(anonymous)..host">host</dfn>;      <i class="doc">/**&lt; The host name or IP address        */</i></td></tr>
+<tr><th id="388">388</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::port" title='(anonymous struct)::port' data-ref="(anonymous)::port" data-ref-filename="(anonymous)..port">port</dfn>;      <i class="doc">/**&lt; The port number                    */</i></td></tr>
+<tr><th id="389">389</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::path" title='(anonymous struct)::path' data-ref="(anonymous)::path" data-ref-filename="(anonymous)..path">path</dfn>;      <i class="doc">/**&lt; The path on the host               */</i></td></tr>
+<tr><th id="390">390</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::query" title='(anonymous struct)::query' data-ref="(anonymous)::query" data-ref-filename="(anonymous)..query">query</dfn>;     <i class="doc">/**&lt; The query parameters               */</i></td></tr>
+<tr><th id="391">391</th><td>    <em>char</em>* <dfn class="decl field" id="(anonymous)::fragment" title='(anonymous struct)::fragment' data-ref="(anonymous)::fragment" data-ref-filename="(anonymous)..fragment">fragment</dfn>;  <i class="doc">/**&lt; The fragment identifier            */</i></td></tr>
+<tr><th id="392">392</th><td>} <dfn class="typedef" id="vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</dfn>;</td></tr>
+<tr><th id="393">393</th><td></td></tr>
+<tr><th id="394">394</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="395">395</th><td><i class="doc"> * <span class="command">@brief</span> Parses a URL.</i></td></tr>
+<tr><th id="396">396</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="397">397</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">url</span> The URL to parse</i></td></tr>
+<tr><th id="398">398</th><td><i class="doc"> * <span class="command">@return</span> Returns a vws_url structure with the parsed URL parts</i></td></tr>
+<tr><th id="399">399</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="400">400</th><td><a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="decl fn" id="vws_url_parse" title='vws_url_parse' data-ref="vws_url_parse" data-ref-filename="vws_url_parse">vws_url_parse</dfn>(<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="8406url" title='url' data-type='const char *' data-ref="8406url" data-ref-filename="8406url">url</dfn>);</td></tr>
+<tr><th id="401">401</th><td></td></tr>
+<tr><th id="402">402</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="403">403</th><td><i class="doc"> * <span class="command">@brief</span> Builds a URL string from parts.</i></td></tr>
+<tr><th id="404">404</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="405">405</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">parts</span> The URL parts</i></td></tr>
+<tr><th id="406">406</th><td><i class="doc"> * <span class="command">@return</span> Returns a URL string built from the parts</i></td></tr>
+<tr><th id="407">407</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="408">408</th><td><em>char</em>* <dfn class="decl fn" id="vws_url_build" title='vws_url_build' data-ref="vws_url_build" data-ref-filename="vws_url_build">vws_url_build</dfn>(<em>const</em> <a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a>* <dfn class="local col7 decl" id="8407parts" title='parts' data-type='const vws_url *' data-ref="8407parts" data-ref-filename="8407parts">parts</dfn>);</td></tr>
+<tr><th id="409">409</th><td></td></tr>
+<tr><th id="410">410</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="411">411</th><td><i class="doc"> * <span class="command">@brief</span> Allocates a vws_url structure.</i></td></tr>
+<tr><th id="412">412</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="413">413</th><td><i class="doc"> * <span class="command">@return</span> Returns a new vws_url structure</i></td></tr>
+<tr><th id="414">414</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="415">415</th><td><a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="decl fn" id="vws_url_new" title='vws_url_new' data-ref="vws_url_new" data-ref-filename="vws_url_new">vws_url_new</dfn>();</td></tr>
+<tr><th id="416">416</th><td></td></tr>
+<tr><th id="417">417</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="418">418</th><td><i class="doc"> * <span class="command">@brief</span> Frees a vws_url structure.</i></td></tr>
+<tr><th id="419">419</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="420">420</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">parts</span> The vws_url structure to free</i></td></tr>
+<tr><th id="421">421</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="422">422</th><td><em>void</em> <dfn class="decl fn" id="vws_url_free" title='vws_url_free' data-ref="vws_url_free" data-ref-filename="vws_url_free">vws_url_free</dfn>(<a class="typedef" href="#vws_url" title='vws_url' data-type='struct vws_url' data-ref="vws_url" data-ref-filename="vws_url">vws_url</a> <dfn class="local col8 decl" id="8408parts" title='parts' data-type='vws_url' data-ref="8408parts" data-ref-filename="8408parts">parts</dfn>);</td></tr>
 <tr><th id="423">423</th><td></td></tr>
-<tr><th id="424">424</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="425">425</th><td><i class="doc"> * <span class="command">@brief</span> Sleeps for the specified number of milliseconds.</i></td></tr>
-<tr><th id="426">426</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="427">427</th><td><i class="doc"> * This function provides a platform-independent way to sleep for a specific</i></td></tr>
-<tr><th id="428">428</th><td><i class="doc"> * duration in milliseconds. The behavior is similar to the standard `sleep`</i></td></tr>
-<tr><th id="429">429</th><td><i class="doc"> * function, but with millisecond precision.</i></td></tr>
+<tr><th id="424">424</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="425">425</th><td><i>// Utilities</i></td></tr>
+<tr><th id="426">426</th><td><i>//------------------------------------------------------------------------------</i></td></tr>
+<tr><th id="427">427</th><td></td></tr>
+<tr><th id="428">428</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="429">429</th><td><i class="doc"> * <span class="command">@brief</span> Sleeps for the specified number of milliseconds.</i></td></tr>
 <tr><th id="430">430</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="431">431</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ms</span> The number of milliseconds to sleep.</i></td></tr>
-<tr><th id="432">432</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="433">433</th><td><i class="doc"> * <span class="command">@note</span> This function may not be available on all platforms. Make sure to</i></td></tr>
-<tr><th id="434">434</th><td><i class="doc"> *       include the necessary headers and handle any compilation errors or</i></td></tr>
-<tr><th id="435">435</th><td><i class="doc"> *       warnings specific to your environment.</i></td></tr>
-<tr><th id="436">436</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="437">437</th><td><em>void</em> <dfn class="decl fn" id="vws_msleep" title='vws_msleep' data-ref="vws_msleep" data-ref-filename="vws_msleep">vws_msleep</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="8409ms" title='ms' data-type='unsigned int' data-ref="8409ms" data-ref-filename="8409ms">ms</dfn>);</td></tr>
-<tr><th id="438">438</th><td></td></tr>
-<tr><th id="439">439</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="440">440</th><td><i class="doc"> * <span class="command">@brief</span> Checks if a specific flag is set.</i></td></tr>
-<tr><th id="441">441</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="442">442</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to check</i></td></tr>
-<tr><th id="443">443</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to check for</i></td></tr>
-<tr><th id="444">444</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the flag is set, false otherwise</i></td></tr>
-<tr><th id="445">445</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="446">446</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="vws_is_flag" title='vws_is_flag' data-ref="vws_is_flag" data-ref-filename="vws_is_flag">vws_is_flag</dfn>(<em>const</em> <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col0 decl" id="8410flags" title='flags' data-type='const uint64_t *' data-ref="8410flags" data-ref-filename="8410flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col1 decl" id="8411flag" title='flag' data-type='uint64_t' data-ref="8411flag" data-ref-filename="8411flag">flag</dfn>);</td></tr>
-<tr><th id="447">447</th><td></td></tr>
-<tr><th id="448">448</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="449">449</th><td><i class="doc"> * <span class="command">@brief</span> Sets a specific flag.</i></td></tr>
-<tr><th id="450">450</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="451">451</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to modify</i></td></tr>
-<tr><th id="452">452</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to set</i></td></tr>
-<tr><th id="453">453</th><td><i class="doc"> * <span class="command">@return</span> None</i></td></tr>
-<tr><th id="454">454</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="455">455</th><td><em>void</em> <dfn class="decl fn" id="vws_set_flag" title='vws_set_flag' data-ref="vws_set_flag" data-ref-filename="vws_set_flag">vws_set_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col2 decl" id="8412flags" title='flags' data-type='uint64_t *' data-ref="8412flags" data-ref-filename="8412flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col3 decl" id="8413flag" title='flag' data-type='uint64_t' data-ref="8413flag" data-ref-filename="8413flag">flag</dfn>);</td></tr>
-<tr><th id="456">456</th><td></td></tr>
-<tr><th id="457">457</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="458">458</th><td><i class="doc"> * <span class="command">@brief</span> Clears a specific flag.</i></td></tr>
-<tr><th id="459">459</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="460">460</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to modify</i></td></tr>
-<tr><th id="461">461</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to clear</i></td></tr>
-<tr><th id="462">462</th><td><i class="doc"> * <span class="command">@return</span> None</i></td></tr>
-<tr><th id="463">463</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="464">464</th><td><em>void</em> <dfn class="decl fn" id="vws_clear_flag" title='vws_clear_flag' data-ref="vws_clear_flag" data-ref-filename="vws_clear_flag">vws_clear_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col4 decl" id="8414flags" title='flags' data-type='uint64_t *' data-ref="8414flags" data-ref-filename="8414flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col5 decl" id="8415flag" title='flag' data-type='uint64_t' data-ref="8415flag" data-ref-filename="8415flag">flag</dfn>);</td></tr>
-<tr><th id="465">465</th><td></td></tr>
-<tr><th id="466">466</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="467">467</th><td><i class="doc"> * <span class="command">@brief</span> Generates a UUID.</i></td></tr>
-<tr><th id="468">468</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="469">469</th><td><i class="doc"> * <span class="command">@return</span> Returns a UUID string</i></td></tr>
-<tr><th id="470">470</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="471">471</th><td><em>char</em>* <dfn class="decl fn" id="vws_generate_uuid" title='vws_generate_uuid' data-ref="vws_generate_uuid" data-ref-filename="vws_generate_uuid">vws_generate_uuid</dfn>();</td></tr>
-<tr><th id="472">472</th><td></td></tr>
-<tr><th id="473">473</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="474">474</th><td><i class="doc"> * <span class="command">@brief</span> Encodes data as Base64.</i></td></tr>
-<tr><th id="475">475</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="476">476</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data to encode</i></td></tr>
-<tr><th id="477">477</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data</i></td></tr>
-<tr><th id="478">478</th><td><i class="doc"> * <span class="command">@return</span> Returns a Base64-encoded string</i></td></tr>
-<tr><th id="479">479</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="480">480</th><td><em>char</em>* <dfn class="decl fn" id="vws_base64_encode" title='vws_base64_encode' data-ref="vws_base64_encode" data-ref-filename="vws_base64_encode">vws_base64_encode</dfn>(<em>const</em> <em>unsigned</em> <em>char</em>* <dfn class="local col6 decl" id="8416data" title='data' data-type='const unsigned char *' data-ref="8416data" data-ref-filename="8416data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8417size" title='size' data-type='size_t' data-ref="8417size" data-ref-filename="8417size">size</dfn>);</td></tr>
-<tr><th id="481">481</th><td></td></tr>
-<tr><th id="482">482</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="483">483</th><td><i class="doc"> * <span class="command">@brief</span> Decodes a Base64-encoded string.</i></td></tr>
-<tr><th id="484">484</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="485">485</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The Base64 string to decode</i></td></tr>
-<tr><th id="486">486</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> Pointer to size which will be filled with the size of the decoded data</i></td></tr>
-<tr><th id="487">487</th><td><i class="doc"> * <span class="command">@return</span> Returns a pointer to the decoded data</i></td></tr>
-<tr><th id="488">488</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="489">489</th><td><em>unsigned</em> <em>char</em>* <dfn class="decl fn" id="vws_base64_decode" title='vws_base64_decode' data-ref="vws_base64_decode" data-ref-filename="vws_base64_decode">vws_base64_decode</dfn>(<em>const</em> <em>char</em>* <dfn class="local col8 decl" id="8418data" title='data' data-type='const char *' data-ref="8418data" data-ref-filename="8418data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span>* <dfn class="local col9 decl" id="8419size" title='size' data-type='size_t *' data-ref="8419size" data-ref-filename="8419size">size</dfn>);</td></tr>
-<tr><th id="490">490</th><td></td></tr>
-<tr><th id="491">491</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_COMMON_DECLARE */</u></td></tr>
-<tr><th id="492">492</th><td></td></tr>
+<tr><th id="431">431</th><td><i class="doc"> * This function provides a platform-independent way to sleep for a specific</i></td></tr>
+<tr><th id="432">432</th><td><i class="doc"> * duration in milliseconds. The behavior is similar to the standard `sleep`</i></td></tr>
+<tr><th id="433">433</th><td><i class="doc"> * function, but with millisecond precision.</i></td></tr>
+<tr><th id="434">434</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="435">435</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">ms</span> The number of milliseconds to sleep.</i></td></tr>
+<tr><th id="436">436</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="437">437</th><td><i class="doc"> * <span class="command">@note</span> This function may not be available on all platforms. Make sure to</i></td></tr>
+<tr><th id="438">438</th><td><i class="doc"> *       include the necessary headers and handle any compilation errors or</i></td></tr>
+<tr><th id="439">439</th><td><i class="doc"> *       warnings specific to your environment.</i></td></tr>
+<tr><th id="440">440</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="441">441</th><td><em>void</em> <dfn class="decl fn" id="vws_msleep" title='vws_msleep' data-ref="vws_msleep" data-ref-filename="vws_msleep">vws_msleep</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="8409ms" title='ms' data-type='unsigned int' data-ref="8409ms" data-ref-filename="8409ms">ms</dfn>);</td></tr>
+<tr><th id="442">442</th><td></td></tr>
+<tr><th id="443">443</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="444">444</th><td><i class="doc"> * <span class="command">@brief</span> Checks if a specific flag is set.</i></td></tr>
+<tr><th id="445">445</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="446">446</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to check</i></td></tr>
+<tr><th id="447">447</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to check for</i></td></tr>
+<tr><th id="448">448</th><td><i class="doc"> * <span class="command">@return</span> Returns true if the flag is set, false otherwise</i></td></tr>
+<tr><th id="449">449</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="450">450</th><td><a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint8_t" title='uint8_t' data-type='__uint8_t' data-ref="uint8_t" data-ref-filename="uint8_t">uint8_t</a> <dfn class="decl fn" id="vws_is_flag" title='vws_is_flag' data-ref="vws_is_flag" data-ref-filename="vws_is_flag">vws_is_flag</dfn>(<em>const</em> <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col0 decl" id="8410flags" title='flags' data-type='const uint64_t *' data-ref="8410flags" data-ref-filename="8410flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col1 decl" id="8411flag" title='flag' data-type='uint64_t' data-ref="8411flag" data-ref-filename="8411flag">flag</dfn>);</td></tr>
+<tr><th id="451">451</th><td></td></tr>
+<tr><th id="452">452</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="453">453</th><td><i class="doc"> * <span class="command">@brief</span> Sets a specific flag.</i></td></tr>
+<tr><th id="454">454</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="455">455</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to modify</i></td></tr>
+<tr><th id="456">456</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to set</i></td></tr>
+<tr><th id="457">457</th><td><i class="doc"> * <span class="command">@return</span> None</i></td></tr>
+<tr><th id="458">458</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="459">459</th><td><em>void</em> <dfn class="decl fn" id="vws_set_flag" title='vws_set_flag' data-ref="vws_set_flag" data-ref-filename="vws_set_flag">vws_set_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col2 decl" id="8412flags" title='flags' data-type='uint64_t *' data-ref="8412flags" data-ref-filename="8412flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col3 decl" id="8413flag" title='flag' data-type='uint64_t' data-ref="8413flag" data-ref-filename="8413flag">flag</dfn>);</td></tr>
+<tr><th id="460">460</th><td></td></tr>
+<tr><th id="461">461</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="462">462</th><td><i class="doc"> * <span class="command">@brief</span> Clears a specific flag.</i></td></tr>
+<tr><th id="463">463</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="464">464</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flags</span> The flags to modify</i></td></tr>
+<tr><th id="465">465</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">flag</span>  The flag to clear</i></td></tr>
+<tr><th id="466">466</th><td><i class="doc"> * <span class="command">@return</span> None</i></td></tr>
+<tr><th id="467">467</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="468">468</th><td><em>void</em> <dfn class="decl fn" id="vws_clear_flag" title='vws_clear_flag' data-ref="vws_clear_flag" data-ref-filename="vws_clear_flag">vws_clear_flag</dfn>(<a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a>* <dfn class="local col4 decl" id="8414flags" title='flags' data-type='uint64_t *' data-ref="8414flags" data-ref-filename="8414flags">flags</dfn>, <a class="typedef" href="../../include/x86_64-linux-gnu/bits/stdint-uintn.h.html#uint64_t" title='uint64_t' data-type='__uint64_t' data-ref="uint64_t" data-ref-filename="uint64_t">uint64_t</a> <dfn class="local col5 decl" id="8415flag" title='flag' data-type='uint64_t' data-ref="8415flag" data-ref-filename="8415flag">flag</dfn>);</td></tr>
+<tr><th id="469">469</th><td></td></tr>
+<tr><th id="470">470</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="471">471</th><td><i class="doc"> * <span class="command">@brief</span> Generates a UUID.</i></td></tr>
+<tr><th id="472">472</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="473">473</th><td><i class="doc"> * <span class="command">@return</span> Returns a UUID string</i></td></tr>
+<tr><th id="474">474</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="475">475</th><td><em>char</em>* <dfn class="decl fn" id="vws_generate_uuid" title='vws_generate_uuid' data-ref="vws_generate_uuid" data-ref-filename="vws_generate_uuid">vws_generate_uuid</dfn>();</td></tr>
+<tr><th id="476">476</th><td></td></tr>
+<tr><th id="477">477</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="478">478</th><td><i class="doc"> * <span class="command">@brief</span> Encodes data as Base64.</i></td></tr>
+<tr><th id="479">479</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="480">480</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The data to encode</i></td></tr>
+<tr><th id="481">481</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> The size of the data</i></td></tr>
+<tr><th id="482">482</th><td><i class="doc"> * <span class="command">@return</span> Returns a Base64-encoded string</i></td></tr>
+<tr><th id="483">483</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="484">484</th><td><em>char</em>* <dfn class="decl fn" id="vws_base64_encode" title='vws_base64_encode' data-ref="vws_base64_encode" data-ref-filename="vws_base64_encode">vws_base64_encode</dfn>(<em>const</em> <em>unsigned</em> <em>char</em>* <dfn class="local col6 decl" id="8416data" title='data' data-type='const unsigned char *' data-ref="8416data" data-ref-filename="8416data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col7 decl" id="8417size" title='size' data-type='size_t' data-ref="8417size" data-ref-filename="8417size">size</dfn>);</td></tr>
+<tr><th id="485">485</th><td></td></tr>
+<tr><th id="486">486</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="487">487</th><td><i class="doc"> * <span class="command">@brief</span> Decodes a Base64-encoded string.</i></td></tr>
+<tr><th id="488">488</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="489">489</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">data</span> The Base64 string to decode</i></td></tr>
+<tr><th id="490">490</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">size</span> Pointer to size which will be filled with the size of the decoded data</i></td></tr>
+<tr><th id="491">491</th><td><i class="doc"> * <span class="command">@return</span> Returns a pointer to the decoded data</i></td></tr>
+<tr><th id="492">492</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="493">493</th><td><em>unsigned</em> <em>char</em>* <dfn class="decl fn" id="vws_base64_decode" title='vws_base64_decode' data-ref="vws_base64_decode" data-ref-filename="vws_base64_decode">vws_base64_decode</dfn>(<em>const</em> <em>char</em>* <dfn class="local col8 decl" id="8418data" title='data' data-type='const char *' data-ref="8418data" data-ref-filename="8418data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span>* <dfn class="local col9 decl" id="8419size" title='size' data-type='size_t *' data-ref="8419size" data-ref-filename="8419size">size</dfn>);</td></tr>
+<tr><th id="494">494</th><td></td></tr>
+<tr><th id="495">495</th><td><u>#<span data-ppcond="495">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="496">496</th><td>}</td></tr>
+<tr><th id="497">497</th><td><u>#<span data-ppcond="495">endif</span></u></td></tr>
+<tr><th id="498">498</th><td></td></tr>
+<tr><th id="499">499</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_COMMON_DECLARE */</u></td></tr>
+<tr><th id="500">500</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='http_message.c.html'>codebrowser/src/http_message.c</a><br/>Generated on <em>2023-Oct-18</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='http_message.c.html'>codebrowser/src/http_message.c</a><br/>Generated on <em>2023-Dec-07</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

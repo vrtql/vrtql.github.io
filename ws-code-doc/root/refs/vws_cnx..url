@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='245' type='vws_url_data *'/>
-<offset>512</offset>
-<doc f='codebrowser/src/websocket.h' l='244'>/**&lt; The URL of the websocket server. */</doc>
+<dec f='codebrowser/src/websocket.h' l='249' type='vws_url_data *'/>
+<offset>576</offset>
+<doc f='codebrowser/src/websocket.h' l='248'>/**&lt; The URL of the websocket server. */</doc>
 <use f='codebrowser/src/websocket.c' l='274' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='281' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='282' u='r' c='cnx_connect'/>

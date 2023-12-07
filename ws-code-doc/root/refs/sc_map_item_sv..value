@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='53' type='void *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='57' type='void *'/>
 <offset>64</offset>
 <use f='codebrowser/src/rpc.c' l='324' macro='1' u='r' c='vrtql_rpc_module_free'/>
 <use f='codebrowser/src/rpc.c' l='364' macro='1' u='r' c='vrtql_rpc_system_free'/>

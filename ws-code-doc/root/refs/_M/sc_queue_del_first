@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='255'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='250'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='259'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='254'>/**
  * @param q queue
  * @return  delete the first element from the queue and return its value.
  *          If queue is empty, result is undefined.

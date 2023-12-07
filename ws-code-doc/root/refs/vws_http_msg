@@ -1,7 +1,7 @@
-<def f='codebrowser/src/http_message.h' l='11' ll='40'/>
-<use f='codebrowser/src/http_message.h' l='11'/>
+<def f='codebrowser/src/http_message.h' l='15' ll='44'/>
+<use f='codebrowser/src/http_message.h' l='15'/>
 <size>88</size>
-<doc f='codebrowser/src/http_message.h' l='7'>/**
+<doc f='codebrowser/src/http_message.h' l='11'>/**
  * @struct vws_http_msg
  * @brief Structure representing an HTTP request
  */</doc>

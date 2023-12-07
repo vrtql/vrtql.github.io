@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/util/sc_map.h' l='216' macro='1' type='_Bool sc_map_init_intv(struct sc_map_intv * map, uint32_t cap, uint32_t load_factor)'/>
+<dec f='codebrowser/src/util/sc_map.h' l='220' macro='1' type='_Bool sc_map_init_intv(struct sc_map_intv * map, uint32_t cap, uint32_t load_factor)'/>
 <def f='codebrowser/src/util/sc_map.c' l='398' macro='1' type='_Bool sc_map_init_intv(struct sc_map_intv * m, uint32_t cap, uint32_t load_fac)'/>

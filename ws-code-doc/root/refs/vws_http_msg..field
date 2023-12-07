@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/http_message.h' l='29' type='vws_buffer *'/>
+<dec f='codebrowser/src/http_message.h' l='33' type='vws_buffer *'/>
 <use f='codebrowser/src/http_message.c' l='93' u='r' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='96' u='r' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='101' u='r' c='process_header'/>
@@ -6,4 +6,4 @@
 <use f='codebrowser/src/http_message.c' l='153' u='r' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='200' u='r' c='on_header_field'/>
 <offset>512</offset>
-<doc f='codebrowser/src/http_message.h' l='28'>/**&lt; Placeholder for header field */</doc>
+<doc f='codebrowser/src/http_message.h' l='32'>/**&lt; Placeholder for header field */</doc>

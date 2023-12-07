@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/http_message.h' l='38' type='_Bool'/>
+<dec f='codebrowser/src/http_message.h' l='42' type='_Bool'/>
 <use f='codebrowser/src/http_message.c' l='116' u='w' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='179' u='w' c='on_message_complete'/>
 <use f='codebrowser/src/http_message.c' l='233' u='r' c='vws_http_msg_parse'/>

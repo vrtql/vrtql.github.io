@@ -1,4 +1,4 @@
 <dec f='include/openssl/err.h' l='237' type='void ERR_error_string_n(unsigned long e, char * buf, size_t len)'/>
-<use f='codebrowser/src/socket.c' l='517' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='728' u='c' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='802' u='c' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='536' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='747' u='c' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='821' u='c' c='vws_socket_close'/>

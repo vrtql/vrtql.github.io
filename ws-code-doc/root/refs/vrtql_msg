@@ -1,7 +1,7 @@
-<def f='codebrowser/src/message.h' l='31' ll='38'/>
-<use f='codebrowser/src/message.h' l='31'/>
+<def f='codebrowser/src/message.h' l='35' ll='42'/>
+<use f='codebrowser/src/message.h' l='35'/>
 <size>88</size>
-<doc f='codebrowser/src/message.h' l='26'>/**
+<doc f='codebrowser/src/message.h' l='30'>/**
  * @brief Represents a message with routing, headers, and content.
  *
  * @ingroup MessageFunctions

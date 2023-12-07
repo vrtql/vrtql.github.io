@@ -1,1 +1,1 @@
-<def f='codebrowser/src/util/sc_queue.h' l='242' ll='248' type='size_t sc_queue_inc_first(size_t * first, size_t cap)'/>
+<def f='codebrowser/src/util/sc_queue.h' l='246' ll='252' type='size_t sc_queue_inc_first(size_t * first, size_t cap)'/>

@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.h' l='347' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
+<dec f='codebrowser/src/server.h' l='351' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
 <def f='codebrowser/src/server.c' l='902' ll='931' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
-<use f='codebrowser/src/server.c' l='1129' u='c' c='tcp_svr_dtor'/>
-<doc f='codebrowser/src/server.h' l='342'>/**
+<use f='codebrowser/src/server.c' l='1127' u='c' c='tcp_svr_dtor'/>
+<doc f='codebrowser/src/server.h' l='346'>/**
  * @brief Stops a VRTQL server.
  *
  * @param server The server to stop.

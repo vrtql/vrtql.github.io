@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='464' type='vrtql_svr_process_msg'/>
-<use f='codebrowser/src/server.c' l='1996' u='w' c='vrtql_msg_svr_new'/>
+<dec f='codebrowser/src/server.h' l='468' type='vrtql_svr_process_msg'/>
+<use f='codebrowser/src/server.c' l='1992' u='w' c='vrtql_msg_svr_new'/>
 <offset>3584</offset>
-<doc f='codebrowser/src/server.h' l='463'>/**&lt; Derived: for sending messages to the client (calls on_msg_out()) */</doc>
+<doc f='codebrowser/src/server.h' l='467'>/**&lt; Derived: for sending messages to the client (calls on_msg_out()) */</doc>
 <use f='codebrowser/src/test/test_msg_server.c' l='33' u='r' c='process_message'/>

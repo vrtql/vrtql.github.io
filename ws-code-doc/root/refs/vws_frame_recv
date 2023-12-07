@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='476' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
-<doc f='codebrowser/src/websocket.h' l='467'>/**
+<dec f='codebrowser/src/websocket.h' l='480' type='vws_frame * vws_frame_recv(vws_cnx * c)'/>
+<doc f='codebrowser/src/websocket.h' l='471'>/**
  * @brief Receives a websocket frame from the connection. If there are no
  *        frames in queue, it will call socket_wait_for_frame().
  *

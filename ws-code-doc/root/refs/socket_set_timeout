@@ -1,2 +1,2 @@
-<def f='codebrowser/src/socket.c' l='126' ll='201' macro='1' type='_Bool socket_set_timeout(int fd, int sec)'/>
-<use f='codebrowser/src/socket.c' l='307' u='c' c='vws_socket_connect'/>
+<def f='codebrowser/src/socket.c' l='144' ll='219' macro='1' type='_Bool socket_set_timeout(int fd, int sec)'/>
+<use f='codebrowser/src/socket.c' l='325' u='c' c='vws_socket_connect'/>

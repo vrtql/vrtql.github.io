@@ -1,5 +1,5 @@
 <dec f='include/x86_64-linux-gnu/sys/poll.h' l='38' type='int'/>
-<use f='codebrowser/src/socket.c' l='396' u='w' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='628' u='w' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='414' u='w' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='647' u='w' c='vws_socket_write'/>
 <offset>0</offset>
 <doc f='include/x86_64-linux-gnu/sys/poll.h' l='38'>/* File descriptor to poll.  */</doc>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/rpc.h' l='55' type='void *'/>
+<dec f='codebrowser/src/rpc.h' l='59' type='void *'/>
 <use f='codebrowser/src/rpc.c' l='245' u='w' c='vrtql_rpc_new'/>
 <offset>320</offset>
-<doc f='codebrowser/src/rpc.h' l='54'>/**&gt; User-defined data*/</doc>
+<doc f='codebrowser/src/rpc.h' l='58'>/**&gt; User-defined data*/</doc>

@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vws.h' l='328' type='void vws_buffer_drain(vws_buffer * buffer, size_t size)'/>
-<doc f='codebrowser/src/vws.h' l='322'>/**
+<dec f='codebrowser/src/vws.h' l='332' type='void vws_buffer_drain(vws_buffer * buffer, size_t size)'/>
+<doc f='codebrowser/src/vws.h' l='326'>/**
  * @brief Drains a vrtql buffer by a given size.
  *
  * @param buffer The buffer to drain
  * @param size The size to drain from the buffer
  */</doc>
-<use f='codebrowser/src/server.c' l='1707' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1703' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_common.c' l='95' u='c' c='ctest_test_buffer_run'/>
 <def f='codebrowser/src/vws.c' l='557' ll='575' type='void vws_buffer_drain(vws_buffer * buffer, size_t size)'/>
 <use f='codebrowser/src/websocket.c' l='511' u='c' c='socket_handshake'/>

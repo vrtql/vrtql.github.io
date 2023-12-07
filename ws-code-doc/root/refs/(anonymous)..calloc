@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='226' type='vws_calloc_cb'/>
+<dec f='codebrowser/src/vws.h' l='230' type='vws_calloc_cb'/>
 <offset>128</offset>
-<doc f='codebrowser/src/vws.h' l='226'>/**&lt; calloc function             */</doc>
+<doc f='codebrowser/src/vws.h' l='230'>/**&lt; calloc function             */</doc>
 <use f='codebrowser/src/message.c' l='40' u='r' c='vrtql_msg_new'/>
 <use f='codebrowser/src/vws.c' l='448' u='w'/>

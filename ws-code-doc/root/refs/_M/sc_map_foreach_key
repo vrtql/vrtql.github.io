@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_map.h' l='192'/>
-<doc f='codebrowser/src/util/sc_map.h' l='182'>/**
+<dec f='codebrowser/src/util/sc_map.h' l='196'/>
+<doc f='codebrowser/src/util/sc_map.h' l='186'>/**
  * Foreach loop for keys
  *
  * char *key;

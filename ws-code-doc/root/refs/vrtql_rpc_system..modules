@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/rpc.h' l='143' type='vrtql_rpc_map'/>
+<dec f='codebrowser/src/rpc.h' l='147' type='vrtql_rpc_map'/>
 <use f='codebrowser/src/rpc.c' l='354' u='a' c='vrtql_rpc_system_new'/>
 <use f='codebrowser/src/rpc.c' l='364' u='a' c='vrtql_rpc_system_free'/>
 <use f='codebrowser/src/rpc.c' l='364' u='a' c='vrtql_rpc_system_free'/>
@@ -8,4 +8,4 @@
 <use f='codebrowser/src/rpc.c' l='384' u='a' c='vrtql_rpc_system_set'/>
 <use f='codebrowser/src/rpc.c' l='389' u='a' c='vrtql_rpc_system_get'/>
 <offset>0</offset>
-<doc f='codebrowser/src/rpc.h' l='142'>/**&lt; Map of RPC modules. Key is module name. Value is module instance. */</doc>
+<doc f='codebrowser/src/rpc.h' l='146'>/**&lt; Map of RPC modules. Key is module name. Value is module instance. */</doc>

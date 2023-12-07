@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_map.h' l='162'/>
-<doc f='codebrowser/src/util/sc_map.h' l='158'>/**
+<dec f='codebrowser/src/util/sc_map.h' l='166'/>
+<doc f='codebrowser/src/util/sc_map.h' l='162'>/**
  * @param map map
  * @return    true if put operation failed with out of memory
  */</doc>

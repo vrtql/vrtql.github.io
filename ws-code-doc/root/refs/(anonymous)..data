@@ -1,10 +1,10 @@
-<dec f='codebrowser/src/server.h' l='78' type='char *'/>
+<dec f='codebrowser/src/server.h' l='82' type='char *'/>
 <use f='codebrowser/src/server.c' l='765' u='w' c='vws_svr_data_own'/>
 <use f='codebrowser/src/server.c' l='775' u='r' c='vws_svr_data_free'/>
-<use f='codebrowser/src/server.c' l='1206' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1807' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1810' u='w' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1204' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1803' u='r' c='ws_svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1806' u='w' c='ws_svr_client_data_in'/>
 <offset>128</offset>
-<doc f='codebrowser/src/server.h' l='77'>/**&lt; The data */</doc>
+<doc f='codebrowser/src/server.h' l='81'>/**&lt; The data */</doc>
 <use f='codebrowser/src/test/test_inetd_server.c' l='29' u='r' c='process_data'/>
 <use f='codebrowser/src/test/test_server.c' l='25' u='r' c='process_data'/>

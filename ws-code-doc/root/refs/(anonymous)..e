@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='235' type='vws_error_value'/>
+<dec f='codebrowser/src/vws.h' l='239' type='vws_error_value'/>
 <offset>704</offset>
-<doc f='codebrowser/src/vws.h' l='235'>/**&lt; Last error value            */</doc>
+<doc f='codebrowser/src/vws.h' l='239'>/**&lt; Last error value            */</doc>
 <use f='codebrowser/src/rpc.c' l='95' u='m' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/rpc.c' l='136' u='m' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='148' u='m' c='vrtql_rpc_exec'/>

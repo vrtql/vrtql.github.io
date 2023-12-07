@@ -1,5 +1,5 @@
-<def f='codebrowser/src/util/sc_queue.h' l='286' macro='1'/>
-<use f='codebrowser/src/websocket.h' l='251'/>
+<def f='codebrowser/src/util/sc_queue.h' l='290' macro='1'/>
+<use f='codebrowser/src/websocket.h' l='255'/>
 <size>40</size>
 <mbr r='sc_queue_ptr::oom' o='0' t='_Bool'/>
 <mbr r='sc_queue_ptr::cap' o='64' t='size_t'/>

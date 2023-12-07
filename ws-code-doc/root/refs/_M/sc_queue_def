@@ -1,8 +1,4 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='55'/>
-<use f='codebrowser/src/util/sc_queue.h' l='276' u='c'/>
-<use f='codebrowser/src/util/sc_queue.h' l='277' u='c'/>
-<use f='codebrowser/src/util/sc_queue.h' l='278' u='c'/>
-<use f='codebrowser/src/util/sc_queue.h' l='279' u='c'/>
+<dec f='codebrowser/src/util/sc_queue.h' l='59'/>
 <use f='codebrowser/src/util/sc_queue.h' l='280' u='c'/>
 <use f='codebrowser/src/util/sc_queue.h' l='281' u='c'/>
 <use f='codebrowser/src/util/sc_queue.h' l='282' u='c'/>
@@ -10,3 +6,7 @@
 <use f='codebrowser/src/util/sc_queue.h' l='284' u='c'/>
 <use f='codebrowser/src/util/sc_queue.h' l='285' u='c'/>
 <use f='codebrowser/src/util/sc_queue.h' l='286' u='c'/>
+<use f='codebrowser/src/util/sc_queue.h' l='287' u='c'/>
+<use f='codebrowser/src/util/sc_queue.h' l='288' u='c'/>
+<use f='codebrowser/src/util/sc_queue.h' l='289' u='c'/>
+<use f='codebrowser/src/util/sc_queue.h' l='290' u='c'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='138' type='_Bool'/>
-<use f='codebrowser/src/server.c' l='1287' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1679' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1752' u='w' c='ws_svr_client_read'/>
+<dec f='codebrowser/src/server.h' l='142' type='_Bool'/>
+<use f='codebrowser/src/server.c' l='1285' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1675' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1748' u='w' c='ws_svr_client_read'/>
 <offset>192</offset>

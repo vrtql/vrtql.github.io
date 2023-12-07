@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='64' type='unsigned char'/>
+<dec f='codebrowser/src/websocket.h' l='68' type='unsigned char'/>
 <offset>0</offset>
-<doc f='codebrowser/src/websocket.h' l='63'>/**&lt; Final frame in the message (1) or not (0). */</doc>
+<doc f='codebrowser/src/websocket.h' l='67'>/**&lt; Final frame in the message (1) or not (0). */</doc>
 <use f='codebrowser/src/websocket.c' l='711' u='w' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='791' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='898' u='w' c='vws_deserialize'/>

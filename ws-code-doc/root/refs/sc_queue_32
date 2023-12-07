@@ -1,4 +1,4 @@
-<def f='codebrowser/src/util/sc_queue.h' l='282' macro='1'/>
+<def f='codebrowser/src/util/sc_queue.h' l='286' macro='1'/>
 <size>40</size>
 <mbr r='sc_queue_32::oom' o='0' t='_Bool'/>
 <mbr r='sc_queue_32::cap' o='64' t='size_t'/>

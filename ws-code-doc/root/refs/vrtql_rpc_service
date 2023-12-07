@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/rpc.h' l='216' type='vrtql_msg * vrtql_rpc_service(vrtql_rpc_system * s, vrtql_rpc_env * e, vrtql_msg * m)'/>
+<dec f='codebrowser/src/rpc.h' l='220' type='vrtql_msg * vrtql_rpc_service(vrtql_rpc_system * s, vrtql_rpc_env * e, vrtql_msg * m)'/>
 <def f='codebrowser/src/rpc.c' l='426' ll='491' type='vrtql_msg * vrtql_rpc_service(vrtql_rpc_system * s, vrtql_rpc_env * e, vrtql_msg * m)'/>
-<doc f='codebrowser/src/rpc.h' l='210'>/**
+<doc f='codebrowser/src/rpc.h' l='214'>/**
  * @brief Service an RPC call
  * @param c The RPC system instance
  * @param e The RPC environment

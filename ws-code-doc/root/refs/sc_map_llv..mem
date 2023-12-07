@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='69' type='struct sc_map_item_llv *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='73' type='struct sc_map_item_llv *'/>
 <offset>0</offset>
 <use f='codebrowser/src/util/sc_map.c' l='91' u='w'/>
 <use f='codebrowser/src/util/sc_map.c' l='136' u='w' c='sc_map_init_llv'/>

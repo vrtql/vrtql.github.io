@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='489' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>
-<doc f='codebrowser/src/vws.h' l='482'>/**
+<dec f='codebrowser/src/vws.h' l='493' type='unsigned char * vws_base64_decode(const char * data, size_t * size)'/>
+<doc f='codebrowser/src/vws.h' l='486'>/**
  * @brief Decodes a Base64-encoded string.
  *
  * @param data The Base64 string to decode

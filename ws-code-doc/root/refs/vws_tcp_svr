@@ -1,9 +1,9 @@
-<use f='codebrowser/src/server.h' l='128'/>
-<def f='codebrowser/src/server.h' l='200' ll='250'/>
-<use f='codebrowser/src/server.h' l='200'/>
-<use f='codebrowser/src/server.h' l='382'/>
+<use f='codebrowser/src/server.h' l='132'/>
+<def f='codebrowser/src/server.h' l='204' ll='254'/>
+<use f='codebrowser/src/server.h' l='204'/>
+<use f='codebrowser/src/server.h' l='386'/>
 <size>376</size>
-<doc f='codebrowser/src/server.h' l='196'>/**
+<doc f='codebrowser/src/server.h' l='200'>/**
  * @brief Struct representing a basic server. It does not do anything but
  * process raw data. It does not have any knowledge of WebSockets.
  */</doc>

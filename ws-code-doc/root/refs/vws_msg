@@ -1,7 +1,7 @@
-<def f='codebrowser/src/websocket.h' l='167' ll='174'/>
-<use f='codebrowser/src/websocket.h' l='167'/>
+<def f='codebrowser/src/websocket.h' l='171' ll='178'/>
+<use f='codebrowser/src/websocket.h' l='171'/>
 <size>16</size>
-<doc f='codebrowser/src/websocket.h' l='164'>/**
+<doc f='codebrowser/src/websocket.h' l='168'>/**
  * @brief Represents a websocket message, which contains opcode and data.
  */</doc>
 <mbr r='vws_msg::opcode' o='0' t='unsigned char'/>

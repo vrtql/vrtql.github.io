@@ -1,5 +1,5 @@
-<def f='codebrowser/src/websocket.h' l='203' ll='216'/>
-<use f='codebrowser/src/websocket.h' l='203'/>
+<def f='codebrowser/src/websocket.h' l='207' ll='220'/>
+<use f='codebrowser/src/websocket.h' l='207'/>
 <size>88</size>
 <mbr r='vws_url_data::href' o='0' t='char *'/>
 <mbr r='vws_url_data::protocol' o='64' t='char *'/>

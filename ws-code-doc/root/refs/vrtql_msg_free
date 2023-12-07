@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/message.h' l='54' type='void vrtql_msg_free(vrtql_msg * msg)'/>
+<dec f='codebrowser/src/message.h' l='58' type='void vrtql_msg_free(vrtql_msg * msg)'/>
 <def f='codebrowser/src/message.c' l='53' ll='71' type='void vrtql_msg_free(vrtql_msg * msg)'/>
 <use f='codebrowser/src/message.c' l='515' u='c' c='vrtql_msg_recv'/>
-<doc f='codebrowser/src/message.h' l='48'>/**
+<doc f='codebrowser/src/message.h' l='52'>/**
  * @brief Frees a vrtql_msg instance.
  * @param msg The vrtql_msg instance to be freed.
  *
@@ -15,9 +15,9 @@
 <use f='codebrowser/src/rpc.c' l='459' u='c' c='vrtql_rpc_service'/>
 <use f='codebrowser/src/rpc.c' l='473' u='c' c='vrtql_rpc_service'/>
 <use f='codebrowser/src/rpc.c' l='487' u='c' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/server.c' l='1931' u='c' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1972' u='c' c='msg_svr_client_msg_out'/>
-<use f='codebrowser/src/server.c' l='1979' u='c' c='msg_svr_client_process'/>
+<use f='codebrowser/src/server.c' l='1927' u='c' c='msg_svr_client_ws_msg_in'/>
+<use f='codebrowser/src/server.c' l='1968' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='1975' u='c' c='msg_svr_client_process'/>
 <use f='codebrowser/src/test/test_example.c' l='32' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='47' u='c' c='main'/>
 <use f='codebrowser/src/test/test_example.c' l='51' u='c' c='main'/>

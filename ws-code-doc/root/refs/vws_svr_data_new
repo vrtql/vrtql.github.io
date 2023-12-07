@@ -1,13 +1,13 @@
-<dec f='codebrowser/src/server.h' l='260' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * memory)'/>
+<dec f='codebrowser/src/server.h' l='264' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * memory)'/>
 <def f='codebrowser/src/server.c' l='747' ll='756' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * buffer)'/>
-<use f='codebrowser/src/server.c' l='1565' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1594' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1741' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1836' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1561' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1590' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1737' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1832' u='c' c='ws_svr_client_data_out'/>
 <doc f='codebrowser/src/server.c' l='743'>//------------------------------------------------------------------------------
 // Server API
 //------------------------------------------------------------------------------</doc>
-<doc f='codebrowser/src/server.h' l='252'>/**
+<doc f='codebrowser/src/server.h' l='256'>/**
  * @brief Creates a new thread data. This TAKES OWNERSHIP of the buffer data and
  * sets the buffer to zero.
  *

@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/url.h' l='99' type='char * url_get_query(const char * url)'/>
+<dec f='codebrowser/src/url.h' l='103' type='char * url_get_query(const char * url)'/>
 <def f='codebrowser/src/url.c' l='345' ll='354' type='char * url_get_query(const char * url)'/>

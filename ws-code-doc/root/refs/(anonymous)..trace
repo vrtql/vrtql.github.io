@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='236' type='vws_trace_cb'/>
+<dec f='codebrowser/src/vws.h' l='240' type='vws_trace_cb'/>
 <offset>832</offset>
-<doc f='codebrowser/src/vws.h' l='236'>/**&lt; Error clear function        */</doc>
+<doc f='codebrowser/src/vws.h' l='240'>/**&lt; Error clear function        */</doc>
 <use f='codebrowser/src/server.c' l='663' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='682' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='706' u='r' c='uv_thread'/>
@@ -16,15 +16,13 @@
 <use f='codebrowser/src/server.c' l='1038' u='r' c='vws_tcp_svr_inetd_stop'/>
 <use f='codebrowser/src/server.c' l='1046' u='r' c='vws_tcp_svr_inetd_stop'/>
 <use f='codebrowser/src/server.c' l='1104' u='r' c='on_uv_close'/>
-<use f='codebrowser/src/server.c' l='1113' u='r' c='on_uv_walk'/>
-<use f='codebrowser/src/server.c' l='1168' u='r' c='svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1176' u='r' c='svr_client_disconnect'/>
-<use f='codebrowser/src/server.c' l='1201' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1320' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1418' u='r' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1629' u='r' c='ws_svr_client_connect'/>
-<use f='codebrowser/src/server.c' l='1643' u='r' c='ws_svr_client_disconnect'/>
-<use f='codebrowser/src/socket.c' l='851' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/server.c' l='1166' u='r' c='svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1174' u='r' c='svr_client_disconnect'/>
+<use f='codebrowser/src/server.c' l='1199' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1318' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1625' u='r' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1639' u='r' c='ws_svr_client_disconnect'/>
+<use f='codebrowser/src/socket.c' l='870' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_common.c' l='48' u='r' c='ctest_test_test_url_run'/>
 <use f='codebrowser/src/test/test_common.c' l='49' u='r' c='ctest_test_test_url_run'/>
 <use f='codebrowser/src/test/test_common.c' l='50' u='r' c='ctest_test_test_url_run'/>

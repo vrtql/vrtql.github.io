@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/rpc.h' l='159' type='void vrtql_rpc_module_free(vrtql_rpc_module * m)'/>
+<dec f='codebrowser/src/rpc.h' l='163' type='void vrtql_rpc_module_free(vrtql_rpc_module * m)'/>
 <def f='codebrowser/src/rpc.c' l='319' ll='334' type='void vrtql_rpc_module_free(vrtql_rpc_module * m)'/>
 <use f='codebrowser/src/rpc.c' l='366' u='c' c='vrtql_rpc_system_free'/>
-<doc f='codebrowser/src/rpc.h' l='154'>/**
+<doc f='codebrowser/src/rpc.h' l='158'>/**
  * @brief Frees the resources allocated to a RPC module
  *
  * @param m The RPC module

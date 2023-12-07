@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/socket.h' l='175' type='ssize_t vws_socket_read(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='165'>/**
+<dec f='codebrowser/src/socket.h' l='194' type='ssize_t vws_socket_read(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='184'>/**
  * @brief Reads data from a socket connection into a buffer
  *
  * @param c The vws_cnx representing the Socket connection.
@@ -9,7 +9,7 @@
  *
  * @ingroup SocketFunctions
  */</doc>
-<def f='codebrowser/src/socket.c' l='371' ll='587' type='ssize_t vws_socket_read(vws_socket * c)'/>
+<def f='codebrowser/src/socket.c' l='389' ll='606' type='ssize_t vws_socket_read(vws_socket * c)'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='101' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='68' u='c' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='459' u='c' c='socket_handshake'/>

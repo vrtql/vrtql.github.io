@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='371' type='void vws_map_clear(struct sc_map_str * map)'/>
-<doc f='codebrowser/src/vws.h' l='366'>/**
+<dec f='codebrowser/src/vws.h' l='375' type='void vws_map_clear(struct sc_map_str * map)'/>
+<doc f='codebrowser/src/vws.h' l='370'>/**
  * @brief Removes all key-value pair from the map, calling free() on them
  *
  * @param map The map to clear

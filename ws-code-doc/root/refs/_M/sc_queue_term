@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='117'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='113'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='121'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='117'>/**
  *   Destroy queue
  *   @param q queue
  */</doc>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='471' type='char * vws_generate_uuid()'/>
-<doc f='codebrowser/src/vws.h' l='466'>/**
+<dec f='codebrowser/src/vws.h' l='475' type='char * vws_generate_uuid()'/>
+<doc f='codebrowser/src/vws.h' l='470'>/**
  * @brief Generates a UUID.
  *
  * @return Returns a UUID string

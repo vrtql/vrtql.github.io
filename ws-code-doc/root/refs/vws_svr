@@ -1,8 +1,8 @@
-<def f='codebrowser/src/server.h' l='379' ll='402'/>
-<use f='codebrowser/src/server.h' l='379'/>
-<use f='codebrowser/src/server.h' l='452'/>
+<def f='codebrowser/src/server.h' l='383' ll='406'/>
+<use f='codebrowser/src/server.h' l='383'/>
+<use f='codebrowser/src/server.h' l='456'/>
 <size>424</size>
-<doc f='codebrowser/src/server.h' l='375'>/**
+<doc f='codebrowser/src/server.h' l='379'>/**
  * @brief Struct representing a WebSocket server. It speaks the WebSocket
  * protocol and processes both WebSocket frames and messages.
  */</doc>

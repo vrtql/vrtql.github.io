@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vws.h' l='233' type='vws_error_clear_cb'/>
+<dec f='codebrowser/src/vws.h' l='237' type='vws_error_clear_cb'/>
 <offset>576</offset>
-<doc f='codebrowser/src/vws.h' l='233'>/**&lt; Error clear function        */</doc>
+<doc f='codebrowser/src/vws.h' l='237'>/**&lt; Error clear function        */</doc>
 <use f='codebrowser/src/vws.c' l='455' u='w'/>

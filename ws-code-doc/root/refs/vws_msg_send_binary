@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='430' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
-<doc f='codebrowser/src/websocket.h' l='421'>/**
+<dec f='codebrowser/src/websocket.h' l='434' type='ssize_t vws_msg_send_binary(vws_cnx * c, ucstr string, size_t size)'/>
+<doc f='codebrowser/src/websocket.h' l='425'>/**
  * @brief Sends a BINARY message
  *
  * @param c The connection.

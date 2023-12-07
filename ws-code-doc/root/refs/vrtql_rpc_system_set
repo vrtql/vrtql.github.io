@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/rpc.h' l='199' type='void vrtql_rpc_system_set(vrtql_rpc_system * s, vrtql_rpc_module * m)'/>
+<dec f='codebrowser/src/rpc.h' l='203' type='void vrtql_rpc_system_set(vrtql_rpc_system * s, vrtql_rpc_module * m)'/>
 <def f='codebrowser/src/rpc.c' l='382' ll='385' type='void vrtql_rpc_system_set(vrtql_rpc_system * s, vrtql_rpc_module * m)'/>
-<doc f='codebrowser/src/rpc.h' l='193'>/**
+<doc f='codebrowser/src/rpc.h' l='197'>/**
  * @brief Adds a module to a system.
  *
  * @param s The RPC system

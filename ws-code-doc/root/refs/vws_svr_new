@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='414' type='vws_svr * vws_svr_new(int pool_size, int backlog, int queue_size)'/>
-<def f='codebrowser/src/server.c' l='1884' ll='1889' type='vws_svr * vws_svr_new(int num_threads, int backlog, int queue_size)'/>
-<doc f='codebrowser/src/server.h' l='404'>/**
+<dec f='codebrowser/src/server.h' l='418' type='vws_svr * vws_svr_new(int pool_size, int backlog, int queue_size)'/>
+<def f='codebrowser/src/server.c' l='1880' ll='1885' type='vws_svr * vws_svr_new(int num_threads, int backlog, int queue_size)'/>
+<doc f='codebrowser/src/server.h' l='408'>/**
  * @brief Creates a new WebSocket server.
  *
  * @param pool_size The number of threads to run in the worker pool

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='62' type='const char *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='66' type='const char *'/>
 <offset>64</offset>
 <use f='codebrowser/src/util/sc_map.c' l='75' u='w' c='sc_map_assign_lls'/>
 <use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_lls'/>

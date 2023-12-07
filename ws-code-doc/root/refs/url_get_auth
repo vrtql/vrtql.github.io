@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/url.h' l='81' type='char * url_get_auth(const char * url)'/>
+<dec f='codebrowser/src/url.h' l='85' type='char * url_get_auth(const char * url)'/>
 <def f='codebrowser/src/url.c' l='235' ll='242' type='char * url_get_auth(const char * url)'/>
 <use f='codebrowser/src/url.c' l='249' u='c' c='url_get_hostname'/>
 <use f='codebrowser/src/url.c' l='300' u='c' c='url_get_path'/>

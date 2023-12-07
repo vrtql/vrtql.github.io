@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/message.h' l='35' type='vws_buffer *'/>
+<dec f='codebrowser/src/message.h' l='39' type='vws_buffer *'/>
 <use f='codebrowser/src/message.c' l='44' u='w' c='vrtql_msg_new'/>
 <use f='codebrowser/src/message.c' l='67' u='r' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='118' u='r' c='vrtql_msg_serialize'/>
@@ -18,7 +18,7 @@
 <use f='codebrowser/src/message.c' l='485' u='r' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='486' u='r' c='vrtql_msg_set_content_binary'/>
 <offset>512</offset>
-<doc f='codebrowser/src/message.h' l='35'>/**&lt; Buffer for the message content.    */</doc>
+<doc f='codebrowser/src/message.h' l='39'>/**&lt; Buffer for the message content.    */</doc>
 <use f='codebrowser/src/rpc.c' l='79' u='r' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/rpc.c' l='82' u='r' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/rpc.c' l='82' u='r' c='vrtql_rpc_invoke'/>

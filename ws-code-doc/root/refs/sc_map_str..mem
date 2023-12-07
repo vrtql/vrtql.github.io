@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='69' type='struct sc_map_item_str *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='73' type='struct sc_map_item_str *'/>
 <use f='codebrowser/src/http_message.c' l='144' macro='1' u='r' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='144' macro='1' u='r' c='vws_http_msg_free'/>
 <offset>0</offset>

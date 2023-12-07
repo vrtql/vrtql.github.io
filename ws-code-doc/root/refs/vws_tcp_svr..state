@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='203' type='uint8_t'/>
+<dec f='codebrowser/src/server.h' l='207' type='uint8_t'/>
 <use f='codebrowser/src/server.c' l='678' u='r' c='worker_thread'/>
 <use f='codebrowser/src/server.c' l='702' u='r' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='788' u='r' c='vws_tcp_svr_state'/>
@@ -9,11 +9,11 @@
 <use f='codebrowser/src/server.c' l='1017' u='w' c='vws_tcp_svr_inetd_stop'/>
 <use f='codebrowser/src/server.c' l='1050' u='w' c='vws_tcp_svr_inetd_stop'/>
 <use f='codebrowser/src/server.c' l='1078' u='w' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1127' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1313' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1437' u='r' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1125' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1311' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1433' u='r' c='svr_on_close'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='202'>/**&lt; Current state of the server */</doc>
+<doc f='codebrowser/src/server.h' l='206'>/**&lt; Current state of the server */</doc>
 <use f='codebrowser/src/test/test_inetd_server.c' l='73' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='121' u='r' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_server.c' l='88' u='r' c='ctest_test_server_echo_run'/>

@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='228' macro='1' type='void * sc_map_get_sv(struct sc_map_sv * map, const char * key)'/>
+<dec f='codebrowser/src/util/sc_map.h' l='232' macro='1' type='void * sc_map_get_sv(struct sc_map_sv * map, const char * key)'/>
 <use f='codebrowser/src/rpc.c' l='500' u='c' c='sys_map_get'/>
 <use f='codebrowser/src/rpc.c' l='513' u='c' c='sys_map_set'/>
 <use f='codebrowser/src/rpc.c' l='527' u='c' c='sys_map_clear'/>

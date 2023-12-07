@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/util/sc_map.h' l='59'/>
-<use f='codebrowser/src/util/sc_map.h' l='215' u='c'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' u='c'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' u='c'/>
-<use f='codebrowser/src/util/sc_map.h' l='218' u='c'/>
+<dec f='codebrowser/src/util/sc_map.h' l='63'/>
 <use f='codebrowser/src/util/sc_map.h' l='219' u='c'/>
 <use f='codebrowser/src/util/sc_map.h' l='220' u='c'/>
 <use f='codebrowser/src/util/sc_map.h' l='221' u='c'/>
 <use f='codebrowser/src/util/sc_map.h' l='222' u='c'/>
 <use f='codebrowser/src/util/sc_map.h' l='223' u='c'/>
 <use f='codebrowser/src/util/sc_map.h' l='224' u='c'/>
+<use f='codebrowser/src/util/sc_map.h' l='225' u='c'/>
+<use f='codebrowser/src/util/sc_map.h' l='226' u='c'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' u='c'/>
+<use f='codebrowser/src/util/sc_map.h' l='228' u='c'/>

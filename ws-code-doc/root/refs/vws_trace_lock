@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='108' type='void vws_trace_lock()'/>
-<doc f='codebrowser/src/vws.h' l='90'>/**
+<dec f='codebrowser/src/vws.h' l='112' type='void vws_trace_lock()'/>
+<doc f='codebrowser/src/vws.h' l='94'>/**
  * @brief Lock the log mutex to synchronize access to the logging functionality.
  *
  * This function is responsible for locking the log mutex, which ensures that

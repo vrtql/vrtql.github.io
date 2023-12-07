@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='25' type='0'/>
-<doc f='codebrowser/src/vws.h' l='25'>/**&lt; No error */</doc>
+<dec f='codebrowser/src/vws.h' l='29' type='0'/>
+<doc f='codebrowser/src/vws.h' l='29'>/**&lt; No error */</doc>
 <use f='codebrowser/src/test/test_common.c' l='40' c='ctest_test_error_callbacks_run'/>
 <use f='codebrowser/src/vws.c' l='431' u='r' c='vws_error_clear_default'/>
 <use f='codebrowser/src/vws.c' l='436' u='r' c='vws_error_success_default'/>

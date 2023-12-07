@@ -1,11 +1,11 @@
-<def f='codebrowser/src/util/sc_map.h' l='223' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_init_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_term_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_size_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_clear_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_put_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_get_64v'/>
-<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_del_64v'/>
+<def f='codebrowser/src/util/sc_map.h' l='227' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_init_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_term_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_size_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_clear_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_put_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_get_64v'/>
+<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_del_64v'/>
 <size>32</size>
 <mbr r='sc_map_64v::mem' o='0' t='struct sc_map_item_64v *'/>
 <mbr r='sc_map_64v::cap' o='64' t='uint32_t'/>
@@ -15,8 +15,8 @@
 <mbr r='sc_map_64v::used' o='192' t='_Bool'/>
 <mbr r='sc_map_64v::oom' o='200' t='_Bool'/>
 <mbr r='sc_map_64v::found' o='208' t='_Bool'/>
-<use f='codebrowser/src/server.h' l='194'/>
-<use f='codebrowser/src/server.c' l='1397' c='svr_on_read'/>
+<use f='codebrowser/src/server.h' l='198'/>
+<use f='codebrowser/src/server.c' l='1395' c='svr_on_read'/>
 <size>32</size>
 <use f='codebrowser/src/util/sc_map.c' l='405' macro='1'/>
 <use f='codebrowser/src/util/sc_map.c' l='405' macro='1' c='sc_map_init_64v'/>

@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='231'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='225'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='235'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='229'>/**
  * Call sc_queue_oom(q) after this function to check out of memory condition.
  *
  * @param q    queue.
  * @param elem elem to be added at the head of the list.
  */</doc>
-<use f='codebrowser/src/server.c' l='1582' u='c'/>
+<use f='codebrowser/src/server.c' l='1578' u='c'/>
 <use f='codebrowser/src/websocket.c' l='1019' u='c'/>

@@ -1,23 +1,17 @@
-<dec f='codebrowser/src/socket.h' l='163' type='void vws_socket_close(vws_socket * c)'/>
-<doc f='codebrowser/src/socket.h' l='156'>/**
+<dec f='codebrowser/src/socket.h' l='182' type='void vws_socket_close(vws_socket * c)'/>
+<doc f='codebrowser/src/socket.h' l='175'>/**
  * @brief Closes a socket
  *
  * @param c The vws_socket
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='288' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='302' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='310' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='321' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='128' u='c' c='socket_abnormal_close'/>
+<use f='codebrowser/src/socket.c' l='306' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='320' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='328' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='339' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='349' u='c' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='366' u='c' c='vws_socket_disconnect'/>
-<use f='codebrowser/src/socket.c' l='404' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='521' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='540' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='571' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='636' u='c' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='732' u='c' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='774' u='c' c='vws_socket_write'/>
-<def f='codebrowser/src/socket.c' l='790' ll='828' type='void vws_socket_close(vws_socket * c)'/>
+<use f='codebrowser/src/socket.c' l='357' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='367' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='384' u='c' c='vws_socket_disconnect'/>
+<def f='codebrowser/src/socket.c' l='809' ll='847' type='void vws_socket_close(vws_socket * c)'/>

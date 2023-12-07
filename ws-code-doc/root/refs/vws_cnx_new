@@ -1,12 +1,12 @@
-<dec f='codebrowser/src/websocket.h' l='313' type='vws_cnx * vws_cnx_new()'/>
-<doc f='codebrowser/src/websocket.h' l='306'>/**
+<dec f='codebrowser/src/websocket.h' l='317' type='vws_cnx * vws_cnx_new()'/>
+<doc f='codebrowser/src/websocket.h' l='310'>/**
  * @brief Allocates a new websocket connection.
  *
  * @return A pointer to the new connection instance.
  *
  * @ingroup ConnectionFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1633' u='c' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1629' u='c' c='ws_svr_client_connect'/>
 <use f='codebrowser/src/test/test_example.c' l='6' u='c' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='50' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='19' u='c' c='ctest_test_setup'/>

@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/websocket.h' l='70' type='unsigned char'/>
+<dec f='codebrowser/src/websocket.h' l='74' type='unsigned char'/>
 <offset>16</offset>
-<doc f='codebrowser/src/websocket.h' l='69'>/**&lt; Defines whether the payload is masked. */</doc>
-<use f='codebrowser/src/server.c' l='1829' u='w' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/websocket.h' l='73'>/**&lt; Defines whether the payload is masked. */</doc>
+<use f='codebrowser/src/server.c' l='1825' u='w' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/websocket.c' l='713' u='w' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='826' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='843' u='r' c='vws_serialize'/>

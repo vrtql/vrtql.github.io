@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='72' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
+<dec f='codebrowser/src/message.h' l='76' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
 <def f='codebrowser/src/message.c' l='432' ll='435' type='cstr vrtql_msg_get_header(vrtql_msg * msg, cstr key)'/>
-<doc f='codebrowser/src/message.h' l='64'>/**
+<doc f='codebrowser/src/message.h' l='68'>/**
  * @brief Gets a header value by key.
  * @param msg The vrtql_msg instance.
  * @param key The header key.

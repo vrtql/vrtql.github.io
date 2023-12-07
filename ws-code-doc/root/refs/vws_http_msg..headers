@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/http_message.h' l='20' type='struct sc_map_str'/>
+<dec f='codebrowser/src/http_message.h' l='24' type='struct sc_map_str'/>
 <use f='codebrowser/src/http_message.c' l='98' u='a' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='131' u='a' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='144' u='a' c='vws_http_msg_free'/>
@@ -7,8 +7,8 @@
 <use f='codebrowser/src/http_message.c' l='144' u='a' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='150' u='a' c='vws_http_msg_free'/>
 <offset>128</offset>
-<doc f='codebrowser/src/http_message.h' l='19'>/**&lt; A map storing header fields. */</doc>
-<use f='codebrowser/src/server.c' l='1713' u='a' c='ws_svr_client_read'/>
+<doc f='codebrowser/src/http_message.h' l='23'>/**&lt; A map storing header fields. */</doc>
+<use f='codebrowser/src/server.c' l='1709' u='a' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_http_request.c' l='24' u='a' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='24' u='a' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='24' u='a' c='ctest_test_rpc_call_run'/>

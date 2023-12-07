@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/url.h' l='114' type='_Bool url_is_ssh(const char * str)'/>
+<dec f='codebrowser/src/url.h' l='118' type='_Bool url_is_ssh(const char * str)'/>
 <use f='codebrowser/src/url.c' l='109' u='c' c='url_parse'/>
 <def f='codebrowser/src/url.c' l='214' ll='220' macro='1' type='_Bool url_is_ssh(const char * str)'/>
 <use f='codebrowser/src/url.c' l='261' u='c' c='url_get_hostname'/>

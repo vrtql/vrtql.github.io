@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='221' type='int'/>
+<dec f='codebrowser/src/server.h' l='225' type='int'/>
 <use f='codebrowser/src/server.c' l='712' u='r' c='uv_thread'/>
 <use f='codebrowser/src/server.c' l='819' u='r' c='vws_tcp_svr_run'/>
 <use f='codebrowser/src/server.c' l='822' u='r' c='vws_tcp_svr_run'/>
@@ -6,4 +6,4 @@
 <use f='codebrowser/src/server.c' l='949' u='r' c='vws_tcp_svr_inetd_run'/>
 <use f='codebrowser/src/server.c' l='1070' u='w' c='tcp_svr_ctor'/>
 <offset>2272</offset>
-<doc f='codebrowser/src/server.h' l='220'>/**&lt; Number of threads in the worker pool */</doc>
+<doc f='codebrowser/src/server.h' l='224'>/**&lt; Number of threads in the worker pool */</doc>

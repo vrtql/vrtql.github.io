@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/message.h' l='36' type='uint64_t'/>
+<dec f='codebrowser/src/message.h' l='40' type='uint64_t'/>
 <use f='codebrowser/src/message.c' l='45' u='w' c='vrtql_msg_new'/>
 <use f='codebrowser/src/message.c' l='48' u='a' c='vrtql_msg_new'/>
 <offset>576</offset>
-<doc f='codebrowser/src/message.h' l='36'>/**&lt; Message state flags                */</doc>
+<doc f='codebrowser/src/message.h' l='40'>/**&lt; Message state flags                */</doc>

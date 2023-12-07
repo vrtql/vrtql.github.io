@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/websocket.h' l='242' type='uint64_t'/>
-<offset>448</offset>
-<doc f='codebrowser/src/websocket.h' l='241'>/**&lt; Connection state flags. */</doc>
+<dec f='codebrowser/src/websocket.h' l='246' type='uint64_t'/>
+<offset>512</offset>
+<doc f='codebrowser/src/websocket.h' l='245'>/**&lt; Connection state flags. */</doc>
 <use f='codebrowser/src/websocket.c' l='302' u='w' c='vws_cnx_new'/>
 <use f='codebrowser/src/websocket.c' l='349' u='a' c='vws_cnx_set_server_mode'/>
 <use f='codebrowser/src/websocket.c' l='556' u='w' c='vws_disconnect'/>

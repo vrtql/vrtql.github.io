@@ -1,5 +1,5 @@
 <dec f='include/openssl/ssl.h' l='1183'/>
-<use f='codebrowser/src/socket.c' l='469' u='c'/>
-<use f='codebrowser/src/socket.c' l='481' u='c'/>
-<use f='codebrowser/src/socket.c' l='686' u='c'/>
+<use f='codebrowser/src/socket.c' l='488' u='c'/>
+<use f='codebrowser/src/socket.c' l='500' u='c'/>
+<use f='codebrowser/src/socket.c' l='705' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='20' u='c'/>

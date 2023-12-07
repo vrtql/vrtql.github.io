@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.h' l='324' type='void vws_tcp_svr_inetd_stop(vws_tcp_svr * server)'/>
+<dec f='codebrowser/src/server.h' l='328' type='void vws_tcp_svr_inetd_stop(vws_tcp_svr * server)'/>
 <def f='codebrowser/src/server.c' l='1014' ll='1051' type='void vws_tcp_svr_inetd_stop(vws_tcp_svr * server)'/>
-<use f='codebrowser/src/server.c' l='1439' u='c' c='svr_on_close'/>
-<doc f='codebrowser/src/server.h' l='319'>/**
+<use f='codebrowser/src/server.c' l='1435' u='c' c='svr_on_close'/>
+<doc f='codebrowser/src/server.h' l='323'>/**
  * @brief Stops a VRTQL server running in inetd_mode.
  *
  * @param server The server to stop.

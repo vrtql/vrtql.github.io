@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='409' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
-<doc f='codebrowser/src/websocket.h' l='399'>/**
+<dec f='codebrowser/src/websocket.h' l='413' type='ssize_t vws_frame_send(vws_cnx * c, vws_frame * frame)'/>
+<doc f='codebrowser/src/websocket.h' l='403'>/**
  * @brief Sends a prebuilt websocket frame. This function will take ownership of
  * the frame and deallocate it for the caller.
  *

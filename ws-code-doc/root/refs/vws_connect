@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='284' type='_Bool vws_connect(vws_cnx * c, cstr uri)'/>
+<dec f='codebrowser/src/websocket.h' l='288' type='_Bool vws_connect(vws_cnx * c, cstr uri)'/>
 <use f='codebrowser/src/test/test_example.c' l='10' u='c' c='main'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='52' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='21' u='c' c='ctest_test_setup'/>

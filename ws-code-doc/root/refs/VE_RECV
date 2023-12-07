@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/vws.h' l='30' type='32'/>
-<doc f='codebrowser/src/vws.h' l='30'>/**&lt; Socket receive error */</doc>
+<dec f='codebrowser/src/vws.h' l='34' type='32'/>
+<doc f='codebrowser/src/vws.h' l='34'>/**&lt; Socket receive error */</doc>
 <use f='codebrowser/src/rpc.c' l='198' u='r' c='vrtql_rpc_exec'/>

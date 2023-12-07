@@ -1,8 +1,8 @@
-<use f='codebrowser/src/server.h' l='72'/>
-<def f='codebrowser/src/server.h' l='125' ll='148'/>
-<use f='codebrowser/src/server.h' l='125'/>
+<use f='codebrowser/src/server.h' l='76'/>
+<def f='codebrowser/src/server.h' l='129' ll='152'/>
+<use f='codebrowser/src/server.h' l='129'/>
 <size>48</size>
-<doc f='codebrowser/src/server.h' l='122'>/**
+<doc f='codebrowser/src/server.h' l='126'>/**
  * @brief Represents a client connection.
  */</doc>
 <mbr r='vws_svr_cnx::server' o='0' t='struct vws_tcp_svr *'/>

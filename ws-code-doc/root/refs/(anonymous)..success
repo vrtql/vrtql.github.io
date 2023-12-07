@@ -1,16 +1,16 @@
-<dec f='codebrowser/src/vws.h' l='234' type='vws_error_clear_cb'/>
+<dec f='codebrowser/src/vws.h' l='238' type='vws_error_clear_cb'/>
 <offset>640</offset>
-<doc f='codebrowser/src/vws.h' l='234'>/**&lt; Error clear function        */</doc>
+<doc f='codebrowser/src/vws.h' l='238'>/**&lt; Error clear function        */</doc>
 <use f='codebrowser/src/rpc.c' l='181' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='428' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/server.c' l='1622' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/socket.c' l='198' u='r' c='socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='237' u='r' c='vws_socket_set_nonblocking'/>
-<use f='codebrowser/src/socket.c' l='354' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='368' u='r' c='vws_socket_disconnect'/>
-<use f='codebrowser/src/socket.c' l='374' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='592' u='r' c='vws_socket_write'/>
-<use f='codebrowser/src/socket.c' l='952' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/server.c' l='1618' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/socket.c' l='216' u='r' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='255' u='r' c='vws_socket_set_nonblocking'/>
+<use f='codebrowser/src/socket.c' l='372' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='386' u='r' c='vws_socket_disconnect'/>
+<use f='codebrowser/src/socket.c' l='392' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='611' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='971' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/vws.c' l='456' u='w'/>
 <use f='codebrowser/src/websocket.c' l='646' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='676' u='r' c='vws_msg_recv'/>

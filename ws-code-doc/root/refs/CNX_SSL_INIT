@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/socket.c' l='31' type='8'/>
-<use f='codebrowser/src/socket.c' l='266' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='292' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='284' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='310' u='r' c='vws_socket_connect'/>
 <doc f='codebrowser/src/socket.c' l='30'>/** The connection with the client is in the initial SSL handshake phase. */</doc>
 <dec f='codebrowser/src/websocket.c' l='33' type='8'/>
 <doc f='codebrowser/src/websocket.c' l='32'>/** The connection with the client is in the initial SSL handshake phase. */</doc>

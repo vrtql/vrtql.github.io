@@ -1,9 +1,10 @@
-<use f='codebrowser/src/socket.h' l='25'/>
-<def f='codebrowser/src/socket.h' l='30' ll='53'/>
-<use f='codebrowser/src/socket.h' l='30'/>
-<use f='codebrowser/src/websocket.h' l='239'/>
-<size>56</size>
-<doc f='codebrowser/src/socket.h' l='27'>/**
+<use f='codebrowser/src/socket.h' l='29'/>
+<use f='codebrowser/src/socket.h' l='41'/>
+<def f='codebrowser/src/socket.h' l='46' ll='72'/>
+<use f='codebrowser/src/socket.h' l='46'/>
+<use f='codebrowser/src/websocket.h' l='243'/>
+<size>64</size>
+<doc f='codebrowser/src/socket.h' l='43'>/**
  * @brief A socket
  */</doc>
 <mbr r='vws_socket::sockfd' o='0' t='int'/>
@@ -12,4 +13,5 @@
 <mbr r='vws_socket::timeout' o='192' t='int'/>
 <mbr r='vws_socket::data' o='256' t='char *'/>
 <mbr r='vws_socket::hs' o='320' t='vws_socket_hs'/>
-<mbr r='vws_socket::flush' o='384' t='_Bool'/>
+<mbr r='vws_socket::disconnect' o='384' t='vws_socket_dh'/>
+<mbr r='vws_socket::flush' o='448' t='_Bool'/>

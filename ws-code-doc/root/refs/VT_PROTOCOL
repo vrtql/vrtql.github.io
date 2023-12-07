@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/vws.h' l='44' type='4'/>
+<dec f='codebrowser/src/vws.h' l='48' type='4'/>
 <use f='codebrowser/src/test/test_example.c' l='19' u='r' c='main'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='26' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='45' u='r' c='ctest_test_setup'/>

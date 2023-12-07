@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='69' type='struct sc_map_item_sv *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='73' type='struct sc_map_item_sv *'/>
 <offset>0</offset>
 <use f='codebrowser/src/rpc.c' l='324' macro='1' u='r' c='vrtql_rpc_module_free'/>
 <use f='codebrowser/src/rpc.c' l='324' macro='1' u='r' c='vrtql_rpc_module_free'/>

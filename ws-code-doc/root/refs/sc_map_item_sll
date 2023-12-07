@@ -1,5 +1,5 @@
-<def f='codebrowser/src/util/sc_map.h' l='230' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='230' macro='1'/>
+<def f='codebrowser/src/util/sc_map.h' l='234' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='234' macro='1'/>
 <size>24</size>
 <mbr r='sc_map_item_sll::key' o='0' t='const char *'/>
 <mbr r='sc_map_item_sll::value' o='64' t='long long'/>

@@ -1,4 +1,4 @@
 <dec f='include/netdb.h' l='570' type='int'/>
 <offset>96</offset>
 <doc f='include/netdb.h' l='570'>/* Protocol for socket.  */</doc>
-<use f='codebrowser/src/socket.c' l='861' u='r' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='880' u='r' c='connect_to_host'/>

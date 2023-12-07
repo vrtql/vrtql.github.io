@@ -1,11 +1,11 @@
-<def f='codebrowser/src/util/sc_map.h' l='219' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_init_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_term_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_size_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_clear_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_put_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_get_llv'/>
-<use f='codebrowser/src/util/sc_map.h' l='219' macro='1' c='sc_map_del_llv'/>
+<def f='codebrowser/src/util/sc_map.h' l='223' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_init_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_term_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_size_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_clear_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_put_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_get_llv'/>
+<use f='codebrowser/src/util/sc_map.h' l='223' macro='1' c='sc_map_del_llv'/>
 <size>32</size>
 <mbr r='sc_map_llv::mem' o='0' t='struct sc_map_item_llv *'/>
 <mbr r='sc_map_llv::cap' o='64' t='uint32_t'/>

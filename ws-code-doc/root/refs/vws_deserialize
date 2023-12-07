@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='128' type='fs_t vws_deserialize(ucstr data, size_t size, vws_frame * f, size_t * consumed)'/>
-<doc f='codebrowser/src/websocket.h' l='114'>/**
+<dec f='codebrowser/src/websocket.h' l='132' type='fs_t vws_deserialize(ucstr data, size_t size, vws_frame * f, size_t * consumed)'/>
+<doc f='codebrowser/src/websocket.h' l='118'>/**
  * @brief Deserializes raw network data into a vws_frame, updating consumed
  *        with the number of bytes processed.
  *

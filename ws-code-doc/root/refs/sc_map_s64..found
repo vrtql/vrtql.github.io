@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='76' type='_Bool'/>
+<dec f='codebrowser/src/util/sc_map.h' l='80' type='_Bool'/>
 <offset>208</offset>
 <use f='codebrowser/src/util/sc_map.c' l='229' u='w' c='sc_map_put_s64'/>
 <use f='codebrowser/src/util/sc_map.c' l='249' u='w' c='sc_map_put_s64'/>

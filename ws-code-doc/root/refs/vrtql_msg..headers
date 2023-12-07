@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/message.h' l='34' type='struct sc_map_str'/>
+<dec f='codebrowser/src/message.h' l='38' type='struct sc_map_str'/>
 <use f='codebrowser/src/message.c' l='43' u='a' c='vrtql_msg_new'/>
 <use f='codebrowser/src/message.c' l='62' u='a' c='vrtql_msg_free'/>
 <use f='codebrowser/src/message.c' l='65' u='a' c='vrtql_msg_free'/>
@@ -20,7 +20,7 @@
 <use f='codebrowser/src/message.c' l='439' u='a' c='vrtql_msg_set_header'/>
 <use f='codebrowser/src/message.c' l='444' u='a' c='vrtql_msg_clear_header'/>
 <offset>256</offset>
-<doc f='codebrowser/src/message.h' l='34'>/**&lt; A map storing header fields.       */</doc>
+<doc f='codebrowser/src/message.h' l='38'>/**&lt; A map storing header fields.       */</doc>
 <use f='codebrowser/src/test/test_message.c' l='37' u='a' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='37' u='a' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='37' u='a' c='ctest_test_message_mpack_serialization_run'/>

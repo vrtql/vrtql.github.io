@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/util/sc_map.h' l='62' type='void *'/>
+<dec f='codebrowser/src/util/sc_map.h' l='66' type='void *'/>
 <offset>64</offset>
-<use f='codebrowser/src/server.c' l='1269' macro='1' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1267' macro='1' u='r' c='svr_cnx_map_clear'/>
 <use f='codebrowser/src/util/sc_map.c' l='75' u='w' c='sc_map_assign_64v'/>
 <use f='codebrowser/src/util/sc_map.c' l='228' u='r' c='sc_map_put_64v'/>
 <use f='codebrowser/src/util/sc_map.c' l='232' u='w' c='sc_map_put_64v'/>

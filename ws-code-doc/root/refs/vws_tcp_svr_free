@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='297' type='void vws_tcp_svr_free(vws_tcp_svr * s)'/>
+<dec f='codebrowser/src/server.h' l='301' type='void vws_tcp_svr_free(vws_tcp_svr * s)'/>
 <def f='codebrowser/src/server.c' l='791' ll='800' type='void vws_tcp_svr_free(vws_tcp_svr * server)'/>
-<doc f='codebrowser/src/server.h' l='292'>/**
+<doc f='codebrowser/src/server.h' l='296'>/**
  * @brief Frees the resources allocated to a VRTQL server.
  *
  * @param s The server to free.

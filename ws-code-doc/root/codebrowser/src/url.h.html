@@ -23,120 +23,127 @@
 <tr><th id="9">9</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
 <tr><th id="10">10</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
 <tr><th id="11">11</th><td></td></tr>
-<tr><th id="12">12</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="13">13</th><td><i class="doc"> * url.h version</i></td></tr>
-<tr><th id="14">14</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="12">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="13">13</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="14">14</th><td><u>#<span data-ppcond="12">endif</span></u></td></tr>
 <tr><th id="15">15</th><td></td></tr>
-<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/URL_VERSION" data-ref="_M/URL_VERSION">URL_VERSION</dfn> 0.2.1</u></td></tr>
-<tr><th id="17">17</th><td></td></tr>
-<tr><th id="18">18</th><td></td></tr>
-<tr><th id="19">19</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="20">20</th><td><i class="doc"> * Max length of a url protocol scheme</i></td></tr>
-<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="16">16</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="17">17</th><td><i class="doc"> * url.h version</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/URL_VERSION" data-ref="_M/URL_VERSION">URL_VERSION</dfn> 0.2.1</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
 <tr><th id="22">22</th><td></td></tr>
-<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/URL_PROTOCOL_MAX_LENGTH" data-ref="_M/URL_PROTOCOL_MAX_LENGTH">URL_PROTOCOL_MAX_LENGTH</dfn> 32</u></td></tr>
-<tr><th id="24">24</th><td></td></tr>
-<tr><th id="25">25</th><td></td></tr>
-<tr><th id="26">26</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="27">27</th><td><i class="doc"> * Max length of a url host part</i></td></tr>
-<tr><th id="28">28</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="23">23</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="24">24</th><td><i class="doc"> * Max length of a url protocol scheme</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/URL_PROTOCOL_MAX_LENGTH" data-ref="_M/URL_PROTOCOL_MAX_LENGTH">URL_PROTOCOL_MAX_LENGTH</dfn> 32</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
 <tr><th id="29">29</th><td></td></tr>
-<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/URL_HOSTNAME_MAX_LENGTH" data-ref="_M/URL_HOSTNAME_MAX_LENGTH">URL_HOSTNAME_MAX_LENGTH</dfn> 128</u></td></tr>
-<tr><th id="31">31</th><td></td></tr>
-<tr><th id="32">32</th><td></td></tr>
-<tr><th id="33">33</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="34">34</th><td><i class="doc"> * Max length of a url tld part</i></td></tr>
-<tr><th id="35">35</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="30">30</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="31">31</th><td><i class="doc"> * Max length of a url host part</i></td></tr>
+<tr><th id="32">32</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/URL_HOSTNAME_MAX_LENGTH" data-ref="_M/URL_HOSTNAME_MAX_LENGTH">URL_HOSTNAME_MAX_LENGTH</dfn> 128</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
 <tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/URL_TLD_MAX_LENGTH" data-ref="_M/URL_TLD_MAX_LENGTH">URL_TLD_MAX_LENGTH</dfn> 16</u></td></tr>
-<tr><th id="38">38</th><td></td></tr>
-<tr><th id="39">39</th><td></td></tr>
-<tr><th id="40">40</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="41">41</th><td><i class="doc"> * Max length of a url auth part</i></td></tr>
-<tr><th id="42">42</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="37">37</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="38">38</th><td><i class="doc"> * Max length of a url tld part</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/URL_TLD_MAX_LENGTH" data-ref="_M/URL_TLD_MAX_LENGTH">URL_TLD_MAX_LENGTH</dfn> 16</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
 <tr><th id="43">43</th><td></td></tr>
-<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/URL_AUTH_MAX_LENGTH" data-ref="_M/URL_AUTH_MAX_LENGTH">URL_AUTH_MAX_LENGTH</dfn> 32</u></td></tr>
-<tr><th id="45">45</th><td></td></tr>
-<tr><th id="46">46</th><td></td></tr>
-<tr><th id="47">47</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="48">48</th><td><i class="doc"> * `url_data` struct that defines parts</i></td></tr>
-<tr><th id="49">49</th><td><i class="doc"> * of a parsed URL such as host and protocol</i></td></tr>
-<tr><th id="50">50</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="51">51</th><td></td></tr>
-<tr><th id="52">52</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="url_data" title='url_data' data-ref="url_data" data-ref-filename="url_data"><a class="type" href="#url_data" title='url_data' data-ref="url_data" data-ref-filename="url_data">url_data</a></dfn> {</td></tr>
-<tr><th id="53">53</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::href" title='url_data::href' data-ref="url_data::href" data-ref-filename="url_data..href">href</dfn>;</td></tr>
-<tr><th id="54">54</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::protocol" title='url_data::protocol' data-ref="url_data::protocol" data-ref-filename="url_data..protocol">protocol</dfn>;</td></tr>
-<tr><th id="55">55</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::host" title='url_data::host' data-ref="url_data::host" data-ref-filename="url_data..host">host</dfn>;</td></tr>
-<tr><th id="56">56</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::auth" title='url_data::auth' data-ref="url_data::auth" data-ref-filename="url_data..auth">auth</dfn>;</td></tr>
-<tr><th id="57">57</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::hostname" title='url_data::hostname' data-ref="url_data::hostname" data-ref-filename="url_data..hostname">hostname</dfn>;</td></tr>
-<tr><th id="58">58</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::pathname" title='url_data::pathname' data-ref="url_data::pathname" data-ref-filename="url_data..pathname">pathname</dfn>;</td></tr>
-<tr><th id="59">59</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::search" title='url_data::search' data-ref="url_data::search" data-ref-filename="url_data..search">search</dfn>;</td></tr>
-<tr><th id="60">60</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::path" title='url_data::path' data-ref="url_data::path" data-ref-filename="url_data..path">path</dfn>;</td></tr>
-<tr><th id="61">61</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::hash" title='url_data::hash' data-ref="url_data::hash" data-ref-filename="url_data..hash">hash</dfn>;</td></tr>
-<tr><th id="62">62</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::query" title='url_data::query' data-ref="url_data::query" data-ref-filename="url_data..query">query</dfn>;</td></tr>
-<tr><th id="63">63</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::port" title='url_data::port' data-ref="url_data::port" data-ref-filename="url_data..port">port</dfn>;</td></tr>
-<tr><th id="64">64</th><td>} <dfn class="typedef" id="url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</dfn>;</td></tr>
-<tr><th id="65">65</th><td></td></tr>
-<tr><th id="66">66</th><td></td></tr>
-<tr><th id="67">67</th><td><i>// prototype</i></td></tr>
-<tr><th id="68">68</th><td></td></tr>
-<tr><th id="69">69</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="70">70</th><td><i class="doc"> * Parses a url into parts and returns</i></td></tr>
-<tr><th id="71">71</th><td><i class="doc"> * a `url_data_t *` pointer</i></td></tr>
-<tr><th id="72">72</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="73">73</th><td></td></tr>
-<tr><th id="74">74</th><td><a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a> *</td></tr>
-<tr><th id="75">75</th><td><dfn class="decl fn" id="url_parse" title='url_parse' data-ref="url_parse" data-ref-filename="url_parse">url_parse</dfn> (<em>char</em>* <dfn class="local col3 decl" id="363url" title='url' data-type='char *' data-ref="363url" data-ref-filename="363url">url</dfn>);</td></tr>
-<tr><th id="76">76</th><td></td></tr>
-<tr><th id="77">77</th><td><em>char</em> *</td></tr>
-<tr><th id="78">78</th><td><dfn class="decl fn" id="url_get_protocol" title='url_get_protocol' data-ref="url_get_protocol" data-ref-filename="url_get_protocol">url_get_protocol</dfn> (<em>const</em> <em>char</em>* <dfn class="local col4 decl" id="364url" title='url' data-type='const char *' data-ref="364url" data-ref-filename="364url">url</dfn>);</td></tr>
-<tr><th id="79">79</th><td></td></tr>
-<tr><th id="80">80</th><td><em>char</em> *</td></tr>
-<tr><th id="81">81</th><td><dfn class="decl fn" id="url_get_auth" title='url_get_auth' data-ref="url_get_auth" data-ref-filename="url_get_auth">url_get_auth</dfn> (<em>const</em> <em>char</em>* <dfn class="local col5 decl" id="365url" title='url' data-type='const char *' data-ref="365url" data-ref-filename="365url">url</dfn>);</td></tr>
-<tr><th id="82">82</th><td></td></tr>
-<tr><th id="83">83</th><td><em>char</em> *</td></tr>
-<tr><th id="84">84</th><td><dfn class="decl fn" id="url_get_hostname" title='url_get_hostname' data-ref="url_get_hostname" data-ref-filename="url_get_hostname">url_get_hostname</dfn> (<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="366url" title='url' data-type='const char *' data-ref="366url" data-ref-filename="366url">url</dfn>);</td></tr>
-<tr><th id="85">85</th><td></td></tr>
-<tr><th id="86">86</th><td><em>char</em> *</td></tr>
-<tr><th id="87">87</th><td><dfn class="decl fn" id="url_get_host" title='url_get_host' data-ref="url_get_host" data-ref-filename="url_get_host">url_get_host</dfn> (<em>const</em> <em>char</em>* <dfn class="local col7 decl" id="367url" title='url' data-type='const char *' data-ref="367url" data-ref-filename="367url">url</dfn>);</td></tr>
-<tr><th id="88">88</th><td></td></tr>
-<tr><th id="89">89</th><td><em>char</em> *</td></tr>
-<tr><th id="90">90</th><td><dfn class="decl fn" id="url_get_pathname" title='url_get_pathname' data-ref="url_get_pathname" data-ref-filename="url_get_pathname">url_get_pathname</dfn> (<em>const</em> <em>char</em>* <dfn class="local col8 decl" id="368url" title='url' data-type='const char *' data-ref="368url" data-ref-filename="368url">url</dfn>);</td></tr>
-<tr><th id="91">91</th><td></td></tr>
-<tr><th id="92">92</th><td><em>char</em> *</td></tr>
-<tr><th id="93">93</th><td><dfn class="decl fn" id="url_get_path" title='url_get_path' data-ref="url_get_path" data-ref-filename="url_get_path">url_get_path</dfn> (<em>const</em> <em>char</em>* <dfn class="local col9 decl" id="369url" title='url' data-type='const char *' data-ref="369url" data-ref-filename="369url">url</dfn>);</td></tr>
-<tr><th id="94">94</th><td></td></tr>
-<tr><th id="95">95</th><td><em>char</em> *</td></tr>
-<tr><th id="96">96</th><td><dfn class="decl fn" id="url_get_search" title='url_get_search' data-ref="url_get_search" data-ref-filename="url_get_search">url_get_search</dfn> (<em>const</em> <em>char</em>* <dfn class="local col0 decl" id="370url" title='url' data-type='const char *' data-ref="370url" data-ref-filename="370url">url</dfn>);</td></tr>
-<tr><th id="97">97</th><td></td></tr>
-<tr><th id="98">98</th><td><em>char</em> *</td></tr>
-<tr><th id="99">99</th><td><dfn class="decl fn" id="url_get_query" title='url_get_query' data-ref="url_get_query" data-ref-filename="url_get_query">url_get_query</dfn> (<em>const</em> <em>char</em>* <dfn class="local col1 decl" id="371url" title='url' data-type='const char *' data-ref="371url" data-ref-filename="371url">url</dfn>);</td></tr>
-<tr><th id="100">100</th><td></td></tr>
-<tr><th id="101">101</th><td><em>char</em> *</td></tr>
-<tr><th id="102">102</th><td><dfn class="decl fn" id="url_get_hash" title='url_get_hash' data-ref="url_get_hash" data-ref-filename="url_get_hash">url_get_hash</dfn> (<em>const</em> <em>char</em>* <dfn class="local col2 decl" id="372url" title='url' data-type='const char *' data-ref="372url" data-ref-filename="372url">url</dfn>);</td></tr>
-<tr><th id="103">103</th><td></td></tr>
-<tr><th id="104">104</th><td><em>char</em> *</td></tr>
-<tr><th id="105">105</th><td><dfn class="decl fn" id="url_get_port" title='url_get_port' data-ref="url_get_port" data-ref-filename="url_get_port">url_get_port</dfn> (<em>const</em> <em>char</em>* <dfn class="local col3 decl" id="373url" title='url' data-type='const char *' data-ref="373url" data-ref-filename="373url">url</dfn>);</td></tr>
-<tr><th id="106">106</th><td></td></tr>
-<tr><th id="107">107</th><td><em>void</em></td></tr>
-<tr><th id="108">108</th><td><dfn class="decl fn" id="url_free" title='url_free' data-ref="url_free" data-ref-filename="url_free">url_free</dfn> (<a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a>* <dfn class="local col4 decl" id="374data" title='data' data-type='url_data_t *' data-ref="374data" data-ref-filename="374data">data</dfn>);</td></tr>
-<tr><th id="109">109</th><td></td></tr>
-<tr><th id="110">110</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span></td></tr>
-<tr><th id="111">111</th><td><dfn class="decl fn" id="url_is_protocol" title='url_is_protocol' data-ref="url_is_protocol" data-ref-filename="url_is_protocol">url_is_protocol</dfn> (<em>const</em> <em>char</em>* <dfn class="local col5 decl" id="375str" title='str' data-type='const char *' data-ref="375str" data-ref-filename="375str">str</dfn>);</td></tr>
-<tr><th id="112">112</th><td></td></tr>
-<tr><th id="113">113</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span></td></tr>
-<tr><th id="114">114</th><td><dfn class="decl fn" id="url_is_ssh" title='url_is_ssh' data-ref="url_is_ssh" data-ref-filename="url_is_ssh">url_is_ssh</dfn> (<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="376str" title='str' data-type='const char *' data-ref="376str" data-ref-filename="376str">str</dfn>);</td></tr>
-<tr><th id="115">115</th><td></td></tr>
-<tr><th id="116">116</th><td><em>void</em></td></tr>
-<tr><th id="117">117</th><td><dfn class="decl fn" id="url_inspect" title='url_inspect' data-ref="url_inspect" data-ref-filename="url_inspect">url_inspect</dfn> (<em>char</em>* <dfn class="local col7 decl" id="377url" title='url' data-type='char *' data-ref="377url" data-ref-filename="377url">url</dfn>);</td></tr>
-<tr><th id="118">118</th><td></td></tr>
-<tr><th id="119">119</th><td><em>void</em></td></tr>
-<tr><th id="120">120</th><td><dfn class="decl fn" id="url_data_inspect" title='url_data_inspect' data-ref="url_data_inspect" data-ref-filename="url_data_inspect">url_data_inspect</dfn> (<em>const</em> <a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a>* <dfn class="local col8 decl" id="378data" title='data' data-type='const url_data_t *' data-ref="378data" data-ref-filename="378data">data</dfn>);</td></tr>
-<tr><th id="121">121</th><td></td></tr>
+<tr><th id="44">44</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc"> * Max length of a url auth part</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/URL_AUTH_MAX_LENGTH" data-ref="_M/URL_AUTH_MAX_LENGTH">URL_AUTH_MAX_LENGTH</dfn> 32</u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc"> * `url_data` struct that defines parts</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc"> * of a parsed URL such as host and protocol</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="url_data" title='url_data' data-ref="url_data" data-ref-filename="url_data"><a class="type" href="#url_data" title='url_data' data-ref="url_data" data-ref-filename="url_data">url_data</a></dfn> {</td></tr>
+<tr><th id="57">57</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::href" title='url_data::href' data-ref="url_data::href" data-ref-filename="url_data..href">href</dfn>;</td></tr>
+<tr><th id="58">58</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::protocol" title='url_data::protocol' data-ref="url_data::protocol" data-ref-filename="url_data..protocol">protocol</dfn>;</td></tr>
+<tr><th id="59">59</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::host" title='url_data::host' data-ref="url_data::host" data-ref-filename="url_data..host">host</dfn>;</td></tr>
+<tr><th id="60">60</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::auth" title='url_data::auth' data-ref="url_data::auth" data-ref-filename="url_data..auth">auth</dfn>;</td></tr>
+<tr><th id="61">61</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::hostname" title='url_data::hostname' data-ref="url_data::hostname" data-ref-filename="url_data..hostname">hostname</dfn>;</td></tr>
+<tr><th id="62">62</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::pathname" title='url_data::pathname' data-ref="url_data::pathname" data-ref-filename="url_data..pathname">pathname</dfn>;</td></tr>
+<tr><th id="63">63</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::search" title='url_data::search' data-ref="url_data::search" data-ref-filename="url_data..search">search</dfn>;</td></tr>
+<tr><th id="64">64</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::path" title='url_data::path' data-ref="url_data::path" data-ref-filename="url_data..path">path</dfn>;</td></tr>
+<tr><th id="65">65</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::hash" title='url_data::hash' data-ref="url_data::hash" data-ref-filename="url_data..hash">hash</dfn>;</td></tr>
+<tr><th id="66">66</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::query" title='url_data::query' data-ref="url_data::query" data-ref-filename="url_data..query">query</dfn>;</td></tr>
+<tr><th id="67">67</th><td>  <em>char</em> *<dfn class="decl field" id="url_data::port" title='url_data::port' data-ref="url_data::port" data-ref-filename="url_data..port">port</dfn>;</td></tr>
+<tr><th id="68">68</th><td>} <dfn class="typedef" id="url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</dfn>;</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><i>// prototype</i></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="74">74</th><td><i class="doc"> * Parses a url into parts and returns</i></td></tr>
+<tr><th id="75">75</th><td><i class="doc"> * a `url_data_t *` pointer</i></td></tr>
+<tr><th id="76">76</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td><a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a> *</td></tr>
+<tr><th id="79">79</th><td><dfn class="decl fn" id="url_parse" title='url_parse' data-ref="url_parse" data-ref-filename="url_parse">url_parse</dfn> (<em>char</em>* <dfn class="local col3 decl" id="363url" title='url' data-type='char *' data-ref="363url" data-ref-filename="363url">url</dfn>);</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><em>char</em> *</td></tr>
+<tr><th id="82">82</th><td><dfn class="decl fn" id="url_get_protocol" title='url_get_protocol' data-ref="url_get_protocol" data-ref-filename="url_get_protocol">url_get_protocol</dfn> (<em>const</em> <em>char</em>* <dfn class="local col4 decl" id="364url" title='url' data-type='const char *' data-ref="364url" data-ref-filename="364url">url</dfn>);</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><em>char</em> *</td></tr>
+<tr><th id="85">85</th><td><dfn class="decl fn" id="url_get_auth" title='url_get_auth' data-ref="url_get_auth" data-ref-filename="url_get_auth">url_get_auth</dfn> (<em>const</em> <em>char</em>* <dfn class="local col5 decl" id="365url" title='url' data-type='const char *' data-ref="365url" data-ref-filename="365url">url</dfn>);</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><em>char</em> *</td></tr>
+<tr><th id="88">88</th><td><dfn class="decl fn" id="url_get_hostname" title='url_get_hostname' data-ref="url_get_hostname" data-ref-filename="url_get_hostname">url_get_hostname</dfn> (<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="366url" title='url' data-type='const char *' data-ref="366url" data-ref-filename="366url">url</dfn>);</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>char</em> *</td></tr>
+<tr><th id="91">91</th><td><dfn class="decl fn" id="url_get_host" title='url_get_host' data-ref="url_get_host" data-ref-filename="url_get_host">url_get_host</dfn> (<em>const</em> <em>char</em>* <dfn class="local col7 decl" id="367url" title='url' data-type='const char *' data-ref="367url" data-ref-filename="367url">url</dfn>);</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><em>char</em> *</td></tr>
+<tr><th id="94">94</th><td><dfn class="decl fn" id="url_get_pathname" title='url_get_pathname' data-ref="url_get_pathname" data-ref-filename="url_get_pathname">url_get_pathname</dfn> (<em>const</em> <em>char</em>* <dfn class="local col8 decl" id="368url" title='url' data-type='const char *' data-ref="368url" data-ref-filename="368url">url</dfn>);</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><em>char</em> *</td></tr>
+<tr><th id="97">97</th><td><dfn class="decl fn" id="url_get_path" title='url_get_path' data-ref="url_get_path" data-ref-filename="url_get_path">url_get_path</dfn> (<em>const</em> <em>char</em>* <dfn class="local col9 decl" id="369url" title='url' data-type='const char *' data-ref="369url" data-ref-filename="369url">url</dfn>);</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td><em>char</em> *</td></tr>
+<tr><th id="100">100</th><td><dfn class="decl fn" id="url_get_search" title='url_get_search' data-ref="url_get_search" data-ref-filename="url_get_search">url_get_search</dfn> (<em>const</em> <em>char</em>* <dfn class="local col0 decl" id="370url" title='url' data-type='const char *' data-ref="370url" data-ref-filename="370url">url</dfn>);</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><em>char</em> *</td></tr>
+<tr><th id="103">103</th><td><dfn class="decl fn" id="url_get_query" title='url_get_query' data-ref="url_get_query" data-ref-filename="url_get_query">url_get_query</dfn> (<em>const</em> <em>char</em>* <dfn class="local col1 decl" id="371url" title='url' data-type='const char *' data-ref="371url" data-ref-filename="371url">url</dfn>);</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><em>char</em> *</td></tr>
+<tr><th id="106">106</th><td><dfn class="decl fn" id="url_get_hash" title='url_get_hash' data-ref="url_get_hash" data-ref-filename="url_get_hash">url_get_hash</dfn> (<em>const</em> <em>char</em>* <dfn class="local col2 decl" id="372url" title='url' data-type='const char *' data-ref="372url" data-ref-filename="372url">url</dfn>);</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><em>char</em> *</td></tr>
+<tr><th id="109">109</th><td><dfn class="decl fn" id="url_get_port" title='url_get_port' data-ref="url_get_port" data-ref-filename="url_get_port">url_get_port</dfn> (<em>const</em> <em>char</em>* <dfn class="local col3 decl" id="373url" title='url' data-type='const char *' data-ref="373url" data-ref-filename="373url">url</dfn>);</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><em>void</em></td></tr>
+<tr><th id="112">112</th><td><dfn class="decl fn" id="url_free" title='url_free' data-ref="url_free" data-ref-filename="url_free">url_free</dfn> (<a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a>* <dfn class="local col4 decl" id="374data" title='data' data-type='url_data_t *' data-ref="374data" data-ref-filename="374data">data</dfn>);</td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span></td></tr>
+<tr><th id="115">115</th><td><dfn class="decl fn" id="url_is_protocol" title='url_is_protocol' data-ref="url_is_protocol" data-ref-filename="url_is_protocol">url_is_protocol</dfn> (<em>const</em> <em>char</em>* <dfn class="local col5 decl" id="375str" title='str' data-type='const char *' data-ref="375str" data-ref-filename="375str">str</dfn>);</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span></td></tr>
+<tr><th id="118">118</th><td><dfn class="decl fn" id="url_is_ssh" title='url_is_ssh' data-ref="url_is_ssh" data-ref-filename="url_is_ssh">url_is_ssh</dfn> (<em>const</em> <em>char</em>* <dfn class="local col6 decl" id="376str" title='str' data-type='const char *' data-ref="376str" data-ref-filename="376str">str</dfn>);</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td><em>void</em></td></tr>
+<tr><th id="121">121</th><td><dfn class="decl fn" id="url_inspect" title='url_inspect' data-ref="url_inspect" data-ref-filename="url_inspect">url_inspect</dfn> (<em>char</em>* <dfn class="local col7 decl" id="377url" title='url' data-type='char *' data-ref="377url" data-ref-filename="377url">url</dfn>);</td></tr>
 <tr><th id="122">122</th><td></td></tr>
-<tr><th id="123">123</th><td><u>#<span data-ppcond="1">endif</span></u></td></tr>
-<tr><th id="124">124</th><td></td></tr>
+<tr><th id="123">123</th><td><em>void</em></td></tr>
+<tr><th id="124">124</th><td><dfn class="decl fn" id="url_data_inspect" title='url_data_inspect' data-ref="url_data_inspect" data-ref-filename="url_data_inspect">url_data_inspect</dfn> (<em>const</em> <a class="typedef" href="#url_data_t" title='url_data_t' data-type='struct url_data' data-ref="url_data_t" data-ref-filename="url_data_t">url_data_t</a>* <dfn class="local col8 decl" id="378data" title='data' data-type='const url_data_t *' data-ref="378data" data-ref-filename="378data">data</dfn>);</td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="126">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="127">127</th><td>}</td></tr>
+<tr><th id="128">128</th><td><u>#<span data-ppcond="126">endif</span></u></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="1">endif</span></u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='test/test_common.c.html'>codebrowser/src/test/test_common.c</a><br/>Generated on <em>2023-Oct-18</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='test/test_common.c.html'>codebrowser/src/test/test_common.c</a><br/>Generated on <em>2023-Dec-07</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

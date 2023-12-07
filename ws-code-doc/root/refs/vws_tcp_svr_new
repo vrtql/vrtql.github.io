@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='290' type='vws_tcp_svr * vws_tcp_svr_new(int pool_size, int backlog, int queue_size)'/>
+<dec f='codebrowser/src/server.h' l='294' type='vws_tcp_svr * vws_tcp_svr_new(int pool_size, int backlog, int queue_size)'/>
 <def f='codebrowser/src/server.c' l='780' ll='784' type='vws_tcp_svr * vws_tcp_svr_new(int num_threads, int backlog, int queue_size)'/>
-<doc f='codebrowser/src/server.h' l='280'>/**
+<doc f='codebrowser/src/server.h' l='284'>/**
  * @brief Creates a new VRTQL server.
  *
  * @param pool_size The number of threads to run in the worker pool

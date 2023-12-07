@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vws.h' l='273' type='void vws_buffer_free(vws_buffer * buffer)'/>
+<dec f='codebrowser/src/vws.h' l='277' type='void vws_buffer_free(vws_buffer * buffer)'/>
 <use f='codebrowser/src/http_message.c' l='151' u='c' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='152' u='c' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='153' u='c' c='vws_http_msg_free'/>
 <use f='codebrowser/src/http_message.c' l='154' u='c' c='vws_http_msg_free'/>
-<doc f='codebrowser/src/vws.h' l='268'>/**
+<doc f='codebrowser/src/vws.h' l='272'>/**
  * @brief Frees a vrtql buffer.
  *
  * @param buffer The buffer to be freed
@@ -12,12 +12,12 @@
 <use f='codebrowser/src/message.c' l='136' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='429' u='c' c='vrtql_msg_dump'/>
 <use f='codebrowser/src/message.c' l='493' u='c' c='vrtql_msg_send'/>
-<use f='codebrowser/src/server.c' l='1569' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1598' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1747' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1842' u='c' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1971' u='c' c='msg_svr_client_msg_out'/>
-<use f='codebrowser/src/socket.c' l='98' u='c' c='vws_socket_dtor'/>
+<use f='codebrowser/src/server.c' l='1565' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1594' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1743' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1838' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1967' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/socket.c' l='104' u='c' c='vws_socket_dtor'/>
 <use f='codebrowser/src/test/test_common.c' l='102' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_message.c' l='27' u='c' c='ctest_test_message_mpack_serialization_run'/>
 <use f='codebrowser/src/test/test_message.c' l='67' u='c' c='ctest_test_message_json_serialization_run'/>

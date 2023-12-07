@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='269'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='258'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='273'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='262'>/**
  *  For each loop,
  *
  *  struct sc_queue_int queue;

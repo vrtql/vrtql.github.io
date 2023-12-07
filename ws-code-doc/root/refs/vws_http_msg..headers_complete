@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/http_message.h' l='35' type='_Bool'/>
+<dec f='codebrowser/src/http_message.h' l='39' type='_Bool'/>
 <use f='codebrowser/src/http_message.c' l='115' u='w' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='168' u='w' c='on_headers_complete'/>
 <offset>640</offset>
-<use f='codebrowser/src/server.c' l='1688' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1684' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/test/test_http_request.c' l='19' u='r' c='ctest_test_rpc_call_run'/>
 <use f='codebrowser/src/websocket.c' l='508' u='r' c='socket_handshake'/>

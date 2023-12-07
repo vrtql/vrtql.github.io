@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='419' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr string)'/>
-<doc f='codebrowser/src/websocket.h' l='411'>/**
+<dec f='codebrowser/src/websocket.h' l='423' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr string)'/>
+<doc f='codebrowser/src/websocket.h' l='415'>/**
  * @brief Sends a TEXT message
  *
  * @param c The connection.

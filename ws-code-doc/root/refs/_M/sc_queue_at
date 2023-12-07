@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='186'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='176'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='190'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='180'>/**
  *   Returns element at index &apos;i&apos;, so regular loops are possible :
  *
  *   for (size_t i = 0; i &lt; sc_queue_size(q); i++) {

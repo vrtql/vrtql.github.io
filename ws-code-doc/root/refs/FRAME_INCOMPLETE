@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='25' type='0'/>
-<doc f='codebrowser/src/websocket.h' l='24'>/** Not all of the frame data has been received or processed. */</doc>
+<dec f='codebrowser/src/websocket.h' l='29' type='0'/>
+<doc f='codebrowser/src/websocket.h' l='28'>/** Not all of the frame data has been received or processed. */</doc>
 <use f='codebrowser/src/websocket.c' l='894' u='r' c='vws_deserialize'/>
 <use f='codebrowser/src/websocket.c' l='921' u='r' c='vws_deserialize'/>
 <use f='codebrowser/src/websocket.c' l='942' u='r' c='vws_deserialize'/>

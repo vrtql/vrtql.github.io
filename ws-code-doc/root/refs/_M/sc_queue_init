@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='101'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='97'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='105'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='101'>/**
  *   Init queue. Call sc_queue_oom(q) to see if memory allocation succeeded.
  *   @param q queue
  */</doc>

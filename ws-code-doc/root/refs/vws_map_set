@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='354' type='void vws_map_set(struct sc_map_str * map, cstr key, cstr value)'/>
+<dec f='codebrowser/src/vws.h' l='358' type='void vws_map_set(struct sc_map_str * map, cstr key, cstr value)'/>
 <use f='codebrowser/src/http_message.c' l='98' u='c' c='process_header'/>
-<doc f='codebrowser/src/vws.h' l='345'>/**
+<doc f='codebrowser/src/vws.h' l='349'>/**
  * @brief Sets a value in the map using a string key and value.
  *
  * It will create a new key-value pair or update the value if the key already exists.

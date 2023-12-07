@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/socket.h' l='67' type='vws_socket_dh'/>
+<offset>384</offset>
+<doc f='codebrowser/src/socket.h' l='66'>/**&lt; User-defined disconnect handler to be called on disconnect */</doc>
+<use f='codebrowser/src/socket.c' l='83' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='122' u='r' c='socket_abnormal_close'/>
+<use f='codebrowser/src/socket.c' l='125' u='r' c='socket_abnormal_close'/>

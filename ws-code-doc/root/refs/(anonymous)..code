@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='57' type='uint64_t'/>
+<dec f='codebrowser/src/vws.h' l='61' type='uint64_t'/>
 <offset>0</offset>
-<doc f='codebrowser/src/vws.h' l='57'>/**&lt; Error code */</doc>
+<doc f='codebrowser/src/vws.h' l='61'>/**&lt; Error code */</doc>
 <use f='codebrowser/src/rpc.c' l='95' u='w' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/rpc.c' l='136' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='148' u='a' c='vrtql_rpc_exec'/>

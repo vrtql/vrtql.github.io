@@ -1,11 +1,11 @@
-<def f='codebrowser/src/util/sc_map.h' l='216' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_init_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_term_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_size_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_clear_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_put_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_get_intv'/>
-<use f='codebrowser/src/util/sc_map.h' l='216' macro='1' c='sc_map_del_intv'/>
+<def f='codebrowser/src/util/sc_map.h' l='220' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_init_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_term_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_size_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_clear_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_put_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_get_intv'/>
+<use f='codebrowser/src/util/sc_map.h' l='220' macro='1' c='sc_map_del_intv'/>
 <size>32</size>
 <mbr r='sc_map_intv::mem' o='0' t='struct sc_map_item_intv *'/>
 <mbr r='sc_map_intv::cap' o='64' t='uint32_t'/>

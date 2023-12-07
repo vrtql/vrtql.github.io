@@ -5,7 +5,7 @@
    microsecond but also has a range of years.  */</doc>
 <mbr r='timeval::tv_sec' o='0' t='__time_t'/>
 <mbr r='timeval::tv_usec' o='64' t='__suseconds_t'/>
-<use f='codebrowser/src/socket.c' l='141' c='socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='159' c='socket_set_timeout'/>
 <size>16</size>
 <use f='include/x86_64-linux-gnu/sys/time.h' l='68' c='gettimeofday'/>
 <use f='include/x86_64-linux-gnu/sys/time.h' l='74' c='settimeofday'/>

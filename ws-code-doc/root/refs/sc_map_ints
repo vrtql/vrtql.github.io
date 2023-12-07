@@ -1,11 +1,11 @@
-<def f='codebrowser/src/util/sc_map.h' l='217' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_init_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_term_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_size_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_clear_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_put_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_get_ints'/>
-<use f='codebrowser/src/util/sc_map.h' l='217' macro='1' c='sc_map_del_ints'/>
+<def f='codebrowser/src/util/sc_map.h' l='221' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_init_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_term_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_size_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_clear_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_put_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_get_ints'/>
+<use f='codebrowser/src/util/sc_map.h' l='221' macro='1' c='sc_map_del_ints'/>
 <size>32</size>
 <mbr r='sc_map_ints::mem' o='0' t='struct sc_map_item_ints *'/>
 <mbr r='sc_map_ints::cap' o='64' t='uint32_t'/>

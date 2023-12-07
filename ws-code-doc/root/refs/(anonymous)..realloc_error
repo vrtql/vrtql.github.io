@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='229' type='vws_realloc_error_cb'/>
+<dec f='codebrowser/src/vws.h' l='233' type='vws_realloc_error_cb'/>
 <offset>320</offset>
-<doc f='codebrowser/src/vws.h' l='229'>/**&lt; calloc error hanlding       */</doc>
+<doc f='codebrowser/src/vws.h' l='233'>/**&lt; calloc error hanlding       */</doc>
 <use f='codebrowser/src/vws.c' l='286' u='r' c='vws_realloc'/>
 <use f='codebrowser/src/vws.c' l='451' u='w'/>

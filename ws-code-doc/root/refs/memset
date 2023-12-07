@@ -24,8 +24,8 @@
 <use f='codebrowser/src/mpack/mpack-reader.c' l='312' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='322' macro='1' u='c' c='mpack_read_native_straddle'/>
 <use f='codebrowser/src/mpack/mpack-reader.c' l='333' macro='1' u='c' c='mpack_read_native_straddle'/>
-<use f='codebrowser/src/socket.c' l='65' u='c' c='vws_socket_new'/>
-<use f='codebrowser/src/socket.c' l='840' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='70' u='c' c='vws_socket_new'/>
+<use f='codebrowser/src/socket.c' l='859' u='c' c='connect_to_host'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='64' u='c' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='80' u='c' c='mg_dns_parse_rr'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='104' u='c' c='mg_dns_parse'/>

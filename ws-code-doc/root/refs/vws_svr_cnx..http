@@ -1,13 +1,13 @@
-<dec f='codebrowser/src/server.h' l='134' type='vws_http_msg *'/>
-<use f='codebrowser/src/server.c' l='1288' u='w' c='svr_cnx_new'/>
+<dec f='codebrowser/src/server.h' l='138' type='vws_http_msg *'/>
+<use f='codebrowser/src/server.c' l='1286' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1295' u='r' c='svr_cnx_free'/>
 <use f='codebrowser/src/server.c' l='1297' u='r' c='svr_cnx_free'/>
-<use f='codebrowser/src/server.c' l='1299' u='r' c='svr_cnx_free'/>
-<use f='codebrowser/src/server.c' l='1685' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1688' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1691' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1698' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1713' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1755' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1756' u='w' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1681' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1684' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1687' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1694' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1709' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1751' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1752' u='w' c='ws_svr_client_read'/>
 <offset>128</offset>
-<doc f='codebrowser/src/server.h' l='133'>/* Flag holds the HTTP request that started connection. */</doc>
+<doc f='codebrowser/src/server.h' l='137'>/* Flag holds the HTTP request that started connection. */</doc>

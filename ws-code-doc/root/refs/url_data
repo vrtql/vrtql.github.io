@@ -1,7 +1,7 @@
-<def f='codebrowser/src/url.h' l='52' ll='64'/>
-<use f='codebrowser/src/url.h' l='52'/>
+<def f='codebrowser/src/url.h' l='56' ll='68'/>
+<use f='codebrowser/src/url.h' l='56'/>
 <size>88</size>
-<doc f='codebrowser/src/url.h' l='47'>/**
+<doc f='codebrowser/src/url.h' l='51'>/**
  * `url_data` struct that defines parts
  * of a parsed URL such as host and protocol
  */</doc>

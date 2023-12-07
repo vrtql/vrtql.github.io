@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='213' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
+<dec f='codebrowser/src/message.h' l='217' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
 <def f='codebrowser/src/message.c' l='498' ll='522' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
-<doc f='codebrowser/src/message.h' l='202'>/**
+<doc f='codebrowser/src/message.h' l='206'>/**
  * @brief Receives a message from the connection.
  *
  * @param c The connection.

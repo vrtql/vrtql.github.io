@@ -1,7 +1,7 @@
-<def f='codebrowser/src/websocket.h' l='61' ll='81'/>
-<use f='codebrowser/src/websocket.h' l='61'/>
+<def f='codebrowser/src/websocket.h' l='65' ll='85'/>
+<use f='codebrowser/src/websocket.h' l='65'/>
 <size>24</size>
-<doc f='codebrowser/src/websocket.h' l='58'>/**
+<doc f='codebrowser/src/websocket.h' l='62'>/**
  * @brief Represents a Websocket frame.
  */</doc>
 <mbr r='vws_frame::fin' o='0' t='unsigned char'/>

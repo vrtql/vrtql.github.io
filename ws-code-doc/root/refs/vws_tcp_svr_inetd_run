@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='317' type='int vws_tcp_svr_inetd_run(vws_tcp_svr * server, int sockfd)'/>
+<dec f='codebrowser/src/server.h' l='321' type='int vws_tcp_svr_inetd_run(vws_tcp_svr * server, int sockfd)'/>
 <def f='codebrowser/src/server.c' l='933' ll='1012' type='int vws_tcp_svr_inetd_run(vws_tcp_svr * server, int sockfd)'/>
-<doc f='codebrowser/src/server.h' l='309'>/**
+<doc f='codebrowser/src/server.h' l='313'>/**
  * @brief Starts a VRTQL server with a single open socket. This is designed to
  * be used with tcpserver.
  *

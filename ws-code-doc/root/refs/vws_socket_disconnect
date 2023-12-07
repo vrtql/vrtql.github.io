@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/socket.h' l='144' type='void vws_socket_disconnect(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='137'>/**
+<dec f='codebrowser/src/socket.h' l='163' type='void vws_socket_disconnect(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='156'>/**
  * @brief Closes the connection to the host.
  *
  * @param c The socket connection.
  *
  * @ingroup SocketFunctions
  */</doc>
-<use f='codebrowser/src/socket.c' l='95' u='c' c='vws_socket_dtor'/>
-<def f='codebrowser/src/socket.c' l='359' ll='369' type='void vws_socket_disconnect(vws_socket * c)'/>
+<use f='codebrowser/src/socket.c' l='101' u='c' c='vws_socket_dtor'/>
+<def f='codebrowser/src/socket.c' l='377' ll='387' type='void vws_socket_disconnect(vws_socket * c)'/>
 <use f='codebrowser/src/websocket.c' l='574' u='c' c='vws_disconnect'/>

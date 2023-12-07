@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='333' type='_Bool vws_cnx_is_connected(vws_cnx * c)'/>
+<dec f='codebrowser/src/websocket.h' l='337' type='_Bool vws_cnx_is_connected(vws_cnx * c)'/>
 <use f='codebrowser/src/websocket.c' l='373' u='c' c='vws_reconnect'/>
 <def f='codebrowser/src/websocket.c' l='386' ll='395' macro='1' type='_Bool vws_cnx_is_connected(vws_cnx * c)'/>
 <use f='codebrowser/src/websocket.c' l='424' u='c' c='socket_handshake'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='206'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='200'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='210'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='204'>/**
  * Call sc_queue_oom(q) after this function to check out of memory condition.
  *
  * @param q    queue

@@ -1,2 +1,2 @@
-<dec f='codebrowser/src/url.h' l='102' type='char * url_get_hash(const char * url)'/>
+<dec f='codebrowser/src/url.h' l='106' type='char * url_get_hash(const char * url)'/>
 <def f='codebrowser/src/url.c' l='356' ll='382' type='char * url_get_hash(const char * url)'/>

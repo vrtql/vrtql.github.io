@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/socket.h' l='42' type='int'/>
+<dec f='codebrowser/src/socket.h' l='58' type='int'/>
 <offset>192</offset>
-<doc f='codebrowser/src/socket.h' l='41'>/**&lt; Socket timeout in milliseconds. */</doc>
-<use f='codebrowser/src/socket.c' l='75' u='w' c='vws_socket_ctor'/>
-<use f='codebrowser/src/socket.c' l='121' u='w' c='vws_socket_set_timeout'/>
-<use f='codebrowser/src/socket.c' l='307' u='r' c='vws_socket_connect'/>
-<use f='codebrowser/src/socket.c' l='399' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='631' u='r' c='vws_socket_write'/>
+<doc f='codebrowser/src/socket.h' l='57'>/**&lt; Socket timeout in milliseconds. */</doc>
+<use f='codebrowser/src/socket.c' l='80' u='w' c='vws_socket_ctor'/>
+<use f='codebrowser/src/socket.c' l='139' u='w' c='vws_socket_set_timeout'/>
+<use f='codebrowser/src/socket.c' l='325' u='r' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='417' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='650' u='r' c='vws_socket_write'/>

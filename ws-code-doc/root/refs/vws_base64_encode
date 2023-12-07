@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='480' type='char * vws_base64_encode(const unsigned char * data, size_t size)'/>
-<doc f='codebrowser/src/vws.h' l='473'>/**
+<dec f='codebrowser/src/vws.h' l='484' type='char * vws_base64_encode(const unsigned char * data, size_t size)'/>
+<doc f='codebrowser/src/vws.h' l='477'>/**
  * @brief Encodes data as Base64.
  *
  * @param data The data to encode

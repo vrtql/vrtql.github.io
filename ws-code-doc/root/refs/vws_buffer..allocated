@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/vws.h' l='253' type='size_t'/>
+<dec f='codebrowser/src/vws.h' l='257' type='size_t'/>
 <offset>64</offset>
-<doc f='codebrowser/src/vws.h' l='253'>/**&lt; The amount of space allocated for the buffer */</doc>
+<doc f='codebrowser/src/vws.h' l='257'>/**&lt; The amount of space allocated for the buffer */</doc>
 <use f='codebrowser/src/vws.c' l='472' u='w' c='vws_buffer_new'/>
 <use f='codebrowser/src/vws.c' l='488' u='w' c='vws_buffer_clear'/>
 <use f='codebrowser/src/vws.c' l='536' u='r' c='vws_buffer_append'/>

@@ -1,4 +1,4 @@
 <dec f='include/x86_64-linux-gnu/bits/socket.h' l='232' type='16384'/>
 <doc f='include/x86_64-linux-gnu/bits/socket.h' l='232'>/* Do not generate SIGPIPE.  */</doc>
-<use f='codebrowser/src/socket.c' l='530' macro='1' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='745' macro='1' u='r' c='vws_socket_write'/>
+<use f='codebrowser/src/socket.c' l='549' macro='1' u='r' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='764' macro='1' u='r' c='vws_socket_write'/>

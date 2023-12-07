@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/util/sc_queue.h' l='137'/>
-<doc f='codebrowser/src/util/sc_queue.h' l='133'>/**
+<dec f='codebrowser/src/util/sc_queue.h' l='141'/>
+<doc f='codebrowser/src/util/sc_queue.h' l='137'>/**
  *   @param q queue
  *   @return  element count
  */</doc>

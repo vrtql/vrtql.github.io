@@ -1,11 +1,11 @@
-<dec f='codebrowser/src/vws.h' l='320' type='void vws_buffer_append(vws_buffer * buffer, ucstr data, size_t size)'/>
+<dec f='codebrowser/src/vws.h' l='324' type='void vws_buffer_append(vws_buffer * buffer, ucstr data, size_t size)'/>
 <use f='codebrowser/src/http_message.c' l='93' u='c' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='94' u='c' c='process_header'/>
 <use f='codebrowser/src/http_message.c' l='188' u='c' c='on_url'/>
 <use f='codebrowser/src/http_message.c' l='200' u='c' c='on_header_field'/>
 <use f='codebrowser/src/http_message.c' l='208' u='c' c='on_header_value'/>
 <use f='codebrowser/src/http_message.c' l='216' u='c' c='on_body'/>
-<doc f='codebrowser/src/vws.h' l='313'>/**
+<doc f='codebrowser/src/vws.h' l='317'>/**
  * @brief Appends data to a vrtql buffer.
  *
  * @param buffer The buffer to append to
@@ -18,9 +18,9 @@
 <use f='codebrowser/src/message.c' l='486' u='c' c='vrtql_msg_set_content_binary'/>
 <use f='codebrowser/src/message.c' l='631' u='c' c='msg_parse_content'/>
 <use f='codebrowser/src/rpc.c' l='82' u='c' c='vrtql_rpc_invoke'/>
-<use f='codebrowser/src/server.c' l='1673' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/socket.c' l='455' u='c' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='581' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/server.c' l='1669' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/socket.c' l='474' u='c' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='600' u='c' c='vws_socket_read'/>
 <use f='codebrowser/src/test/test_common.c' l='89' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_common.c' l='92' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='30' u='c' c='process_message'/>

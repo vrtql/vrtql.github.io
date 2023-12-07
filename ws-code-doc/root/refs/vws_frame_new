@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/websocket.h' l='91' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
-<doc f='codebrowser/src/websocket.h' l='83'>/**
+<dec f='codebrowser/src/websocket.h' l='95' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
+<doc f='codebrowser/src/websocket.h' l='87'>/**
  * @brief Instantiates a new websocket frame given some data, size, and opcode.
  *
  * @param data The data to be contained in the frame.
@@ -7,7 +7,7 @@
  * @param oc The opcode for the frame.
  * @return Returns a pointer to the new frame.
  */</doc>
-<use f='codebrowser/src/server.c' l='1826' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1822' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/test/test_websocket.c' l='67' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/websocket.c' l='593' u='c' c='vws_frame_send_data'/>
 <use f='codebrowser/src/websocket.c' l='608' u='c' c='vws_msg_send_data'/>

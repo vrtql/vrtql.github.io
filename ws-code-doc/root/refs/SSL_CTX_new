@@ -1,4 +1,4 @@
 <dec f='include/openssl/ssl.h' l='1503' type='SSL_CTX * SSL_CTX_new(const SSL_METHOD * meth)'/>
-<use f='codebrowser/src/socket.c' l='272' u='c' c='vws_socket_connect'/>
+<use f='codebrowser/src/socket.c' l='290' u='c' c='vws_socket_connect'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='43' u='c' c='mg_tls_init'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='44' u='c' c='mg_tls_init'/>

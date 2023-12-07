@@ -1,16 +1,16 @@
-<def f='codebrowser/src/util/sc_map.h' l='227' macro='1'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_init_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_term_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_size_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_clear_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_put_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_get_str'/>
-<use f='codebrowser/src/util/sc_map.h' l='227' macro='1' c='sc_map_del_str'/>
-<use f='codebrowser/src/vws.h' l='343' c='vws_map_get'/>
-<use f='codebrowser/src/vws.h' l='354' c='vws_map_set'/>
-<use f='codebrowser/src/vws.h' l='364' c='vws_map_remove'/>
-<use f='codebrowser/src/vws.h' l='371' c='vws_map_clear'/>
-<use f='codebrowser/src/http_message.h' l='20'/>
+<def f='codebrowser/src/util/sc_map.h' l='231' macro='1'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_init_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_term_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_size_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_clear_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_put_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_get_str'/>
+<use f='codebrowser/src/util/sc_map.h' l='231' macro='1' c='sc_map_del_str'/>
+<use f='codebrowser/src/vws.h' l='347' c='vws_map_get'/>
+<use f='codebrowser/src/vws.h' l='358' c='vws_map_set'/>
+<use f='codebrowser/src/vws.h' l='368' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.h' l='375' c='vws_map_clear'/>
+<use f='codebrowser/src/http_message.h' l='24'/>
 <size>32</size>
 <mbr r='sc_map_str::mem' o='0' t='struct sc_map_item_str *'/>
 <mbr r='sc_map_str::cap' o='64' t='uint32_t'/>
@@ -20,12 +20,12 @@
 <mbr r='sc_map_str::used' o='192' t='_Bool'/>
 <mbr r='sc_map_str::oom' o='200' t='_Bool'/>
 <mbr r='sc_map_str::found' o='208' t='_Bool'/>
-<use f='codebrowser/src/message.h' l='33'/>
-<use f='codebrowser/src/message.h' l='34'/>
+<use f='codebrowser/src/message.h' l='37'/>
+<use f='codebrowser/src/message.h' l='38'/>
 <use f='codebrowser/src/message.c' l='21' c='msg_parse_map'/>
 <use f='codebrowser/src/message.c' l='528' c='msg_parse_map'/>
 <size>32</size>
-<use f='codebrowser/src/server.c' l='1713' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1709' c='ws_svr_client_read'/>
 <size>32</size>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1'/>
 <use f='codebrowser/src/util/sc_map.c' l='409' macro='1' c='sc_map_init_str'/>

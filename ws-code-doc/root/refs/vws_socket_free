@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/socket.h' l='76' type='void vws_socket_free(vws_socket * s)'/>
-<doc f='codebrowser/src/socket.h' l='71'>/**
+<dec f='codebrowser/src/socket.h' l='95' type='void vws_socket_free(vws_socket * s)'/>
+<doc f='codebrowser/src/socket.h' l='90'>/**
  * @brief Deallocates a socket connection.
  *
  * @param c The socket connection.
  */</doc>
-<def f='codebrowser/src/socket.c' l='83' ll='91' type='void vws_socket_free(vws_socket * c)'/>
+<def f='codebrowser/src/socket.c' l='89' ll='97' type='void vws_socket_free(vws_socket * c)'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='106' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_server.c' l='73' u='c' c='client_thread'/>

@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vws.h' l='26' type='2'/>
-<doc f='codebrowser/src/vws.h' l='26'>/**&lt; Socket timeout */</doc>
+<dec f='codebrowser/src/vws.h' l='30' type='2'/>
+<doc f='codebrowser/src/vws.h' l='30'>/**&lt; Socket timeout */</doc>
 <use f='codebrowser/src/rpc.c' l='186' u='r' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/socket.c' l='435' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='507' c='vws_socket_read'/>
-<use f='codebrowser/src/socket.c' l='560' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='454' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='526' c='vws_socket_read'/>
+<use f='codebrowser/src/socket.c' l='579' c='vws_socket_read'/>
 <use f='codebrowser/src/vws.c' l='372' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='441' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='477' u='r' c='socket_handshake'/>

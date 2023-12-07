@@ -3,9 +3,9 @@
 
    This function is a cancellation point and therefore not marked with
    __THROW.  */</doc>
-<use f='codebrowser/src/socket.c' l='102' u='c' c='vws_socket_dtor'/>
-<use f='codebrowser/src/socket.c' l='815' u='c' c='vws_socket_close'/>
-<use f='codebrowser/src/socket.c' l='871' u='c' c='connect_to_host'/>
+<use f='codebrowser/src/socket.c' l='108' u='c' c='vws_socket_dtor'/>
+<use f='codebrowser/src/socket.c' l='834' u='c' c='vws_socket_close'/>
+<use f='codebrowser/src/socket.c' l='890' u='c' c='connect_to_host'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='229' u='c' c='mg_mgr_free'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='16' u='c' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='16' u='c' c='close_conn'/>

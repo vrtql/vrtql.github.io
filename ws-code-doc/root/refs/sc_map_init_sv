@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/util/sc_map.h' l='228' macro='1' type='_Bool sc_map_init_sv(struct sc_map_sv * map, uint32_t cap, uint32_t load_factor)'/>
+<dec f='codebrowser/src/util/sc_map.h' l='232' macro='1' type='_Bool sc_map_init_sv(struct sc_map_sv * map, uint32_t cap, uint32_t load_factor)'/>
 <use f='codebrowser/src/rpc.c' l='314' u='c' c='vrtql_rpc_module_new'/>
 <use f='codebrowser/src/rpc.c' l='354' u='c' c='vrtql_rpc_system_new'/>
 <def f='codebrowser/src/util/sc_map.c' l='410' macro='1' type='_Bool sc_map_init_sv(struct sc_map_sv * m, uint32_t cap, uint32_t load_fac)'/>
