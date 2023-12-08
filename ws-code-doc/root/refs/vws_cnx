@@ -12,5 +12,5 @@
 <mbr r='vws_cnx::key' o='640' t='char *'/>
 <mbr r='vws_cnx::queue' o='704' t='struct sc_queue_ptr'/>
 <mbr r='vws_cnx::process' o='1024' t='vws_process_frame'/>
-<mbr r='vws_cnx::disconnect' o='1088' t='vws_cns_disconnect'/>
+<mbr r='vws_cnx::disconnect' o='1088' t='vws_cnx_disconnect'/>
 <mbr r='vws_cnx::data' o='1152' t='char *'/>

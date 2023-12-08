@@ -246,7 +246,7 @@
 <tr><th id="232">232</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">cnx</span> The connection instance</i></td></tr>
 <tr><th id="233">233</th><td><i class="doc"> * <span class="command">@return</span> Returns true on successful reconnect, false otherwise.</i></td></tr>
 <tr><th id="234">234</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="235">235</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_cns_disconnect" title='vws_cns_disconnect' data-type='void (*)(struct vws_cnx *)' data-ref="vws_cns_disconnect" data-ref-filename="vws_cns_disconnect">vws_cns_disconnect</dfn>)(<b>struct</b> <a class="type" href="#vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2367cnx" title='cnx' data-type='struct vws_cnx *' data-ref="2367cnx" data-ref-filename="2367cnx">cnx</dfn>);</td></tr>
+<tr><th id="235">235</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="vws_cnx_disconnect" title='vws_cnx_disconnect' data-type='void (*)(struct vws_cnx *)' data-ref="vws_cnx_disconnect" data-ref-filename="vws_cnx_disconnect">vws_cnx_disconnect</dfn>)(<b>struct</b> <a class="type" href="#vws_cnx" title='vws_cnx' data-ref="vws_cnx" data-ref-filename="vws_cnx">vws_cnx</a>* <dfn class="local col7 decl" id="2367cnx" title='cnx' data-type='struct vws_cnx *' data-ref="2367cnx" data-ref-filename="2367cnx">cnx</dfn>);</td></tr>
 <tr><th id="236">236</th><td></td></tr>
 <tr><th id="237">237</th><td><i class="doc">/**</i></td></tr>
 <tr><th id="238">238</th><td><i class="doc"> * <span class="command">@brief</span> A WebSocket connection.</i></td></tr>
@@ -272,7 +272,7 @@
 <tr><th id="258">258</th><td>    <a class="typedef" href="#vws_process_frame" title='vws_process_frame' data-type='void (*)(struct vws_cnx *, vws_frame *)' data-ref="vws_process_frame" data-ref-filename="vws_process_frame">vws_process_frame</a> <dfn class="decl field" id="vws_cnx::process" title='vws_cnx::process' data-ref="vws_cnx::process" data-ref-filename="vws_cnx..process">process</dfn>;</td></tr>
 <tr><th id="259">259</th><td></td></tr>
 <tr><th id="260">260</th><td>    <i class="doc">/**&lt; Disconnect callback. */</i></td></tr>
-<tr><th id="261">261</th><td>    <a class="typedef" href="#vws_cns_disconnect" title='vws_cns_disconnect' data-type='void (*)(struct vws_cnx *)' data-ref="vws_cns_disconnect" data-ref-filename="vws_cns_disconnect">vws_cns_disconnect</a> <dfn class="decl field" id="vws_cnx::disconnect" title='vws_cnx::disconnect' data-ref="vws_cnx::disconnect" data-ref-filename="vws_cnx..disconnect">disconnect</dfn>;</td></tr>
+<tr><th id="261">261</th><td>    <a class="typedef" href="#vws_cnx_disconnect" title='vws_cnx_disconnect' data-type='void (*)(struct vws_cnx *)' data-ref="vws_cnx_disconnect" data-ref-filename="vws_cnx_disconnect">vws_cnx_disconnect</a> <dfn class="decl field" id="vws_cnx::disconnect" title='vws_cnx::disconnect' data-ref="vws_cnx::disconnect" data-ref-filename="vws_cnx..disconnect">disconnect</dfn>;</td></tr>
 <tr><th id="262">262</th><td></td></tr>
 <tr><th id="263">263</th><td>    <i class="doc">/**&lt; User-defined data associated with the connection */</i></td></tr>
 <tr><th id="264">264</th><td>    <em>char</em>* <dfn class="decl field" id="vws_cnx::data" title='vws_cnx::data' data-ref="vws_cnx::data" data-ref-filename="vws_cnx..data">data</dfn>;</td></tr>
@@ -500,6 +500,6 @@
 <tr><th id="486">486</th><td><u>#<span data-ppcond="1">endif</span> /* VWS_WEBSOCKET_DECLARE */</u></td></tr>
 <tr><th id="487">487</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Dec-07</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='message.c.html'>codebrowser/src/message.c</a><br/>Generated on <em>2023-Dec-08</em> from project codebrowser revision <em>2.1</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

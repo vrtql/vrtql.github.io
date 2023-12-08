@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/websocket.h' l='261' type='vws_cns_disconnect'/>
+<dec f='codebrowser/src/websocket.h' l='261' type='vws_cnx_disconnect'/>
 <offset>1088</offset>
 <doc f='codebrowser/src/websocket.h' l='260'>/**&lt; Disconnect callback. */</doc>
 <use f='codebrowser/src/websocket.c' l='306' u='w' c='vws_cnx_new'/>
