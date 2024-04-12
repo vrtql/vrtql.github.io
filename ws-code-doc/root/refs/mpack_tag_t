@@ -3,4 +3,4 @@
 <size>16</size>
 <doc f='codebrowser/src/mpack/mpack-common.h' l='243'>/** @cond */</doc>
 <mbr r='mpack_tag_t::type' o='0' t='mpack_type_t'/>
-<mbr r='mpack_tag_t::v' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/client/vws/src/mpack/mpack-common.h:252:5)'/>
+<mbr r='mpack_tag_t::v' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/projects/vws/src/mpack/mpack-common.h:252:5)'/>

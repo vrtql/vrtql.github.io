@@ -3,4 +3,4 @@
 <size>16</size>
 <mbr r='mpack_node_data_t::type' o='0' t='mpack_type_t'/>
 <mbr r='mpack_node_data_t::len' o='32' t='uint32_t'/>
-<mbr r='mpack_node_data_t::value' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/client/vws/src/mpack/mpack-node.h:158:5)'/>
+<mbr r='mpack_node_data_t::value' o='64' t='union (anonymous union at /var/data/dev/source/active/vrtql/projects/vws/src/mpack/mpack-node.h:158:5)'/>

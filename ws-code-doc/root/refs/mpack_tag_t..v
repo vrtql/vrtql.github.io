@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/mpack/mpack-common.h' l='275' type='union (anonymous union at /var/data/dev/source/active/vrtql/client/vws/src/mpack/mpack-common.h:252:5)'/>
+<dec f='codebrowser/src/mpack/mpack-common.h' l='275' type='union (anonymous union at /var/data/dev/source/active/vrtql/projects/vws/src/mpack/mpack-common.h:252:5)'/>
 <use f='codebrowser/src/mpack/mpack-common.h' l='309' u='m' c='mpack_tag_make_bool'/>
 <use f='codebrowser/src/mpack/mpack-common.h' l='317' u='m' c='mpack_tag_make_true'/>
 <use f='codebrowser/src/mpack/mpack-common.h' l='325' u='m' c='mpack_tag_make_false'/>
