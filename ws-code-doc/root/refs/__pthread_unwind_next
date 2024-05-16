@@ -1,3 +1,3 @@
 <dec f='include/pthread.h' l='734' type='void __pthread_unwind_next(__pthread_unwind_buf_t * __buf)'/>
 <doc f='include/pthread.h' l='733'>/* Internal interface to initiate cleanup.  */</doc>
-<use f='codebrowser/src/vws.c' l='189' macro='1' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='191' macro='1' u='c' c='vws_trace'/>

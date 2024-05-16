@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='434' type='void *'/>
+<use f='codebrowser/src/server.c' l='764' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='1209' u='w' c='tcp_svr_ctor'/>
+<offset>2816</offset>
+<doc f='codebrowser/src/server.h' l='433'>/**&lt; Worker thread constructor data */</doc>

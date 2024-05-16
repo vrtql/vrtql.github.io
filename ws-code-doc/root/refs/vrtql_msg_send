@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='204' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
-<def f='codebrowser/src/message.c' l='489' ll='496' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
-<doc f='codebrowser/src/message.h' l='191'>/**
+<dec f='codebrowser/src/message.h' l='207' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='503' ll='510' type='ssize_t vrtql_msg_send(vws_cnx * c, vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='194'>/**
  * @brief Sends a message via a websocket connection. Does not take ownership of
  * message. Caller is still responsible for freeing message. This is to allow
  * reuse of messages.
@@ -15,5 +15,5 @@
  */</doc>
 <use f='codebrowser/src/rpc.c' l='129' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/test/test_example.c' l='29' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='72' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='74' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='81' u='c' c='ctest_test_message_run'/>

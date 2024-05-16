@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/server.h' l='670' type='void *'/>
+<use f='codebrowser/src/server.c' l='2204' u='w' c='vrtql_msg_svr_ctor'/>
+<offset>3648</offset>
+<doc f='codebrowser/src/server.h' l='669'>/**&lt; User-defined data */</doc>

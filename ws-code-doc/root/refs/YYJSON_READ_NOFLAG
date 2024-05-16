@@ -1,5 +1,5 @@
 <def f='codebrowser/src/util/yyjson.h' l='666' type='const yyjson_read_flag'/>
-<use f='codebrowser/src/message.c' l='299' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='306' u='r' c='vrtql_msg_deserialize'/>
 <doc f='codebrowser/src/util/yyjson.h' l='658'>/** Default option (RFC 8259 compliant):
     - Read positive integer as uint64_t.
     - Read negative integer as int64_t.

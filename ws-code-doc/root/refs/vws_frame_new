@@ -7,14 +7,14 @@
  * @param oc The opcode for the frame.
  * @return Returns a pointer to the new frame.
  */</doc>
-<use f='codebrowser/src/server.c' l='1822' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='2018' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/test/test_websocket.c' l='67' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/websocket.c' l='593' u='c' c='vws_frame_send_data'/>
 <use f='codebrowser/src/websocket.c' l='608' u='c' c='vws_msg_send_data'/>
 <def f='codebrowser/src/websocket.c' l='705' ll='725' type='vws_frame * vws_frame_new(ucstr data, size_t s, unsigned char oc)'/>
-<use f='codebrowser/src/websocket.c' l='1161' u='c' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1214' u='c' c='vws_generate_close_frame'/>
-<use f='codebrowser/src/websocket.c' l='1224' u='c' c='vws_generate_pong_frame'/>
+<use f='codebrowser/src/websocket.c' l='1163' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1216' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1226' u='c' c='vws_generate_pong_frame'/>
 <doc f='codebrowser/src/websocket.c' l='701'>//------------------------------------------------------------------------------
 //&gt; Frame API
 //------------------------------------------------------------------------------</doc>

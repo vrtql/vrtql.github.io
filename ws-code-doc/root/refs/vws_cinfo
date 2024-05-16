@@ -1,0 +1,7 @@
+<def f='codebrowser/src/server.h' l='193' ll='198'/>
+<use f='codebrowser/src/server.h' l='193'/>
+<size>24</size>
+<doc f='codebrowser/src/server.h' l='192'>/** This is used to associate connection info with uv_stream_t handles */</doc>
+<mbr r='vws_cinfo::server' o='0' t='struct vws_tcp_svr *'/>
+<mbr r='vws_cinfo::cnx' o='64' t='struct vws_svr_cnx *'/>
+<mbr r='vws_cinfo::cid' o='128' t='vws_cid_t'/>

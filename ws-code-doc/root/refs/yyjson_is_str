@@ -2,7 +2,7 @@
 <def f='codebrowser/src/util/yyjson.h' l='4778' ll='4780' macro='1' type='_Bool yyjson_is_str(yyjson_val * val)'/>
 <use f='codebrowser/src/util/yyjson.h' l='4858' u='c' c='yyjson_get_str'/>
 <use f='codebrowser/src/util/yyjson.h' l='7679' u='c' c='yyjson_ptr_get_str'/>
-<use f='codebrowser/src/message.c' l='358' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='365' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/util/yyjson.c' l='2264' u='c' c='yyjson_patch'/>
 <use f='codebrowser/src/util/yyjson.c' l='2270' u='c' c='yyjson_patch'/>
 <use f='codebrowser/src/util/yyjson.c' l='2284' u='c' c='yyjson_patch'/>

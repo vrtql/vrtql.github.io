@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='456' type='struct vws_svr'/>
-<use f='codebrowser/src/server.c' l='1984' u='m' c='vrtql_msg_svr_new'/>
+<dec f='codebrowser/src/server.h' l='655' type='struct vws_svr'/>
+<use f='codebrowser/src/server.c' l='2193' u='m' c='vrtql_msg_svr_ctor'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='455'>/**&lt; Base class */</doc>
+<doc f='codebrowser/src/server.h' l='654'>/**&lt; Base class */</doc>

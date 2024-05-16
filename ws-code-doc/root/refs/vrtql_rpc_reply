@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/rpc.h' l='234' type='vrtql_msg * vrtql_rpc_reply(vrtql_msg * req)'/>
+<def f='codebrowser/src/rpc.c' l='427' ll='442' type='vrtql_msg * vrtql_rpc_reply(vrtql_msg * req)'/>
+<doc f='codebrowser/src/rpc.h' l='229'>/**
+ * @brief Creates and initializes reply message for RPC call
+ * @param m The incoming message to process
+ * @return A reply message. User takes ownership of memory and must free.
+ */</doc>

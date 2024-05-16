@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/server.h' l='96' type='uint32_t'/>
+<use f='codebrowser/src/server.c' l='27' u='w' c='address_pool_new'/>
+<use f='codebrowser/src/server.c' l='62' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='64' u='w' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='64' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='68' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='71' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='72' u='w' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='72' u='r' c='address_pool_set'/>
+<offset>128</offset>
+<doc f='codebrowser/src/server.h' l='95'>/**&lt; Last used index to optimize search for empty slots */</doc>

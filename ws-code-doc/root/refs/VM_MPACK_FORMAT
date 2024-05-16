@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/message.h' l='12' type='0'/>
-<use f='codebrowser/src/message.c' l='46' u='r' c='vrtql_msg_new'/>
-<use f='codebrowser/src/message.c' l='80' u='r' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='293' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/server.c' l='1282' u='r' c='svr_cnx_new'/>
-<use f='codebrowser/src/test/test_message.c' l='58' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/message.c' l='47' u='r' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='79' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='300' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/server.c' l='1381' u='r' c='svr_cnx_new'/>
+<use f='codebrowser/src/test/test_message.c' l='64' u='r' c='ctest_test_message_json_serialization_run'/>

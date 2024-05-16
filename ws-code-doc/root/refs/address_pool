@@ -1,0 +1,27 @@
+<doc f='codebrowser/src/server.h' l='56'>/**
+ * @struct address_pool
+ * @brief Manages a dynamically resizable pool of addresses.
+ *
+ * The address_pool structure is designed to handle a collection of memory
+ * addresses. It is a dynamically resizable array that works like ring
+ * buffer. It supports efficient addition, lookup and removal of items while
+ * automatically handling memory resizing based on usage. It&apos;s main use is to
+ * track and identify connections. It is significantly faster a hashtable which
+ * provided much better overall server performance.
+ *
+ * Connections change over time and for the most part keep moving forward in the
+ * ring buffer in a sort of statistical distribtion. By the time it reachs the
+ * end of the ring to wrap around, all previous connections at the beginning
+ * have most likely disconnected.
+ *
+ * @details
+ *
+ * - The pool grows in capacity by a specified growth factor each time the array
+ *   reaches its current capacity limit. This growth behavior helps in managing
+ *   memory more efficiently by minimizing the number of memory reallocations
+ *   required as the number of items grows.
+ *
+ * - The implementation uses a ring buffer approach with a last used index to
+ *   optimize the search for free slots, allowing for O(1) time complexity for
+ *   addition in most cases, barring the necessity for resizing.
+ */</doc>

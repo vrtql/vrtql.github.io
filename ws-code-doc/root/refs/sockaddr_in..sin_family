@@ -1,5 +1,5 @@
 <dec f='include/netinet/in.h' l='239' macro='1' type='sa_family_t'/>
 <offset>0</offset>
-<use f='codebrowser/src/test/test_inetd_server.c' l='65' u='w' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='68' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='59' u='w' c='tousa'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='428' u='w' c='mg_socketpair'/>

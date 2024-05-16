@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.h' l='87' type='uintptr_t *'/>
+<use f='codebrowser/src/server.c' l='24' u='w' c='address_pool_new'/>
+<use f='codebrowser/src/server.c' l='37' u='r' c='address_pool_free'/>
+<use f='codebrowser/src/server.c' l='47' u='r' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='49' u='r' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='51' u='w' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='62' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='68' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='79' u='r' c='address_pool_get'/>
+<use f='codebrowser/src/server.c' l='84' u='r' c='address_pool_get'/>
+<use f='codebrowser/src/server.c' l='89' u='r' c='address_pool_remove'/>
+<use f='codebrowser/src/server.c' l='91' u='r' c='address_pool_remove'/>
+<offset>0</offset>
+<doc f='codebrowser/src/server.h' l='86'>/**&lt; Pointer to the array holding memory addresses or similar values */</doc>

@@ -1,16 +1,16 @@
-<dec f='codebrowser/src/vws.h' l='484' type='char * vws_base64_encode(const unsigned char * data, size_t size)'/>
-<doc f='codebrowser/src/vws.h' l='477'>/**
+<dec f='codebrowser/src/vws.h' l='613' type='char * vws_base64_encode(const unsigned char * data, size_t size)'/>
+<doc f='codebrowser/src/vws.h' l='606'>/**
  * @brief Encodes data as Base64.
  *
  * @param data The data to encode
  * @param size The size of the data
  * @return Returns a Base64-encoded string
  */</doc>
-<use f='codebrowser/src/test/test_common.c' l='68' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/vws.c' l='656' u='c' c='vws_generate_uuid'/>
-<def f='codebrowser/src/vws.c' l='683' ll='704' type='char * vws_base64_encode(const unsigned char * data, size_t length)'/>
-<doc f='codebrowser/src/vws.c' l='679'>//------------------------------------------------------------------------------
+<use f='codebrowser/src/test/test_common.c' l='222' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/vws.c' l='827' u='c' c='vws_generate_uuid'/>
+<def f='codebrowser/src/vws.c' l='854' ll='875' type='char * vws_base64_encode(const unsigned char * data, size_t length)'/>
+<doc f='codebrowser/src/vws.c' l='850'>//------------------------------------------------------------------------------
 // Base 64
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/websocket.c' l='1068' u='c' c='generate_websocket_key'/>
-<use f='codebrowser/src/websocket.c' l='1096' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1070' u='c' c='generate_websocket_key'/>
+<use f='codebrowser/src/websocket.c' l='1098' u='c' c='vws_accept_key'/>

@@ -3,6 +3,6 @@
 <doc f='codebrowser/src/websocket.h' l='67'>/**&lt; Final frame in the message (1) or not (0). */</doc>
 <use f='codebrowser/src/websocket.c' l='711' u='w' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='791' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='898' u='w' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='1258' u='r' c='vws_msg_pop'/>
-<use f='codebrowser/src/websocket.c' l='1278' u='r' c='has_complete_message'/>
+<use f='codebrowser/src/websocket.c' l='900' u='w' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='1260' u='r' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='1280' u='r' c='has_complete_message'/>

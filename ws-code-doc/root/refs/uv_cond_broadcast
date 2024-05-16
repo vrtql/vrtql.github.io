@@ -1,3 +1,3 @@
-<use f='codebrowser/src/server.c' l='916' u='c' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1032' u='c' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1519' u='c' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1046' u='c' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1164' u='c' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1712' u='c' c='queue_pop'/>

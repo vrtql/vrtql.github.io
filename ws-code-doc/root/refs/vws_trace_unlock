@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='137' type='void vws_trace_unlock()'/>
-<doc f='codebrowser/src/vws.h' l='114'>/**
+<dec f='codebrowser/src/vws.h' l='136' type='void vws_trace_unlock()'/>
+<doc f='codebrowser/src/vws.h' l='113'>/**
  * @brief Unlock the log mutex to release synchronization after accessing
  *        the logging functionality.
  *
@@ -24,6 +24,8 @@
  */</doc>
 <use f='codebrowser/src/rpc.c' l='122' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='220' u='c' c='vrtql_rpc_exec'/>
-<def f='codebrowser/src/vws.c' l='109' ll='127' type='void vws_trace_unlock()'/>
+<use f='codebrowser/src/rpc.c' l='457' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='531' u='c' c='vrtql_rpc_service'/>
+<def f='codebrowser/src/vws.c' l='111' ll='129' type='void vws_trace_unlock()'/>
 <use f='codebrowser/src/websocket.c' l='630' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1171' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1173' u='c' c='vws_cnx_ingress'/>

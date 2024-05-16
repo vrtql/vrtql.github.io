@@ -19,7 +19,10 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1556' macro='1' u='c' c='mpack_builder_begin'/>
 <use f='codebrowser/src/rpc.c' l='40' u='c' c='vrtql_rpc_tag'/>
 <use f='codebrowser/src/rpc.c' l='41' u='c' c='vrtql_rpc_tag'/>
-<use f='codebrowser/src/test/test_common.c' l='25' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/server.c' l='23' u='c' c='address_pool_new'/>
+<use f='codebrowser/src/test/test_common.c' l='26' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_common.c' l='130' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='131' u='c' c='ctest_test_map_bench_run'/>
 <use f='codebrowser/src/test/test_json.c' l='19' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/url.c' l='37' u='c' c='strdup'/>
 <use f='codebrowser/src/url.c' l='131' u='c' c='url_parse'/>
@@ -28,6 +31,9 @@
 <use f='codebrowser/src/url.c' l='224' u='c' c='url_get_protocol'/>
 <use f='codebrowser/src/url.c' l='318' u='c' c='url_get_path'/>
 <use f='codebrowser/src/util/yyjson.c' l='942' u='c' c='default_malloc'/>
-<use f='codebrowser/src/vws.c' l='233' u='c' c='vws_malloc'/>
-<use f='codebrowser/src/vws.c' l='342' u='c' c='vws_error_default_submit'/>
-<use f='codebrowser/src/vws.c' l='515' u='c' c='vws_buffer_printf'/>
+<use f='codebrowser/src/vws.c' l='235' u='c' c='vws_malloc'/>
+<use f='codebrowser/src/vws.c' l='366' u='c' c='vws_error_default_submit'/>
+<use f='codebrowser/src/vws.c' l='549' u='c' c='vws_buffer_printf'/>
+<use f='codebrowser/src/vws.c' l='677' u='c' c='vws_kvs_new'/>
+<use f='codebrowser/src/vws.c' l='681' u='c' c='vws_kvs_new'/>
+<use f='codebrowser/src/vws.c' l='725' u='c' c='vws_kvs_set'/>

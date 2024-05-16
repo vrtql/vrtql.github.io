@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/mpack/mpack-writer.h' l='885' type='void mpack_write_cstr(mpack_writer_t * writer, const char * cstr)'/>
+<use f='codebrowser/src/message.c' l='100' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='101' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='102' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='111' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='112' u='c' c='vrtql_msg_serialize'/>
 <doc f='codebrowser/src/mpack/mpack-writer.h' l='874'>/**

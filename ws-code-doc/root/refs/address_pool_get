@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/server.h' l='165' type='uintptr_t address_pool_get(address_pool * pool, uint32_t index)'/>
+<def f='codebrowser/src/server.c' l='77' ll='85' type='uintptr_t address_pool_get(address_pool * pool, vws_cid_t index)'/>
+<use f='codebrowser/src/server.c' l='1351' u='c' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1582' u='c' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1605' u='c' c='svr_on_close'/>
+<doc f='codebrowser/src/server.h' l='152'>/**
+ * @brief Retrieves the item stored at the specified index in the address pool.
+ *
+ * This function returns the value at a given index in the address pool&apos;s slots
+ * array. If the index is out of bounds or the slot at the index is empty
+ * (zero), the function returns 0. This method is intended for quick access to
+ * items in the pool without any modifications.
+ *
+ * @param pool A pointer to the address pool.
+ * @param index The index of the item to retrieve.
+ * @return uintptr_t The value at the specified index if it exists and is not
+ *   empty; otherwise, 0.
+ */</doc>

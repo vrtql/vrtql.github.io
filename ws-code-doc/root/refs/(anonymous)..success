@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vws.h' l='238' type='vws_error_clear_cb'/>
-<offset>640</offset>
-<doc f='codebrowser/src/vws.h' l='238'>/**&lt; Error clear function        */</doc>
+<dec f='codebrowser/src/vws.h' l='257' type='vws_error_clear_cb'/>
+<offset>768</offset>
+<doc f='codebrowser/src/vws.h' l='257'>/**&lt; Error clear function        */</doc>
 <use f='codebrowser/src/rpc.c' l='181' u='r' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/rpc.c' l='428' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/server.c' l='1618' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/rpc.c' l='446' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/server.c' l='1811' u='r' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/socket.c' l='216' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='255' u='r' c='vws_socket_set_nonblocking'/>
 <use f='codebrowser/src/socket.c' l='372' u='r' c='vws_socket_connect'/>
@@ -11,11 +11,11 @@
 <use f='codebrowser/src/socket.c' l='392' u='r' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='611' u='r' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='971' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/vws.c' l='456' u='w'/>
+<use f='codebrowser/src/vws.c' l='482' u='w'/>
 <use f='codebrowser/src/websocket.c' l='646' u='r' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='676' u='r' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='746' u='r' c='vws_frame_recv'/>
-<use f='codebrowser/src/websocket.c' l='884' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='1055' u='r' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1115' u='r' c='socket_wait_for_frame'/>
-<use f='codebrowser/src/websocket.c' l='1202' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='886' u='r' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='1057' u='r' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1117' u='r' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='1204' u='r' c='vws_cnx_ingress'/>

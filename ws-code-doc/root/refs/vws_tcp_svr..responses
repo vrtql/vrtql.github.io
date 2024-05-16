@@ -1,11 +1,12 @@
-<dec f='codebrowser/src/server.h' l='219' type='vws_svr_queue'/>
-<use f='codebrowser/src/server.c' l='722' u='a' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='724' u='a' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='726' u='m' c='uv_thread'/>
-<use f='codebrowser/src/server.c' l='804' u='a' c='vws_tcp_svr_send'/>
-<use f='codebrowser/src/server.c' l='907' u='m' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1019' u='m' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1085' u='a' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1323' u='a' c='svr_shutdown'/>
+<dec f='codebrowser/src/server.h' l='401' type='vws_svr_queue'/>
+<use f='codebrowser/src/server.c' l='835' u='a' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='837' u='a' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='839' u='m' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='925' u='a' c='vws_tcp_svr_send'/>
+<use f='codebrowser/src/server.c' l='1037' u='m' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1151' u='m' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1220' u='a' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1491' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1504' u='a' c='svr_shutdown'/>
 <offset>1216</offset>
-<doc f='codebrowser/src/server.h' l='218'>/**&lt; Response queue */</doc>
+<doc f='codebrowser/src/server.h' l='400'>/**&lt; Response queue */</doc>

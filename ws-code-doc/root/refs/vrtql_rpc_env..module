@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/rpc.h' l='148' type='vrtql_rpc_module *'/>
+<use f='codebrowser/src/rpc.c' l='497' u='w' c='vrtql_rpc_service'/>
+<offset>64</offset>
+<doc f='codebrowser/src/rpc.h' l='147'>/**&lt; Reference to current module */</doc>

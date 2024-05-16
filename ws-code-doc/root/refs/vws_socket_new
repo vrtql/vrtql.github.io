@@ -10,5 +10,5 @@
 <doc f='codebrowser/src/socket.c' l='63'>//------------------------------------------------------------------------------
 //&gt; Socket API
 //------------------------------------------------------------------------------</doc>
-<use f='codebrowser/src/test/test_inetd_server.c' l='92' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='59' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='95' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='57' u='c' c='client_thread'/>

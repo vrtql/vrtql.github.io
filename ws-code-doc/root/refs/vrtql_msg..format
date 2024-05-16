@@ -1,11 +1,13 @@
-<dec f='codebrowser/src/message.h' l='41' type='vrtql_msg_format_t'/>
-<use f='codebrowser/src/message.c' l='46' u='w' c='vrtql_msg_new'/>
-<use f='codebrowser/src/message.c' l='80' u='r' c='vrtql_msg_serialize'/>
+<dec f='codebrowser/src/message.h' l='42' type='vrtql_msg_format_t'/>
+<use f='codebrowser/src/message.c' l='47' u='w' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='79' u='r' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='143' u='r' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='293' u='w' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='373' u='w' c='vrtql_msg_deserialize'/>
-<offset>640</offset>
-<doc f='codebrowser/src/message.h' l='41'>/**&lt; Message format                     */</doc>
-<use f='codebrowser/src/server.c' l='1938' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/test/test_message.c' l='58' u='w' c='ctest_test_message_json_serialization_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='25' u='w' c='process_message'/>
+<use f='codebrowser/src/message.c' l='300' u='w' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='380' u='w' c='vrtql_msg_deserialize'/>
+<offset>256</offset>
+<doc f='codebrowser/src/message.h' l='42'>/**&lt; Message format                     */</doc>
+<use f='codebrowser/src/rpc.c' l='439' u='w' c='vrtql_rpc_reply'/>
+<use f='codebrowser/src/rpc.c' l='439' u='r' c='vrtql_rpc_reply'/>
+<use f='codebrowser/src/test/test_message.c' l='64' u='w' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='25' u='w' c='process'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='25' u='r' c='process'/>

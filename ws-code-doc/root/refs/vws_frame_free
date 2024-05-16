@@ -7,17 +7,18 @@
  *
  * @ingroup FrameFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1568' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1597' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1606' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1614' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1761' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1790' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1799' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1807' u='c' c='ws_svr_process_frame'/>
 <use f='codebrowser/src/websocket.c' l='327' u='c' c='vws_cnx_free'/>
 <def f='codebrowser/src/websocket.c' l='727' ll='741' type='void vws_frame_free(vws_frame * f)'/>
-<use f='codebrowser/src/websocket.c' l='875' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='1009' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1034' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1043' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1051' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1179' u='c' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1187' u='c' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1261' u='c' c='vws_msg_pop'/>
+<use f='codebrowser/src/websocket.c' l='853' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='877' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='1011' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1036' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1045' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1053' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1181' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1189' u='c' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1263' u='c' c='vws_msg_pop'/>

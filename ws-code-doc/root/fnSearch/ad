@@ -1,0 +1,6 @@
+address_pool_free|address_pool_free
+address_pool_get|address_pool_get
+address_pool_new|address_pool_new
+address_pool_remove|address_pool_remove
+address_pool_resize|address_pool_resize
+address_pool_set|address_pool_set

@@ -1,6 +1,4 @@
 <dec f='codebrowser/src/vws.h' l='38' type='512'/>
 <doc f='codebrowser/src/vws.h' l='38'>/**&lt; Fatal error */</doc>
-<use f='codebrowser/src/server.c' l='1000' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1376' c='svr_on_connect'/>
-<use f='codebrowser/src/vws.c' l='392' c='vws_error_default_process'/>
-<use f='codebrowser/src/vws.c' l='412' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='416' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='436' c='vws_error_default_process'/>

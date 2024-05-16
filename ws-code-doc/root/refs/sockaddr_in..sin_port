@@ -1,6 +1,6 @@
 <dec f='include/netinet/in.h' l='240' type='in_port_t'/>
 <offset>16</offset>
 <doc f='include/netinet/in.h' l='240'>/* Port number.  */</doc>
-<use f='codebrowser/src/test/test_inetd_server.c' l='67' u='w' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='70' u='w' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='60' u='w' c='tousa'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='75' u='r' c='tomgaddr'/>

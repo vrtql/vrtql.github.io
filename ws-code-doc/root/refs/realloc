@@ -4,4 +4,5 @@
    between objects pointed by the old and new pointers.  */</doc>
 <use f='codebrowser/src/mpack/mpack-platform.h' l='460' u='c' c='mpack_realloc'/>
 <use f='codebrowser/src/util/yyjson.c' l='946' u='c' c='default_realloc'/>
-<use f='codebrowser/src/vws.c' l='282' u='c' c='vws_realloc'/>
+<use f='codebrowser/src/vws.c' l='284' u='c' c='vws_realloc'/>
+<use f='codebrowser/src/vws.c' l='718' u='c' c='vws_kvs_set'/>

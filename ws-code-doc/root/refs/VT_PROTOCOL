@@ -3,4 +3,4 @@
 <use f='codebrowser/src/test/test_rpc_client.c' l='26' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='45' u='r' c='ctest_test_setup'/>
 <use f='codebrowser/src/websocket.c' l='620' u='r' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1163' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1165' u='r' c='vws_cnx_ingress'/>

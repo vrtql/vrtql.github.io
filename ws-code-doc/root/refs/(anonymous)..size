@@ -1,23 +1,35 @@
-<dec f='codebrowser/src/server.h' l='79' type='size_t'/>
-<dec f='codebrowser/src/server.h' l='99' type='int'/>
-<use f='codebrowser/src/server.c' l='764' u='w' c='vws_svr_data_own'/>
-<use f='codebrowser/src/server.c' l='1197' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1204' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1452' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1487' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1501' u='w' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1512' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1527' u='w' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1537' u='r' c='queue_empty'/>
-<use f='codebrowser/src/server.c' l='1807' u='w' c='ws_svr_client_data_in'/>
+<dec f='codebrowser/src/vws.h' l='406' type='size_t'/>
+<dec f='codebrowser/src/vws.h' l='426' type='size_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/vws.h' l='406'>///&lt; Size of the data.</doc>
+<doc f='codebrowser/src/vws.h' l='426'>///&lt; Capacity of the allocated array.</doc>
+<dec f='codebrowser/src/server.h' l='216' type='size_t'/>
+<dec f='codebrowser/src/server.h' l='239' type='int'/>
+<use f='codebrowser/src/server.c' l='885' u='w' c='vws_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='1339' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1346' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1493' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1497' u='w' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1645' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1680' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1694' u='w' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1705' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1720' u='w' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1730' u='r' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='2002' u='w' c='ws_svr_client_data_in'/>
 <offset>64</offset>
-<doc f='codebrowser/src/server.h' l='78'>/**&lt; The number of bytes of data */</doc>
-<doc f='codebrowser/src/server.h' l='98'>/**&lt; Current size of the queue */</doc>
+<doc f='codebrowser/src/server.h' l='215'>/**&lt; The number of bytes of data */</doc>
+<doc f='codebrowser/src/server.h' l='238'>/**&lt; Current size of the queue */</doc>
+<use f='codebrowser/src/test/test_common.c' l='75' u='r' c='ctest_test_vws_kvs_run'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='26' u='r' c='process_data'/>
 <use f='codebrowser/src/test/test_inetd_server.c' l='29' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='32' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='42' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='22' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='25' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='28' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='38' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='35' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='45' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='22' u='r' c='process'/>
+<use f='codebrowser/src/test/test_server.c' l='25' u='r' c='process'/>
+<use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process'/>
+<use f='codebrowser/src/test/test_server.c' l='37' u='r' c='process'/>
+<use f='codebrowser/src/vws.c' l='683' u='w' c='vws_kvs_new'/>
+<use f='codebrowser/src/vws.c' l='715' u='r' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='717' u='w' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='718' u='r' c='vws_kvs_set'/>

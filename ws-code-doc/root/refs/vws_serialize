@@ -8,8 +8,8 @@
  *
  * @ingroup FrameFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1828' u='c' c='ws_svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='2024' u='c' c='ws_svr_client_data_out'/>
 <use f='codebrowser/src/websocket.c' l='618' u='c' c='vws_frame_send'/>
-<def f='codebrowser/src/websocket.c' l='769' ll='887' type='vws_buffer * vws_serialize(vws_frame * f)'/>
-<use f='codebrowser/src/websocket.c' l='1218' u='c' c='vws_generate_close_frame'/>
-<use f='codebrowser/src/websocket.c' l='1227' u='c' c='vws_generate_pong_frame'/>
+<def f='codebrowser/src/websocket.c' l='769' ll='889' type='vws_buffer * vws_serialize(vws_frame * f)'/>
+<use f='codebrowser/src/websocket.c' l='1220' u='c' c='vws_generate_close_frame'/>
+<use f='codebrowser/src/websocket.c' l='1229' u='c' c='vws_generate_pong_frame'/>

@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/util/sc_map.h' l='74' type='uint32_t'/>
 <offset>64</offset>
-<use f='codebrowser/src/rpc.c' l='324' macro='1' u='r' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='364' macro='1' u='r' c='vrtql_rpc_system_free'/>
+<use f='codebrowser/src/rpc.c' l='325' macro='1' u='r' c='vrtql_rpc_module_free'/>
+<use f='codebrowser/src/rpc.c' l='365' macro='1' u='r' c='vrtql_rpc_system_free'/>
 <use f='codebrowser/src/util/sc_map.c' l='90' u='w'/>
 <use f='codebrowser/src/util/sc_map.c' l='139' u='w' c='sc_map_init_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='141' u='r' c='sc_map_init_sv'/>

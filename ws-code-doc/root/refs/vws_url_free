@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='422' type='void vws_url_free(vws_url parts)'/>
-<doc f='codebrowser/src/vws.h' l='417'>/**
+<dec f='codebrowser/src/vws.h' l='551' type='void vws_url_free(vws_url parts)'/>
+<doc f='codebrowser/src/vws.h' l='546'>/**
  * @brief Frees a vws_url structure.
  *
  * @param parts The vws_url structure to free

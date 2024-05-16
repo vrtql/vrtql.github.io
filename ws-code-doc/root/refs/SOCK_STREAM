@@ -2,7 +2,7 @@
 <doc f='include/x86_64-linux-gnu/bits/socket_type.h' l='26'>/* Sequenced, reliable, connection-based
 				   byte streams.  */</doc>
 <use f='codebrowser/src/socket.c' l='861' macro='1' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='52' macro='1' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='55' macro='1' u='r' c='server_thread'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='191' macro='1' u='r' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='225' macro='1' u='r' c='mg_open_listener'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='333' macro='1' u='r' c='mg_connect_resolved'/>

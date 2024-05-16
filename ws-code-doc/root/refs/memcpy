@@ -7,8 +7,8 @@
 <use f='codebrowser/src/mpack/mpack-common.h' l='911' macro='1' u='c' c='mpack_store_u32'/>
 <use f='codebrowser/src/mpack/mpack-common.h' l='924' macro='1' u='c' c='mpack_store_u64'/>
 <use f='codebrowser/src/util/yyjson.h' l='5238' u='c' c='unsafe_yyjson_mut_strncpy'/>
-<use f='codebrowser/src/message.c' l='570' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='588' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='584' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='602' u='c' c='msg_parse_map'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='241' macro='1' u='c' c='mpack_tree_push_stack'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='1525' macro='1' u='c' c='mpack_node_copy_data'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='1551' macro='1' u='c' c='mpack_node_copy_utf8'/>
@@ -25,14 +25,15 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='526' macro='1' u='c' c='mpack_write_native'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1266' macro='1' u='c' c='mpack_write_str'/>
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1280' macro='1' u='c' c='mpack_write_str'/>
-<use f='codebrowser/src/server.c' l='1578' macro='1' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1578' macro='1' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/test/test_common.c' l='111' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='111' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='112' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='112' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='113' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='113' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/server.c' l='47' u='c' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='1771' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1771' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/test/test_common.c' l='265' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='265' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='266' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='266' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='267' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='267' macro='1' u='c' c='ctest_test_queue_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='61' u='c' c='mg_dns_parse_name_depth'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='125' u='c' c='mg_dns_parse'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='130' u='c' c='mg_dns_parse'/>
@@ -92,13 +93,14 @@
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
 <use f='codebrowser/src/util/yyjson.c' l='7795' u='c' c='write_string'/>
-<use f='codebrowser/src/vws.c' l='553' u='c' c='vws_buffer_append'/>
-<use f='codebrowser/src/vws.c' l='698' u='c' c='vws_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='587' u='c' c='vws_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='726' u='c' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='869' u='c' c='vws_base64_encode'/>
 <use f='codebrowser/src/websocket.c' l='721' u='c' c='vws_frame_new'/>
 <use f='codebrowser/src/websocket.c' l='839' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='857' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='869' u='c' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='953' u='c' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='979' u='c' c='vws_deserialize'/>
-<use f='codebrowser/src/websocket.c' l='1019' macro='1' u='c' c='process_frame'/>
-<use f='codebrowser/src/websocket.c' l='1019' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='859' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='871' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='955' u='c' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='981' u='c' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='1021' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1021' macro='1' u='c' c='process_frame'/>

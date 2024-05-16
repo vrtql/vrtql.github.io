@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/server.h' l='320' type='vws_thread_ctx_ctor'/>
+<use f='codebrowser/src/server.c' l='763' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='768' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='770' u='r' c='worker_thread'/>
+<offset>0</offset>
+<doc f='codebrowser/src/server.h' l='317'>/**&lt; Context constructor: A pointer to a function which creates the thread
+     * context. The context is returned as a void* pointer and is stored in the
+     * data member. */</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/server.h' l='176' type='void address_pool_remove(address_pool * pool, uint32_t index)'/>
+<def f='codebrowser/src/server.c' l='87' ll='94' type='void address_pool_remove(address_pool * pool, uint32_t index)'/>
+<use f='codebrowser/src/server.c' l='1403' u='c' c='svr_cnx_free'/>
+<doc f='codebrowser/src/server.h' l='167'>/**
+ * @brief Removes an item from the address pool.
+ *
+ * This function sets the slot at the specified index to zero, marking it as
+ * free. The count of used slots is decremented.
+ *
+ * @param pool A pointer to the address pool.
+ * @param index The index of the slot to be freed.
+ */</doc>

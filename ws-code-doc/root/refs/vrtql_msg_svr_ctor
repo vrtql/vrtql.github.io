@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/server.h' l='706' type='vrtql_msg_svr * vrtql_msg_svr_ctor(vrtql_msg_svr * server, int num_threads, int backlog, int queue_size)'/>
+<use f='codebrowser/src/server.c' l='2179' u='c' c='vrtql_msg_svr_new'/>
+<def f='codebrowser/src/server.c' l='2187' ll='2207' type='vrtql_msg_svr * vrtql_msg_svr_ctor(vrtql_msg_svr * server, int threads, int backlog, int qsize)'/>
+<doc f='codebrowser/src/server.h' l='693'>/**
+ * @brief Message server instance constructor
+ *
+ * Constructs a new message server instance. This takes a new, empty
+ * vrtql_msg_svr instance and initializes all of its members. It is used by
+ * derived structs as well (vrtql_msg_svr) to construct the base struct.
+ *
+ * @param server The server instance to be initialized
+ * @return The initialized server instance
+ *
+ * @ingroup ServerFunctions
+ */</doc>

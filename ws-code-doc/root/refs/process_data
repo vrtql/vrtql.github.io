@@ -1,5 +1,3 @@
-<def f='codebrowser/src/test/test_inetd_server.c' l='17' ll='47' type='void process_data(vws_svr_data * req)'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='74' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='113' u='r' c='ctest_test_server_echo_run'/>
-<def f='codebrowser/src/test/test_server.c' l='13' ll='43' type='void process_data(vws_svr_data * req)'/>
-<use f='codebrowser/src/test/test_server.c' l='80' u='r' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/test/test_inetd_server.c' l='17' ll='50' type='void process_data(vws_svr_data * req, void * thread_ctx)'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='77' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='116' u='r' c='ctest_test_server_echo_run'/>

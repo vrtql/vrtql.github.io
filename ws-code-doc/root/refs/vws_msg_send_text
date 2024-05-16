@@ -7,4 +7,5 @@
  * @return Returns the number of bytes sent or -1 on error. In the case of
  *         error, check vws.e for details, especially for VE_SOCKET.
  */</doc>
+<use f='codebrowser/src/test/test_ws_server.c' l='70' u='c' c='client_thread'/>
 <def f='codebrowser/src/websocket.c' l='596' ll='599' type='ssize_t vws_msg_send_text(vws_cnx * c, cstr data)'/>

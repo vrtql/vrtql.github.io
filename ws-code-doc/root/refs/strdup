@@ -1,8 +1,10 @@
 <dec f='include/string.h' l='166' type='char * strdup(const char * __s)'/>
 <doc f='include/string.h' l='165'>/* Duplicate S, returning an identical malloc&apos;d string.  */</doc>
 <use f='codebrowser/src/rpc.c' l='313' u='c' c='vrtql_rpc_module_new'/>
-<use f='codebrowser/src/rpc.c' l='518' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/server.c' l='1457' u='c' c='queue_init'/>
+<use f='codebrowser/src/rpc.c' l='563' u='c' c='sys_map_set'/>
+<use f='codebrowser/src/server.c' l='1650' u='c' c='queue_init'/>
+<use f='codebrowser/src/test/test_common.c' l='139' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='140' u='c' c='ctest_test_map_bench_run'/>
 <def f='codebrowser/src/url.c' l='34' ll='40' type='char * strdup(const char * str)'/>
 <use f='codebrowser/src/url.c' l='51' u='c' c='strff'/>
 <use f='codebrowser/src/url.c' l='58' u='c' c='get_part'/>
@@ -13,6 +15,8 @@
 <use f='codebrowser/src/url.c' l='128' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='170' u='c' c='url_parse'/>
 <use f='codebrowser/src/url.c' l='248' u='c' c='url_get_hostname'/>
-<use f='codebrowser/src/vws.c' l='319' u='c' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='602' u='c' c='vws_map_set'/>
-<use f='codebrowser/src/vws.c' l='605' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='306' u='c' c='vws_strdup'/>
+<use f='codebrowser/src/vws.c' l='343' u='c' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='638' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='638' u='c' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='722' u='c' c='vws_kvs_set'/>

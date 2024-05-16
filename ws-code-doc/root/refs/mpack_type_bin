@@ -4,7 +4,7 @@
 <use f='codebrowser/src/mpack/mpack-common.h' l='628' u='r' c='mpack_tag_bytes'/>
 <use f='codebrowser/src/mpack/mpack-reader.h' l='795' u='r' c='mpack_done_bin'/>
 <use f='codebrowser/src/mpack/mpack-writer.h' l='1051' u='r' c='mpack_finish_bin'/>
-<use f='codebrowser/src/message.c' l='616' u='r' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='633' u='r' c='msg_parse_content'/>
 <doc f='codebrowser/src/mpack/mpack-common.h' l='196'>/**&lt; A chunk of binary data. */</doc>
 <use f='codebrowser/src/mpack/mpack-common.c' l='64' c='mpack_type_to_string'/>
 <use f='codebrowser/src/mpack/mpack-common.c' l='120' c='mpack_tag_cmp'/>

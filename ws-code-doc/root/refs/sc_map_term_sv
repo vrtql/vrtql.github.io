@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/util/sc_map.h' l='232' macro='1' type='void sc_map_term_sv(struct sc_map_sv * map)'/>
-<use f='codebrowser/src/rpc.c' l='329' u='c' c='vrtql_rpc_module_free'/>
-<use f='codebrowser/src/rpc.c' l='376' u='c' c='vrtql_rpc_system_free'/>
+<use f='codebrowser/src/rpc.c' l='330' u='c' c='vrtql_rpc_module_free'/>
+<use f='codebrowser/src/rpc.c' l='377' u='c' c='vrtql_rpc_system_free'/>
 <def f='codebrowser/src/util/sc_map.c' l='410' macro='1' type='void sc_map_term_sv(struct sc_map_sv * m)'/>

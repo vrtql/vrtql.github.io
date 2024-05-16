@@ -1,34 +1,32 @@
-<dec f='codebrowser/src/vws.h' l='235' type='vws_error_submit_cb'/>
-<offset>448</offset>
-<doc f='codebrowser/src/vws.h' l='235'>/**&lt; Error submission function   */</doc>
+<dec f='codebrowser/src/vws.h' l='254' type='vws_error_submit_cb'/>
+<offset>576</offset>
+<doc f='codebrowser/src/vws.h' l='254'>/**&lt; Error submission function   */</doc>
 <use f='codebrowser/src/message.c' l='134' u='r' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='244' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='287' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='305' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='333' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='352' u='r' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='364' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='251' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='294' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='312' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='340' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='359' u='r' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='371' u='r' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/rpc.c' l='91' u='r' c='vrtql_rpc_invoke'/>
 <use f='codebrowser/src/rpc.c' l='306' u='r' c='vrtql_rpc_module_new'/>
-<use f='codebrowser/src/rpc.c' l='434' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/rpc.c' l='445' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/rpc.c' l='457' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/rpc.c' l='471' u='r' c='vrtql_rpc_service'/>
-<use f='codebrowser/src/server.c' l='850' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='860' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='937' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='958' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='971' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='979' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='989' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1000' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1200' u='r' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1337' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1345' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1353' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1361' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1376' u='r' c='svr_on_connect'/>
-<use f='codebrowser/src/server.c' l='1692' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/rpc.c' l='464' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='475' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='487' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='504' u='r' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/server.c' l='977' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='987' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='1067' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1088' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1101' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1109' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1122' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1342' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1520' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1528' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1539' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1547' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1885' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='150' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='166' u='r' c='socket_set_timeout'/>
 <use f='codebrowser/src/socket.c' l='174' u='r' c='socket_set_timeout'/>
@@ -61,12 +59,13 @@
 <use f='codebrowser/src/socket.c' l='873' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='884' u='r' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='893' u='r' c='connect_to_host'/>
-<use f='codebrowser/src/test/test_common.c' l='40' u='r' c='ctest_test_error_callbacks_run'/>
-<use f='codebrowser/src/test/test_common.c' l='144' u='r' c='ctest_test_error_run'/>
-<use f='codebrowser/src/vws.c' l='247' u='r' c='vws_malloc_error'/>
-<use f='codebrowser/src/vws.c' l='274' u='r' c='vws_calloc_error'/>
-<use f='codebrowser/src/vws.c' l='296' u='r' c='vws_realloc_error'/>
-<use f='codebrowser/src/vws.c' l='453' u='w'/>
+<use f='codebrowser/src/test/test_common.c' l='193' u='r' c='ctest_test_error_callbacks_run'/>
+<use f='codebrowser/src/test/test_common.c' l='298' u='r' c='ctest_test_error_run'/>
+<use f='codebrowser/src/vws.c' l='249' u='r' c='vws_malloc_error'/>
+<use f='codebrowser/src/vws.c' l='276' u='r' c='vws_calloc_error'/>
+<use f='codebrowser/src/vws.c' l='298' u='r' c='vws_realloc_error'/>
+<use f='codebrowser/src/vws.c' l='320' u='r' c='vws_strdup_error'/>
+<use f='codebrowser/src/vws.c' l='479' u='w'/>
 <use f='codebrowser/src/websocket.c' l='276' u='r' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='357' u='r' c='vws_connect'/>
 <use f='codebrowser/src/websocket.c' l='390' u='r' c='vws_cnx_is_connected'/>
@@ -74,4 +73,4 @@
 <use f='codebrowser/src/websocket.c' l='530' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='773' u='r' c='vws_serialize'/>
 <use f='codebrowser/src/websocket.c' l='851' u='r' c='vws_serialize'/>
-<use f='codebrowser/src/websocket.c' l='1178' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1180' u='r' c='vws_cnx_ingress'/>

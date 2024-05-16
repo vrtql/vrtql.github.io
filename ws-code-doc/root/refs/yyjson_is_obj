@@ -3,7 +3,7 @@
 <use f='codebrowser/src/util/yyjson.h' l='5043' u='c' c='yyjson_obj_size'/>
 <use f='codebrowser/src/util/yyjson.h' l='5054' u='c' c='yyjson_obj_getn'/>
 <use f='codebrowser/src/util/yyjson.h' l='5073' u='c' c='yyjson_obj_iter_init'/>
-<use f='codebrowser/src/message.c' l='319' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='339' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='326' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='346' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/util/yyjson.c' l='2493' u='c' c='yyjson_merge_patch'/>
 <use f='codebrowser/src/util/yyjson.c' l='2500' u='c' c='yyjson_merge_patch'/>

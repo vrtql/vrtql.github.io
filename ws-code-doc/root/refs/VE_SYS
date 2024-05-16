@@ -14,10 +14,10 @@
 <use f='codebrowser/src/socket.c' l='873' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='884' c='connect_to_host'/>
 <use f='codebrowser/src/socket.c' l='893' c='connect_to_host'/>
-<use f='codebrowser/src/vws.c' l='102' u='r' c='vws_trace_lock'/>
-<use f='codebrowser/src/vws.c' l='123' u='r' c='vws_trace_unlock'/>
-<use f='codebrowser/src/vws.c' l='154' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='161' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='185' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='384' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='104' u='r' c='vws_trace_lock'/>
+<use f='codebrowser/src/vws.c' l='125' u='r' c='vws_trace_unlock'/>
+<use f='codebrowser/src/vws.c' l='156' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='163' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='187' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='408' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='523' c='socket_handshake'/>

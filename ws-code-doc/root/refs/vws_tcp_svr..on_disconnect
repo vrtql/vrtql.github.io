@@ -1,8 +1,8 @@
-<dec f='codebrowser/src/server.h' l='237' type='vws_tcp_svr_disconnect'/>
-<use f='codebrowser/src/server.c' l='1072' u='w' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1238' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1269' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1420' u='r' c='svr_on_close'/>
-<use f='codebrowser/src/server.c' l='1867' u='w' c='ws_svr_ctor'/>
-<offset>2688</offset>
-<doc f='codebrowser/src/server.h' l='236'>/**&lt; Callback function for disconnect */</doc>
+<dec f='codebrowser/src/server.h' l='419' type='vws_tcp_svr_disconnect'/>
+<use f='codebrowser/src/server.c' l='1204' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1441' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1470' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1612' u='r' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='2064' u='w' c='ws_svr_ctor'/>
+<offset>2496</offset>
+<doc f='codebrowser/src/server.h' l='418'>/**&lt; Callback function for disconnect */</doc>

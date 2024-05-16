@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/vws.h' l='456' type='size_t vws_kvs_size(vws_kvs * m)'/>
+<doc f='codebrowser/src/vws.h' l='451'>/**
+ * @brief Returns the number of key/value pairs
+ *
+ * @return Number of key/value pairs
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='53' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='85' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='108' u='c' c='ctest_test_vws_kvs_run'/>
+<def f='codebrowser/src/vws.c' l='708' ll='711' type='size_t vws_kvs_size(vws_kvs * m)'/>

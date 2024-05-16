@@ -1,9 +1,11 @@
 <dec f='codebrowser/src/test/ctest.h' l='173'/>
-<use f='codebrowser/src/test/test_common.c' l='38' u='c'/>
-<use f='codebrowser/src/test/test_common.c' l='43' u='c'/>
-<use f='codebrowser/src/test/test_common.c' l='61' u='c'/>
-<use f='codebrowser/src/test/test_common.c' l='83' u='c'/>
-<use f='codebrowser/src/test/test_common.c' l='105' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='39' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='114' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='191' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='196' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='215' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='237' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='259' u='c'/>
 <use f='codebrowser/src/test/test_json.c' l='30' u='c'/>
 <use f='codebrowser/src/test/test_json.c' l='63' u='c'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='35' u='c'/>

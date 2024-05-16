@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/server.h' l='435' type='int vws_svr_run(vws_svr * server, cstr host, int port)'/>
-<doc f='codebrowser/src/server.h' l='427'>/**
+<dec f='codebrowser/src/server.h' l='631' type='int vws_svr_run(vws_svr * server, cstr host, int port)'/>
+<doc f='codebrowser/src/server.h' l='623'>/**
  * @brief Starts a WebSocket server.
  *
  * @param server The server to run.

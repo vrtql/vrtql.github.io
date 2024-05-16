@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/server.h' l='324' type='void *'/>
+<use f='codebrowser/src/server.c' l='764' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='770' u='r' c='worker_thread'/>
+<offset>64</offset>
+<doc f='codebrowser/src/server.h' l='322'>/**&lt; Context constructor data: A pointer to optional user-data passed into
+     * the ctor to help in context construction. */</doc>

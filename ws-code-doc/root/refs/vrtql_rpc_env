@@ -1,7 +1,8 @@
-<def f='codebrowser/src/rpc.h' l='116' ll='121'/>
-<use f='codebrowser/src/rpc.h' l='116'/>
-<size>8</size>
-<doc f='codebrowser/src/rpc.h' l='113'>/**
+<def f='codebrowser/src/rpc.h' l='142' ll='150'/>
+<use f='codebrowser/src/rpc.h' l='142'/>
+<size>16</size>
+<doc f='codebrowser/src/rpc.h' l='139'>/**
  * @brief Struct representing a RPC environment
  */</doc>
-<mbr r='vrtql_rpc_env::data' o='0' t='char *'/>
+<mbr r='vrtql_rpc_env::data' o='0' t='void *'/>
+<mbr r='vrtql_rpc_env::module' o='64' t='vrtql_rpc_module *'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='368' type='void vws_map_remove(struct sc_map_str * map, cstr key)'/>
-<doc f='codebrowser/src/vws.h' l='360'>/**
+<dec f='codebrowser/src/vws.h' l='387' type='void vws_map_remove(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vws.h' l='379'>/**
  * @brief Removes a key-value pair from the map using a string key.
  *
  * If the key exists in the map, it will be removed along with its associated value.
@@ -7,6 +7,5 @@
  * @param map The map from which to remove the key-value pair.
  * @param key The string key to use for removal.
  */</doc>
-<use f='codebrowser/src/message.c' l='444' u='c' c='vrtql_msg_clear_header'/>
-<use f='codebrowser/src/message.c' l='459' u='c' c='vrtql_msg_clear_routing'/>
-<def f='codebrowser/src/vws.c' l='613' ll='624' type='void vws_map_remove(struct sc_map_str * map, cstr key)'/>
+<use f='codebrowser/src/vws.c' l='635' u='c' c='vws_map_set'/>
+<def f='codebrowser/src/vws.c' l='641' ll='652' type='void vws_map_remove(struct sc_map_str * map, cstr key)'/>

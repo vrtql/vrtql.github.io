@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/vws.h' l='435' type='vws_kvs * vws_kvs_new(size_t size)'/>
+<doc f='codebrowser/src/vws.h' l='429'>/**
+ * @brief Initializes a new dynamic array for key-value pairs.
+ *
+ * @param size Initial capacity of the dynamic array.
+ * @return Pointer to the newly created vws_kvs structure.
+ */</doc>
+<use f='codebrowser/src/message.c' l='42' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='43' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/test/test_common.c' l='42' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='117' u='c' c='ctest_test_map_bench_run'/>
+<def f='codebrowser/src/vws.c' l='675' ll='687' type='vws_kvs * vws_kvs_new(size_t size)'/>

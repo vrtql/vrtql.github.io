@@ -1,2 +1,2 @@
-<use f='codebrowser/src/server.c' l='987' u='c' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1359' u='c' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1120' u='c' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1545' u='c' c='svr_on_connect'/>

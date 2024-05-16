@@ -1,15 +1,19 @@
-<def f='codebrowser/src/test/test_common.c' l='16' macro='1' type='void (*)(struct ctest_test_data *)'/>
-<def f='codebrowser/src/test/test_common.c' l='28' macro='1' type='void (*)(struct ctest_test_data *)'/>
-<use f='codebrowser/src/test/test_common.c' l='38' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='38' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='43' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='43' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='61' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='61' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='83' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='83' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='105' macro='1' u='a'/>
-<use f='codebrowser/src/test/test_common.c' l='105' macro='1' u='a'/>
+<def f='codebrowser/src/test/test_common.c' l='17' macro='1' type='void (*)(struct ctest_test_data *)'/>
+<def f='codebrowser/src/test/test_common.c' l='29' macro='1' type='void (*)(struct ctest_test_data *)'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='114' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='114' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='191' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='191' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='196' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='196' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='215' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='215' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='237' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='237' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='259' macro='1' u='a'/>
+<use f='codebrowser/src/test/test_common.c' l='259' macro='1' u='a'/>
 <def f='codebrowser/src/test/test_json.c' l='12' macro='1' type='void (*)(struct ctest_test_data *)'/>
 <def f='codebrowser/src/test/test_json.c' l='22' macro='1' type='void (*)(struct ctest_test_data *)'/>
 <use f='codebrowser/src/test/test_json.c' l='30' macro='1' u='a'/>

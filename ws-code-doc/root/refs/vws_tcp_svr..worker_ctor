@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='431' type='vws_thread_ctx_ctor'/>
+<use f='codebrowser/src/server.c' l='763' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='1208' u='w' c='tcp_svr_ctor'/>
+<offset>2752</offset>
+<doc f='codebrowser/src/server.h' l='430'>/**&lt; Worker thread constructor */</doc>

@@ -1,6 +1,10 @@
 <dec f='include/string.h' l='136' type='int strcmp(const char * __s1, const char * __s2)'/>
 <doc f='include/string.h' l='135'>/* Compare S1 and S2.  */</doc>
 <use f='codebrowser/src/test/ctest.h' l='355' u='c' c='assert_str'/>
+<use f='codebrowser/src/test/test_common.c' l='63' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='68' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='73' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='100' u='c' c='ctest_test_vws_kvs_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='59' u='c' c='packed_list'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='p_list'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='160' u='c' c='p_list'/>
@@ -12,6 +16,7 @@
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_s64'/>
 <use f='codebrowser/src/util/sc_map.c' l='394' u='c' c='sc_map_cmp_sll'/>
+<use f='codebrowser/src/vws.c' l='672' u='c' c='vws_kvs_comp'/>
 <use f='codebrowser/src/websocket.c' l='281' u='c' c='cnx_connect'/>
 <use f='codebrowser/src/websocket.c' l='285' u='c' c='cnx_connect'/>
-<use f='codebrowser/src/websocket.c' l='1106' u='c' c='verify_handshake'/>
+<use f='codebrowser/src/websocket.c' l='1108' u='c' c='verify_handshake'/>

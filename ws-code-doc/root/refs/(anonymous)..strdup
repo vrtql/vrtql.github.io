@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/vws.h' l='251' type='vws_strdup_cb'/>
+<offset>384</offset>
+<doc f='codebrowser/src/vws.h' l='251'>/**&lt; strdup function             */</doc>
+<use f='codebrowser/src/vws.c' l='476' u='w'/>

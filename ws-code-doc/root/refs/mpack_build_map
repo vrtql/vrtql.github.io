@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/mpack/mpack-writer.h' l='821' type='void mpack_build_map(struct mpack_writer_t * writer)'/>
-<use f='codebrowser/src/message.c' l='98' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='108' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='97' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='107' u='c' c='vrtql_msg_serialize'/>
 <doc f='codebrowser/src/mpack/mpack-writer.h' l='783'>/**
  * Starts building a map.
  *

@@ -1,5 +1,4 @@
 <dec f='codebrowser/src/util/sc_map.h' l='231' macro='1' type='_Bool sc_map_init_str(struct sc_map_str * map, uint32_t cap, uint32_t load_factor)'/>
 <use f='codebrowser/src/http_message.c' l='131' u='c' c='vws_http_msg_new'/>
-<use f='codebrowser/src/message.c' l='42' u='c' c='vrtql_msg_new'/>
-<use f='codebrowser/src/message.c' l='43' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/test/test_common.c' l='121' u='c' c='ctest_test_map_bench_run'/>
 <def f='codebrowser/src/util/sc_map.c' l='409' macro='1' type='_Bool sc_map_init_str(struct sc_map_str * m, uint32_t cap, uint32_t load_fac)'/>

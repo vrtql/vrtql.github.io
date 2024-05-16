@@ -6,9 +6,10 @@
  *
  * @ingroup ConnectionFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1629' u='c' c='ws_svr_client_connect'/>
+<use f='codebrowser/src/server.c' l='1822' u='c' c='ws_svr_client_connect'/>
 <use f='codebrowser/src/test/test_example.c' l='6' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='50' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='52' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='19' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='40' u='c' c='ctest_test_setup'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='50' u='c' c='client_thread'/>
 <def f='codebrowser/src/websocket.c' l='293' ll='312' type='vws_cnx * vws_cnx_new()'/>

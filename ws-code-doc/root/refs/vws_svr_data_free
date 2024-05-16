@@ -1,12 +1,17 @@
-<dec f='codebrowser/src/server.h' l='282' type='void vws_svr_data_free(vws_svr_data * t)'/>
-<def f='codebrowser/src/server.c' l='771' ll='778' type='void vws_svr_data_free(vws_svr_data * t)'/>
-<use f='codebrowser/src/server.c' l='1192' u='c' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1406' u='c' c='svr_on_write_complete'/>
-<use f='codebrowser/src/server.c' l='1808' u='c' c='ws_svr_client_data_in'/>
-<doc f='codebrowser/src/server.h' l='277'>/**
+<dec f='codebrowser/src/server.h' l='475' type='void vws_svr_data_free(vws_svr_data * t)'/>
+<use f='codebrowser/src/server.c' l='843' u='c' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='853' u='c' c='uv_thread'/>
+<def f='codebrowser/src/server.c' l='892' ll='899' type='void vws_svr_data_free(vws_svr_data * t)'/>
+<use f='codebrowser/src/server.c' l='1334' u='c' c='svr_client_data_in'/>
+<use f='codebrowser/src/server.c' l='1356' u='c' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1366' u='c' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1499' u='c' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1593' u='c' c='svr_on_write_complete'/>
+<use f='codebrowser/src/server.c' l='2003' u='c' c='ws_svr_client_data_in'/>
+<doc f='codebrowser/src/server.h' l='470'>/**
  * @brief Frees the resources allocated to a thread data
  *
  * @param t The data
  */</doc>
-<use f='codebrowser/src/test/test_inetd_server.c' l='35' u='c' c='process_data'/>
-<use f='codebrowser/src/test/test_server.c' l='31' u='c' c='process_data'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='38' u='c' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='33' u='c' c='process'/>

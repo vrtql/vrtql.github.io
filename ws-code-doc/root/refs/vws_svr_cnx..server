@@ -1,20 +1,14 @@
-<dec f='codebrowser/src/server.h' l='132' type='struct vws_tcp_svr *'/>
-<use f='codebrowser/src/server.c' l='1180' u='r' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1189' u='r' c='svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1238' u='r' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1269' u='r' c='svr_cnx_map_clear'/>
-<use f='codebrowser/src/server.c' l='1279' u='w' c='svr_cnx_new'/>
-<use f='codebrowser/src/server.c' l='1562' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1591' u='r' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1659' u='r' c='vws_tcp_svr_close'/>
-<use f='codebrowser/src/server.c' l='1665' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1799' u='r' c='ws_svr_client_data_in'/>
-<use f='codebrowser/src/server.c' l='1835' u='r' c='ws_svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1843' u='r' c='ws_svr_client_msg_in'/>
-<use f='codebrowser/src/server.c' l='1944' u='r' c='msg_svr_client_ws_msg_in'/>
-<use f='codebrowser/src/server.c' l='1951' u='r' c='msg_svr_client_msg_in'/>
+<dec f='codebrowser/src/server.h' l='272' type='struct vws_tcp_svr *'/>
+<use f='codebrowser/src/server.c' l='1319' u='r' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1325' u='r' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1378' u='w' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1403' u='r' c='svr_cnx_free'/>
+<use f='codebrowser/src/server.c' l='1441' u='r' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1470' u='r' c='svr_cnx_map_clear'/>
+<use f='codebrowser/src/server.c' l='1754' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1783' u='r' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1858' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1930' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1980' u='r' c='ws_svr_client_read'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='131'>/**&lt; The server associated with the connection */</doc>
-<use f='codebrowser/src/test/test_inetd_server.c' l='19' u='r' c='process_data'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='16' u='r' c='process_message'/>
-<use f='codebrowser/src/test/test_server.c' l='15' u='r' c='process_data'/>
+<doc f='codebrowser/src/server.h' l='271'>/**&lt; The server associated with the connection */</doc>

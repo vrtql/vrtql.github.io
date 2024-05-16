@@ -1,5 +1,1 @@
-queue_destroy|queue_destroy
 queue_empty|queue_empty
-queue_init|queue_init
-queue_pop|queue_pop
-queue_push|queue_push

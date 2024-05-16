@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/test/test_common.c' l='129' macro='1' type='void ctest_test_trace_run()'/>
-<use f='codebrowser/src/test/test_common.c' l='129' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='129' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='129' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='129' macro='1'/>
-<def f='codebrowser/src/test/test_common.c' l='129' macro='1' type='void ctest_test_trace_run()'/>
+<dec f='codebrowser/src/test/test_common.c' l='283' macro='1' type='void ctest_test_trace_run()'/>
+<use f='codebrowser/src/test/test_common.c' l='283' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='283' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='283' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='283' macro='1'/>
+<def f='codebrowser/src/test/test_common.c' l='283' macro='1' type='void ctest_test_trace_run()'/>

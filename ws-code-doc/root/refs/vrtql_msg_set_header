@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='86' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
-<def f='codebrowser/src/message.c' l='437' ll='440' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
-<doc f='codebrowser/src/message.h' l='78'>/**
+<dec f='codebrowser/src/message.h' l='89' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
+<def f='codebrowser/src/message.c' l='451' ll='454' type='void vrtql_msg_set_header(vrtql_msg * msg, cstr key, cstr value)'/>
+<doc f='codebrowser/src/message.h' l='81'>/**
  * @brief Sets a header key-value pair.
  * @param msg The vrtql_msg instance.
  * @param key The header key.
@@ -10,7 +10,7 @@
  */</doc>
 <use f='codebrowser/src/test/test_example.c' l='25' u='c' c='main'/>
 <use f='codebrowser/src/test/test_message.c' l='16' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='55' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='61' u='c' c='ctest_test_message_json_serialization_run'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='39' u='c' c='ctest_test_basic_run'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='42' u='c' c='ctest_test_basic_run'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='43' u='c' c='ctest_test_basic_run'/>

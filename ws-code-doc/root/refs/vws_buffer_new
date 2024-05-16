@@ -1,25 +1,25 @@
-<dec f='codebrowser/src/vws.h' l='270' type='vws_buffer * vws_buffer_new()'/>
+<dec f='codebrowser/src/vws.h' l='289' type='vws_buffer * vws_buffer_new()'/>
 <use f='codebrowser/src/http_message.c' l='111' u='c' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='112' u='c' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='113' u='c' c='vws_http_msg_new'/>
 <use f='codebrowser/src/http_message.c' l='114' u='c' c='vws_http_msg_new'/>
-<doc f='codebrowser/src/vws.h' l='265'>/**
+<doc f='codebrowser/src/vws.h' l='284'>/**
  * @brief Creates a new vrtql buffer.
  *
  * @return Returns a new vws_buffer instance
  */</doc>
-<use f='codebrowser/src/message.c' l='44' u='c' c='vrtql_msg_new'/>
-<use f='codebrowser/src/message.c' l='85' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='45' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='84' u='c' c='vrtql_msg_serialize'/>
 <use f='codebrowser/src/message.c' l='148' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='382' u='c' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='389' u='c' c='vrtql_msg_dump'/>
 <use f='codebrowser/src/rpc.c' l='246' u='c' c='vrtql_rpc_new'/>
 <use f='codebrowser/src/rpc.c' l='255' u='c' c='vrtql_rpc_free'/>
-<use f='codebrowser/src/server.c' l='1707' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1900' u='c' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='78' u='c' c='vws_socket_ctor'/>
-<use f='codebrowser/src/test/test_common.c' l='85' u='c' c='ctest_test_buffer_run'/>
-<def f='codebrowser/src/vws.c' l='467' ll='476' type='vws_buffer * vws_buffer_new()'/>
-<doc f='codebrowser/src/vws.c' l='463'>//------------------------------------------------------------------------------
+<use f='codebrowser/src/test/test_common.c' l='239' u='c' c='ctest_test_buffer_run'/>
+<def f='codebrowser/src/vws.c' l='501' ll='510' type='vws_buffer * vws_buffer_new()'/>
+<doc f='codebrowser/src/vws.c' l='497'>//------------------------------------------------------------------------------
 // Buffer
 //------------------------------------------------------------------------------</doc>
 <use f='codebrowser/src/websocket.c' l='659' u='c' c='vws_msg_new'/>
-<use f='codebrowser/src/websocket.c' l='878' u='c' c='vws_serialize'/>
+<use f='codebrowser/src/websocket.c' l='880' u='c' c='vws_serialize'/>

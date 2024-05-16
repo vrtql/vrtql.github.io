@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/server.h' l='386' type='struct vws_tcp_svr'/>
-<use f='codebrowser/src/server.c' l='1866' u='m' c='ws_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1867' u='m' c='ws_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1868' u='m' c='ws_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1869' u='m' c='ws_svr_ctor'/>
+<dec f='codebrowser/src/server.h' l='582' type='struct vws_tcp_svr'/>
+<use f='codebrowser/src/server.c' l='2063' u='m' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='2064' u='m' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='2065' u='m' c='ws_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='2066' u='m' c='ws_svr_ctor'/>
 <offset>0</offset>
-<doc f='codebrowser/src/server.h' l='385'>/**&lt; Base class */</doc>
+<doc f='codebrowser/src/server.h' l='581'>/**&lt; Base class */</doc>

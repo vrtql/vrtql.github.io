@@ -1,7 +1,10 @@
-<dec f='codebrowser/src/server.h' l='105' type='int'/>
-<use f='codebrowser/src/server.c' l='1454' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1525' u='r' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1526' u='w' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1526' u='r' c='queue_pop'/>
+<dec f='codebrowser/src/server.h' l='245' type='int'/>
+<use f='codebrowser/src/server.c' l='1495' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1496' u='w' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1496' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1647' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1718' u='r' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1719' u='w' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1719' u='r' c='queue_pop'/>
 <offset>128</offset>
-<doc f='codebrowser/src/server.h' l='104'>/**&lt; Head position of the queue */</doc>
+<doc f='codebrowser/src/server.h' l='244'>/**&lt; Head position of the queue */</doc>

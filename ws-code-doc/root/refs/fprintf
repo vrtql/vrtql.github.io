@@ -5,5 +5,7 @@
    marked with __THROW.  */</doc>
 <use f='codebrowser/src/llhttp/api.c' l='504' u='c' c='llhttp__debug'/>
 <use f='codebrowser/src/llhttp/api.c' l='507' u='c' c='llhttp__debug'/>
-<use f='codebrowser/src/vws.c' l='193' u='c' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='209' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='195' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='211' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='968' u='c' c='vws_file_path'/>
+<use f='codebrowser/src/vws.c' l='984' u='c' c='vws_file_path'/>

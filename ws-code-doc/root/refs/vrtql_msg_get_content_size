@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='142' type='size_t vrtql_msg_get_content_size(vrtql_msg * msg)'/>
-<def f='codebrowser/src/message.c' l='472' ll='475' type='size_t vrtql_msg_get_content_size(vrtql_msg * msg)'/>
-<doc f='codebrowser/src/message.h' l='135'>/**
+<dec f='codebrowser/src/message.h' l='145' type='size_t vrtql_msg_get_content_size(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='486' ll='489' type='size_t vrtql_msg_get_content_size(vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='138'>/**
  * @brief Gets the size of the content.
  * @param msg The vrtql_msg instance.
  * @return The size of the content in bytes.

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.h' l='150' type='uint32_t address_pool_set(address_pool * pool, uintptr_t address)'/>
+<def f='codebrowser/src/server.c' l='55' ll='75' type='uint32_t address_pool_set(address_pool * pool, uintptr_t address)'/>
+<use f='codebrowser/src/server.c' l='1388' u='c' c='svr_cnx_new'/>
+<doc f='codebrowser/src/server.h' l='139'>/**
+ * @brief Adds a new item to the address pool.
+ *
+ * This function adds a new item to the address pool. If the pool is full, it is
+ * resized. The function searches for the first free slot to use, starting from
+ * the last used index and wrapping around if necessary.
+ *
+ * @param pool A pointer to the address pool.
+ * @param address The uintptr_t item to be added to the pool.
+ * @return int The index at which the item was added, or -1 if resizing failed.
+ */</doc>

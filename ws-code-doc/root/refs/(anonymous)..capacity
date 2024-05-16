@@ -1,7 +1,18 @@
-<dec f='codebrowser/src/server.h' l='102' type='int'/>
-<use f='codebrowser/src/server.c' l='1453' u='w' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1487' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1500' u='r' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1526' u='r' c='queue_pop'/>
+<dec f='codebrowser/src/server.h' l='90' type='uint32_t'/>
+<dec f='codebrowser/src/server.h' l='242' type='int'/>
+<use f='codebrowser/src/server.c' l='25' u='w' c='address_pool_new'/>
+<use f='codebrowser/src/server.c' l='45' u='r' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='47' u='r' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='52' u='w' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='57' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='64' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='72' u='r' c='address_pool_set'/>
+<use f='codebrowser/src/server.c' l='79' u='r' c='address_pool_get'/>
+<use f='codebrowser/src/server.c' l='1496' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1646' u='w' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1680' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1693' u='r' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1719' u='r' c='queue_pop'/>
 <offset>96</offset>
-<doc f='codebrowser/src/server.h' l='101'>/**&lt; Maximum capacity of the queue */</doc>
+<doc f='codebrowser/src/server.h' l='89'>/**&lt; Total number of slots in the array */</doc>
+<doc f='codebrowser/src/server.h' l='241'>/**&lt; Maximum capacity of the queue */</doc>

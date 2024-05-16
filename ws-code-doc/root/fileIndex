@@ -49,6 +49,7 @@ codebrowser/src/test/test_rpc_client.c
 codebrowser/src/test/test_rpc_server.c
 codebrowser/src/test/test_server.c
 codebrowser/src/test/test_websocket.c
+codebrowser/src/test/test_ws_server.c
 codebrowser/src/test/util/mongoose.c
 codebrowser/src/url.c
 codebrowser/src/util/sc_map.c

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/server.h' l='195' type='struct vws_tcp_svr *'/>
+<use f='codebrowser/src/server.c' l='813' u='r' c='uv_thread'/>
+<use f='codebrowser/src/server.c' l='956' u='w' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='1116' u='w' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1224' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1514' u='r' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1534' u='w' c='svr_on_connect'/>
+<use f='codebrowser/src/server.c' l='1571' u='r' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1601' u='r' c='svr_on_close'/>
+<offset>0</offset>

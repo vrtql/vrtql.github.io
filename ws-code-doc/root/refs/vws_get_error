@@ -1,2 +1,2 @@
-<def f='codebrowser/src/vws.c' l='324' ll='327' type='vws_error_value vws_get_error()'/>
-<doc f='codebrowser/src/vws.c' l='323'>// Get the error value for the current thread</doc>
+<def f='codebrowser/src/vws.c' l='348' ll='351' type='vws_error_value vws_get_error()'/>
+<doc f='codebrowser/src/vws.c' l='347'>// Get the error value for the current thread</doc>

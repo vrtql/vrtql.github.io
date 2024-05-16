@@ -1,18 +1,18 @@
 <dec f='codebrowser/src/socket.h' l='57' type='vws_buffer *'/>
 <offset>128</offset>
 <doc f='codebrowser/src/socket.h' l='56'>/**&lt; Socket receive buffer. */</doc>
-<use f='codebrowser/src/server.c' l='1669' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1679' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1680' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1703' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1756' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1862' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1872' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1873' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1896' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1949' u='r' c='ws_svr_client_read'/>
 <use f='codebrowser/src/socket.c' l='78' u='w' c='vws_socket_ctor'/>
 <use f='codebrowser/src/socket.c' l='104' u='r' c='vws_socket_dtor'/>
 <use f='codebrowser/src/socket.c' l='280' u='r' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='474' u='r' c='vws_socket_read'/>
 <use f='codebrowser/src/socket.c' l='600' u='r' c='vws_socket_read'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='103' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='70' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='106' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='68' u='r' c='client_thread'/>
 <use f='codebrowser/src/websocket.c' l='465' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='481' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='494' u='r' c='socket_handshake'/>
@@ -20,6 +20,6 @@
 <use f='codebrowser/src/websocket.c' l='504' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='505' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='511' u='r' c='socket_handshake'/>
-<use f='codebrowser/src/websocket.c' l='1153' u='r' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1160' u='r' c='vws_cnx_ingress'/>
-<use f='codebrowser/src/websocket.c' l='1199' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1155' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1162' u='r' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/websocket.c' l='1201' u='r' c='vws_cnx_ingress'/>

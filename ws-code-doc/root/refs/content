@@ -1,13 +1,13 @@
 <def f='codebrowser/src/test/test_inetd_server.c' l='15' type='cstr'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='97' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='100' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='101' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='101' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_msg_server.c' l='11' type='cstr'/>
 <def f='codebrowser/src/test/test_rpc_client.c' l='8' type='cstr'/>
 <def f='codebrowser/src/test/test_server.c' l='11' type='cstr'/>
-<use f='codebrowser/src/test/test_server.c' l='64' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='65' u='r' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='65' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='62' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='63' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='63' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_websocket.c' l='21' type='cstr'/>
 <use f='codebrowser/src/test/test_websocket.c' l='55' u='r' c='ctest_test_send_receive_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='56' u='r' c='ctest_test_send_receive_run'/>
@@ -17,3 +17,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='67' u='r' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='67' u='r' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='69' u='r' c='ctest_test_send_frame_run'/>
+<def f='codebrowser/src/test/test_ws_server.c' l='11' type='cstr'/>

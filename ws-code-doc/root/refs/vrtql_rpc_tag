@@ -1,5 +1,12 @@
+<dec f='codebrowser/src/rpc.h' l='85' type='char * vrtql_rpc_tag(uint16_t length)'/>
 <def f='codebrowser/src/rpc.c' l='37' ll='61' type='char * vrtql_rpc_tag(uint16_t length)'/>
 <use f='codebrowser/src/rpc.c' l='110' u='c' c='vrtql_rpc_exec'/>
 <doc f='codebrowser/src/rpc.c' l='33'>//------------------------------------------------------------------------------
 // Client-side Internal functions
 //------------------------------------------------------------------------------</doc>
+<doc f='codebrowser/src/rpc.h' l='79'>/**
+ * @brief Creates random tag for message identification
+ *
+ * @param length The size (characters) of the tag to be generated
+ * @return A C string (caller from free());
+ */</doc>

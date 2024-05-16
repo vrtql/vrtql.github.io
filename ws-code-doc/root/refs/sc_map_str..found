@@ -10,7 +10,6 @@
 <use f='codebrowser/src/util/sc_map.c' l='297' u='r' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='305' u='w' c='sc_map_del_str'/>
 <use f='codebrowser/src/util/sc_map.c' l='312' u='w' c='sc_map_del_str'/>
-<use f='codebrowser/src/vws.c' l='586' macro='1' u='r' c='vws_map_get'/>
-<use f='codebrowser/src/vws.c' l='599' macro='1' u='r' c='vws_map_set'/>
-<use f='codebrowser/src/vws.c' l='607' macro='1' u='r' c='vws_map_set'/>
-<use f='codebrowser/src/vws.c' l='618' macro='1' u='r' c='vws_map_remove'/>
+<use f='codebrowser/src/vws.c' l='620' macro='1' u='r' c='vws_map_get'/>
+<use f='codebrowser/src/vws.c' l='632' macro='1' u='r' c='vws_map_set'/>
+<use f='codebrowser/src/vws.c' l='646' macro='1' u='r' c='vws_map_remove'/>

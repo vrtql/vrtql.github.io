@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/vws.h' l='504' type='int vws_kvs_remove(vws_kvs * m, const char * key)'/>
+<doc f='codebrowser/src/vws.h' l='497'>/**
+ * @brief Removes the key-value pair associated with the given key.
+ *
+ * @param m Pointer to the vws_kvs structure.
+ * @param key String key to remove.
+ * @return 1 if the key was found and removed, 0 otherwise.
+ */</doc>
+<use f='codebrowser/src/message.c' l='458' u='c' c='vrtql_msg_clear_header'/>
+<use f='codebrowser/src/message.c' l='473' u='c' c='vrtql_msg_clear_routing'/>
+<use f='codebrowser/src/test/test_common.c' l='81' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='82' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='83' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='103' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='104' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='105' u='c' c='ctest_test_vws_kvs_run'/>
+<def f='codebrowser/src/vws.c' l='774' ll='807' type='int vws_kvs_remove(vws_kvs * m, const char * key)'/>

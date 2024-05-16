@@ -15,3 +15,4 @@
    rather than `unsigned char&apos;s because tolower (EOF) must be EOF, which
    doesn&apos;t fit into an `unsigned char&apos;.  But today more important is that
    the arrays are also used for multi-byte character sets.  */</doc>
+<use f='codebrowser/src/vws.c' l='1005' macro='1' u='c' c='vws_cstr_to_long'/>

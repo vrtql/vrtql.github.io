@@ -1,2 +1,2 @@
-<def f='codebrowser/src/rpc.c' l='396' ll='424' macro='1' type='_Bool parse_rpc_string(const char * input, char ** module, char ** function)'/>
-<use f='codebrowser/src/rpc.c' l='443' u='c' c='vrtql_rpc_service'/>
+<def f='codebrowser/src/rpc.c' l='397' ll='425' macro='1' type='_Bool parse_rpc_string(const char * input, char ** module, char ** function)'/>
+<use f='codebrowser/src/rpc.c' l='473' u='c' c='vrtql_rpc_service'/>

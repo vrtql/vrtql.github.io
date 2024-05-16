@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='66' type='void vrtql_msg_dump(vrtql_msg * m)'/>
-<def f='codebrowser/src/message.c' l='379' ll='430' type='void vrtql_msg_dump(vrtql_msg * msg)'/>
-<doc f='codebrowser/src/message.h' l='60'>/**
+<dec f='codebrowser/src/message.h' l='69' type='void vrtql_msg_dump(vrtql_msg * m)'/>
+<def f='codebrowser/src/message.c' l='386' ll='444' type='void vrtql_msg_dump(vrtql_msg * msg)'/>
+<doc f='codebrowser/src/message.h' l='63'>/**
  * @brief Dumps/traces a message to JSON format
  * @param msg The message
  *
@@ -8,4 +8,6 @@
  */</doc>
 <use f='codebrowser/src/rpc.c' l='120' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='218' u='c' c='vrtql_rpc_exec'/>
+<use f='codebrowser/src/rpc.c' l='455' u='c' c='vrtql_rpc_service'/>
+<use f='codebrowser/src/rpc.c' l='529' u='c' c='vrtql_rpc_service'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='51' u='c' c='ctest_test_basic_run'/>

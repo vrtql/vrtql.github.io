@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/server.h' l='126' type='void address_pool_free(address_pool ** pool)'/>
+<def f='codebrowser/src/server.c' l='33' ll='41' type='void address_pool_free(address_pool ** pool)'/>
+<use f='codebrowser/src/server.c' l='1294' u='c' c='tcp_svr_dtor'/>
+<doc f='codebrowser/src/server.h' l='117'>/**
+ * @brief Frees the memory associated with an address pool.
+ *
+ * This function deallocates the memory for the address pool and sets the
+ * pointer to NULL to prevent dangling references. It safely handles NULL
+ * pointers.
+ *
+ * @param pool A pointer to the pointer of the address pool to be freed.
+ */</doc>

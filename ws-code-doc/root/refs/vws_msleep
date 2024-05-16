@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='441' type='void vws_msleep(unsigned int ms)'/>
-<doc f='codebrowser/src/vws.h' l='428'>/**
+<dec f='codebrowser/src/vws.h' l='570' type='void vws_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vws.h' l='557'>/**
  * @brief Sleeps for the specified number of milliseconds.
  *
  * This function provides a platform-independent way to sleep for a specific
@@ -12,11 +12,12 @@
  *       include the necessary headers and handle any compilation errors or
  *       warnings specific to your environment.
  */</doc>
-<use f='codebrowser/src/test/test_inetd_server.c' l='123' u='c' c='ctest_test_server_echo_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='143' u='c' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='90' u='c' c='ctest_test_server_echo_run'/>
-<def f='codebrowser/src/vws.c' l='744' ll='770' type='void vws_msleep(unsigned int ms)'/>
-<doc f='codebrowser/src/vws.c' l='731'>/**
+<use f='codebrowser/src/test/test_inetd_server.c' l='126' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='147' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='88' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='138' u='c' c='ctest_test_msg_server_echo_run'/>
+<def f='codebrowser/src/vws.c' l='915' ll='941' type='void vws_msleep(unsigned int ms)'/>
+<doc f='codebrowser/src/vws.c' l='902'>/**
  * @brief Sleeps for the specified number of milliseconds.
  *
  * This function provides a platform-independent way to sleep for a specific

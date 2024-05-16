@@ -5,15 +5,12 @@
  *            - if get operation finds the key, returns true
  *            - if del operation deletes a key, returns true
  */</doc>
-<use f='codebrowser/src/rpc.c' l='502' u='c'/>
-<use f='codebrowser/src/rpc.c' l='515' u='c'/>
-<use f='codebrowser/src/rpc.c' l='529' u='c'/>
-<use f='codebrowser/src/server.c' l='1220' u='c'/>
-<use f='codebrowser/src/server.c' l='1233' u='c'/>
-<use f='codebrowser/src/server.c' l='1252' u='c'/>
-<use f='codebrowser/src/server.c' l='1398' u='c'/>
-<use f='codebrowser/src/server.c' l='1417' u='c'/>
-<use f='codebrowser/src/vws.c' l='586' u='c'/>
-<use f='codebrowser/src/vws.c' l='599' u='c'/>
-<use f='codebrowser/src/vws.c' l='607' u='c'/>
-<use f='codebrowser/src/vws.c' l='618' u='c'/>
+<use f='codebrowser/src/rpc.c' l='547' u='c'/>
+<use f='codebrowser/src/rpc.c' l='560' u='c'/>
+<use f='codebrowser/src/rpc.c' l='574' u='c'/>
+<use f='codebrowser/src/server.c' l='1423' u='c'/>
+<use f='codebrowser/src/server.c' l='1436' u='c'/>
+<use f='codebrowser/src/server.c' l='1453' u='c'/>
+<use f='codebrowser/src/vws.c' l='620' u='c'/>
+<use f='codebrowser/src/vws.c' l='632' u='c'/>
+<use f='codebrowser/src/vws.c' l='646' u='c'/>

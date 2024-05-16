@@ -1,6 +1,8 @@
-<def f='codebrowser/src/test/test_inetd_server.c' l='49' ll='86' type='void server_thread(void * arg)'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='118' u='r' c='ctest_test_server_echo_run'/>
-<def f='codebrowser/src/test/test_msg_server.c' l='39' ll='46' type='void server_thread(void * arg)'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='138' u='r' c='ctest_test_msg_server_echo_run'/>
-<def f='codebrowser/src/test/test_server.c' l='45' ll='53' type='void server_thread(void * arg)'/>
-<use f='codebrowser/src/test/test_server.c' l='85' u='r' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/test/test_inetd_server.c' l='52' ll='89' type='void server_thread(void * arg)'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='121' u='r' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/test/test_msg_server.c' l='39' ll='48' type='void server_thread(void * arg)'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='142' u='r' c='ctest_test_msg_server_echo_run'/>
+<def f='codebrowser/src/test/test_server.c' l='44' ll='51' type='void server_thread(void * arg)'/>
+<use f='codebrowser/src/test/test_server.c' l='83' u='r' c='ctest_test_server_echo_run'/>
+<def f='codebrowser/src/test/test_ws_server.c' l='37' ll='46' type='void server_thread(void * arg)'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='133' u='r' c='ctest_test_msg_server_echo_run'/>

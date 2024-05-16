@@ -1,8 +1,9 @@
 <dec f='codebrowser/src/vws.h' l='37' type='256'/>
 <doc f='codebrowser/src/vws.h' l='37'>/**&lt; Memory failure */</doc>
-<use f='codebrowser/src/vws.c' l='247' c='vws_malloc_error'/>
-<use f='codebrowser/src/vws.c' l='274' c='vws_calloc_error'/>
-<use f='codebrowser/src/vws.c' l='296' c='vws_realloc_error'/>
-<use f='codebrowser/src/vws.c' l='391' c='vws_error_default_process'/>
-<use f='codebrowser/src/vws.c' l='407' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='249' c='vws_malloc_error'/>
+<use f='codebrowser/src/vws.c' l='276' c='vws_calloc_error'/>
+<use f='codebrowser/src/vws.c' l='298' c='vws_realloc_error'/>
+<use f='codebrowser/src/vws.c' l='320' c='vws_strdup_error'/>
+<use f='codebrowser/src/vws.c' l='415' c='vws_error_default_process'/>
+<use f='codebrowser/src/vws.c' l='431' c='vws_error_default_process'/>
 <use f='codebrowser/src/websocket.c' l='276' c='cnx_connect'/>

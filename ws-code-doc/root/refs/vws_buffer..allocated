@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/vws.h' l='257' type='size_t'/>
+<dec f='codebrowser/src/vws.h' l='276' type='size_t'/>
 <offset>64</offset>
-<doc f='codebrowser/src/vws.h' l='257'>/**&lt; The amount of space allocated for the buffer */</doc>
-<use f='codebrowser/src/vws.c' l='472' u='w' c='vws_buffer_new'/>
-<use f='codebrowser/src/vws.c' l='488' u='w' c='vws_buffer_clear'/>
-<use f='codebrowser/src/vws.c' l='536' u='r' c='vws_buffer_append'/>
-<use f='codebrowser/src/vws.c' l='538' u='w' c='vws_buffer_append'/>
-<use f='codebrowser/src/vws.c' l='543' u='r' c='vws_buffer_append'/>
-<use f='codebrowser/src/vws.c' l='547' u='r' c='vws_buffer_append'/>
+<doc f='codebrowser/src/vws.h' l='276'>/**&lt; The amount of space allocated for the buffer */</doc>
+<use f='codebrowser/src/vws.c' l='506' u='w' c='vws_buffer_new'/>
+<use f='codebrowser/src/vws.c' l='522' u='w' c='vws_buffer_clear'/>
+<use f='codebrowser/src/vws.c' l='570' u='r' c='vws_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='572' u='w' c='vws_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='577' u='r' c='vws_buffer_append'/>
+<use f='codebrowser/src/vws.c' l='581' u='r' c='vws_buffer_append'/>

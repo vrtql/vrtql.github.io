@@ -8,4 +8,4 @@
 <use f='codebrowser/src/websocket.c' l='640' u='c' c='vws_frame_send'/>
 <use f='codebrowser/src/websocket.c' l='678' u='c' c='vws_msg_recv'/>
 <use f='codebrowser/src/websocket.c' l='748' u='c' c='vws_frame_recv'/>
-<use f='codebrowser/src/websocket.c' l='1117' u='c' c='socket_wait_for_frame'/>
+<use f='codebrowser/src/websocket.c' l='1119' u='c' c='socket_wait_for_frame'/>

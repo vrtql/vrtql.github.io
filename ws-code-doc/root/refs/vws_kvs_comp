@@ -1,0 +1,7 @@
+<def f='codebrowser/src/vws.c' l='670' ll='673' type='int vws_kvs_comp(const void * a, const void * b)'/>
+<use f='codebrowser/src/vws.c' l='731' u='c' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='747' u='r' c='vws_kvs_get'/>
+<use f='codebrowser/src/vws.c' l='781' u='r' c='vws_kvs_remove'/>
+<doc f='codebrowser/src/vws.c' l='666'>//------------------------------------------------------------------------------
+// Key/value store
+//------------------------------------------------------------------------------</doc>

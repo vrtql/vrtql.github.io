@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/vws.h' l='466' type='void vws_kvs_set(vws_kvs * m, const char * key, void * data, size_t size)'/>
+<doc f='codebrowser/src/vws.h' l='458'>/**
+ * @brief Inserts a key-value pair into the dynamic array in sorted order.
+ *
+ * @param m Pointer to the vws_kvs structure.
+ * @param key String key to insert.
+ * @param data Pointer to the data to be associated with the key.
+ * @param size Size of the data.
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='49' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='50' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='51' u='c' c='ctest_test_vws_kvs_run'/>
+<def f='codebrowser/src/vws.c' l='713' ll='738' type='void vws_kvs_set(vws_kvs * m, const char * key, void * data, size_t size)'/>
+<use f='codebrowser/src/vws.c' l='759' u='c' c='vws_kvs_set_cstring'/>

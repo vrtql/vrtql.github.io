@@ -15,7 +15,7 @@
 <mbr r='sc_map_sv::used' o='192' t='_Bool'/>
 <mbr r='sc_map_sv::oom' o='200' t='_Bool'/>
 <mbr r='sc_map_sv::found' o='208' t='_Bool'/>
-<use f='codebrowser/src/rpc.h' l='132'/>
+<use f='codebrowser/src/rpc.h' l='124'/>
 <size>32</size>
 <use f='codebrowser/src/util/sc_map.c' l='410' macro='1'/>
 <use f='codebrowser/src/util/sc_map.c' l='410' macro='1' c='sc_map_init_sv'/>

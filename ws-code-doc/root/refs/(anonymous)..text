@@ -2,9 +2,11 @@
 <offset>64</offset>
 <doc f='codebrowser/src/vws.h' l='62'>/**&lt; Error text */</doc>
 <use f='codebrowser/src/test/test_example.c' l='31' u='r' c='main'/>
-<use f='codebrowser/src/vws.c' l='309' u='r' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='311' u='r' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='312' u='w' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='319' u='w' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='457' u='w'/>
-<use f='codebrowser/src/vws.c' l='457' u='w'/>
+<use f='codebrowser/src/vws.c' l='333' u='r' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='335' u='r' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='336' u='w' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='343' u='w' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='483' u='w'/>
+<use f='codebrowser/src/vws.c' l='483' u='w'/>
+<use f='codebrowser/src/vws.c' l='491' u='r' c='vws_cleanup'/>
+<use f='codebrowser/src/vws.c' l='493' u='r' c='vws_cleanup'/>

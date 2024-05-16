@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/server.h' l='115' type='address_pool * address_pool_new(int initial_size, int growth_factor)'/>
+<def f='codebrowser/src/server.c' l='21' ll='31' type='address_pool * address_pool_new(int initial_size, int growth_factor)'/>
+<use f='codebrowser/src/server.c' l='1218' u='c' c='tcp_svr_ctor'/>
+<doc f='codebrowser/src/server.c' l='17'>/**
+ * @defgroup AddressPool
+ */</doc>
+<doc f='codebrowser/src/server.h' l='102'>/**
+ * @brief Creates a new address pool.
+ *
+ * This function allocates and initializes an address pool with specified
+ * initial size and growth factor. Memory for the pool and its slots is
+ * allocated dynamically.
+ *
+ * @param initial_size The initial number of slots in the pool.
+ * @param growth_factor The factor by which the pool size is increased when
+ *   resized.
+ * @return address_pool* A pointer to the newly created address pool or NULL if
+ *   allocation fails.
+ */</doc>

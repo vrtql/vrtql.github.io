@@ -1,7 +1,7 @@
-<dec f='codebrowser/src/rpc.h' l='44' type='vws_cnx *'/>
+<dec f='codebrowser/src/rpc.h' l='45' type='vws_cnx *'/>
 <use f='codebrowser/src/rpc.c' l='17' u='r' c='reconnect'/>
 <use f='codebrowser/src/rpc.c' l='129' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='163' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='241' u='w' c='vrtql_rpc_new'/>
 <offset>0</offset>
-<doc f='codebrowser/src/rpc.h' l='43'>/**&lt; WebSocket connection */</doc>
+<doc f='codebrowser/src/rpc.h' l='44'>/**&lt; WebSocket connection */</doc>

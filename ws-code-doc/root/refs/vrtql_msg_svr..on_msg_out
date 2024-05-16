@@ -1,4 +1,4 @@
-<dec f='codebrowser/src/server.h' l='462' type='vrtql_svr_process_msg'/>
-<use f='codebrowser/src/server.c' l='1988' u='w' c='vrtql_msg_svr_new'/>
+<dec f='codebrowser/src/server.h' l='661' type='vrtql_svr_process_msg'/>
+<use f='codebrowser/src/server.c' l='2197' u='w' c='vrtql_msg_svr_ctor'/>
 <offset>3456</offset>
-<doc f='codebrowser/src/server.h' l='461'>/**&lt; Function for sending a message to the client */</doc>
+<doc f='codebrowser/src/server.h' l='660'>/**&lt; Function for sending a message to the client */</doc>

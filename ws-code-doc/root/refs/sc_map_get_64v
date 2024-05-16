@@ -1,7 +1,5 @@
 <dec f='codebrowser/src/util/sc_map.h' l='227' macro='1' type='void * sc_map_get_64v(struct sc_map_64v * map, uint64_t key)'/>
-<use f='codebrowser/src/server.c' l='1217' u='c' c='svr_cnx_map_get'/>
-<use f='codebrowser/src/server.c' l='1230' u='c' c='svr_cnx_map_remove'/>
-<use f='codebrowser/src/server.c' l='1250' u='c' c='svr_cnx_map_set'/>
-<use f='codebrowser/src/server.c' l='1396' u='c' c='svr_on_read'/>
-<use f='codebrowser/src/server.c' l='1414' u='c' c='svr_on_close'/>
+<use f='codebrowser/src/server.c' l='1420' u='c' c='svr_cnx_map_get'/>
+<use f='codebrowser/src/server.c' l='1433' u='c' c='svr_cnx_map_remove'/>
+<use f='codebrowser/src/server.c' l='1451' u='c' c='svr_cnx_map_set'/>
 <def f='codebrowser/src/util/sc_map.c' l='405' macro='1' type='void * sc_map_get_64v(struct sc_map_64v * m, uint64_t key)'/>

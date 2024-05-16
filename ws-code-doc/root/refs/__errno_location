@@ -40,3 +40,5 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='363' macro='1' u='c' c='mg_connect_resolved'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='374' macro='1' u='c' c='raccept'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='390' macro='1' u='c' c='accept_conn'/>
+<use f='codebrowser/src/vws.c' l='1003' macro='1' u='c' c='vws_cstr_to_long'/>
+<use f='codebrowser/src/vws.c' l='1014' macro='1' u='c' c='vws_cstr_to_long'/>

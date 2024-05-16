@@ -1,9 +1,9 @@
-<dec f='codebrowser/src/rpc.h' l='69' type='vrtql_rpc * vrtql_rpc_new(vws_cnx * cnx)'/>
+<dec f='codebrowser/src/rpc.h' l='70' type='vrtql_rpc * vrtql_rpc_new(vws_cnx * cnx)'/>
 <def f='codebrowser/src/rpc.c' l='238' ll='249' type='vrtql_rpc * vrtql_rpc_new(vws_cnx * cnx)'/>
 <doc f='codebrowser/src/rpc.c' l='234'>//------------------------------------------------------------------------------
 // Client-side API
 //------------------------------------------------------------------------------</doc>
-<doc f='codebrowser/src/rpc.h' l='63'>/**
+<doc f='codebrowser/src/rpc.h' l='64'>/**
  * @brief Creates a new RPC module.
  *
  * @param cnx The WebSocket connection to use

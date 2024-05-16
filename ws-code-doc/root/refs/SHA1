@@ -1,2 +1,2 @@
 <dec f='include/openssl/sha.h' l='44' type='unsigned char * SHA1(const unsigned char * d, size_t n, unsigned char * md)'/>
-<use f='codebrowser/src/websocket.c' l='1093' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1095' u='c' c='vws_accept_key'/>

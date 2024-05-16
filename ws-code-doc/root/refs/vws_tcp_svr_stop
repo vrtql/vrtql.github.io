@@ -1,10 +1,11 @@
-<dec f='codebrowser/src/server.h' l='351' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
-<def f='codebrowser/src/server.c' l='902' ll='931' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
-<use f='codebrowser/src/server.c' l='1127' u='c' c='tcp_svr_dtor'/>
-<doc f='codebrowser/src/server.h' l='346'>/**
+<dec f='codebrowser/src/server.h' l='545' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
+<def f='codebrowser/src/server.c' l='1032' ll='1061' type='void vws_tcp_svr_stop(vws_tcp_svr * server)'/>
+<use f='codebrowser/src/server.c' l='1267' u='c' c='tcp_svr_dtor'/>
+<doc f='codebrowser/src/server.h' l='540'>/**
  * @brief Stops a VRTQL server.
  *
  * @param server The server to stop.
  */</doc>
-<use f='codebrowser/src/test/test_msg_server.c' l='149' u='c' c='ctest_test_msg_server_echo_run'/>
-<use f='codebrowser/src/test/test_server.c' l='112' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='161' u='c' c='ctest_test_msg_server_echo_run'/>
+<use f='codebrowser/src/test/test_server.c' l='110' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='152' u='c' c='ctest_test_msg_server_echo_run'/>

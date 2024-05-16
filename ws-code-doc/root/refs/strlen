@@ -62,9 +62,9 @@
 <use f='codebrowser/src/util/yyjson.h' l='7368' u='c' c='yyjson_mut_ptr_replace'/>
 <use f='codebrowser/src/util/yyjson.h' l='7401' u='c' c='yyjson_mut_doc_ptr_remove'/>
 <use f='codebrowser/src/util/yyjson.h' l='7440' u='c' c='yyjson_mut_ptr_remove'/>
-<use f='codebrowser/src/message.c' l='190' u='c' c='vrtql_msg_serialize'/>
-<use f='codebrowser/src/message.c' l='415' u='c' c='vrtql_msg_dump'/>
-<use f='codebrowser/src/message.c' l='480' u='c' c='vrtql_msg_set_content'/>
+<use f='codebrowser/src/message.c' l='197' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='429' u='c' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='494' u='c' c='vrtql_msg_set_content'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='784' macro='1' u='c' c='mpack_expect_enum'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='818' macro='1' u='c' c='mpack_expect_enum_optional'/>
 <use f='codebrowser/src/mpack/mpack-node.c' l='1876' macro='1' u='c' c='mpack_node_map_cstr'/>
@@ -75,15 +75,15 @@
 <use f='codebrowser/src/mpack/mpack-writer.c' l='1351' macro='1' u='c' c='mpack_write_utf8_cstr'/>
 <use f='codebrowser/src/rpc.c' l='51' u='c' c='vrtql_rpc_tag'/>
 <use f='codebrowser/src/rpc.c' l='172' u='c' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/rpc.c' l='405' u='c' c='parse_rpc_string'/>
+<use f='codebrowser/src/rpc.c' l='406' u='c' c='parse_rpc_string'/>
 <use f='codebrowser/src/test/ctest.h' l='476' u='c' c='suite_filter'/>
-<use f='codebrowser/src/test/test_common.c' l='64' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='89' u='c' c='ctest_test_buffer_run'/>
-<use f='codebrowser/src/test/test_common.c' l='92' u='c' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='218' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='243' u='c' c='ctest_test_buffer_run'/>
+<use f='codebrowser/src/test/test_common.c' l='246' u='c' c='ctest_test_buffer_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='18' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='98' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='101' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_json.c' l='35' u='c' c='ctest_test_read_run'/>
-<use f='codebrowser/src/test/test_server.c' l='65' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='63' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='61' u='c' c='ctest_test_send_data_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='67' u='c' c='ctest_test_send_frame_run'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='204' u='c' c='mg_vxprintf'/>
@@ -127,10 +127,13 @@
 <use f='codebrowser/src/url.c' l='391' u='c' c='url_get_port'/>
 <use f='codebrowser/src/util/sc_map.c' l='355' u='c' c='murmurhash'/>
 <use f='codebrowser/src/util/yyjson.c' l='3809' u='c' c='is_truncated_str'/>
-<use f='codebrowser/src/vws.c' l='664' u='c' c='vws_generate_uuid'/>
-<use f='codebrowser/src/vws.c' l='715' u='c' c='vws_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='759' u='c' c='vws_kvs_set_cstring'/>
+<use f='codebrowser/src/vws.c' l='835' u='c' c='vws_generate_uuid'/>
+<use f='codebrowser/src/vws.c' l='886' u='c' c='vws_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='963' u='c' c='vws_file_path'/>
+<use f='codebrowser/src/vws.c' l='963' u='c' c='vws_file_path'/>
 <use f='codebrowser/src/websocket.c' l='418' u='c' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='583' u='c' c='vws_frame_send_text'/>
 <use f='codebrowser/src/websocket.c' l='598' u='c' c='vws_msg_send_text'/>
-<use f='codebrowser/src/websocket.c' l='1082' u='c' c='vws_accept_key'/>
-<use f='codebrowser/src/websocket.c' l='1083' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1084' u='c' c='vws_accept_key'/>
+<use f='codebrowser/src/websocket.c' l='1085' u='c' c='vws_accept_key'/>

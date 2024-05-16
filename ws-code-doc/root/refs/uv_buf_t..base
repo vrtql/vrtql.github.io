@@ -1,6 +1,6 @@
-<use f='codebrowser/src/server.c' l='1183' u='r' c='svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1391' u='r' c='svr_on_read'/>
-<use f='codebrowser/src/server.c' l='1441' u='w' c='svr_on_realloc'/>
-<use f='codebrowser/src/server.c' l='1441' u='r' c='svr_on_realloc'/>
-<use f='codebrowser/src/server.c' l='1669' u='r' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1672' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1322' u='r' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1577' u='r' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1634' u='w' c='svr_on_realloc'/>
+<use f='codebrowser/src/server.c' l='1634' u='r' c='svr_on_realloc'/>
+<use f='codebrowser/src/server.c' l='1862' u='r' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1865' u='r' c='ws_svr_client_read'/>

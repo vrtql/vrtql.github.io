@@ -1,17 +1,18 @@
-<dec f='codebrowser/src/server.h' l='264' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * memory)'/>
-<def f='codebrowser/src/server.c' l='747' ll='756' type='vws_svr_data * vws_svr_data_new(vws_svr_cnx * c, vws_buffer * buffer)'/>
-<use f='codebrowser/src/server.c' l='1561' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1590' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/server.c' l='1737' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1832' u='c' c='ws_svr_client_data_out'/>
-<doc f='codebrowser/src/server.c' l='743'>//------------------------------------------------------------------------------
+<dec f='codebrowser/src/server.h' l='456' type='vws_svr_data * vws_svr_data_new(vws_tcp_svr * s, vws_cid_t cid, vws_buffer ** b)'/>
+<def f='codebrowser/src/server.c' l='866' ll='876' type='vws_svr_data * vws_svr_data_new(vws_tcp_svr * s, vws_cid_t cid, vws_buffer ** b)'/>
+<use f='codebrowser/src/server.c' l='1754' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1783' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/server.c' l='1930' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='2029' u='c' c='ws_svr_client_data_out'/>
+<doc f='codebrowser/src/server.c' l='862'>//------------------------------------------------------------------------------
 // Server API
 //------------------------------------------------------------------------------</doc>
-<doc f='codebrowser/src/server.h' l='256'>/**
+<doc f='codebrowser/src/server.h' l='447'>/**
  * @brief Creates a new thread data. This TAKES OWNERSHIP of the buffer data and
  * sets the buffer to zero.
  *
- * @param c The connection
- * @param buffer The buffer
+ * @param s The server
+ * @param cid The connection ID
+ * @param b Pointer reference to The buffer
  * @return A new vws_svr_data instance with memory
  */</doc>

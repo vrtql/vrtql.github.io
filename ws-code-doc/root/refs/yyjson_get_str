@@ -1,9 +1,9 @@
 <dec f='codebrowser/src/util/yyjson.h' l='1617' type='const char * yyjson_get_str(yyjson_val * val)'/>
 <def f='codebrowser/src/util/yyjson.h' l='4857' ll='4859' macro='1' type='const char * yyjson_get_str(yyjson_val * val)'/>
 <use f='codebrowser/src/util/yyjson.h' l='5386' u='c' c='yyjson_mut_get_str'/>
-<use f='codebrowser/src/message.c' l='327' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='328' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='346' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='347' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='360' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='334' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='335' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='353' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='354' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='367' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/test/test_json.c' l='43' u='c' c='ctest_test_read_run'/>

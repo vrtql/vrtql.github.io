@@ -1,2 +1,2 @@
-<use f='codebrowser/src/server.c' l='1206' u='w' c='svr_client_data_out'/>
-<use f='codebrowser/src/server.c' l='1406' u='r' c='svr_on_write_complete'/>
+<use f='codebrowser/src/server.c' l='1348' u='w' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1593' u='r' c='svr_on_write_complete'/>

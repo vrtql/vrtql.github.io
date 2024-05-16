@@ -1,4 +1,4 @@
 <dec f='codebrowser/src/util/yyjson.h' l='1485' type='yyjson_val * yyjson_doc_get_root(yyjson_doc * doc)'/>
 <def f='codebrowser/src/util/yyjson.h' l='4712' ll='4714' macro='1' type='yyjson_val * yyjson_doc_get_root(yyjson_doc * doc)'/>
-<use f='codebrowser/src/message.c' l='301' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='308' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/test/test_json.c' l='36' u='c' c='ctest_test_read_run'/>

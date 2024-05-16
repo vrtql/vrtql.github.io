@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/vws.h' l='647' type='void vws_cleanup()'/>
+<doc f='codebrowser/src/vws.h' l='642'>/**
+ * @brief Cleans up any allocated memory in vws structure. This is not really
+ * required but it is helpful for threads to calls this so that valgrind does no
+ * show any memory leaks in the vws.e string.
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='300' u='c' c='ctest_test_error_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='47' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='111' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='45' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='102' u='c' c='client_thread'/>
+<def f='codebrowser/src/vws.c' l='489' ll='495' type='void vws_cleanup()'/>

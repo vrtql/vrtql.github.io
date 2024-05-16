@@ -1,8 +1,8 @@
 <dec f='codebrowser/src/util/sc_map.h' l='80' type='_Bool'/>
 <offset>208</offset>
-<use f='codebrowser/src/rpc.c' l='502' macro='1' u='r' c='sys_map_get'/>
-<use f='codebrowser/src/rpc.c' l='515' macro='1' u='r' c='sys_map_set'/>
-<use f='codebrowser/src/rpc.c' l='529' macro='1' u='r' c='sys_map_clear'/>
+<use f='codebrowser/src/rpc.c' l='547' macro='1' u='r' c='sys_map_get'/>
+<use f='codebrowser/src/rpc.c' l='560' macro='1' u='r' c='sys_map_set'/>
+<use f='codebrowser/src/rpc.c' l='574' macro='1' u='r' c='sys_map_clear'/>
 <use f='codebrowser/src/util/sc_map.c' l='229' u='w' c='sc_map_put_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='249' u='w' c='sc_map_put_sv'/>
 <use f='codebrowser/src/util/sc_map.c' l='250' u='r' c='sc_map_put_sv'/>

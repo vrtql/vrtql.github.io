@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/server.h' l='413' type='address_pool *'/>
+<use f='codebrowser/src/server.c' l='1218' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1294' u='a' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1351' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1388' u='r' c='svr_cnx_new'/>
+<use f='codebrowser/src/server.c' l='1403' u='r' c='svr_cnx_free'/>
+<use f='codebrowser/src/server.c' l='1582' u='r' c='svr_on_read'/>
+<use f='codebrowser/src/server.c' l='1605' u='r' c='svr_on_close'/>
+<offset>2368</offset>
+<doc f='codebrowser/src/server.h' l='412'>/**&lt; Pool of active connections */</doc>

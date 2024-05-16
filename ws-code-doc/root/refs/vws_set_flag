@@ -1,16 +1,16 @@
-<dec f='codebrowser/src/vws.h' l='459' type='void vws_set_flag(uint64_t * flags, uint64_t flag)'/>
-<doc f='codebrowser/src/vws.h' l='452'>/**
+<dec f='codebrowser/src/vws.h' l='588' type='void vws_set_flag(uint64_t * flags, uint64_t flag)'/>
+<doc f='codebrowser/src/vws.h' l='581'>/**
  * @brief Sets a specific flag.
  *
  * @param flags The flags to modify
  * @param flag  The flag to set
  * @return None
  */</doc>
-<use f='codebrowser/src/message.c' l='48' u='c' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='50' u='c' c='vrtql_msg_new'/>
 <use f='codebrowser/src/rpc.c' l='148' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='198' u='c' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/server.c' l='1656' u='c' c='vws_tcp_svr_close'/>
+<use f='codebrowser/src/server.c' l='1849' u='c' c='vws_tcp_svr_close'/>
 <use f='codebrowser/src/socket.c' l='310' u='c' c='vws_socket_connect'/>
-<def f='codebrowser/src/vws.c' l='777' ll='780' type='void vws_set_flag(uint64_t * flags, uint64_t flag)'/>
+<def f='codebrowser/src/vws.c' l='948' ll='951' type='void vws_set_flag(uint64_t * flags, uint64_t flag)'/>
 <use f='codebrowser/src/websocket.c' l='349' u='c' c='vws_cnx_set_server_mode'/>
-<use f='codebrowser/src/websocket.c' l='999' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1001' u='c' c='process_frame'/>

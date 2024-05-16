@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/mpack/mpack-expect.h' l='773' type='uint32_t mpack_expect_array(mpack_reader_t * reader)'/>
-<use f='codebrowser/src/message.c' l='242' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='249' u='c' c='vrtql_msg_deserialize'/>
 <doc f='codebrowser/src/mpack/mpack-expect.h' l='758'>/**
  * Reads the start of an array, returning its element count.
  *

@@ -1,7 +1,7 @@
 <dec f='codebrowser/src/mpack/mpack-reader.h' l='656' type='const char * mpack_read_bytes_inplace(mpack_reader_t * reader, size_t count)'/>
-<use f='codebrowser/src/message.c' l='567' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='585' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='628' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='581' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='599' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='645' u='c' c='msg_parse_content'/>
 <doc f='codebrowser/src/mpack/mpack-reader.h' l='626'>/**
  * Reads bytes from a string, binary blob or extension object in-place in
  * the buffer. This can be used to avoid copying the data.

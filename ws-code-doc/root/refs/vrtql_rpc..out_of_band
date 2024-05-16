@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/rpc.h' l='50' type='vrtql_rpc_ob'/>
+<dec f='codebrowser/src/rpc.h' l='51' type='vrtql_rpc_ob'/>
 <use f='codebrowser/src/rpc.c' l='175' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='243' u='w' c='vrtql_rpc_new'/>
 <offset>128</offset>
-<doc f='codebrowser/src/rpc.h' l='49'>/**&gt; User-defined handler for out-of-band messages (default delete) */</doc>
+<doc f='codebrowser/src/rpc.h' l='50'>/**&gt; User-defined handler for out-of-band messages (default delete) */</doc>

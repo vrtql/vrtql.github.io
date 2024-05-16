@@ -3,3 +3,5 @@
    The value of CLOCKS_PER_SEC is required to be 1 million on all
    XSI-conformant systems. */</doc>
 <use f='codebrowser/src/test/ctest.h' l='593' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='156' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='168' u='c'/>

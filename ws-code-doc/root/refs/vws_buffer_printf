@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='315' type='void vws_buffer_printf(vws_buffer * buffer, cstr format)'/>
-<doc f='codebrowser/src/vws.h' l='286'>/**
+<dec f='codebrowser/src/vws.h' l='334' type='void vws_buffer_printf(vws_buffer * buffer, cstr format)'/>
+<doc f='codebrowser/src/vws.h' l='305'>/**
  * @brief Appends formatted data to a vws_buffer using printf() format.
  *
  * This function appends formatted data to the specified vws_buffer using a
@@ -28,13 +28,13 @@
  * @see vws_buffer_init
  * @see vws_buffer_append
  */</doc>
-<use f='codebrowser/src/server.c' l='1713' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1714' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1715' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1718' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1721' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1722' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1726' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1730' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1733' u='c' c='ws_svr_client_read'/>
-<def f='codebrowser/src/vws.c' l='502' ll='525' type='void vws_buffer_printf(vws_buffer * buffer, cstr format)'/>
+<use f='codebrowser/src/server.c' l='1906' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1907' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1908' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1911' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1914' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1915' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1919' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1923' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1926' u='c' c='ws_svr_client_read'/>
+<def f='codebrowser/src/vws.c' l='536' ll='559' type='void vws_buffer_printf(vws_buffer * buffer, cstr format)'/>

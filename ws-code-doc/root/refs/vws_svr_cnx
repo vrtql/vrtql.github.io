@@ -1,13 +1,14 @@
-<use f='codebrowser/src/server.h' l='76'/>
-<def f='codebrowser/src/server.h' l='129' ll='152'/>
-<use f='codebrowser/src/server.h' l='129'/>
+<use f='codebrowser/src/server.h' l='196'/>
+<def f='codebrowser/src/server.h' l='269' ll='295'/>
+<use f='codebrowser/src/server.h' l='269'/>
 <size>48</size>
-<doc f='codebrowser/src/server.h' l='126'>/**
+<doc f='codebrowser/src/server.h' l='266'>/**
  * @brief Represents a client connection.
  */</doc>
 <mbr r='vws_svr_cnx::server' o='0' t='struct vws_tcp_svr *'/>
 <mbr r='vws_svr_cnx::handle' o='64' t='uv_stream_t *'/>
 <mbr r='vws_svr_cnx::http' o='128' t='vws_http_msg *'/>
 <mbr r='vws_svr_cnx::upgraded' o='192' t='_Bool'/>
+<mbr r='vws_svr_cnx::cid' o='224' t='vws_cid_t'/>
 <mbr r='vws_svr_cnx::data' o='256' t='char *'/>
 <mbr r='vws_svr_cnx::format' o='320' t='vrtql_msg_format_t'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/server.h' l='225' type='struct vws_tcp_svr *'/>
+<use f='codebrowser/src/server.c' l='883' u='w' c='vws_svr_data_own'/>
+<use f='codebrowser/src/server.c' l='925' u='r' c='vws_tcp_svr_send'/>
+<use f='codebrowser/src/server.c' l='928' u='r' c='vws_tcp_svr_send'/>
+<use f='codebrowser/src/server.c' l='1325' u='w' c='svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1351' u='r' c='svr_client_data_out'/>
+<use f='codebrowser/src/server.c' l='1995' u='r' c='ws_svr_client_data_in'/>
+<offset>256</offset>
+<doc f='codebrowser/src/server.h' l='224'>/**&lt; Reference to server this data belongs to */</doc>
+<use f='codebrowser/src/test/test_inetd_server.c' l='19' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='32' u='r' c='process_data'/>
+<use f='codebrowser/src/test/test_server.c' l='15' u='r' c='process'/>
+<use f='codebrowser/src/test/test_server.c' l='30' u='r' c='process'/>

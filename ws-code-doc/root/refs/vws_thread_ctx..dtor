@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/server.h' l='329' type='vws_thread_ctx_dtor'/>
+<use f='codebrowser/src/server.c' l='765' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='804' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='806' u='r' c='worker_thread'/>
+<offset>128</offset>
+<doc f='codebrowser/src/server.h' l='326'>/**&lt; Context destructor: A pointer to a function which deallocates the
+     * thread context. This is where for worker thread shutdown used to clean up
+     * resources. */</doc>

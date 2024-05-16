@@ -1,6 +1,6 @@
 <dec f='codebrowser/src/util/yyjson.h' l='1873' type='_Bool yyjson_obj_iter_init(yyjson_val * obj, yyjson_obj_iter * iter)'/>
 <def f='codebrowser/src/util/yyjson.h' l='5071' ll='5082' macro='1' type='_Bool yyjson_obj_iter_init(yyjson_val * obj, yyjson_obj_iter * iter)'/>
 <use f='codebrowser/src/util/yyjson.h' l='5086' u='c' c='yyjson_obj_iter_with'/>
-<use f='codebrowser/src/message.c' l='321' u='c' c='vrtql_msg_deserialize'/>
-<use f='codebrowser/src/message.c' l='341' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='328' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='348' u='c' c='vrtql_msg_deserialize'/>
 <use f='codebrowser/src/util/yyjson.c' l='1560' u='c' c='unsafe_yyjson_equals'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/vws.h' l='640' type='_Bool vws_cstr_to_long(cstr str, long * value)'/>
+<def f='codebrowser/src/vws.c' l='998' ll='1027' macro='1' type='_Bool vws_cstr_to_long(cstr str, long * value)'/>

@@ -1,4 +1,4 @@
 <def f='codebrowser/src/mpack/mpack-common.h' l='562' ll='565' macro='1' type='uint32_t mpack_tag_str_length(mpack_tag_t * tag)'/>
-<use f='codebrowser/src/message.c' l='566' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='584' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='621' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='580' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='598' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='638' u='c' c='msg_parse_content'/>

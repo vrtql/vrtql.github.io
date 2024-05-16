@@ -8,14 +8,16 @@
 <use f='codebrowser/src/test/ctest.h' l='535' c='ctest_main'/>
 <use f='codebrowser/src/test/ctest.h' l='540' c='ctest_main'/>
 <use f='codebrowser/src/test/ctest.h' l='546' c='ctest_main'/>
-<use f='codebrowser/src/test/test_common.c' l='38' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='43' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='61' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='83' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='105' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='123' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='129' macro='1'/>
-<use f='codebrowser/src/test/test_common.c' l='139' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='39' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='114' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='191' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='196' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='215' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='237' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='259' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='277' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='283' macro='1'/>
+<use f='codebrowser/src/test/test_common.c' l='293' macro='1'/>
 <size>56</size>
 <mbr r='ctest::ssname' o='0' t='const char *'/>
 <mbr r='ctest::ttname' o='64' t='const char *'/>
@@ -27,25 +29,27 @@
 <mbr r='ctest::magic' o='416' t='unsigned int'/>
 <use f='codebrowser/src/test/test_http_request.c' l='8' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_inetd_server.c' l='109' macro='1'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='112' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_json.c' l='30' macro='1'/>
 <use f='codebrowser/src/test/test_json.c' l='63' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_message.c' l='10' macro='1'/>
-<use f='codebrowser/src/test/test_message.c' l='49' macro='1'/>
+<use f='codebrowser/src/test/test_message.c' l='55' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_msg_server.c' l='132' macro='1'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='136' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_rpc_client.c' l='35' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_rpc_server.c' l='35' macro='1'/>
 <use f='codebrowser/src/test/test_rpc_server.c' l='47' macro='1'/>
 <size>56</size>
-<use f='codebrowser/src/test/test_server.c' l='76' macro='1'/>
+<use f='codebrowser/src/test/test_server.c' l='74' macro='1'/>
 <size>56</size>
 <use f='codebrowser/src/test/test_websocket.c' l='53' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='59' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='65' macro='1'/>
 <use f='codebrowser/src/test/test_websocket.c' l='72' macro='1'/>
+<size>56</size>
+<use f='codebrowser/src/test/test_ws_server.c' l='127' macro='1'/>
 <size>56</size>

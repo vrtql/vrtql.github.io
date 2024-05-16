@@ -1,7 +1,7 @@
-<def f='codebrowser/src/server.h' l='453' ll='470'/>
-<use f='codebrowser/src/server.h' l='453'/>
-<size>456</size>
-<doc f='codebrowser/src/server.h' l='448'>/**
+<def f='codebrowser/src/server.h' l='652' ll='672'/>
+<use f='codebrowser/src/server.h' l='652'/>
+<size>464</size>
+<doc f='codebrowser/src/server.h' l='647'>/**
  * @brief Struct representing a VTQL message server. It is derived from the
  * WebSocket server and operates in terms of VRTQL messages (vrtql_msg) as
  * defined in message.h.
@@ -11,3 +11,4 @@
 <mbr r='vrtql_msg_svr::on_msg_out' o='3456' t='vrtql_svr_process_msg'/>
 <mbr r='vrtql_msg_svr::process' o='3520' t='vrtql_svr_process_msg'/>
 <mbr r='vrtql_msg_svr::send' o='3584' t='vrtql_svr_process_msg'/>
+<mbr r='vrtql_msg_svr::data' o='3648' t='void *'/>

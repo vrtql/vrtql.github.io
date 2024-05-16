@@ -1,4 +1,4 @@
 <dec f='include/pthread.h' l='276' type='pthread_t pthread_self()'/>
 <doc f='include/pthread.h' l='275'>/* Obtain the identifier of the current thread.  */</doc>
-<use f='codebrowser/src/vws.c' l='98' u='c' c='vws_trace_lock'/>
-<use f='codebrowser/src/vws.c' l='181' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='100' u='c' c='vws_trace_lock'/>
+<use f='codebrowser/src/vws.c' l='183' u='c' c='vws_trace'/>

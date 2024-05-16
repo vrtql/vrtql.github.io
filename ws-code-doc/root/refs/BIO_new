@@ -1,4 +1,4 @@
 <dec f='include/openssl/bio.h' l='548' type='BIO * BIO_new(const BIO_METHOD * type)'/>
-<use f='codebrowser/src/vws.c' l='685' u='c' c='vws_base64_encode'/>
-<use f='codebrowser/src/vws.c' l='686' u='c' c='vws_base64_encode'/>
-<use f='codebrowser/src/vws.c' l='709' u='c' c='vws_base64_decode'/>
+<use f='codebrowser/src/vws.c' l='856' u='c' c='vws_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='857' u='c' c='vws_base64_encode'/>
+<use f='codebrowser/src/vws.c' l='880' u='c' c='vws_base64_decode'/>

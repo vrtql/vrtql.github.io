@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/vws.h' l='425' type='size_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/vws.h' l='425'>///&lt; Number of key-value pairs currently in use.</doc>
+<use f='codebrowser/src/message.c' l='98' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='109' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='162' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='173' u='r' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='404' u='r' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/message.c' l='414' u='r' c='vrtql_msg_dump'/>
+<use f='codebrowser/src/test/test_message.c' l='31' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='40' u='r' c='ctest_test_message_mpack_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='77' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='86' u='r' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/vws.c' l='682' u='w' c='vws_kvs_new'/>
+<use f='codebrowser/src/vws.c' l='691' u='r' c='vws_kvs_clear'/>
+<use f='codebrowser/src/vws.c' l='697' u='w' c='vws_kvs_clear'/>
+<use f='codebrowser/src/vws.c' l='710' u='r' c='vws_kvs_size'/>
+<use f='codebrowser/src/vws.c' l='715' u='r' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='731' u='r' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='737' u='w' c='vws_kvs_set'/>
+<use f='codebrowser/src/vws.c' l='745' u='r' c='vws_kvs_get'/>
+<use f='codebrowser/src/vws.c' l='779' u='r' c='vws_kvs_remove'/>
+<use f='codebrowser/src/vws.c' l='792' u='r' c='vws_kvs_remove'/>
+<use f='codebrowser/src/vws.c' l='796' u='r' c='vws_kvs_remove'/>
+<use f='codebrowser/src/vws.c' l='799' u='w' c='vws_kvs_remove'/>

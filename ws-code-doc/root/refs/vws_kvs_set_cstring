@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/vws.h' l='485' type='void vws_kvs_set_cstring(vws_kvs * m, const char * key, const char * value)'/>
+<doc f='codebrowser/src/vws.h' l='477'>/**
+ * @brief Inserts a key-value pair with a C-string as the value into the dynamic
+ * array in sorted order.
+ *
+ * @param m Pointer to the vws_kvs structure.
+ * @param key String key to insert.
+ * @param value C-string to be associated with the key.
+ */</doc>
+<use f='codebrowser/src/message.c' l='333' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='352' u='c' c='vrtql_msg_deserialize'/>
+<use f='codebrowser/src/message.c' l='453' u='c' c='vrtql_msg_set_header'/>
+<use f='codebrowser/src/message.c' l='468' u='c' c='vrtql_msg_set_routing'/>
+<use f='codebrowser/src/message.c' l='606' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/test/test_common.c' l='91' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='92' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='93' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='142' u='c' c='ctest_test_map_bench_run'/>
+<def f='codebrowser/src/vws.c' l='757' ll='760' type='void vws_kvs_set_cstring(vws_kvs * m, const char * key, const char * value)'/>

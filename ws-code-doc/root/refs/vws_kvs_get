@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/vws.h' l='475' type='vws_value * vws_kvs_get(vws_kvs * m, const char * key)'/>
+<doc f='codebrowser/src/vws.h' l='468'>/**
+ * @brief Retrieves the value associated with the given key using binary search.
+ *
+ * @param m Pointer to the vws_kvs structure.
+ * @param key String key to search for.
+ * @return Pointer to the vws_value structure if found, otherwise NULL.
+ */</doc>
+<use f='codebrowser/src/test/test_common.c' l='59' u='c' c='ctest_test_vws_kvs_run'/>
+<def f='codebrowser/src/vws.c' l='740' ll='755' type='vws_value * vws_kvs_get(vws_kvs * m, const char * key)'/>
+<use f='codebrowser/src/vws.c' l='764' u='c' c='vws_kvs_get_cstring'/>

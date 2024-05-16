@@ -1,21 +1,30 @@
 <dec f='codebrowser/src/test/ctest.h' l='220' type='void assert_true(int real, const char * caller, int line)'/>
 <def f='codebrowser/src/test/ctest.h' l='453' ll='457' type='void assert_true(int real, const char * caller, int line)'/>
+<use f='codebrowser/src/test/test_common.c' l='53' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='61' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='65' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='70' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='75' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='85' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='99' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='100' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='108' macro='1' u='c' c='ctest_test_vws_kvs_run'/>
 <use f='codebrowser/src/test/test_http_request.c' l='19' macro='1' u='c' c='ctest_test_rpc_call_run'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='54' macro='1' u='c' c='server_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='70' macro='1' u='c' c='server_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='78' macro='1' u='c' c='server_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='83' macro='1' u='c' c='server_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='93' macro='1' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='102' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='57' macro='1' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='73' macro='1' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='81' macro='1' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='86' macro='1' u='c' c='server_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='96' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='105' macro='1' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_json.c' l='41' macro='1' u='c' c='ctest_test_read_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='96' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='98' macro='1' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='20' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='21' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='50' macro='1' u='c' c='ctest_test_basic_run'/>
 <use f='codebrowser/src/test/test_rpc_server.c' l='68' macro='1' u='c' c='ctest_test_rpc_server_side_service_run'/>
 <use f='codebrowser/src/test/test_rpc_server.c' l='72' macro='1' u='c' c='ctest_test_rpc_server_side_service_run'/>
-<use f='codebrowser/src/test/test_server.c' l='60' macro='1' u='c' c='client_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='69' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='58' macro='1' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='67' macro='1' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='41' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='42' macro='1' u='c' c='ctest_test_setup'/>
 <use f='codebrowser/src/test/test_websocket.c' l='56' macro='1' u='c' c='ctest_test_send_receive_run'/>
@@ -27,3 +36,4 @@
 <use f='codebrowser/src/test/test_websocket.c' l='81' macro='1' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='85' macro='1' u='c' c='ctest_test_message_run'/>
 <use f='codebrowser/src/test/test_websocket.c' l='90' macro='1' u='c' c='ctest_test_message_run'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='94' macro='1' u='c' c='client_thread'/>

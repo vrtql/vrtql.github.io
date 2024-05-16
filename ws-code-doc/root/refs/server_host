@@ -1,7 +1,9 @@
 <def f='codebrowser/src/test/test_inetd_server.c' l='13' type='cstr'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='93' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='96' u='r' c='client_thread'/>
 <def f='codebrowser/src/test/test_msg_server.c' l='8' type='cstr'/>
 <use f='codebrowser/src/test/test_msg_server.c' l='45' u='r' c='server_thread'/>
 <def f='codebrowser/src/test/test_server.c' l='9' type='cstr'/>
-<use f='codebrowser/src/test/test_server.c' l='52' u='r' c='server_thread'/>
-<use f='codebrowser/src/test/test_server.c' l='60' u='r' c='client_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='50' u='r' c='server_thread'/>
+<use f='codebrowser/src/test/test_server.c' l='58' u='r' c='client_thread'/>
+<def f='codebrowser/src/test/test_ws_server.c' l='8' type='cstr'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='43' u='r' c='server_thread'/>

@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='347' type='cstr vws_map_get(struct sc_map_str * map, cstr key)'/>
-<doc f='codebrowser/src/vws.h' l='338'>/**
+<dec f='codebrowser/src/vws.h' l='366' type='cstr vws_map_get(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vws.h' l='357'>/**
  * @brief Retrieves a value from the map using a string key.
  *
  * Returns a constant string pointer to the value associated with the key.
@@ -8,12 +8,11 @@
  * @param key The string key to use for retrieval.
  * @return A constant string pointer to the value associated with the key.
  */</doc>
-<use f='codebrowser/src/message.c' l='434' u='c' c='vrtql_msg_get_header'/>
-<use f='codebrowser/src/message.c' l='449' u='c' c='vrtql_msg_get_routing'/>
-<use f='codebrowser/src/server.c' l='1710' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/server.c' l='1711' u='c' c='ws_svr_client_read'/>
-<def f='codebrowser/src/vws.c' l='581' ll='592' type='cstr vws_map_get(struct sc_map_str * map, cstr key)'/>
-<doc f='codebrowser/src/vws.c' l='577'>//------------------------------------------------------------------------------
-// Map
+<use f='codebrowser/src/server.c' l='1903' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/server.c' l='1904' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/test/test_common.c' l='164' u='c' c='ctest_test_map_bench_run'/>
+<def f='codebrowser/src/vws.c' l='615' ll='626' type='cstr vws_map_get(struct sc_map_str * map, cstr key)'/>
+<doc f='codebrowser/src/vws.c' l='611'>//------------------------------------------------------------------------------
+// Hashtable
 //------------------------------------------------------------------------------</doc>
 <use f='codebrowser/src/websocket.c' l='519' u='c' c='socket_handshake'/>

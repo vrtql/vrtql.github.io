@@ -1,0 +1,3 @@
+<def f='codebrowser/src/vws.c' l='304' ll='314' type='void * vws_strdup(cstr ptr)'/>
+<use f='codebrowser/src/vws.c' l='476'/>
+<use f='codebrowser/src/vws.c' l='476'/>

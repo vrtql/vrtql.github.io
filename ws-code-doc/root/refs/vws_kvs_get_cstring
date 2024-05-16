@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/vws.h' l='495' type='cstr vws_kvs_get_cstring(vws_kvs * m, const char * key)'/>
+<doc f='codebrowser/src/vws.h' l='487'>/**
+ * @brief Retrieves the C-string value associated with the given key using
+ * binary search.
+ *
+ * @param m Pointer to the vws_kvs structure.
+ * @param key String key to search for.
+ * @return Pointer to the C-string if found, otherwise NULL.
+ */</doc>
+<use f='codebrowser/src/message.c' l='448' u='c' c='vrtql_msg_get_header'/>
+<use f='codebrowser/src/message.c' l='463' u='c' c='vrtql_msg_get_routing'/>
+<use f='codebrowser/src/test/test_common.c' l='98' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='152' u='c' c='ctest_test_map_bench_run'/>
+<def f='codebrowser/src/vws.c' l='762' ll='772' type='cstr vws_kvs_get_cstring(vws_kvs * m, const char * key)'/>

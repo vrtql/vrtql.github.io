@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/server.h' l='723' type='void vrtql_msg_svr_dtor(vrtql_msg_svr * s)'/>
+<use f='codebrowser/src/server.c' l='2184' u='c' c='vrtql_msg_svr_free'/>
+<def f='codebrowser/src/server.c' l='2209' ll='2218' type='void vrtql_msg_svr_dtor(vrtql_msg_svr * server)'/>
+<doc f='codebrowser/src/server.h' l='711'>/**
+ * @brief Message server instance destructor
+ *
+ * Destructs an initialized message server instance. This takes a vrtql_msg_svr
+ * instance and deallocates all of its members -- everything but the top-level
+ * struct. This is used by derived structs as well to destruct the base struct.
+ *
+ * @param server The message server instance to be destructed
+ *
+ * @ingroup ServerFunctions
+ */</doc>

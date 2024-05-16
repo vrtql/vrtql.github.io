@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/mpack/mpack-writer.h' l='264' type='void mpack_writer_init_growable(mpack_writer_t * writer, char ** data, size_t * size)'/>
-<use f='codebrowser/src/message.c' l='91' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='90' u='c' c='vrtql_msg_serialize'/>
 <doc f='codebrowser/src/mpack/mpack-writer.h' l='247'>/**
  * Initializes an MPack writer using a growable buffer.
  *

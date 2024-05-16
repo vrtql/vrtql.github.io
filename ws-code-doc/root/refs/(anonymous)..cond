@@ -1,12 +1,12 @@
-<dec f='codebrowser/src/server.h' l='114' type='uv_cond_t'/>
-<use f='codebrowser/src/server.c' l='916' u='a' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1032' u='a' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1461' u='a' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1470' u='a' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1489' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1494' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1504' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1514' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1519' u='a' c='queue_pop'/>
+<dec f='codebrowser/src/server.h' l='254' type='uv_cond_t'/>
+<use f='codebrowser/src/server.c' l='1046' u='a' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1164' u='a' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1654' u='a' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1663' u='a' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1682' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1687' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1697' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1707' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1712' u='a' c='queue_pop'/>
 <offset>512</offset>
-<doc f='codebrowser/src/server.h' l='113'>/**&lt; Condition variable for thread synchronization */</doc>
+<doc f='codebrowser/src/server.h' l='253'>/**&lt; Condition variable for thread synchronization */</doc>

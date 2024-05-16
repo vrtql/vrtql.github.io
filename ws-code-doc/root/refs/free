@@ -21,19 +21,27 @@
 <use f='codebrowser/src/rpc.c' l='58' u='c' c='vrtql_rpc_tag'/>
 <use f='codebrowser/src/rpc.c' l='152' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='209' u='c' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/server.c' l='1578' macro='1' u='c' c='ws_svr_process_frame'/>
-<use f='codebrowser/src/test/test_common.c' l='34' u='c' c='ctest_test_teardown'/>
-<use f='codebrowser/src/test/test_common.c' l='79' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='80' u='c' c='ctest_test_base64_run'/>
-<use f='codebrowser/src/test/test_common.c' l='111' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='112' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='113' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_common.c' l='120' macro='1' u='c' c='ctest_test_queue_run'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='141' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/server.c' l='37' u='c' c='address_pool_free'/>
+<use f='codebrowser/src/server.c' l='38' u='c' c='address_pool_free'/>
+<use f='codebrowser/src/server.c' l='49' u='c' c='address_pool_resize'/>
+<use f='codebrowser/src/server.c' l='1771' macro='1' u='c' c='ws_svr_process_frame'/>
+<use f='codebrowser/src/test/test_common.c' l='35' u='c' c='ctest_test_teardown'/>
+<use f='codebrowser/src/test/test_common.c' l='179' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='180' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='183' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='184' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='233' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='234' u='c' c='ctest_test_base64_run'/>
+<use f='codebrowser/src/test/test_common.c' l='265' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='266' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='267' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_common.c' l='274' macro='1' u='c' c='ctest_test_queue_run'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='144' u='c' c='ctest_test_server_echo_run'/>
 <use f='codebrowser/src/test/test_json.c' l='26' u='c' c='ctest_test_teardown'/>
 <use f='codebrowser/src/test/test_json.c' l='85' u='c' c='ctest_test_write_run'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='128' u='c' c='client_test'/>
-<use f='codebrowser/src/test/test_server.c' l='108' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='132' u='c' c='client_test'/>
+<use f='codebrowser/src/test/test_server.c' l='106' u='c' c='ctest_test_server_echo_run'/>
+<use f='codebrowser/src/test/test_ws_server.c' l='123' u='c' c='client_test'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='23' u='c' c='mg_dns_free'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='11' u='c' c='mg_fs_open'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='21' u='c' c='mg_fs_close'/>
@@ -128,6 +136,14 @@
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_term_sll'/>
 <use f='codebrowser/src/util/sc_map.c' l='412' macro='1' u='c' c='sc_map_remap_sll'/>
 <use f='codebrowser/src/util/yyjson.c' l='950' u='c' c='default_free'/>
-<use f='codebrowser/src/vws.c' l='255' u='c' c='vws_free'/>
+<use f='codebrowser/src/vws.c' l='257' u='c' c='vws_free'/>
+<use f='codebrowser/src/vws.c' l='493' u='c' c='vws_cleanup'/>
+<use f='codebrowser/src/vws.c' l='693' u='c' c='vws_kvs_clear'/>
+<use f='codebrowser/src/vws.c' l='694' u='c' c='vws_kvs_clear'/>
+<use f='codebrowser/src/vws.c' l='704' u='c' c='vws_kvs_free'/>
+<use f='codebrowser/src/vws.c' l='705' u='c' c='vws_kvs_free'/>
+<use f='codebrowser/src/vws.c' l='788' u='c' c='vws_kvs_remove'/>
+<use f='codebrowser/src/vws.c' l='789' u='c' c='vws_kvs_remove'/>
+<use f='codebrowser/src/vws.c' l='985' u='c' c='vws_file_path'/>
 <use f='codebrowser/src/websocket.c' l='331' macro='1' u='c' c='vws_cnx_free'/>
-<use f='codebrowser/src/websocket.c' l='1019' macro='1' u='c' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1021' macro='1' u='c' c='process_frame'/>

@@ -6,6 +6,6 @@
  * @param format The format string for the message
  * @param ... The arguments for the format string
  */</doc>
-<def f='codebrowser/src/vws.c' l='129' ll='225' type='void vws_trace(vws_log_level_t level, const char * format)'/>
-<use f='codebrowser/src/vws.c' l='458'/>
-<use f='codebrowser/src/vws.c' l='458'/>
+<def f='codebrowser/src/vws.c' l='131' ll='227' type='void vws_trace(vws_log_level_t level, const char * format)'/>
+<use f='codebrowser/src/vws.c' l='484'/>
+<use f='codebrowser/src/vws.c' l='484'/>

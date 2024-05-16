@@ -1,3 +1,3 @@
-<dec f='codebrowser/src/vws.h' l='389' type='char *'/>
+<dec f='codebrowser/src/vws.h' l='518' type='char *'/>
 <offset>192</offset>
-<doc f='codebrowser/src/vws.h' l='389'>/**&lt; The path on the host               */</doc>
+<doc f='codebrowser/src/vws.h' l='518'>/**&lt; The path on the host               */</doc>

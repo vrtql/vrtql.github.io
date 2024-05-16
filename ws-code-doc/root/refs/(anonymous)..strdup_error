@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/vws.h' l='252' type='vws_strdup_error_cb'/>
+<offset>448</offset>
+<doc f='codebrowser/src/vws.h' l='252'>/**&lt; calloc error hanlding       */</doc>
+<use f='codebrowser/src/vws.c' l='310' u='r' c='vws_strdup'/>
+<use f='codebrowser/src/vws.c' l='477' u='w'/>

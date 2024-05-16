@@ -17,3 +17,5 @@
 <use f='codebrowser/src/test/util/mongoose.c' l='903' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='178' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='236' u='c'/>
+<use f='codebrowser/src/vws.c' l='1003' u='c'/>
+<use f='codebrowser/src/vws.c' l='1014' u='c'/>

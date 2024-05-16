@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/util/sc_map.h' l='232' macro='1' type='void * sc_map_get_sv(struct sc_map_sv * map, const char * key)'/>
-<use f='codebrowser/src/rpc.c' l='500' u='c' c='sys_map_get'/>
-<use f='codebrowser/src/rpc.c' l='513' u='c' c='sys_map_set'/>
-<use f='codebrowser/src/rpc.c' l='527' u='c' c='sys_map_clear'/>
+<use f='codebrowser/src/rpc.c' l='545' u='c' c='sys_map_get'/>
+<use f='codebrowser/src/rpc.c' l='558' u='c' c='sys_map_set'/>
+<use f='codebrowser/src/rpc.c' l='572' u='c' c='sys_map_clear'/>
 <def f='codebrowser/src/util/sc_map.c' l='410' macro='1' type='void * sc_map_get_sv(struct sc_map_sv * m, const char * key)'/>

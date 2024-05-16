@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/server.h' l='99' type='uint16_t'/>
+<use f='codebrowser/src/server.c' l='28' u='w' c='address_pool_new'/>
+<use f='codebrowser/src/server.c' l='45' u='r' c='address_pool_resize'/>
+<offset>160</offset>
+<doc f='codebrowser/src/server.h' l='98'>/**&lt; Factor by which the array size is increased upon realloc */</doc>

@@ -1,2 +1,2 @@
 <dec f='include/pthread.h' l='693' type='void __pthread_unregister_cancel(__pthread_unwind_buf_t * __buf)'/>
-<use f='codebrowser/src/vws.c' l='222' macro='1' u='c' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='224' macro='1' u='c' c='vws_trace'/>

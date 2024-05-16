@@ -1,5 +1,5 @@
-<dec f='codebrowser/src/vws.h' l='408' type='char * vws_url_build(const vws_url * parts)'/>
-<doc f='codebrowser/src/vws.h' l='402'>/**
+<dec f='codebrowser/src/vws.h' l='537' type='char * vws_url_build(const vws_url * parts)'/>
+<doc f='codebrowser/src/vws.h' l='531'>/**
  * @brief Builds a URL string from parts.
  *
  * @param parts The URL parts

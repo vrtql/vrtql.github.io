@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/mpack/mpack-writer.h' l='688' type='void mpack_start_array(mpack_writer_t * writer, uint32_t count)'/>
-<use f='codebrowser/src/message.c' l='94' u='c' c='vrtql_msg_serialize'/>
+<use f='codebrowser/src/message.c' l='93' u='c' c='vrtql_msg_serialize'/>
 <doc f='codebrowser/src/mpack/mpack-writer.h' l='676'>/**
  * Opens an array.
  *

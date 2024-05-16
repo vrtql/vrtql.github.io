@@ -1,3 +1,3 @@
 <dec f='codebrowser/src/websocket.h' l='32' type='1'/>
 <doc f='codebrowser/src/websocket.h' l='31'>/** All of the frame data has been received and processed. */</doc>
-<use f='codebrowser/src/websocket.c' l='985' u='r' c='vws_deserialize'/>
+<use f='codebrowser/src/websocket.c' l='987' u='r' c='vws_deserialize'/>

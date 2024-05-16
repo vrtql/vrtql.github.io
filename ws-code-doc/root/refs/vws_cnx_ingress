@@ -13,6 +13,6 @@
  *
  * @ingroup ConnectionFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1772' u='c' c='ws_svr_client_read'/>
-<use f='codebrowser/src/websocket.c' l='1136' u='c' c='socket_wait_for_frame'/>
-<def f='codebrowser/src/websocket.c' l='1145' ll='1205' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>
+<use f='codebrowser/src/server.c' l='1965' u='c' c='ws_svr_client_read'/>
+<use f='codebrowser/src/websocket.c' l='1138' u='c' c='socket_wait_for_frame'/>
+<def f='codebrowser/src/websocket.c' l='1147' ll='1207' type='ssize_t vws_cnx_ingress(vws_cnx * c)'/>

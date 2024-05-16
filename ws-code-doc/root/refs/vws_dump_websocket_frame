@@ -8,5 +8,5 @@
  * @ingroup TraceFunctions
  */</doc>
 <use f='codebrowser/src/websocket.c' l='628' u='c' c='vws_frame_send'/>
-<use f='codebrowser/src/websocket.c' l='1169' u='c' c='vws_cnx_ingress'/>
-<def f='codebrowser/src/websocket.c' l='1296' ll='1377' type='void vws_dump_websocket_frame(const uint8_t * frame, size_t size)'/>
+<use f='codebrowser/src/websocket.c' l='1171' u='c' c='vws_cnx_ingress'/>
+<def f='codebrowser/src/websocket.c' l='1298' ll='1379' type='void vws_dump_websocket_frame(const uint8_t * frame, size_t size)'/>

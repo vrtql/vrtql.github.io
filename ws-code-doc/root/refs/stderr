@@ -3,7 +3,9 @@
 <use f='codebrowser/src/llhttp/api.c' l='504' macro='1' u='r' c='llhttp__debug'/>
 <use f='codebrowser/src/llhttp/api.c' l='507' macro='1' u='r' c='llhttp__debug'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='17' macro='1' u='r' c='mg_tls_err'/>
-<use f='codebrowser/src/vws.c' l='193' macro='1' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='206' macro='1' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='209' macro='1' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='210' macro='1' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='195' macro='1' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='208' macro='1' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='211' macro='1' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='212' macro='1' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='968' macro='1' u='r' c='vws_file_path'/>
+<use f='codebrowser/src/vws.c' l='984' macro='1' u='r' c='vws_file_path'/>

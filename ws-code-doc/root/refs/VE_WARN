@@ -5,6 +5,6 @@
 <use f='codebrowser/src/socket.c' l='622' c='vws_socket_write'/>
 <use f='codebrowser/src/socket.c' l='822' c='vws_socket_close'/>
 <use f='codebrowser/src/socket.c' l='839' c='vws_socket_close'/>
-<use f='codebrowser/src/vws.c' l='133' u='r' c='vws_trace'/>
-<use f='codebrowser/src/vws.c' l='366' c='vws_error_default_process'/>
-<use f='codebrowser/src/websocket.c' l='1178' c='vws_cnx_ingress'/>
+<use f='codebrowser/src/vws.c' l='135' u='r' c='vws_trace'/>
+<use f='codebrowser/src/vws.c' l='390' c='vws_error_default_process'/>
+<use f='codebrowser/src/websocket.c' l='1180' c='vws_cnx_ingress'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/server.h' l='333' type='void *'/>
+<use f='codebrowser/src/server.c' l='766' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='770' u='w' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='801' u='r' c='worker_thread'/>
+<use f='codebrowser/src/server.c' l='806' u='r' c='worker_thread'/>
+<offset>192</offset>
+<doc f='codebrowser/src/server.h' l='331'>/**&lt; Thread context: This points to the context allocated by ctor. It will
+     * be passed passed to from worker thread to process_message(void* ctx). */</doc>

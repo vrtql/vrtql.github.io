@@ -1,19 +1,21 @@
-<dec f='codebrowser/src/server.h' l='111' type='uv_mutex_t'/>
-<use f='codebrowser/src/server.c' l='915' u='a' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='917' u='a' c='vws_tcp_svr_stop'/>
-<use f='codebrowser/src/server.c' l='1031' u='a' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1033' u='a' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1460' u='a' c='queue_init'/>
-<use f='codebrowser/src/server.c' l='1469' u='a' c='queue_destroy'/>
-<use f='codebrowser/src/server.c' l='1485' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1489' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1495' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1505' u='a' c='queue_push'/>
-<use f='codebrowser/src/server.c' l='1510' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1514' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1520' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1529' u='a' c='queue_pop'/>
-<use f='codebrowser/src/server.c' l='1536' u='a' c='queue_empty'/>
-<use f='codebrowser/src/server.c' l='1538' u='a' c='queue_empty'/>
+<dec f='codebrowser/src/server.h' l='251' type='uv_mutex_t'/>
+<use f='codebrowser/src/server.c' l='1045' u='a' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1047' u='a' c='vws_tcp_svr_stop'/>
+<use f='codebrowser/src/server.c' l='1163' u='a' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1165' u='a' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1492' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1501' u='a' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1653' u='a' c='queue_init'/>
+<use f='codebrowser/src/server.c' l='1662' u='a' c='queue_destroy'/>
+<use f='codebrowser/src/server.c' l='1678' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1682' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1688' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1698' u='a' c='queue_push'/>
+<use f='codebrowser/src/server.c' l='1703' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1707' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1713' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1722' u='a' c='queue_pop'/>
+<use f='codebrowser/src/server.c' l='1729' u='a' c='queue_empty'/>
+<use f='codebrowser/src/server.c' l='1731' u='a' c='queue_empty'/>
 <offset>192</offset>
-<doc f='codebrowser/src/server.h' l='110'>/**&lt; Mutex for thread safety */</doc>
+<doc f='codebrowser/src/server.h' l='250'>/**&lt; Mutex for thread safety */</doc>

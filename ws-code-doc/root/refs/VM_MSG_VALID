@@ -1,2 +1,2 @@
 <dec f='codebrowser/src/message.h' l='18' type='2'/>
-<use f='codebrowser/src/message.c' l='48' u='r' c='vrtql_msg_new'/>
+<use f='codebrowser/src/message.c' l='50' u='r' c='vrtql_msg_new'/>

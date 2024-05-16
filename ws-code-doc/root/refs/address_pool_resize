@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/server.h' l='137' type='void address_pool_resize(address_pool * pool)'/>
+<def f='codebrowser/src/server.c' l='43' ll='53' type='void address_pool_resize(address_pool * pool)'/>
+<use f='codebrowser/src/server.c' l='59' u='c' c='address_pool_set'/>
+<doc f='codebrowser/src/server.h' l='128'>/**
+ * @brief Resizes an address pool to accommodate more items.
+ *
+ * The function increases the capacity of the address pool based on its growth
+ * factor. Existing items are preserved, and additional space is initialized to
+ * zero. If memory allocation fails, the pool&apos;s slots pointer remains unchanged.
+ *
+ * @param pool A pointer to the address pool to be resized.
+ */</doc>

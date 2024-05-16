@@ -1,4 +1,4 @@
 <dec f='include/asm-generic/socket.h' l='11'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='60' u='c'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='63' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='202' u='a'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='203' u='c'/>

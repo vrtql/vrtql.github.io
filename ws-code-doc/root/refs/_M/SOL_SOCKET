@@ -2,6 +2,6 @@
 <doc f='include/asm-generic/socket.h' l='7'>/* For setsockopt(2) */</doc>
 <use f='codebrowser/src/socket.c' l='164' u='c'/>
 <use f='codebrowser/src/socket.c' l='172' u='c'/>
-<use f='codebrowser/src/test/test_inetd_server.c' l='60' u='c'/>
+<use f='codebrowser/src/test/test_inetd_server.c' l='63' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='203' u='c'/>
 <use f='codebrowser/src/test/util/mongoose.c' l='326' u='c'/>

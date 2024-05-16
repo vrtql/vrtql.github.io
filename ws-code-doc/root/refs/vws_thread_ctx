@@ -1,0 +1,18 @@
+<def f='codebrowser/src/server.h' l='315' ll='334'/>
+<use f='codebrowser/src/server.h' l='315'/>
+<size>32</size>
+<doc f='codebrowser/src/server.h' l='304'>/**
+ * @brief Represents a worker thread context
+ *
+ * Thread Context. Worker threads can carry a user-defined context which they
+ * pass to process_message() handlers. They call a factory method to create this
+ * context. Upon exit, they likewise call a factory method to destruct it.
+ *
+ * This context acts as a lifelong state within the worker_thread which provides
+ * tasks with additional resources to do their job. This context is ideal for
+ * maintaining state across tasks like database connections.
+ */</doc>
+<mbr r='vws_thread_ctx::ctor' o='0' t='vws_thread_ctx_ctor'/>
+<mbr r='vws_thread_ctx::ctor_data' o='64' t='void *'/>
+<mbr r='vws_thread_ctx::dtor' o='128' t='vws_thread_ctx_dtor'/>
+<mbr r='vws_thread_ctx::data' o='192' t='void *'/>

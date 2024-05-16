@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/vws.h' l='442' type='void vws_kvs_free(vws_kvs * m)'/>
+<doc f='codebrowser/src/vws.h' l='437'>/**
+ * @brief Frees the allocated memory for the dynamic array and its contents.
+ *
+ * @param m Pointer to the vws_kvs structure to be freed.
+ */</doc>
+<use f='codebrowser/src/message.c' l='63' u='c' c='vrtql_msg_free'/>
+<use f='codebrowser/src/message.c' l='64' u='c' c='vrtql_msg_free'/>
+<use f='codebrowser/src/test/test_common.c' l='111' u='c' c='ctest_test_vws_kvs_run'/>
+<use f='codebrowser/src/test/test_common.c' l='186' u='c' c='ctest_test_map_bench_run'/>
+<def f='codebrowser/src/vws.c' l='700' ll='706' type='void vws_kvs_free(vws_kvs * m)'/>

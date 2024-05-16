@@ -4,4 +4,4 @@
 <use f='codebrowser/src/websocket.c' l='302' u='w' c='vws_cnx_new'/>
 <use f='codebrowser/src/websocket.c' l='349' u='a' c='vws_cnx_set_server_mode'/>
 <use f='codebrowser/src/websocket.c' l='556' u='w' c='vws_disconnect'/>
-<use f='codebrowser/src/websocket.c' l='999' u='a' c='process_frame'/>
+<use f='codebrowser/src/websocket.c' l='1001' u='a' c='process_frame'/>

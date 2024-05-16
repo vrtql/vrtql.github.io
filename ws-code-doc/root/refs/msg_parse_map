@@ -1,0 +1,1 @@
+<def f='codebrowser/src/message.c' l='542' ll='620' macro='1' type='_Bool msg_parse_map(mpack_reader_t * reader, vws_kvs * map)'/>

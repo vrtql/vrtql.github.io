@@ -1,18 +1,18 @@
-<dec f='codebrowser/src/server.h' l='213' type='uv_loop_t *'/>
-<use f='codebrowser/src/server.c' l='831' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='884' u='r' c='vws_tcp_svr_run'/>
-<use f='codebrowser/src/server.c' l='968' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1009' u='r' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1023' u='r' c='vws_tcp_svr_inetd_stop'/>
-<use f='codebrowser/src/server.c' l='1077' u='w' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1082' u='r' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1089' u='r' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1139' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1141' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1144' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1146' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1151' u='r' c='tcp_svr_dtor'/>
-<use f='codebrowser/src/server.c' l='1327' u='r' c='svr_shutdown'/>
-<use f='codebrowser/src/server.c' l='1351' u='r' c='svr_on_connect'/>
+<dec f='codebrowser/src/server.h' l='395' type='uv_loop_t *'/>
+<use f='codebrowser/src/server.c' l='952' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='1013' u='r' c='vws_tcp_svr_run'/>
+<use f='codebrowser/src/server.c' l='1098' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1141' u='r' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1155' u='r' c='vws_tcp_svr_inetd_stop'/>
+<use f='codebrowser/src/server.c' l='1212' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1217' u='r' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1229' u='r' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1279' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1281' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1284' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1286' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1291' u='r' c='tcp_svr_dtor'/>
+<use f='codebrowser/src/server.c' l='1508' u='r' c='svr_shutdown'/>
+<use f='codebrowser/src/server.c' l='1537' u='r' c='svr_on_connect'/>
 <offset>128</offset>
-<doc f='codebrowser/src/server.h' l='212'>/**&lt; Event loop handle */</doc>
+<doc f='codebrowser/src/server.h' l='394'>/**&lt; Event loop handle */</doc>

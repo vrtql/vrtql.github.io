@@ -1,5 +1,5 @@
 <dec f='codebrowser/src/test/ctest.h' l='148'/>
-<use f='codebrowser/src/test/test_common.c' l='16' u='c'/>
+<use f='codebrowser/src/test/test_common.c' l='17' u='c'/>
 <use f='codebrowser/src/test/test_json.c' l='12' u='c'/>
 <use f='codebrowser/src/test/test_rpc_client.c' l='11' u='c'/>
 <use f='codebrowser/src/test/test_websocket.c' l='32' u='c'/>

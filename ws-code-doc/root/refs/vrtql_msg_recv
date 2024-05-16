@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/message.h' l='217' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
-<def f='codebrowser/src/message.c' l='498' ll='522' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
-<doc f='codebrowser/src/message.h' l='206'>/**
+<dec f='codebrowser/src/message.h' l='220' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
+<def f='codebrowser/src/message.c' l='512' ll='536' type='vrtql_msg * vrtql_msg_recv(vws_cnx * c)'/>
+<doc f='codebrowser/src/message.h' l='209'>/**
  * @brief Receives a message from the connection.
  *
  * @param c The connection.
@@ -13,5 +13,5 @@
  */</doc>
 <use f='codebrowser/src/rpc.c' l='163' u='c' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/test/test_example.c' l='38' u='c' c='main'/>
-<use f='codebrowser/src/test/test_msg_server.c' l='86' u='c' c='client_thread'/>
+<use f='codebrowser/src/test/test_msg_server.c' l='88' u='c' c='client_thread'/>
 <use f='codebrowser/src/test/test_websocket.c' l='84' u='c' c='ctest_test_message_run'/>

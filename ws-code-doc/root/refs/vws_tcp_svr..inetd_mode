@@ -1,6 +1,6 @@
-<dec f='codebrowser/src/server.h' l='252' type='uint8_t'/>
-<use f='codebrowser/src/server.c' l='963' u='w' c='vws_tcp_svr_inetd_run'/>
-<use f='codebrowser/src/server.c' l='1080' u='w' c='tcp_svr_ctor'/>
-<use f='codebrowser/src/server.c' l='1433' u='r' c='svr_on_close'/>
+<dec f='codebrowser/src/server.h' l='443' type='uint8_t'/>
+<use f='codebrowser/src/server.c' l='1093' u='w' c='vws_tcp_svr_inetd_run'/>
+<use f='codebrowser/src/server.c' l='1215' u='w' c='tcp_svr_ctor'/>
+<use f='codebrowser/src/server.c' l='1626' u='r' c='svr_on_close'/>
 <offset>2952</offset>
-<doc f='codebrowser/src/server.h' l='251'>/**&lt; inetd mode (default 0). vws_tcp_svr_inetd_run() sets it to 1. */</doc>
+<doc f='codebrowser/src/server.h' l='442'>/**&lt; inetd mode (default 0). vws_tcp_svr_inetd_run() sets it to 1. */</doc>

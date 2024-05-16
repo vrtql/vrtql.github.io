@@ -3,3 +3,7 @@
    The result / CLOCKS_PER_SEC is program time in seconds.  */</doc>
 <use f='codebrowser/src/test/ctest.h' l='529' u='c' c='ctest_main'/>
 <use f='codebrowser/src/test/ctest.h' l='588' u='c' c='ctest_main'/>
+<use f='codebrowser/src/test/test_common.c' l='148' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='155' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='160' u='c' c='ctest_test_map_bench_run'/>
+<use f='codebrowser/src/test/test_common.c' l='167' u='c' c='ctest_test_map_bench_run'/>

@@ -7,8 +7,8 @@
 <use f='codebrowser/src/rpc.c' l='186' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='193' u='r' c='vrtql_rpc_exec'/>
 <use f='codebrowser/src/rpc.c' l='198' u='a' c='vrtql_rpc_exec'/>
-<use f='codebrowser/src/vws.c' l='315' u='w' c='vws_set_error'/>
-<use f='codebrowser/src/vws.c' l='457' u='w'/>
-<use f='codebrowser/src/vws.c' l='457' u='w'/>
+<use f='codebrowser/src/vws.c' l='339' u='w' c='vws_set_error'/>
+<use f='codebrowser/src/vws.c' l='483' u='w'/>
+<use f='codebrowser/src/vws.c' l='483' u='w'/>
 <use f='codebrowser/src/websocket.c' l='441' u='r' c='socket_handshake'/>
 <use f='codebrowser/src/websocket.c' l='477' u='r' c='socket_handshake'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/vws.h' l='449' type='void vws_kvs_clear(vws_kvs * m)'/>
+<doc f='codebrowser/src/vws.h' l='444'>/**
+ * @brief Clear all key/value pairs from map
+ *
+ * @param m Pointer to the vws_kvs structure to be cleared
+ */</doc>
+<use f='codebrowser/src/message.c' l='545' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/test/test_common.c' l='107' u='c' c='ctest_test_vws_kvs_run'/>
+<def f='codebrowser/src/vws.c' l='689' ll='698' type='void vws_kvs_clear(vws_kvs * m)'/>
+<use f='codebrowser/src/vws.c' l='702' u='c' c='vws_kvs_free'/>

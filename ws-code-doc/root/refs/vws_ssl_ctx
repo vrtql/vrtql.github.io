@@ -4,5 +4,5 @@
 <use f='codebrowser/src/socket.c' l='292' u='r' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='298' u='r' c='vws_socket_connect'/>
 <use f='codebrowser/src/socket.c' l='301' u='r' c='vws_socket_connect'/>
-<def f='codebrowser/src/vws.c' l='440' type='SSL_CTX *'/>
-<doc f='codebrowser/src/vws.c' l='439'>// Global SSL context</doc>
+<def f='codebrowser/src/vws.c' l='464' type='SSL_CTX *'/>
+<doc f='codebrowser/src/vws.c' l='463'>// Global SSL context</doc>

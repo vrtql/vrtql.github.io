@@ -1,8 +1,8 @@
 <def f='codebrowser/src/mpack/mpack-reader.h' l='391' ll='393' macro='1' type='mpack_error_t mpack_reader_error(mpack_reader_t * reader)'/>
 <use f='codebrowser/src/mpack/mpack-reader.h' l='420' u='c' c='mpack_reader_flag_if_error'/>
-<use f='codebrowser/src/message.c' l='535' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='594' u='c' c='msg_parse_map'/>
-<use f='codebrowser/src/message.c' l='609' u='c' c='msg_parse_content'/>
+<use f='codebrowser/src/message.c' l='549' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='611' u='c' c='msg_parse_map'/>
+<use f='codebrowser/src/message.c' l='626' u='c' c='msg_parse_content'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='34' u='c' c='mpack_expect_native_u8'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='46' u='c' c='mpack_expect_native_u16'/>
 <use f='codebrowser/src/mpack/mpack-expect.c' l='57' u='c' c='mpack_expect_native_u32'/>

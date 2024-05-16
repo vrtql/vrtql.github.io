@@ -1,9 +1,9 @@
-<use f='codebrowser/src/rpc.h' l='28'/>
-<use f='codebrowser/src/rpc.h' l='36'/>
-<def f='codebrowser/src/rpc.h' l='41' ll='61'/>
-<use f='codebrowser/src/rpc.h' l='41'/>
+<use f='codebrowser/src/rpc.h' l='29'/>
+<use f='codebrowser/src/rpc.h' l='37'/>
+<def f='codebrowser/src/rpc.h' l='42' ll='62'/>
+<use f='codebrowser/src/rpc.h' l='42'/>
 <size>48</size>
-<doc f='codebrowser/src/rpc.h' l='38'>/**
+<doc f='codebrowser/src/rpc.h' l='39'>/**
  * @brief Struct representing a RPC environment
  */</doc>
 <mbr r='vrtql_rpc::cnx' o='0' t='vws_cnx *'/>

@@ -1,13 +1,13 @@
-<dec f='codebrowser/src/message.h' l='178' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
-<def f='codebrowser/src/message.c' l='73' ll='201' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
-<use f='codebrowser/src/message.c' l='491' u='c' c='vrtql_msg_send'/>
-<doc f='codebrowser/src/message.h' l='171'>/**
+<dec f='codebrowser/src/message.h' l='181' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
+<def f='codebrowser/src/message.c' l='72' ll='208' type='vws_buffer * vrtql_msg_serialize(vrtql_msg * msg)'/>
+<use f='codebrowser/src/message.c' l='505' u='c' c='vrtql_msg_send'/>
+<doc f='codebrowser/src/message.h' l='174'>/**
  * @brief Serializes a vrtql_msg instance to a buffer.
  * @param msg The vrtql_msg instance.
  * @return A buffer containing the serialized message.
  *
  * @ingroup MessageFunctions
  */</doc>
-<use f='codebrowser/src/server.c' l='1961' u='c' c='msg_svr_client_msg_out'/>
+<use f='codebrowser/src/server.c' l='2159' u='c' c='msg_svr_client_msg_out'/>
 <use f='codebrowser/src/test/test_message.c' l='19' u='c' c='ctest_test_message_mpack_serialization_run'/>
-<use f='codebrowser/src/test/test_message.c' l='59' u='c' c='ctest_test_message_json_serialization_run'/>
+<use f='codebrowser/src/test/test_message.c' l='65' u='c' c='ctest_test_message_json_serialization_run'/>
